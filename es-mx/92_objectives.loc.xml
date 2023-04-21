@@ -1,0 +1,355 @@
+<resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="0205_0102_Battles_Embrace_Gear_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Abrazo de la batalla</string>
+	<string key="0205_0102_Battles_Embrace_Gear_description" speaker="UI - Quest Description" gender="F" VO_Status="Needs Recording">Recupera los patrones y componentes necesarios para fabricar la armadura Abrazo de la batalla. Cuando termines esta tarea, habla con Gwendolin Drake en Brightwood.</string>
+	<string key="0205_0102_Battles_Embrace_Gear_start_prompt" speaker="UI - Player Prompt" VO_Status="Needs Recording">"Nada que valga la pena es fácil".</string>
+	<string key="0205_0102_Battles_Embrace_Gear_proposal" speaker="Justiciar Sobol - Brightwood" name="JusticiarSobol" gender="F" VO_Status="Needs Recording" dialogue-next="@0205_0102_Battles_Embrace_Gear_proposal_next">Eso es muy cierto. Pero me enteré de algo que podría ayudar con los problemas.\n\n¡Una armadura legendaria que convierte a quien la usa en una verdadera fortaleza!</string>
+	<string key="0205_0102_Battles_Embrace_Gear_proposal_prompt" speaker="UI - Player Prompt" VO_Status="Needs Recording">"¿Qué es?"</string>
+	<string key="0205_0102_Battles_Embrace_Gear_proposal_next" speaker="Justiciar Sobol - Brightwood" name="JusticiarSobol" gender="F" VO_Status="Needs Recording" dialogue-next="@0205_0102_Battles_Embrace_Gear_proposal_next2" dialogue-prompt="@0205_0102_Battles_Embrace_Gear_proposal_prompt">Abrazo de la batalla. Solía usarla un poderoso comandante que marchó contra los corrompidos y los obligó a retroceder a Montaña destruida.\n\nPero luego el comandante desapareció, junto con la armadura.</string>
+	<string key="0205_0102_Battles_Embrace_Gear_proposal_prompt2" speaker="UI - Player Prompt" VO_Status="Needs Recording">"¿Nadie sabe dónde está?"</string>
+	<string key="0205_0102_Battles_Embrace_Gear_proposal_next2" speaker="Justiciar Sobol - Brightwood" name="JusticiarSobol" gender="F" VO_Status="Needs Recording" dialogue-prompt="@0205_0102_Battles_Embrace_Gear_proposal_prompt2">No, las leyendas sobre lo que pasó después de que el comandante llegó a Montaña destruida son vagas.\n\nLo único que queda son los patrones que se utilizaron para fabricar la armadura. Con ellos, y algunos materiales, se podría volver a forjar la armadura.</string>
+	<string key="0205_0102_Battles_Embrace_Gear_incomplete" speaker="Justiciar Sobol - Brightwood" gender="F" VO_Status="Needs Recording">Estate atento a los materiales necesarios para fabricar Abrazo de la batalla.\n\nUsar esa armadura sin duda inspirará a toda una generación de nuevos guerreros a luchar contra la corrupción.</string>
+	<string key="0205_0102_Battles_Embrace_Gear_complete" speaker="Justiciar Sobol - Brightwood" name="JusticiarSobol" gender="F" VO_Status="Needs Recording" dialogue-next="@0205_0102_Battles_Embrace_Gear_complete_next">¿Me engañan mis ojos? ¿Encontraste todos los materiales para fabricar Abrazo de la batalla?\n\n¡Sí, sí! ¡No puedo creer que veré a esta legendaria armadura en acción!</string>
+	<string key="0205_0102_Battles_Embrace_Gear_complete_prompt" speaker="UI - Player Prompt" VO_Status="Needs Recording">"¿Se ve como lo cuentan las leyendas?"</string>
+	<string key="0205_0102_Battles_Embrace_Gear_complete_next" speaker="Justiciar Sobol - Brightwood" name="JusticiarSobol" gender="F" VO_Status="Needs Recording" dialogue-prompt="@0205_0102_Battles_Embrace_Gear_complete_prompt">¡Sí! ¡Es todo lo que esperaba! Espero que te reciba con los brazos abiertos y te proteja en las batallas que sin duda nos esperan.\n\nTendré una buena historia para contar esta noche: ¡Abrazo de la batalla ha regresado!</string>
+	<string key="0205_0102_01_container_Battles_Embrace_questComplete_1" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Empezar con el pie derecho</string>
+	<string key="0205_0102_02_container_Battles_Embrace_questComplete_2" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Poner el pecho</string>
+	<string key="0205_0102_03_container_Battles_Embrace_questComplete_3" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Golpes duros</string>
+	<string key="0205_0102_04_container_Battles_Embrace_questComplete_4" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Mano firme</string>
+	<string key="0205_0102_05_container_Battles_Embrace_questComplete_5" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: A la cabeza del resto</string>
+	<string key="0205_0102_01_Boots_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Empezar con el pie derecho</string>
+	<string key="0205_0102_01_Boots_description" VO_Status="Needs Recording">Consigue pieles fornidas de Fenton del caserío de Fenton, clavos tratados de Cayo de la Muerte y bandas de metal incansables de Restos putrefactos. Luego, visita una forja de nivel 3 para fabricar las botas de abrazo de la batalla.</string>
+	<string key="0205_0102_01_Boots_task_01" speaker="UI - Tracker Text" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="0205_0102_01_Boots_task_02" comment="Fenton Hamlet" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en el Gran surco.</string>
+	<string key="0205_0102_01_Boots_task_03" comment="Stout Fenton Hides" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_01_Boots_task_04" comment="Cayo de la Muerte" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Llaves de alfanje para conseguir clavos tratados</string>
+	<string key="0205_0102_01_Boots_task_05" comment="Treated Hobnails" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_01_Boots_task_06" comment="Festering Flotsam" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir bandas de metal incansables</string>
+	<string key="0205_0102_01_Boots_task_07" comment="Restless Metal Bands" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_01_Boots_task_08" speaker="UI - Tracker Text" VO_Status="Needs Recording">Visita una forja</string>
+	<string key="0205_0102_01_Boots_task_09" speaker="UI - Tracker Text" VO_Status="Needs Recording">Fabrica {itemName}</string>
+	<string key="0205_0102_02_Breastplate_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Poner el pecho</string>
+	<string key="0205_0102_02_Breastplate_description" speaker="UI - Tracker Text" VO_Status="Needs Recording">Consigue remaches inquebrantables de La princesa dorada, laca para un brillo eterno de Pilares de Gelida y metal martillado de Bastión Acedia. Luego, visita una forja de nivel 3 para fabricar el protector de pecho de abrazo de la batalla.</string>
+	<string key="0205_0102_02_Breastplate_task_01" speaker="UI - Tracker Text" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="0205_0102_02_Breastplate_task_02" comment="The Golden Princess" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir remaches inquebrantables</string>
+	<string key="0205_0102_02_Breastplate_task_03" comment="Stalwart Rivets" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_02_Breastplate_task_04" comment="Gelida Pillars" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Gran surco para conseguir laca para un brillo eterno</string>
+	<string key="0205_0102_02_Breastplate_task_05" comment="Evershine Polish" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_02_Breastplate_task_06" comment="Acedia Bastion" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Gran surco para conseguir metal martillado</string>
+	<string key="0205_0102_02_Breastplate_task_07" comment="Hammered Metal" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_02_Breastplate_task_08" speaker="UI - Tracker Text" VO_Status="Needs Recording">Visita una forja</string>
+	<string key="0205_0102_02_Breastplate_task_09" speaker="UI - Tracker Text" VO_Status="Needs Recording">Fabrica {itemName}</string>
+	<string key="0205_0102_03_Greaves_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Golpes duros</string>
+	<string key="0205_0102_03_Greaves_description" VO_Status="Needs Recording">Consigue aceite de semillas del tormento del Fuerte Condenación, metal de estrellas en sintonía de Propus y revestimiento reforjado de Olimpo. Luego, visita una forja de nivel 3 para fabricar las grebas de abrazo de la batalla.</string>
+	<string key="0205_0102_03_Greaves_task_01" speaker="UI - Tracker Text" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="0205_0102_03_Greaves_task_02" comment="Fort Damnation" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir aceite de semillas del tormento</string>
+	<string key="0205_0102_03_Greaves_task_03" comment="Baneseed Oil" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_03_Greaves_task_04" comment="Propus" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale para conseguir metal de estrellas en sintonía</string>
+	<string key="0205_0102_03_Greaves_task_05" comment="Attuned Starmetal" speaker="UI - Tracker Text" VO_Status="Needs Recording">Consigue {itemName} de urnas antiguas.</string>
+	<string key="0205_0102_03_Greaves_task_06" comment="Olympus" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale para conseguir revestimiento reforjado</string>
+	<string key="0205_0102_03_Greaves_task_07" comment="Reforged Plating" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_03_Greaves_task_08" speaker="UI - Tracker Text" VO_Status="Needs Recording">Visita una forja</string>
+	<string key="0205_0102_03_Greaves_task_09" speaker="UI - Tracker Text" VO_Status="Needs Recording">Fabrica {itemName}</string>
+	<string key="0205_0102_04_Gauntlets_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Mano firme</string>
+	<string key="0205_0102_04_Gauntlets_description" speaker="UI - Quest Description" VO_Status="Needs Recording">Consigue hoguera refinada de Defensa de los svikin, malla flexible de Vela y esencia de poder de Litheltop. Luego, visita una forja de nivel 3 para fabricar las manoplas de abrazo de la batalla.</string>
+	<string key="0205_0102_04_Gauntlets_task_01" speaker="UI - Tracker Text" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="0205_0102_04_Gauntlets_task_02" comment="Svikin's Stand" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Gran surco para conseguir hoguera refinada</string>
+	<string key="0205_0102_04_Gauntlets_task_03" comment="Refined Balefire" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_04_Gauntlets_task_04" comment="Vela" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Edengrove para conseguir malla flexible</string>
+	<string key="0205_0102_04_Gauntlets_task_05" comment="Flexible Mesh" speaker="UI - Tracker Text" VO_Status="Needs Recording">Consigue {itemName} de Maleante de Torrente congelado.</string>
+	<string key="0205_0102_04_Gauntlets_task_06" comment="Litheltop" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale para conseguir esencia de poder</string>
+	<string key="0205_0102_04_Gauntlets_task_07" comment="Essence of Power" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_04_Gauntlets_task_08" speaker="UI - Tracker Text" VO_Status="Needs Recording">Visita una forja</string>
+	<string key="0205_0102_04_Gauntlets_task_09" speaker="UI - Tracker Text" VO_Status="Needs Recording">Fabrica {itemName}</string>
+	<string key="0205_0102_05_Helm_title" speaker="UI - Quest Title" VO_Status="Needs Recording">A la cabeza del resto</string>
+	<string key="0205_0102_05_Helm_description" speaker="UI - Quest Description" VO_Status="Needs Recording">Consigue barniz resistente de Nettlevex, fragmentos de la batalla de la mina de escoria inferior y relleno pesado de la mina de escoria superior. Luego, visita una forja de nivel 3 para fabricar el casco de abrazo de la batalla.</string>
+	<string key="0205_0102_05_Helm_task_01" speaker="UI - Tracker Text" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="0205_0102_05_Helm_task_02" comment="Nettlevex" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Edengrove para conseguir barniz resistente</string>
+	<string key="0205_0102_05_Helm_task_03" comment="Rugged Varnish" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_05_Helm_task_04" comment="Lower Slag Mine" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Edengrove para conseguir fragmentos de la batalla</string>
+	<string key="0205_0102_05_Helm_task_05" comment="Shards of Battle" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_05_Helm_task_06" comment="Upper Slag Mine" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Edengrove para conseguir relleno pesado</string>
+	<string key="0205_0102_05_Helm_task_07" comment="Heavy Padding" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="0205_0102_05_Helm_task_08" speaker="UI - Tracker Text" VO_Status="Needs Recording">Visita una forja</string>
+	<string key="0205_0102_05_Helm_task_09" speaker="UI - Tracker Text" VO_Status="Needs Recording">Fabrica {itemName}</string>
+	<string key="0204_0104_Executioner_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Ejecutora</string>
+	<string key="0204_0104_Executioner_description" speaker="UI - Quest Description" VO_Status="Needs Recording">Viaja a la Excavación profanadora para obtener la atadura de verdugo, la espada de los brutos y el coagulante infernal, y después construye el hacha infame "Ejecutor". Cuando termines esta tarea, habla con Joseph Black en Brightwood.</string>
+	<string key="0204_0104_Executioner_start_prompt" speaker="UI - Player Prompt" VO_Status="Needs Recording">"¡Van a rodar cabezas!".</string>
+	<string key="0204_0104_Executioner_proposal" speaker="Head Cleric Pennyfather" gender="M" VO_Status="Needs Recording">Como si fuera el paraíso... Espera, ¿de qué estamos hablando? Ah, sí, la Ejecutora.\n\nTe daré una lista de los elementos necesarios para volver a forjarla. Tal vez sea difícil encontrarlos, pero creo que vale la pena.</string>
+	<string key="0204_0104_Executioner_incomplete" speaker="Head Cleric Pennyfather" gender="M" VO_Status="Needs Recording">¡Oh! Es… aún no recuerdo tu nombre, pero recuerdo algo sobre ti… Ah, sí, el hacha, Ejecutora.\n\nBuena suerte para encontrar todo lo que necesitas.</string>
+	<string key="0204_0104_Executioner_complete" speaker="Head Cleric Pennyfather" gender="M" VO_Status="Needs Recording">Estoy muy impresionado. Imparte justicia con golpes rápidos y certeros. Empúñala con maestría. \n\nAhora, si me permites, creo que me quedaré aquí un poco más. El cementerio... está henchido de muerte.</string>
+	<string key="0203_0103_Hope_Manifest_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Manifiesto de esperanza</string>
+	<string key="0203_0103_Hope_Manifest_description" speaker="UI - Quest Description" VO_Status="Needs Recording">Viaja al Cementerio de soledad para obtener la tela de los curanderos, el ungüento de los adivinos y el catalizador de esperanza, y después construye el legendario bastón vital "Manifiesto de esperanza". Cuando termines esta tarea, habla con Kristjan Magnuson en el Pantano del tejedor.</string>
+	<string key="0203_0103_Hope_Manifest_start_prompt" speaker="UI - Player Prompt" VO_Status="Needs Recording">"¿Dónde puedo encontrar este bastón?"</string>
+	<string key="0203_0103_Hope_Manifest_proposal" speaker="Kristjan Magnuson - Weaver's Fen" gender="M" VO_Status="Needs Recording">Oh, no lo encontrarás, no se ha visto en muchos siglos. Pero puedo enseñarte a fabricarla.\n\nToma esta lista de los elementos necesarios, y luego podrás fabricar el bastón "Manifiesto de esperanza".</string>
+	<string key="0203_0103_Hope_Manifest_incomplete" speaker="Kristjan Magnuson - Weaver's Fen" gender="M" VO_Status="Needs Recording">¿Aún buscas los elementos para el bastón?\n\nLos encontrarás si lo sigues intentando.</string>
+	<string key="0203_0103_Hope_Manifest_complete" speaker="Kristjan Magnuson - Weaver's Fen" gender="M" VO_Status="Needs Recording">Allí está la nueva luz de Brightwood, encontraste todo lo que necesitabas, ¿no?\n\nCon ese bastón en la mano, eres justo lo que necesitamos, un "Manifiesto de esperanza". Te seguirá un brillo adondequiera que vayas.</string>
+	<string key="0204_0104_BucaneersPlank_Quest_objective_title" speaker="UI - Tracker Text" VO_Status="Needs Recording">Consigue los elementos utilizados para fabricar a la Ejecutora</string>
+	<string key="0204_0104_HangmansBinding_Quest_objective_title" speaker="UI - Tracker Text" VO_Status="Needs Recording">Consigue los elementos utilizados para fabricar a la Ejecutora</string>
+	<string key="0204_0104_BladeBrute_Quest_objective_title" speaker="UI - Tracker Text" VO_Status="Needs Recording">Consigue los elementos utilizados para fabricar a la Ejecutora</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_objective_title" speaker="UI - Tracker Text" VO_Status="Needs Recording">Consigue los elementos y luego fabrica a la Ejecutora</string>
+	<string key="0204_0104_BucaneersPlank_Quest_description" speaker="UI - Quest Description" VO_Status="Needs Recording">Los piratas más traicioneros solo conocen una clase de amor: el abrazo del mar.</string>
+	<string key="0204_0104_HangmansBinding_Quest_description" speaker="UI - Quest Description" VO_Status="Needs Recording">Quienes están ligados a un destino en la horca no pueden escapar de ellos. Solo tú puedes entregarlos.</string>
+	<string key="0204_0104_BladeBrute_Quest_description" speaker="UI - Quest Description" VO_Status="Needs Recording">Los más brutales de nosotros deben ceder su piedad, porque no tienen nada para mostrarles a sus enemigos.</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_description" speaker="UI - Quest Description" VO_Status="Needs Recording">Hasta la sangre más caliente que recorre las venas muchas veces se convierte en una fétida oscuridad.</string>
+	<string key="0203_0103_MendersCloth_Quest_objective_title" speaker="UI - Tracker Text" VO_Status="Needs Recording">Consigue los elementos utilizados para fabricar Manifiesto de esperanza</string>
+	<string key="0203_0103_SoothsayerSalve_Quest_objective_title" speaker="UI - Tracker Text" VO_Status="Needs Recording">Consigue los elementos utilizados para fabricar Manifiesto de esperanza</string>
+	<string key="0203_0103_MercysBreath_Quest_objective_title" speaker="UI - Tracker Text" VO_Status="Needs Recording">Consigue los elementos utilizados para fabricar Manifiesto de esperanza</string>
+	<string key="0203_0103_HopeCatalyst_Quest_objective_title" speaker="UI - Tracker Text" VO_Status="Needs Recording">Consigue los elementos y luego fabrica Manifiesto de esperanza</string>
+	<string key="0203_0103_MendersCloth_Quest_description" speaker="UI - Quest Description" VO_Status="Needs Recording">La sanación radica en la tela del reparador, que venda las heridas con cuidado, como una égida.</string>
+	<string key="0203_0103_SoothsayerSalve_Quest_description" speaker="UI - Quest Description" VO_Status="Needs Recording">La sanación radica en el ungüento del adivino, un toque tranquilizador para calmar el dolor.</string>
+	<string key="0203_0103_MercysBreath_Quest_description" speaker="UI - Quest Description" VO_Status="Needs Recording">La sanación radica en Aliento de misericordia, un regalo del destino que sigue entretejiéndose.</string>
+	<string key="0203_0103_HopeCatalyst_Quest_description" speaker="UI - Quest Description" VO_Status="Needs Recording">La sanación radica en la esperanza, la esperanza de vivir, y en quienes catalizan esa esperanza.</string>
+	<string key="0204_0104_BucaneersPlank_Quest_task_01" comment="Stone Skull Fort" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Llaves de alfanje para conseguir tablón de los bucaneros</string>
+	<string key="0204_0104_BucaneersPlank_Quest_task_02" comment="Bucaneer's Plank" speaker="UI - Tracker Text" VO_Status="Needs Recording">Obtén {itemName} de los enemigos {targetName}</string>
+	<string key="0204_0104_HangmansBinding_Quest_task_01" comment="Wayward Mounds" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Gran surco para conseguir cuerdas del verdugo</string>
+	<string key="0204_0104_HangmansBinding_Quest_task_02" comment="Hangman's Binding" speaker="UI - Tracker Text" VO_Status="Needs Recording">Obtén {itemName} de los enemigos {targetName}</string>
+	<string key="0204_0104_HangmansBinding_Quest_task_03" comment="Hangman's Binding" speaker="UI - Tracker Text" VO_Status="Needs Recording">Obtén {itemName} de los enemigos {targetName}</string>
+	<string key="0204_0104_BladeBrute_Quest_task_01" comment="Plundering Shark" speaker="UI - Tracker Text" VO_Status="Needs Recording">Ve a {POITags} en el Gran surco para obtener la espada de los brutos.</string>
+	<string key="0204_0104_BladeBrute_Quest_task_02" comment="Blade of the Brutes" speaker="UI - Tracker Text" VO_Status="Needs Recording">Obtén {itemName} de cajas de suministros.</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_task_01" comment="Grus" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale para conseguir coagulante infernal</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_task_02" comment="Infernal Coagulant" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de {targetName}</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_task_03" speaker="UI - Tracker Text" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_task_04" speaker="UI - Tracker Text" VO_Status="Needs Recording">Visita una forja</string>
+	<string key="0204_0104_InfernalCoagulant_Quest_task_05" speaker="UI - Tracker Text" VO_Status="Needs Recording">Crea {itemName}</string>
+	<string key="0203_0103_MendersCloth_Quest_task_01" comment="Seele's Stake" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir tela de los curanderos</string>
+	<string key="0203_0103_MendersCloth_Quest_task_02" comment="Mender's Cloth" speaker="UI - Tracker Text" VO_Status="Needs Recording">Obtén {itemName} de los enemigos {targetName}</string>
+	<string key="0203_0103_SoothsayerSalve_Quest_task_01" comment="Catara Falls" speaker="UI - Tracker Text" VO_Status="Needs Recording">Ve a {POITags} en Costa agitada para obtener el ungüento de los adivinos.</string>
+	<string key="0203_0103_SoothsayerSalve_Quest_task_02" comment="Soothsayer's Salve" speaker="UI - Tracker Text" VO_Status="Needs Recording">Abre cofres para obtener: {itemName}.</string>
+	<string key="0203_0103_MercysBreath_Quest_task_01" comment="Eridanus" speaker="UI - Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir aliento de piedad</string>
+	<string key="0203_0103_MercysBreath_Quest_task_02" comment="Mercy's Breath" speaker="UI - Tracker Text" VO_Status="Needs Recording">Obtén {itemName} de los enemigos {targetName}</string>
+	<string key="0203_0103_HopeCatalyst_Quest_task_01" comment="Vela" speaker="UI - Tracker Text" VO_Status="Needs Recording">Ve a {POITags} en Costa agitada para obtener el catalizador de esperanza.</string>
+	<string key="0203_0103_HopeCatalyst_Quest_task_02" comment="Hope Catalyst" speaker="UI - Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de {targetName}</string>
+	<string key="0203_0103_HopeCatalyst_Quest_task_03" speaker="UI - Tracker Text" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="0203_0103_HopeCatalyst_Quest_task_04" speaker="UI - Tracker Text" VO_Status="Needs Recording">Visita una estación arcana</string>
+	<string key="0203_0103_HopeCatalyst_Quest_task_05" speaker="UI - Tracker Text" VO_Status="Needs Recording">Crea {itemName}</string>
+	<string key="0203_0103_01_container_Weapon_Hope_Manifest_questComplete_1" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Cortado de la misma tela</string>
+	<string key="0203_0103_02_container_Weapon_Hope_Manifest_questComplete_2" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Rescatar el ungüento</string>
+	<string key="0203_0103_03_container_Weapon_Hope_Manifest_questComplete_3" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Destinos piadosos</string>
+	<string key="0203_0103_04_container_Weapon_Hope_Manifest_questComplete_4" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Fuente de esperanza</string>
+	<string key="0204_0104_01_container_Weapon_Executioner_questComplete_1" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Caminar por la plancha</string>
+	<string key="0204_0104_02_container_Weapon_Executioner_questComplete_2" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Los lazos que unen</string>
+	<string key="0204_0104_03_container_Weapon_Executioner_questComplete_3" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Brutalidad shakesperiana</string>
+	<string key="0204_0104_04_container_Weapon_Executioner_questComplete_4" speaker="UI - Tracker Text" VO_Status="Needs Recording">Completa la misión: Más espeso que el agua</string>
+	<string key="1004_0103_Weapon_Keen_Temper_objective_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Temperamento diligente</string>
+	<string key="1004_0103_Weapon_Keen_Temper_objective_desc" speaker="UI – Quest Description" VO_Status="Needs Recording">Obtén cuero para empuñaduras y piedra de afilar de la Caverna del degollador y la hoja de l'Olonnois de la caverna Arclight para forjar la espada legendaria "Temperamento diligente". Cuando termines esta tarea, habla con Tillian en el Pantano del tejedor.</string>
+	<string key="1004_0103_Weapon_Keen_Temper_start_prompt" speaker="UI – Player Prompt" VO_Status="Needs Recording">"Sí. Agradezco la oferta".</string>
+	<string key="1004_0103_Weapon_Keen_Temper_proposal" speaker="Captain Lucian – Cutlass Keys" gender="f" VO_Status="Needs Recording">¡Excelente! Llamo "Temperamento diligente", y estaré encantado con tan solo ponerla a prueba.\n\nSi puedes recolectar todos los elementos necesarios para fabricarla, creo que puedo convertirte en un guerrero invencible. ¡Buena suerte!</string>
+	<string key="1004_0103_Weapon_Keen_Temper_incomplete" speaker="Captain Lucian – Cutlass Keys" gender="f" VO_Status="Needs Recording">¿Sigues buscando los materiales para forjar "Temperamento diligente"?\n\nLa primera vez que empuñes la espada, todo valdrá la pena. Te lo prometo.</string>
+	<string key="1004_0103_Weapon_Keen_Temper_complete_available_response" speaker="Captain Lucian – Cutlass Keys" gender="f" VO_Status="Needs Recording">¡Conque así se pavonea un verdadero espadachín! Tienes todo lo que necesitas para la hoja, ¿no?\n\nAhora empuñarás la espada más filosa que esta isla haya visto. ¡"Temperamento diligente", sin duda! Cuida muy bien esa arma, ¿me oyes?</string>
+	<string key="1004_0103_HiltLeather_Quest_objective_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Consigue los objetos necesarios para fabricar Temperamento diligente</string>
+	<string key="1004_0103_Grindstone_Quest_objective_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Consigue los objetos necesarios para fabricar Temperamento diligente</string>
+	<string key="1004_0103_QuenchingOil_Quest_objective_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Consigue los objetos necesarios para fabricar Temperamento diligente</string>
+	<string key="1004_0103_CaptainsBlade_Quest_objective_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Consigue los objetos y, luego, fabrica Temperamento diligente</string>
+	<string key="1004_0103_HiltLeather_Quest_objective_desc" speaker="UI – Quest Description" VO_Status="Needs Recording">Una buena empuñadura de cuero brinda el agarre más firme y natural.</string>
+	<string key="1004_0103_Grindstone_Quest_objective_desc" speaker="UI – Quest Description" VO_Status="Needs Recording">Dejar bien filosa una espada en una piedra para pulir es un arte en sí mismo.</string>
+	<string key="1004_0103_QuenchingOil_Quest_objective_desc" speaker="UI – Quest Description" VO_Status="Needs Recording">Consigue aceite para el baño de enfriamiento, porque el agua formará burbujas en la hoja.</string>
+	<string key="1004_0103_CaptainsBlade_Quest_objective_desc" speaker="UI – Quest Description" VO_Status="Needs Recording">Una espada bien hecha es la mejor amiga de un capitán, sin importar su moral.</string>
+	<string key="1004_0103_HiltLeather_Quest_task_01" comment="Cutthroat Cavern" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir cuero para empuñaduras</string>
+	<string key="1004_0103_HiltLeather_Quest_task_02" comment="Hilt Leather" speaker="UI – Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1004_0103_Grindstone_Quest_task_01" comment="The Hollowing" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Gran surco para conseguir piedra para afilar</string>
+	<string key="1004_0103_Grindstone_Quest_task_02" comment="Grindstone" speaker="UI – Tracker Text" VO_Status="Needs Recording">Obtén {itemName} de almacenes de suministros.</string>
+	<string key="1004_0103_QuenchingOil_Quest_task_01" comment="Foulroot" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale para conseguir aceite para baños de enfriamiento</string>
+	<string key="1004_0103_QuenchingOil_Quest_task_02" comment="Quenching Oil" speaker="UI – Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName} y cofres</string>
+	<string key="1004_0103_CaptainsBlade_Quest_task_01" comment="Broken Promise" speaker="UI – Tracker Text" VO_Status="Needs Recording">Ve a {POITags} en Costa agitada para obtener la hoja del capitán.</string>
+	<string key="1004_0103_CaptainsBlade_Quest_task_02" comment="Blade of l'Olonnois" speaker="UI – Tracker Text" VO_Status="Needs Recording">Obtén {itemName} de {targetName}</string>
+	<string key="1004_0103_Combine_Quest_task_03" speaker="Should not display" VO_Status="Needs Recording">Tienes la receta.</string>
+	<string key="1004_0103_Combine_Quest_task_04" speaker="UI – Tracker Text" VO_Status="Needs Recording">Visita la forja</string>
+	<string key="1004_0103_Combine_Quest_task_05" speaker="UI – Tracker Text" VO_Status="Needs Recording">Elaborar la {itemName}</string>
+	<string key="1004_0103_01_container_Weapon_Keen_Temper_questComplete_1" speaker="UI – Tracker Text" VO_Status="Needs Recording">Completar misión: Agarre firme</string>
+	<string key="1004_0103_02_container_Weapon_Keen_Temper_questComplete_2" speaker="UI – Tracker Text" VO_Status="Needs Recording">Completar misión: Afilar la hoja</string>
+	<string key="1004_0103_03_container_Weapon_Keen_Temper_questComplete_3" speaker="UI – Tracker Text" VO_Status="Needs Recording">Completar misión: Calmar a la bestia</string>
+	<string key="1004_0103_04_container_Weapon_Keen_Temper_questComplete_4" speaker="UI – Tracker Text" VO_Status="Needs Recording">Completar misión: Una espada confiable</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_objective_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Intención oculta</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_objective_desc" speaker="UI – Quest Description" VO_Status="Needs Recording">Recupera los patrones y componentes necesarios para fabricar la armadura Intención oculta. Cuando termines esta tarea, habla con Julien Blackthorn en el Pantano del tejedor.</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_start_prompt" speaker="UI – Player Prompt" VO_Status="Needs Recording">"Sí, me interesa".</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_proposal" speaker="Quartermaster Duffy – Cutlass Keys" name="QuartermasterDuffy" gender="f" VO_Status="Needs Recording" dialogue-next="@1002_0104_Shrouded_Intent_Gear_proposal_next">Cuenta la leyenda que una banda de asesinos creó una armadura para escabullirse de los horrores de esta isla. \n\nSe dice que esta armadura hace que su portador se mueva a paso ligero y actúe como una sombra.</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_proposal_prompt" speaker="UI – Player Prompt" VO_Status="Needs Recording">"¿Dónde puedo conseguirla?".</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_proposal_next" speaker="Quartermaster Duffy – Cutlass Keys" name="QuartermasterDuffy" gender="f" VO_Status="Needs Recording" dialogue-next="@1002_0104_Shrouded_Intent_Gear_proposal_next2" dialogue-prompt="@1002_0104_Shrouded_Intent_Gear_proposal_prompt">Ah, eso es lo que la hace una leyenda. Nadie sabe dónde se encuentra el conjunto original. \n\nSe dice que cada uno de los asesinos se llevó una parte cuando se separaron. Aunque el patrón para confeccionarla está intacto.</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_proposal_prompt2" speaker="UI – Player Prompt" VO_Status="Needs Recording">"¿Cómo se llama la armadura?"</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_proposal_next2" speaker="Quartermaster Duffy – Cutlass Keys" name="QuartermasterDuffy" gender="f" VO_Status="Needs Recording" dialogue-prompt="@1002_0104_Shrouded_Intent_Gear_proposal_prompt2">Intención oculta. Yo creo que los asesinos eligieron ese nombre para hacer una broma. \n\nTen, toma este patrón e intenta encontrar los objetos necesarios para fabricar la armadura.</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_incomplete" speaker="Quartermaster Duffy – Cutlass Keys" gender="f" VO_Status="Needs Recording">Mantén los ojos bien abiertos. Lo que precisas para fabricar la armadura Intención oculta está muy bien escondido. \n\nEn especial porque los materiales necesarios están desperdigados por todo Aeternum.</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_complete_available_response" speaker="Quartermaster Duffy – Cutlass Keys" name="QuartermasterDuffy" gender="f" VO_Status="Needs Recording" dialogue-next="@1002_0104_Shrouded_Intent_Gear_complete_available_response_next">¿Eso es…? Que me parta un rayo. Verla reconstruida es… Nunca imaginé que estaría presente cuando sucediera. \n\nTe sienta bien. ¿Estás seguro de que no puedes prescindir de ella? Sería una pieza maravillosa para mi colección…</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_complete_available_response_prompt" speaker="UI – Player Prompt" VO_Status="Needs Recording">"¿Por cuánto?"</string>
+	<string key="1002_0104_Shrouded_Intent_Gear_complete_available_response_next" speaker="Quartermaster Duffy – Cutlass Keys" name="QuartermasterDuffy" gender="f" VO_Status="Needs Recording" dialogue-prompt="@1002_0104_Shrouded_Intent_Gear_complete_available_response_prompt">Je, je, ¡no era en serio! Vale más de lo que podría pagar. \n\nSé que le darás mejor uso a Intención oculta del que yo jamás podría darle.</string>
+	<string key="1002_0104_01_container_Shrouded_Intent_questComplete_1" speaker="UI – Tracker Text" VO_Status="Needs Recording">Completar misión: Pasos ocultos</string>
+	<string key="1002_0104_02_container_Shrouded_Intent_questComplete_2" speaker="UI – Tracker Text" VO_Status="Needs Recording">Completar misión: Sumido en la oscuridad</string>
+	<string key="1002_0104_03_container_Shrouded_Intent_questComplete_3" speaker="UI – Tracker Text" VO_Status="Needs Recording">Completar misión: Envuelto en el crepúsculo</string>
+	<string key="1002_0104_04_container_Shrouded_Intent_questComplete_4" speaker="UI – Tracker Text" VO_Status="Needs Recording">Completar misión: Aferrarse a las sombras</string>
+	<string key="1002_0104_05_container_Shrouded_Intent_questComplete_5" speaker="UI – Tracker Text" VO_Status="Needs Recording">Completar misión: Oscurecido por la noche</string>
+	<string key="1002_0104_01_Boots_objective_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Pasos ocultos</string>
+	<string key="1002_0104_01_Boots_objective_desc" speaker="UI – Quest Description" VO_Status="Needs Recording">Consigue cuero de Pullpatch empapado de Cubierta Pullpatch, relleno del pantano silenciado de Karburg y esencia de sombra de Caverna del degollador. Luego, visita la estación de equipamiento de nivel 3 para fabricar las botas de Intención oculta.</string>
+	<string key="1002_0104_01_Boots_task_01" speaker="Should not display" VO_Status="Needs Recording">Tienes la receta.</string>
+	<string key="1002_0104_01_Boots_task_02" comment="Pullpatch Cover" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada.</string>
+	<string key="1002_0104_01_Boots_task_04" comment="Karburg" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Pantano del tejedor para conseguir relleno del pantano silenciado</string>
+	<string key="1002_0104_01_Boots_task_06" comment="Cutthroat Cavern" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir esencia de sombra</string>
+	<string key="1002_0104_01_Boots_task_08" speaker="UI – Tracker Text" VO_Status="Needs Recording">Visita una estación de equipamiento</string>
+	<string key="1002_0104_01_Boots_task_09" speaker="UI – Tracker Text" VO_Status="Needs Recording">Fabrica las {itemName}</string>
+	<string key="1002_0104_02_Coat_objective_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Sumido en la oscuridad</string>
+	<string key="1002_0104_02_Coat_objective_desc" speaker="UI – Quest Description" VO_Status="Needs Recording">Consigue retazos de velas antitormenta de Naufragio arrasado, lanzamiento de la maldición de la plaga de Venganza de Minnow y ganchos de tiburón del cazador de El tiburón saqueador. Luego, visita la estación de equipamiento de nivel 3 para fabricar el manto de Intención oculta.</string>
+	<string key="1002_0104_02_Coat_task_01" speaker="Should not display" VO_Status="Needs Recording">Tienes la receta.</string>
+	<string key="1002_0104_02_Coat_task_02" comment="Ravaged Wreck" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir retazos de velas antitormenta</string>
+	<string key="1002_0104_02_coat_task_04" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada.</string>
+	<string key="1002_0104_02_Coat_task_05" comment="Minnow's Revenge" speaker="UI – Tracker Text" VO_Status="Needs Recording">Abre cofres para obtener: {itemName}.</string>
+	<string key="1002_0104_02_Coat_task_06" comment="The Plundering Shark" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir ganchos de tiburón del cazador</string>
+	<string key="1002_0104_02_Coat_task_08" speaker="UI – Tracker Text" VO_Status="Needs Recording">Visita una estación de equipamiento</string>
+	<string key="1002_0104_02_Coat_task_09" speaker="UI – Tracker Text" VO_Status="Needs Recording">Fabrica el {itemName}</string>
+	<string key="1002_0104_03_Pants_objective_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Envuelto en el crepúsculo</string>
+	<string key="1002_0104_03_Pants_objective_desc" speaker="UI – Quest Description" VO_Status="Needs Recording">Consigue extracto de musgo turbio de Fornax, aparejo de náufrago de Costas del náufrago y esquirlas de piedra de noche de Haedus. Luego, visita la estación de equipamiento de nivel 3 para fabricar el pantalón de Intención oculta.</string>
+	<string key="1002_0104_03_Pants_task_01" speaker="Should not display" VO_Status="Needs Recording">Tienes la receta.</string>
+	<string key="1002_0104_03_Pants_task_02" comment="Fornax" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir extracto de musgo turbio</string>
+	<string key="1002_0104_03_Pants_task_04" comment="Castaway Shores" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale para conseguir aparejo de náufrago</string>
+	<string key="1002_0104_03_Pants_task_06" comment="Haedus" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale para conseguir esquirlas de piedra de noche</string>
+	<string key="1002_0104_03_Pants_task_08" speaker="UI – Tracker Text" VO_Status="Needs Recording">Visita una estación de equipamiento</string>
+	<string key="1002_0104_03_Pants_task_09" speaker="UI – Tracker Text" VO_Status="Needs Recording">Fabrica el {itemName}</string>
+	<string key="1002_0104_04_Gloves_objective_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Aferrarse a las sombras</string>
+	<string key="1002_0104_04_Gloves_objective_desc" speaker="UI – Quest Description" VO_Status="Needs Recording">Consigue cuero en capas del guardián de Subra, crepúsculo extraído de Litheltop y pigmento de la caída del atardecer de Montaña del paso elevado. Luego, visita la estación de equipamiento de nivel 3 para fabricar los guantes de Intención oculta.</string>
+	<string key="1002_0104_04_Gloves_task_01" speaker="Should not display" VO_Status="Needs Recording">Tienes la receta.</string>
+	<string key="1002_0104_04_Gloves_task_02" comment="Subra" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale para conseguir cuero en capas del guardián</string>
+	<string key="1002_0104_04_Gloves_task_03" comment="Litheltop" speaker="UI – Tracker Text" VO_Status="Needs Recording">Obtén {itemName} de los enemigos {targetName}.</string>
+	<string key="1002_0104_04_gloves_task_04" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada.</string>
+	<string key="1002_0104_04_Gloves_task_05" comment="High-Pass Mountain" speaker="UI – Tracker Text" VO_Status="Needs Recording">Recolecta {itemName} de {targetName}</string>
+	<string key="1002_0104_04_gloves_task_06" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada.</string>
+	<string key="1002_0104_04_Gloves_task_08" speaker="UI – Tracker Text" VO_Status="Needs Recording">Visita una estación de equipamiento</string>
+	<string key="1002_0104_04_Gloves_task_09" speaker="UI – Tracker Text" VO_Status="Needs Recording">Fabrica los {itemName}</string>
+	<string key="1002_0104_05_Hat_objective_title" speaker="UI - Quest Title" VO_Status="Needs Recording">Oscurecido por la noche</string>
+	<string key="1002_0104_05_Hat_objective_desc" speaker="UI – Quest Description" VO_Status="Needs Recording">Consigue hilo de oricalco imbuido de Mina de escoria inferior, plumas manchadas de Génesis del rencor y tela de umbra de Bramblecliff. Luego, visita la estación de equipamiento de nivel 3 para fabricar el casco de Intención oculta.</string>
+	<string key="1002_0104_05_Hat_task_01" speaker="Should not display" VO_Status="Needs Recording">Tienes la receta.</string>
+	<string key="1002_0104_05_Hat_task_02" comment="Lower Slag Mine" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Edengrove para conseguir hilo de oricalco imbuido</string>
+	<string key="1002_0104_05_Hat_task_04" comment="Genesis of Spite" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Edengrove para conseguir plumas manchadas</string>
+	<string key="1002_0104_05_Hat_task_06" comment="Bramblecliff" speaker="UI – Tracker Text" VO_Status="Needs Recording">Viaja a {POITags} en Edengrove para conseguir tela de umbra</string>
+	<string key="1002_0104_05_Hat_task_08" speaker="UI – Tracker Text" VO_Status="Needs Recording">Visita una estación de equipamiento</string>
+	<string key="1002_0104_05_Hat_task_09" speaker="UI – Tracker Text" VO_Status="Needs Recording">Fabrica el {itemName}</string>
+	<string key="1310_1314_L40Bow_Huntress_Title" speaker="UI - Quest Title" VO_Status="Needs Recording">A la caza de la cazadora</string>
+	<string key="1310_1314_L40Bow_Huntress_Description" speaker="UI – Quest Description" VO_Status="Needs Recording">Obtén madera antigua de Ruinas de Punta de garra, una pluma de halcón de Guarida de Chascacolmillos y una pata de conejo de la suerte de Boarsholm para construir el arco conocido como "la Cazadora". Luego, informa a Ajax Halfhand en el asentamiento del Pantano del tejedor.</string>
+	<string key="1310_1314_L40Bow_Huntress_Prompt" speaker="UI - Player Prompt" VO_Status="Needs Recording">"Eso me interesaría".</string>
+	<string key="1310_1314_L40Bow_Huntress_Proposal" speaker="Barkeep Flores - Weaver's Fen" name="BarkeepFlores" VO_Status="Needs Recording">Ya me parecía. Tendrás que hacer tú todo el trabajo físico.\n\nSi puedes conseguir todos los materiales de la lista, creo que este arco, "La cazadora", será la envidia de toda la ciudad. ¡Buena suerte!</string>
+	<string key="1310_1314_L40Bow_Huntress_Incomplete" speaker="Barkeep Flores - Weaver's Fen" VO_Status="Needs Recording">Ah, sigues a la caza de La cazadora, ¿verdad?\n\nTe llevará algo de tiempo, supongo.</string>
+	<string key="1310_1314_L40Bow_Huntress_Complete" speaker="Barkeep Flores - Weaver's Fen" name="BarkeepFlores" VO_Status="Needs Recording">Mírate: acabas de llegar del entorno salvaje y ya rastreas de forma legendaria, al menos a mi juicio. Encontrar todos los materiales no puede haber sido fácil. \n\nPero La cazadora te va a cuidar, ya verás. No dejes que se te vacíe el carcaj por ahí fuera.</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Title" speaker="UI - Quest Title" VO_Status="Needs Recording">Furia de Falmea</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Description" speaker="UI – Quest Description" VO_Status="Needs Recording">Obtén ramas chamuscadas de Malicia del surco, cenizas de madera rara de Ecos dormidos y el corazón de puras llamas de Caminata del meridiano para construir el bastón ígneo "Ira de Falmea". Luego, informa a Hariq Azar en Brightwood.</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Prompt" speaker="UI - Player Prompt" VO_Status="Needs Recording">“¿El fuego te habla?”.</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Proposal" speaker="Artificer Erasmus - Weaver's Fen" name="ArtificerErasmus" VO_Status="Needs Recording">Sí, la voz de las llamas. La llamo Falmea. Lo que sientes cuando acercas la mano al fuego es su presencia. \n\nEs el espíritu de la Furia de Falmea, un bastón ígneo que diseñé. ¿Te gustaría fabricarlo?</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Incomplete" speaker="Artificer Erasmus - Weaver's Fen" VO_Status="Needs Recording">¿Sigues buscando los elementos necesarios para crear el "Furia de Falmea"? Sigue intentándolo. \n\nEl bastón ígneo no es para los débiles de corazón.</string>
+	<string key="1305_1315_L40FStaff_FalmeasWrath_Complete" speaker="Artificer Erasmus - Weaver's Fen" name="ArtificerErasmus" VO_Status="Needs Recording">¡Ah, observa! ¡La Furia de Falmea! Basta tener buen ojo para ver cómo las llamas convergen con la madera. \n\nEmpúñalo con orgullo, {playerName}. Que tus actos sean dignos de un arma tan extraordinaria.</string>
+	<string key="1310_1314_ancientwood_quest_objective_title" speaker="UI" VO_Status="Needs Recording">Consigue los objetos necesarios para fabricar la Cazadora.</string>
+	<string key="1310_1314_WyrdwoodResin_Quest_objective_title" speaker="UI" VO_Status="Needs Recording">Consigue los elementos utilizados para fabricar la Cazadora</string>
+	<string key="1310_1314_HawkFeathers_Quest_objective_title" speaker="UI" VO_Status="Needs Recording">Consigue los elementos utilizados para fabricar la Cazadora</string>
+	<string key="1310_1314_LuckyRabbitsFoot_Quest_objective_title" speaker="UI" VO_Status="Needs Recording">Consigue los elementos y luego fabrica la Cazadora</string>
+	<string key="1310_1314_AncientWood_Quest_description" speaker="UI" VO_Status="Needs Recording">Se oculta entre los árboles. Entre las secuoyas se siente en casa.</string>
+	<string key="1310_1314_WyrdwoodResin_Quest_description" speaker="UI" VO_Status="Needs Recording">La resina del árbol perfuma el aire. Si estás a solas y notas su olor, ten cuidado.</string>
+	<string key="1310_1314_HawkFeathers_Quest_description" speaker="UI" VO_Status="Needs Recording">Con ojos de halcón, ve a leguas de distancia. Su visión está clara.</string>
+	<string key="1310_1314_LuckyRabbitsFoot_Quest_description" speaker="UI" VO_Status="Needs Recording">Se acerca a su presa y tensa la cuerda lentamente. La libertad que siente es como la de una flecha.</string>
+	<string key="1305_1315_SingedBranches_Quest_objective_title" speaker="UI" VO_Status="Needs Recording">Consigue los elementos utilizados para fabricar la Furia de Falmea</string>
+	<string key="1305_1315_WyrdwoodAshes_Quest_objective_title" speaker="UI" VO_Status="Needs Recording">Consigue los elementos utilizados para fabricar la Furia de Falmea</string>
+	<string key="1305_1315_UnhallowedWater_Quest_objective_title" speaker="UI" VO_Status="Needs Recording">Consigue los elementos utilizados para fabricar la Furia de Falmea</string>
+	<string key="1305_1315_HeartofAllFlame_Quest_objective_title" speaker="UI" VO_Status="Needs Recording">Consigue los elementos utilizados y luego fabrica la Furia de Falmea</string>
+	<string key="1305_1315_SingedBranches_Quest_description" speaker="UI" VO_Status="Needs Recording">Falmea quemó la madera del sino en el aire, y lo dejó lamentándose con gran pesar.</string>
+	<string key="1305_1315_WyrdwoodAshes_Quest_description" speaker="UI" VO_Status="Needs Recording">Falmea dejó que las cenizas de la madera del sino cayeran. Un punto blanco en el suelo, talado.</string>
+	<string key="1305_1315_UnhallowedWater_Quest_description" speaker="UI" VO_Status="Needs Recording">Falmea reveló sus aguas no consagradas y salpicó con ellas la ceniza.</string>
+	<string key="1305_1315_HeartofAllFlame_Quest_description" speaker="UI" VO_Status="Needs Recording">Falmea pronunció lo impronunciable y, desde un tornado de llamas, recuperó un bastón.</string>
+	<string key="1310_1314_Combine_Quest_task_03" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="1310_1314_Combine_Quest_task_04" VO_Status="Needs Recording">Visita una estación de ingeniería</string>
+	<string key="1310_1314_Combine_Quest_task_05" VO_Status="Needs Recording">Crea {itemName}</string>
+	<string key="1305_1315_Combine_Quest_task_03" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="1305_1315_Combine_Quest_task_04" VO_Status="Needs Recording">Visita una estación arcana</string>
+	<string key="1305_1315_Combine_Quest_task_05" VO_Status="Needs Recording">Crea {itemName}</string>
+	<string key="1310_1314_AncientWood_Quest_task_01" VO_Status="Needs Recording">Ve a {POITags} en Costa agitada para obtener madera antigua.</string>
+	<string key="1310_1314_AncientWood_Quest_task_02" VO_Status="Needs Recording">Consigue {itemName} de urnas antiguas.</string>
+	<string key="1310_1314_WyrdwoodResin_Quest_task_01" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir resina de madera rara</string>
+	<string key="1310_1314_WyrdwoodResin_Quest_task_02" VO_Status="Needs Recording">Obtén {itemName} de los enemigos {targetName}</string>
+	<string key="1310_1314_HawkFeathers_Quest_task_01" VO_Status="Needs Recording">Ve a {POITags} en Costa agitada para obtener la pluma de halcón.</string>
+	<string key="1310_1314_HawkFeathers_Quest_task_02" VO_Status="Needs Recording">Recolecta {itemName} de {targetName}</string>
+	<string key="1310_1314_LuckyRabbitsFoot_Quest_task_01" VO_Status="Needs Recording">Ve a {POITags} en Costa agitada para obtener una pata de conejo de la suerte.</string>
+	<string key="1310_1314_LuckyRabbitsFoot_Quest_task_02" VO_Status="Needs Recording">Obtén {itemName} de {targetName}</string>
+	<string key="1310_1314_LuckyRabbitsFoot_Quest_task_04" VO_Status="Needs Recording">Crea {itemName}</string>
+	<string key="1305_1315_SingedBranches_Quest_task_01" VO_Status="Needs Recording">Ve a {POITags} en el Gran surco para obtener ramas chamuscadas.</string>
+	<string key="1305_1315_SingedBranches_Quest_task_02" VO_Status="Needs Recording">Obtén {itemName} de los enemigos {targetName}</string>
+	<string key="1305_1315_WyrdwoodAshes_Quest_task_01" VO_Status="Needs Recording">Ve a {POITags} en el Gran surco para obtener cenizas de madera rara.</string>
+	<string key="1305_1315_WyrdwoodAshes_Quest_task_02" VO_Status="Needs Recording">Obtén {itemName} de cajas de suministros.</string>
+	<string key="1305_1315_UnhallowedWater_Quest_task_01" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir agua no consagrada</string>
+	<string key="1305_1315_UnhallowedWater_Quest_task_02" VO_Status="Needs Recording">Obtén {itemName} de los enemigos {targetName}</string>
+	<string key="1305_1315_HeartofAllFlame_Quest_task_01" VO_Status="Needs Recording">Ve a la cima de {POITags} en el Gran surco para obtener el corazón de puras llamas.</string>
+	<string key="1305_1315_HeartofAllFlame_Quest_task_02" VO_Status="Needs Recording">Obtén {itemName} de {targetName}</string>
+	<string key="1310_1314_01_container_Weapon_Huntress_questComplete_1" VO_Status="Needs Recording">Completar la misión: Como la madera en el bosque</string>
+	<string key="1310_1314_02_container_Weapon_Huntress_questComplete_2" VO_Status="Needs Recording">Completar la misión: Buena resina, buen razonamiento</string>
+	<string key="1310_1314_03_container_Weapon_Huntress_questComplete_3" VO_Status="Needs Recording">Completar la misión: Plumas de halcón</string>
+	<string key="1310_1314_04_container_Weapon_Huntress_questComplete_4" VO_Status="Needs Recording">Completar la misión: A la caza de un conejo que llega tarde</string>
+	<string key="1305_1315_01_container_Weapon_Hope_FalmeasWrath_questComplete_1" VO_Status="Needs Recording">Completar la misión: Consecuencias ardientes</string>
+	<string key="1305_1315_02_container_Weapon_Hope_FalmeasWrath_questComplete_2" VO_Status="Needs Recording">Completar la misión: Solo cenizas candentes</string>
+	<string key="1305_1315_03_container_Weapon_Hope_FalmeasWrath_questComplete_3" VO_Status="Needs Recording">Completar la misión: Emponzoñar las aguas</string>
+	<string key="1305_1315_04_container_Weapon_Hope_FalmeasWrath_questComplete_4" VO_Status="Needs Recording">Completar la misión: Cáliz del sacrificio</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Title" speaker="UI - Quest Title" VO_Status="Needs Recording">Sino protector</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Description" speaker="UI – Quest Description" VO_Status="Needs Recording">Recupera los componentes y recetas necesarios para montar la armadura del sino protector. Luego, informa a Fiona Harrower en el asentamiento del Pantano del tejedor.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Prompt" speaker="UI - Player Prompt" VO_Status="Needs Recording">"¿Alas? ¿Te refieres a la armadura?".</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Proposal" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO_Status="Needs Recording" dialogue-next="@1303_1311_Protective_Wyrd_Gear_Proposal_Next">Llámalo como gustes. Todo el mundo necesita alas, sea cual sea su propósito. El caparazón de una tortuga, las patas de un leopardo… Todo eso son alas que nos llevan hasta nuestro destino. \n\nYo, al igual que Dédalo con la cera y el hilo, tengo un plano de plumas místicas. Algo con lo que hallar la libertad y la protección. Si tanto lo deseas.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Proposal_Prompt" speaker="UI - Player Prompt" VO_Status="Needs Recording">"Parece muy útil".</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Proposal_Next" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO_Status="Needs Recording" dialogue-next="@1303_1311_Protective_Wyrd_Gear_Proposal_Next2" dialogue-prompt="@1303_1311_Protective_Wyrd_Gear_Proposal_Prompt">Mi patrón puede convertir un pequeño búho ululante en un cazador de la noche sabio e imponente.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Proposal_Prompt2" speaker="UI - Player Prompt" VO_Status="Needs Recording">"Suena demasiado bueno para ser verdad".</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Proposal_Next2" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO_Status="Needs Recording" dialogue-prompt="@1303_1311_Protective_Wyrd_Gear_Proposal_Prompt2">Deja que sean el viento y sus caprichosos amigos quienes duden. Yo te fabricaré los medios. Pero serás tú quien deba aprender a volar.\n\nLo llamo "Sino protector". Consigue los materiales y puede que entonces tú también seas un maestro de la noche.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Incomplete" speaker="Survivalist Severino – Weaver's Fen" VO_Status="Needs Recording">En Aeternum nada se pierde de verdad, o eso suelo decir yo.\n\nCuando llegue el momento, verás que tienes que fabricar el Sino protector. Sé que lo harás.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Complete" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO_Status="Needs Recording" dialogue-next="@1303_1311_Protective_Wyrd_Gear_Complete_Next">Hay algo acerca de ti… ¡Oh! ¡Has encontrado todo lo que necesitabas!\n\nEs el atuendo más impresionante que he visto en mi vida. Ya siento el poder del Sino protector desde aquí.</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Complete_Prompt" speaker="UI - Player Prompt" VO_Status="Needs Recording">"¿Puedes?"</string>
+	<string key="1303_1311_Protective_Wyrd_Gear_Complete_Next" speaker="Survivalist Severino – Weaver's Fen" name="SurvivalistSeverino" VO_Status="Needs Recording" dialogue-prompt="@1303_1311_Protective_Wyrd_Gear_Complete_Prompt">Me reconforta saber que las historias que me contó Hazel no solo resultaron ser verdaderas, sino también útiles.\n\nSi sus demás historias son también ciertas, puede que aún haya esperanza.</string>
+	<string key="1303_1311_01_container_Protective_Wyrd_questComplete_1" VO_Status="Needs Recording">Completar la misión: Un paso en la buena dirección</string>
+	<string key="1303_1311_02_container_Protective_Wyrd_questComplete_2" VO_Status="Needs Recording">Completar la misión: Envuelto en protecciones</string>
+	<string key="1303_1311_03_container_Protective_Wyrd_questComplete_3" VO_Status="Needs Recording">Completar la misión: Peligros predestinados</string>
+	<string key="1303_1311_04_container_Protective_Wyrd_questComplete_4" VO_Status="Needs Recording">Completar la misión: Al alcance del destino</string>
+	<string key="1303_1311_05_container_Protective_Wyrd_questComplete_5" VO_Status="Needs Recording">Completar la misión: Enfrentándose al destino</string>
+	<string key="1303_1311_01_Shoes_Title" VO_Status="Needs Recording">Un paso en la buena dirección</string>
+	<string key="1303_1311_01_Shoes_Description" VO_Status="Needs Recording">Consigue tejido sagrado del caserío de Fenton, esencia de los muertos vivientes de Caverna del degollador y lanzamiento purificado de Isla de deshechos. Luego, visita la estación de equipamiento de nivel 3 para fabricar los zapatos de Sino protector.</string>
+	<string key="1303_1311_01_Shoes_task_01" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="1303_1311_01_Shoes_task_02" VO_Status="Needs Recording">Viaja a {POITags} en Pantano del tejedor para conseguir tejido sagrado</string>
+	<string key="1303_1311_01_Shoes_task_03" VO_Status="Needs Recording">Consigue {itemName} de los fantasmas, demonios y empaladores enemigos</string>
+	<string key="1303_1311_01_Shoes_task_04" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir esencia de los muertos vivientes</string>
+	<string key="1303_1311_01_Shoes_task_05" VO_Status="Needs Recording">Recolecta {itemName} de {targetName}</string>
+	<string key="1303_1311_01_Shoes_task_06" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale</string>
+	<string key="1303_1311_01_Shoes_task_07" VO_Status="Needs Recording">Consigue {itemName} de urnas antiguas.</string>
+	<string key="1303_1311_01_Shoes_task_08" VO_Status="Needs Recording">Visita una estación de equipamiento</string>
+	<string key="1303_1311_01_Shoes_task_09" VO_Status="Needs Recording">Fabrica {itemName}</string>
+	<string key="1303_1311_02_Shirt_Title" VO_Status="Needs Recording">Envuelto en protecciones</string>
+	<string key="1303_1311_02_Shirt_Description" VO_Status="Needs Recording">Consigue hebillas neptunianas de Furia de Neptuno, filamento consagrado de Cementerio de la soledad y trozos de armadura antigua de Pilares de Gelida. Luego, visita la estación de equipamiento de nivel 3 para fabricar la camisa de Sino protector.</string>
+	<string key="1303_1311_02_Shirt_task_01" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="1303_1311_02_Shirt_task_02" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir hebillas neptunianas</string>
+	<string key="1303_1311_02_Shirt_task_03" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_02_Shirt_task_04" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir filamento consagrado</string>
+	<string key="1303_1311_02_Shirt_task_05" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_02_Shirt_task_06" VO_Status="Needs Recording">Viaja a {POITags} en Gran surco para conseguir trozos de armadura antigua</string>
+	<string key="1303_1311_02_Shirt_task_07" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_02_Shirt_task_08" VO_Status="Needs Recording">Visita una estación de equipamiento</string>
+	<string key="1303_1311_02_Shirt_task_09" VO_Status="Needs Recording">Fabrica {itemName}</string>
+	<string key="1303_1311_03_Pants_Title" VO_Status="Needs Recording">Peligros predestinados</string>
+	<string key="1303_1311_03_Pants_Description" VO_Status="Needs Recording">Consigue protectores cosidos de Cementerio de Eeriedune, lana trabajada ceremonial de Eridanus y forro imbuido de Lunaryth. Luego, visita la estación de equipamiento de nivel 3 para fabricar los pantalones de Sino protector.</string>
+	<string key="1303_1311_03_Pants_task_01" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="1303_1311_03_Pants_task_02" VO_Status="Needs Recording">Viaja a {POITags} en Gran surco para conseguir protectores cosidos</string>
+	<string key="1303_1311_03_Pants_task_03" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_03_Pants_task_04" VO_Status="Needs Recording">Viaja a {POITags} en Costa agitada para conseguir lana trabajada ceremonial</string>
+	<string key="1303_1311_03_Pants_task_05" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_03_Pants_task_06" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale para conseguir forro imbuido</string>
+	<string key="1303_1311_03_Pants_task_07" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_03_Pants_task_08" VO_Status="Needs Recording">Visita una estación de equipamiento</string>
+	<string key="1303_1311_03_Pants_task_09" VO_Status="Needs Recording">Fabrica {itemName}</string>
+	<string key="1303_1311_04_Gloves_Title" VO_Status="Needs Recording">Al alcance del destino</string>
+	<string key="1303_1311_04_Gloves_Description" VO_Status="Needs Recording">Consigue tejido reforzado de Cragview de Cragview, amuletos de madera rara de Blisteroot y fibras purificadas de Shambhala de Shambhala. Luego, visita la estación de equipamiento de nivel 3 para fabricar los guantes de Sino protector.</string>
+	<string key="1303_1311_04_Gloves_task_01" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="1303_1311_04_Gloves_task_02" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale para conseguir tejido reforzado de Cragview</string>
+	<string key="1303_1311_04_Gloves_task_03" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_04_Gloves_task_04" VO_Status="Needs Recording">Viaja a {POITags} en Mourningdale para conseguir amuletos de madera rara</string>
+	<string key="1303_1311_04_Gloves_task_05" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_04_Gloves_task_06" VO_Status="Needs Recording">Viaja a {POITags} en Edengrove para conseguir fibras purificadas</string>
+	<string key="1303_1311_04_Gloves_task_07" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_04_Gloves_task_08" VO_Status="Needs Recording">Visita una estación de equipamiento</string>
+	<string key="1303_1311_04_Gloves_task_09" VO_Status="Needs Recording">Fabrica {itemName}</string>
+	<string key="1303_1311_05_Hat_Title" VO_Status="Needs Recording">Enfrentándose al destino</string>
+	<string key="1303_1311_05_Hat_Description" VO_Status="Needs Recording">Consigue presagios con el brillo del alba de Pavo, resina virid de Bramblecliff y Tela espectral de mina de escoria superior. Luego, visita la estación de equipamiento de nivel 3 para fabricar el sombrero de Sino protector.</string>
+	<string key="1303_1311_05_Hat_task_01" VO_Status="Needs Recording">Receta entregada.</string>
+	<string key="1303_1311_05_Hat_task_02" VO_Status="Needs Recording">Viaja a {POITags} en Edengrove para conseguir presagios con el brillo del alba</string>
+	<string key="1303_1311_05_Hat_task_03" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_05_Hat_task_04" VO_Status="Needs Recording">Viaja a {POITags} en Edengrove para conseguir resina virid</string>
+	<string key="1303_1311_05_Hat_task_05" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_05_Hat_task_06" VO_Status="Needs Recording">Viaja a {POITags} en Edengrove para conseguir tela espectral</string>
+	<string key="1303_1311_05_Hat_task_07" VO_Status="Needs Recording">Recolecta {itemName} de enemigos {targetName}</string>
+	<string key="1303_1311_05_Hat_task_08" VO_Status="Needs Recording">Visita una estación de equipamiento</string>
+	<string key="1303_1311_05_Hat_task_09" VO_Status="Needs Recording">Fabrica {itemName}</string>
+	<string key="1302_1312_d_01_Task_Goto" speaker="UI" VO_Status="Needs Recording">Viaja a {POITags}</string>
+</resources>
+
