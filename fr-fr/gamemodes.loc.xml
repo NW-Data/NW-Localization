@@ -12,15 +12,18 @@
 	<string key="ui_dungeon_enter_info">&lt;font color={color}&gt;Une personne au moins&lt;/font&gt; doit entrer pour que l'expédition reste ouverte. Voulez-vous vous téléporter à l'intérieur ?</string>
 	<string key="ui_dungeon_enter_info_solo">&lt;font color={color}&gt;L'Épreuve de l'âme est disponible&lt;/font&gt;. Voulez-vous vous téléporter à l'intérieur ?</string>
 	<string key="ui_dungeon_enter_info_raidtrial">&lt;font color={color}&gt;Une personne au moins&lt;/font&gt; doit entrer pour que l'épreuve d'élite reste ouverte. Voulez-vous vous téléporter à l'intérieur ?</string>
+	<string key="ui_dungeon_enter_info_seasontrial" rel_version="Season_2_Trial">&lt;font color={color}&gt;Une personne au moins&lt;/font&gt; doit entrer pour que l'épreuve de saison reste ouverte. Voulez-vous vous téléporter à l'intérieur ?</string>
 	<string key="ui_dungeon_enter_info_entered">L'expédition est ouverte !\n&lt;font color={color}&gt;Voulez-vous vous y téléporter ?&lt;/font&gt;</string>
 	<string key="ui_dungeon_enter_info_entered_solo">&lt;font color={color}&gt;L'Épreuve de l'âme est disponible&lt;/font&gt;. Voulez-vous vous téléporter à l'intérieur ?</string>
 	<string key="ui_dungeon_enter_info_entered_raidtrial">L'épreuve d'élite est ouverte !\n&lt;font color={color}&gt;Voulez-vous vous y téléporter ?&lt;/font&gt;</string>
+	<string key="ui_dungeon_enter_info_entered_seasontrial" rel_version="Season_2_Trial">L'épreuve de saison est ouverte !\n&lt;font color={color}&gt;Voulez-vous vous y téléporter ?&lt;/font&gt;</string>
 	<string key="ui_duel_player">Défier le joueur</string>
 	<string key="ui_duel_failmessage_invalidname">{playerName} n'est pas un nom de joueur valide.</string>
 	<string key="ui_duel_failmessage_outofrange">Impossible de défier à une escarmouche un joueur qui se trouve à plus de {distance} mètres.</string>
 	<string key="ui_duel_failmessage_alreadyinduel">Vous participez déjà à une escarmouche.</string>
 	<string key="ui_duel_failmessage_in_dungeon">Impossible de participer à une escarmouche dans une expédition.</string>
 	<string key="ui_duel_failmessage_in_dungeon_raidtrial">Impossible de participer à une escarmouche dans une épreuve d'élite.</string>
+	<string key="ui_duel_failmessage_in_dungeon_seasontrial" rel_version="Season_2_Trial">Impossible de participer à une escarmouche dans une épreuve de saison.</string>
 	<string key="ui_duel_failmessage_in_other_gamemode">Escarmouche impossible pour le moment.</string>
 	<string key="ui_duel_failmessage_pendinginvite">Vous avez déjà une autre invitation à une escarmouche en attente.</string>
 	<string key="ui_duel_failmessage_deathsdoor">Impossible de participer à une escarmouche alors que vous êtes aux portes de la mort.</string>
@@ -102,7 +105,7 @@
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} joueurs</string>
 	<string key="ui_outpost_rush_signup_failsolo">Vous êtes actuellement dans un groupe et ne pouvez pas rejoindre la partie en solo.</string>
 	<string key="ui_outpost_rush_signup_failgroup">Vous n'êtes pas dans un groupe.</string>
-	<string key="ui_outpost_rush_signup_failgroupinvite">Vous avez actuellement une invitation dans le salon d'une expédition ou d'une épreuve d'élite.</string>
+	<string key="ui_outpost_rush_signup_failgroupinvite">Vous avez une invitation en attente.</string>
 	<string key="ui_outpost_rush_signup_faillevel">Niveau de joueur {levelRequirement} &lt;font color="#f10000"&gt;requis&lt;/font&gt;</string>
 	<string key="ui_outpost_rush_signup_failwar">Vous ne pouvez pas vous inscrire car vous participez déjà à une guerre à venir qui commence d'ici une heure.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Vous ne pouvez pas vous inscrire car vous participez déjà à {matchname}.</string>
@@ -119,6 +122,7 @@
 	<string key="ui_outpost_rush_signup_failgrouptimeout">Un ou plusieurs membres de votre groupe n'ont pas répondu à l'invitation.</string>
 	<string key="ui_outpost_rush_signup_failgroupfinder">Un ou plusieurs membres de votre groupe sont dans un salon.</string>
 	<string key="ui_outpost_rush_signup_failpenalty">Une pénalité s'applique car vous avez quitté un match en cours.</string>
+	<string key="ui_outpost_rush_signup_failgrouppendinginvite">Un ou plusieurs membres de votre groupe ont une invitation en attente.</string>
 	<string key="ui_outpost_rush_signup_penaltytimer">Durée de la pénalité : {time}</string>
 	<string key="ui_outpost_rush_signup_joingroup_desc">Vous ne pourrez plus ajouter de membres à votre groupe une fois celui-ci dans la file d'attente.</string>
 	<string key="ui_outpost_rush_signup_joingroup_accept">Oui, nous sommes prêts</string>
@@ -146,10 +150,10 @@
 	<string key="ui_outpost_rush_match_started">Le combat a commencé</string>
 	<string key="ui_outpost_rush_match_started_desc">Capturez des avant-postes et tuez les ennemis pour marquer des points. La première équipe à atteindre {value} points l'emporte !</string>
 	<string key="ui_outpost_rush_score_to_win">{value} requis pour gagner</string>
-	<string key="ui_outpost_rush_leave">Quitter la Déferlante</string>
-	<string key="ui_outpost_rush_leave_queue_title">Quitter la file de la Déferlante ?</string>
+	<string key="ui_outpost_rush_leave">Quitter</string>
+	<string key="ui_outpost_rush_leave_queue_title">Quitter la file d'attente</string>
 	<string key="ui_outpost_rush_leave_queue_desc">Voulez-vous vraiment quitter la file de la Déferlante ?</string>
-	<string key="ui_outpost_rush_leave_title">Quitter la Déferlante ?</string>
+	<string key="ui_outpost_rush_leave_title">Quitter</string>
 	<string key="ui_outpost_rush_leave_desc">Voulez-vous vraiment quitter la Déferlante ?</string>
 	<string key="ui_outpost_rush_leave_desc_time">Voulez-vous vraiment quitter la Déferlante ?\nVous ne pourrez plus rejoindre la file d'attente de la Déferlante avant {time}.</string>
 	<string key="ui_outpost_rush_leave_group_desc_time">Voulez-vous vraiment rejoindre un autre groupe ?\nEn quittant votre groupe, vous quitterez la Déferlante.\nVous ne pourrez plus rejoindre la file d'attente de la Déferlante avant {time}.</string>
@@ -159,6 +163,12 @@
 	<string key="ui_outpost_rush_boss">Baronne Hain</string>
 	<string key="ui_outpost_rush_boss_alive">VIVANT</string>
 	<string key="ui_outpost_rush_boss_alive_in">La Baronne Hain apparaîtra dans :</string>
+	<string key="ui_outpost_rush_corrupted_portal_encounter">Portail d'altération</string>
+	<string key="ui_outpost_rush_corrupted_portal_active">ACTIF</string>
+	<string key="ui_outpost_rush_corrupted_portal_active_in">Portail d'altération actif dans :</string>
+	<string key="ui_outpost_rush_corrupted_portal_started">Le portail d'altération est actif</string>
+	<string key="ui_outpost_rush_corrupted_portal_soon">Le portail d'altération sera bientôt actif</string>
+	<string key="ui_outpost_rush_corrupted_portal_finished">Le portail d'altération est fermé</string>
 	<string key="ui_outpost_rush_tutorial_how_it_works">Déroulement d'une Déferlante</string>
 	<string key="ui_outpost_rush_tutorial_title1">Capturer des avant-postes</string>
 	<string key="ui_outpost_rush_tutorial_title2">Collecter des ressources</string>
@@ -166,7 +176,7 @@
 	<string key="ui_outpost_rush_tutorial_title4">Tuer le boss</string>
 	<string key="ui_outpost_rush_tutorial_desc1">Capturez des avant-postes et tuez les ennemis pour marquer des points. La première équipe à atteindre 1 000 points l'emporte !</string>
 	<string key="ui_outpost_rush_tutorial_desc2">Collectez du bois, des peaux et du minerai imprégnés pour améliorer vos avant-postes en construisant des portes et des armes de siège. Construisez un poste de commande pour conférer de puissants bonus offensifs et défensifs à votre équipe.</string>
-	<string key="ui_outpost_rush_tutorial_desc3">Utilisez des pierres d'invocation pour invoquer de puissants alliés aux cercles d'invocation. Invoquez un ours en achetant une pierre à l'armurerie ou recrutez une brute ultrapuissante en offrant de l'Azoth au portail d'altération.</string>
+	<string key="ui_outpost_rush_tutorial_desc3">Utilisez des pierres d'invocation pour invoquer de puissants alliés aux cercles d'invocation. Invoquez un ours en venant à bout du puissant loup alpha ou recrutez une brute ultrapuissante en fermant le portail d'altération après en avoir triomphé.</string>
 	<string key="ui_outpost_rush_tutorial_desc4">La Baronne Hain est le fantôme d'une aristocrate morte depuis longtemps qui hante l'île. Tuez-la pour bénéficier d'une puissante amélioration qui augmente la défense de votre équipe et gèle le score de l'équipe ennemie !</string>
 	<string key="ui_outpost_rush_tutorial_level_requirement">&lt;font color="#ffe294"&gt;Niveau de joueur {level}&lt;/font&gt; requis pour prendre part aux Déferlantes.</string>
 	<string key="ui_outpost_rush_locked">Verrouillé</string>
@@ -187,6 +197,7 @@
 	<string key="ui_pinning_disabled_expeditions">Marquer/Ne pas marquer désactivé pour les objectifs d'expédition</string>
 	<string key="ui_pinning_disabled_expeditions_solo">Marquer/Ne pas marquer désactivé pour les objectifs d'Épreuve de l'âme</string>
 	<string key="ui_pinning_disabled_expeditions_raidtrial">Marquer/Ne pas marquer désactivé pour les objectifs d'épreuve d'élite</string>
+	<string key="ui_pinning_disabled_expeditions_seasontrial" rel_version="Season_2_Trial">Marquer/Ne pas marquer désactivé pour les objectifs d'épreuve de saison</string>
 	<string key="ui_or_commandpost_buff_on">Cette structure confère des bonus d'équipe.</string>
 	<string key="ui_or_commandpost_buff_off">À construire pour obtenir des bonus d'équipe.</string>
 	<string key="or_azoth_portal">Portail d'Azoth</string>
@@ -197,8 +208,8 @@
 	<string key="or_tutorial_rules_capture_body">Tenez-vous dans le cercle au centre d'un avant-poste pour le capturer.</string>
 	<string key="or_tutorial_rules_score_title">VOTRE ÉQUIPE PERD</string>
 	<string key="or_tutorial_rules_score_body">Capturez puis tenez des avant-postes et éliminez des joueurs ennemis pour augmenter le score de votre équipe.</string>
-	<string key="or_tutorial_rules_portal_title">DÉPOSEZ 750 ESSENCES D'AZOTH DANS LE PORTAIL D'ALTÉRATION</string>
-	<string key="or_tutorial_rules_portal_body">Déposez la 750e essence d'Azoth pour recevoir une pierre d'invocation altérée.</string>
+	<string key="or_tutorial_rules_portal_title">Triompher du portail d'altération et le fermer</string>
+	<string key="or_tutorial_rules_portal_body">Fermez le portail d'altération après en avoir triomphé pour recevoir une pierre d'invocation.</string>
 	<string key="or_tutorial_boss_spawn_title">LA BARONNE HAIN EST APPARUE</string>
 	<string key="or_tutorial_boss_spawn_body">Tuez-la pour obtenir une puissante amélioration défensive et geler le score ennemi pendant 3 minutes.</string>
 	<string key="or_tutorial_boss_near_title">LA BARONNE HAIN EST À PROXIMITÉ</string>
@@ -224,20 +235,22 @@
 	<string key="or_tutorial_summoning_reminder_title">UTILISEZ VOTRE PIERRE D'INVOCATION</string>
 	<string key="or_tutorial_summoning_reminder_body">Rendez-vous à un cercle d'invocation inoccupé pour invoquer un puissant allié.</string>
 	<string key="or_tutorial_summoning_findstone_title">IL VOUS FAUT UNE PIERRE D'INVOCATION</string>
-	<string key="or_tutorial_summoning_findstone_body">Achetez-en une à l'armurerie, tuez Ug ou Dug dans les mines, ou offrez 750 essences d'Azoth au portail d'altération.</string>
+	<string key="or_tutorial_summoning_findstone_body">Éliminez le loup alpha à la tanière des loups, Ug ou Dug dans les mines, ou fermez le portail d'altération après en avoir triomphé.</string>
 	<string key="or_tutorial_summoning_nostone_title">TROUVEZ UNE PIERRE D'INVOCATION ET RÉESSAYEZ</string>
-	<string key="or_tutorial_summoning_nostone_body">Achetez-en une à l'armurerie, tuez Ug ou Dug dans les mines, ou offrez 750 essences d'Azoth au portail d'altération.</string>
+	<string key="or_tutorial_summoning_nostone_body">Éliminez le loup alpha à la tanière des loups, Ug ou Dug dans les mines, ou fermez le portail d'altération après en avoir triomphé.</string>
 	<string key="or_tutorial_summoning_creature_title">LE CERCLE D'INVOCATION NE PEUT PAS ÊTRE RÉUTILISÉ TOUT DE SUITE</string>
 	<string key="or_tutorial_summoning_creature_body">Essayez d'en utiliser un autre ou attendez que celui-ci soit de nouveau disponible.</string>
 	<string key="emote_unable_to_use_emote">Impossible d'utiliser une émote dans ce mode de jeu.</string>
-	<string key="ui_durability_loss_outpost_rush">Vous êtes dans une Déferlante, votre équipement n'a pas été endommagé lors de votre mort.</string>
-	<string key="ui_durability_loss_war">Vous êtes en guerre (ou dans une invasion), votre équipement n'a pas été endommagé lors de votre mort.</string>
+	<string key="ui_durability_loss">Votre équipement n'a pas été endommagé lors de votre mort.</string>
+	<string key="ui_durability_loss_outpost_rush">Votre équipement n'a pas été endommagé lors de votre mort.</string>
+	<string key="ui_durability_loss_war">Votre équipement n'a pas été endommagé lors de votre mort.</string>
 	<string key="ui_item_durability_loss">Votre équipement a été endommagé lors de votre mort.</string>
-	<string key="ui_item_durability_dungeon">Vous êtes dans une expédition, votre équipement n'a pas été endommagé lors de votre mort.</string>
-	<string key="ui_item_durability_dungeon_solo">Vous êtes dans une Épreuve de l'âme, votre équipement n'a pas été endommagé lors de votre mort.</string>
-	<string key="ui_item_durability_dungeon_raidtrial">Vous êtes dans une épreuve d'élite, votre équipement n'a pas été endommagé lors de votre mort.</string>
-	<string key="ui_item_durability_arena" rel_version="Feature_PVP_Arenas">Vous êtes dans une arène, votre équipement n'a pas été endommagé lors de votre mort.</string>
-	<string key="ui_item_durability_loss_pvp">Vous avez été tué(e) par un autre joueur, votre équipement a subi des dégâts réduits.</string>
+	<string key="ui_item_durability_dungeon">Votre équipement n'a pas été endommagé lors de votre mort.</string>
+	<string key="ui_item_durability_dungeon_solo">Votre équipement n'a pas été endommagé lors de votre mort.</string>
+	<string key="ui_item_durability_dungeon_raidtrial">Votre équipement n'a pas été endommagé lors de votre mort.</string>
+	<string key="ui_item_durability_dungeon_seasontrial" rel_version="Season_2_Trial">Votre équipement n'a pas été endommagé lors de votre mort.</string>
+	<string key="ui_item_durability_arena" rel_version="Feature_PVP_Arenas">Votre équipement n'a pas été endommagé lors de votre mort.</string>
+	<string key="ui_item_durability_loss_pvp">Vous avez succombé face à un autre joueur et votre équipement a subi des dégâts réduits.</string>
 	<string key="ui_in_spectators_box">Dans la zone des spectateurs</string>
 	<string key="ui_in_spectators_box_description">Capacités désactivées</string>
 	<string key="ui_in_spectators_moving_to">Déplacement dans la zone des spectateurs dans {seconds}s</string>
@@ -255,8 +268,10 @@
 	<string key="ui_switching_sides">Changement de côté</string>
 	<string key="ui_rounds_won">Manches gagnées</string>
 	<string key="ui_see_through_label">Mode transparent</string>
-	<string key="ui_invasion_leave">Quitter l'invasion</string>
+	<string key="ui_invasion_leave">Quitter</string>
 	<string key="ui_matchmaking_ready_title">Combat prêt</string>
 	<string key="ui_matchmaking_ready_text">Le &lt;font color={color}&gt;combat que vous attendiez&lt;/font&gt; est prêt. Voulez-vous vous téléporter à l'intérieur ?</string>
+	<string key="dungeon_how_to_raid">Guide d'assaut</string>
+	<string key="dungeon_entry_requirements">Conditions d'accès</string>
 </resources>
 

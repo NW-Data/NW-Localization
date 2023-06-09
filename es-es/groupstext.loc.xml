@@ -10,7 +10,7 @@
 	<string key="ui_receivedgroupinvite_decline" comment="">Rechazar</string>
 	<string key="ui_receivedgroupinvite_hide" comment="">Ocultar</string>
 	<string key="ui_togglepvpblocked_title" comment="">Aviso de activación para JcJ</string>
-	<string key="ui_togglepvpblocked_pvpinactive" rel_version="Feature_Alt_Character_Protection" comment="">Ahora mismo no puedes activarte en JcJ porque estás inactivo en JcJ. Podrás cambiar al modo activo en JcJ en: {timeRemainingShorthand}</string>
+	<string key="ui_togglepvpblocked_pvpinactive" rel_version="Feature_Alt_Character_Protection" comment="">Ahora mismo no puedes activarte en JcJ porque estás inactivo en JcJ. Podrás cambiar al modo activo en JcJ en {timeRemainingShorthand}.\nSi has borrado tu personaje del modo activo en JcJ hace poco, espera 15 minutos y vuelve a entrar para activarlo para JcJ.</string>
 	<string key="ui_togglepvpblocked_pvpinactive_canswitch" rel_version="Feature_Alt_Character_Protection" comment="">Ahora mismo no puedes activarte en JcJ porque estás inactivo en JcJ. ¿Quieres cambiar al modo activo en JcJ? \n\n Si lo haces, tu personaje de JcJ actual dejará de participar en todas las guerras en las que esté registrado y perderá todas las misiones de JcJ activas.</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">No puede haber jugadores de JcJ y JcE en un mismo grupo. Cambiar tu activación para JcJ supondrá la expulsión de este grupo.\n\n¿Seguro que quieres continuar?</string>
 	<string key="ui_togglepvpblocked_pendinginvites" comment="">Cambiar tu activación para JcJ supondrá la cancelación de todas tus invitaciones de grupo pendientes.\n\n¿Seguro que quieres continuar?</string>
@@ -157,25 +157,25 @@
 	<string key="ui_ping_type_chat_NeedHelp" comment="">{playerName} ha enviado un aviso de auxilio</string>
 	<string key="ui_ping_type_chat_NeedHealing" comment="">{playerName} ha enviado un aviso de curación</string>
 	<string key="ui_ping_type_chat_NeedRevive" comment="">{playerName} ha enviado un aviso de resurrección</string>
-	<string key="ui_shout_ping_notification_Danger" comment="">Alerta de ejército - Peligro</string>
-	<string key="ui_shout_ping_notification_Move" comment="">Alerta de ejército - Destino</string>
-	<string key="ui_shout_ping_notification_Attack" comment="">Alerta de ejército - Ataque</string>
-	<string key="ui_shout_ping_notification_Defend" comment="">Alerta de ejército - Defensa</string>
-	<string key="ui_shout_ping_notification_Caution" comment="">Alerta de ejército - Precaución</string>
-	<string key="ui_shout_ping_notification_Someone" comment="">Alerta de ejército - Presencia</string>
-	<string key="ui_shout_ping_notification_Loot" comment="">Alerta de ejército - Botín</string>
-	<string key="ui_shout_ping_notification_Repair" comment="">Alerta de ejército - Reparación</string>
-	<string key="ui_ping_type_notification_NeedHelp" comment="">Alerta de ejército - Auxilio</string>
-	<string key="ui_ping_type_notification_NeedHealing" comment="">Alerta de ejército - Curación</string>
+	<string key="ui_shout_ping_notification_Danger" comment="">Alerta de incursión - Peligro</string>
+	<string key="ui_shout_ping_notification_Move" comment="">Alerta de incursión - Destino</string>
+	<string key="ui_shout_ping_notification_Attack" comment="">Alerta de incursión - Ataque</string>
+	<string key="ui_shout_ping_notification_Defend" comment="">Alerta de incursión - Defensa</string>
+	<string key="ui_shout_ping_notification_Caution" comment="">Alerta de incursión - Precaución</string>
+	<string key="ui_shout_ping_notification_Someone" comment="">Alerta de incursión - Presencia</string>
+	<string key="ui_shout_ping_notification_Loot" comment="">Alerta de incursión - Botín</string>
+	<string key="ui_shout_ping_notification_Repair" comment="">Alerta de incursión - Reparación</string>
+	<string key="ui_ping_type_notification_NeedHelp" comment="">Alerta de incursión - Auxilio</string>
+	<string key="ui_ping_type_notification_NeedHealing" comment="">Alerta de incursión - Curación</string>
 	<string key="ui_pingTypeDistance" comment="">{pingType} {distance}</string>
-	<string key="ui_raid_war_header" comment="">Ejército de guerra</string>
+	<string key="ui_raid_war_header" comment="">Grupos del ejército</string>
 	<string key="ui_raid_invasion_header" comment="">Ejército de invasión</string>
 	<string key="ui_raid_standby_header" comment="">EN ESPERA</string>
 	<string key="ui_raid_armygroups" comment="">Ejército</string>
 	<string key="ui_raid_backfill" comment="">Sustitución</string>
-	<string key="ui_raid_your_status" comment="">Tu estado</string>
+	<string key="ui_raid_your_status" comment="">Tu estado:</string>
 	<string key="ui_raid_standby_priority" comment="">PRIORITARIO</string>
-	<string key="ui_raid_group_header" comment="">Grupo &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_raid_group_header" comment="">Grupo &lt;font face="lyshineui/fonts/nimbus_regular.font"&gt;{index}&lt;/font&gt;</string>
 	<string key="ui_raid_group_disabled_tooltip" comment="">Las guerras tienen {maxRosterMembers} jugadores como máximo. No puedes añadir más jugadores a este grupo.</string>
 	<string key="ui_raid_group_disabled_notification" comment="">Grupo desactivado por alcanzar la cantidad máxima de cambios en la cuadrilla.</string>
 	<string key="ui_raid_max_roster_changed_tooltip" comment="">Las guerras tienen {maxRosterMembers} jugadores como máximo. No puedes añadir más jugadores.</string>
@@ -190,7 +190,7 @@
 	<string key="ui_raid_selections_remaining" comment="">La compañía gobernante puede seleccionar solo a {remainingSelections} jugadores.</string>
 	<string key="ui_raid_auto_select_countdown" comment="">{totalAutoSelections} jugadores se seleccionarán automáticamente en función de la prioridad en {timeRemaining}.</string>
 	<string key="ui_raid_standby_description" comment="">Espera hasta que la compañía te seleccione para unirte a su ejército.</string>
-	<string key="ui_raid_selected_description" comment="">Conéctate &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;antes de las {time} del {date}&lt;/font&gt;&lt;/font&gt;. Si no te conectas a esta hora, perderás tu plaza.</string>
+	<string key="ui_raid_selected_description" comment="">Si no estás conectado el &lt;font color="#edc63e"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{date} a las {time}&lt;/font&gt;&lt;/font&gt;, perderás tu plaza.</string>
 	<string key="ui_raid_not_signedup_remote_description" comment="">No te has registrado para esta guerra. ¡Ve a un tablero de guerra para unirte!</string>
 	<string key="ui_raid_not_signedup_description" comment="">No te has registrado para esta guerra. ¡Únete a la guerra!</string>
 	<string key="ui_invasion_standby_description" comment="">Conéctate a las {time} del {date}. Los jugadores se seleccionarán aleatoriamente a esa hora.</string>
@@ -208,12 +208,87 @@
 	<string key="ui_kick_army" comment="">Expulsar de la guerra</string>
 	<string key="ui_kicked_from_army" comment="">Se te ha expulsado del ejército.</string>
 	<string key="ui_invasion_at" comment="">Invasión:</string>
-	<string key="ui_army_menu" comment="">Menú del ejército</string>
+	<string key="ui_army_menu" comment="">Menú de incursión</string>
 	<string key="ui_raid_kick_confirmation_title">Expulsando a {player}</string>
 	<string key="ui_raid_kick_confirmation_message">¿Seguro que quieres expulsar a &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{player}&lt;/font&gt;?</string>
 	<string key="ui_raid_kick_confirmation_yes">Confirmar</string>
 	<string key="ui_raid_kick_confirmation_no">Cancelar</string>
 	<string key="ui_raid_ban_confirmation_title">Bloqueando a {player}</string>
 	<string key="ui_raid_ban_confirmation_message">¿Seguro que quieres bloquear y expulsar a &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{player}&lt;/font&gt;?</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid">Invitar a la incursión</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid_groupprioritysubtext">El grupo {groupIndex} se llenará primero con los jugadores invitados.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_invitetopveraid_tooltip" comment="">Invitar a una incursión JcE\n\n. Puedes invitar a jugadores que no pertenezcan a tu facción y que tampoco estén activados para JcJ.\n- No puede haber jugadores de JcJ y JcE en una misma incursión.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_invitetopvpraid_tooltip" comment="">Invitar a una incursión JcJ\n\n- Solo puedes invitar a jugadores de tu misma facción.\n- No puede haber jugadores de JcJ y JcE en una misma incursión.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_cannotinviteraidfull" comment="">Tu incursión ya está llena.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_cannotinviteraidfullforgamemode" comment="">No puede haber más jugadores en tu incursión para este modo de juego.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_cannotinviteraidnopermission" comment="">No tienes autorización para invitar a esta incursión.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raidinviteacceptreceivedmessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; ha aceptado tu invitación de incursión.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raidinvitedeclinereceivedmessage" comment="">&lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; ha rechazado tu invitación de incursión.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid">Convertir en incursión</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_tooltip">Convierte en incursión de {maxRaidSize} jugadores</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_join_raid">Se unió al incursión.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_moved_in_raid">Se te ha enviado al grupo {number}</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_popup_title">Convertir en incursión</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_popup_message">Las incursiones son para grupos de jugadores. Se parecen a los grupos pero permiten más jugadores y características de organización.\n\n¿Quieres empezar una votación para convertir tu grupo en una incursión?</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_popup_message_no_vote">Las incursiones son para grupos de jugadores. Se parecen a los grupos pero permiten más jugadores y características de organización.\n\n¿Quieres convertir tu grupo en una incursión?</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_full_group_popup_message">Tu grupo está lleno.\n\nUna incursión te permite invitar hasta a {maxRaidSize} jugadores. Tú serás general.\n\n¿Quieres convertir tu grupo en una incursión?\n\nNota: Algunos modos de juego no permiten más de 5 jugadores.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_choice_title">Votar para convertir en incursión</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_choice_text">&lt;font color={color}&gt;{fromPlayerName}&lt;/font&gt; ha iniciado una votación para convertir un grupo en una incursión y ser líder. ¿Quieres intervenir?</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_choice_accept">Aceptar (predeterminado)</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_choice_decline">Rechazar</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_started_vote">Has iniciado el proceso para convertir un grupo en una incursión.\n\nEsperando al resto...</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_ended_not_converted">Tu grupo no se ha convertido en incursión.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_ended_timed_out">La votación ha caducado.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_error_in_progress">Ya hay una votación en curso.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_error_too_frequent">Se ha iniciado una votación hace demasiado poco. Inténtalo de nuevo más tarde.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_error_too_frequent_no_vote">Se ha intentado convertir hace demasiado poco. Inténtalo de nuevo más tarde.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_error_not_in_progress">La votación ya no está en curso.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_convert_to_raid_error_already_voted">Ya has votado.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_cannot_convert_to_raid_in_arena">No puedes convertir en incursión mientras estás en una arena.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_cannot_convert_to_raid_in_dungeon">No puedes convertir en incursión mientras estás en una expedición.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_cannot_convert_to_raid_generic">No puedes convertir el grupo en incursión mientras esté en este modo de juego.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_cannot_join">No puedes unirte mientras estés en un grupo de incursión.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raidinvitesentmessage">Invitación de incursión enviada a &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt;.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitetitle_pvp">Invitación de incursión JcJ</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitetitle_pve">Invitación de incursión</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pvp">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te ha invitado a una incursión JcJ.\n¿Quieres aceptar?</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pve">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te ha invitado a una incursión JcE.\n¿Quieres aceptar?</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pvp_wrong_flag">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te ha invitado a una incursión JcJ.\nActiva el JcJ en un santuario para aceptar la invitación.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pve_wrong_flag">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te ha invitado a una incursión JcE.\nDesactiva el JcJ en un santuario para aceptar la invitación.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_acceptraidinviteblocked_pvp">Activa el JcJ en un santuario para aceptar esta invitación de incursión JcJ.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_acceptraidinviteblocked_pve">Desactiva el JcJ en un santuario para aceptar esta invitación de incursión JcE.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_faction_invite_error_pvp_raid">No puedes invitar a alguien de otra facción a una incursión JcJ.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_group_screen_header">Gestionar incursión</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_group_manage_hint">Gestionar incursión</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_raidgroups">Grupos</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_group_status_header">Opciones</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_group_your_role">Tu rol:</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_group_role_not_selected">Sin seleccionar</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_group_choose_role">Elegir rol</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_leave_raid_button">Abandonar incursión</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_leave_raid">Abandonar incursión</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_abandon_raid">Abandonar incursión</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raidgrouppopupmessage">¿Seguro que quieres salir de la incursión? Te tendrán que &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;volver a invitar&lt;/font&gt; para unirte de nuevo.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raidgroup_whatisraids">¿Qué es una incursión?</string>
+	<string rel_version="Feature_Raid_Groups" key="promote_to_leader_popup_title">Ascenso a general</string>
+	<string rel_version="Feature_Raid_Groups" key="promote_to_leader_popup_message">{player} ha ascendido a general. Se te degradará a teniente. ¿Seguro?</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_promote_to_leader_notification">Se ha degradado a {promoter}. {promotee} es ahora general.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_promote_to_leader_notification_SHE">Se ha degradado a {promoter}. {promotee} es ahora general.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_promote_to_leader_notification_THEY">Se ha degradado a {promoter}. {promotee} es ahora general.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_promotion_notification">Se ha ascendido a {name} a {newRank}.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_demotion_notification">Se ha degradado a {name} a {newRank}.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raidgroup_whatisraids_tooltip_trimmed">Una incursión permite un máximo de {maxRaidSize} jugadores por grupo en las actividades JcE y JcJ.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_pvp_raid" comment="">Incursión JcJ</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid" comment="">Asaltar</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_member" comment="">Grupo {groupNumber}, miembro de la incursion</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_manage_invite" comment="">Invitar</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_leftraidmessage" comment="">Incursión abandonada</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raidmemberleftmessage" comment="">&lt;font color="#ffd45f"&gt;{playerName}&lt;/font&gt; ha abandonado la incursión.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raidgeneralleftmessage" comment="">&lt;font color="#ffd45f"&gt;{oldGeneral}&lt;/font&gt; ha bajado de rango. &lt;font color="#ffd45f"&gt;{newGeneral}&lt;/font&gt; ha ascendido a general.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raidmemberkickedmessage" comment="">Se ha expulsado a &lt;font color="#ffd45f"&gt;{playerName}&lt;/font&gt; de la incursión.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_kickedfromraidpmessage" comment="">Se te ha expulsado de la incursión.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups">Ocultar otros grupos en el HUD</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups_tooltip">Oculta el resto de subgrupos en el HUD de la incursión y muestra solo tu grupo</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_raid_kick">Expulsar de la incursión</string>
 </resources>
 

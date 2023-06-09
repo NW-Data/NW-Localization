@@ -1,5 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="inv_DroppedItems">Objets lâchés</string>
+	<string key="inv_Dropped">Lâché(e)</string>
 	<string key="inv_Storage">Rangement</string>
 	<string key="inv_itemDamaged">{num} objet(s) gravement endommagé(s) Des réparations sont nécessaires.</string>
 	<string key="inv_itemBroken">{num} objet(s) brisé(s)</string>
@@ -116,7 +117,7 @@
 	<string key="fc_campingSiteLvl2">Bivouac de niveau II</string>
 	<string key="fc_campingSiteLvl3">Bivouac de niveau III</string>
 	<string key="fc_campingSiteLvl4">Bivouac de niveau IV</string>
-	<string key="fc_breakCampNotification">Maintenir [{value}] pour abandonner le bivouac</string>
+	<string key="fc_breakCampNotification">Maintenez {$ui.makeCampOn$} pour abandonner le bivouac.</string>
 	<string key="fc_makecamp">Installer le bivouac</string>
 	<string key="fc_breakcamp">Démonter le bivouac</string>
 	<string key="fc_weaponsectiontitle">Armes et outils</string>
@@ -128,8 +129,8 @@
 	<string key="fc_fieldcrafting">Fabrication sur le terrain</string>
 	<string key="fc_distance">Distance :</string>
 	<string key="fc_craftingErrorMessage">Vous n'avez pas les ressources nécessaires pour fabriquer cet objet.</string>
-	<string key="fc_campBroken">Bivouac abandonné</string>
-	<string key="ui_currency_self">Impossible de transférer de l'argent à soi-même</string>
+	<string key="fc_campBroken">Bivouac abandonné.</string>
+	<string key="ui_currency_self">Impossible de se transférer de l'argent à soi-même.</string>
 	<string key="ui_currency_nameinvalid">Nom de joueur incorrect</string>
 	<string key="ui_currency_namevalid">Nom de joueur correct</string>
 	<string key="ui_currency_offline">Joueur hors ligne</string>
@@ -151,10 +152,10 @@
 	<string key="ui_box_opening_open_another_single">Ouvrir suivant</string>
 	<string key="ui_box_opening_max_items_reached">+{quantity} objets</string>
 	<string key="ui_dropall">Tout lâcher</string>
-	<string key="ui_dropall_in_trade">Impossible de lâcher des objets lors des échanges</string>
+	<string key="ui_dropall_in_trade">Impossible de lâcher des objets lors des échanges.</string>
 	<string key="ui_transfer_all_filtered">Impossible de déplacer tous les objets de cette section tant qu'un filtre est appliqué.</string>
-	<string key="ui_storeall">Tout déplacer dans un abri de rangement</string>
-	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;UTILISATION DU FILTRE&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrer par&lt;/font&gt;\n• Nom d'objet\n• Score d'équipement minimum (par ex. : 100)\n• Palier minimum (par ex. : I)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Exemples&lt;/font&gt;\n• Épée 200\n• Hache I\n• Piolet -fer</string>
+	<string key="ui_storeall">Tout déplacer dans l'abri de rangement.</string>
+	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;UTILISATION DU FILTRE&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrer par&lt;/font&gt;\n• Nom d'objet (par ex. : Épée -Hache)\n• Atouts/Gemmes (par ex. : [Protection] -[Chance])\n• Score d'équipement minimum (par ex. : 100)\n• Palier minimum (par ex : I)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Exemples&lt;/font&gt;\n• Épée 200\n• Hache I\n• Piolet -fer\n• Mousquet [Électrifié]</string>
 	<string key="ui_filterText">Chercher</string>
 	<string key="ui_filterHeader">Filtrer objet</string>
 	<string key="ui_sort">Trier</string>
@@ -193,7 +194,7 @@
 	<string key="inv_TargetOutsideLos">Aucune cible dans le champ de vision</string>
 	<string key="inv_moreItems">&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{value}&lt;/font&gt; objets de plus</string>
 	<string key="lo_name" comment="This key needs to be short to be used directly as a loadout name." rel_version="Feature_Gear_Set_Storage">Ens. équip.</string>
-	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">ENSEMBLES D'ÉQUIPEMENT</string>
+	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">ENS. D'ÉQUIPEMENT</string>
 	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">ENSEMBLES D'ÉQUIPEMENT</string>
 	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Les objets dans les ensembles d'équipement ne font pas partie de votre inventaire et ne sont pas pris en compte dans votre poids d'inventaire ou de rangement.</string>
 	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Ajouter à l'ensemble d'équipement</string>

@@ -1,13 +1,13 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="ui_abandon" comment="Abandon House">Dieses Haus aufgeben</string>
+	<string key="ui_abandon" comment="Abandon House">Haus aufgeben</string>
 	<string key="ui_house_abandon_confirm_button" comment="Abandon House">Haus aufgeben</string>
 	<string key="ui_house_abandon_confirm_placeholder_text" comment="Abandon House">Gib den Gebietsnamen ein.</string>
 	<string key="ui_house_abandon_notification" comment="Abandon House">Du hast dein Haus {houseName} aufgegeben.</string>
 	<string key="ui_house_abandon_popup_desc" comment="Abandon House">In dieser Stadt besitzt du bereits ein Haus.\nMöchtest du {houseName} aufgeben, um dieses Haus zu kaufen?\nSämtliche Trophäen und Möbel aus dem aufgegebenen Haus werden ins Stadtlager gebracht.</string>
 	<string key="ui_house_abandon_popup_title" comment="Abandon House">Du kannst in jeder Stadt nur ein Haus haben.</string>
-	<string key="ui_house_abandon_this_house_desc" comment="Abandon House">Wenn du dieses Haus aufgibst, werden dir {percent} % des ursprünglichen Kaufpreises rückerstattet. Sämtliche Trophäen und Möbel aus dem Haus werden ins Stadtlager gebracht.</string>
-	<string key="ui_house_abandon_this_popup_desc" comment="Abandon House">&lt;font color="#f25d5d"&gt;Wenn du dieses Haus aufgibst, werden dir {percent} % des ursprünglichen Kaufpreises rückerstattet.&lt;/font&gt;\nSämtliche Trophäen und Möbel aus dem verlassenen Haus werden ins Stadtlager gebracht.\n\nWenn du fortfahren möchtest, gib unten {territoryName} ein.</string>
-	<string key="ui_house_abandon_this_popup_title" comment="Abandon House">Haus aufgeben?</string>
+	<string key="ui_house_abandon_this_house_desc" comment="Abandon House">{percent} % des ursprünglichen Kaufpreises werden rückerstattet. Sämtliche Trophäen und Möbel aus dem Haus werden in den Lagerschuppen gebracht.</string>
+	<string key="ui_house_abandon_this_popup_desc" comment="Abandon House">{percent} % des ursprünglichen Kaufpreises werden rückerstattet. Sämtliche Trophäen und Möbel aus dem Haus werden in den Lagerschuppen gebracht.\n\nZum Fortfahren unten {territoryName} eingeben.</string>
+	<string key="ui_house_abandon_this_popup_title" comment="Abandon House">Haus aufgeben</string>
 	<string key="ui_house_abandon_no_storage_warning" comment="Abandon House">Du musst mindestens einen freien Platz in deinem Siedlungsspeicher haben, um alle Gegenstände aus deinem Haus zu entfernen.</string>
 	<string key="ui_cannot_reset_travel_currency" comment="Fast Travel">Zahle {coin} &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.5" yOffset="1"&gt;&lt;/img&gt;, um die Abklingzeit zurückzusetzen.</string>
 	<string key="ui_cannot_travel_currency" comment="Fast Travel">{coin} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; zum Schnellreisen erforderlich.</string>
@@ -64,7 +64,7 @@
 	<string key="ui_house" comment="House Plots">Haus</string>
 	<string key="ui_house_already_owned" comment="House Plots">In Besitz</string>
 	<string key="ui_house_max_home_owned_on_territory" comment="House Plots">Max. Anzahl Häuser im Gebiet</string>
-	<string key="ui_house_menu" comment="House Plots">Mein Haus verwalten</string>
+	<string key="ui_house_menu" comment="House Plots">Unterhaltskosten</string>
 	<string key="ui_house_preview" comment="House Plots">Vorschau</string>
 	<string key="ui_house_price" comment="House Plots">Preis</string>
 	<string key="ui_house_type" comment="House Plots">Typ</string>
@@ -78,7 +78,7 @@
 	<string key="ui_housing_next_due_in" comment="House Plots">Fällig in</string>
 	<string key="ui_housing_select_house" comment="House Plots">Haus zur Ansicht auswählen</string>
 	<string key="ui_housing_time_calculating" comment="House Plots">Berechnung ...</string>
-	<string key="ui_housing_time_to_recompute" comment="House Plots">Diese Liste wird in &lt;font color="#ffffff"&gt;{time}&lt;/font&gt; aktualisiert.</string>
+	<string key="ui_housing_time_to_recompute" comment="House Plots">Wird aktualisiert in &lt;font color="#EBE3D6"&gt;{time}&lt;/font&gt;</string>
 	<string key="ui_housing_update_time" comment="House Plots">Diese Liste wird in {time} aktualisiert.</string>
 	<string key="ui_max_homes_owned" comment="House Plots">Max. Anzahl an Häusern im Besitz</string>
 	<string key="ui_max_homes_owned_territory" comment="House Plots">Max. Anzahl an Häusern im Besitz in diesem Gebiet</string>
@@ -88,7 +88,7 @@
 	<string key="ui_my_house_map_title" comment="House Plots">Mein Haus</string>
 	<string key="ui_my_houses_map_title" comment="House Plots">Meine Häuser</string>
 	<string key="ui_no_home_owners" comment="House Plots">Leeres Haus</string>
-	<string key="ui_owner_list" comment="House Plots">Eigentümer</string>
+	<string key="ui_owner_list" comment="House Plots">Hausbesitzer</string>
 	<string key="ui_red_button_housing_disabled" comment="House Plots">Aufgrund von Wartungsarbeiten ist die Behausung zurzeit deaktiviert.</string>
 	<string key="ui_red_button_housing_disabled_title" comment="House Plots">Behausung deaktiviert</string>
 	<string key="ui_residence" comment="House Plots">Wohnsitz von {playerName}</string>
@@ -123,8 +123,9 @@
 	<string key="ui_context_menu_hint" comment="Housing Hints">Optionen</string>
 	<string key="ui_house_hint_decorate" comment="Housing Hints">Dekorieren</string>
 	<string key="ui_house_hint_exit" comment="Housing Hints">Verlassen</string>
-	<string key="ui_house_hint_menu" comment="Housing Hints">Menü</string>
-	<string key="ui_house_hint_tips" comment="Housing Hints">Tipps</string>
+	<string key="ui_house_hint_menu" comment="Housing Hints">Unterhaltskosten</string>
+	<string key="ui_house_hint_tips" comment="Settings">Behausung, Hilfe</string>
+	<string key="ui_house_hint_tips_bar" comment="Housing Hints">Hilfe</string>
 	<string key="ui_house_hud_hint" comment="Housing Hints">Du bist für andere Spieler unsichtbar.</string>
 	<string key="ui_housing_grid_snap_hint" comment="Housing Hints">Rasterplatzierung</string>
 	<string key="ui_housing_grid_snap_hint_colon" comment="Housing Hints">Rasterplatzierung:</string>
@@ -143,7 +144,7 @@
 	<string key="ui_housing_item_score" comment="Housing Score/Points">Dekorationspunktzahl</string>
 	<string key="ui_housing_point_tooltip" comment="Housing Score/Points">Die 20 Häuser mit den meisten Hauspunkten werden in dieser Liste alle zwei Tage aktualisiert. Die Hauspunkte werden anhand des Gebietsrufs des Spielers und der im Haus platzierten Möbel berechnet.</string>
 	<string key="ui_num_housing_points" comment="Housing Score/Points">{points} Punkte</string>
-	<string key="ui_cant_pay_property_tax" comment="Housing Taxes">Zahlung möglich in: {time}</string>
+	<string key="ui_cant_pay_property_tax" comment="Housing Taxes">Nächste Zahlung: {time}</string>
 	<string key="ui_decoration_mode_unpaid" comment="Housing Taxes">Um dein Heim dekorieren zu können, musst du Steuern zahlen.</string>
 	<string key="ui_house_compensation_message_JAV141577" comment="Housing Taxes">Aufgrund inkorrekter Benachrichtigungen zu Steuern für erstmalige Hauskäufer wurden dir als Hauskäufer {amount}&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; bewilligt. Wir hoffen, dass du weiterhin Spaß mit New World hast und dir dein neues Zuhause gefällt.</string>
 	<string key="ui_house_overdue_at" comment="Housing Taxes">Grundstückssteuer für {territoryName} ist überfällig. Entrichte die Grundstückssteuer, um dein Haus benutzen zu können.</string>
@@ -157,12 +158,12 @@
 	<string key="ui_house_unpaid_taxes_due_soon" comment="Housing Taxes">Grundstückssteuer für {territoryName} fällig in: {time}. Entrichte die Grundstückssteuer, um weiterhin Behausungsfunktionen verwenden zu können.</string>
 	<string key="ui_house_unpaid_taxes_string" comment="Housing Taxes">Dein Haus (nicht verfügbar)</string>
 	<string key="ui_housing_disabled_tooltip" comment="Housing Taxes">Dein Haus ist nicht verfügbar. Entrichte die Grundstückssteuer, um dein Haus zu aktivieren.</string>
-	<string key="ui_housing_pay_taxes" comment="Housing Taxes">Grundstückssteuer</string>
+	<string key="ui_housing_pay_taxes" comment="Housing Taxes">Unterhaltskosten</string>
 	<string key="ui_pay_house_tax_fail" comment="Housing Taxes">Fehler beim Bezahlen der Grundstückssteuer für das Haus. Versuche es bitte erneut.</string>
 	<string key="ui_pay_property_tax" comment="Housing Taxes">Grundstückssteuer</string>
 	<string key="ui_pay_property_tax_desc" comment="Housing Taxes">Entrichte die Grundstückssteuer über die Karte oder an deinem Haus.</string>
 	<string key="ui_pay_property_tax_popup_desc" comment="Housing Taxes">Für Rückrufe in dein Haus, um dort zu respawnen und es dekorieren zu können, musst du Grundstückssteuer entrichten.\nDie Grundstückssteuer ist {firstCycle} nach dem Kauf fällig und danach alle {otherCycle}.</string>
-	<string key="ui_property_tax" comment="Housing Taxes">Grundstückssteuer</string>
+	<string key="ui_property_tax" comment="Housing Taxes">Immobilienverwaltung</string>
 	<string key="ui_property_tax_amount_desc" comment="Housing Taxes">Wiederkehrender Grundstückssteuerbetrag</string>
 	<string key="ui_property_tax_desc" comment="Housing Taxes">Entrichte die wiederkehrende Grundstückssteuer, um die Behausungsfunktionen weiterhin nutzen zu können.</string>
 	<string key="ui_property_tax_disabled" comment="Housing Taxes">Grundstückssteuer wurde deaktiviert.</string>
@@ -173,7 +174,7 @@
 	<string key="ui_your_house_desc" comment="Housing Taxes">Solange du die Grundstückssteuer bezahlst, kannst du immer einen Rückruf oder Respawn in deinem Haus durchführen.</string>
 	<string key="ui_house_type_trophies" comment="Housing Trophy Buffs">Plätze</string>
 	<string key="ui_housing_trophy_buff" comment="Housing Trophy Buffs">Trophäen</string>
-	<string key="ui_housing_trophy_buff_desc" comment="Housing Trophy Buffs">Hier erhältst du Boni.</string>
+	<string key="ui_housing_trophy_buff_desc" comment="Housing Trophy Buffs">Bringt Boni</string>
 	<string key="ui_housing_trophy_buff_desc_tooltip" comment="Housing Trophy Buffs">Die Trophäe inspiriert dich, wenn du sie bei dir zu Hause aufstellst.</string>
 	<string key="ui_housing_trophy_buffs" comment="Housing Trophy Buffs">Trophäen-\nboni</string>
 	<string key="ui_housing_trophy_buffs_disabled" comment="Housing Trophy Buffs">Trophäenboni (deaktiviert)</string>
@@ -230,7 +231,7 @@
 	<string key="ui_house_purchase_standing_bonus_requirement" comment="Purchase House">{standingName} Hauseigentumsbonus</string>
 	<string key="ui_house_purchase_standing_requirement" comment="Purchase House">Rufstufe {standingValue} ({standingName})</string>
 	<string key="ui_house_purchased" comment="Purchase House">Haus gekauft!</string>
-	<string key="ui_house_purchased_detail" comment="Purchase House">Glückwunsch, du &lt;font color="#FFFFFF"&gt;besitzt jetzt ein Haus&lt;/font&gt; in &lt;font color="#F4D179"&gt;{settlementName}&lt;/font&gt;. Vergiss nicht, die Grundstückssteuer zu entrichten, um dein Haus nutzen zu können!</string>
+	<string key="ui_house_purchased_detail" comment="Purchase House">Glückwunsch, du bist jetzt Hausbesitzer in {settlementName}!\n\nEntrichte die wiederkehrende Grundstückssteuer, um die Behausungsfunktionen weiterhin nutzen zu können.</string>
 	<string key="ui_housing_purchase_house" comment="Purchase House">Haus kaufen</string>
 	<string key="ui_reward_type_community_goal_territory_standing" comment="Settlement">{amount} Gebietsruf</string>
 	<string key="ui_this_location" comment="Settlement">Dieser Standort</string>
@@ -240,7 +241,7 @@
 	<string key="ui_inn" comment="Settlement Inn">Gasthof</string>
 	<string key="ui_inn_already_checked_in" comment="Settlement Inn">Oh, du bist in diesem Gasthof bereits angemeldet!\n\nDu kannst von überall in der Welt\nin diese Siedlung zurückkehren!</string>
 	<string key="ui_inn_check_in" comment="Settlement Inn">Im {territoryName}-Gasthof anmelden.</string>
-	<string key="ui_inn_check_in_desc" comment="Settlement Inn">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Willkommen im {territoryName}-Gasthof!&lt;/font&gt;&lt;/font&gt;\n\n Möchtest du dich &lt;font color="#f3d981"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;anmelden&lt;/font&gt;&lt;/font&gt;?\n\nSo kannst du von überall in der Welt\nhierher zurückkehren!</string>
+	<string key="ui_inn_check_in_desc" comment="Settlement Inn">&lt;font color="#EBE3D6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Willkommen im {territoryName}-Gasthof!&lt;/font&gt;&lt;/font&gt;\n\n Möchtest du dich &lt;font color="#f3d981"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;anmelden&lt;/font&gt;&lt;/font&gt;?\n\nSo kannst du von überall in der Welt\nhierher zurückkehren!</string>
 	<string key="ui_inn_checked_in" comment="Settlement Inn">{territoryName} ist jetzt dein Rückrufpunkt.</string>
 	<string key="ui_inn_fast_travel" comment="Settlement Inn">Rückruf in Gasthof</string>
 	<string key="ui_inn_fast_travel_notavailable" comment="Settlement Inn">Rückruf möglich in: {time}</string>
@@ -248,7 +249,7 @@
 	<string key="ui_inn_map_tooltip" comment="Settlement Inn">&lt;font color="#949494"&gt;&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;Nicht angemeldet&lt;/font&gt;&lt;/font&gt;\nMelde dich an, um einen Respawn- und Rückrufpunkt zu setzen.</string>
 	<string key="ui_inn_recall_from_esc_popup_confirm" comment="Settlement Inn">Rückruf in den Gasthof in {territoryName}?</string>
 	<string key="ui_inn_recall_popup_confirm" comment="Settlement Inn">Rückruf in diesen Gasthof?</string>
-	<string key="ui_inn_replace_desc" comment="Settlement Inn">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Willkommen im {territoryName}-Gasthof!&lt;/font&gt;&lt;/font&gt;\n\n Möchtest du dich &lt;font color="#f3d981"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;anmelden&lt;/font&gt;&lt;/font&gt;?\nSo kannst du von überall in der Welt\nhierher zurückkehren!\n\n&lt;font color="#f3d981"&gt;Ersetzt deinen derzeitigen Rückrufpunkt.&lt;/font&gt;</string>
+	<string key="ui_inn_replace_desc" comment="Settlement Inn">&lt;font color="#EBE3D6"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Willkommen im {territoryName}-Gasthof!&lt;/font&gt;&lt;/font&gt;\n\n Möchtest du dich &lt;font color="#f3d981"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;anmelden&lt;/font&gt;&lt;/font&gt;?\nSo kannst du von überall in der Welt\nhierher zurückkehren!\n\n&lt;font color="#f3d981"&gt;Ersetzt deinen derzeitigen Rückrufpunkt.&lt;/font&gt;</string>
 	<string key="ui_not_checked_in" comment="Settlement Inn">Melde dich im Gasthof an, um den Rückrufpunkt in dieser Siedlung zu aktivieren.</string>
 	<string key="ui_not_checked_in_escape_menu" comment="Settlement Inn">Melde dich in einem Gasthof an, um einen Rückrufpunkt zu aktivieren.</string>
 	<string key="ui_not_checked_in_outpost" comment="Settlement Inn">Melde dich im Gasthof an, um den Rückrufpunkt in diesem Außenposten zu aktivieren.</string>
@@ -259,10 +260,10 @@
 	<string key="ui_view_warinfo" comment="Territory Wars">Kriegsinformationen ansehen</string>
 	<string key="ui_housing_item_over_placement_no_points" comment="Placed Housing Items">Achtung: Du hast das Hauspunktelimit für diesen Gegenstand erreicht.</string>
 	<string key="ui_housing_item_over_placement_negative_points" comment="Placed Housing Items">Achtung: Wenn du denselben Behausungsgegenstand zu oft platzierst, zieht das negative Punkte nach sich.</string>
-	<string key="ui_remove_all_furniture_desc" comment="Remove All Furniture">Alle Möbel und Dekorationen in dein Siedlungslager bringen?</string>
-	<string key="ui_remove_all_furniture_button" comment="Remove All Furniture">Alle Möbel entfernen</string>
-	<string key="ui_remove_all_furniture_confirm_title" comment="Remove All Furniture">Alle Möbel entfernen?</string>
-	<string key="ui_remove_all_furniture_confirm_message" comment="Remove All Furniture">Sämtliche Trophäen und Möbel aus dem Haus werden ins Stadtlager gebracht.</string>
-	<string key="ui_house_remove_all_furniture_confirm_button" comment="Remove All Furniture">Alle Möbel entfernen</string>
+	<string key="ui_remove_all_furniture_desc" comment="Remove All Furniture">Alle Möbel und Dekorationen in den Lagerschuppen bringen?</string>
+	<string key="ui_remove_all_furniture_button" comment="Remove All Furniture">Alles entfernen</string>
+	<string key="ui_remove_all_furniture_confirm_title" comment="Remove All Furniture">Alles entfernen</string>
+	<string key="ui_remove_all_furniture_confirm_message" comment="Remove All Furniture">Sämtliche Trophäen und Möbel aus dem Haus werden in den Lagerschuppen gebracht.</string>
+	<string key="ui_house_remove_all_furniture_confirm_button" comment="Remove All Furniture">Alles entfernen</string>
 </resources>
 

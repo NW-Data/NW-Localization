@@ -2,8 +2,8 @@
 	<string key="mm_randomizetitle">Attention</string>
 	<string key="mm_randomizewarning">En modifiant aléatoirement votre personnage, les changements déjà apportés seront perdus. Voulez-vous continuer ?</string>
 	<string key="mm_deletechartitle">Supprimer personnage</string>
-	<string key="mm_deletecharwarning">&lt;font color="#ffffff"&gt;Voulez-vous vraiment supprimer {characterName} ?\n\nL'opération est irréversible. Vous perdrez tous les objets et la progression de ce personnage.\n\nUne fois supprimé, vous disposez de &lt;font color={highlightColor}&gt;7 jours&lt;/font&gt; pour contacter le service client si vous désirez restaurer votre personnage.&lt;/font&gt;\n&lt;font color="#cccccc" face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(Vous garderez les objets que vous avez achetés.)&lt;/font&gt;</string>
-	<string key="mm_deletecharwarning_serverfull">&lt;font color="#ffffff"&gt;Voulez-vous vraiment supprimer {characterName} ?\n\nL'opération est irréversible. Vous perdrez tous les objets et la progression de ce personnage.\n\nUne fois supprimé, vous disposez de &lt;font color={highlightColor}&gt;7 jours&lt;/font&gt; pour contacter le service client si vous désirez restaurer votre personnage.&lt;/font&gt;\n&lt;font color="#cccccc" face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(Vous garderez les objets que vous avez achetés.)&lt;/font&gt; \n\n &lt;font color="#ff6b6b"&gt; {worldName} est plein et n'autorise pas la création ou le transfert de nouveaux personnages.&lt;/font&gt;</string>
+	<string key="mm_deletecharwarning">Voulez-vous vraiment supprimer &lt;font color={highlightColor}&gt;{characterName}&lt;/font&gt; ?\n\nVous garderez tous les objets achetés, mais perdrez tous les autres objets ainsi que la progression de ce personnage. Une fois supprimé, vous devrez contacter le service client dans les &lt;font color={highlightColor}&gt;7 jours&lt;/font&gt; pour le récupérer.</string>
+	<string key="mm_deletecharwarning_serverfull">Voulez-vous vraiment supprimer &lt;font color={highlightColor}&gt;{characterName}&lt;/font&gt; ?\n\nVous garderez tous les objets achetés, mais perdrez tous les autres objets ainsi que la progression de ce personnage. Une fois supprimé, vous devrez contacter le service client dans les &lt;font color={highlightColor}&gt;7 jours&lt;/font&gt; pour le récupérer.\n\n&lt;font color={highlightColor}&gt;{worldName}&lt;/font&gt; est plein et ne permet pas la création ou le transfert de personnages.</string>
 	<string key="mm_selectcharacter">Sélection du personnage</string>
 	<string key="mm_charactercount">Personnages</string>
 	<string key="mm_emptyslot">Emplacement vide</string>
@@ -238,7 +238,7 @@
 	<string key="mm_queuewithestimate">Temps estimé : {time}\nPosition dans la file : {rank}\n{status}</string>
 	<string key="mm_queuewithcappedestimate">Temps estimé : &gt; {time}\nPosition dans la file : {rank}\n{status}</string>
 	<string key="mm_queueestimateunknown">Temps estimé : Inconnu\nPosition dans la file : {status}\ninconnu</string>
-	<string key="mm_queuepopuptitle">En attente de la connexion...</string>
+	<string key="mm_queuepopuptitle">En attente de la connexion</string>
 	<string key="mm_queuejoinfailed">Connexion impossible : trop de joueurs dans la file d'attente. Veuillez réessayer plus tard.</string>
 	<string key="mm_queuerefresherror">Erreur de communication avec la file de connexion. Nouvelle tentative...</string>
 	<string key="mm_server_message_title">Message du serveur</string>
@@ -310,12 +310,12 @@
 	<string key="ui_how_it_works">Fonctionnement</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">JcJ</string>
 	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">Chaîne JcJ</string>
-	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Jalon {checkpoint} :&lt;/font&gt; {currentProgression}/{maxProgression}\n\nProgressez en accomplissant des missions JcJ, en menant des guerres, en vous battant en Déferlante, en capturant des forteresses, en combattant d'autres joueurs et en participant à des arènes 3 contre 3.</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Jalon {checkpoint} :&lt;/font&gt; {currentProgression}/{maxProgression}\n\nProgressez en combattant d'autres joueurs, en accomplissant des missions JcJ, en menant des guerres, en vous battant en Déferlante, en capturant des forteresses et en participant à des arènes 3 contre 3.</string>
 	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Vous devez terminer tous les jalons avant de pouvoir commencer une nouvelle chaîne. Si vous choisissez une récompense à chaque jalon, vous démarrerez automatiquement la chaîne suivante.\n\nChaque jalon pour lequel vous avez renoncé à choisir une récompense vous octroiera 300 sels d'Azoth au démarrage de la chaîne suivante.</string>
 	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Les choix de récompenses sont révélés en atteignant le jalon.</string>
 	<string key="ui_pvp_track_completions" comment="The number of times they have completed the track. Like a level" rel_version="PvP_Rewards_Track">Chaînes terminées</string>
-	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Choisissez jusqu'à &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 objet par jalon&lt;/font&gt; à acheter avec du &lt;font color={azothColor}&gt;sel d'Azoth&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
-	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Armoiries et récompenses</string>
+	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Choisissez jusqu'à &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 objet par jalon&lt;/font&gt; à acheter avec du sel d'Azoth&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;.</string>
+	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Récompenses</string>
 	<string key="ui_pvp_track_checkpoint" rel_version="PvP_Rewards_Track">Jalon &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_pvpprogress" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={colorProgress}&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_warsmall_white" scale="1.5" yOffset="4"&gt;&lt;/img&gt; &lt;font color={colorCheckpoint} face="lyshineui/fonts/Nimbus_regular.font"&gt; jusqu'au jalon {index}&lt;/font&gt;</string>
 	<string key="ui_pvp_currency_amount" rel_version="PvP_Rewards_Track">{amount}&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
@@ -332,23 +332,17 @@
 	<string key="ui_pvp_track_tut_title3" rel_version="PvP_Rewards_Track">Sel d'Azoth</string>
 	<string key="ui_pvp_track_tut_title4" rel_version="PvP_Rewards_Track">Récompenses</string>
 	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">Une chaîne de récompenses JcJ contient des récompenses liées au JcJ obtenues en accomplissant des activités JcJ en jeu. Une chaîne peut être terminée et recommencée pour obtenir une sélection de récompenses différente. Plus vous terminez de chaînes, meilleures sont les récompenses proposées.</string>
-	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Progressez en accomplissant des missions JcJ, en menant des guerres, en vous battant en Déferlante, en capturant des forteresses, en combattant d'autres joueurs et en participant à des arènes 3 contre 3.</string>
+	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Progressez en combattant d'autres joueurs, en accomplissant des missions JcJ, en menant des guerres, en vous battant en Déferlante, en capturant des forteresses et en participant à des arènes 3 contre 3.</string>
 	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">Le sel d'Azoth est la monnaie vous permettant d'acquérir des récompenses de la chaîne JcJ. Vous pouvez obtenir du sel d'Azoth en menant des guerres, en vous battant en Déferlante, en participant aux arènes 3 contre 3, en accomplissant des missions JcJ, en tuant des joueurs dans le monde ouvert et en gagnant de l'EXP en mode JcJ.</string>
 	<string key="ui_pvp_track_tut_desc4" rel_version="PvP_Rewards_Track">Choisissez entre des récompenses uniques telles que des armures et des armes de prestige, des émotes, de la monnaie et des consommables.</string>
 	<string key="ui_pvp_track_leveltext" rel_version="PvP_Rewards_Track">Chaînes terminées : &lt;font color="#FFFFFF" &gt;{level}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Chaînes terminées : &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
-	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Solde actuel : &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Solde actuel</string>
 	<string key="ui_pvp_track_addtopool" rel_version="PvP_Rewards_Track">+ Réserve de récompenses</string>
 	<string key="ui_pvp_track_rankup_confirmation" rel_version="PvP_Rewards_Track">Vous recevez un bonus pour chaque jalon dont la récompense n'a pas été récupérée et votre solde de sel d'Azoth est transféré à une nouvelle chaîne avec de nouvelles récompenses.</string>
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Bonus de jalon : &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt;Bonus de chaîne terminée : &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">Chaîne JcJ terminée</string>
-	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Émote</string>
-	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Équipement nommé\n+Monnaie supplémentaire</string>
-	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Équipement de prestige\n+Émote\n+Packs de fioles de sel</string>
-	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Gypse\n+Monnaie supplémentaire\n+Éclats sombres supplémentaires</string>
-	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Émote\n+Éclats sombres supplémentaires</string>
-	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Réserve de récompenses : \n+Émote \n+Monnaie supplémentaire \n+Objets lâchés supplémentaires</string>
 	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">Jalon de chaîne {milestone} à :</string>
 	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">Jalon de chaîne {milestone}</string>
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Récompense</string>
@@ -462,10 +456,10 @@
 	<string key="ui_fishing_equip_action">Mode de pêche</string>
 	<string key="ui_fishing_action">Lancer / Hameçonner / Mouliner</string>
 	<string key="ui_fishing_reset_action">Lancer à nouveau / Arrêter</string>
-	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Spectacles</string>
+	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Musique</string>
 	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Mode de spectacle</string>
-	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Commencer le spectacle</string>
-	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Équiper partition de musique</string>
+	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Jouer</string>
+	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Choix de chanson</string>
 	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Inviter</string>
 	<string key="ui_camping">Bivouac</string>
 	<string key="ui_tracking">Bientôt</string>

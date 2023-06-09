@@ -2,8 +2,8 @@
 	<string key="mm_randomizetitle">Uwaga</string>
 	<string key="mm_randomizewarning">Losowe generowanie postaci spowoduje utratę wszystkich wprowadzonych zmian. Czy na pewno chcesz wygenerować losową postać?</string>
 	<string key="mm_deletechartitle">Usuń postać</string>
-	<string key="mm_deletecharwarning">&lt;font color="#ffffff"&gt;Czy na pewno chcesz usunąć postać {characterName}?\n\nTej decyzji nie można cofnąć. Stracisz wszystkie postępy i przedmioty tej postaci.\n\nPo usunięciu będziesz mieć &lt;font color={highlightColor}&gt;7 dni&lt;/font&gt; na kontakt z działem obsługi klienta, by przywrócić postać.&lt;/font&gt;\n&lt;font color="#cccccc" face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(Zachowasz zakupione przedmioty).&lt;/font&gt;</string>
-	<string key="mm_deletecharwarning_serverfull">&lt;font color="#ffffff"&gt;Czy na pewno chcesz usunąć postać {characterName}?\n\nTej decyzji nie można cofnąć. Stracisz wszystkie postępy i przedmioty tej postaci.\n\nPo usunięciu będziesz mieć &lt;font color={highlightColor}&gt;7 dni&lt;/font&gt; na kontakt z działem obsługi klienta, by przywrócić postać.&lt;/font&gt;\n&lt;font color="#cccccc" face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;(Zachowasz zakupione przedmioty).&lt;/font&gt;\n\n&lt;font color="#ff6b6b"&gt;Świat {worldName} jest pełny i nie pozwala na tworzenie nowych postaci lub przenoszenie innych.&lt;/font&gt;</string>
+	<string key="mm_deletecharwarning">Czy na pewno chcesz usunąć postać &lt;font color={highlightColor}&gt;{characterName}&lt;/font&gt;?\n\nZachowasz zakupione przedmioty, ale stracisz wszystkie postępy i pozostałe przedmioty tej postaci. Po usunięciu będziesz mieć &lt;font color={highlightColor}&gt;7 dni&lt;/font&gt; na kontakt z działem obsługi klienta, by przywrócić postać.</string>
+	<string key="mm_deletecharwarning_serverfull">Czy na pewno chcesz usunąć postać &lt;font color={highlightColor}&gt;{characterName}&lt;/font&gt;?\n\nZachowasz zakupione przedmioty, ale stracisz wszystkie postępy i pozostałe przedmioty tej postaci. Po usunięciu będziesz mieć &lt;font color={highlightColor}&gt;7 dni&lt;/font&gt; na kontakt z działem obsługi klienta, by przywrócić postać.\n\n&lt;font color={highlightColor}&gt;Świat {worldName}&lt;/font&gt; jest pełny i nie pozwala na tworzenie nowych postaci lub przenoszenie do niego innych.</string>
 	<string key="mm_selectcharacter">Wybierz postać</string>
 	<string key="mm_charactercount">Postacie</string>
 	<string key="mm_emptyslot">Puste miejsce</string>
@@ -310,12 +310,12 @@
 	<string key="ui_how_it_works">Jak to działa?</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
 	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">Ścieżka PvP</string>
-	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Punkt kontrolny {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nRób postępy na swojej ścieżce, wykonując misje PvP, biorąc udział w wojnach, napadach na posterunek czy przejmowaniu fortów, pokonując innych graczy i zaliczając areny 3 na 3.</string>
+	<string key="ui_pvp_track_progress_bar_tooltip" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font"&gt;Punkt kontrolny {checkpoint}:&lt;/font&gt; {currentProgression}/{maxProgression}\n\nRób postępy na swojej ścieżce, pokonując innych graczy, wykonując misje PvP, biorąc udział w wojnach, napadach na posterunek czy przejmowaniu fortów i zaliczając areny 3 na 3.</string>
 	<string key="ui_pvp_track_next_track_tooltip" rel_version="PvP_Rewards_Track">Musisz zaliczyć wszystkie punkty kontrolne przed rozpoczęciem następnej ścieżki. Jeśli odbierzesz nagrodę z każdego punktu kontrolnego, automatycznie rozpoczniesz następną ścieżkę.\n\nZa każdy punkt kontrolny, z którego nie odbierzesz nagrody, otrzymasz 300 jednostek azothowej soli w momencie, gdy rozpoczniesz następną ścieżkę.</string>
 	<string key="ui_pvp_track_unknown_item_tooltip" rel_version="PvP_Rewards_Track">Nagrody do wyboru zostaną ujawnione po zaliczeniu punktu kontrolnego.</string>
 	<string key="ui_pvp_track_completions" comment="The number of times they have completed the track. Like a level" rel_version="PvP_Rewards_Track">Ukończone ścieżki</string>
-	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Wybierz maksymalnie &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 przedmiot na punkt kontrolny&lt;/font&gt; do kupienia za &lt;font color={azothColor}&gt;azothową sól&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
-	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Herby i nagrody</string>
+	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Wybierz maksymalnie &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 przedmiot na punkt kontrolny&lt;/font&gt; do kupienia za azothową sól&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;.</string>
+	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Nagrody</string>
 	<string key="ui_pvp_track_checkpoint" rel_version="PvP_Rewards_Track">Punkt kontrolny &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_pvpprogress" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={colorProgress}&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_warsmall_white" scale="1.5" yOffset="4"&gt;&lt;/img&gt; &lt;font color={colorCheckpoint} face="lyshineui/fonts/Nimbus_regular.font"&gt; do punktu kontrolnego {index}&lt;/font&gt;</string>
 	<string key="ui_pvp_currency_amount" rel_version="PvP_Rewards_Track">{amount}&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
@@ -332,23 +332,17 @@
 	<string key="ui_pvp_track_tut_title3" rel_version="PvP_Rewards_Track">Azothowa sól</string>
 	<string key="ui_pvp_track_tut_title4" rel_version="PvP_Rewards_Track">Nagrody</string>
 	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">Ścieżka nagród PvP zawiera nagrody związane z trybem PvP, które można zdobyć za wykonywanie aktywności PvP. Po ukończeniu ścieżki można ją ponownie rozpocząć, by zdobyć inne nagrody. Im więcej ukończonych ścieżek, tym bardziej prestiżowe nagrody do zdobycia.</string>
-	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Rób postępy na swojej ścieżce, wykonując misje PvP, biorąc udział w wojnach, napadach na posterunek czy przejmowaniu fortów, pokonując innych graczy i zaliczając areny 3 na 3.</string>
+	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Rób postępy na swojej ścieżce, pokonując innych graczy, wykonując misje PvP, biorąc udział w wojnach, napadach na posterunek czy przejmowaniu fortów i zaliczając areny 3 na 3.</string>
 	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">Azothowa sól jest walutą służącą do zdobywania nagród na ścieżce PvP. Możesz ją pozyskać, biorąc udział w wojnach, napadach na posterunek, starciach na arenach 3 na 3, wykonując misje PvP i zabijając graczy w otwartym świecie, a także zdobywając PD z aktywnym oznaczeniem do PvP.</string>
 	<string key="ui_pvp_track_tut_desc4" rel_version="PvP_Rewards_Track">Wybieraj spośród wyjątkowych nagród, takich jak prestiżowa broń i pancerz, gesty, waluty czy przedmioty użytkowe.</string>
 	<string key="ui_pvp_track_leveltext" rel_version="PvP_Rewards_Track">Ukończone ścieżki: &lt;font color="#FFFFFF" &gt;{level}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Ukończone ścieżki: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#FFFFFF"&gt;{level}&lt;/font&gt;</string>
-	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Saldo: &lt;font color={colorBalance} face="lyshineui/fonts/CaslonAnt.font"&gt;{balance}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Saldo</string>
 	<string key="ui_pvp_track_addtopool" rel_version="PvP_Rewards_Track">+ pula nagród</string>
 	<string key="ui_pvp_track_rankup_confirmation" rel_version="PvP_Rewards_Track">Otrzymasz premię za każdy punkt kontrolny, za który nie odebrano nagrody. Twoja azothowa sól zostanie przeniesiona na nową ścieżkę, na której czekają nowe nagrody.</string>
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Premie za punkt kontrolny: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt; Premia za ukończenie ścieżki: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">Ukończono ścieżkę PvP</string>
-	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvP_Rewards_Track">Pula nagród: \n+gest</string>
-	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvP_Rewards_Track">Pula nagród: \n+nazwane wyposażenie \n+więcej waluty</string>
-	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvP_Rewards_Track">Pula nagród: \n+prestiżowe wyposażenie \n+gest \n+paczki fiolek z solą</string>
-	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvP_Rewards_Track">Pula nagród: \n+gips \n+więcej waluty \n+więcej odłamków umbralu</string>
-	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvP_Rewards_Track">Pula nagród: \n+gest \n+więcej odłamków umbralu</string>
-	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvP_Rewards_Track">Pula nagród: \n+gest \n+więcej waluty \n+więcej przedmiotów z łupów</string>
 	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">Kamień milowy ścieżki {milestone}:</string>
 	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">Kamień milowy ścieżki{milestone}</string>
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Nagroda</string>
@@ -462,15 +456,15 @@
 	<string key="ui_fishing_equip_action">Tryb wędkowania</string>
 	<string key="ui_fishing_action">Zarzuć / Złap / Zwiń</string>
 	<string key="ui_fishing_reset_action">Resetuj rzucanie / Przerwij</string>
-	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Występy</string>
+	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Muzyka</string>
 	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Tryb występu</string>
-	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Rozpocznij występ</string>
-	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Wyposaż nuty</string>
+	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Graj</string>
+	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Wybór piosenki</string>
 	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Zaproś</string>
 	<string key="ui_camping">Biwakowanie</string>
 	<string key="ui_tracking">Już wkrótce</string>
 	<string key="ui_exploring">Już wkrótce</string>
-	<string key="ui_crafting">Rzemiosło</string>
+	<string key="ui_crafting">Wytwarzanie</string>
 	<string key="ui_repairing">Naprawa</string>
 	<string key="ui_gathering">Zbieranie</string>
 	<string key="ui_refining">Przetwarzanie</string>

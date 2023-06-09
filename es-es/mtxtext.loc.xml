@@ -5,7 +5,7 @@
 	<string key="marketing_new" rel_version="Feature_MTX">¡Nuevo!</string>
 	<string key="marketing_sale" rel_version="Feature_MTX">¡Oferta!</string>
 	<string key="ui_credits_purchase" rel_version="Feature_MTX">Comprar créditos</string>
-	<string key="ui_credit_purchase_suggest" rel_version="Feature_MTX">Necesitas &lt;font color="#ffae00"&gt;{amount} marcas de fortuna&lt;/font&gt; para adquirir: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{product}&lt;/font&gt;.</string>
+	<string key="ui_credit_purchase_suggest" rel_version="Feature_MTX">Necesitas &lt;font color={color}&gt;{amount} marcas de fortuna más&lt;/font&gt; para adquirir: &lt;font color={color}&gt;{product}&lt;/font&gt;.</string>
 	<string key="ui_featureddeals" rel_version="Feature_MTX">Ofertas destacadas</string>
 	<string key="ui_consumables" rel_version="Feature_MTX">Consumibles</string>
 	<string key="ui_armorskins" rel_version="Feature_MTX">Diseños de prendas</string>
@@ -66,6 +66,7 @@
 	<string key="reward_type_marks_of_fortune" rel_version="Feature_MTX">Marcas de fortuna</string>
 	<string key="reward_type_service" rel_version="Feature_MTX">Transferencias de mundo o región (uso único)</string>
 	<string key="reward_type_loadout" rel_version="Feature_Gear_Set_Storage">Conjunto de equipo</string>
+	<string key="reward_type_transmog" rel_version="Feature_Transmog">Transmog Token</string>
 	<string key="entitlement_included" rel_version="Feature_MTX">Incluido</string>
 	<string key="ui_account_bound" rel_version="Feature_MTX">Todos los objetos están vinculados a la cuenta (no son intercambiables) y no son reembolsables.</string>
 	<string key="ui_account_bound_tooltip" rel_version="Feature_MTX">Todos los objetos están vinculados a la cuenta (puedes usarlos con todos tus personajes) y no se pueden descartar, intercambiar ni vender en el puesto comercial. Además, los objetos no son reembolsables.\n\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font" &gt;Objetos consumibles: &lt;/font&gt; el uso de estos objetos está limitado y al usar uno en un personaje específico se reduce la cantidad de unidades para toda la cuenta. Por ejemplo, si tienes cinco tintes y utilizas uno en un personaje, solo te quedarán cuatro, incluso aunque inicies sesión con otro personaje en la misma cuenta.</string>
@@ -129,6 +130,7 @@
 	<string key="reward_type_tooltip_marks_of_fortune" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;MARCAS DE FORTUNA&lt;/font&gt;: Puedes usar esta divisa en la tienda para adquirir productos.</string>
 	<string key="reward_type_tooltip_service" rel_version="Feature_MTX">Si tu personaje cumple todos los requisitos para ser transferido, selecciona un mundo y/o región al que transferirlo.</string>
 	<string key="reward_type_tooltip_loadout" rel_version="Feature_Gear_Set_Storage">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;CONJUNTO DE EQUIPO&lt;/font&gt;: Puedes asignar objetos a una nueva ranura de conjunto de equipo desde tu inventario.</string>
+	<string key="reward_type_tooltip_transmog" rel_version="Feature_Transmog">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TRANSMOG TOKEN&lt;/font&gt; : You can use this token to unlock appearances at the Stylemancer.</string>
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Aviso:&lt;/font&gt; Los blasones de compañía solo se pueden usar si eres el gobernador (creador) de la compañía.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Contenido no disponible</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Este contenido no está disponible actualmente.</string>
@@ -168,8 +170,8 @@
 	<string key="ui_transaction_failed">Error en la transacción.</string>
 	<string key="ui_transaction_timed_out">Se ha agotado el tiempo de espera de la transacción. ¿Reintentar?</string>
 	<string key="ui_transaction_timeout_overlay">Se ha agotado el tiempo de espera de la transacción.\nAsegúrate de que el menú superpuesto de Steam esté habilitado.</string>
-	<string key="ui_bonus_marks">¡{base} + {bonus} de bonificación =</string>
-	<string key="ui_bonus_percent">{bonusPct} % de bonificación!</string>
+	<string key="ui_bonus_marks">({base} &lt;font color={color}&gt;+ {bonus})&lt;/font&gt;</string>
+	<string key="ui_bonus_percent">{bonusPct} % de bonificación</string>
 	<string key="ui_how_to_use">Cómo se usa</string>
 	<string key="ui_notification_unlock_desc">Se han añadido objetos a tu cuenta.</string>
 	<string key="ui_notification_unlock_title">Desbloqueado</string>
@@ -980,15 +982,15 @@
 	<string key="Bundle_PR_WinterDragon_Weapons_description" rel_version="Weapon_Winter_Greatsword">Ábrete paso a través de las nieves invernales.</string>
 	<string key="reward_type_token" rel_version="Entitlements_FirelightSeason">Paquete potenciador</string>
 	<string key="Token_Proficiency_Boost_name" rel_version="Entitlements_FirelightSeason">Potenciador de maestría</string>
-	<string key="Token_Proficiency_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta el rendimiento de tala, minería, recolección y desuello en un 10 % durante 90 minutos.\n\nNo se puede usar durante los modos de juego por instancias.</string>
+	<string key="Token_Proficiency_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta el rendimiento de tala, minería, recolección y desuello en un 10 % durante 90 minutos del tiempo de juego.\n\nNo se puede usar durante Asalto a puesto remoto.</string>
 	<string key="Token_WeaponXP_Boost_name" rel_version="Entitlements_FirelightSeason">Potenciador de EXP de arma</string>
-	<string key="Token_WeaponXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta en un 100 % la experiencia de arma obtenida durante 2 horas.\n\nNo se puede usar durante los modos JcJ por instancias.</string>
+	<string key="Token_WeaponXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta en un 100 % la experiencia de arma obtenida durante 2 horas del tiempo de juego.</string>
 	<string key="Token_TerritoryStanding_Boost_name" rel_version="Entitlements_FirelightSeason">Potenciador de estatus en el territorio</string>
-	<string key="Token_TerritoryStanding_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta en un 100 % el estatus en el territorio obtenido durante 2 horas.\n\nNo se puede usar durante los modos de juego por instancias.</string>
+	<string key="Token_TerritoryStanding_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta en un 100 % el estatus en el territorio obtenido durante 2 horas del tiempo de juego.</string>
 	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Potenciador de EXP de la temporada</string>
-	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta en un 100 % la generación de experiencia de la temporada pasiva del personaje durante 2 horas.</string>
+	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta en un 100 % la generación de experiencia de la temporada pasiva del personaje durante 2 horas del tiempo de juego.</string>
 	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Potenciador de EXP de recolección</string>
-	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta en un 100 % la experiencia de tala, minería, recolección y desuello durante 2 horas. No se aplica a los niveles de aptitud.\n\nNo se puede usar durante los modos de juego por instancias.</string>
+	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumenta en un 100 % la experiencia de tala, minería, recolección y desuello durante 2 horas del tiempo de juego. No se aplica a los niveles de aptitud.</string>
 	<string key="Apparel_OmensOfWinter_Owl_name" rel_version="Apparel_OmensWinter_1">Búho de Cailleach</string>
 	<string key="Apparel_OmensOfWinter_Cat_name" rel_version="Apparel_OmensWinter_2">Lince de Imbolc</string>
 	<string key="Bundle_PR_OmensOfWinter_Apparel_name" rel_version="Bundle_OmensWinter_Apparel">Lote de prendas Presagio invernal</string>
@@ -1036,6 +1038,20 @@
 	<string key="reward_type_Toolskin_skinningknife">Diseño de cuchillo de desuello</string>
 	<string key="reward_type_Toolskin_harvestingsickle">Diseño de hoz de siega</string>
 	<string key="reward_type_Toolskin_azothstaff">Diseño de báculo de Azoth</string>
+	<string key="Token_PremiumEmote_Firework1_name" rel_version="Feature_Premium_Emotes">Permiso de gesto de fuegos artificiales de flores</string>
+	<string key="Token_PremiumEmote_Firework1_description" rel_version="Feature_Premium_Emotes">¡Una explosión deslumbrante de color! Permite usar el gesto de fuegos artificiales de flores durante 2 horas.\n\nNo se puede usar durante los modos de juego por instancias.</string>
+	<string key="Token_PremiumEmote_Firework2_name" rel_version="Feature_Premium_Emotes">Permiso de gesto de fuegos artificiales dinásticos</string>
+	<string key="Token_PremiumEmote_Firework2_description" rel_version="Feature_Premium_Emotes">¡Tiñe de rojo sangre tus vacaciones! Permite usar el gesto de fuegos artificiales dinásticos durante 2 horas.\n\nNo se puede usar durante los modos de juego por instancias.</string>
+	<string key="Token_PremiumEmote_Firework3_name" rel_version="Feature_Premium_Emotes">Permiso de gesto de fuegos artificiales dríades</string>
+	<string key="Token_PremiumEmote_Firework3_description" rel_version="Feature_Premium_Emotes">¡Una explosión de esmeralda! Permite usar el gesto de fuegos artificiales dríades durante 2 horas.\n\nNo se puede usar durante los modos de juego por instancias.</string>
+	<string key="Token_PremiumEmote_Firework4_name" rel_version="Feature_Premium_Emotes">Permiso de gesto de fuegos artificiales antiguos</string>
+	<string key="Token_PremiumEmote_Firework4_description" rel_version="Feature_Premium_Emotes">¡Una explosión púrpura! Permite usar el gesto de fuegos artificiales antiguos durante 2 horas.\n\nNo se puede usar durante los modos de juego por instancias.</string>
+	<string key="Token_PremiumEmote_Firework5_name" rel_version="Feature_Premium_Emotes">Permiso de gesto de fuegos artificiales de estrellas fugaces</string>
+	<string key="Token_PremiumEmote_Firework5_description" rel_version="Feature_Premium_Emotes">¡Cuidado! ¡Podría producir una lluvia de estrellas! Permite usar el gesto de fuegos artificiales de estrellas fugaces durante 2 horas.\n\nNo se puede usar durante los modos de juego por instancias.</string>
+	<string key="Token_Transmog_X1_name" rel_version="Feature_Transmog">Transmog Token</string>
+	<string key="Token_Transmog_X1_description" rel_version="Feature_Transmog">Each Transmog token allows you to capture one item appearance for use as a skin.</string>
+	<string key="Token_Transmog_X5_name" rel_version="Feature_Transmog">Transmog Token Pack</string>
+	<string key="Token_Transmog_X5_description" rel_version="Feature_Transmog">A pack of Transmog tokens. Each token allows you to capture one item appearance for use as a skin.</string>
 	<string key="Apparel_Highwayman_Capelet_name" rel_version="Apparel_Highwayman_1">Cabecilla</string>
 	<string key="Apparel_Highwayman_Tricorn_name" rel_version="Apparel_Highwayman_2">Rufián exaltado</string>
 	<string key="Apparel_Highwayman_PrickleRust_name" rel_version="Apparel_Highwayman_3">Alma mancillada</string>
@@ -1049,6 +1065,7 @@
 	<string key="Bundle_PR_PauldronedFears_name" rel_version="Entitlements_MedievalHistoric">Lote de los miedos de bronce</string>
 	<string key="Bundle_PR_PauldronedFears_description" rel_version="Entitlements_MedievalHistoric">Equípate con la armadura más imponente y prepárate para aplastar a tus enemigos.</string>
 	<string key="Apparel_Highwayman_Capelet_description" rel_version="Apparel_Highwayman_1">No importa de dónde vengan estas vestimentas tan lujosas mientras puedas presumir de ellas. Al fin y al cabo, ahora son mías.\n\n¡Incluye tres diseños para la cabeza diferentes!</string>
+	<string key="ui_crestforeground_231" rel_version="Crest_Gryphon">Blasón de grifo</string>
 	<string key="Apparel_MedievalHistoric_HounSkull_name" rel_version="Entitlements_MedievalHistoric">Heraldo de plata</string>
 	<string key="Apparel_MedievalHistoric_DarkHorns_name" rel_version="Entitlements_MedievalHistoric">Dimaco de sable</string>
 	<string key="Apparel_MedievalHistoric_Twitch01_name" rel_version="Entitlements_MedievalHistoric">Paladín de Or</string>
@@ -1057,5 +1074,18 @@
 	<string key="Bundle_PR_MedievalHistoric_Apparel_description" rel_version="Entitlements_MedievalHistoric">Blíndate con acero si no quieres acabar en un ataúd de madera.\n\nIncluye dos tipos de prendas, ¡una mancillada por las heridas de la guerra!</string>
 	<string key="Bundle_PR_MedievalHistoric_Weapon_name" rel_version="Entitlements_MedievalHistoric">Armas de antaño</string>
 	<string key="Bundle_PR_MedievalHistoric_Weapon_description" rel_version="Entitlements_MedievalHistoric">Si se conserva como es debido, el acero de otros siglos es casi tan letal como uno recién forjado.</string>
+	<string key="reward_type_emote_permit" rel_version="Feature_Premium_Emotes">Permiso de gesto</string>
+	<string key="Apparel_FrontierWasteland_Shawl_name" rel_version="Apparel_WastelandFrontier_1">Primigenio rural</string>
+	<string key="Apparel_FrontierWasteland_Gambeson_name" rel_version="Apparel_WastelandFrontier_2">Legionario longicornio</string>
+	<string key="Apparel_FrontierWasteland_Deluxe_name" rel_version="Apparel_WastelandFrontier_Deluxe">Flagelo de las tierras baldías</string>
+	<string key="Apparel_FrontierWasteland_Twitch_name" rel_version="Apparel_WastelandFrontier_Twitch">Caminante del erial</string>
+	<string key="Bundle_Tool_FrontierWasteland_name" rel_version="ToolSkins_FrontierWastelander">Conjunto de herramientas del vagabundo anónimo</string>
+	<string key="Bundle_Tool_FrontierWasteland_description" rel_version="ToolSkins_FrontierWastelander">Los viajeros de Aetérnum necesitan buenas dotes de explorador para sobrevivir.</string>
+	<string key="Bundle_Decor_FrontierWasteland_name" rel_version="Housing_Wasteland_MTX_Pack_2023">Lote de decoración del erial fronterizo</string>
+	<string key="Bundle_Decor_FrontierWasteland_description" rel_version="Housing_Wasteland_MTX_Pack_2023">Tesoros adquiridos tras una vida de barbarie y asaltos.</string>
+	<string key="Bundle_PR_FrontierWasteland_Apparel_name" rel_version="Entitlements_WastelandFrontier">Lote de prendas del erial fronterizo</string>
+	<string key="Bundle_PR_FrontierWasteland_Apparel_description" rel_version="Entitlements_WastelandFrontier">Tu ropa te define como alguien a quien no le asusta la naturaleza salvaje, capaz de afrontar cualquier peligro sin ayuda.</string>
+	<string key="Bundle_PR_FrontierWasteland_Weapon_name" rel_version="Entitlements_WastelandFrontier">Lote de armas del erial fronterizo</string>
+	<string key="Bundle_PR_FrontierWasteland_Weapon_description" rel_version="Entitlements_WastelandFrontier">En el erial, el acero vale mucho más que cualquier compañía. De estas, uno no puede fiarse. Del acero, sí.</string>
 </resources>
 

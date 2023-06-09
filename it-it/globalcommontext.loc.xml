@@ -463,8 +463,8 @@
 	<string key="ui_inventoryfull">Inventario pieno</string>
 	<string key="ui_craftingnearitemlimit">Limite di oggetti nell'inventario quasi raggiunto. Gli oggetti prodotti potrebbero andare persi.</string>
 	<string key="ui_inventory_warning_toofullforrewards">Troppi oggetti nell'inventario per ricevere le ricompense.</string>
-	<string key="ui_inventoryslotsremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{count}&lt;/font&gt; slot dell'inventario rimanenti</string>
-	<string key="ui_inventoryweightremaining">ancora &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{Weight}&lt;/font&gt;</string>
+	<string key="ui_inventoryslotsremaining">Slot rimasti per oggetti dell'inventario: {count}</string>
+	<string key="ui_inventoryweightremaining">ancora {Weight}</string>
 	<string key="ui_inventoryMaxWeight">Troppo peso</string>
 	<string key="ui_inventoryweight">PESO</string>
 	<string key="ui_inventoryslots">OGGETTI UNICI</string>
@@ -547,7 +547,9 @@
 	<string key="ui_okay">Ok</string>
 	<string key="ui_on">Sì</string>
 	<string key="ui_online">Online</string>
+	<string key="ui_online_inopr">CA tra mondi</string>
 	<string key="ui_onlineactivity">Attività online</string>
+	<string key="ui_in_cross_world_opr">CA tra mondi</string>
 	<string key="ui_opendoor">Apri porta</string>
 	<string key="ui_openjournal">Apri diario</string>
 	<string key="ui_openmap">Apri mappa</string>
@@ -564,7 +566,7 @@
 	<string key="ui_otherplayername">Nome dell'altro giocatore</string>
 	<string key="ui_output">Risultato</string>
 	<string key="ui_owner">PROPRIETARIO:</string>
-	<string key="ui_return_hide_ui">Ritorna al gioco per nascondere l'IU</string>
+	<string key="ui_return_hide_ui">Ritorna al gioco per nascondere l'IU.</string>
 	<string key="ui_return_to_game">Ritorna al gioco</string>
 	<string key="ui_photomode">Cela IU</string>
 	<string key="ui_take_screenshot">Screenshot</string>
@@ -893,6 +895,7 @@
 	<string key="ui_buildtag">Build Reame Pubblico di Prova</string>
 	<string key="ui_chat_feed">Feed</string>
 	<string key="ui_chat_feed_tooltip">Include questo canale nel feed</string>
+	<string key="ui_chat_cross_world_tooltip">Questa chat includerà solo giocatori del tuo mondo di origine.</string>
 	<string key="ui_chat_muted_tooltip">Questo canale non verrà visualizzato nel feed e i messaggi non letti non saranno aggiunti al totale sul pulsante della chat. Il canale può comunque essere visualizzato usando il selettore di canali a sinistra.</string>
 	<string key="ui_chat_channel_settings">IMPOSTAZIONI CANALE</string>
 	<string key="ui_insufficientStructureMaterials">Non hai abbastanza risorse per completare questa struttura. Puoi posizionare il progetto ora e acquisire più risorse in un secondo momento.</string>
@@ -1021,7 +1024,7 @@
 	<string key="ui_navmenu_journal">Diario</string>
 	<string key="ui_navmenu_settings">Impostazioni</string>
 	<string key="ui_navmenu_exit">ESCI / OPZIONI</string>
-	<string key="ui_navmenu_game_menu">Menu</string>
+	<string key="ui_navmenu_game_menu">Menu gioco</string>
 	<string key="ui_navmenu_benchmark">BENCHMARK</string>
 	<string key="ui_navmenu_store">Negozio</string>
 	<string key="ui_navmenu_quit">Esci</string>
@@ -1330,12 +1333,12 @@
 	<string key="ui_camp_unlock_skins_tooltip">Sblocca accampamento (Livello 1)\nPosizionare un accampamento di livello 1 ti permette di produrre vari oggetti di livello 1, curare il tuo personaggio e rigenerarti all'accampamento.\nPer sbloccarlo, devi aver raggiunto almeno il livello 5 e aver completato la missione Survivalista iniziale.\nNota: devi completare l'insediamento iniziale precedente e le missioni della spiaggia prima di intraprendere questa missione.</string>
 	<string key="ui_buildmode_error_outside_of_war">Costruibile solo in guerra</string>
 	<string key="ui_buildmode_error_war_attackers_only">Struttura riservata solo agli attaccanti</string>
-	<string key="ui_camping_error_not_unlocked">Accampamento non sbloccato</string>
-	<string key="ui_bind_to_camp_disabled">Associazione con accampamento disabilitata</string>
+	<string key="ui_camping_error_not_unlocked">Accampamento non ancora sbloccato.</string>
+	<string key="ui_bind_to_camp_disabled">Associazione con accampamento disabilitata.</string>
 	<string key="ui_bind_to_camp">Imposta punto di ritorno all'accampamento</string>
-	<string key="ui_camping_error_poi_restricted_outpost_rush">Accampamento limitato in Carica all'avamposto</string>
+	<string key="ui_camping_error_poi_restricted_outpost_rush">Accampamento limitato in Carica all'avamposto.</string>
 	<string key="ui_camping_error_poi_restricted">Non puoi accamparti nei punti di riferimento.</string>
-	<string key="ui_camp_obstructed">Vai indietro per completare</string>
+	<string key="ui_camp_obstructed">Vai indietro per completare.</string>
 	<string key="ui_camping_restricted">Accampamento limitato</string>
 	<string key="ui_camping_available">Accampamento disponibile</string>
 	<string key="ui_notification_nameplate_hidden">Nome nascosto</string>
@@ -1505,7 +1508,7 @@
 	<string key="ui_map_rotate_camera">(Premuto) Ruota visuale</string>
 	<string key="ui_zoom_camera">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; + &lt;img src="lyshineui/images/icons/misc/Icon_MiddleMouseButton" xPadding="1" scale="2.3" yOffset="9"&gt;&lt;/img&gt; (premuto) Ingrandisci</string>
 	<string key="ui_global_storage_description">Gli altri giocatori non possono prendere o vedere gli oggetti che lasci qui. Devi tornare a questo avamposto per recuperare gli oggetti.</string>
-	<string key="ui_apply_all_resources">Applica tutte le risorse</string>
+	<string key="ui_apply_all_resources">Costruisci</string>
 	<string key="ui_apply_resources">Applica risorse</string>
 	<string key="ui_activate_spawn_point">Attiva punto di rigenerazione</string>
 	<string key="ui_set_spawn_point">Imposta punto di ritorno</string>
@@ -1519,14 +1522,14 @@
 	<string key="ui_ignite_fuse">Accendi miccia</string>
 	<string key="ui_buy_additional_protection">Acquista 1 ora di protezione</string>
 	<string key="ui_pick_up">Rimuovi</string>
-	<string key="ui_more_options">Altre opzioni</string>
+	<string key="ui_more_options">Visualizza tutte le opzioni</string>
 	<string key="ui_contracts">Contratti</string>
 	<string key="ui_build_azure_well">Costruisci pozzo di Azoth</string>
 	<string key="ui_upgrade_structure">Migliora struttura</string>
 	<string key="ui_cancel_upgrade">Annulla miglioramento</string>
 	<string key="ui_cancel_plan">Annulla progetto</string>
 	<string key="ui_lootTickerAddedItem">+{addedQuantity}</string>
-	<string key="ui_holdforvoicechat">Tieni premuto il tasto "{key}" per utilizzare la chat vocale.</string>
+	<string key="ui_holdforvoicechat">Tieni premuto {key} per usare la chat vocale.</string>
 	<string key="ui_distanceMeters">{distanceMeters} m</string>
 	<string key="ui_distanceKilometers">{distanceKilometers} km</string>
 	<string key="ui_rankChanged">NUOVO GRADO: {Rank}</string>
@@ -1627,6 +1630,8 @@
 	<string key="ui_chat_mention_self_markup">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font" color="#FFFFFF"&gt;@{name}&lt;/font&gt;</string>
 	<string key="ui_and">e</string>
 	<string key="ui_or">Oppure</string>
+	<string key="ui_for">per</string>
+	<string key="ui_question_mark">?</string>
 	<string key="ui_tooltip_ingredient_type">Tipo:</string>
 	<string key="ui_tooltip_ingredient_types">Tipi:</string>
 	<string key="ui_tooltip_perks_info_text_armor_singular">Applicabile a qualsiasi armatura con un alloggiamento per gemma per aggiungere il seguente effetto:</string>
@@ -1702,6 +1707,7 @@
 	<string key="ui_war_declare_fail_noConflictState">Non puoi dichiarare guerra: la tua fazione non ha ancora abbastanza influenza per causare un conflitto.</string>
 	<string key="ui_war_declare_fail_warDisabled">La guerra è stata disattivata a causa di una fusione dei mondi in sospeso.</string>
 	<string key="ui_war_declare_fail_InsufficientContribution">Non puoi dichiarare guerra: la tua compagnia non ha contribuito con una quantità sufficiente di influenza.</string>
+	<string key="ui_war_declare_fail_TooFewGuildMembers">Non puoi dichiarare guerra: la tua compagnia ha bisogno di almeno {num} membri.</string>
 	<string key="ui_online_friends">Amici online</string>
 	<string key="ui_any_moment">Da un momento all'altro...</string>
 	<string key="ui_current_location">Qui</string>
@@ -1712,6 +1718,7 @@
 	<string key="ui_transfertooltip">Puoi trasferire oggetti da o verso altri territori controllati dalla tua fazione.</string>
 	<string key="ui_transfertoandfromtooltip">Puoi riporre o riprendere oggetti utilizzando le capanne di deposito che si trovano nella tua posizione attuale.</string>
 	<string key="ui_transfertoandfromrfitooltip">Puoi riporre o riprendere oggetti utilizzando le capanne di deposito che si trovano negli insediamenti che hai visitato.</string>
+	<string key="ui_transferfromtooltip_inaccessible">Puoi trasferire oggetti solo da insediamenti inaccessibili.\nNon puoi depositare oggetti negli insediamenti inaccessibili.</string>
 	<string key="ui_transferfromtooltip">Pagando una commissione puoi trasferire oggetti nel tuo inventario dalle capanne di deposito negli altri territori controllati dalla tua fazione.</string>
 	<string key="ui_remotetransfersingletitle">Trasferisci oggetto</string>
 	<string key="ui_remotetransfersinglebody">Vuoi davvero trasferire questo oggetto da {territoryName} all'inventario?\nIl trasferimento costerà {amount}&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
@@ -1745,8 +1752,10 @@
 	<string key="ui_autocompletethrottled">Completamento automatico limitato.</string>
 	<string key="ui_searchitem">Cerca</string>
 	<string key="ui_searchresult">Risultato della ricerca</string>
+	<string key="ui_search_all_items">Cerca tra tutti gli oggetti</string>
 	<string key="ui_searchtimedout">Ricerca scaduta. Riprova.</string>
 	<string key="ui_searchthrottled">Ricerca limitata. Riprova.</string>
+	<string key="ui_sort_colon">Ordina:</string>
 	<string key="ui_server_refresh_throttle_hint">Attendere prego</string>
 	<string key="ui_unstuck_request_denied_on_cooldown">Non puoi richiedere lo sblocco per %d secondi</string>
 	<string key="ui_unstuck_request_denied_player_dead">Non puoi richiedere lo sblocco quando sei morto</string>
@@ -1810,15 +1819,17 @@
 	<string key="ui_leaderboard" rel_version="Feature_Leaderboards">Classifica</string>
 	<string key="ui_mapmenu_dayleaderboard" rel_version="Feature_Leaderboards">GIORNO</string>
 	<string key="ui_mapmenu_seasonleaderboard" rel_version="Feature_Leaderboards">STAGIONE</string>
-	<string key="ui_mapmenu_companiesatwar">GUERRE</string>
+	<string key="ui_mapmenu_companiesatwar">CONFLITTI</string>
 	<string key="ui_mapmenu_resourcelocations">RISORSE</string>
-	<string key="ui_mapmenu_activewars">GUERRE</string>
-	<string key="ui_mapmenu_noactivewars">Al momento non ci sono guerre in arrivo su questo mondo.</string>
+	<string key="ui_mapmenu_activewars">CONFLITTI</string>
+	<string key="ui_mapmenu_noactivewars">Al momento non ci sono conflitti imminenti in questo mondo.</string>
 	<string key="ui_mapmenu_warhasended">La guerra è terminata.</string>
-	<string key="ui_mapmenu_oneactivewar">Sei in &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt;&lt;/font&gt; guerra in arrivo.</string>
-	<string key="ui_mapmenu_numactivewars">Sei in &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numWars}&lt;/font&gt;&lt;/font&gt; guerre in arrivo.</string>
-	<string key="ui_activewars_oneactivewar">C'è &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt;&lt;/font&gt; guerra in arrivo su questo mondo.</string>
-	<string key="ui_activewars_numactivewars">Ci sono &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numWars}&lt;/font&gt;&lt;/font&gt; guerre in arrivo su questo mondo.</string>
+	<string key="ui_mapmenu_oneactivewar">Sei in &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt;&lt;/font&gt; conflitto imminente.</string>
+	<string key="ui_mapmenu_numactivewars">Sei in &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numWars}&lt;/font&gt;&lt;/font&gt; conflitti imminenti.</string>
+	<string key="ui_activewars_oneactivewar">C'è &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt;&lt;/font&gt; conflitto imminente in questo mondo.</string>
+	<string key="ui_activewars_numactivewars">Ci sono &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numWars}&lt;/font&gt;&lt;/font&gt; conflitti imminenti in questo mondo.</string>
+	<string key="ui_mapmenu_filter_wars">Guerre</string>
+	<string key="ui_mapmenu_filter_invasions">Invasioni</string>
 	<string key="ui_mapmenu_attacker">ATTACCANTE</string>
 	<string key="ui_mapmenu_defender">DIFENSORE</string>
 	<string key="ui_mapmenu_versusabbreviation" comment="The abbreviated version of versus as in Alpha Company VS Bravo Company">VS</string>
@@ -1862,18 +1873,23 @@
 	<string key="ui_exit_dungeon_title">Uscire dalla Spedizione?</string>
 	<string key="ui_exit_dungeon_title_solo">Uscire dalla Prova dell'anima?</string>
 	<string key="ui_exit_dungeon_title_raidtrial">Uscire dalla Prova élite?</string>
+	<string key="ui_exit_dungeon_title_seasontrial" rel_version="Season_2_Trial">Uscire dalla Prova stagionale?</string>
 	<string key="ui_dungeon_exit">Portale di uscita dalla Spedizione</string>
 	<string key="ui_dungeon_exit_solo">Uscita dalla Prova dell'anima</string>
 	<string key="ui_dungeon_exit_raidtrial">Portale di uscita dalla Prova élite</string>
+	<string key="ui_dungeon_exit_seasontrial" rel_version="Season_2_Trial">Portale di uscita dalla Prova stagionale</string>
 	<string key="ui_exit_dungeon_desc">Sarai teletrasportato fuori dalla Spedizione.\nPotrai rientrarci se nel frattempo non si sarà chiusa.</string>
 	<string key="ui_exit_dungeon_desc_solo">Sarai teletrasportato fuori dalla Prova dell'anima.\nPotrai rientrarci se nel frattempo non si sarà chiusa.</string>
 	<string key="ui_exit_dungeon_desc_raidtrial">Sarai teletrasportato fuori dalla Prova élite.\nPotrai rientrarci se nel frattempo non si sarà chiusa.</string>
+	<string key="ui_exit_dungeon_desc_seasontrial" rel_version="Season_2_Trial">Sarai teletrasportato fuori dalla Prova stagionale.\nPotrai rientrarci fino al momento in cui si sarà chiusa.</string>
 	<string key="ui_exit_dungeon_will_close_desc">Sarai teletrasportato fuori dalla Spedizione.\nSe escono anche tutti gli altri membri del tuo gruppo, la Spedizione si chiuderà.</string>
 	<string key="ui_exit_dungeon_will_close_desc_solo">Sarai teletrasportato fuori dalla Prova dell'anima e si chiuderà.</string>
 	<string key="ui_exit_dungeon_will_close_desc_raidtrial">Sarai teletrasportato fuori dalla Prova élite e si chiuderà.</string>
-	<string key="ui_exit_dungeon_incombat">Non puoi abbandonare una Spedizione subito dopo un combattimento. \nPuoi abbandonare tra &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
+	<string key="ui_exit_dungeon_will_close_desc_seasontrial" rel_version="Season_2_Trial">La Prova stagionale si chiuderà e sarai teletrasportato fuori.</string>
+	<string key="ui_exit_dungeon_incombat">Non puoi abbandonare una spedizione subito dopo un combattimento. \nPuoi abbandonare tra &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
 	<string key="ui_exit_dungeon_incombat_solo">Non puoi abbandonare una Prova dell'anima subito dopo un combattimento. \nPuoi abbandonare tra &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
 	<string key="ui_exit_dungeon_incombat_raidtrial">Non puoi abbandonare una Prova élite subito dopo un combattimento. \nPuoi abbandonare tra &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
+	<string key="ui_exit_dungeon_incombat_seasontrial" rel_version="Season_2_Trial">Non puoi abbandonare una Prova stagionale subito dopo un combattimento. \nPuoi abbandonare tra &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
 	<string key="ui_enable_newDamageNumbers">Quantità di danni mobile</string>
 	<string key="ui_enable_newDamageNumbers_description">Se disattivata, la quantità di danni sarà ancorata alla barra della salute del nemico</string>
 	<string key="ui_accept_duel_invites">Accetta inviti a Duello</string>
@@ -1926,7 +1942,7 @@
 	<string key="ui_crating_tree_item_tradeskill_desc" comment="{skillName} is the type of skill, like 'Blacksmithing'. {skillLoc} is currently being replaced by the word for 'Skill'. If another language needs to be something like 'Skill Blacksmithing', these need to be swapped around.{required} is for required skill level.">{skillName} {skillLoc} Richiesto: {required}</string>
 	<string key="ui_station_skill_header" comment="{skillName} is the type of skill, like 'Blacksmithing'.">{skillName}</string>
 	<string key="ui_station_tooltip_text">{stationName} livello {tierRequired}</string>
-	<string key="ui_has_resources">Ha risorse</string>
+	<string key="ui_has_resources">Risorse</string>
 	<string key="ui_deadnotification_title">SEI MORTO</string>
 	<string key="ui_deadnotification_body">Devi rigenerarti prima di poter rispondere a questa notifica.</string>
 	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;SALUTE&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nPer riguadagnare &lt;font color={highlightColor}&gt;salute&lt;/font&gt;\n• Consuma tinture per riguadagnarla rapidamente.\n• Consuma cibo per riguadagnarla lentamente nel tempo dopo un rapido aumento immediato.\n\nMigliora la &lt;font color={highlightColor}&gt;Costituzione&lt;/font&gt; per aumentare la tua &lt;font color={highlightColor}&gt;salute&lt;/font&gt; massima.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; indica che il giocatore è attualmente impegnato in combattimento. Alcune azioni di gestione del giocatore non sono disponibili mentre è in stato di combattimento attivo. Completa o evita il combattimento per 20 secondi per uscire da questo stato.</string>
@@ -2047,7 +2063,7 @@
 	<string key="ui_camping_tooltip_tier_5">Accampamento (Livello 5)\n\nPosizionare un accampamento di livello 5 ti permette di produrre vari oggetti di livello 5, curare il tuo personaggio e rigenerarti all'accampamento.</string>
 	<string key="ui_campskins" rel_version="Feature_Camp_Skins">Skin accampamento</string>
 	<string key="ui_campskin" rel_version="Feature_Camp_Skins">Skin accampamento</string>
-	<string key="ui_campskin_applied_hint" rel_version="Feature_Camp_Skins">Le skin saranno applicate al tuo prossimo accampamento</string>
+	<string key="ui_campskin_applied_hint" rel_version="Feature_Camp_Skins">Si applica al prossimo accampamento costruito.</string>
 	<string key="ui_all_level_milestones">Tutte le ricompense di avanzamento di livello</string>
 	<string key="ui_unlock_token_slot">&lt;font color="#FFFFFF" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Slot orecchini&lt;/font&gt;</string>
 	<string key="ui_unlock_ring_slot">Slot anello</string>
@@ -2279,7 +2295,7 @@
 	<string key="ui_quest_ready">Missione\npronta per la consegna</string>
 	<string key="ui_pin_objective">Fissa obiettivo</string>
 	<string key="ui_unpin_objective">Rimuovi obiettivo</string>
-	<string key="ui_view_journal">Visualizza nel diario</string>
+	<string key="ui_view_journal">Diario</string>
 	<string key="ui_pin_objective_message">L'obiettivo è bloccato.</string>
 	<string key="ui_unpin_objective_message">L'obiettivo non è più bloccato.</string>
 	<string key="ui_territorymanagebuilding">Il territorio è gestito in questo edificio</string>
@@ -2524,6 +2540,7 @@
 	<string key="ui_itemtooltiptitle_heartgem_rune_cannon_blast" rel_version="Feature_Heartgems">Colpo di cannone</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_bile_bomb" rel_version="Feature_Heartgems_BileBomb">Bomba di bile</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_fire_storm" rel_version="Feature_Heartgems_FireStorm">Tempesta di fuoco</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_sand_worm" rel_version="Feature_Heartgems_SandWorm">The Devourer</string>
 	<string key="ui_cannot_perform_action_at_this_time">In questo momento non puoi eseguire questa azione</string>
 	<string key="ui_cannot_use_shield_abilities">Nessuno scudo equipaggiato</string>
 	<string key="ui_tooltip_effect_duration">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#FFFFFF"&gt;{value}&lt;/font&gt; Durata effetto</string>
@@ -2657,6 +2674,7 @@
 	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">Convergenza invernale 2021</string>
 	<string key="attribution_WinterConvergence_2022" rel_version="Event_WinterConvergence_Perm">Convergenza invernale 2022</string>
 	<string key="attribution_SummerMedleyfaire_2022" rel_version="Event_Summer_Perm">Fiera estiva 2022</string>
+	<string key="attribution_SummerMedleyfaire_2023" rel_version="Event_Summer_Perm">Fiera estiva 2023</string>
 	<string key="attribution_NightveilHallow_2022" rel_version="Event_Halloween_Perm">Velo notturno consacrato 2022</string>
 	<string key="attribution_Housing_SettlerSet_2021" comment="Housing Furniture Set" rel_version="Housing_Settler_Set">Arredamento del colono di Aeternum</string>
 	<string key="attribution_Housing_PirateSet_2021" comment="Housing Furniture Set" rel_version="Housing_Pirate_Set">Arredamento di Acquafetida</string>
@@ -2664,6 +2682,7 @@
 	<string key="attribution_Housing_LegionSet_2022" comment="Housing Furniture Set" rel_version="Housing_Legion_Set">Arredamento dei Deserti di zolfo</string>
 	<string key="attribution_TurkeyTerror_2022" rel_version="Event_TurkeyTerror_Perm">Terrore al tacchino 2022</string>
 	<string key="attribution_Season_1" rel_version="Season_1_Perm">Stagione 1</string>
+	<string key="attribution_Season_2" rel_version="Season_2_Perm">Stagione 2</string>
 	<string key="ui_reset_daily_time">Azzeramento giornaliero alle ore {time}</string>
 	<string key="ui_reset_weekly_time">Azzeramento settimanale ogni {time}</string>
 	<string key="ui_buy_new_world">Compra New World</string>
@@ -2671,9 +2690,26 @@
 	<string key="ui_probation_account_restriction">Per questa funzione è necessario acquistare New World.</string>
 	<string key="ui_item_skinning_disabled">Applicazione skin a oggetti disattivata</string>
 	<string key="ui_camp_skins_disabled">Skin accampamento disattivate</string>
+	<string key="ui_fast_travel_points">Punti viaggio veloce</string>
+	<string key="ui_forts">Forti</string>
+	<string key="ui_settlements">Insediamenti</string>
+	<string key="ui_stations">Luoghi negli insediamenti</string>
+	<string key="ui_tradeskill_tracking">Ricerca risorse vicine</string>
 	<string key="attribution_SpringtideBloom_2023" rel_version="Event_SpringtideBloom_Perm">Fioritura primaverile 2023</string>
 	<string key="ui_event_reputation_title">Reputazione evento</string>
 	<string key="ui_event_reputation_description">La reputazione evento sblocca nuovi oggetti acquistabili nel negozio dell'evento.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Origine:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Completare le missioni evento&lt;/font&gt;</string>
 	<string key="attribution_RabbitSeason_2023" rel_version="Feature_RabbitSeasonPerm">Vendetta del coniglio 2023</string>
+	<string key="ui_transmog_error_inventory_not_ready">Transmog fallito: servizio inventario non pronto.</string>
+	<string key="ui_transmog_error_service_server_error">Transmog fallito: errore nel servizio.</string>
+	<string key="ui_transmog_error_service_throttled">Transmog fallito: server occupato, riprova più tardi.</string>
+	<string key="ui_transmog_error_service_invalid_request">Transmog fallito: richiesta non valida.</string>
+	<string key="ui_transmog_error_skin_not_unlocked">Transmog fallito: skin non sbloccata.</string>
+	<string key="ui_transmog_error_no_item_equipped">Transmog fallito: slot vuoto.</string>
+	<string key="ui_transmog_error_mismatch_item_class">Transmog fallito: non puoi equipaggiare la skin su tipi non corrispondenti</string>
+	<string key="ui_transmog_error_generic">Errore nel transmog</string>
+	<string key="ui_transmog_npc_name">Stilomante</string>
+	<string key="ui_transmog_npc_tooltip">Crea skin a partire dagli oggetti che hai raccolto utilizzando &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; gettoni transmog.</string>
+	<string key="ui_equipment_combat_view_button">Visualizza equipaggiamento da combattimento</string>
+	<string key="ui_equipment_tools_view_button">Visualizza attrezzi, borse e strumenti</string>
 </resources>
 

@@ -5,22 +5,25 @@
 	<string key="ui_queue_leave_group">Abbandona gruppo</string>
 	<string key="ui_queue_leave_group_confirm_title">Abbandona gruppo</string>
 	<string key="ui_queue_leave_group_confirm_message">Se il numero di membri rimasti è inferiore a {minGroupSize}, il gruppo verrà rimosso dalla coda di accesso.\n\nVuoi procedere?</string>
-	<string key="ui_queue_leave_notification_generic">Non sei più nella coda di accesso della modalità di gioco</string>
+	<string key="ui_queue_leave_notification_generic">Non sei più nella coda di accesso della modalità di gioco.</string>
 	<string key="ui_queue_ready">F2 per partecipare alla spedizione</string>
 	<string key="ui_game_mode_matchmaking_failed">Si è verificato un errore durante il matchmaking.</string>
-	<string key="ui_game_mode_disabled">Al momento, questa modalità di gioco è disattivata</string>
+	<string key="ui_game_mode_disabled">Al momento, questa modalità di gioco è disattivata.</string>
 	<string key="ui_dungeon_enter_info">Perché la spedizione resti aperta deve esserci &lt;font color={color}&gt;almeno 1 persona&lt;/font&gt;. Vuoi teletrasportartici ora?</string>
 	<string key="ui_dungeon_enter_info_solo">&lt;font color={color}&gt;La Prova dell'anima è pronta&lt;/font&gt;. Vuoi teletrasportartici ora?</string>
 	<string key="ui_dungeon_enter_info_raidtrial">Perché la Prova élite resti aperta deve esserci &lt;font color={color}&gt;almeno 1 persona&lt;/font&gt;. Vuoi teletrasportartici ora?</string>
+	<string key="ui_dungeon_enter_info_seasontrial" rel_version="Season_2_Trial">Perché la Prova stagionale resti aperta deve esserci &lt;font color={color}&gt;almeno 1 persona&lt;/font&gt;. Vuoi teletrasportartici ora?</string>
 	<string key="ui_dungeon_enter_info_entered">La spedizione è aperta!\n&lt;font color={color}&gt;Vuoi teletrasportartici ora?&lt;/font&gt;</string>
 	<string key="ui_dungeon_enter_info_entered_solo">&lt;font color={color}&gt;La Prova dell'anima è pronta&lt;/font&gt;. Vuoi teletrasportartici ora?</string>
 	<string key="ui_dungeon_enter_info_entered_raidtrial">La Prova élite è aperta!\n&lt;font color={color}&gt;Vuoi teletrasportartici ora?&lt;/font&gt;</string>
+	<string key="ui_dungeon_enter_info_entered_seasontrial" rel_version="Season_2_Trial">La Prova stagionale è aperta!\n&lt;font color={color}&gt;Vuoi teletrasportartici ora?&lt;/font&gt;</string>
 	<string key="ui_duel_player">Sfida a duello</string>
 	<string key="ui_duel_failmessage_invalidname">{playerName} non è un nome giocatore valido.</string>
 	<string key="ui_duel_failmessage_outofrange">Non puoi sfidare a Duello un giocatore a più di {distance} metri di distanza.</string>
 	<string key="ui_duel_failmessage_alreadyinduel">Sei già in un Duello.</string>
 	<string key="ui_duel_failmessage_in_dungeon">Non puoi Duellare mentre sei in una spedizione.</string>
 	<string key="ui_duel_failmessage_in_dungeon_raidtrial">Non puoi duellare mentre sei in una Prova élite.</string>
+	<string key="ui_duel_failmessage_in_dungeon_seasontrial" rel_version="Season_2_Trial">Non puoi Duellare mentre sei in una Prova stagionale.</string>
 	<string key="ui_duel_failmessage_in_other_gamemode">Non puoi Duellare adesso.</string>
 	<string key="ui_duel_failmessage_pendinginvite">Hai già un invito in sospeso per un Duello.</string>
 	<string key="ui_duel_failmessage_deathsdoor">Non puoi Duellare mentre sei a un passo dalla morte.</string>
@@ -102,7 +105,7 @@
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} giocatori</string>
 	<string key="ui_outpost_rush_signup_failsolo">Al momento fai parte di un gruppo e non puoi partecipare come giocatore singolo</string>
 	<string key="ui_outpost_rush_signup_failgroup">Al momento non fai parte di un gruppo</string>
-	<string key="ui_outpost_rush_signup_failgroupinvite">Hai un invito in sospeso a una lobby Prova élite o spedizione</string>
+	<string key="ui_outpost_rush_signup_failgroupinvite">Hai un invito in sospeso</string>
 	<string key="ui_outpost_rush_signup_faillevel">È &lt;font color="#f10000"&gt;necessario&lt;/font&gt; il livello giocatore {levelRequirement}</string>
 	<string key="ui_outpost_rush_signup_failwar">Non puoi iscriverti perché hai già effettuato l'iscrizione a una prossima guerra che inizierà entro un'ora.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Non puoi iscriverti perché hai già effettuato l'iscrizione a: {matchname}</string>
@@ -119,6 +122,7 @@
 	<string key="ui_outpost_rush_signup_failgrouptimeout">Uno o più membri del tuo gruppo non hanno risposto all'invito.</string>
 	<string key="ui_outpost_rush_signup_failgroupfinder">Uno o più membri del tuo gruppo sono in una lobby.</string>
 	<string key="ui_outpost_rush_signup_failpenalty">Poiché hai abbandonato una partita in corso, riceverai una penalità</string>
+	<string key="ui_outpost_rush_signup_failgrouppendinginvite">Uno o più membri del tuo gruppo hanno un invito in sospeso.</string>
 	<string key="ui_outpost_rush_signup_penaltytimer">Sei stato bloccato per: {time}</string>
 	<string key="ui_outpost_rush_signup_joingroup_desc">Quando il tuo gruppo sarà entrato in coda, non potrai aggiungere altri membri.</string>
 	<string key="ui_outpost_rush_signup_joingroup_accept">Sì, siamo pronti</string>
@@ -146,10 +150,10 @@
 	<string key="ui_outpost_rush_match_started">Incontro iniziato</string>
 	<string key="ui_outpost_rush_match_started_desc">Conquista gli avamposti e uccidi i nemici per ottenere punti. Vince la prima squadra che raggiunge {value} punti!</string>
 	<string key="ui_outpost_rush_score_to_win">{value} per vincere</string>
-	<string key="ui_outpost_rush_leave">Abbandona Carica all'avamposto</string>
-	<string key="ui_outpost_rush_leave_queue_title">Vuoi abbandonare la coda?</string>
+	<string key="ui_outpost_rush_leave">Abbandona</string>
+	<string key="ui_outpost_rush_leave_queue_title">Abbandona coda</string>
 	<string key="ui_outpost_rush_leave_queue_desc">Vuoi davvero abbandonare la coda di Carica all'avamposto?</string>
-	<string key="ui_outpost_rush_leave_title">Abbandonare Carica all'avamposto?</string>
+	<string key="ui_outpost_rush_leave_title">Abbandona</string>
 	<string key="ui_outpost_rush_leave_desc">Vuoi davvero abbandonare Carica all'avamposto?</string>
 	<string key="ui_outpost_rush_leave_desc_time">Vuoi davvero abbandonare Carica all'avamposto?\nNon potrai rientrare nella coda di accesso a Carica all'avamposto per {time}.</string>
 	<string key="ui_outpost_rush_leave_group_desc_time">Vuoi davvero unirti a un altro gruppo?\nSe abbandoni il tuo gruppo, uscirai anche da Carica all'avamposto.\nNon potrai rientrare nella coda di accesso di Carica all'avamposto per {time}.</string>
@@ -159,6 +163,12 @@
 	<string key="ui_outpost_rush_boss">Baronessa Hain</string>
 	<string key="ui_outpost_rush_boss_alive">VIVO</string>
 	<string key="ui_outpost_rush_boss_alive_in">La Baronessa Hain apparirà tra:</string>
+	<string key="ui_outpost_rush_corrupted_portal_encounter">Portale corrotto</string>
+	<string key="ui_outpost_rush_corrupted_portal_active">ATTIVO</string>
+	<string key="ui_outpost_rush_corrupted_portal_active_in">Portale corrotto attivo tra:</string>
+	<string key="ui_outpost_rush_corrupted_portal_started">Il portale corrotto è attivo</string>
+	<string key="ui_outpost_rush_corrupted_portal_soon">Il portale corrotto si attiverà presto</string>
+	<string key="ui_outpost_rush_corrupted_portal_finished">Il portale corrotto è chiuso</string>
 	<string key="ui_outpost_rush_tutorial_how_it_works">Informazioni su Carica all'avamposto</string>
 	<string key="ui_outpost_rush_tutorial_title1">Conquistare gli avamposti</string>
 	<string key="ui_outpost_rush_tutorial_title2">Raccogliere risorse</string>
@@ -166,7 +176,7 @@
 	<string key="ui_outpost_rush_tutorial_title4">Uccidere il boss</string>
 	<string key="ui_outpost_rush_tutorial_desc1">Conquista gli avamposti e uccidi i nemici per ottenere punti. Vince la prima squadra che raggiunge 1.000 punti!</string>
 	<string key="ui_outpost_rush_tutorial_desc2">Raccogli pelli, minerali e legno impregnati per potenziare gli avamposti costruendo porte e armi da assedio. Costruisci un posto di comando per aumentare il potenziale offensivo e quello difensivo della tua squadra.</string>
-	<string key="ui_outpost_rush_tutorial_desc3">Usa le pietre di evocazione per evocare potenti alleati nei cerchi di evocazione. Acquista una pietra nell'armeria per evocare un orso, oppure dona Azoth al portale corrotto per ottenere un alleato bruto ultra-potente.</string>
+	<string key="ui_outpost_rush_tutorial_desc3">Usa le pietre di evocazione per evocare potenti alleati nei cerchi di evocazione. Evoca un orso sconfiggendo il potente lupo alfa o ottieni un alleato bruto potentissimo sconfiggendo e chiudendo il portale corrotto.</string>
 	<string key="ui_outpost_rush_tutorial_desc4">La Baronessa Hain è il fantasma di una nobile morta da tempo che infesta l'isola. Uccidila per ottenere un prezioso potenziamento che aumenterà la difesa della tua squadra e bloccherà il punteggio del nemico!</string>
 	<string key="ui_outpost_rush_tutorial_level_requirement">È necessario il &lt;font color="#ffe294"&gt;livello giocatore {level}&lt;/font&gt; per partecipare a Carica all'avamposto.</string>
 	<string key="ui_outpost_rush_locked">Bloccato</string>
@@ -187,6 +197,7 @@
 	<string key="ui_pinning_disabled_expeditions">Non è possibile fissare/rimuovere gli obiettivi delle Spedizioni</string>
 	<string key="ui_pinning_disabled_expeditions_solo">Non è possibile fissare/rimuovere gli obiettivi delle Prove dell'anima</string>
 	<string key="ui_pinning_disabled_expeditions_raidtrial">Non è possibile fissare/rimuovere gli obiettivi delle Prove élite</string>
+	<string key="ui_pinning_disabled_expeditions_seasontrial" rel_version="Season_2_Trial">Non è possibile fissare/rimuovere gli obiettivi delle Prove stagionali</string>
 	<string key="ui_or_commandpost_buff_on">Questa struttura fornisce potenziamenti alla squadra</string>
 	<string key="ui_or_commandpost_buff_off">Costruisci per ottenere potenziamenti di squadra</string>
 	<string key="or_azoth_portal">Portale di Azoth</string>
@@ -197,8 +208,8 @@
 	<string key="or_tutorial_rules_capture_body">Per conquistare un avamposto, posizionati nel cerchio al centro.</string>
 	<string key="or_tutorial_rules_score_title">LA TUA SQUADRA STA PERDENDO</string>
 	<string key="or_tutorial_rules_score_body">Conquista gli avamposti, difendili e sconfiggi i giocatori nemici per aumentare il punteggio della tua squadra.</string>
-	<string key="or_tutorial_rules_portal_title">DEPOSITA 750 ESSENZE DI AZOTH NEL PORTALE CORROTTO</string>
-	<string key="or_tutorial_rules_portal_body">Deposita la settecentocinquantesima essenza di Azoth per ricevere una pietra di evocazione corrotta.</string>
+	<string key="or_tutorial_rules_portal_title">Sconfiggi e chiudi il portale corrotto</string>
+	<string key="or_tutorial_rules_portal_body">Sconfiggi e chiudi il portale corrotto per ricevere una pietra di evocazione del bruto.</string>
 	<string key="or_tutorial_boss_spawn_title">LA BARONESSA HAIN È COMPARSA</string>
 	<string key="or_tutorial_boss_spawn_body">Uccidila per ottenere un prezioso potenziamento difensivo e bloccare il punteggio della squadra nemica per 3 minuti.</string>
 	<string key="or_tutorial_boss_near_title">LA BARONESSA HAIN È VICINA</string>
@@ -224,20 +235,22 @@
 	<string key="or_tutorial_summoning_reminder_title">USA LA PIETRA DI EVOCAZIONE</string>
 	<string key="or_tutorial_summoning_reminder_body">Raggiungi un cerchio di evocazione non occupato per evocare un potente alleato.</string>
 	<string key="or_tutorial_summoning_findstone_title">HAI BISOGNO DI UNA PIETRA DI EVOCAZIONE</string>
-	<string key="or_tutorial_summoning_findstone_body">Puoi ottenerne una acquistandola nell'armeria, sconfiggendo Ug o Dug nelle miniere o donando 750 essenze di Azoth al portale corrotto.</string>
+	<string key="or_tutorial_summoning_findstone_body">Sconfiggi il lupo alfa nella tana dei lupi, sconfiggendo Ug o Dug nelle miniere, o sconfiggendo e chiudendo il portale corrotto.</string>
 	<string key="or_tutorial_summoning_nostone_title">OTTIENI UNA PIETRA DI EVOCAZIONE E RIPROVA</string>
-	<string key="or_tutorial_summoning_nostone_body">Puoi ottenerne una acquistandola nell'armeria, sconfiggendo Ug o Dug nelle miniere o donando 750 essenze di Azoth al portale corrotto.</string>
+	<string key="or_tutorial_summoning_nostone_body">Sconfiggi il lupo alfa nella tana dei lupi, sconfiggendo Ug o Dug nelle miniere, o sconfiggendo e chiudendo il portale corrotto.</string>
 	<string key="or_tutorial_summoning_creature_title">AL MOMENTO NON PUOI RIUTILIZZARE IL CERCHIO DI EVOCAZIONE</string>
 	<string key="or_tutorial_summoning_creature_body">Prova a usarne un altro o aspetta che questo torni disponibile.</string>
-	<string key="emote_unable_to_use_emote">In questa modalità di gioco le emote non sono disponibili</string>
-	<string key="ui_durability_loss_outpost_rush">Stai partecipando a una Carica all'avamposto, perciò il tuo equipaggiamento non ha subito danni alla morte.</string>
-	<string key="ui_durability_loss_war">Stai partecipando a un Guerra (o a un'invasione), perciò il tuo equipaggiamento non ha subito danni alla morte.</string>
+	<string key="emote_unable_to_use_emote">In questa modalità di gioco le emote non sono disponibili.</string>
+	<string key="ui_durability_loss">Il tuo equipaggiamento non ha subito danni alla morte.</string>
+	<string key="ui_durability_loss_outpost_rush">Il tuo equipaggiamento non ha subito danni alla morte.</string>
+	<string key="ui_durability_loss_war">Il tuo equipaggiamento non ha subito danni alla morte.</string>
 	<string key="ui_item_durability_loss">Il tuo equipaggiamento ha subito danni alla morte.</string>
-	<string key="ui_item_durability_dungeon">Stai partecipando a una spedizione, perciò il tuo equipaggiamento non ha subito danni alla morte.</string>
-	<string key="ui_item_durability_dungeon_solo">Stai partecipando a una Prova dell'anima, perciò il tuo equipaggiamento non ha subito danni alla morte.</string>
-	<string key="ui_item_durability_dungeon_raidtrial">Stai partecipando a una Prova élite, perciò il tuo equipaggiamento non ha subito danni alla morte.</string>
-	<string key="ui_item_durability_arena" rel_version="Feature_PVP_Arenas">Stai partecipando a un'arena, perciò il tuo equipaggiamento non ha subito danni alla morte.</string>
-	<string key="ui_item_durability_loss_pvp">Sei stato ucciso da un altro giocatore: il tuo equipaggiamento ha subito danni ridotti.</string>
+	<string key="ui_item_durability_dungeon">Il tuo equipaggiamento non ha subito danni alla morte.</string>
+	<string key="ui_item_durability_dungeon_solo">Il tuo equipaggiamento non ha subito danni alla morte.</string>
+	<string key="ui_item_durability_dungeon_raidtrial">Il tuo equipaggiamento non ha subito danni alla morte.</string>
+	<string key="ui_item_durability_dungeon_seasontrial" rel_version="Season_2_Trial">Il tuo equipaggiamento non ha subito danni alla morte.</string>
+	<string key="ui_item_durability_arena" rel_version="Feature_PVP_Arenas">Il tuo equipaggiamento non ha subito danni alla morte.</string>
+	<string key="ui_item_durability_loss_pvp">Sei stato ucciso da un altro giocatore e il tuo equipaggiamento ha subito danni ridotti.</string>
 	<string key="ui_in_spectators_box">Nella postazione spettatore</string>
 	<string key="ui_in_spectators_box_description">Abilità disattivate</string>
 	<string key="ui_in_spectators_moving_to">Passaggio alla postazione dello spettatore tra {seconds} s</string>
@@ -255,8 +268,10 @@
 	<string key="ui_switching_sides">Cambio lato</string>
 	<string key="ui_rounds_won">Round vinti</string>
 	<string key="ui_see_through_label">Modalità Trasparente</string>
-	<string key="ui_invasion_leave">Abbandona invasione</string>
+	<string key="ui_invasion_leave">Abbandona</string>
 	<string key="ui_matchmaking_ready_title">Partita pronta</string>
 	<string key="ui_matchmaking_ready_text">La &lt;font color={color}&gt;partita in coda è pronta&lt;/font&gt;. Vuoi teletrasportartici ora?</string>
+	<string key="dungeon_how_to_raid">Come formare un'incursione</string>
+	<string key="dungeon_entry_requirements">Requisiti di partecipazione</string>
 </resources>
 
