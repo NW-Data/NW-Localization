@@ -93,14 +93,16 @@
 	<string key="ui_outpost_rush_invite_status">Akzeptiere, um dem Kampf beizutreten!</string>
 	<string key="ui_outpost_rush_signup_title">AUSSENPOSTENSTURM</string>
 	<string key="ui_outpost_rush_signup_desc">&lt;font color="#ffe940"&gt;Außenpostensturm&lt;/font&gt; ist ein Spiel, in dem Spieler in 2 Teams à 20 Spieler auf einer großen Insel mit drei Außenposten gegeneinander antreten. Die Teams müssen die Außenposten erobern und halten.</string>
-	<string key="ui_outpost_rush_signup_desc_gearscore">&lt;font color="#ffe940"&gt;Außenpostensturm&lt;/font&gt; ist ein Spiel, in dem Spieler in 2 Teams à 20 Spieler auf einer großen Insel mit drei Außenposten gegeneinander antreten. Die Teams müssen die Außenposten erobern und halten.\nIn diesem Modus tritt die &lt;font color="#ffe940"&gt;Rüstwertskalierung&lt;/font&gt; in Kraft, wodurch Ausrüstung mit einem Rüstwert von weniger als 600 auf 600 hochgestuft wird.</string>
+	<string key="ui_outpost_rush_signup_desc_gearscore">Die &lt;font color="#ffe940"&gt;Rüstwertskalierung&lt;/font&gt; erhöht den Rüstwert aller Ausrüstung mit einem Wert von unter 600 auf 600.</string>
+	<string key="ui_outpost_rush_signup_desc_cross_world">Außenpostensturm ist ein &lt;font color="#ffe940"&gt;weltübergreifender Spielmodus&lt;/font&gt; für 20x20.</string>
+	<string key="ui_outpost_rush_signup_desc_cross_world_tooltip">&lt;font color="#ffe940"&gt;Weltübergreifend&lt;/font&gt; bedeutet, dass du mit Spielern aus anderen Welten aus deiner Region zusammenspielst. Das kann helfen, die Wartezeit bis zum Finden eines Matches zu verkürzen.\n\nBeachte bitte:\n\n- Wenn du Spieler mit &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" xPadding="-1" scale="1.8" yOffset="2"&gt;&lt;/img&gt; neben ihrem Namen siehst, stammt dieser Spieler aus einer anderen Welt.\n\n- In einem weltübergreifenden Match sind bestimmte soziale Funktionen wie Handel, Einladungen usw. nicht aktiv.\n\n- Die Bestenliste "Siege im APS" ist ab sofort eine Bestenliste für die ganze Region.</string>
 	<string key="ui_outpost_rush_signup_goal1">Erobere und halte Außenposten, um Punkte zu erhalten.</string>
 	<string key="ui_outpost_rush_signup_goal2">Es gewinnt das Team, das zuerst 1.000 Punkte erreicht.</string>
 	<string key="ui_outpost_rush_signup_goal3">Nutze die besonderen Rohstoffe zum Angriff und zur Verteidigung.</string>
 	<string key="ui_outpost_rush_signup_points_number">1.000</string>
 	<string key="ui_outpost_rush_signup_points_text">PUNKTE</string>
 	<string key="ui_outpost_rush_signup_joinsolo">Solo</string>
-	<string key="ui_outpost_rush_signup_joingroup">Mit deiner Gruppe</string>
+	<string key="ui_outpost_rush_signup_joingroup">Mit Gruppe spielen</string>
 	<string key="ui_outpost_rush_signup_joinmid">Ich möchte laufenden Spielen beitreten &lt;font color="#ffe940"&gt;(kürzere Wartezeit)&lt;/font&gt;</string>
 	<string key="ui_outpost_rush_signup_playercount">{playerCount} Spieler</string>
 	<string key="ui_outpost_rush_signup_failsolo">Du bist aktuell in einer Gruppe und kannst nicht als Einzelspieler beitreten.</string>
@@ -121,12 +123,13 @@
 	<string key="ui_outpost_rush_signup_failgrouppenalty">Ein oder mehrere Gruppenmitglieder unterliegen einer Strafzeit, weil sie den vorherigen Außenpostensturm verlassen haben.</string>
 	<string key="ui_outpost_rush_signup_failgrouptimeout">Ein oder mehrere Gruppenmitglieder haben nicht auf die Einladung reagiert.</string>
 	<string key="ui_outpost_rush_signup_failgroupfinder">Mindestens ein Gruppenmitglied befindet sich in einer Lobby.</string>
-	<string key="ui_outpost_rush_signup_failpenalty">Da du ein laufendes Spiel verlassen hast, erhältst du nun eine Strafe.</string>
+	<string key="ui_outpost_rush_signup_failpenalty">Für das vorzeitige Verlassen eines Matches wurde eine Strafe ausgesprochen.</string>
 	<string key="ui_outpost_rush_signup_failgrouppendinginvite">Eines oder mehrere deiner Gruppenmitglieder haben eine ausstehende Einladung.</string>
-	<string key="ui_outpost_rush_signup_penaltytimer">Du bist blockiert für: {time}</string>
-	<string key="ui_outpost_rush_signup_joingroup_desc">Du kannst keine weiteren Gruppenmitglieder hinzufügen, sobald deine Gruppe in der Warteschlange ist.</string>
-	<string key="ui_outpost_rush_signup_joingroup_accept">Ja, wir sind bereit.</string>
-	<string key="ui_outpost_rush_signup_joingroup_cancel">Abbrechen</string>
+	<string key="ui_outpost_rush_signup_failtryagain">Du konntest der Warteschlange nicht beitreten. Versuche es bitte später erneut.</string>
+	<string key="ui_outpost_rush_signup_penaltytimer">Beitritt zur Warteschlange möglich in: {time}</string>
+	<string key="ui_outpost_rush_signup_joingroup_desc">Sind alle bereit?\n\nDu kannst die Gruppenmitglieder nicht mehr ändern, nachdem die Gruppe der Warteschlange beitritt.</string>
+	<string key="ui_outpost_rush_signup_joingroup_accept">Ja</string>
+	<string key="ui_outpost_rush_signup_joingroup_cancel">Nein</string>
 	<string key="ui_outpost_rush_signup_timer_prompt">Vergangene Zeit: {time}</string>
 	<string key="ui_outpost_rush_signup_leave_queue">Warteschlange verlassen</string>
 	<string key="ui_outpost_rush_queue_group_removed">Deine Gruppe wurde aus der Warteschlange für den Außenpostensturm entfernt.</string>
@@ -150,10 +153,10 @@
 	<string key="ui_outpost_rush_match_started">Partie hat begonnen</string>
 	<string key="ui_outpost_rush_match_started_desc">Erobere Außenposten und besiege Gegner, um Punkte zu sammeln. Es gewinnt das Team, das zuerst {value} Punkte erreicht!</string>
 	<string key="ui_outpost_rush_score_to_win">{value} zum Sieg</string>
-	<string key="ui_outpost_rush_leave">Verlassen</string>
+	<string key="ui_outpost_rush_leave">Aktivität verlassen</string>
 	<string key="ui_outpost_rush_leave_queue_title">Warteschlange verlassen</string>
 	<string key="ui_outpost_rush_leave_queue_desc">Willst du die Warteschlange für den Außenpostensturm wirklich verlassen?</string>
-	<string key="ui_outpost_rush_leave_title">Verlassen</string>
+	<string key="ui_outpost_rush_leave_title">Aktivität verlassen</string>
 	<string key="ui_outpost_rush_leave_desc">Willst du wirklich den Außenpostensturm verlassen?</string>
 	<string key="ui_outpost_rush_leave_desc_time">Willst du wirklich den Außenpostensturm verlassen?\nDu kannst dich {time} lang nicht mehr in die Warteschlange für den Außenpostensturm einreihen.</string>
 	<string key="ui_outpost_rush_leave_group_desc_time">Willst du wirklich einer anderen Gruppe beitreten?\nNachdem du deine Gruppe verlassen hast, kannst du dich {time} lang\nnicht mehr in die Warteschlange für den Außenpostensturm einreihen.</string>
@@ -182,6 +185,7 @@
 	<string key="ui_outpost_rush_locked">Gesperrt</string>
 	<string key="ui_outpost_rush_select_summoning_stone">Stein auswählen</string>
 	<string key="ui_outpost_rush_barrier">Fort-Barriere</string>
+	<string key="ui_outpost_rush_baroness_barrier">Barriere der Baronin</string>
 	<string key="ui_or_total_score">PUNKTE INSGESAMT</string>
 	<string key="ui_or_points_from">PUNKTE VON</string>
 	<string key="ui_or_outpost_a">AUSSENPOSTEN LUNA</string>
@@ -268,7 +272,7 @@
 	<string key="ui_switching_sides">Seitenwechsel</string>
 	<string key="ui_rounds_won">Gewonnene Runden</string>
 	<string key="ui_see_through_label">Einsichtsmodus</string>
-	<string key="ui_invasion_leave">Verlassen</string>
+	<string key="ui_invasion_leave">Aktivität verlassen</string>
 	<string key="ui_matchmaking_ready_title">Partie spielbereit</string>
 	<string key="ui_matchmaking_ready_text">Die Partie, auf die du gewartet hast, &lt;font color={color}&gt;ist spielbereit&lt;/font&gt;. Jetzt hineinteleportieren?</string>
 	<string key="dungeon_how_to_raid">Wie man einen Raubzug bildet</string>

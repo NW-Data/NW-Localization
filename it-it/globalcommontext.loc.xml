@@ -113,6 +113,8 @@
 	<string key="ui_affliction_weakness">resistenza alla debolezza</string>
 	<string key="ui_affliction_drowning">fiato</string>
 	<string key="ui_affliction_drowning_tooltip">Se esaurisci il fiato, soffocherai e morirai.</string>
+	<string key="ui_affliction_spores_tooltip">Se esaurisci la resistenza alle spore, sarai intriso di spore e subirai {[Type_StatusEffectData.SporeSickness.ABSVitalsCategory * -100]}% di danni in più da tutte le fonti.</string>
+	<string key="ui_affliction_spores">resistenza alle spore</string>
 	<string key="ui_affliction_blight">resistenza al logoramento</string>
 	<string key="ui_affliction_blight_tooltip">Se esaurisci la resistenza al logoramento, diventerai logorato e infliggerai danni ridotti di un {[Type_StatusEffectData.Blight.DMGStandard * 100]}%, riceverai guarigione ridotta di un {[Type_StatusEffectData.Blight.HealMod * 100]}% e perderai un {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]}% della salute di base ogni {[Type_StatusEffectData.Blight.TickRate]} secondi per {[Afflictions.AfflictionBlight.AfflictedDrainTime]} secondi.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">resistenza combustibile</string>
@@ -139,6 +141,8 @@
 	<string key="ui_afflicted_weakness">debole</string>
 	<string key="ui_afflicted_drowning">in procinto di annegare</string>
 	<string key="ui_afflicted_drowning_tooltip">Sei annegato.</string>
+	<string key="ui_afflicted_spores">intriso di spore</string>
+	<string key="ui_afflicted_spores_tooltip">Mentre sei intriso di spore subisci un {[Type_StatusEffectData.SporeSickness.ABSVitalsCategory * -100]}% di danni in più da tutte le fonti.</string>
 	<string key="ui_afflicted_blight">logorato</string>
 	<string key="ui_afflicted_blight_tooltip">Mentre sei logorato, infliggi danni ridotti di un {[Type_StatusEffectData.Blight.DMGStandard * 100]}%, ricevi guarigione ridotta di un {[Type_StatusEffectData.Blight.HealMod * 100]}% e perdi un {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]}% della salute di base ogni {[Type_StatusEffectData.Blight.TickRate]} secondi.</string>
 	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">combustione</string>
@@ -237,8 +241,8 @@
 	<string key="ui_company_name_input">Dai un nome alla tua compagnia</string>
 	<string key="ui_customize_company_information">Queste impostazioni possono essere modificate in qualsiasi momento</string>
 	<string key="ui_no_points_spent">Nessun punto assegnato</string>
-	<string key="ui_commit_1_point">Assegna &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; punto</string>
-	<string key="ui_commit_points">Assegna &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{points}&lt;/font&gt; punti</string>
+	<string key="ui_commit_1_point">Assegna 1 punto</string>
+	<string key="ui_commit_points">Assegna {points} punti</string>
 	<string key="ui_abilities_on_cooldown">Abilità in ricarica</string>
 	<string key="ui_abilities_in_combat">In combattimento</string>
 	<string key="ui_componentname">Nome componente</string>
@@ -469,6 +473,9 @@
 	<string key="ui_inventoryweight">PESO</string>
 	<string key="ui_inventoryslots">OGGETTI UNICI</string>
 	<string key="ui_filtereditems">{filtered} oggetti nascosti dal filtro.</string>
+	<string key="ui_left">Sinistra</string>
+	<string key="ui_right">Destra</string>
+	<string key="ui_materials">Materiali</string>
 	<string key="ui_inventory_tooltip">Premi [{keyName}] per aprire e chiudere l'inventario. Il misuratore radiale mostra la quantità di peso massimo già utilizzata.</string>
 	<string key="ui_equipped">Equipaggiato</string>
 	<string key="ui_invertcamera">Inverti telecamera</string>
@@ -578,7 +585,7 @@
 	<string key="ui_playername">Nome giocatore</string>
 	<string key="ui_playernamehassentyouag">Playername ti ha mandato un invito di gruppo. Tieni premuto [H] per unirti.</string>
 	<string key="ui_pressanykeytocontinue">Premi un tasto qualsiasi per continuare</string>
-	<string key="ui_presskeytoassign">Premi il tasto per assegnare questa abilità.</string>
+	<string key="ui_presskeytoassign">Seleziona un comando al quale assegnare questa abilità.</string>
 	<string key="ui_previous">Precedente</string>
 	<string key="ui_progress">Progresso</string>
 	<string key="ui_pronetoggle">Posizione distesa</string>
@@ -834,6 +841,7 @@
 	<string key="ui_turnlookupanddown">Guardati intorno</string>
 	<string key="ui_turnoff">Disattiva</string>
 	<string key="ui_turnon">Attiva</string>
+	<string key="ui_turn">Gira</string>
 	<string key="ui_twinmouse">Mouse gemello</string>
 	<string key="ui_underconstruction">In costruzione</string>
 	<string key="ui_unfriend">Rimuovi dagli amici</string>
@@ -2098,14 +2106,14 @@
 	<string key="ui_from_intelligence_and_focus">Intelligenza e Concentrazione</string>
 	<string key="ui_from_focus_and_intelligence">Concentrazione e Intelligenza</string>
 	<string key="ui_abilities">Abilità</string>
-	<string key="ui_ability_available" comment="tooltip message when a weapon mastery node is available to buy">Clicca per selezionare l'abilità</string>
-	<string key="ui_ability_unavailable_nopoints" comment="tooltip message for a weapon mastery node that can't be purchased due to lack of points">Nessun punto disponibile</string>
-	<string key="ui_ability_unavailable_noparent" comment="tooltip message when a weapon mastery node is not currently available to buy but doesn't have a specific requirement">Acquista un'abilità nella riga precedente per sbloccarla</string>
-	<string key="ui_ability_unavailable_parent" comment="tooltip message when a weapon mastery node is not currently available to buy and has a specific requirement, {parent}">Acquista un'abilità nella riga precedente {parent} per sbloccarla</string>
-	<string key="ui_ability_unavailable_parent_firstrow" comment="tooltip message when a weapon mastery node is on the first row but still not currently available to buy and has a specific requirement, {parent}">Acquista {parent} per sbloccarla</string>
-	<string key="ui_ability_unavailable_noparent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy but doesn't have a specific requirement">Acquista un'abilità nella riga precedente e 10 abilità in questo albero per sbloccarla</string>
-	<string key="ui_ability_unavailable_parent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy and has a specific requirement, {parent}">Acquista un'abilità nella riga precedente e 10 abilità in questo albero, tra cui {parent}, per sbloccarla</string>
-	<string key="ui_ability_selected" comment="tooltip message when a weapon mastery node has been selected but not committed to">Selezionata. Conferma la selezione da utilizzare</string>
+	<string key="ui_ability_available" comment="tooltip message when a weapon mastery node is available to buy">Seleziona e assegna i punti per sbloccare.</string>
+	<string key="ui_ability_unavailable_nopoints" comment="tooltip message for a weapon mastery node that can't be purchased due to lack of points">Nessun punto disponibile.</string>
+	<string key="ui_ability_unavailable_noparent" comment="tooltip message when a weapon mastery node is not currently available to buy but doesn't have a specific requirement">Richiede un'abilità sbloccata nella riga precedente di questo albero.</string>
+	<string key="ui_ability_unavailable_parent" comment="tooltip message when a weapon mastery node is not currently available to buy and has a specific requirement, {parent}">Richiede un'abilità sbloccata nella riga precedente di questo albero e {parent}.</string>
+	<string key="ui_ability_unavailable_parent_firstrow" comment="tooltip message when a weapon mastery node is on the first row but still not currently available to buy and has a specific requirement, {parent}">Richiede: {parent}.</string>
+	<string key="ui_ability_unavailable_noparent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy but doesn't have a specific requirement">Richiede un'abilità sbloccata nella riga precedente e 10 abilità sbloccate in questo albero.</string>
+	<string key="ui_ability_unavailable_parent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy and has a specific requirement, {parent}">Richiede {parent}, un'abilità sbloccata nella riga precedente e 10 abilità sbloccate in questo albero.</string>
+	<string key="ui_ability_selected" comment="tooltip message when a weapon mastery node has been selected but not committed to">Assegna i punti per sbloccare.</string>
 	<string key="ui_weapon_mastery">Maestria con le armi</string>
 	<string key="ui_weapon_mastered">Arma padroneggiata</string>
 	<string key="ui_tradeskill_mastered">Competenza padroneggiata</string>
@@ -2709,7 +2717,16 @@
 	<string key="ui_transmog_error_generic">Errore nel transmog</string>
 	<string key="ui_transmog_npc_name">Stilomante</string>
 	<string key="ui_transmog_npc_tooltip">Crea skin a partire dagli oggetti che hai raccolto utilizzando &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; gettoni transmog.</string>
+	<string key="ui_unclaimed_seasons_rewards">Ricompense stagionali non riscosse</string>
+	<string key="toggle_unclaimed_content_keybind">{$ui.toggleUnclaimedRewards_mod$} + {$ui.toggleUnclaimedRewards$}</string>
+	<string key="toggle_unclaimed_content_bind_menu_keybind">ALT-S + F9</string>
+	<string key="generic_list_2">{item1} e {item2}</string>
+	<string key="generic_list_3">{item1}, {item2} e {item3}</string>
+	<string key="generic_list_4">{item1}, {item2}, {item3} e {item4}</string>
+	<string key="generic_list_5">{item1}, {item2}, {item3}, {item4} e {item5}</string>
+	<string key="generic_list_6">{item1}, {item2}, {item3}, {item4}, {item5} e {item6}</string>
 	<string key="ui_equipment_combat_view_button">Visualizza equipaggiamento da combattimento</string>
 	<string key="ui_equipment_tools_view_button">Visualizza attrezzi, borse e strumenti</string>
+	<string key="views_tutorial">Seleziona la visuale attrezzi per accedere a attrezzi, borse e strumenti.</string>
 </resources>
 

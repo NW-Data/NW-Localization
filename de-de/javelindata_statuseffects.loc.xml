@@ -556,7 +556,7 @@
 	<string key="Mut_Nat_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Runzelige Natur</string>
 	<string key="Mut_Voi_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Runzeliges Unheil</string>
 	<string key="Mut_Curse3_Weaken_DisplayName" rel_version="Feature_Dungeon_Mutators">Runzelig</string>
-	<string key="Mut_Curse3_Weaken_Tooltip" rel_version="Feature_Dungeon_Mutators">Sämtlicher verursachter Schaden wird um {[Type_StatusEffectData.Mut_Curse3_Weaken.DMGStandard * -100]} % und jegliche gewirkte Heilung um {[Type_StatusEffectData.Mut_Curse3_Weaken.HealScalingValueMultiplier * -100]} % verringert.</string>
+	<string key="Mut_Curse3_Weaken_Tooltip" rel_version="Feature_Dungeon_Mutators">Sämtlicher verursachter Schaden wird um {[Type_StatusEffectData.Mut_Curse3_Weaken.DMGStandard * -100]} % und sämtliche schadensbasierte Heilung wird um {[Type_StatusEffectData.Mut_Curse3_Weaken.HealScalingValueMultiplier * -100]} % verringert.</string>
 	<string key="Mut_Curse4_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Gekürzt</string>
 	<string key="Mut_Fir_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Zurückstoßendes Feuer</string>
 	<string key="Mut_Ice_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Zurückstoßendes Eis</string>
@@ -745,6 +745,7 @@
 	<string key="TotemDisease_DisplayName">Krankheitsaura</string>
 	<string key="TotemDisease_Tooltip">Verringert die erhaltene Heilung um {[Type_StatusEffectData.TotemDisease.HealMod * -100]} %. Stapelt mit anderen Krankheitseffekten.</string>
 	<string key="AI_ChainLightning_DisplayName">Kettenblitz</string>
+	<string key="AI_SirenEnableChainLightning_DisplayName">Elektrifiziert</string>
 	<string key="AI_DryadSiren_Electrified_DisplayName" rel_version="Expedition_CutlassKeys_00">Elektrifiziert</string>
 	<string key="AI_DryadSiren_Erosion_Debuff_DisplayName" rel_version="Expedition_CutlassKeys_00">Erosion</string>
 	<string key="AI_DryadSiren_Erosion_Debuff_Tooltip" rel_version="Expedition_CutlassKeys_00">Du erleidest {[Type_StatusEffectData.AI_DryadSiren_Erosion_Debuff.BaseDuration]} Sekunden lang {[Type_StatusEffectData.AI_DryadSiren_Erosion_Debuff.ABSStandard * -100]} % mehr Schaden von allen Schadensquellen.</string>
@@ -809,6 +810,24 @@
 	<string key="AI_FireNaga_Flamethrower_DoT_Tooltip" rel_version="Expedition_GreatCleave_01">Verursacht {[Type_StatusEffectData.AI_FireNaga_Flamethrower_DoT.BaseDuration]} Sekunden lang alle {[Type_StatusEffectData.AI_FireNaga_Flamethrower_DoT.TickRate]} Sekunden Feuerschaden in Höhe von {[Type_StatusEffectData.AI_FireNaga_Flamethrower_DoT.HealthModifierPercent * -100]} % der maximalen Gesundheit.</string>
 	<string key="AI_FireNaga_LavaPool_DoT_DisplayName" rel_version="Expedition_GreatCleave_01">Brennende Lava</string>
 	<string key="AI_FireNaga_LavaPool_DoT_Tooltip" rel_version="Expedition_GreatCleave_01">Verursacht alle {[Type_StatusEffectData.AI_FireNaga_LavaPool_DoT.TickRate]} Sek. Feuerschaden in Höhe von {[Type_StatusEffectData.AI_FireNaga_LavaPool_DoT.HealthModifierPercent * -100]} % der maximalen Gesundheit.</string>
+	<string key="Sandworm_ArenaEncounter_PressurePlate_Ranged_Buff_DisplayName" rel_version="Trial_Brimstone_Sandworm">Schildbrecher</string>
+	<string key="Sandworm_ArenaEncounter_PressurePlate_Ranged_Buff_Tooltip" rel_version="Trial_Brimstone_Sandworm">Werde überladen und füge Bonus-Schild-Ausdauerschaden zu.</string>
+	<string key="Sandworm_Acid_Resistance_DisplayName" rel_version="Trial_Brimstone_Sandworm">Sturmjäger</string>
+	<string key="Sandworm_Acid_Resistance_Tooltip" rel_version="Trial_Brimstone_Sandworm">Du wirst extrem resistent gegenüber Belagerungsschaden. Deine Nahkampfangriffe verursachen "Aufgerissen" und fügen den Zielen {[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.BaseDuration]} Sekunden lang bis zu {[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.StackMax]} stapelbare um {[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.ABSStandard * -100]} % erhöhten Schaden zu.</string>
+	<string key="Sandworm_Acid_Pool_DisplayName" rel_version="Trial_Brimstone_Sandworm">Säurepfütze</string>
+	<string key="Sandworm_Acid_Pool_Tooltip" rel_version="Trial_Brimstone_Sandworm">Erleidet {[Type_StatusEffectData.Sandworm_Acid_Pool.HealthModifierPercent * -100]} % der maximalen Gesundheit an Säureschaden und alle {[Type_StatusEffectData.Sandworm_Acid_Pool.TickRate]} Sekunden den Leidenseffekt "Säure".</string>
+	<string key="Sandworm_Devour_Area_Denial_DisplayName" rel_version="Trial_Brimstone_Sandworm">Verdauungssäfte</string>
+	<string key="Sandworm_Devour_Area_Denial_Tooltip" rel_version="Trial_Brimstone_Sandworm">Erleidet {[Type_StatusEffectData.Sandworm_Devour_Area_Denial.HealthModifierPercent * -100]} % der maximalen Gesundheit an Säureschaden und alle {[Type_StatusEffectData.Sandworm_Devour_Area_Denial.TickRate]} Sekunden den Leidenseffekt "Säure".</string>
+	<string key="Sandworm_ElenetalJuggernaut_Invulnerability_DisplayName" rel_version="Trial_Brimstone_Sandworm">Geschützt</string>
+	<string key="Sandworm_ElenetalJuggernaut_Invulnerability_Tooltip" rel_version="Trial_Brimstone_Sandworm">Immun gegen Schaden.</string>
+	<string key="Sandworm_Invulnerability_DisplayName" rel_version="Trial_Brimstone_Sandworm">Geschützt</string>
+	<string key="Sandworm_Invulnerability_Tooltip" rel_version="Trial_Brimstone_Sandworm">Immun gegen Schaden.</string>
+	<string key="Sandworm_Storm_Chaser_Debuff_DisplayName" rel_version="Trial_Brimstone_Sandworm">Sturmjäger-Aufgerissen</string>
+	<string key="Sandworm_Storm_Chaser_Debuff_Tooltip" rel_version="Trial_Brimstone_Sandworm">Erlittener Schaden wird für {[{[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.BaseDuration]} Sek. um {[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.ABSStandard * 100]} % erhöht. Kann bis zu {[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.StackMax]}-mal gestapelt werden.</string>
+	<string key="Sandworm_Acid_Storm_DisplayName" rel_version="Trial_Brimstone_Sandworm">Säuresturm</string>
+	<string key="Sandworm_Acid_Storm_Tooltip" rel_version="Trial_Brimstone_Sandworm">Erleidet {[Type_StatusEffectData.Sandworm_Acid_Storm.HealthModifierPercent * -100]} % der maximalen Gesundheit an Säureschaden und alle {[Type_StatusEffectData.Sandworm_Acid_Storm.TickRate]} Sekunden den Leidenseffekt "Säure".</string>
+	<string key="Sandworm_Acid_Spew_DisplayName" rel_version="Trial_Brimstone_Sandworm">Säurespucke</string>
+	<string key="Sandworm_Acid_Spew_Tooltip" rel_version="Trial_Brimstone_Sandworm">Erleidet {[Type_StatusEffectData.Sandworm_Acid_Spew.HealthModifierPercent * -100]} % der maximalen Gesundheit an Säureschaden und alle {[Type_StatusEffectData.Sandworm_Acid_Spew.TickRate]} Sekunden den Leidenseffekt "Säure".</string>
 	<string key="godModeThirst_DisplayName">Gottmodus</string>
 	<string key="godModeHealth_DisplayName">Gottmodus</string>
 	<string key="godModeAll_DisplayName">Gottmodus</string>
@@ -1323,6 +1342,7 @@
 	<string key="Status_Silence">Stille</string>
 	<string key="Status_Disease">Krankheit</string>
 	<string key="Status_Recovery">Erholung</string>
+	<string key="Status_Reinforced">Verstärkt</string>
 	<string key="Status_Empower_Description">Du hast einen aktiven Schadenserhöhungs-Bonus.</string>
 	<string key="Status_Fortify_Description">Du hast einen aktiven Rüstungsbonus.</string>
 	<string key="Status_Haste_Description">Dein Bewegungstempo ist derzeit erhöht.</string>
@@ -1335,6 +1355,7 @@
 	<string key="Status_Poison_Description">Du leidest derzeit unter einem Giftschaden-über-Zeit-Effekt.</string>
 	<string key="Status_Bleed_Description">Du leidest derzeit unter einem Blutungsschaden-über-Zeit-Effekt.</string>
 	<string key="Status_Burn_Description">Du leidest derzeit unter einem Feuerschaden-über-Zeit-Effekt.</string>
+	<string key="Status_Reinforced_description">Solange das aktiv ist, erhältst du für eine begrenzte Trefferanzahl eine Schadensreduktion.</string>
 	<string key="Status_HealingReceived_Description">Die Effektivität deiner Heilung durch dich und andere Quellen ist erhöht.</string>
 	<string key="Status_HealOverTimeNonCombat_Description">Du erhältst jede Sekunde Gesundheit.</string>
 	<string key="Status_Heal_Description">Deine Heilungseffekte wirken stärker.</string>
@@ -1480,11 +1501,11 @@
 	<string key="Status_Ultimate_Sword_Defender_Timer_description">Sobald dies endet, kannst du die Verteidigungsformation erneut nutzen.</string>
 	<string key="Status_Ability_Lifestaff_OrbofProtection_description">Deine Rüstung wird um {[Type_StatusEffectData.Status_Ability_Lifestaff_OrbofProtection.PhysicalArmor * 100]} % erhöht.</string>
 	<string key="Status_Upgrade_Lifestaff_OrbofProtection_Dmg_description">Dein Schaden wird um {[Type_StatusEffectData.Status_Upgrade_Lifestaff_OrbofProtection_Dmg.DMGStandard * 100]} % erhöht.</string>
-	<string key="Status_Passive_Lifestaff_Protection_HealingOnDodge_description">Deine Heilung wird um {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HealingOnDodge.HealScalingValueMultiplier * 100]} % erhöht.</string>
+	<string key="Status_Passive_Lifestaff_Protection_HealingOnDodge_description">Deine schadensbasierte Heilung wird um {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HealingOnDodge.HealScalingValueMultiplier * 100]} % erhöht.</string>
 	<string key="Status_Passive_Lifestaff_Protection_HasteWhenLow_description">Dein Bewegungstempo wird um {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HasteWhenLow.SprintSpeedMod * 100]} % verringert.</string>
 	<string key="Status_Passive_Lifestaff_Protection_HasteWhenLow_Timer_description">Sobald dies endet, kannst du Balance erneut auslösen.</string>
 	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_name">Intensivierung</string>
-	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_description">Deine Heilung wird um {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealingBuffonBasic.HealScalingValueMultiplier * 100]} % erhöht.</string>
+	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_description">Deine schadensbasierte Heilung wird um {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealingBuffonBasic.HealScalingValueMultiplier * 100]} % erhöht.</string>
 	<string key="Status_Passive_Lifestaff_Healing_AoeHealWhenHit_description">Für dich und deine Verbündeten im Umkreis von 4 m wird eine Heilaura aktiviert, die jede Sekunde {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_AoeHealWhenHit.HealthModifierDamageBased * 100]} % Waffenschaden heilt.</string>
 	<string key="Status_Ability_Lifestaff_SacredGround">Gesegneter Boden</string>
 	<string key="Status_Ability_Lifestaff_SacredGround_description">Du wirst um {[Type_StatusEffectData.Status_Ability_Lifestaff_SacredGround.HealthModifierDamageBased * 100]} % des Waffenschadens des Zauberwirkers geheilt.</string>
@@ -1763,5 +1784,7 @@
 	<string key="SpringtideBloom_SpringtideDram_MasterName">Frühlingspunsch</string>
 	<string key="SpringtideBloom_SpringtideCrumble_MasterName">Frühlingsstreuselkuchen</string>
 	<string key="SpringtideBloom_SpringtideWafer_MasterName">Frühlingswaffel</string>
+	<string key="AI_MummifiedCorpse_Bleed_Tooltip">Für {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.BaseDuration]} Sekunden alle {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.TickRate]} Sek. Blutung mit physischem Schaden in Höhe von {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.HealthModifierDamageBased * -100]} % Basisschaden + {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.HealthModifierPercent * -100]} % des Gesundheitsgrundwerts.</string>
+	<string key="AI_GhastlyHatchet_ReflexCheck_Bleed_Tooltip">Eine kleine, x-förmige Wunde. Für {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.BaseDuration]} Sekunden alle {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.TickRate]} Sek. Blutung mit physischem Schaden in Höhe von {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.HealthModifierDamageBased * -100]} % Basisschaden + {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.HealthModifierPercent * -100]} % des Gesundheitsgrundwerts.</string>
 </resources>
 

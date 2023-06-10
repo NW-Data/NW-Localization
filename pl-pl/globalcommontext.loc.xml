@@ -241,8 +241,8 @@
 	<string key="ui_company_name_input">Nazwij swoją kompanię</string>
 	<string key="ui_customize_company_information">Te ustawienia można zmienić w dowolnej chwili.</string>
 	<string key="ui_no_points_spent">Nie przypisano punktów</string>
-	<string key="ui_commit_1_point">Przydziel &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; punkt</string>
-	<string key="ui_commit_points">Przydziel &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{points}&lt;/font&gt; pkt</string>
+	<string key="ui_commit_1_point">Przydziel 1 punkt</string>
+	<string key="ui_commit_points">Przydziel {points} pkt</string>
 	<string key="ui_abilities_on_cooldown">Zdolności się odnawiają</string>
 	<string key="ui_abilities_in_combat">Walka</string>
 	<string key="ui_componentname">Nazwa komponentu</string>
@@ -585,7 +585,7 @@
 	<string key="ui_playername">Imię gracza</string>
 	<string key="ui_playernamehassentyouag">Gracz Playername zaprasza cię do grupy. Przytrzymaj [H], by dołączyć.</string>
 	<string key="ui_pressanykeytocontinue">Naciśnij dowolny klawisz, aby kontynuować</string>
-	<string key="ui_presskeytoassign">Naciśnij klawisz do przypisania.</string>
+	<string key="ui_presskeytoassign">Wybierz klawisz, do którego chcesz przypisać zdolność.</string>
 	<string key="ui_previous">Wstecz</string>
 	<string key="ui_progress">Postęp</string>
 	<string key="ui_pronetoggle">Pozycja leżąca</string>
@@ -2106,14 +2106,14 @@
 	<string key="ui_from_intelligence_and_focus">Inteligencja i skupienie</string>
 	<string key="ui_from_focus_and_intelligence">Skupienie i inteligencja</string>
 	<string key="ui_abilities">Zdolności</string>
-	<string key="ui_ability_available" comment="tooltip message when a weapon mastery node is available to buy">Naciśnij, by wybrać zdolność</string>
-	<string key="ui_ability_unavailable_nopoints" comment="tooltip message for a weapon mastery node that can't be purchased due to lack of points">Brak dostępnych punktów</string>
-	<string key="ui_ability_unavailable_noparent" comment="tooltip message when a weapon mastery node is not currently available to buy but doesn't have a specific requirement">Kup zdolność w poprzednim rzędzie, by odblokować</string>
-	<string key="ui_ability_unavailable_parent" comment="tooltip message when a weapon mastery node is not currently available to buy and has a specific requirement, {parent}">Kup zdolność w poprzednim rzędzie oraz: {parent}, by odblokować</string>
-	<string key="ui_ability_unavailable_parent_firstrow" comment="tooltip message when a weapon mastery node is on the first row but still not currently available to buy and has a specific requirement, {parent}">Kup: {parent}, by odblokować</string>
-	<string key="ui_ability_unavailable_noparent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy but doesn't have a specific requirement">Kup zdolność w poprzednim rzędzie oraz 10 zdolności w tym drzewku, by odblokować</string>
-	<string key="ui_ability_unavailable_parent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy and has a specific requirement, {parent}">Kup zdolność w poprzednim rzędzie oraz 10 zdolności w tym drzewku (wraz z: {parent}), by odblokować</string>
-	<string key="ui_ability_selected" comment="tooltip message when a weapon mastery node has been selected but not committed to">Wybrano. Potwierdź do użycia.</string>
+	<string key="ui_ability_available" comment="tooltip message when a weapon mastery node is available to buy">Wybierz i przypisz punkty, by odblokować.</string>
+	<string key="ui_ability_unavailable_nopoints" comment="tooltip message for a weapon mastery node that can't be purchased due to lack of points">Brak dostępnych punktów.</string>
+	<string key="ui_ability_unavailable_noparent" comment="tooltip message when a weapon mastery node is not currently available to buy but doesn't have a specific requirement">Wymaga odblokowania zdolności w poprzednim rzędzie tego drzewka.</string>
+	<string key="ui_ability_unavailable_parent" comment="tooltip message when a weapon mastery node is not currently available to buy and has a specific requirement, {parent}">Wymaga odblokowania zdolności w poprzednim rzędzie tego drzewka oraz: {parent}.</string>
+	<string key="ui_ability_unavailable_parent_firstrow" comment="tooltip message when a weapon mastery node is on the first row but still not currently available to buy and has a specific requirement, {parent}">Wymaga: {parent}.</string>
+	<string key="ui_ability_unavailable_noparent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy but doesn't have a specific requirement">Wymaga odblokowania zdolności w poprzednim rzędzie oraz 10 odblokowanych zdolności na tym drzewku.</string>
+	<string key="ui_ability_unavailable_parent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy and has a specific requirement, {parent}">Wymaga: {parent}, odblokowania zdolności w poprzednim rzędzie oraz 10 odblokowanych zdolności na tym drzewku.</string>
+	<string key="ui_ability_selected" comment="tooltip message when a weapon mastery node has been selected but not committed to">Przypisz punkty, by odblokować.</string>
 	<string key="ui_weapon_mastery">Umiejętności</string>
 	<string key="ui_weapon_mastered">Biegłość mistrzowska</string>
 	<string key="ui_tradeskill_mastered">Biegłość mistrzowska</string>
@@ -2717,7 +2717,9 @@
 	<string key="ui_transmog_error_generic">Błąd przemiany</string>
 	<string key="ui_transmog_npc_name">Stylomanta</string>
 	<string key="ui_transmog_npc_tooltip">Twórz skórki ze zdobytych przedmiotów za pomocą &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; żetonów przemiany.</string>
+	<string key="ui_unclaimed_seasons_rewards">Nieprzejęte nagrody sezonowe</string>
 	<string key="toggle_unclaimed_content_keybind">{$ui.toggleUnclaimedRewards_mod$}+ {$ui.toggleUnclaimedRewards$}</string>
+	<string key="toggle_unclaimed_content_bind_menu_keybind">LALT + F9</string>
 	<string key="generic_list_2">{item1} oraz {item2}</string>
 	<string key="generic_list_3">{item1} oraz {item3}</string>
 	<string key="generic_list_4">{item1} oraz {item4}</string>

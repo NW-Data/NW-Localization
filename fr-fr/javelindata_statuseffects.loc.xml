@@ -556,7 +556,7 @@
 	<string key="Mut_Nat_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Nature flétrie</string>
 	<string key="Mut_Voi_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Néant flétri</string>
 	<string key="Mut_Curse3_Weaken_DisplayName" rel_version="Feature_Dungeon_Mutators">Flétri</string>
-	<string key="Mut_Curse3_Weaken_Tooltip" rel_version="Feature_Dungeon_Mutators">Réduit les dégâts infligés de {[Type_StatusEffectData.Mut_Curse3_Weaken.DMGStandard * -100]} % et tous les soins appliqués de {[Type_StatusEffectData.Mut_Curse3_Weaken.HealScalingValueMultiplier * -100]} %.</string>
+	<string key="Mut_Curse3_Weaken_Tooltip" rel_version="Feature_Dungeon_Mutators">Réduit de {[Type_StatusEffectData.Mut_Curse3_Weaken.DMGStandard * -100]} % tous les dégâts infligés et de {[Type_StatusEffectData.Mut_Curse3_Weaken.HealScalingValueMultiplier * -100]} % tous les soins basés sur les dégâts.</string>
 	<string key="Mut_Curse4_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Troncature</string>
 	<string key="Mut_Fir_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Feu vengeur</string>
 	<string key="Mut_Ice_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Glace vengeresse</string>
@@ -745,6 +745,7 @@
 	<string key="TotemDisease_DisplayName">Aura virulente</string>
 	<string key="TotemDisease_Tooltip">Réduit les soins reçus de {[Type_StatusEffectData.TotemDisease.HealMod * -100]} %. Se cumule avec les autres effets de maladie.</string>
 	<string key="AI_ChainLightning_DisplayName">Chapelet de foudre</string>
+	<string key="AI_SirenEnableChainLightning_DisplayName">Électrifié</string>
 	<string key="AI_DryadSiren_Electrified_DisplayName" rel_version="Expedition_CutlassKeys_00">Électrifié</string>
 	<string key="AI_DryadSiren_Erosion_Debuff_DisplayName" rel_version="Expedition_CutlassKeys_00">Érosion</string>
 	<string key="AI_DryadSiren_Erosion_Debuff_Tooltip" rel_version="Expedition_CutlassKeys_00">Augmente tous les types de dégâts subis de {[Type_StatusEffectData.AI_DryadSiren_Erosion_Debuff.ABSStandard * -100]} % pendant {[Type_StatusEffectData.AI_DryadSiren_Erosion_Debuff.BaseDuration]} secondes.</string>
@@ -809,6 +810,24 @@
 	<string key="AI_FireNaga_Flamethrower_DoT_Tooltip" rel_version="Expedition_GreatCleave_01">Brûlure qui inflige des dégâts de feu à hauteur de {[Type_StatusEffectData.AI_FireNaga_Flamethrower_DoT.HealthModifierPercent * -100]} % de la santé max toutes les {[Type_StatusEffectData.AI_FireNaga_Flamethrower_DoT.TickRate]} secondes pendant {[Type_StatusEffectData.AI_FireNaga_Flamethrower_DoT.BaseDuration]} secondes.</string>
 	<string key="AI_FireNaga_LavaPool_DoT_DisplayName" rel_version="Expedition_GreatCleave_01">Lave brûlante</string>
 	<string key="AI_FireNaga_LavaPool_DoT_Tooltip" rel_version="Expedition_GreatCleave_01">Brûlure à hauteur de {[Type_StatusEffectData.AI_FireNaga_LavaPool_DoT.HealthModifierPercent * -100]} % de la santé max toutes les {[Type_StatusEffectData.AI_FireNaga_LavaPool_DoT.TickRate]} secondes.</string>
+	<string key="Sandworm_ArenaEncounter_PressurePlate_Ranged_Buff_DisplayName" rel_version="Trial_Brimstone_Sandworm">Briseur de bouclier</string>
+	<string key="Sandworm_ArenaEncounter_PressurePlate_Ranged_Buff_Tooltip" rel_version="Trial_Brimstone_Sandworm">Crée une surcharge qui inflige des dégâts de vitalité bonus au bouclier.</string>
+	<string key="Sandworm_Acid_Resistance_DisplayName" rel_version="Trial_Brimstone_Sandworm">Chasseur d'orages</string>
+	<string key="Sandworm_Acid_Resistance_Tooltip" rel_version="Trial_Brimstone_Sandworm">Résistance aux dégâts de siège grandement accrue. Vos attaques au corps à corps appliquent lacération, infligeant aux cibles touchées {[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.ABSStandard * -100]} % de dégâts supplémentaires pendant {[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.BaseDuration]} secondes. Cumulable {[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.StackMax]} fois.</string>
+	<string key="Sandworm_Acid_Pool_DisplayName" rel_version="Trial_Brimstone_Sandworm">Flaque d'acide</string>
+	<string key="Sandworm_Acid_Pool_Tooltip" rel_version="Trial_Brimstone_Sandworm">Subit des dégâts d'acide à hauteur de {[Type_StatusEffectData.Sandworm_Acid_Pool.HealthModifierPercent * -100]} % de la santé max et des atteintes d'acide toutes les {[Type_StatusEffectData.Sandworm_Acid_Pool.TickRate]} secondes.</string>
+	<string key="Sandworm_Devour_Area_Denial_DisplayName" rel_version="Trial_Brimstone_Sandworm">Sucs gastriques</string>
+	<string key="Sandworm_Devour_Area_Denial_Tooltip" rel_version="Trial_Brimstone_Sandworm">Subit des dégâts d'acide à hauteur de {[Type_StatusEffectData.Sandworm_Devour_Area_Denial.HealthModifierPercent * -100]} % de la santé max et des atteintes d'acide toutes les {[Type_StatusEffectData.Sandworm_Devour_Area_Denial.TickRate]} secondes.</string>
+	<string key="Sandworm_ElenetalJuggernaut_Invulnerability_DisplayName" rel_version="Trial_Brimstone_Sandworm">Protection</string>
+	<string key="Sandworm_ElenetalJuggernaut_Invulnerability_Tooltip" rel_version="Trial_Brimstone_Sandworm">Immunité aux dégâts.</string>
+	<string key="Sandworm_Invulnerability_DisplayName" rel_version="Trial_Brimstone_Sandworm">Protection</string>
+	<string key="Sandworm_Invulnerability_Tooltip" rel_version="Trial_Brimstone_Sandworm">Immunité aux dégâts.</string>
+	<string key="Sandworm_Storm_Chaser_Debuff_DisplayName" rel_version="Trial_Brimstone_Sandworm">Lacération du chasseur d'orages</string>
+	<string key="Sandworm_Storm_Chaser_Debuff_Tooltip" rel_version="Trial_Brimstone_Sandworm">Augmente les dégâts subis de {[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.ABSStandard * 100]} % pendant {[{[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.BaseDuration]}]} secondes. Peut être cumulé jusqu'à {[Type_StatusEffectData.Sandworm_Storm_Chaser_Debuff.StackMax]} fois.</string>
+	<string key="Sandworm_Acid_Storm_DisplayName" rel_version="Trial_Brimstone_Sandworm">Orage d'acide</string>
+	<string key="Sandworm_Acid_Storm_Tooltip" rel_version="Trial_Brimstone_Sandworm">Subit des dégâts d'acide à hauteur de {[Type_StatusEffectData.Sandworm_Acid_Storm.HealthModifierPercent * -100]} % de la santé max et des atteintes d'acide toutes les {[Type_StatusEffectData.Sandworm_Acid_Storm.TickRate]} secondes.</string>
+	<string key="Sandworm_Acid_Spew_DisplayName" rel_version="Trial_Brimstone_Sandworm">Crachat d'acide</string>
+	<string key="Sandworm_Acid_Spew_Tooltip" rel_version="Trial_Brimstone_Sandworm">Subit des dégâts d'acide à hauteur de {[Type_StatusEffectData.Sandworm_Acid_Spew.HealthModifierPercent * -100]} % de la santé max et des atteintes d'acide toutes les {[Type_StatusEffectData.Sandworm_Acid_Spew.TickRate]} secondes.</string>
 	<string key="godModeThirst_DisplayName">Mode divin</string>
 	<string key="godModeHealth_DisplayName">Mode divin</string>
 	<string key="godModeAll_DisplayName">Mode divin</string>
@@ -1323,6 +1342,7 @@
 	<string key="Status_Silence">Silence</string>
 	<string key="Status_Disease">Maladie</string>
 	<string key="Status_Recovery">Récupération</string>
+	<string key="Status_Reinforced">Fortifié</string>
 	<string key="Status_Empower_Description">Vous bénéficiez d'une amélioration des dégâts infligés.</string>
 	<string key="Status_Fortify_Description">Vous bénéficiez d'une amélioration active à l'armure.</string>
 	<string key="Status_Haste_Description">Votre vitesse de déplacement est actuellement augmentée.</string>
@@ -1335,6 +1355,7 @@
 	<string key="Status_Poison_Description">Vous subissez actuellement des dégâts d'empoisonnement sur la durée.</string>
 	<string key="Status_Bleed_Description">Vous subissez actuellement des dégâts de saignement sur la durée.</string>
 	<string key="Status_Burn_Description">Vous subissez actuellement des dégâts de feu sur la durée.</string>
+	<string key="Status_Reinforced_description">Obtient une réduction aux dégâts pendant un nombre limité de coups quand actif.</string>
 	<string key="Status_HealingReceived_Description">L'efficacité de tous les soins reçus est augmentée.</string>
 	<string key="Status_HealOverTimeNonCombat_Description">Gagne de la santé chaque seconde.</string>
 	<string key="Status_Heal_Description">Vos effets de soin sont plus efficaces et soignent davantage.</string>
@@ -1480,11 +1501,11 @@
 	<string key="Status_Ultimate_Sword_Defender_Timer_description">Quand l'effet se termine, vous pouvez de nouveau utiliser Formation défensive.</string>
 	<string key="Status_Ability_Lifestaff_OrbofProtection_description">Votre armure est augmentée de {[Type_StatusEffectData.Status_Ability_Lifestaff_OrbofProtection.PhysicalArmor * 100]} %.</string>
 	<string key="Status_Upgrade_Lifestaff_OrbofProtection_Dmg_description">Augmente les dégâts infligés de {[Type_StatusEffectData.Status_Upgrade_Lifestaff_OrbofProtection_Dmg.DMGStandard * 100]} %.</string>
-	<string key="Status_Passive_Lifestaff_Protection_HealingOnDodge_description">Augmente vos soins de {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HealingOnDodge.HealScalingValueMultiplier * 100]} %.</string>
+	<string key="Status_Passive_Lifestaff_Protection_HealingOnDodge_description">Vos soins basés sur les dégâts sont augmentés de {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HealingOnDodge.HealScalingValueMultiplier * 100]} %</string>
 	<string key="Status_Passive_Lifestaff_Protection_HasteWhenLow_description">Réduit votre vitesse de déplacement de {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HasteWhenLow.SprintSpeedMod * 100]} %.</string>
 	<string key="Status_Passive_Lifestaff_Protection_HasteWhenLow_Timer_description">Quand l'effet se termine, vous pouvez de nouveau déclencher Équilibre.</string>
 	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_name">Intensification</string>
-	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_description">Augmente vos soins de {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealingBuffonBasic.HealScalingValueMultiplier * 100]} %.</string>
+	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_description">Vos soins basés sur les dégâts sont augmentés de {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealingBuffonBasic.HealScalingValueMultiplier * 100]} %</string>
 	<string key="Status_Passive_Lifestaff_Healing_AoeHealWhenHit_description">Une aura de soin apparaît pour vous et vos alliés dans un rayon de 4 m. Vous soigne à hauteur de {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_AoeHealWhenHit.HealthModifierDamageBased * 100]} % des dégâts de l'arme par seconde.</string>
 	<string key="Status_Ability_Lifestaff_SacredGround">Terre sainte</string>
 	<string key="Status_Ability_Lifestaff_SacredGround_description">Vos soins sont équivalents à {[Type_StatusEffectData.Status_Ability_Lifestaff_SacredGround.HealthModifierDamageBased * 100]} % des dégâts de l'arme du lanceur.</string>
@@ -1763,5 +1784,7 @@
 	<string key="SpringtideBloom_SpringtideDram_MasterName">Gâteau printanier</string>
 	<string key="SpringtideBloom_SpringtideCrumble_MasterName">Crumble printanier</string>
 	<string key="SpringtideBloom_SpringtideWafer_MasterName">Gaufrette printanière</string>
+	<string key="AI_MummifiedCorpse_Bleed_Tooltip">Saignement à hauteur de {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.HealthModifierDamageBased * -100]} % des dégâts de base, suivis de dégâts physiques supplémentaires à hauteur de {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.HealthModifierPercent * -100]} % de la santé de base toutes les {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.TickRate]} secondes pendant {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.BaseDuration]} secondes.</string>
+	<string key="AI_GhastlyHatchet_ReflexCheck_Bleed_Tooltip">Une petite blessure en forme de croix Saignement à hauteur de {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.HealthModifierDamageBased * -100]} % des dégâts de base, suivis de dégâts physiques supplémentaires à hauteur de {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.HealthModifierPercent * -100]} % de la santé de base toutes les {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.TickRate]} secondes pendant {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.BaseDuration]} secondes.</string>
 </resources>
 
