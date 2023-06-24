@@ -113,8 +113,8 @@
 	<string key="ui_affliction_weakness">odporność na osłabienie</string>
 	<string key="ui_affliction_drowning">oddech</string>
 	<string key="ui_affliction_drowning_tooltip">Gdy postaci skończy się powietrze, udusi się.</string>
-	<string key="ui_affliction_spores_tooltip">If you run out of spores resistance, you will become spore drenched and take {[Type_StatusEffectData.SporeSickness.ABSVitalsCategory * -100]}% increased damage from all sources.</string>
-	<string key="ui_affliction_spores">spores resistance</string>
+	<string key="ui_affliction_spores_tooltip">Gdy stracisz odporność na zarodniki, oblepią cię i będziesz otrzymywać o {[Type_StatusEffectData.SporeSickness.ABSVitalsCategory * -100]}% więcej obrażeń każdego rodzaju.</string>
+	<string key="ui_affliction_spores">odporność na zarodniki</string>
 	<string key="ui_affliction_blight">odporność na zarazę</string>
 	<string key="ui_affliction_blight_tooltip">Jeśli stracisz odporność na zarazę, dopadnie cię zaraza i będziesz zadawać o {[Type_StatusEffectData.Blight.DMGStandard * 100]}% mniej obrażeń, otrzymywać o {[Type_StatusEffectData.Blight.HealMod * 100]}% mniej zdrowia podczas leczenia i tracić {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]}% zdrowia podstawowego co {[Type_StatusEffectData.Blight.TickRate]} s przez {[Afflictions.AfflictionBlight.AfflictedDrainTime]} s.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">wybuchowa odporność</string>
@@ -141,8 +141,8 @@
 	<string key="ui_afflicted_weakness">osłabienie</string>
 	<string key="ui_afflicted_drowning">tonięcie</string>
 	<string key="ui_afflicted_drowning_tooltip">Postać utopiła się.</string>
-	<string key="ui_afflicted_spores">spore drenched</string>
-	<string key="ui_afflicted_spores_tooltip">While spore drenched, you take {[Type_StatusEffectData.SporeSickness.ABSVitalsCategory * -100]}% increased damage from all sources.</string>
+	<string key="ui_afflicted_spores">oblepienie zarodnikami</string>
+	<string key="ui_afflicted_spores_tooltip">Gdy oblepią cię zarodniki, będziesz otrzymywać {[Type_StatusEffectData.SporeSickness.ABSVitalsCategory * -100]}% więcej obrażeń każdego rodzaju.</string>
 	<string key="ui_afflicted_blight">zaraza</string>
 	<string key="ui_afflicted_blight_tooltip">Gdy dopadnie cię zaraza, będziesz zadawać o {[Type_StatusEffectData.Blight.DMGStandard * 100]}% mniej obrażeń, otrzymywać o {[Type_StatusEffectData.Blight.HealMod * 100]}% mniej zdrowia podczas leczenia i tracić {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]}% zdrowia podstawowego co {[Type_StatusEffectData.Blight.TickRate]} s.</string>
 	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">wybuchowość</string>
@@ -841,7 +841,7 @@
 	<string key="ui_turnlookupanddown">Rozejrzyj się</string>
 	<string key="ui_turnoff">Wyłącz</string>
 	<string key="ui_turnon">Włącz</string>
-	<string key="ui_turn">Turn</string>
+	<string key="ui_turn">Obróć</string>
 	<string key="ui_twinmouse">Dwie myszy</string>
 	<string key="ui_underconstruction">W budowie</string>
 	<string key="ui_unfriend">Usuń znajom.</string>
@@ -1152,10 +1152,10 @@
 	<string key="ui_intelligence_description">(kluczowa dla magii)</string>
 	<string key="ui_focus_description">(kluczowe dla leczenia)</string>
 	<string key="ui_constitution_tooltip">Główna cecha wpływająca na ogólny poziom zdrowia.</string>
-	<string key="ui_strength_tooltip">Główna cecha dla młota bojowego, topora dwuręcznego, miecza, siekierki i garłacza.\n\nDrugorzędna cecha dla włóczni.\n\nMiecz dwuręczny skaluje się po równo z tą cechą oraz ze zręcznością.</string>
+	<string key="ui_strength_tooltip">Główna cecha dla młota bojowego, topora dwuręcznego, miecza, siekierki, garłacza i kiścienia.\n\nDrugorzędna cecha dla włóczni.\n\nMiecz dwuręczny skaluje się po równo z tą cechą oraz ze zręcznością.</string>
 	<string key="ui_dexterity_tooltip">Główna cecha dla łuku, rapiera, włóczni i muszkietu.\n\nDrugorzędna cecha dla miecza i siekierki.\n\nMiecz dwuręczny skaluje się po równo z tą cechą oraz z siłą.</string>
 	<string key="ui_intelligence_tooltip">Główna cecha dla ognistej laski, lodowej rękawicy i rękawicy próżni.\n\nDrugorzędna cecha dla rapiera, muszkietu i garłacza.</string>
-	<string key="ui_focus_tooltip">Główna cecha dla laski życia.\n\nDrugorzędna cecha dla rękawicy próżni.</string>
+	<string key="ui_focus_tooltip">Główna cecha dla laski życia.\n\nDrugorzędna cecha dla kiścienia i rękawicy próżni.</string>
 	<string key="ui_spirit_tooltip">WIARA\n\nDodawanie punktów do wiary zwiększa:\n\n– całkowitą manę,\n– obronę przed obrażeniami od próżni,\n– odporność na skażenie,\n\n– potęgę zaklęć rzucanych za pomocą niebiańskich rękawic.\n</string>
 	<string key="ui_vitality_tooltip">POSTURA\n\nDodawanie punktów do postury zwiększa:\n\n– obronę przed obrażeniami fizycznymi,\n– odporność na zatrucie,\n– maksymalny ciężar wyposażenia.\n</string>
 	<string key="ui_endurance_tooltip">WYTRZYMAŁOŚĆ\n\nDodawanie punktów do wytrzymałości zwiększa:\n\n- całkowitą energię,\n- obronę przed obrażeniami od błyskawic,\n- odporność na zranienia.\n</string>
@@ -1953,7 +1953,7 @@
 	<string key="ui_has_resources">Masz zasoby</string>
 	<string key="ui_deadnotification_title">"NIE ŻYJESZ"</string>
 	<string key="ui_deadnotification_body">Musisz się odrodzić, aby móc odpowiedzieć na to powiadomienie.</string>
-	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;ZDROWIE&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nAby odzyskać &lt;font color={highlightColor}&gt;zdrowie&lt;/font&gt;\n• Używaj nalewek, by szybko odzyskiwać zdrowie\n• Spożywaj jedzenie, by otrzymać zastrzyk zdrowia, a potem odzyskiwać je z upływem czasu.\n\nPodnieś współczynnik &lt;font color={highlightColor}&gt;kondycji&lt;/font&gt;, by zwiększyć maksymalny poziom &lt;font color={highlightColor}&gt;zdrowia&lt;/font&gt;.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; – oznacza, że gracz obecnie bierze udział w walce. Podczas walki niektóre działania gracza są ograniczone. Zakończ walkę lub unikaj jej przez 20 sekund, by pozbyć się tego statusu.</string>
+	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;ZDROWIE&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nAby odzyskać &lt;font color={highlightColor}&gt;zdrowie&lt;/font&gt;\n• Używaj nalewek, by szybko odzyskiwać zdrowie\n• Spożywaj jedzenie, by otrzymać zastrzyk zdrowia, a potem odzyskiwać je z upływem czasu.\n\nPodnieś współczynnik &lt;font color={highlightColor}&gt;kondycji&lt;/font&gt;, by zwiększyć maksymalny poziom &lt;font color={highlightColor}&gt;zdrowia&lt;/font&gt;.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; – oznacza, że gracz obecnie bierze udział w walce. Podczas walki niektóre działania gracza są ograniczone. Zakończ walkę lub unikaj jej przez 10 sekund, by pozbyć się tego statusu.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;WYTRZYMAŁOŚĆ&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nCzynności obronne, takie jak blokowanie lub unik, zużywają &lt;font color={highlightColor}&gt;wytrzymałość&lt;/font&gt;. Gdy spadnie ona do zera, nie będzie można skutecznie ich wykonywać.\n\n&lt;font color={highlightColor}&gt;Wytrzymałość&lt;/font&gt; sama regeneruje się z upływem czasu, chyba że w tym czasie atakujesz lub biegasz sprintem.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;MANA&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nTajemnicza energia potrzebna do władania magią. Niski poziom many uniemożliwia używanie niektórych zdolności nadprzyrodzonych.\n\n&lt;font color={highlightColor}&gt;Mana&lt;/font&gt; regeneruje się z upływem czasu.</string>
 	<string key="ui_vitals_mana_rate_tooltip">Mana regeneruje się z upływem czasu.\n\nDomyślnie: 1,5 pkt many na sekundę.</string>
@@ -2089,7 +2089,7 @@
 	<string key="ui_unlocked">ODBLOKOWANO</string>
 	<string key="ui_attribute_scale">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{name}&lt;/font&gt;\nSkalowanie obrażeń z: {attribute}</string>
 	<string key="ui_weapon_damage">Obrażenia</string>
-	<string key="ui_shield_disabled">Statystyki i profity tarczy są aktywne tylko jeśli masz wyciągnięty miecz.\n\nJeśli nie korzystasz z miecza, rozważ odłożenie tarczy do ekwipunku, by zmniejszyć ciężar wyposażenia.</string>
+	<string key="ui_shield_disabled">Statystyki i profity tarczy są aktywne tylko wtedy, gdy masz wyciągnięty miecz lub kiścień.\n\nJeśli nie korzystasz z miecza lub kiścienia, rozważ odłożenie tarczy do ekwipunku, by zmniejszyć ciężar wyposażenia.</string>
 	<string key="ui_unspent">niewydane</string>
 	<string key="ui_damage_scale_from">Skalowanie obrażeń z:</string>
 	<string key="ui_scales_with">Skaluje się z:</string>
@@ -2548,7 +2548,7 @@
 	<string key="ui_itemtooltiptitle_heartgem_rune_cannon_blast" rel_version="Feature_Heartgems">Armata</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_bile_bomb" rel_version="Feature_Heartgems_BileBomb">Bomba Żółci</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_fire_storm" rel_version="Feature_Heartgems_FireStorm">Burza ognia</string>
-	<string key="ui_itemtooltiptitle_heartgem_rune_sand_worm" rel_version="Feature_Heartgems_SandWorm">The Devourer</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_sand_worm" rel_version="Feature_Heartgems_Sandworm">Pożeracz</string>
 	<string key="ui_cannot_perform_action_at_this_time">Nie możesz obecnie wykonać tej czynności</string>
 	<string key="ui_cannot_use_shield_abilities">Nie wyposażono się w tarczę</string>
 	<string key="ui_tooltip_effect_duration">Czas trwania efektu: &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#FFFFFF"&gt;{value}&lt;/font&gt;</string>
@@ -2719,12 +2719,12 @@
 	<string key="ui_transmog_npc_tooltip">Twórz skórki ze zdobytych przedmiotów za pomocą &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; żetonów przemiany.</string>
 	<string key="ui_unclaimed_seasons_rewards">Nieprzejęte nagrody sezonowe</string>
 	<string key="generic_list_2">{item1} oraz {item2}</string>
-	<string key="generic_list_3">{item1} oraz {item3}</string>
-	<string key="generic_list_4">{item1} oraz {item4}</string>
-	<string key="generic_list_5">{item1} oraz {item5}</string>
-	<string key="generic_list_6">{item1} oraz {item6}</string>
+	<string key="generic_list_3">{item1}, {item2} oraz {item3}</string>
+	<string key="generic_list_4">{item1}, {item2}, {item3} oraz {item4}</string>
+	<string key="generic_list_5">{item1}, {item2}, {item3}, {item4} oraz {item5}</string>
+	<string key="generic_list_6">{item1}, {item2}, {item3}, {item4}, {item5} oraz {item6}</string>
 	<string key="ui_equipment_combat_view_button">Zobacz ekwipunek bojowy</string>
 	<string key="ui_equipment_tools_view_button">Zobacz narzędzia, torby i instrumenty</string>
-	<string key="views_tutorial">Select the tools view to access tools, bags, and instruments.</string>
+	<string key="views_tutorial">Wybierz widok narzędzi, by zyskać dostęp do narzędzi, torby i instrumentów.</string>
 </resources>
 

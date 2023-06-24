@@ -1152,10 +1152,10 @@
 	<string key="ui_intelligence_description">(para magia)</string>
 	<string key="ui_focus_description">(para curación)</string>
 	<string key="ui_constitution_tooltip">Atributo principal para la salud.</string>
-	<string key="ui_strength_tooltip">Atributo principal para martillos de guerra, grandes hachas, espadas, hachuelas y trabucos.\n\nAtributo secundario para lanzas.\n\nEl mandoble aumenta uniformemente con este atributo y destreza.</string>
+	<string key="ui_strength_tooltip">Atributo principal para martillos de guerra, grandes hachas, espadas, hachuelas, trabucos y manguales.\n\nAtributo secundario para lanzas.\n\nEl mandoble aumenta uniformemente con este atributo y destreza.</string>
 	<string key="ui_dexterity_tooltip">Atributo principal para arcos, espadas roperas, lanzas y mosquetes.\n\nAtributo secundario para espadas y hachuelas.\n\nEl mandoble aumenta uniformemente con este atributo y fuerza.</string>
 	<string key="ui_intelligence_tooltip">Atributo principal para bastones ígneos, manoplas de hielo y manoplas de vacío.\n\nAtributo secundario para espadas roperas, mosquetes y trabucos.</string>
-	<string key="ui_focus_tooltip">Atributo principal para bastones vitales.\n\nAtributo secundario para manoplas de vacío.</string>
+	<string key="ui_focus_tooltip">Atributo principal para bastones vitales.\n\nAtributo secundario para manoplas de vacío y manguales.</string>
 	<string key="ui_spirit_tooltip">FE\n\nColocar puntos en la Fe aumenta:\n\n-- Maná total\n-- Defensa contra daño de vacío\n-- Resistencia a la corrupción\n\n-- Potencia de los hechizos con las manoplas celestiales\n</string>
 	<string key="ui_vitality_tooltip">FÍSICO\n\nColocar puntos en el Físico aumenta:\n\n-- La defensa contra el daño físico\n-- Resistencia al veneno\n-- Carga de equipamiento máxima\n</string>
 	<string key="ui_endurance_tooltip">AGUANTE\n\nColocar los puntos en el Aguante aumenta:\n\n-- Resistencia\n-- Defensa contra daño de rayo\n-- Resistencia a heridas\n</string>
@@ -1953,7 +1953,7 @@
 	<string key="ui_has_resources">Tiene recursos</string>
 	<string key="ui_deadnotification_title">"ESTÁS MUERTO"</string>
 	<string key="ui_deadnotification_body">Debes renacer para responder a esta notificación.</string>
-	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;SALUD&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue}/{maxValue}&lt;/font&gt;\n\nPara recuperar &lt;font color={highlightColor}&gt;salud&lt;/font&gt;\n• Consume tinturas para recuperarla rápidamente\n- Consume comida para recuperarla poco a poco tras un incremento rápido.\n\nMejora tu &lt;font color={highlightColor}&gt;constitución&lt;/font&gt; para aumentar tu &lt;font color={highlightColor}&gt;salud&lt;/font&gt; máxima.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; indica que el jugador está en combate actualmente. Algunas acciones de gestión de los jugadores están restringidas si el estado de combate está activado. Completa un conflicto o evita el combate durante 20 s para salir del estado.</string>
+	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;SALUD&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue}/{maxValue}&lt;/font&gt;\n\nPara recuperar &lt;font color={highlightColor}&gt;salud&lt;/font&gt;\n• Consume tinturas para recuperarla rápidamente\n- Consume comida para recuperarla poco a poco tras un incremento rápido.\n\nMejora tu &lt;font color={highlightColor}&gt;constitución&lt;/font&gt; para aumentar tu &lt;font color={highlightColor}&gt;salud&lt;/font&gt; máxima.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; indica que el jugador está en combate actualmente. Algunas acciones de gestión de los jugadores están restringidas si el estado de combate está activado. Completa un conflicto o evita el combate durante 10 s para salir del estado.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;RESISTENCIA&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nLas acciones defensivas como bloqueo o el esquive agotarán tu &lt;font color={highlightColor}&gt;resistencia&lt;/font&gt; y, si esta se agota, es posible que no puedas realizar esas acciones hasta que se recupere.\n\nLa &lt;font color={highlightColor}&gt;resistencia&lt;/font&gt; se recupera por sí sola con el transcurso del tiempo, a menos que estés en medio de una carrera o un ataque.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;MANÁ&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nUn recurso misterioso necesario para usar magia. Si está bajo, no podrás emplear ciertas habilidades sobrenaturales.\n\nEl &lt;font color={highlightColor}&gt;maná&lt;/font&gt; se recupera con el paso del tiempo.</string>
 	<string key="ui_vitals_mana_rate_tooltip">El maná se recupera con el paso del tiempo.\n\n 1,5 de maná base por segundo.</string>
@@ -2089,7 +2089,7 @@
 	<string key="ui_unlocked">DESBLOQUEADO</string>
 	<string key="ui_attribute_scale">El daño de &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{name}&lt;/font&gt;\n aumenta con {attribute}</string>
 	<string key="ui_weapon_damage">Daño</string>
-	<string key="ui_shield_disabled">Las estadísticas y beneficios del escudo solo se aplican si tienes una espada equipada y desenvainada.\n\nSi no estás usando una espada, plantéate desequipar el escudo para reducir tu carga de equipo.</string>
+	<string key="ui_shield_disabled">Las estadísticas y beneficios del escudo solo se aplican si tienes una espada o un mangual equipados y desenvainados.\n\nSi no estás usando una espada o un mangual, plantéate desequipar el escudo para reducir tu carga de equipo.</string>
 	<string key="ui_unspent">sin gastar</string>
 	<string key="ui_damage_scale_from">El daño aumenta con</string>
 	<string key="ui_scales_with">Aumenta con</string>
@@ -2548,7 +2548,7 @@
 	<string key="ui_itemtooltiptitle_heartgem_rune_cannon_blast" rel_version="Feature_Heartgems">Explosión de cañón</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_bile_bomb" rel_version="Feature_Heartgems_BileBomb">Bomba de bilis</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_fire_storm" rel_version="Feature_Heartgems_FireStorm">Tormenta de fuego</string>
-	<string key="ui_itemtooltiptitle_heartgem_rune_sand_worm" rel_version="Feature_Heartgems_SandWorm">The Devourer</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_sand_worm" rel_version="Feature_Heartgems_Sandworm">El Devorador</string>
 	<string key="ui_cannot_perform_action_at_this_time">En este momento, no puedes realizar esta acción</string>
 	<string key="ui_cannot_use_shield_abilities">No tienes un escudo equipado</string>
 	<string key="ui_tooltip_effect_duration">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#FFFFFF"&gt;{value}&lt;/font&gt; Duración de los efectos</string>

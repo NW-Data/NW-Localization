@@ -1122,9 +1122,9 @@
 	<string key="ElementalWardPrefix">(nasycenie)</string>
 	<string key="SpectralWardPrefix">(widmowość)</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Name">Okaleczająca dzika szarża</string>
-	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Trafienie celu dziką szarżą spowolni go o {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} s.</string>
+	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Trafienie celu dziką szarżą spowolni go o {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} s i zada mu {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_FeralRush.BaseDamage * 100 * {perkMultiplier}]}% więcej obrażeń.</string>
 	<string key="PerkID_Ability_Hatchet_Berserk_Name">Ostry berserker</string>
-	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]}% do szansy na trafienie krytyczne, gdy masz mniej niż {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]}% zdrowia i używasz trybu berserkera.</string>
+	<string key="PerkID_Ability_Hatchet_Berserk_Description">Zyskujesz +{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]}% do szansy na trafienie krytyczne i zadajesz {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.BaseDamage * 100 * {perkMultiplier}]}% więcej obrażeń, gdy masz mniej niż {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]}% zdrowia i używasz trybu berserkera.</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Name">Odświeżający potok</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Description">Każdy atak rwącym potokiem skraca wszystkie czasy odnowienia siekierki o {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.CooldownTimer * -100 * {perkMultiplier}]}% (czas odnowienia: {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.ActivationCooldown]} s).</string>
 	<string key="PerkID_Ability_Hatchet_Rending_Throw_Name">Wzmacniający rozdzierający rzut</string>
@@ -1141,8 +1141,8 @@
 	<string key="PerkID_Ability_Hammer_WreckingBall_Description">Wyburzenie ignoruje {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_WreckingBall.ArmorPenetration * 100 * {perkMultiplier}]}% pancerza celu.</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Name">Rozrywająca fala uderzeniowa</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Description">Fala uderzeniowa nakłada na cel rozdarcie zmniejszające jego pancerz o {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} s.</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Name">Mocarne "Z drogi!"</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Description">Zwiększa odległość, na jaką umiejętność "Z drogi!" odrzuca cele, o {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_ClearOut.Knockback * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Name">Rozrywające "Z drogi!"</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Description">"Z drogi!" nakłada na cel rozdarcie zmniejszające jego pancerz o {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Name">Wysysająca droga przeznaczenia</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Description">Przywraca zdrowie w wysokości {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_PathOfDestiny.DmgPctToHealth * 100 * {perkMultiplier}]}% obrażeń zadanych drogą przeznaczenia.</string>
 	<string key="PerkID_Ability_Musket_PowderBurn_Name">Okaleczający palący proch</string>
@@ -1151,8 +1151,8 @@
 	<string key="PerkID_Ability_Musket_PowerShot_Description">Zabójstwa mocarnym strzałem skracają czas odnowienia tej umiejętności o {[GlobalAbilityTable.GlobalPerk_Ability_Musket_PowerShot.CooldownTimer * -100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Name">Wzmacniająca postawa strzelecka</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Description">Trafienie celu po przybraniu postawy strzeleckiej zapewnia nasączenie mocą, które zwiększa zadawane obrażenia o {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.DMGStandard * 100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.BaseDuration]} s. Efekt przestanie działać, gdy postać wyjdzie z postawy (kumuluje się do {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.StackMax]} razy).</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Name">Mocarna hamująca moc</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Description">Zwiększa odległość, na jaką umiejętność "Hamująca moc" odrzuca cele, o {[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.Knockback * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Name">Odświeżająca hamująca moc</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Description">Po trafieniu hamująca moc skraca czas odnawiania wszystkich pozostałych zdolności traperskich o {[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.CooldownTimer * -100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Ability_Musket_Traps_Name">Przyspieszające pułapki</string>
 	<string key="PerkID_Ability_Musket_Traps_Description">+{[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.MoveSpeedMod * 100 * {perkMultiplier}]}% do szybkości ruchu na {[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.BaseDuration]} s po rozstawieniu pułapki (nie kumuluje się).</string>
 	<string key="PerkID_Ability_Musket_StickyBomb_Name">Uzdrawiające bomby przylepne</string>

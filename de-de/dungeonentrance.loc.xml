@@ -59,7 +59,7 @@
 	<string key="ui_dungeon_activating_seasontrial" rel_version="Season_2_Perm">Saisonprüfung betreten …</string>
 	<string key="ui_dungeon_not_enough_members">Nicht genug Gruppenmitglieder.</string>
 	<string key="ui_dungeon_too_many_members">Zu viele Gruppenmitglieder.</string>
-	<string key="ui_dungeon_not_in_regular_group">Du musst in einer regulären Gruppe sein.</string>
+	<string key="ui_dungeon_not_in_regular_group">Solange du in einer Raubzuggruppe bist, kannst du die Instanz nicht betreten.</string>
 	<string key="ui_dungeon_not_in_raid_group">Du musst in einer Raubzuggruppe sein.</string>
 	<string key="ui_dungeon_convert_to_raid_tooltip">Bilde eine Gruppe und wandle sie im Gruppenmenü in einen Raubzug um.</string>
 	<string key="ui_dungeon_not_group_leader">Nur für den Gruppenanführer.</string>
@@ -376,6 +376,7 @@
 	<string key="ui_seasontrial_header" rel_version="Season_2_Perm">Saisonprüfung</string>
 	<string key="ui_seasontrial_bonusruns_prefix" rel_version="Season_2_Perm">&lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="0.80" yOffset="1.0"&gt;&lt;/img&gt;</string>
 	<string key="ui_seasontrial_player_average_gear_score" rel_version="Season_2_Perm">Durchschnittlicher Rüstwert: &lt;img src="lyshineui/images/icons/misc/icon_gearscore_tan" scale="1.6" yOffset="4.0" &gt;&lt;/img&gt; {gearscore}</string>
+	<string key="ui_seasontrial_player_recommended_gear_score" rel_version="Season_2_Perm">Empfohlen: &lt;img src="lyshineui/images/icons/misc/icon_gearscore_tan" scale="1.6" yOffset="4.0" &gt;&lt;/img&gt; {gearscoreMin}-{gearscoreMax}</string>
 	<string key="ui_seasontrial_season_ends_prefix" rel_version="Season_2_Perm">Saisonende in:</string>
 	<string key="ui_howtofindraid_title" rel_version="Season_2_Perm">Einen Raubzug bilden</string>
 	<string key="ui_howtofindraid_bullet1" rel_version="Season_2_Perm">i.</string>
@@ -387,18 +388,22 @@
 	<string key="ui_howtofindraid_body1" rel_version="Season_2_Perm">Ein Raubzug wird über eine bestehende Gruppe gebildet. Lade mindestens einen Spieler ein, um eine Gruppe zu gründen.</string>
 	<string key="ui_howtofindraid_body2" rel_version="Season_2_Perm">Klicke unter den Porträts der Gruppenmitglieder auf "weitere Optionen".</string>
 	<string key="ui_howtofindraid_body3" rel_version="Season_2_Perm">Der Spieler, der die Gruppe in einen Raubzug überführt, wird zum Gruppenanführer ernannt. Er kann den Raubzug verwalten und Spieler zu ihm einladen.</string>
+	<string key="ui_elitetrial_landing_header" rel_version="Season_2_Perm">Verfügbare Belohnungen</string>
+	<string key="ui_elitetrial_landing_daily" rel_version="Season_2_Perm">Täglich</string>
+	<string key="ui_elitetrial_landing_weekly" rel_version="Season_2_Perm">Wöchentlich</string>
 	<string key="ui_elitetrial_reward_header" rel_version="Season_2_Perm">Belohnungen</string>
-	<string key="ui_elitetrial_reward_desc" rel_version="Season_2_Perm">Wenn dein tägliches/wöchentliches Limit noch nicht ausgeschöpft ist, erhältst du für jeden erfolgreichen Abschluss der Prüfung Folgendes:</string>
+	<string key="ui_elitetrial_reward_desc" rel_version="Season_2_Perm">Wenn dein tägliches/wöchentliches Limit noch nicht ausgeschöpft ist, erhältst du für den erfolgreichen Abschluss der Prüfung Folgendes:</string>
 	<string key="ui_elitetrial_reward_daily" rel_version="Season_2_Perm">{amount}/{max} Täglich</string>
+	<string key="ui_elitetrial_reward_dailydesc" rel_version="Season_2_Perm">Die tägliche Truhe enthält einen dieser Gegenstände.</string>
 	<string key="ui_elitetrial_reward_weekly" rel_version="Season_2_Perm">{amount}/{max} Wöchentlich</string>
 	<string key="ui_elitetrial_reward_weeklydesc" rel_version="Season_2_Perm">Die wöchentliche Truhe enthält einen dieser Gegenstände.</string>
 	<string key="ui_elitetrial_reward_completion" rel_version="Season_2_Perm">Abschluss</string>
 	<string key="ui_elitetrial_reward_completiondesc" rel_version="Season_2_Perm">Diese Gegenstände erhältst du bei Abschluss der Prüfung. Wiederholbar.</string>
 	<string key="ui_seasontrial_available_rewards" rel_version="Season_2_Perm">Verfügbare Belohnungen</string>
 	<string key="ui_seasontrial_exclusive_rewards" rel_version="Season_2_Perm">Exklusive Belohnungen</string>
-	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Erhältst du nur bei den ersten sieben Versuchen für den Prüfungsabschluss.</string>
+	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Diese sind nur bei den ersten 7 Abschlüssen enthalten und ändern sich jede Woche.</string>
 	<string key="ui_seasontrial_unique_rewards" rel_version="Season_2_Perm">Einzigartige Belohnungen</string>
-	<string key="ui_seasontrial_unique_rewards_desc" rel_version="Season_2_Perm">Diese Gegenstände erhältst du bei deinen ersten sieben Versuchen häufiger.</string>
+	<string key="ui_seasontrial_unique_rewards_desc" rel_version="Season_2_Perm">Diese sind nur bei den ersten 7 Abschlüssen enthalten und ändern sich jede Woche.</string>
 	<string key="ui_seasontrial_basic_rewards" rel_version="Season_2_Perm">Einfache Belohnungen</string>
 	<string key="ui_seasontrial_basic_rewards_desc" rel_version="Season_2_Perm">Diese Gegenstände kannst du immer erhalten.</string>
 	<string key="ui_seasontrial_not_in_raid" rel_version="Season_2_Perm">Du bist nicht in einem Raubzug.</string>
@@ -410,6 +415,7 @@
 	<string key="ui_seasontrial_map_bonusrun_count" rel_version="Season_2_Perm">{count}/{max} Bonusläufe abgeschlossen</string>
 	<string key="ui_seasontrial_beat_in" rel_version="Season_2_Perm">Verbleibende Zeit</string>
 	<string key="ui_seasontrial_milestone_bonus_run_rewards_message" rel_version="Season_2_Perm">Bonuslauf–Belohnungen</string>
+	<string key="ui_seasontrial_bonus_run_header" rel_version="Season_2_Perm">Bonusdurchläufe</string>
 	<string key="ui_seasontrial_bonus_run_tooltip" rel_version="Season_2_Perm">Für deine ersten {maxCount} Versuche der Woche erhältst du für die Prüfung Bonusbelohnungen. Exklusive Saisonbelohnungen erhältst du nur bei diesen Versuchen.</string>
 	<string key="ui_seasontrial_milestone_normal_message" rel_version="Season_2_Perm">Prüfung abgeschlossen</string>
 	<string key="ui_elitetrial_milestone_daily_weekly_rewards_message" rel_version="Season_2_Perm">Tägliche und wöchentliche Belohnungen</string>

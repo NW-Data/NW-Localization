@@ -59,7 +59,7 @@
 	<string key="ui_dungeon_activating_seasontrial" rel_version="Season_2_Perm">Wchodzisz do Sezonowej Próby…</string>
 	<string key="ui_dungeon_not_enough_members">Grupa liczy zbyt mało osób.</string>
 	<string key="ui_dungeon_too_many_members">Grupa liczy zbyt wiele osób.</string>
-	<string key="ui_dungeon_not_in_regular_group">Musi być w zwykłej grupie.</string>
+	<string key="ui_dungeon_not_in_regular_group">Nie możesz wejść do tej instancji, gdy należysz do grupy rajdu.</string>
 	<string key="ui_dungeon_not_in_raid_group">Musi być w grupie rajdu.</string>
 	<string key="ui_dungeon_convert_to_raid_tooltip">Utwórz grupę i zmień ją w grupę rajdu w menu grupy.</string>
 	<string key="ui_dungeon_not_group_leader">Musi przewodzić grupie.</string>
@@ -376,6 +376,7 @@
 	<string key="ui_seasontrial_header" rel_version="Season_2_Perm">Sezonowa Próba</string>
 	<string key="ui_seasontrial_bonusruns_prefix" rel_version="Season_2_Perm">&lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="0.80" yOffset="1.0"&gt;&lt;/img&gt;</string>
 	<string key="ui_seasontrial_player_average_gear_score" rel_version="Season_2_Perm">Przeciętna liczba pkt wyposażenia: &lt;img src="lyshineui/images/icons/misc/icon_gearscore_tan" scale="1.6" yOffset="4.0" &gt;&lt;/img&gt; {gearscore}</string>
+	<string key="ui_seasontrial_player_recommended_gear_score" rel_version="Season_2_Perm">Zalecana: &lt;img src="lyshineui/images/icons/misc/icon_gearscore_tan" scale="1.6" yOffset="4.0" &gt;&lt;/img&gt; {gearscoreMin}–{gearscoreMax}</string>
 	<string key="ui_seasontrial_season_ends_prefix" rel_version="Season_2_Perm">Sezon kończy się za:</string>
 	<string key="ui_howtofindraid_title" rel_version="Season_2_Perm">Tworzenie rajdu</string>
 	<string key="ui_howtofindraid_bullet1" rel_version="Season_2_Perm">I</string>
@@ -387,18 +388,22 @@
 	<string key="ui_howtofindraid_body1" rel_version="Season_2_Perm">Rajd jest tworzony na bazie już istniejącej grupy. Zaproś minimum jednego gracza, by stworzyć grupę.</string>
 	<string key="ui_howtofindraid_body2" rel_version="Season_2_Perm">Kliknij "Więcej opcji" pod portretami członków grupy.</string>
 	<string key="ui_howtofindraid_body3" rel_version="Season_2_Perm">Gracz, który przekształci grupę w rajd, zostanie przywódcą grupy. Może zarządzać rajdem i zapraszać graczy do rajdu.</string>
+	<string key="ui_elitetrial_landing_header" rel_version="Season_2_Perm">Dostępne nagrody</string>
+	<string key="ui_elitetrial_landing_daily" rel_version="Season_2_Perm">Dzienne</string>
+	<string key="ui_elitetrial_landing_weekly" rel_version="Season_2_Perm">Tygodniowe</string>
 	<string key="ui_elitetrial_reward_header" rel_version="Season_2_Perm">Nagrody</string>
-	<string key="ui_elitetrial_reward_desc" rel_version="Season_2_Perm">Po każdym ukończeniu próby zdobędziesz poniższe nagrody, o ile nie został przekroczony dzienny/tygodniowy limit.</string>
+	<string key="ui_elitetrial_reward_desc" rel_version="Season_2_Perm">Po ukończeniu próby zdobędziesz poniższe nagrody, o ile dzienny/tygodniowy limit nie został przekroczony.</string>
 	<string key="ui_elitetrial_reward_daily" rel_version="Season_2_Perm">{amount}/{max} dziennie</string>
+	<string key="ui_elitetrial_reward_dailydesc" rel_version="Season_2_Perm">Dzienna skrzynia zawiera 1 z tych przedmiotów.</string>
 	<string key="ui_elitetrial_reward_weekly" rel_version="Season_2_Perm">{amount}/{max} tygodniowo</string>
 	<string key="ui_elitetrial_reward_weeklydesc" rel_version="Season_2_Perm">Tygodniowa skrzynia zawiera 1 z tych przedmiotów.</string>
 	<string key="ui_elitetrial_reward_completion" rel_version="Season_2_Perm">Ukończenie</string>
 	<string key="ui_elitetrial_reward_completiondesc" rel_version="Season_2_Perm">Te przedmioty są nagrodą za ukończenie próby. Są powtarzalne.</string>
 	<string key="ui_seasontrial_available_rewards" rel_version="Season_2_Perm">Dostępne nagrody</string>
 	<string key="ui_seasontrial_exclusive_rewards" rel_version="Season_2_Perm">Ekskluzywne nagrody</string>
-	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Te przedmioty można zdobyć tylko za pierwsze 7 ukończeń próby.</string>
+	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Mogą zostać zdobyte tylko za 7 pierwszych ukończeń i zmieniają się co tydzień.</string>
 	<string key="ui_seasontrial_unique_rewards" rel_version="Season_2_Perm">Unikalne nagrody</string>
-	<string key="ui_seasontrial_unique_rewards_desc" rel_version="Season_2_Perm">Te przedmioty można zdobyć częściej podczas pierwszych 7 prób.</string>
+	<string key="ui_seasontrial_unique_rewards_desc" rel_version="Season_2_Perm">Mogą zostać zdobyte tylko za 7 pierwszych ukończeń i zmieniają się co tydzień.</string>
 	<string key="ui_seasontrial_basic_rewards" rel_version="Season_2_Perm">Zwykłe nagrody</string>
 	<string key="ui_seasontrial_basic_rewards_desc" rel_version="Season_2_Perm">Te przedmioty można zdobyć za każdym razem.</string>
 	<string key="ui_seasontrial_not_in_raid" rel_version="Season_2_Perm">Nie bierzesz udziału w rajdzie</string>
@@ -410,6 +415,7 @@
 	<string key="ui_seasontrial_map_bonusrun_count" rel_version="Season_2_Perm">Dodatkowe ukończenia: {count} / {max}</string>
 	<string key="ui_seasontrial_beat_in" rel_version="Season_2_Perm">Pozostały czas</string>
 	<string key="ui_seasontrial_milestone_bonus_run_rewards_message" rel_version="Season_2_Perm">Nagrody dodatkowe</string>
+	<string key="ui_seasontrial_bonus_run_header" rel_version="Season_2_Perm">Dodatkowe serie</string>
 	<string key="ui_seasontrial_bonus_run_tooltip" rel_version="Season_2_Perm">Możesz zdobyć dodatkowe nagrody podczas pierwszych {maxCount} prób w każdym tygodniu. Tylko podczas tych prób można zdobyć ekskluzywne przedmioty sezonowe.</string>
 	<string key="ui_seasontrial_milestone_normal_message" rel_version="Season_2_Perm">Próba ukończona</string>
 	<string key="ui_elitetrial_milestone_daily_weekly_rewards_message" rel_version="Season_2_Perm">Dzienne i tygodniowe nagrody</string>

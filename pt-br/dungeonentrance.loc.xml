@@ -59,7 +59,7 @@
 	<string key="ui_dungeon_activating_seasontrial" rel_version="Season_2_Perm">Entrando na Prova Sazonal...</string>
 	<string key="ui_dungeon_not_enough_members">Não há membros suficientes no grupo.</string>
 	<string key="ui_dungeon_too_many_members">Há muitos membros no grupo.</string>
-	<string key="ui_dungeon_not_in_regular_group">Necessário estar em um grupo regular.</string>
+	<string key="ui_dungeon_not_in_regular_group">Não é possível entrar nesta instância enquanto estiver em um grupo de Ataque.</string>
 	<string key="ui_dungeon_not_in_raid_group">Necessário estar em um grupo de Ataque.</string>
 	<string key="ui_dungeon_convert_to_raid_tooltip">Forme um grupo e converta-o em Ataque no menu do grupo.</string>
 	<string key="ui_dungeon_not_group_leader">Necessário ser o líder do grupo.</string>
@@ -376,6 +376,7 @@
 	<string key="ui_seasontrial_header" rel_version="Season_2_Perm">Prova Sazonal</string>
 	<string key="ui_seasontrial_bonusruns_prefix" rel_version="Season_2_Perm">&lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="0.80" yOffset="1.0"&gt;&lt;/img&gt;</string>
 	<string key="ui_seasontrial_player_average_gear_score" rel_version="Season_2_Perm">Pontuação Média do Equipamento: &lt;img src="lyshineui/images/icons/misc/icon_gearscore_tan" scale="1.6" yOffset="4.0" &gt;&lt;/img&gt; {gearscore}</string>
+	<string key="ui_seasontrial_player_recommended_gear_score" rel_version="Season_2_Perm">Recomendado: &lt;img src="lyshineui/images/icons/misc/icon_gearscore_tan" scale="1.6" yOffset="4.0" &gt;&lt;/img&gt; {gearscoreMin} - {gearscoreMax}</string>
 	<string key="ui_seasontrial_season_ends_prefix" rel_version="Season_2_Perm">A Temporada acaba em:</string>
 	<string key="ui_howtofindraid_title" rel_version="Season_2_Perm">Formando Ataque</string>
 	<string key="ui_howtofindraid_bullet1" rel_version="Season_2_Perm">i.</string>
@@ -387,18 +388,22 @@
 	<string key="ui_howtofindraid_body1" rel_version="Season_2_Perm">O Ataque é formado por meio de um grupo existente. Convide pelo menos um jogador para formar um grupo.</string>
 	<string key="ui_howtofindraid_body2" rel_version="Season_2_Perm">Acesse “mais opções” nos retratos dos membros do grupo.</string>
 	<string key="ui_howtofindraid_body3" rel_version="Season_2_Perm">Um jogador que converter o grupo em um Ataque será designado como o líder do grupo. O líder poderá gerenciar o Ataque e convidar jogadores para participar.</string>
+	<string key="ui_elitetrial_landing_header" rel_version="Season_2_Perm">Recompensas Disponíveis</string>
+	<string key="ui_elitetrial_landing_daily" rel_version="Season_2_Perm">Diário</string>
+	<string key="ui_elitetrial_landing_weekly" rel_version="Season_2_Perm">Semanal</string>
 	<string key="ui_elitetrial_reward_header" rel_version="Season_2_Perm">Recompensas</string>
-	<string key="ui_elitetrial_reward_desc" rel_version="Season_2_Perm">A conclusão bem-sucedida da Prova sempre concederá o seguinte, desde que você não tenha atingido seu limite diário/semanal.</string>
+	<string key="ui_elitetrial_reward_desc" rel_version="Season_2_Perm">A conclusão bem-sucedida da Prova concederá o seguinte, desde que você não tenha atingido seu limite diário/semanal.</string>
 	<string key="ui_elitetrial_reward_daily" rel_version="Season_2_Perm">{amount}/{max} por dia</string>
+	<string key="ui_elitetrial_reward_dailydesc" rel_version="Season_2_Perm">O Baú Diário contém um desses itens.</string>
 	<string key="ui_elitetrial_reward_weekly" rel_version="Season_2_Perm">{amount}/{max} por semana</string>
 	<string key="ui_elitetrial_reward_weeklydesc" rel_version="Season_2_Perm">O Baú Semanal contém um desses itens.</string>
 	<string key="ui_elitetrial_reward_completion" rel_version="Season_2_Perm">Conclusão</string>
 	<string key="ui_elitetrial_reward_completiondesc" rel_version="Season_2_Perm">Todos esses itens são concedidos após a conclusão da Prova. Repetível.</string>
 	<string key="ui_seasontrial_available_rewards" rel_version="Season_2_Perm">Recompensas Disponíveis</string>
 	<string key="ui_seasontrial_exclusive_rewards" rel_version="Season_2_Perm">Recompensas Exclusivas</string>
-	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Concedidas ao concluir a Prova durante suas primeiras 7 tentativas.</string>
+	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Essas recompensas só são concedidas nas 7 primeiras conclusões e mudam a cada semana.</string>
 	<string key="ui_seasontrial_unique_rewards" rel_version="Season_2_Perm">Recompensas Especiais</string>
-	<string key="ui_seasontrial_unique_rewards_desc" rel_version="Season_2_Perm">Esses itens são concedidos com mais frequência durante as primeiras 7 tentativas.</string>
+	<string key="ui_seasontrial_unique_rewards_desc" rel_version="Season_2_Perm">Essas recompensas só são concedidas nas 7 primeiras conclusões e mudam a cada semana.</string>
 	<string key="ui_seasontrial_basic_rewards" rel_version="Season_2_Perm">Recompensas Básicas</string>
 	<string key="ui_seasontrial_basic_rewards_desc" rel_version="Season_2_Perm">Esses itens sempre podem ser concedidos.</string>
 	<string key="ui_seasontrial_not_in_raid" rel_version="Season_2_Perm">Você não está em um Ataque</string>
@@ -410,6 +415,7 @@
 	<string key="ui_seasontrial_map_bonusrun_count" rel_version="Season_2_Perm">Corridas Extras Concluídas: {count}/{max}</string>
 	<string key="ui_seasontrial_beat_in" rel_version="Season_2_Perm">Tempo Restante</string>
 	<string key="ui_seasontrial_milestone_bonus_run_rewards_message" rel_version="Season_2_Perm">Recompensas de Corrida Extra</string>
+	<string key="ui_seasontrial_bonus_run_header" rel_version="Season_2_Perm">Corridas Extra</string>
 	<string key="ui_seasontrial_bonus_run_tooltip" rel_version="Season_2_Perm">Recebe recompensas adicionais nas {maxCount} primeiras tentativas na Prova toda semana. Itens exclusivos da Temporada só são concedidos durante essas tentativas.</string>
 	<string key="ui_seasontrial_milestone_normal_message" rel_version="Season_2_Perm">Prova Concluída</string>
 	<string key="ui_elitetrial_milestone_daily_weekly_rewards_message" rel_version="Season_2_Perm">Recompensas Diárias e Semanais</string>

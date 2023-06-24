@@ -1122,9 +1122,9 @@
 	<string key="ElementalWardPrefix">Imbuido</string>
 	<string key="SpectralWardPrefix">Espectral</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Name">Ímpetu bestial devastador</string>
-	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Al golpear con Ímpetu bestial, causa un {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]} % de Lentitud durante {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} s.</string>
+	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Al golpear con Ímpetu bestial, causa un {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]} % de Lentitud durante {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} s e inflige un {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_FeralRush.BaseDamage * 100 * {perkMultiplier}]} % más de daño.</string>
 	<string key="PerkID_Ability_Hatchet_Berserk_Name">Furia ávida</string>
-	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]} % de probabilidad de crítico mientras tengas menos del {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]} % de salud y Furia.</string>
+	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]} % de probabilidad de crítico y +{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.BaseDamage * 100 * {perkMultiplier}]} % de daño mientras tengas menos del {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]} % de salud y Furia.</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Name">Torrente renovador</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Description">Cada ataque de Torrente enfurecido reduce todas las recargas del destral en un {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.CooldownTimer * -100 * {perkMultiplier}]} %. (tiempo de recarga de {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.ActivationCooldown]} s).</string>
 	<string key="PerkID_Ability_Hatchet_Rending_Throw_Name">Lanzamiento desgarrador fortalecedor</string>
@@ -1141,8 +1141,8 @@
 	<string key="PerkID_Ability_Hammer_WreckingBall_Description">Frenesí demoledor penetra la armadura del objetivo en un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_WreckingBall.ArmorPenetration * 100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Name">Sacudida demoledora</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Description">Sacudida inflige Desgarro, lo que reduce la armadura del objetivo en un {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.PhysicalArmor * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} s.</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Name">Barrido repelente</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Description">Aumenta la distancia de retroceso de Barrido en un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_ClearOut.Knockback * 100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Name">Barrido demoledor</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Description">Barrido inflige Desgarro, lo que reduce la armadura del objetivo en un {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.PhysicalArmor * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Name">Senda del destino drenadora</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Description">Recuperas una cantidad de salud igual al {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_PathOfDestiny.DmgPctToHealth * 100 * {perkMultiplier}]} % del daño infligido con Senda del destino.</string>
 	<string key="PerkID_Ability_Musket_PowderBurn_Name">Quemadura de pólvora devastadora</string>
@@ -1151,8 +1151,8 @@
 	<string key="PerkID_Ability_Musket_PowerShot_Description">Los asesinatos con Tiro potente reducen su recarga en un {[GlobalAbilityTable.GlobalPerk_Ability_Musket_PowerShot.CooldownTimer * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Name">Postura de tirador potenciada</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Description">Golpear a un objetivo mientras estás en la postura del tirador otorga una acumulación de Fortalecimiento, lo que aumenta el daño en un {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.DMGStandard * 100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.BaseDuration]} s. Su efecto desaparece al salir de la postura (máximo {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.StackMax]} acumulaciones).</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Name">Potencia de frenado repelente</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Description">Aumenta la distancia de retroceso de Potencia de frenado en un {[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.Knockback * 100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Name">Potencia de frenado renovada</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Description">Potencia de frenado reduce un {[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.CooldownTimer * -100 * {perkMultiplier}]} % el resto de habilidades de trampero al impactar.</string>
 	<string key="PerkID_Ability_Musket_Traps_Name">Trampas aceleradoras</string>
 	<string key="PerkID_Ability_Musket_Traps_Description">Aumenta la velocidad de movimiento en un {[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.MoveSpeedMod * 100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.BaseDuration]} s tras desplegar una trampa (no se acumula).</string>
 	<string key="PerkID_Ability_Musket_StickyBomb_Name">Bombas pegajosas restauradoras</string>

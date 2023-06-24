@@ -59,7 +59,7 @@
 	<string key="ui_dungeon_activating_seasontrial" rel_version="Season_2_Perm">Entrée dans l'épreuve de saison...</string>
 	<string key="ui_dungeon_not_enough_members">Nombre de membres insuffisant dans le groupe.</string>
 	<string key="ui_dungeon_too_many_members">Trop de membres dans le groupe.</string>
-	<string key="ui_dungeon_not_in_regular_group">Doit être dans un groupe normal.</string>
+	<string key="ui_dungeon_not_in_regular_group">Impossible d'entrer dans cette instance lorsque vous êtes dans un groupe de raid.</string>
 	<string key="ui_dungeon_not_in_raid_group">Doit être dans un groupe de raid.</string>
 	<string key="ui_dungeon_convert_to_raid_tooltip">Formez un groupe et convertissez-le en raid depuis le menu de groupe.</string>
 	<string key="ui_dungeon_not_group_leader">Doit être le chef du groupe.</string>
@@ -376,6 +376,7 @@
 	<string key="ui_seasontrial_header" rel_version="Season_2_Perm">Épreuve de saison</string>
 	<string key="ui_seasontrial_bonusruns_prefix" rel_version="Season_2_Perm">&lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="0.80" yOffset="1.0"&gt;&lt;/img&gt;</string>
 	<string key="ui_seasontrial_player_average_gear_score" rel_version="Season_2_Perm">Score d'équipement moyen : &lt;img src="lyshineui/images/icons/misc/icon_gearscore_tan" scale="1.6" yOffset="4.0" &gt;&lt;/img&gt; {gearscore}</string>
+	<string key="ui_seasontrial_player_recommended_gear_score" rel_version="Season_2_Perm">Recommandé : &lt;img src="lyshineui/images/icons/misc/icon_gearscore_tan" scale="1.6" yOffset="4.0" &gt;&lt;/img&gt; {gearscoreMin} - {gearscoreMax}</string>
 	<string key="ui_seasontrial_season_ends_prefix" rel_version="Season_2_Perm">Fin de la saison dans :</string>
 	<string key="ui_howtofindraid_title" rel_version="Season_2_Perm">Formation d'un raid</string>
 	<string key="ui_howtofindraid_bullet1" rel_version="Season_2_Perm">i.</string>
@@ -387,18 +388,22 @@
 	<string key="ui_howtofindraid_body1" rel_version="Season_2_Perm">Le raid est formé à partir d'un groupe existant. Invitez au moins un joueur pour former un groupe.</string>
 	<string key="ui_howtofindraid_body2" rel_version="Season_2_Perm">Accédez à « Plus d'options » sous les portraits des membres du groupe.</string>
 	<string key="ui_howtofindraid_body3" rel_version="Season_2_Perm">Un joueur qui convertit le groupe en raid sera nommé chef du groupe. Il pourra gérer le raid et y inviter des joueurs.</string>
+	<string key="ui_elitetrial_landing_header" rel_version="Season_2_Perm">Récompenses disponibles</string>
+	<string key="ui_elitetrial_landing_daily" rel_version="Season_2_Perm">Quotidiennes</string>
+	<string key="ui_elitetrial_landing_weekly" rel_version="Season_2_Perm">Hebdomadaires</string>
 	<string key="ui_elitetrial_reward_header" rel_version="Season_2_Perm">Récompenses</string>
 	<string key="ui_elitetrial_reward_desc" rel_version="Season_2_Perm">Accomplir l'épreuve donnera les récompenses suivantes si vous n'avez pas atteint votre limite quotidienne/hebdomadaire.</string>
 	<string key="ui_elitetrial_reward_daily" rel_version="Season_2_Perm">{amount}/{max} quotidiennes</string>
+	<string key="ui_elitetrial_reward_dailydesc" rel_version="Season_2_Perm">Le coffre quotidien contient au moins un de ces objets.</string>
 	<string key="ui_elitetrial_reward_weekly" rel_version="Season_2_Perm">{amount}/{max} hebdomadaires</string>
 	<string key="ui_elitetrial_reward_weeklydesc" rel_version="Season_2_Perm">Le coffre hebdomadaire contient au moins un de ces objets.</string>
 	<string key="ui_elitetrial_reward_completion" rel_version="Season_2_Perm">Exécution</string>
 	<string key="ui_elitetrial_reward_completiondesc" rel_version="Season_2_Perm">Ces objets sont accordés après l'exécution de l'épreuve. Reproductible.</string>
 	<string key="ui_seasontrial_available_rewards" rel_version="Season_2_Perm">Récompenses disponibles</string>
 	<string key="ui_seasontrial_exclusive_rewards" rel_version="Season_2_Perm">Récompenses exclusives</string>
-	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Celles-ci n'apparaissent qu'à l'exécution de l'épreuve lors de vos 7 premières tentatives.</string>
+	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Celles-ci n'apparaissent qu'après les 7 premières exécutions et changent toutes les semaines.</string>
 	<string key="ui_seasontrial_unique_rewards" rel_version="Season_2_Perm">Récompenses uniques</string>
-	<string key="ui_seasontrial_unique_rewards_desc" rel_version="Season_2_Perm">Ces objets apparaissent plus fréquemment lors de vos 7 premières tentatives.</string>
+	<string key="ui_seasontrial_unique_rewards_desc" rel_version="Season_2_Perm">Celles-ci n'apparaissent qu'après les 7 premières exécutions et changent toutes les semaines.</string>
 	<string key="ui_seasontrial_basic_rewards" rel_version="Season_2_Perm">Récompenses de base</string>
 	<string key="ui_seasontrial_basic_rewards_desc" rel_version="Season_2_Perm">Ces objets peuvent tout le temps apparaître.</string>
 	<string key="ui_seasontrial_not_in_raid" rel_version="Season_2_Perm">Vous n'êtes pas dans un raid.</string>
@@ -410,6 +415,7 @@
 	<string key="ui_seasontrial_map_bonusrun_count" rel_version="Season_2_Perm">{count}/{max} courses bonus accomplies</string>
 	<string key="ui_seasontrial_beat_in" rel_version="Season_2_Perm">Temps restant</string>
 	<string key="ui_seasontrial_milestone_bonus_run_rewards_message" rel_version="Season_2_Perm">Récompenses de course bonus</string>
+	<string key="ui_seasontrial_bonus_run_header" rel_version="Season_2_Perm">Courses bonus</string>
 	<string key="ui_seasontrial_bonus_run_tooltip" rel_version="Season_2_Perm">Vos {maxCount} premières tentatives de l'épreuve chaque semaine vous octroient des récompenses bonus. Les exclusivités de la saison n'apparaissent que lors de ces tentatives.</string>
 	<string key="ui_seasontrial_milestone_normal_message" rel_version="Season_2_Perm">Épreuve terminée</string>
 	<string key="ui_elitetrial_milestone_daily_weekly_rewards_message" rel_version="Season_2_Perm">Récompenses quotidiennes et hebdomadaires</string>

@@ -59,7 +59,7 @@
 	<string key="ui_dungeon_activating_seasontrial" rel_version="Season_2_Perm">Accesso alla Prova stagionale...</string>
 	<string key="ui_dungeon_not_enough_members">Membri del gruppo insufficienti.</string>
 	<string key="ui_dungeon_too_many_members">Troppi membri nel gruppo.</string>
-	<string key="ui_dungeon_not_in_regular_group">Devi far parte di un gruppo standard.</string>
+	<string key="ui_dungeon_not_in_regular_group">Non puoi entrare in questa istanza mentre sei in un gruppo da incursione.</string>
 	<string key="ui_dungeon_not_in_raid_group">Devi far parte di un gruppo da incursione.</string>
 	<string key="ui_dungeon_convert_to_raid_tooltip">Forma un gruppo e convertilo in una incursione nel menu dei gruppi.</string>
 	<string key="ui_dungeon_not_group_leader">Devi essere il leader del gruppo.</string>
@@ -376,6 +376,7 @@
 	<string key="ui_seasontrial_header" rel_version="Season_2_Perm">Prova stagionale</string>
 	<string key="ui_seasontrial_bonusruns_prefix" rel_version="Season_2_Perm">&lt;img src="lyshineui/images/icons/misc/icon_hourglass" scale="0.80" yOffset="1.0"&gt;&lt;/img&gt;</string>
 	<string key="ui_seasontrial_player_average_gear_score" rel_version="Season_2_Perm">Punteggio attrezzatura medio: &lt;img src="lyshineui/images/icons/misc/icon_gearscore_tan" scale="1.6" yOffset="4.0" &gt;&lt;/img&gt; {gearscore}</string>
+	<string key="ui_seasontrial_player_recommended_gear_score" rel_version="Season_2_Perm">Consigliato: &lt;img src="lyshineui/images/icons/misc/icon_gearscore_tan" scale="1.6" yOffset="4.0" &gt;&lt;/img&gt; {gearscoreMin} - {gearscoreMax}</string>
 	<string key="ui_seasontrial_season_ends_prefix" rel_version="Season_2_Perm">Fine stagione tra:</string>
 	<string key="ui_howtofindraid_title" rel_version="Season_2_Perm">Organizzare un'incursione</string>
 	<string key="ui_howtofindraid_bullet1" rel_version="Season_2_Perm">I.</string>
@@ -387,18 +388,22 @@
 	<string key="ui_howtofindraid_body1" rel_version="Season_2_Perm">L'incursione si forma tramite un gruppo esistente. Invita almeno un giocatore a formare un gruppo.</string>
 	<string key="ui_howtofindraid_body2" rel_version="Season_2_Perm">Fai clic su altre opzioni sotto i ritratti dei membri del gruppo.</string>
 	<string key="ui_howtofindraid_body3" rel_version="Season_2_Perm">Chi converte il gruppo in una incursione diventa il leader del gruppo. Potrà gestire l'incursione e invitare i giocatori.</string>
+	<string key="ui_elitetrial_landing_header" rel_version="Season_2_Perm">Ricompense disponibili</string>
+	<string key="ui_elitetrial_landing_daily" rel_version="Season_2_Perm">Giornaliere</string>
+	<string key="ui_elitetrial_landing_weekly" rel_version="Season_2_Perm">Settimanali</string>
 	<string key="ui_elitetrial_reward_header" rel_version="Season_2_Perm">Ricompense</string>
 	<string key="ui_elitetrial_reward_desc" rel_version="Season_2_Perm">Completando la prova otterrai quanto segue, se non hai raggiunto il limite giornaliero/settimanale.</string>
 	<string key="ui_elitetrial_reward_daily" rel_version="Season_2_Perm">{amount}/{max} al giorno</string>
+	<string key="ui_elitetrial_reward_dailydesc" rel_version="Season_2_Perm">Il forziere giornaliero contiene uno dei seguenti oggetti.</string>
 	<string key="ui_elitetrial_reward_weekly" rel_version="Season_2_Perm">{amount}/{max} a settimana</string>
 	<string key="ui_elitetrial_reward_weeklydesc" rel_version="Season_2_Perm">Il forziere settimanale contiene uno di questi oggetti.</string>
 	<string key="ui_elitetrial_reward_completion" rel_version="Season_2_Perm">Completamento</string>
 	<string key="ui_elitetrial_reward_completiondesc" rel_version="Season_2_Perm">Questi oggetti vengono assegnati al completamento della prova. Ripetibile.</string>
 	<string key="ui_seasontrial_available_rewards" rel_version="Season_2_Perm">Ricompense disponibili</string>
 	<string key="ui_seasontrial_exclusive_rewards" rel_version="Season_2_Perm">Ricompense esclusive</string>
-	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Rilasciate al completamento della prova nei tuoi primi 7 tentativi.</string>
+	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Si ottengono solo con i primi 7 completamenti e cambiano ogni settimana.</string>
 	<string key="ui_seasontrial_unique_rewards" rel_version="Season_2_Perm">Ricompense uniche</string>
-	<string key="ui_seasontrial_unique_rewards_desc" rel_version="Season_2_Perm">Questi oggetti vengono rilasciati più frequentemente nei tuoi primi 7 tentativi.</string>
+	<string key="ui_seasontrial_unique_rewards_desc" rel_version="Season_2_Perm">Si ottengono solo con i primi 7 completamenti e cambiano ogni settimana.</string>
 	<string key="ui_seasontrial_basic_rewards" rel_version="Season_2_Perm">Ricompense di base</string>
 	<string key="ui_seasontrial_basic_rewards_desc" rel_version="Season_2_Perm">Questi oggetti possono essere rilasciati sempre.</string>
 	<string key="ui_seasontrial_not_in_raid" rel_version="Season_2_Perm">Non sei in un'incursione</string>
@@ -410,6 +415,7 @@
 	<string key="ui_seasontrial_map_bonusrun_count" rel_version="Season_2_Perm">{count} / {max} tentativi bonus completati</string>
 	<string key="ui_seasontrial_beat_in" rel_version="Season_2_Perm">Tempo rimanente</string>
 	<string key="ui_seasontrial_milestone_bonus_run_rewards_message" rel_version="Season_2_Perm">Ricompense tentativi bonus</string>
+	<string key="ui_seasontrial_bonus_run_header" rel_version="Season_2_Perm">Tentativi bonus</string>
 	<string key="ui_seasontrial_bonus_run_tooltip" rel_version="Season_2_Perm">Per i primi {maxCount} tentativi alla Prova ogni settimana ottieni ricompense bonus. Le esclusive stagionali vengono rilasciate solo durante questi tentativi.</string>
 	<string key="ui_seasontrial_milestone_normal_message" rel_version="Season_2_Perm">Prova completata</string>
 	<string key="ui_elitetrial_milestone_daily_weekly_rewards_message" rel_version="Season_2_Perm">Ricompense giornaliere e settimanali</string>

@@ -1122,9 +1122,9 @@
 	<string key="ElementalWardPrefix">Imbuído</string>
 	<string key="SpectralWardPrefix">Espectral</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Name">Salto Feroz Paralisante</string>
-	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Ao acertar com Salto Feroz, causa {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]}% de Lentidão durante {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} s.</string>
+	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Ao acertar com Salto Feroz, causa {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]}% de Lentidão durante {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} s e causa +{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_FeralRush.BaseDamage * 100 * {perkMultiplier}]}% de dano.</string>
 	<string key="PerkID_Ability_Hatchet_Berserk_Name">Berserk Ávido</string>
-	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]}% de chance de acerto crítico enquanto estiver com menos de {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]}% de Saúde no modo Berserk.</string>
+	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]}% de chance de acerto crítico e +{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.BaseDamage * 100 * {perkMultiplier}]}% de dano enquanto estiver com menos de {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]}% de Saúde no modo Berserk.</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Name">Enxurrada Renovadora</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Description">Cada ataque da Enxurrada Furiosa reduz todos os tempos de recarga da Machadinha em {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.CooldownTimer * -100 * {perkMultiplier}]}% (tempo de recarga: {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.ActivationCooldown]} s).</string>
 	<string key="PerkID_Ability_Hatchet_Rending_Throw_Name">Arremesso Rasgante Energizante</string>
@@ -1141,8 +1141,8 @@
 	<string key="PerkID_Ability_Hammer_WreckingBall_Description">A Bola de Demolição penetra em {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_WreckingBall.ArmorPenetration * 100 * {perkMultiplier}]}% da armadura do alvo.</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Name">Onda de Choque Separadora</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Description">A Onda de Choque causa Vulnerável, reduzindo a armadura do alvo em {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% durante {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} s.</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Name">Para Trás Repulsor</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Description">Aumenta a distância do empurrão de Para Trás em {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_ClearOut.Knockback * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Name">Para Trás Separador</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Description">O Para Trás causa Vulnerável, reduzindo a armadura do alvo em {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% durante {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Name">Caminho do Destino Extrator</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Description">Cura em {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_PathOfDestiny.DmgPctToHealth * 100 * {perkMultiplier}]}% do dano causado pelo Caminho do Destino.</string>
 	<string key="PerkID_Ability_Musket_PowderBurn_Name">Queimadura de Pólvora Paralisante</string>
@@ -1151,8 +1151,8 @@
 	<string key="PerkID_Ability_Musket_PowerShot_Description">Abates com o Tiro Poderoso reduzem o tempo de recarga em {[GlobalAbilityTable.GlobalPerk_Ability_Musket_PowerShot.CooldownTimer * -100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Name">Posição do Atirador Energizante</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Description">Acertar um alvo enquanto estiver na Posição do Atirador concede um acúmulo de Energizado, aumentando o dano em {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.DMGStandard * 100 * {perkMultiplier}]}% por {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.BaseDuration]} s. O efeito é removido ao deixar a posição (máximo de {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.StackMax]} acúmulos).</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Name">Disparo Impactante Repulsor</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Description">Aumenta a distância de empurrão do Disparo Impactante em {[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.Knockback * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Name">Disparo Impactante Energizante</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Description">Ao acertar com Disparo Impactante, reduz em {[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.CooldownTimer * -100 * {perkMultiplier}]}% os tempos de recarga de todas as outras habilidades de armadilheiro.</string>
 	<string key="PerkID_Ability_Musket_Traps_Name">Armadilhas Aceleradoras</string>
 	<string key="PerkID_Ability_Musket_Traps_Description">+{[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.MoveSpeedMod * 100 * {perkMultiplier}]}% de velocidade de movimento por {[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.BaseDuration]} s após implantar uma armadilha (não acumula).</string>
 	<string key="PerkID_Ability_Musket_StickyBomb_Name">Bombas Grudentas de Reparação</string>

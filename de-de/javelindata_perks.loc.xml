@@ -1122,9 +1122,9 @@
 	<string key="ElementalWardPrefix">Durchdrungen</string>
 	<string key="SpectralWardPrefix">Geisterhaft</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Name">Lähmender Wilder Ansturm</string>
-	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Ein Treffer von "Wilder Ansturm" verlangsamt für {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} Sek. um {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Ein Treffer von "Wilder Ansturm" verlangsamt für {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} Sek. um {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]} % und verursacht +{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_FeralRush.BaseDamage * 100 * {perkMultiplier}]} % Schaden.</string>
 	<string key="PerkID_Ability_Hatchet_Berserk_Name">Tobender Berserker</string>
-	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]} % kritische Trefferchance, wenn du weniger als {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]} % Gesundheit besitzt und "Berserker" aktiv ist.</string>
+	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]} % kritische Trefferchance und +{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.BaseDamage * 100 * {perkMultiplier}]} % Schaden, wenn du weniger als {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]} % Gesundheit besitzt und "Berserker" aktiv ist.</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Name">Auffrischende Flut</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Description">Jeder Treffer mit "Tosende Fluten" verringert die Beil-Abklingzeiten um {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.CooldownTimer * -100 * {perkMultiplier}]} %. (Abklingzeit {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.ActivationCooldown]} Sek.)</string>
 	<string key="PerkID_Ability_Hatchet_Rending_Throw_Name">Ermächtigender Zerreißender Wurf</string>
@@ -1141,8 +1141,8 @@
 	<string key="PerkID_Ability_Hammer_WreckingBall_Description">"Abrisshammer" durchdringt {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_WreckingBall.ArmorPenetration * 100 * {perkMultiplier}]} % der Rüstung des Ziels.</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Name">Zertrennende Schockwelle</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Description">"Schockwelle" verursacht "Aufgerissen"-Status und verringert die Rüstung des Ziels für {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} Sek. um {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.PhysicalArmor * -100 * {perkMultiplier}]} %.</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Name">Abstoßende Vertreibung</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Description">Erhöht die Rückstoßdistanz von "Vertreiben" um {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_ClearOut.Knockback * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Name">Entzweiende Vertreibung</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Description">"Vertreiben" verursacht "Aufgerissen"-Status und verringert die Rüstung des Ziels für {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.BaseDuration]} Sek. um {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.PhysicalArmor * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Name">Aussaugender Pfad des Schicksals</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Description">Du heilst dich für {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_PathOfDestiny.DmgPctToHealth * 100 * {perkMultiplier}]} % des durch "Pfad des Schicksals" zugefügten Schadens.</string>
 	<string key="PerkID_Ability_Musket_PowderBurn_Name">Lähmender Pulverbrand</string>
@@ -1151,8 +1151,8 @@
 	<string key="PerkID_Ability_Musket_PowerShot_Description">Tötungen mit "Mächtiger Schuss" verringern seine Abklingzeit um {[GlobalAbilityTable.GlobalPerk_Ability_Musket_PowerShot.CooldownTimer * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Name">Ermächtigende Schützenhaltung</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Description">Aus der Schützenhaltung heraus erzielte Treffer an einem Ziel gewähren einen Stapel Ermächtigung, was den Schaden für {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.BaseDuration]} Sek. um {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.DMGStandard * 100 * {perkMultiplier}]} % erhöht. Dieser Effekt endet bei Verlassen der Haltung. (Maximal {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.StackMax]} Stapel.)</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Name">Abstoßende Mannstoppwirkung</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Description">Erhöht die Rückstoßdistanz von "Mannstoppwirkung" um {[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.Knockback * 100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Name">Erfrischende Mannstoppwirkung</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Description">"Mannstoppwirkung" verringert bei einem Treffer alle anderen Fallenstellerfähigkeiten um {[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.CooldownTimer * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Musket_Traps_Name">Beschleunigende Fallen</string>
 	<string key="PerkID_Ability_Musket_Traps_Description">+{[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.MoveSpeedMod * 100 * {perkMultiplier}]} % Bewegungsgeschwindigkeit für {[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.BaseDuration]} Sek. nach Aufstellen einer Falle. (Nicht stapelbar.)</string>
 	<string key="PerkID_Ability_Musket_StickyBomb_Name">Heilende Haftbombe</string>

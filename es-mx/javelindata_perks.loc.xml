@@ -1122,9 +1122,9 @@
 	<string key="ElementalWardPrefix">Imbuido</string>
 	<string key="SpectralWardPrefix">Espectral</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Name">Ímpetu bestial devastador</string>
-	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Al golpear con Ímpetu bestial, causa un {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]} % de lentitud durante {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} s.</string>
+	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Al golpear con Ímpetu bestial, causa un {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]} % de lentitud durante {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} s y hace un {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_FeralRush.BaseDamage * 100 * {perkMultiplier}]} % más de daño.</string>
 	<string key="PerkID_Ability_Hatchet_Berserk_Name">Frenesí intenso</string>
-	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]} % de probabilidad de crítico mientras tengas menos del {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]} % de salud y Frenesí.</string>
+	<string key="PerkID_Ability_Hatchet_Berserk_Description">{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]} % más de probabilidad de crítico y {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.BaseDamage * 100 * {perkMultiplier}]} % más de daño mientras tengas menos del {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]} % de salud y Frenesí.</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Name">Torrente refrescante</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Description">Cada ataque de Torrente enfurecido reduce todos los tiempos de reutilización de la hachuela en un {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.CooldownTimer * -100 * {perkMultiplier}]} %. (Tiempo de reutilización de {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.ActivationCooldown]} s).</string>
 	<string key="PerkID_Ability_Hatchet_Rending_Throw_Name">Lanzamiento desgarrador empoderador</string>
@@ -1141,8 +1141,8 @@
 	<string key="PerkID_Ability_Hammer_WreckingBall_Description">La Bola demoledora penetra en un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_WreckingBall.ArmorPenetration * 100 * {perkMultiplier}]}% la armadura del objetivo.</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Name">Onda sísmica cercenante</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Description">Onda sísmica inflige desgarro, lo que reduce la armadura del objetivo en un {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.PhysicalArmor * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} s.</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Name">Limpieza repelente</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Description">Aumenta la distancia de retroceso de Limpieza en un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_ClearOut.Knockback * 100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Name">Limpieza cercerante</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Description">Limpieza inflige desgarro, lo que reduce la armadura del objetivo en un {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.PhysicalArmor * -100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Name">Camino del destino succionador</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Description">Te curas por el equivalente a un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_PathOfDestiny.DmgPctToHealth * 100 * {perkMultiplier}]} % del daño infligido por el Camino del destino.</string>
 	<string key="PerkID_Ability_Musket_PowderBurn_Name">Quemadura de pólvora devastadora</string>
@@ -1151,8 +1151,8 @@
 	<string key="PerkID_Ability_Musket_PowerShot_Description">Las bajas por el Tiro de poder reducen su tiempo de reutilización en un {[GlobalAbilityTable.GlobalPerk_Ability_Musket_PowerShot.CooldownTimer * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Name">Postura de tirador potenciadora</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Description">Golpear a un objetivo mientras estás en la postura del tirador otorga una acumulación de fortalecimiento, lo que aumenta el daño en un {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.DMGStandard * 100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.BaseDuration]} s. El efecto desaparece al salir de la postura. (Se acumula un máx. de {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.StackMax]} veces).</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Name">Potencia restrictiva repelente</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Description">Aumenta la distancia de retroceso de Potencia restrictiva en un {[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.Knockback * 100 * {perkMultiplier}]} %.</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Name">Potencia restrictiva refrescante</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Description">Al golpear con Potencia restrictiva, reduce todas las demás habilidades de tramperos en un {[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.CooldownTimer * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Musket_Traps_Name">Trampas de aceleración</string>
 	<string key="PerkID_Ability_Musket_Traps_Description">Aumenta la velocidad de movimiento en un {[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.MoveSpeedMod * 100 * {perkMultiplier}]} % durante {[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.BaseDuration]} s tras desplegar una trampa. (No se acumula).</string>
 	<string key="PerkID_Ability_Musket_StickyBomb_Name">Bombas adherentes de curación</string>

@@ -1122,9 +1122,9 @@
 	<string key="ElementalWardPrefix">Impregnato</string>
 	<string key="SpectralWardPrefix">Spettrale</string>
 	<string key="PerkID_Ability_Hatchet_FeralRush_Name">Carica selvaggia paralizzante</string>
-	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Quando Carica selvaggia va a segno, causa un {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]}% di Rallentamento per {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} s.</string>
+	<string key="PerkID_Ability_Hatchet_FeralRush_Description">Quando Carica selvaggia va a segno, causa un {[Type_StatusEffectData.Hatchet_Rush_Slow.MoveSpeedMod * -100 * {perkMultiplier}]}% di Rallentamento per {[Type_StatusEffectData.Hatchet_Rush_Slow.BaseDuration]} s e infligge +{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_FeralRush.BaseDamage * 100 * {perkMultiplier}]}% di danni aggiuntivi.</string>
 	<string key="PerkID_Ability_Hatchet_Berserk_Name">Berserker incisivo</string>
-	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]}% di probabilità di colpo critico con salute inferiore a {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]}% e durante Berserker.</string>
+	<string key="PerkID_Ability_Hatchet_Berserk_Description">+{[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.CritChance * 100 * {perkMultiplier}]}% di probabilità di colpo critico e + {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.BaseDamage * 100 * {perkMultiplier}]}% di danni aggiuntivi con salute inferiore a {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_Berserk.MyHealthPercent]}% e durante Berserker.</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Name">Torrente ricaricante</string>
 	<string key="PerkID_Ability_Hatchet_RagingTorrent_Description">Ogni attacco di Torrente furioso andato a segno riduce di un {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.CooldownTimer * -100 * {perkMultiplier}]}% tutti i tempi di ricarica dell'accetta (tempo di ricarica {[GlobalAbilityTable.GlobalPerk_Ability_Hatchet_RagingTorrent.ActivationCooldown]} s).</string>
 	<string key="PerkID_Ability_Hatchet_Rending_Throw_Name">Lancio lacerante potenziato</string>
@@ -1141,8 +1141,8 @@
 	<string key="PerkID_Ability_Hammer_WreckingBall_Description">Palla da demolizione penetra un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_WreckingBall.ArmorPenetration * 100 * {perkMultiplier}]}% dell'armatura del bersaglio.</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Name">Onda d'urto separante I</string>
 	<string key="PerkID_Ability_Hammer_Shockwave_Description">Onda d'urto infligge Lacerato, riducendo l'armatura del bersaglio di un {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Hammer_Shockwave_Rend.BaseDuration]} s.</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Name">Sgombero respingente</string>
-	<string key="PerkID_Ability_Hammer_ClearOut_Description">Aumenta la distanza del contraccolpo di Sgombero di un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_ClearOut.Knockback * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Name">Sgombero separante</string>
+	<string key="PerkID_Ability_Hammer_ClearOut_Description">Sgombero infligge Lacerato, riducendo l'armatura del bersaglio di un {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.PhysicalArmor * -100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Hammer_ClearOut_Rend.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Name">Sentiero del destino assorbi-vita</string>
 	<string key="PerkID_Ability_Hammer_PathOfDestiny_Description">Guarisce di un {[GlobalAbilityTable.GlobalPerk_Ability_Hammer_PathOfDestiny.DmgPctToHealth * 100 * {perkMultiplier}]}% dei danni inflitti da Sentiero del destino.</string>
 	<string key="PerkID_Ability_Musket_PowderBurn_Name">Bruciatura da polvere da sparo paralizzante</string>
@@ -1151,8 +1151,8 @@
 	<string key="PerkID_Ability_Musket_PowerShot_Description">Tempo di ricarica ridotto di un {[GlobalAbilityTable.GlobalPerk_Ability_Musket_PowerShot.CooldownTimer * -100 * {perkMultiplier}]}% per ogni uccisione con Tiro potente.</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Name">Posizione del tiratore potenziante</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Description">Colpire un nemico in Posizione del tiratore garantisce un accumulo di Potenziamento, aumentando i danni di un {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.DMGStandard * 100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.BaseDuration]} s. L'effetto viene rimosso quando abbandoni la posizione (massimo {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.StackMax]} accumuli).</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Name">Potenza d'arresto respingente</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Description">Aumenta la distanza di respinta di Potenza d'arresto di un {[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.Knockback * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Name">Ricaricare Potenza d'arresto</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Description">Potenza d'arresto riduce tutte le altre abilità da cacciatore del{[GlobalAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.CooldownTimer * -100 * {perkMultiplier}]}% quando va a segno.</string>
 	<string key="PerkID_Ability_Musket_Traps_Name">Trappole acceleranti</string>
 	<string key="PerkID_Ability_Musket_Traps_Description">+{[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.MoveSpeedMod * 100 * {perkMultiplier}]}% di velocità di movimento per {[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.BaseDuration]} s dopo aver piazzato una trappola (non è cumulabile).</string>
 	<string key="PerkID_Ability_Musket_StickyBomb_Name">Bombe adesive riparatrici</string>
