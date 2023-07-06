@@ -113,6 +113,8 @@
 	<string key="ui_affliction_weakness">Schwächeresistenz</string>
 	<string key="ui_affliction_drowning">Atem</string>
 	<string key="ui_affliction_drowning_tooltip">Wenn dir der Atem ausgeht, erstickst du.</string>
+	<string key="ui_affliction_spores_tooltip">Wenn du die Sporenresistenz verlierst, wirst du von Sporen durchdrungen und erleidest um {[Type_StatusEffectData.SporeSickness.ABSVitalsCategory * -100]} % erhöhten Schaden aus allen Schadensquellen.</string>
+	<string key="ui_affliction_spores">Sporenresistenz</string>
 	<string key="ui_affliction_blight">Fäulnisresistenz</string>
 	<string key="ui_affliction_blight_tooltip">Wenn du keine Fäulnisresistenz mehr hast, wirst du zum Verfaulten, fügst {[Type_StatusEffectData.Blight.DMGStandard * 100]} % weniger Schaden zu, heilst um {[Type_StatusEffectData.Blight.HealMod * 100]} % weniger und verlierst alle {[Type_StatusEffectData.Blight.TickRate]} Sekunden {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % von deinem Gesundheitsgrundwert für {[Afflictions.AfflictionBlight.AfflictedDrainTime]} Sekunden insgesamt.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">Entzündlichkeit-Resistenz</string>
@@ -139,6 +141,8 @@
 	<string key="ui_afflicted_weakness">geschwächt</string>
 	<string key="ui_afflicted_drowning">ertrinkend</string>
 	<string key="ui_afflicted_drowning_tooltip">Du bist ertrunken.</string>
+	<string key="ui_afflicted_spores">Von Sporen durchdrungen</string>
+	<string key="ui_afflicted_spores_tooltip">Während du von Sporen durchdrungen bist, erleidest du um {[Type_StatusEffectData.SporeSickness.ABSVitalsCategory * -100]} % erhöhten Schaden von allen Schadensquellen.</string>
 	<string key="ui_afflicted_blight">verfaulter</string>
 	<string key="ui_afflicted_blight_tooltip">Wenn du zum Verfaulten wirst, fügst du {[Type_StatusEffectData.Blight.DMGStandard * 100]} % weniger Schaden zu, heilst um {[Type_StatusEffectData.Blight.HealMod * 100]} % weniger und verlierst alle {[Type_StatusEffectData.Blight.TickRate]} Sekunden {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % von deinem Gesundheitsgrundwert.</string>
 	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">Entzündlich</string>
@@ -169,6 +173,7 @@
 	<string key="ui_overflow_items_hint">Versteckte Gegenstände erscheinen, sobald Platz frei ist</string>
 	<string key="ui_attack">Einfache Angriffe</string>
 	<string key="ui_melee_combat">Nahkampf</string>
+	<string key="ui_combat">Kampf</string>
 	<string key="ui_audioducking">Audio hervorheben</string>
 	<string key="ui_b">B</string>
 	<string key="ui_back">Zurück</string>
@@ -236,8 +241,8 @@
 	<string key="ui_company_name_input">Gib deiner Kompanie einen Namen</string>
 	<string key="ui_customize_company_information">Diese Einstellungen können jederzeit angepasst werden.</string>
 	<string key="ui_no_points_spent">Keine Punkte zugewiesen</string>
-	<string key="ui_commit_1_point">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; 1 &lt;/font&gt; Punkt zuweisen.</string>
-	<string key="ui_commit_points">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt; {points} &lt;/font&gt; Punkte zuweisen.</string>
+	<string key="ui_commit_1_point">1 Punkt zuweisen</string>
+	<string key="ui_commit_points">{points} Punkte zuweisen</string>
 	<string key="ui_abilities_on_cooldown">Abklingzeit für Fertigkeiten</string>
 	<string key="ui_abilities_in_combat">Im Kampf</string>
 	<string key="ui_componentname">Komponentenname</string>
@@ -462,12 +467,15 @@
 	<string key="ui_inventoryfull">Inventar voll</string>
 	<string key="ui_craftingnearitemlimit">Inventar-Limit fast erreicht. Hergestellte Gegenstände können abgelegt werden.</string>
 	<string key="ui_inventory_warning_toofullforrewards">Zu viele Gegenstände im Inventar, um Belohnungen zu erhalten.</string>
-	<string key="ui_inventoryslotsremaining">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{count}&lt;/font&gt; Inventarplätze übrig.</string>
-	<string key="ui_inventoryweightremaining">noch &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{Weight}&lt;/font&gt;</string>
+	<string key="ui_inventoryslotsremaining">Verbleibende einzigartige Gegenstandsplätze im Inventar: {count}</string>
+	<string key="ui_inventoryweightremaining">noch {Weight}</string>
 	<string key="ui_inventoryMaxWeight">Überlastet</string>
 	<string key="ui_inventoryweight">GEWICHT</string>
 	<string key="ui_inventoryslots">EINZIGARTIGE GEGENSTÄNDE</string>
 	<string key="ui_filtereditems">{filtered} Gegenstände durch Filter verborgen.</string>
+	<string key="ui_left">Links</string>
+	<string key="ui_right">Rechts</string>
+	<string key="ui_materials">Materialien</string>
 	<string key="ui_inventory_tooltip">Drücke zum Öffnen und Schließe deines Inventars [{keyName}]. Die Radialanzeige gibt an, wie viel deiner Belastungsgrenze verwendet wurde.</string>
 	<string key="ui_equipped">Ausrüstung</string>
 	<string key="ui_invertcamera">Kamerasteuerung umkehren</string>
@@ -546,7 +554,9 @@
 	<string key="ui_okay">Okay</string>
 	<string key="ui_on">An</string>
 	<string key="ui_online">Online</string>
+	<string key="ui_online_inopr">Weltübergreifender APS</string>
 	<string key="ui_onlineactivity">Onlineaktivität</string>
+	<string key="ui_in_cross_world_opr">Weltübergreifender APS</string>
 	<string key="ui_opendoor">Tür öffnen</string>
 	<string key="ui_openjournal">Tagebuch öffnen</string>
 	<string key="ui_openmap">Karte öffnen</string>
@@ -563,7 +573,7 @@
 	<string key="ui_otherplayername">Anderer Spielername</string>
 	<string key="ui_output">Resultat</string>
 	<string key="ui_owner">EIGENTÜMER:</string>
-	<string key="ui_return_hide_ui">Rückkehr ins Spiel, um Benutzeroberfläche auszublenden</string>
+	<string key="ui_return_hide_ui">Rückkehr ins Spiel, um Benutzeroberfläche auszublenden.</string>
 	<string key="ui_return_to_game">Rückkehr ins Spiel</string>
 	<string key="ui_photomode">UI: Aus</string>
 	<string key="ui_take_screenshot">Screenshot</string>
@@ -575,7 +585,7 @@
 	<string key="ui_playername">Spielername</string>
 	<string key="ui_playernamehassentyouag">{Playername} hat dir eine Gruppeneinladung geschickt. Halte zum Anschließen [H] gedrückt.</string>
 	<string key="ui_pressanykeytocontinue">Drücke eine beliebige Taste zum Fortfahren.</string>
-	<string key="ui_presskeytoassign">Drücke eine Taste, um diese Fähigkeit zuzuweisen.</string>
+	<string key="ui_presskeytoassign">Wähle eine Eingabe, der diese Fertigkeit zugewiesen werden soll.</string>
 	<string key="ui_previous">Vorher</string>
 	<string key="ui_progress">Fortschritt</string>
 	<string key="ui_pronetoggle">Hinlegen</string>
@@ -703,7 +713,7 @@
 	<string key="ui_options_gamma_desc">Gamma anpassen.</string>
 	<string key="ui_options_basic_settings">Grundeinstellungen</string>
 	<string key="ui_options_brightness_setting">Helligkeitseinstellung</string>
-	<string key="ui_options_brightness_setting_desc">Passe die Helligkeit an, bis das linke New-World-Logo gerade noch so sichtbar ist.\nDu kannst die Einstellung später jederzeit in den Optionen anpassen.</string>
+	<string key="ui_options_brightness_setting_desc">Passe die Helligkeit an, bis das linke New World-Logo gerade noch so sichtbar ist.\nDu kannst die Einstellung später jederzeit in den Optionen anpassen.</string>
 	<string key="ui_options_brightness">Helligkeit</string>
 	<string key="ui_options_brightness_desc">Helligkeit anpassen.</string>
 	<string key="ui_options_contrast">Kontrast</string>
@@ -831,6 +841,7 @@
 	<string key="ui_turnlookupanddown">Umsehen</string>
 	<string key="ui_turnoff">Ausschalten</string>
 	<string key="ui_turnon">Anschalten</string>
+	<string key="ui_turn">Drehen</string>
 	<string key="ui_twinmouse">Doppelmaus</string>
 	<string key="ui_underconstruction">Im Bau</string>
 	<string key="ui_unfriend">Entfernen</string>
@@ -892,6 +903,7 @@
 	<string key="ui_buildtag">Version des öffentlichen Testbereichs</string>
 	<string key="ui_chat_feed">Feed</string>
 	<string key="ui_chat_feed_tooltip">Fügt den Kanal in deine Benachrichtigungen ein.</string>
+	<string key="ui_chat_cross_world_tooltip">In diesem Chat befinden sich nur Spieler von deiner Heimatwelt.</string>
 	<string key="ui_chat_muted_tooltip">Der Kanal wird nicht in den Benachrichtigungen angezeigt und ungelesene Nachrichten werden nicht zur Gesamtanzahl ungelesener Nachrichten auf dem Chat-Symbol hinzugefügt. Du kannst den Kanal weiterhin betrachten, indem du ihn über die Kanalauswahl links aufrufst.</string>
 	<string key="ui_chat_channel_settings">KANALEINSTELLUNGEN</string>
 	<string key="ui_insufficientStructureMaterials">Du besitzt nicht genügend Rohstoffe, um das Gebäude fertigzustellen. Du kannst den Plan jetzt platzieren und die nötigen Rohstoffe später besorgen.</string>
@@ -1020,7 +1032,7 @@
 	<string key="ui_navmenu_journal">Tagebuch</string>
 	<string key="ui_navmenu_settings">Optionen</string>
 	<string key="ui_navmenu_exit">VERLASSEN</string>
-	<string key="ui_navmenu_game_menu">Menü</string>
+	<string key="ui_navmenu_game_menu">Spielmenü</string>
 	<string key="ui_navmenu_benchmark">RICHTWERTE</string>
 	<string key="ui_navmenu_store">Shop</string>
 	<string key="ui_navmenu_quit">Verlassen</string>
@@ -1140,10 +1152,10 @@
 	<string key="ui_intelligence_description">(Magiefokussiert)</string>
 	<string key="ui_focus_description">(Heilungsfokussiert)</string>
 	<string key="ui_constitution_tooltip">Primärattribut für die Gesamtgesundheit.</string>
-	<string key="ui_strength_tooltip">Primärattribut für Kriegshammer, Streitaxt, Schwert, Beil und Donnerbüchse.\n\nSekundärattribut für Speer.\n\nDas Großschwert skaliert gleichmäßig mit dem Attribut und Geschick.</string>
+	<string key="ui_strength_tooltip">Primärattribut für Kriegshammer, Streitaxt, Schwert, Beil, Donnerbüchse und Flegel.\n\nSekundärattribut für Speer.\n\nDas Großschwert skaliert gleichmäßig mit dem Attribut und Geschick.</string>
 	<string key="ui_dexterity_tooltip">Primärattribut für Bogen, Rapier, Speer und Muskete.\n\nSekundärattribut für Schwert und Beil.\n\nDas Großschwert skaliert gleichmäßig mit dem Attribut und Stärke.</string>
 	<string key="ui_intelligence_tooltip">Primärattribut für Feuerstab, Eisstulpen und Unheilsstulpen.\n\nSekundärattribut für Rapier, Donnerbüchse und Muskete.</string>
-	<string key="ui_focus_tooltip">Primärattribut für Lebensstab.\n\nSekundärattribut für Unheilsstulpen.</string>
+	<string key="ui_focus_tooltip">Primärattribut für Lebensstab.\n\nSekundärattribut für Unheilsstulpen und Flegel.</string>
 	<string key="ui_spirit_tooltip">GLAUBE\n\nIn Glaube investierte Punkte erhöhen:\n\n-- Gesamtwert an Mana\n-- Verteidigung gegen Unheilsschaden\n-- Verderbnisresistenz\n\n-- Zauberstärke der Himmlischen Zauberstulpen\n</string>
 	<string key="ui_vitality_tooltip">KÖRPERBAU\n\nIn Körperbau investierte Punkte erhöhen:\n\n-- Verteidigung gegen physischen Schaden\n-- Giftresistenz\n-- Maximales Ausrüstungsgewicht\n</string>
 	<string key="ui_endurance_tooltip">ZÄHIGKEIT\n\nIn Zähigkeit investierte Punkte erhöhen: \n\n-- Ausdauer \n-- Verteidigung gegen Blitzschaden \n-- Verwundungsresistenz \n</string>
@@ -1329,12 +1341,12 @@
 	<string key="ui_camp_unlock_skins_tooltip">Schalte Zeltlager (Rang 1) frei\nDie Errichtung eines Rang-1-Zeltlagers ermöglicht dir die Herstellung verschiedener Rang-1-Gegenstände, die Heilung deines Charakters und das Respawnen im Zeltlager.\nZur Freischaltung musst du Stufe 5 erreicht und die erste Überlebenskünstler-Aufgabe abgeschlossen haben.\nHinweis: Du musst die vorhergehenden Aufgaben am Strand und in der Startsiedlung abschließen, bevor du diese Aufgabe angehen kannst.</string>
 	<string key="ui_buildmode_error_outside_of_war">Ohne einen Krieg kann das nicht gebaut werden.</string>
 	<string key="ui_buildmode_error_war_attackers_only">Nur Angreifer können die Struktur bauen.</string>
-	<string key="ui_camping_error_not_unlocked">Zeltlager noch nicht freigeschaltet</string>
-	<string key="ui_bind_to_camp_disabled">Binden an Zeltlager deaktiviert</string>
+	<string key="ui_camping_error_not_unlocked">Zeltlager noch nicht freigeschaltet.</string>
+	<string key="ui_bind_to_camp_disabled">Binden an Zeltlager deaktiviert.</string>
 	<string key="ui_bind_to_camp">Zeltlager-Rückrufpunkt setzen</string>
-	<string key="ui_camping_error_poi_restricted_outpost_rush">Zeltlageraufbau beim Außenpostensturm eingeschränkt</string>
+	<string key="ui_camping_error_poi_restricted_outpost_rush">Zeltlageraufbau beim Außenpostensturm eingeschränkt.</string>
 	<string key="ui_camping_error_poi_restricted">Zeltlager kann nicht in Landmarken errichtet werden.</string>
-	<string key="ui_camp_obstructed">Zum Fertigstellen zurücktreten</string>
+	<string key="ui_camp_obstructed">Zum Fertigstellen zurücktreten.</string>
 	<string key="ui_camping_restricted">Zeltlageraufbau eingeschränkt</string>
 	<string key="ui_camping_available">Zeltlager verfügbar</string>
 	<string key="ui_notification_nameplate_hidden">Namensschild nicht sichtbar</string>
@@ -1504,7 +1516,7 @@
 	<string key="ui_map_rotate_camera">(Halten) Kamera drehen</string>
 	<string key="ui_zoom_camera">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; + &lt;img src="lyshineui/images/icons/misc/Icon_MiddleMouseButton" xPadding="1" scale="2.3" yOffset="9"&gt;&lt;/img&gt; (Halten) Zoomen</string>
 	<string key="ui_global_storage_description">Andere Spieler können hier eingelagerte Gegenstände nicht sehen oder aufnehmen. Du kannst die Gegenstände nur in diesem Außenposten wieder abholen.</string>
-	<string key="ui_apply_all_resources">Alle Rohstoffe einsetzen</string>
+	<string key="ui_apply_all_resources">Bauen</string>
 	<string key="ui_apply_resources">Rohstoffe einsetzen</string>
 	<string key="ui_activate_spawn_point">Respawnpunkt aktivieren</string>
 	<string key="ui_set_spawn_point">Rückrufpunkt setzen</string>
@@ -1518,14 +1530,14 @@
 	<string key="ui_ignite_fuse">Zündschnur anzünden</string>
 	<string key="ui_buy_additional_protection">1 Stunde Schutzzeit kaufen</string>
 	<string key="ui_pick_up">Aufheben</string>
-	<string key="ui_more_options">Weitere Optionen</string>
+	<string key="ui_more_options">Alle Optionen ansehen</string>
 	<string key="ui_contracts">Verträge</string>
 	<string key="ui_build_azure_well">Azoth-Brunnen bauen</string>
 	<string key="ui_upgrade_structure">Gebäude aufrüsten</string>
 	<string key="ui_cancel_upgrade">Aufrüstung abbrechen</string>
 	<string key="ui_cancel_plan">Plan abbrechen</string>
 	<string key="ui_lootTickerAddedItem">+{addedQuantity}</string>
-	<string key="ui_holdforvoicechat">Halte "{key}" gedrückt, um den Sprachchat zu nutzen.</string>
+	<string key="ui_holdforvoicechat">{key} halten, um Sprachchat zu nutzen.</string>
 	<string key="ui_distanceMeters">{distanceMeters} m</string>
 	<string key="ui_distanceKilometers">{distanceKilometers} km</string>
 	<string key="ui_rankChanged">NEUER RANG: {Rank}</string>
@@ -1626,6 +1638,8 @@
 	<string key="ui_chat_mention_self_markup">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font" color="#FFFFFF"&gt;@{name}&lt;/font&gt;</string>
 	<string key="ui_and">und</string>
 	<string key="ui_or">oder</string>
+	<string key="ui_for">für</string>
+	<string key="ui_question_mark">?</string>
 	<string key="ui_tooltip_ingredient_type">Typ:</string>
 	<string key="ui_tooltip_ingredient_types">Typen:</string>
 	<string key="ui_tooltip_perks_info_text_armor_singular">Montiere dies am Edelsteinsockel einer Rüstung, um den folgenden Effekt zu erhalten:</string>
@@ -1701,6 +1715,7 @@
 	<string key="ui_war_declare_fail_noConflictState">Kriegserklärung nicht möglich, da deine Fraktion noch nicht genug Einfluss hat, um einen Krieg zu beginnen.</string>
 	<string key="ui_war_declare_fail_warDisabled">Aufgrund einer laufenden Weltenzusammenführung wurde der Krieg deaktiviert.</string>
 	<string key="ui_war_declare_fail_InsufficientContribution">Kriegserklärung nicht möglich, da deine Kompanie nicht genügend Einfluss beigesteuert hat.</string>
+	<string key="ui_war_declare_fail_TooFewGuildMembers">Kriegserklärung nicht möglich, da deine Kompanie mindestens {num} Mitglieder benötigt.</string>
 	<string key="ui_online_friends">Online-Freunde</string>
 	<string key="ui_any_moment">Jeden Moment ist es soweit …</string>
 	<string key="ui_current_location">Hier</string>
@@ -1711,6 +1726,7 @@
 	<string key="ui_transfertooltip">Du kannst Gegenstände in andere oder aus anderen Gebieten übertragen, die deine Fraktion kontrolliert.</string>
 	<string key="ui_transfertoandfromtooltip">Du kannst am aktuellen Standort Gegenstände vom und zum Lagerschuppen übertragen.</string>
 	<string key="ui_transfertoandfromrfitooltip">Du kannst Gegenstände vom und zum Lagerschuppen in bereits besuchten Siedlungen übertragen.</string>
+	<string key="ui_transferfromtooltip_inaccessible">Du kannst Gegenstände aus unzugänglichen Siedlungen nur entnehmen.\nDu kannst Gegenstände nicht in unzugänglichen Siedlungen lagern.</string>
 	<string key="ui_transferfromtooltip">Gegen eine Gebühr kannst du Gegenstände aus Lagerschuppen anderer Gebiete, die deine Fraktion kontrolliert, in dein Inventar übertragen.</string>
 	<string key="ui_remotetransfersingletitle">Gegenstand transferieren</string>
 	<string key="ui_remotetransfersinglebody">Möchtest du diesen Gegenstand aus {territoryName} in dein Inventar übertragen?\nDas kostet dich {amount} &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;.</string>
@@ -1744,8 +1760,10 @@
 	<string key="ui_autocompletethrottled">Autom. Fertigstellung gedrosselt.</string>
 	<string key="ui_searchitem">Suchen</string>
 	<string key="ui_searchresult">Suchergebnis</string>
+	<string key="ui_search_all_items">Suche alle Gegenstände</string>
 	<string key="ui_searchtimedout">Zeitüberschreitung bei der Suche. Versuche es bitte erneut.</string>
 	<string key="ui_searchthrottled">Suche wurde abgebrochen. Versuche es bitte erneut.</string>
+	<string key="ui_sort_colon">Sortieren:</string>
 	<string key="ui_server_refresh_throttle_hint">Bitte warten</string>
 	<string key="ui_unstuck_request_denied_on_cooldown">Nächste Anfrage erst in %d Sekunden möglich.</string>
 	<string key="ui_unstuck_request_denied_player_dead">Du bist gestorben. Anfrage nicht möglich.</string>
@@ -1809,15 +1827,17 @@
 	<string key="ui_leaderboard" rel_version="Feature_Leaderboards">Bestenliste</string>
 	<string key="ui_mapmenu_dayleaderboard" rel_version="Feature_Leaderboards">TAG</string>
 	<string key="ui_mapmenu_seasonleaderboard" rel_version="Feature_Leaderboards">SAISON</string>
-	<string key="ui_mapmenu_companiesatwar">KRIEGE</string>
+	<string key="ui_mapmenu_companiesatwar">KONFLIKTE</string>
 	<string key="ui_mapmenu_resourcelocations">ROHSTOFFE</string>
-	<string key="ui_mapmenu_activewars">KRIEGE</string>
-	<string key="ui_mapmenu_noactivewars">Derzeit gibt es in dieser Welt keinen bevorstehenden Krieg.</string>
+	<string key="ui_mapmenu_activewars">KONFLIKTE</string>
+	<string key="ui_mapmenu_noactivewars">Derzeit gibt es in dieser Welt keine bevorstehenden Konflikte.</string>
 	<string key="ui_mapmenu_warhasended">Krieg beendet.</string>
-	<string key="ui_mapmenu_oneactivewar">Du bist in &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt;&lt;/font&gt; bevorstehendem Krieg.</string>
-	<string key="ui_mapmenu_numactivewars">Du bist in &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numWars}&lt;/font&gt;&lt;/font&gt; bevorstehenden Kriegen.</string>
-	<string key="ui_activewars_oneactivewar">In dieser Welt steht &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt;&lt;/font&gt; Krieg bevor.</string>
-	<string key="ui_activewars_numactivewars">In dieser Welt stehen &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numWars}&lt;/font&gt;&lt;/font&gt; Kriege bevor.</string>
+	<string key="ui_mapmenu_oneactivewar">Du bist in &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt;&lt;/font&gt; bevorstehendem Konflikt verwickelt.</string>
+	<string key="ui_mapmenu_numactivewars">Du bist in &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numWars}&lt;/font&gt;&lt;/font&gt; bevorstehenden Konflikten verwickelt.</string>
+	<string key="ui_activewars_oneactivewar">In dieser Welt steht &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt;&lt;/font&gt; Konflikt bevor.</string>
+	<string key="ui_activewars_numactivewars">In dieser Welt stehen &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numWars}&lt;/font&gt;&lt;/font&gt; Konflikte bevor.</string>
+	<string key="ui_mapmenu_filter_wars">Kriege</string>
+	<string key="ui_mapmenu_filter_invasions">Invasionen</string>
 	<string key="ui_mapmenu_attacker">ANGREIFER</string>
 	<string key="ui_mapmenu_defender">VERTEIDIGER</string>
 	<string key="ui_mapmenu_versusabbreviation" comment="The abbreviated version of versus as in Alpha Company VS Bravo Company">GEGEN</string>
@@ -1861,18 +1881,23 @@
 	<string key="ui_exit_dungeon_title">Expedition verlassen?</string>
 	<string key="ui_exit_dungeon_title_solo">Seelenprüfung verlassen?</string>
 	<string key="ui_exit_dungeon_title_raidtrial">Eliteprüfung verlassen?</string>
+	<string key="ui_exit_dungeon_title_seasontrial" rel_version="Season_2_Trial">Saisonprüfung verlassen?</string>
 	<string key="ui_dungeon_exit">Expeditionausgangsportal</string>
 	<string key="ui_dungeon_exit_solo">Seelenprüfung verlassen</string>
 	<string key="ui_dungeon_exit_raidtrial">Eliteprüfung – Ausgangsportal</string>
+	<string key="ui_dungeon_exit_seasontrial" rel_version="Season_2_Trial">Saisonprüfungsausgangsportal</string>
 	<string key="ui_exit_dungeon_desc">Du wirst aus der Expedition herausteleportiert.\nDu kannst sie erneut betreten, bis sie geschlossen wird.</string>
 	<string key="ui_exit_dungeon_desc_solo">Du wirst aus der Seelenprüfung herausteleportiert.\nDu kannst sie erneut betreten, bis sie geschlossen wird.</string>
 	<string key="ui_exit_dungeon_desc_raidtrial">Du wirst aus der Eliteprüfung herausteleportiert.\nDu kannst sie erneut betreten, bis sie geschlossen wird.</string>
+	<string key="ui_exit_dungeon_desc_seasontrial" rel_version="Season_2_Trial">Du wirst aus der Saisonprüfung herausteleportiert.\nDu kannst sie erneut betreten, bis sie geschlossen wird.</string>
 	<string key="ui_exit_dungeon_will_close_desc">Du wirst aus der Expedition herausteleportiert.\nHat deine gesamte Gruppe die Expedition verlassen, wird sie geschlossen.</string>
 	<string key="ui_exit_dungeon_will_close_desc_solo">Du wirst aus der Seelenprüfung herausteleportiert und sie wird geschlossen.</string>
 	<string key="ui_exit_dungeon_will_close_desc_raidtrial">Du wirst aus der Eliteprüfung herausteleportiert und sie wird geschlossen.</string>
-	<string key="ui_exit_dungeon_incombat">Wenn du einen Kampf gerade erst beendet hast, kannst du eine Expedition nicht verlassen. \nVerlassen möglich in &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
-	<string key="ui_exit_dungeon_incombat_solo">Wenn du einen Kampf gerade erst beendet hast, kannst du eine Seelenprüfung nicht verlassen. \nVerlassen möglich in &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
-	<string key="ui_exit_dungeon_incombat_raidtrial">Wenn du einen Kampf gerade erst beendet hast, kannst du eine Eliteprüfung nicht verlassen. \nVerlassen möglich in &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
+	<string key="ui_exit_dungeon_will_close_desc_seasontrial" rel_version="Season_2_Trial">Du wirst aus der Saisonprüfung herausteleportiert und sie wird geschlossen.</string>
+	<string key="ui_exit_dungeon_incombat">Wenn du einen Kampf gerade erst beendet hast, kannst du die Expedition nicht verlassen. \nVerlassen möglich in &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
+	<string key="ui_exit_dungeon_incombat_solo">Wenn du einen Kampf gerade erst beendet hast, kannst du die Seelenprüfung nicht verlassen. \nVerlassen möglich in &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
+	<string key="ui_exit_dungeon_incombat_raidtrial">Wenn du einen Kampf gerade erst beendet hast, kannst du die Eliteprüfung nicht verlassen. \nVerlassen möglich in &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
+	<string key="ui_exit_dungeon_incombat_seasontrial" rel_version="Season_2_Trial">Wenn du einen Kampf gerade erst beendet hast, kannst du die Saisonprüfung nicht verlassen. \nVerlassen möglich in &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
 	<string key="ui_enable_newDamageNumbers">Schwebende Schadenszahlen</string>
 	<string key="ui_enable_newDamageNumbers_description">Wenn aus, werden die Schadenszahlen an die Gesundheitsanzeige des Gegners angehängt.</string>
 	<string key="ui_accept_duel_invites">Duelleinladungen zulassen</string>
@@ -1928,7 +1953,7 @@
 	<string key="ui_has_resources">Hat Rohstoffe</string>
 	<string key="ui_deadnotification_title">DU BIST GESTORBEN.</string>
 	<string key="ui_deadnotification_body">Du musst erst respawnen, bevor du auf diese Nachricht antworten kannst.</string>
-	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;GESUNDHEIT&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nWiedergewinnung von &lt;font color={highlightColor}&gt;Gesundheit.&lt;/font&gt;\n- Trinke Tinkturen, um dich schnell zu heilen.\n- Iss etwas, um nach einem kurzfristigen Anstieg weitere Gesundheit nach und nach zurückzugewinnen.\n\nRüste deine &lt;font color={highlightColor}&gt;Konstitution&lt;/font&gt; auf, um deine maximale &lt;font color={highlightColor}&gt;Gesundheit&lt;/font&gt; zu erhöhen.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; bedeutet, dass der Spieler sich gerade im Kampf befindet. \nEinige Spielerverwaltungsaktionen sind bei aktivem Kampf gesperrt. Schließe eine Begegnung ab oder vermeide 20 Sekunden lang Kämpfe, um den Status zu verlassen.</string>
+	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;GESUNDHEIT&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nWiedergewinnung von &lt;font color={highlightColor}&gt;Gesundheit.&lt;/font&gt;\n- Trinke Tinkturen, um dich schnell zu heilen.\n- Iss etwas, um nach einem kurzfristigen Anstieg weitere Gesundheit nach und nach zurückzugewinnen.\n\nRüste deine &lt;font color={highlightColor}&gt;Konstitution&lt;/font&gt; auf, um deine maximale &lt;font color={highlightColor}&gt;Gesundheit&lt;/font&gt; zu erhöhen.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; bedeutet, dass der Spieler sich gerade im Kampf befindet. \nEinige Spielerverwaltungsaktionen sind bei aktivem Kampf gesperrt. Schließe eine Begegnung ab oder vermeide 10 Sekunden lang Kämpfe, um den Status zu verlassen.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;AUSDAUER&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nDefensive Aktionen wie Blocken oder Ausweichen verbrauchen deine &lt;font color={highlightColor}&gt;Ausdauer&lt;/font&gt;. Wenn du keine Ausdauer mehr hast, kannst du möglicherweise nicht mehr effektiv agieren.\n\n&lt;font color={highlightColor}&gt;Ausdauer&lt;/font&gt; füllt sich nach und nach wieder auf, wenn du weder sprintest noch angreifst.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;MANA&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nEin geheimnisvoller Rohstoff, der zur Verwendung von Magie benötigt wird. Wenn dieser Wert niedrig ist, kannst du möglicherweise bestimmte übernatürliche Kräfte nicht mehr einsetzen.\n\n&lt;font color={highlightColor}&gt;Mana&lt;/font&gt; füllt sich nach und nach wieder auf.</string>
 	<string key="ui_vitals_mana_rate_tooltip">Mana füllt sich nach und nach wieder auf.\n\nStandardrate ist 1,5 Mana pro Sekunde.</string>
@@ -2046,17 +2071,17 @@
 	<string key="ui_camping_tooltip_tier_5">Zeltlager (Rang 5)\n\nDie Errichtung eines Rang-5-Zeltlagers ermöglicht dir die Herstellung verschiedener Rang-5-Gegenstände, die Heilung deines Charakters und das Respawnen im Zeltlager.</string>
 	<string key="ui_campskins" rel_version="Feature_Camp_Skins">Zeltlager-Skins</string>
 	<string key="ui_campskin" rel_version="Feature_Camp_Skins">Zeltlager-Skin</string>
-	<string key="ui_campskin_applied_hint" rel_version="Feature_Camp_Skins">Skin wird auf dein nächstes Zeltlager angewendet.</string>
+	<string key="ui_campskin_applied_hint" rel_version="Feature_Camp_Skins">Wird beim nächsten Zeltlagerbau übernommen.</string>
 	<string key="ui_all_level_milestones">Alle Stufenbelohnungen</string>
 	<string key="ui_unlock_token_slot">&lt;font color="#FFFFFF" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ohrringplatz&lt;/font&gt;</string>
-	<string key="ui_unlock_ring_slot">Ring-Slot</string>
-	<string key="ui_unlock_second_weapon_slot">Zweitwaffen-Slot</string>
-	<string key="ui_unlock_third_weapon_slot">Drittwaffen-Slot</string>
-	<string key="ui_unlock_second_quick_slot">Zweiter Schnellleisten-Slot</string>
-	<string key="ui_unlock_third_quick_slot">Dritter Schnellleisten-Slot</string>
-	<string key="ui_unlock_fourth_quick_slot">Vierter Schnellleisten-Slot</string>
-	<string key="ui_unlock_second_bag_slot">Zweiter Taschen-Slot</string>
-	<string key="ui_unlock_third_bag_slot">Dritter Taschen-Slot</string>
+	<string key="ui_unlock_ring_slot">Ringplatz</string>
+	<string key="ui_unlock_second_weapon_slot">Zweitwaffenplatz</string>
+	<string key="ui_unlock_third_weapon_slot">Drittwaffenplatz</string>
+	<string key="ui_unlock_second_quick_slot">Zweiter Schnellleistenplatz</string>
+	<string key="ui_unlock_third_quick_slot">Dritter Schnellleistenplatz</string>
+	<string key="ui_unlock_fourth_quick_slot">Vierter Schnellleistenplatz</string>
+	<string key="ui_unlock_second_bag_slot">Zweiter Taschenplatz</string>
+	<string key="ui_unlock_third_bag_slot">Dritter Taschenplatz</string>
 	<string key="ui_unlock_pvp_flagging">PvP-Markierung</string>
 	<string key="ui_current_level">Aktuelle Stufe</string>
 	<string key="ui_current_gear_score">Aktueller Rüstwert</string>
@@ -2064,7 +2089,7 @@
 	<string key="ui_unlocked">FREIGESCHALTET</string>
 	<string key="ui_attribute_scale">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{name}&lt;/font&gt;\nSchaden skaliert mit {attribute}</string>
 	<string key="ui_weapon_damage">Schaden</string>
-	<string key="ui_shield_disabled">Schildwerte und -effekte werden nur angewendet, wenn du ein Schwert ausgerüstet und gezogen hast.\n\nBenutzt du kein Schwert, kannst du den Schild ablegen, um dein Ausrüstungsgewicht zu verringern.</string>
+	<string key="ui_shield_disabled">Schildwerte und -effekte werden nur angewendet, wenn du ein Schwert oder einen Flegel ausgerüstet und gezogen hast.\n\nBenutzt du weder Schwert noch Flegel, kannst du den Schild ablegen, um dein Ausrüstungsgewicht zu verringern.</string>
 	<string key="ui_unspent">verfügbar</string>
 	<string key="ui_damage_scale_from">Schaden skaliert mit</string>
 	<string key="ui_scales_with">Skaliert mit</string>
@@ -2081,14 +2106,14 @@
 	<string key="ui_from_intelligence_and_focus">Intelligenz und Konzentration</string>
 	<string key="ui_from_focus_and_intelligence">Konzentration und Intelligenz</string>
 	<string key="ui_abilities">Fähigkeiten</string>
-	<string key="ui_ability_available" comment="tooltip message when a weapon mastery node is available to buy">Klicken, um Fähigkeit auszuwählen</string>
-	<string key="ui_ability_unavailable_nopoints" comment="tooltip message for a weapon mastery node that can't be purchased due to lack of points">Keine Punkte verfügbar</string>
-	<string key="ui_ability_unavailable_noparent" comment="tooltip message when a weapon mastery node is not currently available to buy but doesn't have a specific requirement">Kaufe zum Freischalten eine Fähigkeit des vorigen Zweigs</string>
-	<string key="ui_ability_unavailable_parent" comment="tooltip message when a weapon mastery node is not currently available to buy and has a specific requirement, {parent}">Kaufe zum Freischalten eine Fähigkeit des vorigen Zweigs und {parent}</string>
-	<string key="ui_ability_unavailable_parent_firstrow" comment="tooltip message when a weapon mastery node is on the first row but still not currently available to buy and has a specific requirement, {parent}">Kaufe zum Freischalten {parent}</string>
-	<string key="ui_ability_unavailable_noparent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy but doesn't have a specific requirement">Kaufe zum Freischalten eine Fähigkeit des vorigen Zweigs und 10 von diesem Baum</string>
-	<string key="ui_ability_unavailable_parent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy and has a specific requirement, {parent}">Kaufe zum Freischalten eine Fähigkeit des vorigen Zweigs und 10 von diesem Baum sowie {parent}</string>
-	<string key="ui_ability_selected" comment="tooltip message when a weapon mastery node has been selected but not committed to">Ausgewählt. Zur Verwendung Auswahl bestätigen</string>
+	<string key="ui_ability_available" comment="tooltip message when a weapon mastery node is available to buy">Auswählen und Punkte zuweisen zum Freischalten.</string>
+	<string key="ui_ability_unavailable_nopoints" comment="tooltip message for a weapon mastery node that can't be purchased due to lack of points">Keine Punkte verfügbar.</string>
+	<string key="ui_ability_unavailable_noparent" comment="tooltip message when a weapon mastery node is not currently available to buy but doesn't have a specific requirement">Erfordert die Freischaltung einer Fertigkeit in der vorherigen Ebene des Fertigkeitenbaums.</string>
+	<string key="ui_ability_unavailable_parent" comment="tooltip message when a weapon mastery node is not currently available to buy and has a specific requirement, {parent}">Erfordert die Freischaltung einer Fertigkeit in der vorherigen Ebene des Fertigkeitenbaums und von {parent}.</string>
+	<string key="ui_ability_unavailable_parent_firstrow" comment="tooltip message when a weapon mastery node is on the first row but still not currently available to buy and has a specific requirement, {parent}">Erfordert {parent}.</string>
+	<string key="ui_ability_unavailable_noparent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy but doesn't have a specific requirement">Erfordert die Freischaltung einer Fertigkeit in der vorherigen Ebene und 10 freigeschaltete Fertigkeiten in diesem Fertigkeitenbaum.</string>
+	<string key="ui_ability_unavailable_parent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy and has a specific requirement, {parent}">Erfordert {parent}, die Freischaltung einer Fertigkeit in der vorherigen Ebene und 10 freigeschaltete Fertigkeiten in diesem Fertigkeitenbaum.</string>
+	<string key="ui_ability_selected" comment="tooltip message when a weapon mastery node has been selected but not committed to">Zum Freischalten Punkte zuweisen.</string>
 	<string key="ui_weapon_mastery">Waffenführung</string>
 	<string key="ui_weapon_mastered">Waffenbeherrschung</string>
 	<string key="ui_tradeskill_mastered">Fähigkeit gemeistert</string>
@@ -2278,7 +2303,7 @@
 	<string key="ui_quest_ready">Abgabebereite\nAufgabe</string>
 	<string key="ui_pin_objective">Ziel anheften</string>
 	<string key="ui_unpin_objective">Ziel loslösen</string>
-	<string key="ui_view_journal">Im Tagebuch ansehen</string>
+	<string key="ui_view_journal">Tagebuch</string>
 	<string key="ui_pin_objective_message">Das Ziel wurde angeheftet.</string>
 	<string key="ui_unpin_objective_message">Das Ziel ist nicht mehr angeheftet.</string>
 	<string key="ui_territorymanagebuilding">Das Gebiet wird von diesem Gebäude aus verwaltet.</string>
@@ -2402,9 +2427,9 @@
 	<string key="twitch_prime_gaming">Prime Gaming</string>
 	<string key="twitch_prime_gaming_desc">Wenn du dein Konto mit Prime Gaming verknüpfst, hast du die Möglichkeit, jeden Monat exklusive Spielinhalte und andere besondere Belohnungen für New World zu erhalten.</string>
 	<string key="go_crow">Nutze Crow</string>
-	<string key="go_crow_desc">Ein KI-gesteuertes Set aus Multi-CPU-Headless-Clients, die mithilfe von Zuschauerkameras Livevideos von Ereignissen innerhalb von New World aufzeichnen und sie auf dem offiziellen New-World-Kanal von Twitch und dem Spielclient ausstrahlen.</string>
+	<string key="go_crow_desc">Ein KI-gesteuertes Set aus Multi-CPU-Headless-Clients, die mithilfe von Zuschauerkameras Livevideos von Ereignissen innerhalb von New World aufzeichnen und sie auf dem offiziellen New World-Kanal von Twitch und dem Spielclient ausstrahlen.</string>
 	<string key="battle_arena">Kampfarena</string>
-	<string key="battle_arena_desc">Instanzbasiertes Orientierungspunkt-Kolosseum für PvP- und PvE-Kämpfe mit dedizierten Headless-CPU-Zuschauerkameras, die die 100 besten Kämpfer auf dem offiziellen New-World-Kanal von Twitch und dem Spielclient zeigen.</string>
+	<string key="battle_arena_desc">Instanzbasiertes Orientierungspunkt-Kolosseum für PvP- und PvE-Kämpfe mit dedizierten Headless-CPU-Zuschauerkameras, die die 100 besten Kämpfer auf dem offiziellen New World-Kanal von Twitch und dem Spielclient zeigen.</string>
 	<string key="browser_twitch">Du wirst zu einem Webbrowser weitergeleitet, um dich bei Twitch anzumelden und dein Konto zu verknüpfen.</string>
 	<string key="twitch_account_linked">Twitch-Konto verknüpft</string>
 	<string key="twitch_account_linked_desc">Dein Twitch-Konto wurde erfolgreich mit Amazon Games verbunden.</string>
@@ -2523,6 +2548,7 @@
 	<string key="ui_itemtooltiptitle_heartgem_rune_cannon_blast" rel_version="Feature_Heartgems">Kanonenschuss</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_bile_bomb" rel_version="Feature_Heartgems_BileBomb">Gallenbombe</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_fire_storm" rel_version="Feature_Heartgems_FireStorm">Feuersturm</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_sand_worm" rel_version="Feature_Heartgems_Sandworm">Der Verzehrer</string>
 	<string key="ui_cannot_perform_action_at_this_time">Diese Aktion kannst du gerade nicht durchführen.</string>
 	<string key="ui_cannot_use_shield_abilities">Kein Schild ausgerüstet</string>
 	<string key="ui_tooltip_effect_duration">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#FFFFFF"&gt;{value}&lt;/font&gt; Effektdauer</string>
@@ -2656,6 +2682,7 @@
 	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">Winter-Zusammenkunft 2021</string>
 	<string key="attribution_WinterConvergence_2022" rel_version="Event_WinterConvergence_Perm">Winter-Zusammenkunft 2022</string>
 	<string key="attribution_SummerMedleyfaire_2022" rel_version="Event_Summer_Perm">Sommer-Medleyfaire 2022</string>
+	<string key="attribution_SummerMedleyfaire_2023" rel_version="Event_Summer_Perm">Sommer-Medleyfaire 2023</string>
 	<string key="attribution_NightveilHallow_2022" rel_version="Event_Halloween_Perm">Nachtschleierzeit 2022</string>
 	<string key="attribution_Housing_SettlerSet_2021" comment="Housing Furniture Set" rel_version="Housing_Settler_Set">Möbel: Aeternum-Siedler</string>
 	<string key="attribution_Housing_PirateSet_2021" comment="Housing Furniture Set" rel_version="Housing_Pirate_Set">Möbel: Brackwasser</string>
@@ -2663,6 +2690,7 @@
 	<string key="attribution_Housing_LegionSet_2022" comment="Housing Furniture Set" rel_version="Housing_Legion_Set">Möbel: Schwefelsand</string>
 	<string key="attribution_TurkeyTerror_2022" rel_version="Event_TurkeyTerror_Perm">Truthahnterror 2022</string>
 	<string key="attribution_Season_1" rel_version="Season_1_Perm">Saison 1</string>
+	<string key="attribution_Season_2" rel_version="Season_2_Perm">Saison 2</string>
 	<string key="ui_reset_daily_time">Wird täglich um {time} zurückgesetzt</string>
 	<string key="ui_reset_weekly_time">Wird wöchentlich um {time} zurückgesetzt</string>
 	<string key="ui_buy_new_world">New World kaufen</string>
@@ -2670,9 +2698,33 @@
 	<string key="ui_probation_account_restriction">Diese Funktion ist nur in der Kaufversion von New World verfügbar.</string>
 	<string key="ui_item_skinning_disabled">Gegenstands-Skins deaktiviert</string>
 	<string key="ui_camp_skins_disabled">Zeltlager-Skins deaktiviert</string>
+	<string key="ui_fast_travel_points">Schnellreisepunkte</string>
+	<string key="ui_forts">Forts</string>
+	<string key="ui_settlements">Siedlungen</string>
+	<string key="ui_stations">Standorte in Siedlungen</string>
+	<string key="ui_tradeskill_tracking">Rohstoffsuche in der Nähe</string>
 	<string key="attribution_SpringtideBloom_2023" rel_version="Event_SpringtideBloom_Perm">Frühlingsblüte 2023</string>
 	<string key="ui_event_reputation_title">Ereignis-Ansehen</string>
 	<string key="ui_event_reputation_description">Durch Ereignis-Ansehen werden neue Gegenstände im Ereignis-Laden freigeschaltet.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Quelle:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Ereignis-Missionen abschließen&lt;/font&gt;</string>
 	<string key="attribution_RabbitSeason_2023" rel_version="Feature_RabbitSeasonPerm">Die Rache des Kaninchens 2023</string>
+	<string key="ui_transmog_error_inventory_not_ready">Transmog fehlgeschlagen: Inventardienst nicht bereit.</string>
+	<string key="ui_transmog_error_service_server_error">Transmog fehlgeschlagen: Dienst-Fehler.</string>
+	<string key="ui_transmog_error_service_throttled">Transmog fehlgeschlagen: Der Server ist ausgelastet. Versuche es bitte später erneut.</string>
+	<string key="ui_transmog_error_service_invalid_request">Transmog fehlgeschlagen: Ungültige Anfrage.</string>
+	<string key="ui_transmog_error_skin_not_unlocked">Transmog fehlgeschlagen: Skin ist nicht freigeschaltet.</string>
+	<string key="ui_transmog_error_no_item_equipped">Transmog fehlgeschlagen: Platz ist leer.</string>
+	<string key="ui_transmog_error_mismatch_item_class">Transmog fehlgeschlagen: Skin kann nur an passenden Typen ausgerüstet werden.</string>
+	<string key="ui_transmog_error_generic">Transmog-Fehler</string>
+	<string key="ui_transmog_npc_name">Zauberweber</string>
+	<string key="ui_transmog_npc_tooltip">Erstelle Skins aus Gegenständen, die du durch den Einsatz von &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; Transmog-Marken gesammelt hast.</string>
+	<string key="ui_unclaimed_seasons_rewards">Unbeanspruchte Saisonbelohnungen</string>
+	<string key="generic_list_2">{item1} und {item2}</string>
+	<string key="generic_list_3">{item1}, {item2} und {item3}</string>
+	<string key="generic_list_4">{item1}, {item2}, {item3} und {item4}</string>
+	<string key="generic_list_5">{item1}, {item2}, {item3}, {item4} und {item5}</string>
+	<string key="generic_list_6">{item1}, {item2}, {item3}, {item4}, {item5} und {item6}</string>
+	<string key="ui_equipment_combat_view_button">Kampfausrüstung ansehen</string>
+	<string key="ui_equipment_tools_view_button">Werkzeuge, Taschen und Musikinstrumente ansehen</string>
+	<string key="views_tutorial">Gehe in die Werkzeugansicht, um auf Werkzeuge, Taschen und Instrumente zuzugreifen.</string>
 </resources>
 

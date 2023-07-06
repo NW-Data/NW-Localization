@@ -100,8 +100,8 @@
 	<string key="ui_guildranknameinusemessage">Dieser Rangname existiert schon.</string>
 	<string key="ui_guildoverviewtab">Überblick</string>
 	<string key="ui_guildoverviewtabsubtitle">Nachricht des Tages lesen</string>
-	<string key="ui_guildwarstab">Aktive Kriege</string>
-	<string key="ui_guildwarstabsubtitle">Gegner ansehen</string>
+	<string key="ui_guildwarstab">Aktive Konflikte</string>
+	<string key="ui_guildwarstabsubtitle">Aktive Konflikte ansehen</string>
 	<string key="ui_guildrankstab">Ränge</string>
 	<string key="ui_guildrostertab">Mitglieder</string>
 	<string key="ui_guildsiegetab">Belagerungszeitfenster</string>
@@ -183,6 +183,8 @@
 	<string key="ui_guildCannotInviteNoPrivilege">Du kannst keine Kompanieeinladung senden. Rang zu niedrig.</string>
 	<string key="ui_guildCannotInviteNoFaction">Du kannst keine Kompanieeinladung senden. Nicht in einer Fraktion.</string>
 	<string key="ui_guildcannotpromote_nofaction" rel_version="Feature_Unfactioned_Company_Members">Kann nicht zum Gouverneur befördert werden. Nicht in einer Fraktion.</string>
+	<string key="ui_guild_blocked_on_this_world" rel_version="Feature_Cross_World_Social">Die Aktion kannst du auf dieser Welt nicht durchführen.</string>
+	<string key="ui_guild_cannot_invite_player_from_other_world" rel_version="Feature_Cross_World_Social">Es kann kein Spieler aus einer anderen Welt eingeladen werden.</string>
 	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Siedler</string>
 	<string key="ui_guildranksettler_SHE">Siedlerin</string>
 	<string key="ui_guildranksettler_THEY">Siedler*in</string>
@@ -381,7 +383,7 @@
 	<string key="ui_otherguildstitle">Welt</string>
 	<string key="ui_otherguildssubtitle">In {worldName}</string>
 	<string key="ui_guildsinworld">{number} in {worldName}</string>
-	<string key="ui_warstitle">Kriege</string>
+	<string key="ui_warstitle">Konflikte</string>
 	<string key="ui_otherguilds_memberslabel">Mitglieder</string>
 	<string key="ui_otherguilds_claimslabel">Ansprüche</string>
 	<string key="ui_otherguilds_claimslabelsingular">Gebietsanspruch</string>
@@ -455,6 +457,7 @@
 	<string key="ui_trade_failure_global_storage_wrong_faction">Zum Abheben müssen beide Gebiete zu deiner Fraktion gehören und deren Gebietsunterhaltungskosten müssen beglichen worden sein.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Gegenstände kannst du nur in dem Lagerschuppen an deinem derzeitigen Standort deponieren.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit_rfi">Du kannst Gegenstände nur zum Lagerschuppen in bereits besuchten Siedlungen übertragen.</string>
+	<string key="ui_trade_failure_global_storage_settlement_inaccessible">Du kannst Gegenstände nicht in unzugänglichen Siedlungen lagern.</string>
 	<string key="ui_guildclaimsowned">Ansprüche</string>
 	<string key="ui_guildoneclaimowned">Beanspruchen</string>
 	<string key="ui_acceptguildinvitepopuptitle">Neuer Kompanie beitreten?</string>
@@ -623,7 +626,7 @@
 	<string key="ui_no_faction" comment="text to show when a faction name would be present but the player isn't in one">Fraktionslos</string>
 	<string key="ui_wartime">Kriegszeit</string>
 	<string key="ui_location">Ort</string>
-	<string key="ui_how_does_war_work">Wie funktioniert ein Krieg?</string>
+	<string key="ui_how_does_war_work">So funktioniert Krieg</string>
 	<string key="ui_how_does_invasion_work">Wie funktioniert eine Invasion?</string>
 	<string key="ui_signup_restriction_tooltip">Du kannst dich nicht als Gegner deiner Fraktion eintragen.</string>
 	<string key="ui_signup_nofaction_tooltip">Du musst einer Fraktion angehören, um dich für einen Krieg anzumelden.</string>
@@ -654,10 +657,11 @@
 	<string key="ui_how_war_works">Kriegstutorial</string>
 	<string key="ui_how_invasion_works">Invasionstutorial</string>
 	<string key="ui_tutorial_level_requirement">&lt;font color="#ffe294"&gt;Spielerstufe {level}&lt;/font&gt; ist für die Teilnahme an einer Invasion erforderlich.</string>
-	<string key="ui_raid_time_remaining">Noch &lt;font color="#bababa"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_raid_time_remaining">&lt;font color="#bababa"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_current_time">Aktuelle Zeit: &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time}&lt;/font&gt;</string>
 	<string key="ui_manage_army">Armee verwalten</string>
 	<string key="ui_invitation_time">Einladungen werden um\n&lt;font color="#ffdd85"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt; versendet.</string>
+	<string key="ui_warinvitation_time">Einladung wird versendet in</string>
 	<string key="ui_normal">Normal</string>
 	<string key="ui_high">Hoch</string>
 	<string key="ui_highest">Am höchsten</string>

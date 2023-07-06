@@ -114,7 +114,7 @@
 	<string key="ui_town_project_started">Projekt rozpoczęty!</string>
 	<string key="ui_project_started_info">Nad tym projektem miasteczka mogą od teraz pracować wszyscy w mieście.\nZapoznaj się ze szczegółami przy &lt;font color='#e1ae3f'&gt;tablicy projektów miasteczka&lt;/font&gt; w centrum miasteczka!</string>
 	<string key="ui_territory_planning_board">Tablica planowania terytorialnego</string>
-	<string key="ui_territory_planning_board_desc">Możesz tu ulepszyć stanowiska rzemieślnicze i stanowiska przetwarzania, wieżyczki oraz bramy fortu.</string>
+	<string key="ui_territory_planning_board_desc">Możesz tu ulepszyć stanowiska do wytwarzania i przetwarzania, wieżyczki oraz bramy fortu.</string>
 	<string key="ui_trading_tax">Podatek\nhandlowy</string>
 	<string key="ui_crafting_fee">Opłata za\nwytwarzanie</string>
 	<string key="ui_refining_fee">Opłata za\nprzetwarzanie</string>
@@ -158,7 +158,7 @@
 	<string key="ui_refining_fee_description">Przetwarzanie surowców na tym terytorium podlega opłacie za każdy surowiec</string>
 	<string key="ui_edit">Zmień</string>
 	<string key="ui_can_edit_in_time">Można zmienić za: {time}</string>
-	<string key="ui_can_pay_in_time">ZAPŁATA MOŻLIWA ZA &lt;font color='#d7d7d7'&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_can_pay_in_time">Następna opłata: {time}</string>
 	<string key="ui_units_units">Jednostki: {units}</string>
 	<string key="ui_kill">Zabij</string>
 	<string key="ui_courier">Kurier</string>
@@ -217,10 +217,12 @@
 	<string key="ui_fortressinfo_siegewindow">Okres oblężenia</string>
 	<string key="ui_fortressinfo_governedby">Zarządca</string>
 	<string key="ui_fortressinfo_controlledby">Pod kontrolą</string>
-	<string key="ui_fortressinfo_notclaimed">Ta forteca nie została przez nikogo przejęta.</string>
-	<string key="ui_territoryinfo_notclaimed">To terytorium nie zostało przez nikogo przejęte.</string>
+	<string key="ui_fortressinfo_notclaimed">Forteca nie jest przejęta.</string>
+	<string key="ui_territoryinfo_notclaimed">Terytorium nie jest przejęte.</string>
 	<string key="ui_territoryinfo_notclaimable">Tego terytorium nie da się przejąć.</string>
-	<string key="ui_settlementinfo_notclaimed">Ta osada nie została przez nikogo przejęta.</string>
+	<string key="ui_settlementinfo_notclaimed">Osada nie jest przejęta.</string>
+	<string key="ui_territoryinfo_unenterable">Niedostępne</string>
+	<string key="ui_territoryinfo_unenterabledescription">Nikt nie może wejść na to terytorium.</string>
 	<string key="ui_fortressinfo_upcomingbattlelabel">Zbliżająca się bitwa</string>
 	<string key="ui_fortressinfo_ongoingbattlelabel">Trwająca bitwa</string>
 	<string key="ui_fortressinfo_noupcomingbattle">Brak zbliżających się bitew.</string>
@@ -242,16 +244,16 @@
 	<string key="ui_fortressinfo_invasionattackername">Skażeni</string>
 	<string key="ui_fortressinfo_timetodeclare">Czas na wypowiedzenie wojny:</string>
 	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Pauza (Inwazja)</string>
-	<string key="ui_fortressinfo_conflictdescription">Dopóki wojna się nie zakończy, nie będzie można &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;zdobywać wpływów&lt;/font&gt; na tym terytorium. (Pozostałe nagrody za misje frakcyjne, jak na przykład PD czy monety, wciąż są dostępne).\n\nJeśli wojnę wypowie wiele kompanii, które zdobyły wpływy, spośród nich zostanie wybrana jedna losowa.</string>
+	<string key="ui_fortressinfo_conflictdescription">Dopóki wojna się nie zakończy, nie będzie można &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;zdobywać wpływów&lt;/font&gt; na tym terytorium (pozostałe nagrody za misje frakcyjne, jak na przykład PD czy monety, wciąż są dostępne).\n\nJeśli wojnę wypowie wiele kompanii, które zdobyły wpływy, spośród nich zostanie wybrana jedna losowa.</string>
 	<string key="ui_fortressinfo_noconflict">Na terytorium nie toczy się konflikt</string>
 	<string key="ui_fortressinfo_contributionnotrequired">Żadna z kompanii nie zdobyła odpowiedniej ilości wpływów, więc wojnę może wypowiedzieć dowolna kompania.</string>
 	<string key="ui_fortressinfo_hascontribution">Twoja kompania ZDOBYŁA odpowiednią ilość wpływów, by móc wypowiedzieć wojnę.</string>
 	<string key="ui_fortressinfo_insufficientcontribution">Twoja kompania NIE ZDOBYŁA odpowiedniej ilości wpływów, by móc wypowiedzieć wojnę.</string>
-	<string key="ui_fortressinfo_noconflictdescription">Żeby atakujący mógł wypowiedzieć wojnę temu terytorium, jego frakcja musi najpierw zgromadzić odpowiednią ilość wpływów na terytorium.</string>
+	<string key="ui_fortressinfo_noconflictdescription">Żeby atakujący mógł wypowiedzieć wojnę temu terytorium, jego kompania musi liczyć co najmniej 25 członków, a jego frakcja musi najpierw zgromadzić odpowiednią ilość wpływów na terytorium.</string>
 	<string key="ui_fortressinfo_upcomingwarlabel">Początek wojny za:</string>
 	<string key="ui_fortressinfo_ongoingwarlabel">Wojna aktywna</string>
 	<string key="ui_fortressinfo_resolveingwarlabel">Wojna rozwiązuje się</string>
-	<string key="ui_fortressinfo_atwardescription">Dopóki wojna się nie zakończy, nie będzie można &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;zdobywać wpływów&lt;/font&gt; na tym terytorium. (Pozostałe nagrody za misje frakcyjne, jak na przykład PD czy złoto, wciąż są dostępne).</string>
+	<string key="ui_fortressinfo_atwardescription">Dopóki wojna się nie zakończy, nie będzie można &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;zdobywać wpływów&lt;/font&gt; na tym terytorium (pozostałe nagrody za misje frakcyjne, jak na przykład PD czy monety, wciąż są dostępne).</string>
 	<string key="ui_township">Osada</string>
 	<string key="ui_fortress">Fort</string>
 	<string key="ui_complete">Ukończono</string>
@@ -267,7 +269,7 @@
 	<string key="ui_project_points_label">Punkty projektu</string>
 	<string key="ui_upgradebutton_label_alwaysavailable">Pomoc potrzebna</string>
 	<string key="ui_upgradebutton_label_settlement">Ulepsz miasteczko</string>
-	<string key="ui_upgradebutton_tooltip_settlement">Ulepsz stanowiska rzemieślnicze i do przetwarzania w miasteczku.</string>
+	<string key="ui_upgradebutton_tooltip_settlement">Ulepsz stanowiska do wytwarzania i przetwarzania w miasteczku.</string>
 	<string key="ui_upgradebutton_label_fort">Ulepsz fort</string>
 	<string key="ui_upgradebutton_tooltip_fort">Ulepsz bramy, broń i miejsca na stanowiska w forcie.</string>
 	<string key="ui_upgradebutton_label_lifestyle">Ulepszenia jakości życia</string>
@@ -293,94 +295,94 @@
 	<string key="GenericGemCutT4">Szlifowane nieskazitelne klejnoty</string>
 	<string key="ui_always_available_category">Zawsze dostępna kategoria nr &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
 	<string key="ui_always_available_projectId">Zawszy dostępny projekt nr &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_BlacksmithProjectId">Ulepsz kuźnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_BlacksmithProjectId2">Ulepsz kuźnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_BlacksmithProjectId3">Ulepsz kuźnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_SmeltingProjectId">Ulepsz piec hutniczy do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_SmeltingProjectId2">Ulepsz piec hutniczy do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_SmeltingProjectId3">Ulepsz piec hutniczy do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CarpentryProjectId">Ulepsz stolarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CarpentryProjectId2">Ulepsz stolarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CarpentryProjectId3">Ulepsz stolarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_MasonryProjectId">Ulepsz stół kamieniarski do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_MasonryProjectId2">Ulepsz stół kamieniarski do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_MasonryProjectId3">Ulepsz stół kamieniarski do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_WeavingProjectId">Ulepsz krosno do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_WeavingProjectId2">Ulepsz krosno do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_WeavingProjectId3">Ulepsz krosno do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_TanningProjectId">Ulepsz garbarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_TanningProjectId2">Ulepsz garbarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_TanningProjectId3">Ulepsz garbarnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_EngineeringProjectId">Ulepsz warsztat do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_EngineeringProjectId2">Ulepsz warsztat do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_EngineeringProjectId3">Ulepsz warsztat do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_OutfittingProjectId">Ulepsz stanowisko krawieckie do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_OutfittingProjectId2">Ulepsz stanowisko krawieckie do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_OutfittingProjectId3">Ulepsz stanowisko krawieckie do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_AlchemistProjectId">Ulepsz repozytorium arkanistyczne do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_AlchemistProjectId2">Ulepsz repozytorium arkanistyczne do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_AlchemistProjectId3">Ulepsz repozytorium arkanistyczne do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CookingProjectId">Ulepsz kuchnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CookingProjectId2">Ulepsz kuchnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CookingProjectId3">Ulepsz kuchnię do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FortGatesProjectId">Ulepsz bramy do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FortGatesProjectId2">Ulepsz bramy do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FortHardPointsProjectId">Ulepsz miejsca na stanowiska do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FortHardPointsProjectId2">Ulepsz miejsca na stanowiska do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_BallistaProjectId">Ulepsz balistę do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_BallistaProjectId2">Ulepsz balistę do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FireBarrelProjectId">Ulepsz beczkę z płonącym olejem do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FireBarrelProjectId2">Ulepsz beczkę z płonącym olejem do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_RepeaterProjectId">Ulepsz wielostrzały do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_RepeaterProjectId2">Ulepsz wielostrzały do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_HornProjectId">Ulepsz rogi bojowe do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_HornProjectId2">Ulepsz rogi bojowe do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_ExplosiveProjectId">Ulepsz materiały wybuchowe do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_ExplosiveProjectId2">Ulepsz materiały wybuchowe do klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId">Ulepsz kuźnię do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId2">Ulepsz kuźnię do klasy 4</string>
-	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId3">Ulepsz kuźnię do klasy 5</string>
-	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId">Ulepsz piec hutniczy do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId2">Ulepsz piec hutniczy do klasy 4</string>
-	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId3">Ulepsz piec hutniczy do klasy 5</string>
-	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId">Ulepsz stolarnię do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId2">Ulepsz stolarnię do klasy 4</string>
-	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId3">Ulepsz stolarnię do klasy 5</string>
-	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId">Ulepsz stół kamieniarski do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId2">Ulepsz stół kamieniarski do klasy 4</string>
-	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId3">Ulepsz stół kamieniarski do klasy 5</string>
-	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId">Ulepsz krosno do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId2">Ulepsz krosno do klasy 4</string>
-	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId3">Ulepsz krosno do klasy 5</string>
-	<string key="ui_upgrade_titleNoMarkup_TanningProjectId">Ulepsz garbarnię do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_TanningProjectId2">Ulepsz garbarnię do klasy 4</string>
-	<string key="ui_upgrade_titleNoMarkup_TanningProjectId3">Ulepsz garbarnię do klasy 5</string>
-	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId">Ulepsz stolarnię do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId2">Ulepsz stolarnię do klasy 4</string>
-	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId3">Ulepsz stolarnię do klasy 5</string>
-	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId">Ulepsz stanowisko krawieckie do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId2">Ulepsz stanowisko krawieckie do klasy 4</string>
-	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId3">Ulepsz stanowisko krawieckie do klasy 5</string>
-	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId">Ulepsz repozytorium arkanistyczne do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId2">Ulepsz repozytorium arkanistyczne do klasy 4</string>
-	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId3">Ulepsz repozytorium arkanistyczne do klasy 5</string>
-	<string key="ui_upgrade_titleNoMarkup_CookingProjectId">Ulepsz kuchnię do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_CookingProjectId2">Ulepsz kuchnię do klasy 4</string>
-	<string key="ui_upgrade_titleNoMarkup_CookingProjectId3">Ulepsz kuchnię do klasy 5</string>
-	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId">Ulepsz bramy do klasy 2</string>
-	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId2">Ulepsz bramy do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId">Ulepsz miejsca na stanowiska do klasy 2</string>
-	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId2">Ulepsz miejsca na stanowiska do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId">Ulepsz balistę do klasy 2</string>
-	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId2">Ulepsz balistę do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId">Ulepsz beczkę z płonącym olejem do klasy 2</string>
-	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId2">Ulepsz beczkę z płonącym olejem do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId">Ulepsz wielostrzały do klasy 2</string>
-	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId2">Ulepsz wielostrzały do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_HornProjectId">Ulepsz rogi bojowe do klasy 2</string>
-	<string key="ui_upgrade_titleNoMarkup_HornProjectId2">Ulepsz rogi bojowe do klasy 3</string>
-	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId">Ulepsz materiały wybuchowe do klasy 2</string>
-	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId2">Ulepsz materiały wybuchowe do klasy 3</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId3">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_SmeltingProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_SmeltingProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_SmeltingProjectId3">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CarpentryProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CarpentryProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CarpentryProjectId3">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_MasonryProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_MasonryProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_MasonryProjectId3">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_WeavingProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_WeavingProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_WeavingProjectId3">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_TanningProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_TanningProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_TanningProjectId3">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EngineeringProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EngineeringProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EngineeringProjectId3">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_OutfittingProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_OutfittingProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_OutfittingProjectId3">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_AlchemistProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_AlchemistProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_AlchemistProjectId3">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CookingProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CookingProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CookingProjectId3">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortGatesProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortGatesProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortHardPointsProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortHardPointsProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BallistaProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BallistaProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FireBarrelProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FireBarrelProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_RepeaterProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_RepeaterProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_HornProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_HornProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_ExplosiveProjectId">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_ExplosiveProjectId2">Ulepszenie klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId2">Ulepszenie klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId3">Ulepszenie klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId2">Ulepszenie klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId3">Ulepszenie klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId2">Ulepszenie klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId3">Ulepszenie klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId2">Ulepszenie klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId3">Ulepszenie klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId2">Ulepszenie klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId3">Ulepszenie klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId2">Ulepszenie klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId3">Ulepszenie klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId2">Ulepszenie klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId3">Ulepszenie klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId2">Ulepszenie klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId3">Ulepszenie klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId2">Ulepszenie klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId3">Ulepszenie klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId2">Ulepszenie klasy 4</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId3">Ulepszenie klasy 5</string>
+	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId">Ulepszenie klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId2">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId">Ulepszenie klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId2">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId">Ulepszenie klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId2">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId">Ulepszenie klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId2">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId">Ulepszenie klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId2">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_HornProjectId">Ulepszenie klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_HornProjectId2">Ulepszenie klasy 3</string>
+	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId">Ulepszenie klasy 2</string>
+	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId2">Ulepszenie klasy 3</string>
 	<string key="ui_upgrade_button_BlacksmithProjectId">Kuźnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_BlacksmithProjectId2">Kuźnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_BlacksmithProjectId3">Kuźnia klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
@@ -431,52 +433,52 @@
 	<string key="ui_upgrade_button_ExplosiveProjectId">Materiały wybuchowe klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_ExplosiveProjectId2">Materiały wybuchowe klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_ExplosiveProjectId3">Materiały wybuchowe klasy &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_BlacksmithProjectId">Ulepsz kuźnię do klasy 3, by odblokować nowe przedmioty do wytwarzania klasy 3 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_BlacksmithProjectId2">Ulepsz kuźnię do klasy 4, by odblokować nowe przedmioty do wytwarzania klasy 4 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_BlacksmithProjectId3">Ulepsz kuźnię do klasy 5, by odblokować nowe przedmioty do wytwarzania klasy 5 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_SmeltingProjectId">Ulepsz piec hutniczy do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;sztaby orichalcum.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_SmeltingProjectId2">Ulepsz piec hutniczy do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;sztaby asmodeum.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_CarpentryProjectId">Ulepsz stolarnię do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;deski z żelazodrzewa.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_CarpentryProjectId2">Ulepsz stolarnię do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;błyszczący heban.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_MasonryProjectId">Ulepsz stół kamieniarski do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;obsydianowy kamień próżni.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_MasonryProjectId2">Ulepsz stół kamieniarski do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;kamień runiczny.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_WeavingProjectId">Ulepsz krosno do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;nasycony jedwab.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_WeavingProjectId2">Ulepsz krosno do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;splot feniksa.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_TanningProjectId">Ulepsz garbarnię do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;nasyconą skórę.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_TanningProjectId2">Ulepsz garbarnię do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;runiczną skórę.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_EngineeringProjectId">Ulepsz warsztat do klasy 3, by odblokować nowe przedmioty do wytwarzania klasy 3 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_EngineeringProjectId2">Ulepsz warsztat do klasy 4, by odblokować nowe przedmioty do wytwarzania klasy 4 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_EngineeringProjectId3">Ulepsz warsztat do klasy 5, by odblokować nowe przedmioty do wytwarzania klasy 5 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_OutfittingProjectId">Ulepsz stanowisko krawieckie do klasy 3, by odblokować nowe przedmioty do wytwarzania klasy 3 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_OutfittingProjectId2">Ulepsz stanowisko krawieckie do klasy 4, by odblokować nowe przedmioty do wytwarzania klasy 4 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_OutfittingProjectId3">Ulepsz stanowisko krawieckie do klasy 5, by odblokować nowe przedmioty do wytwarzania klasy 5 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_AlchemistProjectId">Ulepsz repozytorium arkanistyczne do klasy 3, by odblokować nowe przedmioty do wytwarzania klasy 3 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_AlchemistProjectId2">Ulepsz repozytorium arkanistyczne do klasy 4, by odblokować nowe przedmioty do wytwarzania klasy 4 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_AlchemistProjectId3">Ulepsz repozytorium arkanistyczne do klasy 5, by odblokować nowe przedmioty do wytwarzania klasy 5 i zyskać zniżkę na azoth.</string>
-	<string key="ui_upgrade_desc_CookingProjectId">Ulepsz kuchnię do klasy 3, w której można wytwarzać &lt;font color="#ffd058"&gt;posiłki 3. klasy.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_CookingProjectId2">Ulepsz kuchnię do klasy 4, w której można wytwarzać &lt;font color="#ffd058"&gt;posiłki 4. klasy.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_CookingProjectId3">Ulepsz kuchnię do klasy 5, w której można wytwarzać &lt;font color="#ffd058"&gt;posiłki 5. klasy.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId">Ulepsz bramy do klasy 2. PZ bramy wzrosną.</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId2">Ulepsz bramy do klasy 3. PZ bramy wzrosną.</string>
-	<string key="ui_upgrade_desc_FortHardPointsProjectId">Odblokowuje dodatkowe miejsce na rozmieszczenia stanowisk (np.: balista, beczka z płonącym olejem itd.).</string>
-	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Odblokowuje dodatkowe miejsce na rozmieszczenia stanowisk (np.: balista, beczka z płonącym olejem itd.).</string>
-	<string key="ui_upgrade_desc_BallistaProjectId">Ulepsz balistę do klasy 2. Po ulepszeniu każda balista (rozmieszczona lub nie) również zostanie ulepszona.</string>
-	<string key="ui_upgrade_desc_BallistaProjectId2">Ulepsz balistę do klasy 3. Po ulepszeniu każda balista (rozmieszczona lub nie) również zostanie ulepszona.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId">Ulepsz beczkę z płonącym olejem do klasy 2. Po ulepszeniu wszystkie beczki z płonącym olejem (rozmieszczone lub nie) również zostaną ulepszone.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId2">Ulepsz beczkę z płonącym olejem do klasy 3. Po ulepszeniu wszystkie beczki z płonącym olejem (rozmieszczone lub nie) również zostaną ulepszone.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId">Ulepsz wielostrzały do klasy 2. Po ulepszeniu wszystkie wielostrzały (rozmieszczone lub nie) również zostaną ulepszone.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId2">Ulepsz wielostrzały do klasy 3. Po ulepszeniu wszystkie wielostrzały (rozmieszczone lub nie) również zostaną ulepszone.</string>
-	<string key="ui_upgrade_desc_HornProjectId">Ulepsz rogi bojowe do klasy 2. Po ulepszeniu wszystkie rogi bojowe (rozmieszczone lub nie) również zostaną ulepszone.</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Ulepsz rogi bojowe do klasy 3. Po ulepszeniu wszystkie rogi bojowe (rozmieszczone lub nie) również zostaną ulepszone.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId">Ulepsz materiały wybuchowe do klasy 2. Po ulepszeniu wszystkie materiały wybuchowe (rozmieszczone lub nie) również zostaną ulepszone.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId2">Ulepsz materiały wybuchowe do klasy 3. Po ulepszeniu wszystkie materiały wybuchowe (rozmieszczone lub nie) również zostaną ulepszone.</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId">Odblokuj nowe przedmioty do wytwarzania klasy 3 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId2">Odblokuj nowe przedmioty do wytwarzania klasy 4 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId3">Odblokuj nowe przedmioty do wytwarzania klasy 5 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_SmeltingProjectId">Wytwórz &lt;font color="#ffd058"&gt;sztaby orichalcum&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_SmeltingProjectId2">Wytwórz &lt;font color="#ffd058"&gt;sztaby asmodeum&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_CarpentryProjectId">Wytwórz &lt;font color="#ffd058"&gt;deski z żelazodrzewa&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_CarpentryProjectId2">Wytwórz &lt;font color="#ffd058"&gt;błyszczący heban&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_MasonryProjectId">Wytwórz &lt;font color="#ffd058"&gt;obsydianowy kamień próżni&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_MasonryProjectId2">Wytwórz &lt;font color="#ffd058"&gt;kamień runiczny&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_WeavingProjectId">Wytwórz &lt;font color="#ffd058"&gt;nasycony jedwab&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_WeavingProjectId2">Wytwórz &lt;font color="#ffd058"&gt;splot feniksa&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_TanningProjectId">Wytwórz &lt;font color="#ffd058"&gt;nasyconą skórę&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_TanningProjectId2">Wytwórz &lt;font color="#ffd058"&gt;runiczną skórę&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId">Odblokuj nowe przedmioty do wytwarzania klasy 3 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId2">Odblokuj nowe przedmioty do wytwarzania klasy 4 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId3">Odblokuj nowe przedmioty do wytwarzania klasy 5 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId">Odblokuj nowe przedmioty do wytwarzania klasy 3 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId2">Odblokuj nowe przedmioty do wytwarzania klasy 4 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId3">Odblokuj nowe przedmioty do wytwarzania klasy 5 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId">Odblokuj nowe przedmioty do wytwarzania klasy 3 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId2">Odblokuj nowe przedmioty do wytwarzania klasy 4 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId3">Odblokuj nowe przedmioty do wytwarzania klasy 5 i zyskaj zniżkę na azoth.</string>
+	<string key="ui_upgrade_desc_CookingProjectId">Wytwórz &lt;font color="#ffd058"&gt;posiłki klasy 3&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_CookingProjectId2">Wytwórz &lt;font color="#ffd058"&gt;posiłki klasy 4&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_CookingProjectId3">Wytwórz &lt;font color="#ffd058"&gt;posiłki klasy 5&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId">Zwiększ zdrowie bram.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId2">Zwiększ zdrowie bram.</string>
+	<string key="ui_upgrade_desc_FortHardPointsProjectId">Odblokowuje dodatkowe miejsce na rozmieszczenie stanowisk (balista, beczka z płonącym olejem itd.).</string>
+	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Odblokowuje dodatkowe miejsce na rozmieszczenie stanowisk (balista, beczka z płonącym olejem itd.).</string>
+	<string key="ui_upgrade_desc_BallistaProjectId">Ponadto ulepsza wszystkie istniejące balisty.</string>
+	<string key="ui_upgrade_desc_BallistaProjectId2">Ponadto ulepsza wszystkie istniejące balisty.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId">Ponadto ulepsza wszystkie istniejące beczki z płonącym olejem.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId2">Ponadto ulepsza wszystkie istniejące beczki z płonącym olejem.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId">Ponadto ulepsza wszystkie istniejące wielostrzały.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId2">Ponadto ulepsza wszystkie istniejące wielostrzały.</string>
+	<string key="ui_upgrade_desc_HornProjectId">Ponadto ulepsza wszystkie istniejące rogi bojowe.</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Ponadto ulepsza wszystkie istniejące rogi bojowe.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId">Ponadto ulepsza wszystkie istniejące materiały wybuchowe.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId2">Ponadto ulepsza wszystkie istniejące materiały wybuchowe.</string>
 	<string key="ui_event_project_endless">Nieskończone</string>
 	<string key="ui_territory_level">Poziom terytorium: {level}</string>
 	<string key="ui_enter_house">Zobacz dom</string>
 	<string key="ui_purchase_house">Kup dom</string>
 	<string key="ui_housing">Domy</string>
 	<string key="ui_trading_post">Faktoria</string>
-	<string key="ui_crafting_stations">Stanowiska rzemieślnicze</string>
+	<string key="ui_crafting_stations">Stanowiska do wytwarzania</string>
 	<string key="ui_project_impact">REZULTAT PROJEKTU</string>
 	<string key="ui_project_missiontier">KLASA MISJI</string>
 	<string key="ui_project_completeat">UKOŃCZ W</string>
@@ -520,17 +522,17 @@
 	<string key="ui_project_tooltip_upkeep_overdue">Nie można rozpocząć projektu miasteczka, jeśli nie uiszczono opłaty za utrzymanie terytorium</string>
 	<string key="ui_notavailable">BRAK</string>
 	<string key="ui_timelimit">LIMIT CZASU</string>
-	<string key="ui_minCompletionTime">MIN. CZAS UKOŃCZENIA</string>
+	<string key="ui_minCompletionTime">CZAS UKOŃCZENIA</string>
 	<string key="ui_territoryinformation">Informacje o terytorium</string>
 	<string key="ui_territorylog">Dziennik terytorium</string>
 	<string key="ui_territoryupkeep">Opłata za utrzymanie terytorium</string>
 	<string key="ui_territoryupkeep_desc">Kompania zarządzająca powinna uiszczać opłatę za utrzymanie terytorium co 7 dni, aby zapobiec degradacji terytorium.</string>
-	<string key="ui_territoryupkeep_overdue_base_desc">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Minął termin&lt;/font&gt; płatności za terytorium.  Do czasu zapłaty:</string>
+	<string key="ui_territoryupkeep_overdue_base_desc">Minął termin płatności:</string>
 	<string key="ui_territoryupkeep_overdue_point1">To terytorium będzie ulegać degradacji co 24 godziny.</string>
 	<string key="ui_territoryupkeep_overdue_point2">Premie frakcyjne i premie kompanii będą nieaktywne.</string>
 	<string key="ui_territoryupkeep_overdue_point3">Kompania zarządzająca nie będzie mogła rozpocząć projektu miasteczka.</string>
-	<string key="ui_territoryupkeep_overdue_desc">Termin uiszczenia opłaty za terytorium &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;minął.&lt;/font&gt;\nTo terytorium będzie ulegać degradacji co 24 godziny do czasu uiszczenia opłaty.</string>
-	<string key="ui_territoryupkeep_overdue_noupgrade_desc">Termin uiszczenia opłaty za terytorium &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;minął.&lt;/font&gt;&lt;/font&gt;\nKompania zarządzająca nie może rozpocząć projektu miasteczka.</string>
+	<string key="ui_territoryupkeep_overdue_desc">Termin uiszczenia opłaty za terytorium &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;minął&lt;/font&gt;.\nTo terytorium będzie ulegać degradacji co 24 godziny do czasu uiszczenia opłaty.</string>
+	<string key="ui_territoryupkeep_overdue_noupgrade_desc">Termin uiszczenia opłaty za terytorium &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;minął&lt;/font&gt;.&lt;/font&gt;\nKompania zarządzająca nie może rozpocząć projektu miasteczka.</string>
 	<string key="ui_companypaycheck">Wypłaty</string>
 	<string key="ui_companypaycheck_desc">Kompania zarządzająca generuje dochód z tytułu opłat i podatków.</string>
 	<string key="ui_taxandfee">Podatki i opłaty</string>
@@ -546,7 +548,7 @@
 	<string key="ui_view_current_goal">Sprawdź obecny cel</string>
 	<string key="ui_governorsdesk">Biurko zarządcy</string>
 	<string key="ui_governorsdesk_desc">Kompania zarządzająca ustala wysokość podatków naliczanych na tym terytorium i uiszcza opłatę za jego utrzymanie.</string>
-	<string key="ui_upkeep_tooltip">Jeśli kompania zarządzająca terytorium nie uiści opłaty za utrzymanie na czas, &lt;font color="#e8a015"&gt;losowa część tego terytorium ulegnie degradacji.&lt;/font&gt;</string>
+	<string key="ui_upkeep_tooltip">Jeśli kompania zarządzająca terytorium nie uiści opłaty za utrzymanie na czas, &lt;font color="#e8a015"&gt;losowa część tego terytorium ulegnie degradacji&lt;/font&gt;.</string>
 	<string key="ui_payroll_title">Wypłaty kompanii</string>
 	<string key="ui_payroll_tooltip">Kompania zarządzająca zarabia pieniądze na opłatach i podatkach.</string>
 	<string key="ui_firstdayofcycle">Pierwszy dzień cyklu</string>
@@ -579,13 +581,13 @@
 	<string key="ui_no_territory_upgrade">Terytorium bez żadnych ulepszeń nie wymaga opłaty za utrzymanie.</string>
 	<string key="ui_overdue">Termin minął</string>
 	<string key="ui_no_upgrade_desc">Terytorium bez &lt;font color="#ffffff"&gt;żadnych ulepszeń&lt;/font&gt; nie wymaga opłaty za utrzymanie.</string>
-	<string key="ui_payroll_bottom_desc">Dochód kompanii jest automatycznie wpłacany do portfela kompanii.</string>
+	<string key="ui_payroll_bottom_desc">Automatycznie wpłacany do portfela kompanii.</string>
 	<string key="ui_change">Zmień</string>
 	<string key="ui_until_end">Ukończono! Następne dostępne za:</string>
 	<string key="ui_until_end_return">Ukończono!\nNowy projekt dostępny za:</string>
 	<string key="ui_town_project_allCompleted">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Ukończono&lt;/font&gt; w 100%</string>
 	<string key="ui_territory_standing_no_bonuses">Nie masz żadnych premii na terytorium: {territory}.</string>
-	<string key="ui_territory_standing_upgrade_description_generic">Zdobądź UMIEJĘTNOŚCI na terytorium: {territory}.</string>
+	<string key="ui_territory_standing_upgrade_description_generic">Zdobądź ZDOLNOŚCI na terytorium: {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_increase_stat">Zwiększa: &lt;font color={color}&gt;{stat}&lt;/font&gt; na terytorium: {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_increase_rate">Zyskujesz więcej: &lt;font color={color}&gt;{stat}&lt;/font&gt;, przebywając na terytorium: {territory}.</string>
 	<string key="ui_territory_standing_upgrade_description_increase_stat_no_territory">Zwiększa: &lt;font color={color}&gt;{stat}&lt;/font&gt;.</string>
@@ -620,10 +622,10 @@
 	<string key="ui_darkness_threshold_1">Niska</string>
 	<string key="ui_darkness_threshold_2">Średnia</string>
 	<string key="ui_darkness_threshold_3">Wysoka</string>
-	<string key="ui_darkness_threshold_desc_0">&lt;font color="#e1ddd4"&gt;Brak&lt;/font&gt; wyłomów skażenia</string>
-	<string key="ui_darkness_threshold_desc_1">Mogą się pojawić &lt;font color="#ffd45f"&gt;małe&lt;/font&gt; wyłomy skażenia</string>
-	<string key="ui_darkness_threshold_desc_2">Mogą się pojawić &lt;font color="#f67817"&gt;małe i duże&lt;/font&gt; wyłomy skażenia</string>
-	<string key="ui_darkness_threshold_desc_3">Może się pojawić &lt;font color="#f25d5d"&gt;maksymalna liczba&lt;/font&gt; wyłomów skażenia</string>
+	<string key="ui_darkness_threshold_desc_0">Brak wyłomów skażenia.</string>
+	<string key="ui_darkness_threshold_desc_1">Małe: mogą się pojawić wyłomy skażenia.</string>
+	<string key="ui_darkness_threshold_desc_2">Małe i duże: mogą się pojawić wyłomy skażenia.</string>
+	<string key="ui_darkness_threshold_desc_3">Obecna jest maksymalna liczba wyłomów skażenia.</string>
 	<string key="ui_plan_territory">Planowanie terytorialne</string>
 	<string key="ui_upgrade_town">Ulepsz miasteczko</string>
 	<string key="ui_upgrade_fort">Ulepsz fort</string>
@@ -641,7 +643,7 @@
 	<string key="ui_cancel_mission">Anuluj misję</string>
 	<string key="ui_complete_mission">Ukończ misję</string>
 	<string key="ui_complete_all_missions">Ukończ wszystkie misje</string>
-	<string key="ui_lifestyle_panel_description">Utwórz nowy projekt miasteczka, aby udzielić specjalnej, długoterminowej premii graczom &lt;font color="#edd05c"&gt;posiadającym dom na tym terytorium.&lt;/font&gt;</string>
+	<string key="ui_lifestyle_panel_description">Utwórz nowy projekt miasteczka, aby udzielić premii graczom posiadającym dom na tym terytorium.</string>
 	<string key="lifestyle_gathering_buff">Premia do zbieractwa</string>
 	<string key="lifestyle_combat_buff">Premia do walki</string>
 	<string key="lifestyle_crafting_buff">Premia do wytwarzania</string>
@@ -652,19 +654,19 @@
 	<string key="ui_territory_influence">Wpływy na terytorium</string>
 	<string key="ui_territory_governed_by_label">Tym terytorium zarządza</string>
 	<string key="ui_AlwaysAvailableProjectId">Utrzymanie miasteczka</string>
-	<string key="lifestyle_title_LumberJackSpiritProjectId">Aktywuj ducha drwala</string>
-	<string key="lifestyle_title_MinersResolveProjectId">Aktywuj determinację górnika</string>
-	<string key="lifestyle_title_HuntersBountyProjectId">Aktywuj dar łowcy</string>
-	<string key="lifestyle_title_FarmersHarvestProjectId">Aktywuj farmerskie żniwa</string>
-	<string key="lifestyle_title_ArcaneBlessingProjectId">Aktywuj błogosławieństwo arkanisty</string>
-	<string key="lifestyle_title_HaleAndHeartyProjectId">Aktywuj świetną formę</string>
-	<string key="lifestyle_title_StalwartProjectId">Aktywuj niezłomność</string>
-	<string key="lifestyle_title_OutfittersInspirationProjectId">Aktywuj natchnienie płatnerza</string>
-	<string key="lifestyle_title_BlacksmithTemperamentProjectId">Aktywuj hart zbrojmistrza</string>
-	<string key="lifestyle_title_ArcaneWisdomProjectId">Aktywuj mądrość arkanisty</string>
-	<string key="lifestyle_title_ChefsPassionProjectId">Aktywuj pasję szefa kuchni</string>
-	<string key="lifestyle_title_EngineersPatienceProjectId">Aktywuj cierpliwość inżyniera</string>
-	<string key="lifestyle_title_FishermansFortuneProjectId">Aktywuj szczęście rybaka</string>
+	<string key="lifestyle_title_LumberJackSpiritProjectId">Duch drwala</string>
+	<string key="lifestyle_title_MinersResolveProjectId">Determinacja górnika</string>
+	<string key="lifestyle_title_HuntersBountyProjectId">Dar łowcy</string>
+	<string key="lifestyle_title_FarmersHarvestProjectId">Farmerskie żniwa</string>
+	<string key="lifestyle_title_ArcaneBlessingProjectId">Błogosławieństwo arkanisty</string>
+	<string key="lifestyle_title_HaleAndHeartyProjectId">Świetna forma</string>
+	<string key="lifestyle_title_StalwartProjectId">Niezłomność</string>
+	<string key="lifestyle_title_OutfittersInspirationProjectId">Natchnienie płatnerza</string>
+	<string key="lifestyle_title_BlacksmithTemperamentProjectId">Hart zbrojmistrza</string>
+	<string key="lifestyle_title_ArcaneWisdomProjectId">Mądrość arkanisty</string>
+	<string key="lifestyle_title_ChefsPassionProjectId">Pasja szefa kuchni</string>
+	<string key="lifestyle_title_EngineersPatienceProjectId">Cierpliwość inżyniera</string>
+	<string key="lifestyle_title_FishermansFortuneProjectId">Szczęście rybaka</string>
 	<string key="lifestyle_button_LumberJackSpiritProjectId">Duch drwala</string>
 	<string key="lifestyle_button_MinersResolveProjectId">Determinacja górnika</string>
 	<string key="lifestyle_button_HuntersBountyProjectId">Dar łowcy</string>
@@ -678,19 +680,19 @@
 	<string key="lifestyle_button_ChefsPassionProjectId">Pasja szefa kuchni</string>
 	<string key="lifestyle_button_EngineersPatienceProjectId">Cierpliwość inżyniera</string>
 	<string key="lifestyle_button_FishermansFortuneProjectId">Szczęście rybaka</string>
-	<string key="lifestyle_desc_LumberJackSpiritProjectId">Zwiększ ilość surowców pozyskiwanych z wyrębu o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_MinersResolveProjectId">Zwiększ ilość surowców pozyskiwanych z górnictwa o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_HuntersBountyProjectId">Zwiększ ilość surowców pozyskiwanych ze skórowania o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_FarmersHarvestProjectId">Zwiększ ilość surowców pozyskiwanych ze żniw o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_ArcaneBlessingProjectId">Zwiększ pochłanianie obrażeń od skażonych o &lt;font color="#ffffff"&gt;5%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_HaleAndHeartyProjectId">Zwiększ bazową liczbę PZ o &lt;font color="#ffffff"&gt;10%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_StalwartProjectId">Zwiększ szybkość regeneracji obrony o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_OutfittersInspirationProjectId">Zwiększ podstawową liczbę punktów wyposażenia wytworzonych przedmiotów (płatnerstwo) na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_BlacksmithTemperamentProjectId">Zwiększ podstawową liczbę punktów wyposażenia wytworzonych przedmiotów (kucie broni) na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_ArcaneWisdomProjectId">Zwiększ podstawową liczbę punktów wyposażenia wytworzonych przedmiotów (arkana) na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_ChefsPassionProjectId">Zwiększa szansę na otrzymanie dodatkowych posiłków podczas gotowania na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_EngineersPatienceProjectId">Zwiększ podstawową liczbę punktów wyposażenia wytworzonych przedmiotów (inżynierstwo) na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_FishermansFortuneProjectId">Zwiększ losowe szanse na pomyślne wędkowanie na &lt;font color="#ffffff"&gt;3 dni.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_LumberJackSpiritProjectId">Zwiększ uzysk z wyrębu o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_MinersResolveProjectId">Zwiększ uzysk z górnictwa o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_HuntersBountyProjectId">Zwiększ uzysk ze skórowania o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_FarmersHarvestProjectId">Zwiększ uzysk ze żniw o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_ArcaneBlessingProjectId">Zwiększ pochłanianie obrażeń od skażonych o &lt;font color="#ffffff"&gt;5%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_HaleAndHeartyProjectId">Zwiększ bazową liczbę PZ o &lt;font color="#ffffff"&gt;10%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_StalwartProjectId">Zwiększ szybkość regeneracji obrony o &lt;font color="#ffffff"&gt;20%&lt;/font&gt; na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_OutfittersInspirationProjectId">Zwiększ podstawową liczbę punktów wyposażenia (płatnerstwo) na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_BlacksmithTemperamentProjectId">Zwiększ podstawową liczbę punktów wyposażenia (kucie broni) na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_ArcaneWisdomProjectId">Zwiększ podstawową liczbę punktów wyposażenia (arkana) na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_ChefsPassionProjectId">Zwiększa szansę na otrzymanie dodatkowych posiłków podczas gotowania na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_EngineersPatienceProjectId">Zwiększ podstawową liczbę punktów wyposażenia (inżynierstwo) na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_FishermansFortuneProjectId">Zwiększ losowe szanse na pomyślne wędkowanie na &lt;font color="#ffffff"&gt;3 dni&lt;/font&gt;.</string>
 	<string key="ui_your_standing">Twoja ranga</string>
 	<string key="ui_station_tier">Klasa &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{tier}&lt;/font&gt;</string>
 	<string key="ui_benefits">Premie</string>

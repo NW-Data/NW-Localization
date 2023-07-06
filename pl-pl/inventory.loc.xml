@@ -1,5 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="inv_DroppedItems">Upuszczone przedmioty</string>
+	<string key="inv_Dropped">Upuszczone</string>
 	<string key="inv_Storage">Magazyn</string>
 	<string key="inv_itemDamaged">Liczba poważnie uszkodzonych przedmiotów: {num} Musisz go wkrótce naprawić.</string>
 	<string key="inv_itemBroken">Liczba zepsutych przedmiotów: {num}</string>
@@ -66,9 +67,9 @@
 	<string key="inv_equipLoadSlow">Ciężkie</string>
 	<string key="inv_equipLoadOverburdened">Nadmiar ekwipunku</string>
 	<string key="inv_equipLoadTooltip">Łączna waga noszonego pancerza i tarczy określa ciężar twojego wyposażenia. W zależności od ciężaru wyposażenia różnią się uniki i inne efekty.</string>
-	<string key="inv_equipLoadFastTooltip">• Obrażenia podstawowe: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]}% \n• Leczenie innych: +30% \n• W ramach uniku wykonujesz szybki przewrót. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s. W tym czasie nie możesz również biegać.</string>
+	<string key="inv_equipLoadFastTooltip">• Obrażenia podstawowe: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]}% \n• Leczenie bazujące na obrażeniach: +30% \n• W ramach uniku wykonujesz szybki przewrót. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s. W tym czasie nie możesz również biegać.</string>
 	<string key="inv_equipLoadNormalTooltip">• Obrażenia podstawowe: +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]}% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -10% \n• W ramach uniku wykonujesz szybki odskok. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s. W tym czasie nie możesz również biegać.</string>
-	<string key="inv_equipLoadSlowTooltip">• Stabilność blokowania: +15% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -20% \n• Leczenie innych: -30% \n• Możesz wykonać powolny zwód. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że nie możesz biegać przez {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s.</string>
+	<string key="inv_equipLoadSlowTooltip">• Stabilność blokowania: +15% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -20% \n• Leczenie bazujące na obrażeniach: -30% \n• Możesz wykonać powolny zwód. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że nie możesz biegać przez {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Po przekroczeniu maksymalnego ciężaru wyposażenia nie możesz wykonywać uników, biegać i używać zdolności. Odłóż część przedmiotów.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Jeśli limit ciężaru twojego ekwipunku zostanie przekroczony, ulegniesz przeciążeniu – stan ten ogranicza twoje ruchy i czynności. Ponadto blokowanie zużywa więcej wytrzymałości.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Waga przenoszonych przez ciebie przedmiotów przekracza maksymalny ciężar wyposażenia. Nie możesz biegać ani wykonywać uników i otrzymujesz karę do szybkości regeneracji wytrzymałości. Odłóż część przedmiotów.</string>
@@ -116,7 +117,7 @@
 	<string key="fc_campingSiteLvl2">Obozowisko poziomu II</string>
 	<string key="fc_campingSiteLvl3">Obozowisko poziomu III</string>
 	<string key="fc_campingSiteLvl4">Obozowisko poziomu IV</string>
-	<string key="fc_breakCampNotification">Przytrzymaj [{value}], by porzucić obóz</string>
+	<string key="fc_breakCampNotification">Przytrzymaj {$ui.makeCampOn$}, by porzucić obóz.</string>
 	<string key="fc_makecamp">Rozbij obóz</string>
 	<string key="fc_breakcamp">Zakończ obozowanie</string>
 	<string key="fc_weaponsectiontitle">Broń i narzędzia</string>
@@ -128,8 +129,8 @@
 	<string key="fc_fieldcrafting">Wytwarzanie w terenie</string>
 	<string key="fc_distance">Odległość do obozu:</string>
 	<string key="fc_craftingErrorMessage">Nie masz surowców potrzebnych do wytworzenia tego przedmiotu.</string>
-	<string key="fc_campBroken">Porzucono obóz</string>
-	<string key="ui_currency_self">Nie możesz przekazywać waluty sobie</string>
+	<string key="fc_campBroken">Porzucono obóz.</string>
+	<string key="ui_currency_self">Nie możesz przekazywać waluty sobie.</string>
 	<string key="ui_currency_nameinvalid">Nieprawidłowe imię gracza</string>
 	<string key="ui_currency_namevalid">Prawidłowe imię gracza</string>
 	<string key="ui_currency_offline">Gracz jest offline</string>
@@ -151,10 +152,10 @@
 	<string key="ui_box_opening_open_another_single">Otwórz następną</string>
 	<string key="ui_box_opening_max_items_reached">+ inne przedmioty ({quantity})</string>
 	<string key="ui_dropall">Upuść wszystko</string>
-	<string key="ui_dropall_in_trade">Nie możesz upuścić przedmiotów podczas handlowania</string>
+	<string key="ui_dropall_in_trade">Nie możesz upuszczać przedmiotów podczas handlowania.</string>
 	<string key="ui_transfer_all_filtered">Nie można przenieść wszystkich przedmiotów tej kategorii, gdy zastosowano filtr przedmiotów.</string>
-	<string key="ui_storeall">Przenieś wszystko do składziku</string>
-	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;JAK UŻYWAĆ FILTRÓW PRZEDMIOTÓW&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtruj po:&lt;/font&gt;\n• Nazwie przedmiotu\n• Min. liczbie pkt wyposażenia (np. 100)\n• Min. klasie przedmiotu (np. K1\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Przykłady:&lt;/font&gt;\n• Miecz 200\n• Topór K1\n• Oskard – żelazo</string>
+	<string key="ui_storeall">Przenieś wszystko do składziku.</string>
+	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;JAK UŻYWAĆ FILTRÓW PRZEDMIOTÓW&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtruj po:&lt;/font&gt;\n• Nazwie przedmiotu (np. Miecz -topór)\n• Profitach/klejnotach (np. [Ochrona] -[Szczęście])\n• Min. liczbie pkt wyposażenia (np. 100)\nMin. klasie przedmiotu (np. K1\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Przykłady:&lt;/font&gt;\n• Miecz 200\n• Topór K1\n• Oskard -żelazo\n• Muszkiet [elektryzacja]</string>
 	<string key="ui_filterText">Szukaj</string>
 	<string key="ui_filterHeader">Filtruj przedmiot</string>
 	<string key="ui_sort">Sortuj</string>
@@ -214,7 +215,7 @@
 	<string key="loadout_error" rel_version="Feature_Gear_Set_Storage">Błąd zestawu wyposażenia</string>
 	<string key="loadout_notification_equip_success" rel_version="Feature_Gear_Set_Storage">Zestaw w użyciu: {loadoutName}</string>
 	<string key="loadout_notification_equip_failure" rel_version="Feature_Gear_Set_Storage">{loadoutName} – nie udało się użyć zestawu</string>
-	<string key="loadout_notification_incombat" rel_version="Feature_Gear_Set_Storage">Nie można zmieniać zestawów wyposażenia podczas walki.</string>
+	<string key="loadout_notification_incombat" rel_version="Feature_Gear_Set_Storage">Nie można zmieniać zestawów wyposażenia podczas walki</string>
 	<string key="loadout_notification_restricted" rel_version="Feature_Gear_Set_Storage">Obecnie nie można zmienić zestawu wyposażenia</string>
 	<string key="loadout_notification_renamefail" rel_version="Feature_Gear_Set_Storage">Nie udało się zmienić nazwy zestawu wyposażenia</string>
 	<string key="loadout_notification_renameinvalid" rel_version="Feature_Gear_Set_Storage">Nieprawidłowa nazwa zestawu wyposażenia</string>

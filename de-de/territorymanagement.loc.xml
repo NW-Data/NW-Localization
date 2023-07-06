@@ -158,7 +158,7 @@
 	<string key="ui_refining_fee_description">Das Veredeln von Rohstoffen in dem Gebiet kostet pro Rohstoff eine Gebühr.</string>
 	<string key="ui_edit">Bearb.</string>
 	<string key="ui_can_edit_in_time">Bearbeiten möglich in: {time}</string>
-	<string key="ui_can_pay_in_time">ZAHLUNG MÖGLICH IN: &lt;font color='#d7d7d7'&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_can_pay_in_time">Nächste Zahlung in: {time}</string>
 	<string key="ui_units_units">{units} Einheiten</string>
 	<string key="ui_kill">Töten</string>
 	<string key="ui_courier">Kurier</string>
@@ -217,10 +217,12 @@
 	<string key="ui_fortressinfo_siegewindow">Belagerungszeitfenster</string>
 	<string key="ui_fortressinfo_governedby">Beherrscht von</string>
 	<string key="ui_fortressinfo_controlledby">Kontrolliert von</string>
-	<string key="ui_fortressinfo_notclaimed">Die Festung wurde noch nicht beansprucht.</string>
-	<string key="ui_territoryinfo_notclaimed">Das Gebiet wurde noch nicht beansprucht.</string>
-	<string key="ui_territoryinfo_notclaimable">Dieses Gebiet kann nicht beansprucht werden.</string>
-	<string key="ui_settlementinfo_notclaimed">Die Siedlung wurde noch nicht beansprucht.</string>
+	<string key="ui_fortressinfo_notclaimed">Die Festung ist unbeansprucht.</string>
+	<string key="ui_territoryinfo_notclaimed">Das Gebiet ist unbeansprucht.</string>
+	<string key="ui_territoryinfo_notclaimable">Das Gebiet kann nicht beansprucht werden.</string>
+	<string key="ui_settlementinfo_notclaimed">Die Siedlung ist unbeansprucht.</string>
+	<string key="ui_territoryinfo_unenterable">Nicht verfügbar</string>
+	<string key="ui_territoryinfo_unenterabledescription">Du kannst das Gebiet nicht betreten.</string>
 	<string key="ui_fortressinfo_upcomingbattlelabel">Bevorstehendes Kampfereignis</string>
 	<string key="ui_fortressinfo_ongoingbattlelabel">Laufendes Kampfereignis</string>
 	<string key="ui_fortressinfo_noupcomingbattle">Es gibt keine bevorstehenden Kampfereignisse.</string>
@@ -242,16 +244,16 @@
 	<string key="ui_fortressinfo_invasionattackername">Verderbte</string>
 	<string key="ui_fortressinfo_timetodeclare">Zeit zur Kriegserklärung:</string>
 	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Angehalten (Invasion)</string>
-	<string key="ui_fortressinfo_conflictdescription">Du erlangst in diesem Gebiet &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;keinen Einfluss&lt;/font&gt; mehr, bis der Krieg beendet ist. (Alle anderen Fraktionsmissions-Belohnungen wie EP und Taler sind weiterhin erhältlich.)\n\nWenn mehrere Kompanien Einfluss beigesteuert haben, um den Krieg zu erklären, wird eine zufällig ausgewählt.</string>
+	<string key="ui_fortressinfo_conflictdescription">Du erlangst in diesem Gebiet &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;keinen Einfluss&lt;/font&gt; mehr, bis der Krieg beendet ist. (Alle anderen Fraktionsmissions-Belohnungen wie EP und Taler sind weiterhin erhältlich.)\n\nWenn mehrere Kompanien, die Einfluss ausgeübt haben, den Krieg erklären, wird eine zufällig ausgewählt.</string>
 	<string key="ui_fortressinfo_noconflict">Gebiet nicht im Krieg</string>
 	<string key="ui_fortressinfo_contributionnotrequired">Bisher hat noch keine Kompanie genug Einfluss beigesteuert. Jede Kompanie kann den Krieg erklären.</string>
 	<string key="ui_fortressinfo_hascontribution">Deine Kompanie HAT genug Einfluss beigesteuert, um den Krieg erklären zu können.</string>
 	<string key="ui_fortressinfo_insufficientcontribution">Deine Kompanie HAT NICHT genug Einfluss beigesteuert, um den Krieg erklären zu können.</string>
-	<string key="ui_fortressinfo_noconflictdescription">Damit ein Angreifer in diesem Gebiet den Krieg erklären kann, muss seine Fraktion zunächst genügend Gebietseinfluss aufbauen.</string>
+	<string key="ui_fortressinfo_noconflictdescription">Damit ein Angreifer in diesem Gebiet den Krieg erklären kann, muss seine Kompanie aus mindestens 25 Mitgliedern bestehen und seine Fraktion muss zunächst genügend Gebietseinfluss aufbauen.</string>
 	<string key="ui_fortressinfo_upcomingwarlabel">Krieg beginnt in:</string>
 	<string key="ui_fortressinfo_ongoingwarlabel">Krieg ist aktiv</string>
 	<string key="ui_fortressinfo_resolveingwarlabel">Krieg wird beigelegt</string>
-	<string key="ui_fortressinfo_atwardescription">Du erlangst in diesem Gebiet &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;keinen Einfluss&lt;/font&gt; mehr, bis der Krieg beendet ist. (Alle anderen Fraktionsmissions-Belohnungen wie EP und Gold sind weiterhin erhältlich.)</string>
+	<string key="ui_fortressinfo_atwardescription">Du erlangst in diesem Gebiet &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;keinen Einfluss&lt;/font&gt; mehr, bis der Krieg beendet ist. (Alle anderen Fraktionsmissions-Belohnungen wie EP und Gold sind weiterhin erhältlich).</string>
 	<string key="ui_township">Siedlung</string>
 	<string key="ui_fortress">Fort</string>
 	<string key="ui_complete">Abgeschlossen</string>
@@ -293,94 +295,94 @@
 	<string key="GenericGemCutT4">Geschliffene makellose Edelsteine</string>
 	<string key="ui_always_available_category">Immer verfügbare Kategorie ID &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
 	<string key="ui_always_available_projectId">Immer verfügbare Projekt ID &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_BlacksmithProjectId">Schmiede auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_BlacksmithProjectId2">Schmiede auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_BlacksmithProjectId3">Schmiede auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_SmeltingProjectId">Schmelzofen auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_SmeltingProjectId2">Schmelzofen auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_SmeltingProjectId3">Schmelzofen auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_CarpentryProjectId">Holzwerkstatt auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_CarpentryProjectId2">Holzwerkstatt auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_CarpentryProjectId3">Holzwerkstatt auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_MasonryProjectId">Steinmetztisch auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_MasonryProjectId2">Steinmetztisch auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_MasonryProjectId3">Steinmetztisch auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_WeavingProjectId">Webstuhl auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_WeavingProjectId2">Webstuhl auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_WeavingProjectId3">Webstuhl auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_TanningProjectId">Gerberei auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_TanningProjectId2">Gerberei auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_TanningProjectId3">Gerberei auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_EngineeringProjectId">Werkstatt auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_EngineeringProjectId2">Werkstatt auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_EngineeringProjectId3">Werkstatt auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_OutfittingProjectId">Kleidermacherei auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_OutfittingProjectId2">Kleidermacherei auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_OutfittingProjectId3">Kleidermacherei auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_AlchemistProjectId">Arkanumarchiv auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_AlchemistProjectId2">Arkanumarchiv auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_AlchemistProjectId3">Arkanumarchiv auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_CookingProjectId">Küche auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_CookingProjectId2">Küche auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_CookingProjectId3">Küche auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_FortGatesProjectId">Tore auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_FortGatesProjectId2">Tore auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_FortHardPointsProjectId">Montagepunkt auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_FortHardPointsProjectId2">Montagepunkt auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_BallistaProjectId">Balliste auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_BallistaProjectId2">Balliste auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_FireBarrelProjectId">Brennendes Ölfass auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_FireBarrelProjectId2">Brennendes Ölfass auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_RepeaterProjectId">Repetierer auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_RepeaterProjectId2">Repetierer auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_HornProjectId">Kriegshörner auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_HornProjectId2">Kriegshörner auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_ExplosiveProjectId">Kanonen auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_title_ExplosiveProjectId2">Kanonen auf Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId">Schmiede auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId2">Schmiede auf Rang 4 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId3">Schmiede auf Rang 5 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId">Schmelzofen auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId2">Schmelzofen auf Rang 4 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId3">Schmelzofen auf Rang 5 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId">Holzwerkstatt auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId2">Holzwerkstatt auf Rang 4 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId3">Holzwerkstatt auf Rang 5 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId">Steinmetztisch auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId2">Steinmetztisch auf Rang 4 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId3">Steinmetztisch auf Rang 5 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId">Webstuhl auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId2">Webstuhl auf Rang 4 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId3">Webstuhl auf Rang 5 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_TanningProjectId">Gerberei auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_TanningProjectId2">Gerberei auf Rang 4 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_TanningProjectId3">Gerberei auf Rang 5 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId">Werkstatt auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId2">Werkstatt auf Rang 4 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId3">Werkstatt auf Rang 5 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId">Kleidermacherei auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId2">Kleidermacherei auf Rang 4 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId3">Kleidermacherei auf Rang 5 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId">Arkanumarchiv auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId2">Arkanumarchiv auf Rang 4 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId3">Arkanumarchiv auf Rang 5 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_CookingProjectId">Küche auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_CookingProjectId2">Küche auf Rang 4 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_CookingProjectId3">Küche auf Rang 5 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId">Tore auf Rang 2 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId2">Tore auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId">Montagepunkt auf Rang 2 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId2">Montagepunkt auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId">Balliste auf Rang 2 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId2">Balliste auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId">Brennendes Ölfass auf Rang 2 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId2">Brennendes Ölfass auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId">Repetierer auf Rang 2 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId2">Repetierer auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_HornProjectId">Kriegshörner auf Rang 2 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_HornProjectId2">Kriegshörner auf Rang 3 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId">Kanonen auf Rang 2 aufrüsten</string>
-	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId2">Kanonen auf Rang 3 aufrüsten</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId3">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_SmeltingProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_SmeltingProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_SmeltingProjectId3">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_CarpentryProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_CarpentryProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_CarpentryProjectId3">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_MasonryProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_MasonryProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_MasonryProjectId3">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_WeavingProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_WeavingProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_WeavingProjectId3">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_TanningProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_TanningProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_TanningProjectId3">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_EngineeringProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_EngineeringProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_EngineeringProjectId3">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_OutfittingProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_OutfittingProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_OutfittingProjectId3">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_AlchemistProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_AlchemistProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_AlchemistProjectId3">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_CookingProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_CookingProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_CookingProjectId3">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_FortGatesProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_FortGatesProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_FortHardPointsProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_FortHardPointsProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_BallistaProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_BallistaProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_FireBarrelProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_FireBarrelProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_RepeaterProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_RepeaterProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_HornProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_HornProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_ExplosiveProjectId">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_title_ExplosiveProjectId2">Rang-&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId2">Rang-4-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId3">Rang-5-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId2">Rang-4-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId3">Rang-5-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId2">Rang-4-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId3">Rang-5-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId2">Rang-4-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId3">Rang-5-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId2">Rang-4-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId3">Rang-5-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId2">Rang-4-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId3">Rang-5-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId2">Rang-4-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId3">Rang-5-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId2">Rang-4-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId3">Rang-5-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId2">Rang-4-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId3">Rang-5-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId2">Rang-4-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId3">Rang-5-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId">Aufrüstung auf Rang 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId2">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId">Aufrüstung auf Rang 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId2">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId">Aufrüstung auf Rang 2</string>
+	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId2">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId">Aufrüstung auf Rang 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId2">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId">Aufrüstung auf Rang 2</string>
+	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId2">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_HornProjectId">Aufrüstung auf Rang 2</string>
+	<string key="ui_upgrade_titleNoMarkup_HornProjectId2">Rang-3-Aufrüstung</string>
+	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId">Aufrüstung auf Rang 2</string>
+	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId2">Rang-3-Aufrüstung</string>
 	<string key="ui_upgrade_button_BlacksmithProjectId">Schmiede Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_BlacksmithProjectId2">Schmiede Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_BlacksmithProjectId3">Schmiede Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
@@ -431,45 +433,45 @@
 	<string key="ui_upgrade_button_ExplosiveProjectId">Kanonen Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_ExplosiveProjectId2">Kanonen Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_ExplosiveProjectId3">Kanonen Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_BlacksmithProjectId">Rüste die Schmiede auf Rang 3 auf, um zusätzliche Baupläne und Schemata auf Rang 3 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_BlacksmithProjectId2">Rüste die Schmiede auf Rang 4 auf, um zusätzliche Baupläne und Schemata auf Rang 4 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_BlacksmithProjectId3">Rüste die Schmiede auf Rang 5 auf, um zusätzliche Baupläne und Schemata auf Rang 5 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_SmeltingProjectId">Rüste den Schmelzofen auf Rang 4 auf, ab dem er &lt;font color="#ffd058"&gt;Orichalcumbarren&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_SmeltingProjectId2">Rüste den Schmelzofen auf Rang 5 auf, ab dem er &lt;font color="#ffd058"&gt;Asmodeumbarren&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_CarpentryProjectId">Rüste die Holzwerkstatt auf Rang 4 auf, ab dem sie &lt;font color="#ffd058"&gt;Tropenholzbretter&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_CarpentryProjectId2">Rüste die Holzwerkstatt auf Rang 5 auf, ab dem sie &lt;font color="#ffd058"&gt;Glitzerndes Ebenholz&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_MasonryProjectId">Rüste den Steinmetztisch auf Rang 4 auf, ab dem er &lt;font color="#ffd058"&gt;Unheilsstein (Obsidian)&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_MasonryProjectId2">Rüste den Steinmetztisch auf Rang 5 auf, ab dem er &lt;font color="#ffd058"&gt;Runenstein&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_WeavingProjectId">Rüste den Webstuhl auf Rang 4 auf, ab dem er &lt;font color="#ffd058"&gt;Behandelte Seide&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_WeavingProjectId2">Rüste den Webstuhl auf Rang 5 auf, ab dem er &lt;font color="#ffd058"&gt;Phönixgeflecht&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_TanningProjectId">Rüste die Gerberei auf Rang 4 auf, ab dem sie &lt;font color="#ffd058"&gt;Behandeltes Leder&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_TanningProjectId2">Rüste die Gerberei auf Rang 5 auf, ab dem sie &lt;font color="#ffd058"&gt;Runenleder&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_EngineeringProjectId">Rüste die Werkstatt auf Rang 3 auf, um zusätzliche Baupläne und Schemata auf Rang 3 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_EngineeringProjectId2">Rüste die Werkstatt auf Rang 4 auf, um zusätzliche Baupläne und Schemata auf Rang 4 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_EngineeringProjectId3">Rüste die Werkstatt auf Rang 5 auf, um zusätzliche Baupläne und Schemata auf Rang 5 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_OutfittingProjectId">Rüste die Kleidermacherei auf Rang 3 auf, um zusätzliche Schemata auf Rang 3 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_OutfittingProjectId2">Rüste die Kleidermacherei auf Rang 4 auf, um zusätzliche Schemata auf Rang 4 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_OutfittingProjectId3">Rüste die Kleidermacherei auf Rang 5 auf, um zusätzliche Schemata auf Rang 5 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_AlchemistProjectId">Rüste das Arkanumarchiv auf Rang 3 auf, um zusätzliche Baupläne und Schemata auf Rang 3 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_AlchemistProjectId2">Rüste das Arkanumarchiv auf Rang 4 auf, um zusätzliche Baupläne und Schemata auf Rang 4 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_AlchemistProjectId3">Rüste das Arkanumarchiv auf Rang 5 auf, um zusätzliche Baupläne und Schemata auf Rang 5 und einen Rabatt auf die Azoth-Kosten zu erhalten.</string>
-	<string key="ui_upgrade_desc_CookingProjectId">Rüste die Küche auf Rang 3 auf, ab dem sie &lt;font color="#ffd058"&gt;Speisen mit Rang 3&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_CookingProjectId2">Rüste die Küche auf Rang 4 auf, ab dem sie &lt;font color="#ffd058"&gt;Speisen mit Rang 4&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_CookingProjectId3">Rüste die Küche auf Rang 5 auf, ab dem sie &lt;font color="#ffd058"&gt;Speisen mit Rang 5&lt;/font&gt; herstellen kann.</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId">Tore auf Rang 2 aufrüsten. Die Tore erhalten mehr Trefferpunkte.</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId2">Tore auf Rang 3 aufrüsten. Die Tore erhalten mehr Trefferpunkte.</string>
-	<string key="ui_upgrade_desc_FortHardPointsProjectId">Schaltet einen zusätzlichen Montagepunkt frei, an dem Geschütze (zum Beispiel Kanonen) Balliste, Brennendes Ölfass usw.) aufgestellt werden können.</string>
-	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Schaltet einen zusätzlichen Montagepunkt frei, an dem Geschütze (zum Beispiel Kanonen) Balliste, Brennendes Ölfass usw.) aufgestellt werden können.</string>
-	<string key="ui_upgrade_desc_BallistaProjectId">Rüste die Balliste auf Rang 2 auf. Nach der Aufrüstung werden alle existierenden Ballisten (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_BallistaProjectId2">Rüste die Balliste auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Ballisten (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId">Brennendes Ölfass auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden brennenden Ölfässer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId2">Brennendes Ölfass auf Rang 3 aufrüsten. Nach der Aufrüstung werden alle existierenden brennenden Ölfässer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId">Repetierer auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden Repetierer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId2">Repetierer auf Rang 3 aufrüsten. Nach der Aufrüstung werden alle existierenden Repetierer (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_HornProjectId">Kriegshörner auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden Kriegshörner (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Kriegshörner auf Rang 3 aufrüsten. Nach der Aufrüstung werden alle existierenden Kriegshörner (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId">Kanonen auf Rang 2 aufrüsten. Nach der Aufrüstung werden alle existierenden Kanonen (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId2">Rüste die Kanonen auf Rang 3 auf. Nach der Aufrüstung werden alle existierenden Kanonen (aufgestellt oder nicht) ebenfalls aufgerüstet.</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId">Schalte zusätzliche Baupläne und Schemata auf Rang 3 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId2">Schalte zusätzliche Baupläne und Schemata auf Rang 4 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId3">Schalte zusätzliche Baupläne und Schemata auf Rang 5 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_SmeltingProjectId">Stelle &lt;font color="#ffd058"&gt;Orichalcumbarren&lt;/font&gt; her.</string>
+	<string key="ui_upgrade_desc_SmeltingProjectId2">Stelle &lt;font color="#ffd058"&gt;Asmodeumbarren&lt;/font&gt; her.</string>
+	<string key="ui_upgrade_desc_CarpentryProjectId">Stelle &lt;font color="#ffd058"&gt;Tropenholzbretter&lt;/font&gt; her.</string>
+	<string key="ui_upgrade_desc_CarpentryProjectId2">Stelle &lt;font color="#ffd058"&gt;Glitzerndes Ebenholz&lt;/font&gt; her.</string>
+	<string key="ui_upgrade_desc_MasonryProjectId">Stelle &lt;font color="#ffd058"&gt;Unheilsstein (Obsidian)&lt;/font&gt; her.</string>
+	<string key="ui_upgrade_desc_MasonryProjectId2">Stelle &lt;font color="#ffd058"&gt;Runenstein&lt;/font&gt; her.</string>
+	<string key="ui_upgrade_desc_WeavingProjectId">Stelle &lt;font color="#ffd058"&gt;Behandelte Seide&lt;/font&gt; her.</string>
+	<string key="ui_upgrade_desc_WeavingProjectId2">Stelle &lt;font color="#ffd058"&gt;Phönixgeflecht&lt;/font&gt; her.</string>
+	<string key="ui_upgrade_desc_TanningProjectId">Stelle &lt;font color="#ffd058"&gt;Behandeltes Leder&lt;/font&gt; her.</string>
+	<string key="ui_upgrade_desc_TanningProjectId2">Stelle &lt;font color="#ffd058"&gt;Runenleder&lt;/font&gt; her.</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId">Schalte zusätzliche Baupläne und Schemata auf Rang 3 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId2">Schalte zusätzliche Baupläne und Schemata auf Rang 4 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId3">Schalte zusätzliche Baupläne und Schemata auf Rang 5 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId">Schalte zusätzliche Baupläne und Schemata auf Rang 3 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId2">Schalte zusätzliche Baupläne und Schemata auf Rang 4 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId3">Schalte zusätzliche Baupläne und Schemata auf Rang 5 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId">Schalte zusätzliche Baupläne und Schemata auf Rang 3 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId2">Schalte zusätzliche Baupläne und Schemata auf Rang 4 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId3">Schalte zusätzliche Baupläne und Schemata auf Rang 5 und einen Rabatt auf die Azoth-Kosten frei.</string>
+	<string key="ui_upgrade_desc_CookingProjectId">Bereite &lt;font color="#ffd058"&gt;Speisen mit Rang 3&lt;/font&gt; zu.</string>
+	<string key="ui_upgrade_desc_CookingProjectId2">Bereite &lt;font color="#ffd058"&gt;Speisen mit Rang 4&lt;/font&gt; zu.</string>
+	<string key="ui_upgrade_desc_CookingProjectId3">Bereite &lt;font color="#ffd058"&gt;Speisen mit Rang 5&lt;/font&gt; zu.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId">Erhöhe die Trefferpunkte von Toren.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId2">Erhöhe die Trefferpunkte von Toren.</string>
+	<string key="ui_upgrade_desc_FortHardPointsProjectId">Schaltet einen zusätzlichen Montagepunkt frei, an dem Balliste, Brennendes Ölfass usw. aufgestellt werden können.</string>
+	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Schaltet einen zusätzlichen Montagepunkt frei, an dem Balliste, Brennendes Ölfass usw. aufgestellt werden können.</string>
+	<string key="ui_upgrade_desc_BallistaProjectId">Außerdem werden alle existierenden Ballisten aufgerüstet.</string>
+	<string key="ui_upgrade_desc_BallistaProjectId2">Außerdem werden alle existierenden Ballisten aufgerüstet.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId">Außerdem werden alle existierenden brennenden Ölfässer aufgerüstet.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId2">Außerdem werden alle existierenden brennenden Ölfässer aufgerüstet.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId">Außerdem werden alle existierenden Repetierer aufgerüstet.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId2">Außerdem werden alle existierenden Repetierer aufgerüstet.</string>
+	<string key="ui_upgrade_desc_HornProjectId">Außerdem werden alle existierenden Kriegshörner aufgerüstet.</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Außerdem werden alle existierenden Kriegshörner aufgerüstet.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId">Außerdem werden alle existierenden Sprengstoffe aufgerüstet.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId2">Außerdem werden alle existierenden Sprengstoffe aufgerüstet.</string>
 	<string key="ui_event_project_endless">Endlos</string>
 	<string key="ui_territory_level">Gebietsstufe: {level}</string>
 	<string key="ui_enter_house">Haus ansehen</string>
@@ -520,17 +522,17 @@
 	<string key="ui_project_tooltip_upkeep_overdue">Solange die Gebietsunterhaltungskosten überfällig sind, kann kein Stadtprojekt begonnen werden.</string>
 	<string key="ui_notavailable">N/A</string>
 	<string key="ui_timelimit">ZEITLIMIT</string>
-	<string key="ui_minCompletionTime">MINDESTFERTIGSTELLUNGSZEITPUNKT</string>
+	<string key="ui_minCompletionTime">ABSCHLUSSZEIT</string>
 	<string key="ui_territoryinformation">Gebietsinformationen</string>
 	<string key="ui_territorylog">Gebietsjournal</string>
 	<string key="ui_territoryupkeep">Gebietsunterhaltungskosten</string>
 	<string key="ui_territoryupkeep_desc">Die Gebietsunterhaltungskosten müssen alle 7 Tage von der herrschenden Kompanie entrichtet werden, damit das Gebiet nicht herabgestuft wird.</string>
-	<string key="ui_territoryupkeep_overdue_base_desc">Die Gebietsunterhaltungskosten sind &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;überfällig.&lt;/font&gt; Effekt:</string>
+	<string key="ui_territoryupkeep_overdue_base_desc">Unterhaltskosten sind überfällig:</string>
 	<string key="ui_territoryupkeep_overdue_point1">Das Gebiet wird alle 24 Stunden heruntergestuft.</string>
 	<string key="ui_territoryupkeep_overdue_point2">Kompanie- und Fraktionsboni sind deaktiviert.</string>
 	<string key="ui_territoryupkeep_overdue_point3">Die herrschende Kompanie kann kein Stadtprojekt beginnen.</string>
 	<string key="ui_territoryupkeep_overdue_desc">Die Gebietsunterhaltungskosten sind &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;überfällig&lt;/font&gt;.\nDas Gebiet wird alle 24 Stunden heruntergestuft, bis die Unterhaltungskosten entrichtet wurden.</string>
-	<string key="ui_territoryupkeep_overdue_noupgrade_desc">Die Gebietsunterhaltungskosten sind &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;überfällig&lt;/font&gt;&lt;/font&gt;.\nDie herrschende Kompanie kann kein Stadtprojekt beginnen.</string>
+	<string key="ui_territoryupkeep_overdue_noupgrade_desc">Die Gebietsunterhaltungskosten sind &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;überfällig&lt;/font&gt;.&lt;/font&gt;\nDie herrschende Kompanie kann kein Stadtprojekt beginnen.</string>
 	<string key="ui_companypaycheck">Gehälter</string>
 	<string key="ui_companypaycheck_desc">Die herrschende Kompanie erhält Einnahmen aus Steuern und Gebühren.</string>
 	<string key="ui_taxandfee">Steuern und Gebühren</string>
@@ -546,7 +548,7 @@
 	<string key="ui_view_current_goal">Aktuelles Ziel ansehen</string>
 	<string key="ui_governorsdesk">Büro des Gouverneurs</string>
 	<string key="ui_governorsdesk_desc">Hier legt die herrschende Kompanie die Gebietssteuer fest und entrichtet die Unterhaltskosten.</string>
-	<string key="ui_upkeep_tooltip">Sollte die herrschende Kompanie die Unterhaltungskosten nicht rechtzeitig entrichten, &lt;font color="#e8a015"&gt;wird ein zufälliger Teil des Gebiets herabgestuft.&lt;/font&gt;</string>
+	<string key="ui_upkeep_tooltip">Sollte die herrschende Kompanie die Unterhaltungskosten nicht rechtzeitig entrichten, &lt;font color="#e8a015"&gt;wird ein zufälliger Teil des Gebiets herabgestuft&lt;/font&gt;.</string>
 	<string key="ui_payroll_title">Kompaniegehälter</string>
 	<string key="ui_payroll_tooltip">Die herrschende Kompanie erhält Einnahmen aus Steuern und Gebühren.</string>
 	<string key="ui_firstdayofcycle">Erster Tag des Zyklus</string>
@@ -579,7 +581,7 @@
 	<string key="ui_no_territory_upgrade">Ein Gebiet, das keine einzige Aufrüstung besitzt, erfordert keine Gebietsunterhaltungskosten.</string>
 	<string key="ui_overdue">Überfällig</string>
 	<string key="ui_no_upgrade_desc">Ein Gebiet, das &lt;font color="#ffffff"&gt;keine einzige Aufrüstung&lt;/font&gt; besitzt, erfordert keine Gebietsunterhaltungskosten.</string>
-	<string key="ui_payroll_bottom_desc">Die Kompanieeinnahmen werden automatisch auf das Kompaniekonto eingezahlt.</string>
+	<string key="ui_payroll_bottom_desc">Wird automatisch auf das Kompaniekonto eingezahlt.</string>
 	<string key="ui_change">Ändern</string>
 	<string key="ui_until_end">Abgeschlossen! Nächstes verfügbar in</string>
 	<string key="ui_until_end_return">Abgeschlossen!\nNeues Projekt verfügbar in</string>
@@ -620,10 +622,10 @@
 	<string key="ui_darkness_threshold_1">Niedrig</string>
 	<string key="ui_darkness_threshold_2">Mittel</string>
 	<string key="ui_darkness_threshold_3">Hoch</string>
-	<string key="ui_darkness_threshold_desc_0">&lt;font color="#e1ddd4"&gt;Kein&lt;/font&gt; Verderbnisausbruch vorhanden</string>
-	<string key="ui_darkness_threshold_desc_1">&lt;font color="#ffd45f"&gt;Geringer&lt;/font&gt; Verderbnisausbruch kann auftreten</string>
-	<string key="ui_darkness_threshold_desc_2">&lt;font color="#f67817"&gt;Geringer und starker&lt;/font&gt; Verderbnisausbruch kann auftreten</string>
-	<string key="ui_darkness_threshold_desc_3">&lt;font color="#f25d5d"&gt;Maximale Anzahl&lt;/font&gt; an Verderbnisausbrüchen vorhanden</string>
+	<string key="ui_darkness_threshold_desc_0">Keine Verderbnisausbrüche vorhanden.</string>
+	<string key="ui_darkness_threshold_desc_1">Gering: Es können Verderbnisausbrüche auftreten.</string>
+	<string key="ui_darkness_threshold_desc_2">Gering und Hoch: Es können Verderbnisausbrüche auftreten.</string>
+	<string key="ui_darkness_threshold_desc_3">Maximale Anzahl an Verderbnisausbrüchen vorhanden.</string>
 	<string key="ui_plan_territory">Gebiet planen</string>
 	<string key="ui_upgrade_town">Stadt aufrüsten</string>
 	<string key="ui_upgrade_fort">Fort aufrüsten</string>
@@ -641,7 +643,7 @@
 	<string key="ui_cancel_mission">Mission abbrechen</string>
 	<string key="ui_complete_mission">Mission abschließen</string>
 	<string key="ui_complete_all_missions">Alle Missionen abschließen</string>
-	<string key="ui_lifestyle_panel_description">Beginne ein Stadtprojekt, um allen Spielern, &lt;font color="#edd05c"&gt;die ein Haus in dem Gebiet haben&lt;/font&gt;, einen langanhaltenden Bonus zu verleihen.</string>
+	<string key="ui_lifestyle_panel_description">Beginne ein Stadtprojekt, um allen Spielern, die ein Haus in dem Gebiet haben, einen Bonus zu verleihen.</string>
 	<string key="lifestyle_gathering_buff">Sammelbonus</string>
 	<string key="lifestyle_combat_buff">Kampfbonus</string>
 	<string key="lifestyle_crafting_buff">Herstellungsbonus</string>
@@ -652,19 +654,19 @@
 	<string key="ui_territory_influence">Gebietseinfluss</string>
 	<string key="ui_territory_governed_by_label">Gebiet wird kontrolliert von:</string>
 	<string key="ui_AlwaysAvailableProjectId">Stadtunterhaltungskosten</string>
-	<string key="lifestyle_title_LumberJackSpiritProjectId">Geist der Holzfäller aktivieren</string>
-	<string key="lifestyle_title_MinersResolveProjectId">Entschlossenheit der Bergleute aktivieren</string>
-	<string key="lifestyle_title_HuntersBountyProjectId">Prämie der Jäger aktivieren</string>
-	<string key="lifestyle_title_FarmersHarvestProjectId">Ernteerfolg der Bauern aktivieren</string>
-	<string key="lifestyle_title_ArcaneBlessingProjectId">Arkaner Segen aktivieren</string>
-	<string key="lifestyle_title_HaleAndHeartyProjectId">Kerngesund aktivieren</string>
-	<string key="lifestyle_title_StalwartProjectId">Standhaftigkeit aktivieren</string>
-	<string key="lifestyle_title_OutfittersInspirationProjectId">Inspiration der Rüstungsschmiede aktivieren</string>
-	<string key="lifestyle_title_BlacksmithTemperamentProjectId">Temperament der Waffenschmiede aktivieren</string>
-	<string key="lifestyle_title_ArcaneWisdomProjectId">Weisheit der Arkanisten aktivieren</string>
-	<string key="lifestyle_title_ChefsPassionProjectId">Hingabe der Köche aktivieren</string>
-	<string key="lifestyle_title_EngineersPatienceProjectId">Geduld der Ingenieure aktivieren</string>
-	<string key="lifestyle_title_FishermansFortuneProjectId">Fischers Funde aktivieren</string>
+	<string key="lifestyle_title_LumberJackSpiritProjectId">Geist der Holzfäller</string>
+	<string key="lifestyle_title_MinersResolveProjectId">Entschlossenheit der Bergleute</string>
+	<string key="lifestyle_title_HuntersBountyProjectId">Prämie der Jäger</string>
+	<string key="lifestyle_title_FarmersHarvestProjectId">Ernteerfolg der Bauern</string>
+	<string key="lifestyle_title_ArcaneBlessingProjectId">Arkaner Segen</string>
+	<string key="lifestyle_title_HaleAndHeartyProjectId">Kerngesund</string>
+	<string key="lifestyle_title_StalwartProjectId">Standhaftigkeit</string>
+	<string key="lifestyle_title_OutfittersInspirationProjectId">Inspiration der Rüstungsschmiede</string>
+	<string key="lifestyle_title_BlacksmithTemperamentProjectId">Temperament der Waffenschmiede</string>
+	<string key="lifestyle_title_ArcaneWisdomProjectId">Weisheit der Arkanisten</string>
+	<string key="lifestyle_title_ChefsPassionProjectId">Hingabe der Köche</string>
+	<string key="lifestyle_title_EngineersPatienceProjectId">Geduld der Ingenieure</string>
+	<string key="lifestyle_title_FishermansFortuneProjectId">Fischers Funde</string>
 	<string key="lifestyle_button_LumberJackSpiritProjectId">Geist der Holzfäller</string>
 	<string key="lifestyle_button_MinersResolveProjectId">Entschlossenheit der Bergleute</string>
 	<string key="lifestyle_button_HuntersBountyProjectId">Prämie der Jäger</string>
@@ -678,18 +680,18 @@
 	<string key="lifestyle_button_ChefsPassionProjectId">Hingabe der Köche</string>
 	<string key="lifestyle_button_EngineersPatienceProjectId">Geduld der Ingenieure</string>
 	<string key="lifestyle_button_FishermansFortuneProjectId">Fischers Funde</string>
-	<string key="lifestyle_desc_LumberJackSpiritProjectId">Erhöht die Menge beim Holzfällen für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt; um &lt;font color="#ffffff"&gt;20 %&lt;/font&gt;.</string>
-	<string key="lifestyle_desc_MinersResolveProjectId">Erhöht die Menge beim Bergbau für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt; um &lt;font color="#ffffff"&gt;20 %&lt;/font&gt;.</string>
-	<string key="lifestyle_desc_HuntersBountyProjectId">Erhöht die Menge beim Häuten für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt; um &lt;font color="#ffffff"&gt;20 %&lt;/font&gt;.</string>
-	<string key="lifestyle_desc_FarmersHarvestProjectId">Erhöht die Menge bei der Erntearbeit für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt; um &lt;font color="#ffffff"&gt;20 %&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_LumberJackSpiritProjectId">Erhöht den Holzfällerertrag für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt; um &lt;font color="#ffffff"&gt;20 %&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_MinersResolveProjectId">Erhöht den Bergbauertrag für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt; um &lt;font color="#ffffff"&gt;20 %&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_HuntersBountyProjectId">Erhöht den Häuteertrag für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt; um &lt;font color="#ffffff"&gt;20 %&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_FarmersHarvestProjectId">Erhöht den Erntearbeitsertrag für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt; um &lt;font color="#ffffff"&gt;20 %&lt;/font&gt;.</string>
 	<string key="lifestyle_desc_ArcaneBlessingProjectId">Erhöht die Absorption von Verderbnisschaden für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt; um &lt;font color="#ffffff"&gt;5 %&lt;/font&gt;.</string>
 	<string key="lifestyle_desc_HaleAndHeartyProjectId">Erhöht die Grund-LP für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt; um &lt;font color="#ffffff"&gt;10 %&lt;/font&gt;.</string>
 	<string key="lifestyle_desc_StalwartProjectId">Erhöht die Verteidigungserholung für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt; um &lt;font color="#ffffff"&gt;20 %&lt;/font&gt;.</string>
-	<string key="lifestyle_desc_OutfittersInspirationProjectId">Erhöht den Herstellungs-Rüstwert für Rüstungsschmiede für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt;.</string>
-	<string key="lifestyle_desc_BlacksmithTemperamentProjectId">Erhöht den Herstellungs-Rüstwert für Waffenschmiede für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt;.</string>
-	<string key="lifestyle_desc_ArcaneWisdomProjectId">Erhöht den Herstellungs-Rüstwert für Arkanisten für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt;.</string>
-	<string key="lifestyle_desc_ChefsPassionProjectId">Erhöht die Wahrscheinlichkeit, zusätzliche Mahlzeiten zu kochen, für &lt;font color="#ffffff"&gt;3 Tage.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_EngineersPatienceProjectId">Erhöht den Herstellungs-Rüstwert für Ingenieure für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_OutfittersInspirationProjectId">Erhöht den Rüstwert für Rüstungsschmiede für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_BlacksmithTemperamentProjectId">Erhöht den Rüstwert für Waffenschmiede für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_ArcaneWisdomProjectId">Erhöht den Rüstwert für Arkanisten für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_ChefsPassionProjectId">Erhöht die Wahrscheinlichkeit, zusätzliche Mahlzeiten zu kochen, für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_EngineersPatienceProjectId">Erhöht den Rüstwert für Ingenieure für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt;.</string>
 	<string key="lifestyle_desc_FishermansFortuneProjectId">Erhöht die Angelerfolgschancen für &lt;font color="#ffffff"&gt;3 Tage&lt;/font&gt;.</string>
 	<string key="ui_your_standing">Dein Ruf</string>
 	<string key="ui_station_tier">Rang &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{tier}&lt;/font&gt;</string>

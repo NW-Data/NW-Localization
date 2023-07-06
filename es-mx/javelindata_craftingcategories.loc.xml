@@ -203,8 +203,8 @@
 	<string key="HousingTrdG_Cabinets_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Armarios</string>
 	<string key="HousingTrdG_Cabinets_GroupDesc" comment="Housing Furniture - Trading Post - TradingGroup">Armarios de vivienda</string>
 	<string key="HousingTrdG_Veg_GroupName" comment="Housing Furniture - Trading Post - TradingGroup">Plantas</string>
-	<string key="1hHatchet_GroupDesc">Un arma diversa que permite ataques de lanzamiento a distancia o ataques rápidos en ambientes cerrados. Ideal para los combates cuerpo a cuerpo en ambientes cerrados o combates de medio alcance tácticos.\n\n•Ataque liviano: Causa un {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % de daño de corte.\n•Golpe final ligero: Causa un {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Causa un {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado cargado: Causa un {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % de daño de corte.</string>
 	<string key="1hHatchet_GroupName">Hachuelas fabricadas</string>
+	<string key="1hHatchet_GroupDesc">Un arma diversa que permite ataques de lanzamiento a distancia o ataques rápidos en ambientes cerrados. Ideal para los combates cuerpo a cuerpo en ambientes cerrados o combates de medio alcance tácticos.\n\n•Ataque liviano: Causa un {[DamageTable.Hatchet_Damage_PrimaryAttack.DmgCoef * 100]} % de daño de corte.\n•Golpe final ligero: Causa un {[DamageTable.Hatchet_Damage_PrimaryAttack_Ender.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado: Causa un {[DamageTable.Hatchet_Damage_HeavyAttack.DmgCoef * 100]} % de daño de corte.\n•Ataque pesado cargado: Causa un {[DamageTable.Hatchet_Damage_HeavyAttack_Charged.DmgCoef * 100]} % de daño de corte.</string>
 	<string key="1hHatchetAngryEarth_GroupName">Hachuelas primitivas</string>
 	<string key="1hHatchetB_GroupName">Hachuelas de hierro templado</string>
 	<string key="1hHatchetBeast_GroupName">Hachuelas antiguas</string>
@@ -1408,7 +1408,7 @@
 	<string key="MoonstoneCut_GroupDesc">Gemas de piedra de luna cortadas y pulidas. Se pueden usar para elaborar una joya para aumentar la fuerza y la concentración, o se pueden engarzar en una pieza de equipamiento para obtener los beneficios de revancha y de protección contra los cortes.</string>
 	<string key="MoonstoneCut_GroupName">Piedra de luna cortada</string>
 	<string key="MusketA_GroupDesc">Un arma de ataque a distancia que dispara cartuchos que causan mucho daño. Es ideal para mantener la distancia con los objetivos y el combate de largo alcance, dado que es muy eficaz con una puntería precisa.\n\n•Ataque común: Causa un {[DamageTable.MusketAttack1.DmgCoef * 100]} % de daño de empuje.</string>
-	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Un arma de ataque a distancia en ambientes cerrados que lanza 6 perdigones en un mismo disparo. Es ideal para mantener la presión sobre los objetivos en luchas cuerpo a cuerpo y para tener bien cerca a los objetivos a distancia.\n\n•Ataque estándar: Causa un {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % de daño de empuje por perdigón.</string>
+	<string key="Blunderbuss_GroupDesc" rel_version="Weapon_Blunderbuss">Un arma de ataque a distancia en ambientes cerrados que lanza 6 perdigones en un mismo disparo. Es ideal para mantener la presión sobre los objetivos en luchas cuerpo a cuerpo y para tener bien cerca a los objetivos a distancia.\n\n•Ataque estándar: Causa un {[DamageTable.Blunderbuss_Primary_Attack.DmgCoef * 100]} % de daño de empuje por perdigón ({[DamageTable.Blunderbuss_Primary_Attack_TooltipValue.DmgCoef * 100]} % del total de los 6 perdigones)</string>
 	<string key="MusketA_GroupName">Mosquete</string>
 	<string key="Muskets_GroupName">Mosquetes</string>
 	<string key="nut_GroupName">Nueces</string>
@@ -1959,5 +1959,19 @@
 	<string key="CoatingAeternian_GroupDesc" rel_version="Season_1_Perm">Solo PvE: Revestimientos que aumentan el daño contra los humanos (que no sean perdidos o corrompidos).</string>
 	<string key="CoatingAeternian_GroupName" rel_version="Season_1_Perm">Revestimiento contra humanos</string>
 	<string key="OverchargedCasts_GroupName">Lanzamientos de aljez sobrecargados</string>
+	<string key="PVPReplicas_GroupName">Réplicas de PvP</string>
+	<string key="PVPReplicaWeapon_GroupName">Réplicas de armas toscas</string>
+	<string key="PVPReplicaLightArmor_GroupName">Réplicas de armaduras livianas toscas</string>
+	<string key="PVPReplicaMediumArmor_GroupName">Réplicas de armaduras medianas toscas</string>
+	<string key="PVPReplicaHeavyArmor_GroupName">Réplicas de armaduras pesadas toscas</string>
+	<string key="TrialCrafting_GroupName" rel_version="Season_2_Perm">Fabricación de prueba</string>
+	<string key="TheHatchery_GroupName" rel_version="Season_2_Perm">La incubadora</string>
+	<string key="GypsumLegendaryCasts_GroupName" rel_version="Season_2_Perm">Lanzamientos de aljez legendarios</string>
+	<string key="PatternWeapon_GroupName">Patrones de armas</string>
+	<string key="PatternArmorHeavy_GroupName" rel_version="Season_2_Perm">Patrones de armadura pesada</string>
+	<string key="PatternArmorMedium_GroupName" rel_version="Season_2_Perm">Patrones de armadura mediana</string>
+	<string key="PatternArmorLight_GroupName" rel_version="Season_2_Perm">Patrones de armadura liviana</string>
+	<string key="TrialNamedReplicas_GroupName" rel_version="Season_2_Perm">Réplicas de pruebas de élite</string>
+	<string key="UniqueEliteTrialReplicas1_GroupName" rel_version="Season_2_Perm">Réplicas de pruebas de gusano de arena únicas</string>
 </resources>
 

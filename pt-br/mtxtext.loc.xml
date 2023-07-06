@@ -5,7 +5,7 @@
 	<string key="marketing_new" rel_version="Feature_MTX">Novo!</string>
 	<string key="marketing_sale" rel_version="Feature_MTX">Promoção!</string>
 	<string key="ui_credits_purchase" rel_version="Feature_MTX">Comprar créditos</string>
-	<string key="ui_credit_purchase_suggest" rel_version="Feature_MTX">Você precisa de &lt;font color="#ffae00"&gt;{amount} Marcas da Sorte&lt;/font&gt; para comprar &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{product}&lt;/font&gt;.</string>
+	<string key="ui_credit_purchase_suggest" rel_version="Feature_MTX">Você precisa de mais &lt;font color={color}&gt;{amount} Marcas da Sorte&lt;/font&gt; para comprar &lt;font color={color}&gt;{product}&lt;/font&gt;.</string>
 	<string key="ui_featureddeals" rel_version="Feature_MTX">Ofertas em destaque</string>
 	<string key="ui_consumables" rel_version="Feature_MTX">Consumíveis</string>
 	<string key="ui_armorskins" rel_version="Feature_MTX">Aparências para Vestimenta</string>
@@ -66,6 +66,7 @@
 	<string key="reward_type_marks_of_fortune" rel_version="Feature_MTX">Marcas da Sorte</string>
 	<string key="reward_type_service" rel_version="Feature_MTX">Transferência de Mundo ou Região (Uso Único)</string>
 	<string key="reward_type_loadout" rel_version="Feature_Gear_Set_Storage">Conjunto de Equipamento</string>
+	<string key="reward_type_transmog" rel_version="Season_2_Perm">Token de Alteração de Aparência</string>
 	<string key="entitlement_included" rel_version="Feature_MTX">Incluído</string>
 	<string key="ui_account_bound" rel_version="Feature_MTX">Todos os itens são vinculados à conta (não negociáveis) e não reembolsáveis</string>
 	<string key="ui_account_bound_tooltip" rel_version="Feature_MTX">Todos os itens são vinculados à conta (podem ser usados em todos os seus personagens) e não podem ser descartados, negociados ou vendidos no Entreposto Comercial. Todos os itens também não são reembolsáveis.\n\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font" &gt;Itens consumíveis: &lt;/font&gt; Esses itens têm uso limitado; se você usar um deles em um personagem específico, a quantidade será reduzida em toda a conta. Por exemplo, se você tiver cinco tinturas e usar uma delas em um personagem, os outros personagens da mesma conta também ficarão com quatro tinturas restantes.</string>
@@ -119,7 +120,8 @@
 	<string key="reward_type_tooltip_itemskin" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;APARÊNCIAS DE ITEM&lt;/font&gt;: Você pode aplicar uma aparência ao clicar em armaduras, ferramentas e armas no inventário e selecionar “Alterar Aparência”.</string>
 	<string key="reward_type_tooltip_campskin" rel_version="Feature_Camp_Skins">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;APARÊNCIAS DE ACAMPAMENTO&lt;/font&gt;: Você pode aplicar a aparência ao selecionar “Alterar Aparência” no seu acampamento.</string>
 	<string key="reward_type_tooltip_itemdye" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TINTURAS&lt;/font&gt;: Você pode usar uma tintura ao clicar em armaduras no inventário e selecionar “Tingir Armadura”.</string>
-	<string key="reward_type_tooltip_token" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;AMPLIFICADORES&lt;/font&gt;: Você pode usar um amplificador ao abrir o menu Amplificadores em seu inventário.</string>
+	<string key="reward_type_tooltip_token" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;AMPLIFICADORES&lt;/font&gt;: Você pode usar um amplificador ao abrir o menu Aumentos em seu inventário.</string>
+	<string key="reward_type_tooltip_permit" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;PERMISSÕES DE GESTOS&lt;/font&gt;: Você pode usar uma Permissão de Gesto ao abrir o menu Aumentos em seu inventário.</string>
 	<string key="reward_type_tooltip_guildcrest" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;BRASÕES&lt;/font&gt;: Você pode aplicar brasões na tela da Companhia.</string>
 	<string key="reward_type_tooltip_housing_item" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;ITENS DA CASA&lt;/font&gt;: Você pode posicionar itens da casa no Modo Decoração quando estiver em sua casa.</string>
 	<string key="reward_type_tooltip_player_title" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TÍTULOS&lt;/font&gt;: Você pode aplicar um título na guia Biografia do menu de Personagem, na opção “Alterar Título”.</string>
@@ -129,12 +131,14 @@
 	<string key="reward_type_tooltip_marks_of_fortune" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;MARCAS DA SORTE&lt;/font&gt;: Você pode usar esta moeda na Loja para comprar um produto.</string>
 	<string key="reward_type_tooltip_service" rel_version="Feature_MTX">Se seu personagem atender a todos os requisitos para a transferência, selecione um mundo e/ou região para se transferir.</string>
 	<string key="reward_type_tooltip_loadout" rel_version="Feature_Gear_Set_Storage">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;CONJUNTO DE EQUIPAMENTO&lt;/font&gt;: Você pode atribuir itens a um novo espaço de Conjunto de Equipamento do seu inventário.</string>
+	<string key="reward_type_tooltip_transmog" rel_version="Season_2_Perm">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TOKEN DE ALTERAÇÃO DE APARÊNCIA&lt;/font&gt;: Você pode usar este token para desbloquear aparências no Estilomante.</string>
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Aviso:&lt;/font&gt; Brasões da Companhia só podem ser usados se você for o governador (criador) da companhia.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Conteúdo Indisponível</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Este conteúdo não está disponível no momento.</string>
 	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Adquira New World para acessar a loja.</string>
 	<string key="ui_preview_emote">Pré-visualizar Gesto</string>
 	<string key="ui_preview_skin">Pré-visualização da Aparência</string>
+	<string key="ui_preview_cooldown">Tempo de Recarga de Pré-visualização: {timeRemaining}</string>
 	<string key="ui_end_preview">Encerrar pré-visualização</string>
 	<string key="ui_preview_item_withname">Pré-visualização de {itemName}</string>
 	<string key="ui_limited_time">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Tempo limitado&lt;/font&gt;</string>
@@ -168,8 +172,8 @@
 	<string key="ui_transaction_failed">A transação falhou.</string>
 	<string key="ui_transaction_timed_out">A transação expirou. Tentar novamente?</string>
 	<string key="ui_transaction_timeout_overlay">A transação expirou.\nCertifique-se de que o painel Steam esteja habilitado.</string>
-	<string key="ui_bonus_marks">{base} + Bônus de {bonus} =</string>
-	<string key="ui_bonus_percent">Bônus de {bonusPct}%!</string>
+	<string key="ui_bonus_marks">({base} &lt;font color={color}&gt;+ {bonus})&lt;/font&gt;</string>
+	<string key="ui_bonus_percent">Bônus de {bonusPct}%</string>
 	<string key="ui_how_to_use">Como Utilizar</string>
 	<string key="ui_notification_unlock_desc">Itens foram adicionados à sua conta.</string>
 	<string key="ui_notification_unlock_title">Desbloqueou!</string>
@@ -492,7 +496,7 @@
 	<string key="server_transfer_change_world" rel_version="Feature_Server_Transfer">Mudar de Mundo</string>
 	<string key="server_transfer_select_world" rel_version="Feature_Server_Transfer">Selecionar Mundo</string>
 	<string key="server_transfer_select_region" rel_version="Feature_Server_Transfer">Selecionar Região</string>
-	<string key="server_transfer_change_world_tooltip" rel_version="Feature_Server_Transfer">Você pode mudar de mundo se conectando com seu personagem e acessando a loja do jogo na seção “Transferência de Mundo”.</string>
+	<string key="server_transfer_change_world_tooltip" rel_version="Feature_Server_Transfer">Você pode mudar de mundo se conectando com seu personagem e acessando a loja do jogo na seção “Transferência de Personagem”.</string>
 	<string key="server_transfer_maintenance" rel_version="Feature_Server_Transfer">Você não pode se transferir para um mundo em manutenção.</string>
 	<string key="server_transfer_requirements_company" rel_version="Feature_Server_Transfer">Você não pode ser membro de uma Companhia nem ter convites pendentes de Companhia.</string>
 	<string key="server_transfer_requirements_tradingPost" rel_version="Feature_Server_Transfer">Você não pode ter pedidos de compra ou venda de Entreposto Comercial ativos.</string>
@@ -980,15 +984,15 @@
 	<string key="Bundle_PR_WinterDragon_Weapons_description" rel_version="Weapon_Winter_Greatsword">Abra caminho pela neve mais profunda do inverno.</string>
 	<string key="reward_type_token" rel_version="Entitlements_FirelightSeason">Pacote de Amplificador</string>
 	<string key="Token_Proficiency_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificador de Proficiência</string>
-	<string key="Token_Proficiency_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente o rendimento de Extração de Madeira, Mineração, Colheita e Esfolamento de um personagem em 10% por 90 minutos.\n\nO uso é pausado durante os modos de jogo instanciados.</string>
+	<string key="Token_Proficiency_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente o rendimento de Extração de Madeira, Mineração, Colheita e Esfolamento de um personagem em 10% por 90 minutos de tempo de jogo.\n\nO uso é pausado durante Investidas do Posto Avançado.</string>
 	<string key="Token_WeaponXP_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificador de EXP de Armas</string>
-	<string key="Token_WeaponXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente a experiência de Arma obtida de um personagem em 100% por 2 horas.\n\nO uso é pausado durante os modos PvP instanciados.</string>
+	<string key="Token_WeaponXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente o ganho de experiência de Arma de um personagem em 100% por 2 horas de tempo de jogo.</string>
 	<string key="Token_TerritoryStanding_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificador de Posição do Território</string>
-	<string key="Token_TerritoryStanding_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente a experiência de Posição do Território obtida de um personagem em 100% por 2 horas.\n\nO uso é pausado durante os modos de jogo instanciados.</string>
+	<string key="Token_TerritoryStanding_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente o ganho de Posição do Território de um personagem em 100% por 2 horas de tempo de jogo.</string>
 	<string key="Token_SeasonXP_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificador de EXP da Temporada</string>
-	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente a geração passiva de experiência da Temporada de um personagem em 100% por 2 horas.</string>
+	<string key="Token_SeasonXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente a geração passiva de experiência da Temporada de um personagem em 100% por 2 horas de tempo de jogo.</string>
 	<string key="Token_GatheringXP_Boost_name" rel_version="Entitlements_FirelightSeason">Amplificador de EXP de Coleta</string>
-	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente a experiência de Extração de Madeira, Colheita e Esfolamento obtida de um personagem em 100% por 2 horas. Não se aplica a níveis de Aptidão.\n\nO uso é pausado durante os modos de jogo instanciados.</string>
+	<string key="Token_GatheringXP_Boost_description" rel_version="Entitlements_FirelightSeason">Aumente a experiência de Extração de Madeira, Mineração, Colheita e Esfolamento obtida de um personagem em 100% por 2 horas de tempo de jogo. Não se aplica a níveis de Aptidão.</string>
 	<string key="Apparel_OmensOfWinter_Owl_name" rel_version="Apparel_OmensWinter_1">Coruja de Cailleach</string>
 	<string key="Apparel_OmensOfWinter_Cat_name" rel_version="Apparel_OmensWinter_2">Lince-parda Imbolc</string>
 	<string key="Bundle_PR_OmensOfWinter_Apparel_name" rel_version="Bundle_OmensWinter_Apparel">Conjunto de Vestimenta Presságios do Inverno</string>
@@ -1037,15 +1041,19 @@
 	<string key="reward_type_Toolskin_harvestingsickle">Aparência de Foice de Colheita</string>
 	<string key="reward_type_Toolskin_azothstaff">Aparência de Bastão de Azoth</string>
 	<string key="Token_PremiumEmote_Firework1_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício de Flores</string>
-	<string key="Token_PremiumEmote_Firework1_description" rel_version="Feature_Premium_Emotes">Uma explosão de cores deslumbrante! Permite o uso do gesto de fogo de artifício Foguete de Flor por 2 horas.\n\nO uso é pausado durante os modos de jogo instanciados.</string>
+	<string key="Token_PremiumEmote_Firework1_description" rel_version="Feature_Premium_Emotes">Uma explosão de cores deslumbrante! Permite o uso do gesto de fogo de artifício Foguete de Flor por 2 horas.\n\nVocê pode usar uma Permissão de Gesto ao abrir o menu Aumentos em seu inventário.</string>
 	<string key="Token_PremiumEmote_Firework2_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício da Dinastia</string>
-	<string key="Token_PremiumEmote_Firework2_description" rel_version="Feature_Premium_Emotes">Diversão do feriado na cor vermelha! Permite o uso do gesto de fogo de artifício Foguete da Dinastia por 2 horas.\n\nO uso é pausado durante os modos de jogo instanciados.</string>
+	<string key="Token_PremiumEmote_Firework2_description" rel_version="Feature_Premium_Emotes">Diversão do feriado na cor vermelha! Permite o uso do gesto de fogo de artifício Foguete da Dinastia por 2 horas.\n\nVocê pode usar uma Permissão de Gesto ao abrir o menu Aumentos em seu inventário.</string>
 	<string key="Token_PremiumEmote_Firework3_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício dos Dríades</string>
-	<string key="Token_PremiumEmote_Firework3_description" rel_version="Feature_Premium_Emotes">Uma explosão de esmeraldas! Permite o uso do gesto de fogo de artifício Foguete de Dríade por 2 horas.\n\nO uso é pausado durante os modos de jogo instanciados.</string>
+	<string key="Token_PremiumEmote_Firework3_description" rel_version="Feature_Premium_Emotes">Uma explosão de esmeraldas! Permite o uso do gesto de fogo de artifício Foguete de Dríade por 2 horas.\n\nVocê pode usar uma Permissão de Gesto ao abrir o menu Aumentos em seu inventário.</string>
 	<string key="Token_PremiumEmote_Firework4_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício dos Anciões</string>
-	<string key="Token_PremiumEmote_Firework4_description" rel_version="Feature_Premium_Emotes">Explosão roxa! Permite o uso do gesto de fogo de artifício Foguete Ancião por 2 horas.\n\nO uso é pausado durante os modos de jogo instanciados.</string>
+	<string key="Token_PremiumEmote_Firework4_description" rel_version="Feature_Premium_Emotes">Explosão roxa! Permite o uso do gesto de fogo de artifício Foguete de Ancião por 2 horas.\n\nVocê pode usar uma Permissão de Gesto ao abrir o menu Aumentos em seu inventário.</string>
 	<string key="Token_PremiumEmote_Firework5_name" rel_version="Feature_Premium_Emotes">Permissão do Gesto de Fogo de Artifício de Estrela Cadente</string>
-	<string key="Token_PremiumEmote_Firework5_description" rel_version="Feature_Premium_Emotes">Cuidado! Pode emitir uma chuva de faíscas! Permite o uso do gesto de fogo de artifício Foguete de Estrela Cadente por 2 horas.\n\nO uso é pausado durante os modos de jogo instanciados.</string>
+	<string key="Token_PremiumEmote_Firework5_description" rel_version="Feature_Premium_Emotes">Cuidado! Pode emitir uma chuva de faíscas! Permite o uso do gesto de fogo de artifício Foguete de Estrela Cadente por 2 horas.\n\nVocê pode usar uma Permissão de Gesto ao abrir o menu Aumentos em seu inventário.</string>
+	<string key="Token_Transmog_X1_name" rel_version="Season_2_Perm">Token de Alteração de Aparência</string>
+	<string key="Token_Transmog_X1_description" rel_version="Season_2_Perm">Cada token de Alteração de Aparência permite que você capture a aparência de um item para usar como aparência.</string>
+	<string key="Token_Transmog_X5_name" rel_version="Season_2_Perm">Pacote de Token de Alteração de Aparência</string>
+	<string key="Token_Transmog_X5_description" rel_version="Season_2_Perm">Um pacote de tokens de Alteração de Aparência. Cada token permite que você capture a aparência de um item para usar como sua aparência.</string>
 	<string key="Apparel_Highwayman_Capelet_name" rel_version="Apparel_Highwayman_1">Líder</string>
 	<string key="Apparel_Highwayman_Tricorn_name" rel_version="Apparel_Highwayman_2">Canalha Desfiado</string>
 	<string key="Apparel_Highwayman_PrickleRust_name" rel_version="Apparel_Highwayman_3">Alma Maculada</string>
@@ -1059,6 +1067,7 @@
 	<string key="Bundle_PR_PauldronedFears_name" rel_version="Entitlements_MedievalHistoric">Conjunto dos Temores com Ombreiras</string>
 	<string key="Bundle_PR_PauldronedFears_description" rel_version="Entitlements_MedievalHistoric">Vista-se com uma armadura ameaçadora e prepare-se para aniquilar seus inimigos.</string>
 	<string key="Apparel_Highwayman_Capelet_description" rel_version="Apparel_Highwayman_1">Quando se está adornado com riquezas brilhantes da cabeça aos pés, realmente importa de onde elas vieram? Afinal, são todas minhas agora.\n\nInclui três variantes de aparência de cabeça!</string>
+	<string key="ui_crestforeground_231" rel_version="Crest_Gryphon">Brasão do Grifo</string>
 	<string key="Apparel_MedievalHistoric_HounSkull_name" rel_version="Entitlements_MedievalHistoric">Arauto de Argento</string>
 	<string key="Apparel_MedievalHistoric_DarkHorns_name" rel_version="Entitlements_MedievalHistoric">Dragão de Zibelina</string>
 	<string key="Apparel_MedievalHistoric_Twitch01_name" rel_version="Entitlements_MedievalHistoric">Paladino de Or</string>
@@ -1068,6 +1077,22 @@
 	<string key="Bundle_PR_MedievalHistoric_Weapon_name" rel_version="Entitlements_MedievalHistoric">Armas de Antigamente</string>
 	<string key="Bundle_PR_MedievalHistoric_Weapon_description" rel_version="Entitlements_MedievalHistoric">Lâminas e aço com séculos de idade ainda podem ser mortais se forem bem cuidados.</string>
 	<string key="reward_type_emote_permit" rel_version="Feature_Premium_Emotes">Permissão de Gesto</string>
+	<string key="Apparel_FrontierWasteland_Shawl_name" rel_version="Apparel_WastelandFrontier_1">Pioneiro do Sertão</string>
+	<string key="Apparel_FrontierWasteland_Gambeson_name" rel_version="Apparel_WastelandFrontier_2">Legionário Chifre-longo</string>
+	<string key="Apparel_FrontierWasteland_Deluxe_name" rel_version="Apparel_WastelandFrontier_Deluxe">Ruína dos Ermos</string>
+	<string key="Apparel_FrontierWasteland_Twitch_name" rel_version="Apparel_WastelandFrontier_Twitch">Errante do Deserto</string>
+	<string key="Bundle_Tool_FrontierWasteland_name" rel_version="ToolSkins_FrontierWastelander">Ferramentas do Tratante Anônimo</string>
+	<string key="Bundle_Tool_FrontierWasteland_description" rel_version="ToolSkins_FrontierWastelander">Andarilhos de Aeternum precisam de grande habilidade em coleta para sobreviver.</string>
+	<string key="Bundle_Decor_FrontierWasteland_name" rel_version="Housing_Wasteland_MTX_Pack_2023">Conjunto de Decorações do Habitante do Deserto da Fronteira</string>
+	<string key="Bundle_Decor_FrontierWasteland_description" rel_version="Housing_Wasteland_MTX_Pack_2023">Tesouros adquiridos em uma vida de banditismo.</string>
+	<string key="Bundle_PR_FrontierWasteland_Apparel_name" rel_version="Entitlements_WastelandFrontier">Conjunto de Vestimentas do Habitante do Deserto da Fronteira</string>
+	<string key="Bundle_PR_FrontierWasteland_Apparel_description" rel_version="Entitlements_WastelandFrontier">Suas roupas marcam você como alguém que não tem medo do deserto indomável, capaz o suficiente para enfrentar seus perigos sem ajuda.</string>
+	<string key="Bundle_PR_FrontierWasteland_Weapon_name" rel_version="Entitlements_WastelandFrontier">Conjunto de Armas do Habitante do Deserto da Fronteira</string>
+	<string key="Bundle_PR_FrontierWasteland_Weapon_description" rel_version="Entitlements_WastelandFrontier">O aço é mais valioso do que um companheiro ao vagar pelo deserto. Companheiros podem não ser confiáveis. Já o aço sempre é.</string>
+	<string key="SeasonPass_Premium_Season_2_name" rel_version="Season_2_Perm">Passe Premium - Temporada 2</string>
+	<string key="SeasonPass_HeadStart_Season_2_name" rel_version="Season_2_Perm">Começo Ótimo do Passe Premium - Temporada 2</string>
+	<string key="Bundle_PR_EmoteGestures_name" rel_version="Entitlements_WastelandFrontier">Conjunto Emotivo</string>
+	<string key="Bundle_PR_EmoteGestures_description" rel_version="Entitlements_WastelandFrontier">Como se sente?</string>
 	<string key="Emote_Premium_Firework1_x10_name" rel_version="Feature_Premium_Emotes">Pacote-10 Permissão do Gesto de Fogo de Artifício de Flores</string>
 	<string key="Emote_Premium_Firework2_x10_name" rel_version="Feature_Premium_Emotes">Pacote-10 Permissão do Gesto de Fogo de Artifício da Dinastia</string>
 	<string key="Emote_Premium_Firework3_x10_name" rel_version="Feature_Premium_Emotes">Pacote-10 Permissão do Gesto de Fogo de Artifício dos Dríades</string>

@@ -1,5 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="inv_DroppedItems">Objetos soltados</string>
+	<string key="inv_Dropped">Soltado</string>
 	<string key="inv_Storage">Almacenamiento</string>
 	<string key="inv_itemDamaged">{num} objeto(s) con daños graves. Haz reparaciones pronto.</string>
 	<string key="inv_itemBroken">{num} objeto(s) roto(s)</string>
@@ -66,9 +67,9 @@
 	<string key="inv_equipLoadSlow">Pesado</string>
 	<string key="inv_equipLoadOverburdened">Exceso de equipamiento</string>
 	<string key="inv_equipLoadTooltip">El peso combinado de la armadura y el escudo que llevas equipados determina tu carga de equipo. Cada carga de equipo ofrece una capacidad de esquivar diferente y otros efectos.</string>
-	<string key="inv_equipLoadFastTooltip">• Daño base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]} % \n• Sanación a objetivos: +30 %\n• Ruedas rápidamente para esquivar. \n• Coste de resistencia de esquivar: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s después de recibir un golpe cuerpo a cuerpo, la distancia de esquivar se reduce en un 20 % y no puedes correr.</string>
+	<string key="inv_equipLoadFastTooltip">• Daño base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]} % \n• Sanación basada en daño: +30 %\n• Ruedas rápidamente para esquivar. \n• Coste de resistencia de esquivar: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s después de recibir un golpe cuerpo a cuerpo, la distancia de esquivar se reduce en un 20 % y no puedes correr.</string>
 	<string key="inv_equipLoadNormalTooltip">• Daño base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]} % \n• Duración del control de multitudes recibido: -10 %\n• Saltas rápidamente para esquivar. \n• Coste de resistencia de esquivar: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s después de recibir un golpe cuerpo a cuerpo, la distancia de esquivar se reduce en un 20 % y no puedes correr.</string>
-	<string key="inv_equipLoadSlowTooltip">• Estabilidad de bloqueo: + 15 % \n• Duración del control de multitudes recibido: -20 % \n• Sanación a enemigos: -30 % \n• Esquivas con un paso en una dirección. \n• Coste de resistencia de esquivar: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s después de recibir un golpe cuerpo a cuerpo, no puedes correr.</string>
+	<string key="inv_equipLoadSlowTooltip">• Estabilidad de bloqueo: + +15 % \n• Duración del control de multitudes recibido: -20 % \n• Sanación basada en daño: -30 % \n• Esquivas con un paso en una dirección. \n• Coste de resistencia de esquivar: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s después de recibir un golpe cuerpo a cuerpo, no puedes correr.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Si superas la carga de equipo máxima, no podrás esquivar, correr ni usar habilidades. Debes desequipar algunos objetos.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Si superas el límite de peso del inventario, llevarás una carga excesiva que restringirá tus movimientos y acciones. También perderás más resistencia al bloquear.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Tienes más equipamiento que tu carga máxima permitida. No puedes esquivar ni correr y se te penalizará significativamente la velocidad de recarga de resistencia. Debes desequipar algunos objetos.</string>
@@ -116,7 +117,7 @@
 	<string key="fc_campingSiteLvl2">Campamento 2</string>
 	<string key="fc_campingSiteLvl3">Campamento 4</string>
 	<string key="fc_campingSiteLvl4">Campamento 4</string>
-	<string key="fc_breakCampNotification">Presiona [{value}] para desvincular del campamento</string>
+	<string key="fc_breakCampNotification">Presiona {$ui.makeCampOn$} para desvincular del campamento.</string>
 	<string key="fc_makecamp">Crear campamento</string>
 	<string key="fc_breakcamp">Destruir campamento</string>
 	<string key="fc_weaponsectiontitle">Armas y herramientas</string>
@@ -129,7 +130,7 @@
 	<string key="fc_distance">Campamento a:</string>
 	<string key="fc_craftingErrorMessage">No tienes los recursos para fabricar este objeto.</string>
 	<string key="fc_campBroken">Desvinculado del campamento</string>
-	<string key="ui_currency_self">No te puedes transferir dinero a ti mismo</string>
+	<string key="ui_currency_self">No te puedes transferir dinero a ti mismo.</string>
 	<string key="ui_currency_nameinvalid">Nombre de jugador inválido</string>
 	<string key="ui_currency_namevalid">Nombre de jugador válido</string>
 	<string key="ui_currency_offline">Jugador desconectado</string>
@@ -153,8 +154,8 @@
 	<string key="ui_dropall">Soltar todo</string>
 	<string key="ui_dropall_in_trade">No puedes soltar objetos al comerciar.</string>
 	<string key="ui_transfer_all_filtered">No se pueden mover todos los objetos de esta sección si los objetos tienen filtro.</string>
-	<string key="ui_storeall">Guarda todo en la caseta de almacenamiento</string>
-	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO FILTRAR OBJETOS&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrar por&lt;/font&gt;\n• Nombre del objeto\n• Puntuación mínima de equipo (por ejemplo, 100)\n- Nivel mínimo (p. ej., 1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ejemplos&lt;/font&gt;\n• Espada 200\n• Hacha 1\n• Pico de hierro</string>
+	<string key="ui_storeall">Guarda todo en la caseta de almacenamiento.</string>
+	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO FILTRAR OBJETOS&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrar por&lt;/font&gt;\n• Nombre del objeto (p. ej.: espada -hacha)\n• Beneficios/Gemas (p. ej.: [Protección] -[Suerte])\n• Puntuación mínima de equipo (p. ej.: 100)\n• Nivel mínimo (p. ej.: 1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ejemplos&lt;/font&gt;\n• Espada 200\n• Hacha 1\n• Pico -hierro\n• Mosquete [Electrificado]</string>
 	<string key="ui_filterText">Buscar</string>
 	<string key="ui_filterHeader">Filtrar objeto</string>
 	<string key="ui_sort">Ordenar</string>

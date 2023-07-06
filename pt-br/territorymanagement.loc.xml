@@ -158,7 +158,7 @@
 	<string key="ui_refining_fee_description">Aperfeiçoar recursos neste território custará uma taxa por recurso</string>
 	<string key="ui_edit">Editar</string>
 	<string key="ui_can_edit_in_time">Pode editar em {time}</string>
-	<string key="ui_can_pay_in_time">PODE PAGAR EM &lt;font color='#d7d7d7'&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_can_pay_in_time">Próximo Pagamento: {time}</string>
 	<string key="ui_units_units">{units} unidades</string>
 	<string key="ui_kill">Matar</string>
 	<string key="ui_courier">Mensageiro</string>
@@ -217,14 +217,16 @@
 	<string key="ui_fortressinfo_siegewindow">Janela de Cerco</string>
 	<string key="ui_fortressinfo_governedby">Governado Por</string>
 	<string key="ui_fortressinfo_controlledby">Controlado por</string>
-	<string key="ui_fortressinfo_notclaimed">Esta fortaleza não foi conquistada.</string>
-	<string key="ui_territoryinfo_notclaimed">Este território não foi conquistado.</string>
-	<string key="ui_territoryinfo_notclaimable">Não é possível conquistar este território.</string>
-	<string key="ui_settlementinfo_notclaimed">Este assentamento não foi conquistado.</string>
+	<string key="ui_fortressinfo_notclaimed">A Fortaleza não foi conquistada.</string>
+	<string key="ui_territoryinfo_notclaimed">O Território não foi conquistado.</string>
+	<string key="ui_territoryinfo_notclaimable">O Território não é conquistável.</string>
+	<string key="ui_settlementinfo_notclaimed">O Assentamento não foi conquistado.</string>
+	<string key="ui_territoryinfo_unenterable">Indisponível</string>
+	<string key="ui_territoryinfo_unenterabledescription">Ninguém pode entrar neste território.</string>
 	<string key="ui_fortressinfo_upcomingbattlelabel">Evento de Batalha Iminente</string>
 	<string key="ui_fortressinfo_ongoingbattlelabel">Evento de Batalha em Andamento</string>
-	<string key="ui_fortressinfo_noupcomingbattle">Não há evento de batalha iminente.</string>
-	<string key="ui_fortressinfo_wardeclarationcooldown">Uma guerra não pode ser declarada neste território por {time}.</string>
+	<string key="ui_fortressinfo_noupcomingbattle">Nenhum evento de batalha iminente.</string>
+	<string key="ui_fortressinfo_wardeclarationcooldown">Não é possível declara guerra neste território por {time}.</string>
 	<string key="ui_fortressinfo_vs">vs.</string>
 	<string key="ui_fortressinfo_war">GUERRA</string>
 	<string key="ui_fortressinfo_invasion">A Invasão Começa em:</string>
@@ -242,16 +244,16 @@
 	<string key="ui_fortressinfo_invasionattackername">Os Corrompidos</string>
 	<string key="ui_fortressinfo_timetodeclare">Tempo para Declarar Guerra:</string>
 	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Pausado (Invasão)</string>
-	<string key="ui_fortressinfo_conflictdescription">Você &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;não receberá mais Influência&lt;/font&gt; neste território até a Guerra terminar. (Todas as outras recompensas de Missões da Facção, como EXP e Moedas, ainda estão disponíveis.)\n\nSe mais de uma Companhia que contribuiu com influência declarar Guerra, uma delas será selecionada aleatoriamente.</string>
+	<string key="ui_fortressinfo_conflictdescription">Você &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;não receberá mais Influência&lt;/font&gt; neste território até a Guerra terminar (todas as outras recompensas de Missões da Facção, como EXP e Moedas, ainda estão disponíveis).\n\nSe mais de uma Companhia que contribuiu com influência declarar Guerra, uma delas será selecionada aleatoriamente.</string>
 	<string key="ui_fortressinfo_noconflict">Território Fora de Conflito</string>
 	<string key="ui_fortressinfo_contributionnotrequired">Nenhuma companhia contribuiu com influência o suficiente até o momento, então qualquer uma é elegível a declarar guerra.</string>
 	<string key="ui_fortressinfo_hascontribution">Sua companhia CONTRIBUIU com influência o suficiente para ser elegível a declarar guerra.</string>
 	<string key="ui_fortressinfo_insufficientcontribution">Sua companhia NÃO contribuiu com influência o suficiente para ser elegível a declarar guerra.</string>
-	<string key="ui_fortressinfo_noconflictdescription">Para um atacante poder declarar Guerra neste território, sua facção deve primeiro ter Influência de Território suficiente.</string>
+	<string key="ui_fortressinfo_noconflictdescription">Para declarar guerra a este território, é necessário ter pelo menos 25 membros em sua Companhia e sua Facção deve primeiro acumular Influência de Território suficiente.</string>
 	<string key="ui_fortressinfo_upcomingwarlabel">A Guerra Começa em:</string>
 	<string key="ui_fortressinfo_ongoingwarlabel">Guerra Ativa</string>
 	<string key="ui_fortressinfo_resolveingwarlabel">Guerra Finalizando</string>
-	<string key="ui_fortressinfo_atwardescription">Você &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;não receberá mais Influência&lt;/font&gt; neste território até a Guerra terminar. (Todas as outras recompensas de Missões da Facção, como EXP e Ouro, ainda estão disponíveis.)</string>
+	<string key="ui_fortressinfo_atwardescription">Você &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;não receberá mais Influência&lt;/font&gt; neste território até a Guerra terminar (todas as outras recompensas de Missões da Facção, como EXP e Ouro, ainda estão disponíveis).</string>
 	<string key="ui_township">Assentamento</string>
 	<string key="ui_fortress">Forte</string>
 	<string key="ui_complete">Concluído</string>
@@ -293,94 +295,94 @@
 	<string key="GenericGemCutT4">Gemas Puras Lapidadas</string>
 	<string key="ui_always_available_category">ID &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; de Categoria Sempre Disponível</string>
 	<string key="ui_always_available_projectId">ID &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; de Projeto Sempre Disponível</string>
-	<string key="ui_upgrade_title_BlacksmithProjectId">Aprimorar Forja para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_BlacksmithProjectId2">Aprimorar Forja para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_BlacksmithProjectId3">Aprimorar Forja para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_SmeltingProjectId">Aprimorar Fundição para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_SmeltingProjectId2">Aprimorar Fundição para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_SmeltingProjectId3">Aprimorar Fundição para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CarpentryProjectId">Aprimorar Loja de Madeira para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CarpentryProjectId2">Aprimorar Loja de Madeira para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CarpentryProjectId3">Aprimorar Loja de Madeira para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_MasonryProjectId">Aprimorar Mesa de Cantaria para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_MasonryProjectId2">Aprimorar Mesa de Cantaria para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_MasonryProjectId3">Aprimorar Mesa de Cantaria para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_WeavingProjectId">Aprimorar Máquina de Tear para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_WeavingProjectId2">Aprimorar Máquina de Tear para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_WeavingProjectId3">Aprimorar Máquina de Tear para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_TanningProjectId">Aprimorar Curtume para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_TanningProjectId2">Aprimorar Curtume para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_TanningProjectId3">Aprimorar Curtume para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_EngineeringProjectId">Aprimorar Oficina para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_EngineeringProjectId2">Aprimorar Oficina para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_EngineeringProjectId3">Aprimorar Oficina para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_OutfittingProjectId">Aprimorar Estação de Alfaiataria para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_OutfittingProjectId2">Aprimorar Estação de Alfaiataria para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_OutfittingProjectId3">Aprimorar Estação de Alfaiataria para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_AlchemistProjectId">Aprimorar Repositório Arcano para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_AlchemistProjectId2">Aprimorar Repositório Arcano para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_AlchemistProjectId3">Aprimorar Repositório Arcano para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CookingProjectId">Aprimorar Cozinha para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CookingProjectId2">Aprimorar Cozinha para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_CookingProjectId3">Aprimorar Cozinha para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FortGatesProjectId">Aprimorar Portões para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FortGatesProjectId2">Aprimorar Portões para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FortHardPointsProjectId">Aprimorar Ponto de Instalação para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FortHardPointsProjectId2">Aprimorar Ponto de Instalação para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_BallistaProjectId">Aprimorar Balista para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_BallistaProjectId2">Aprimorar Balista para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FireBarrelProjectId">Aprimorar Tonel de Óleo Quente para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_FireBarrelProjectId2">Aprimorar Tonel de Óleo Quente para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_RepeaterProjectId">Aprimorar Repetidores para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_RepeaterProjectId2">Aprimorar Repetidores para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_HornProjectId">Aprimorar Trombeta de Guerra para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_HornProjectId2">Aprimorar Trombeta de Guerra para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_ExplosiveProjectId">Aprimorar Explosivos para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_title_ExplosiveProjectId2">Aprimorar Explosivos para Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId">Aprimorar Forja para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId2">Aprimorar Forja para Escala 4</string>
-	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId3">Aprimorar Forja para Escala 5</string>
-	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId">Aprimorar Fundição para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId2">Aprimorar Fundição para Escala 4</string>
-	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId3">Aprimorar Fundição para Escala 5</string>
-	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId">Aprimorar Loja de Madeira para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId2">Aprimorar Loja de Madeira para Escala 4</string>
-	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId3">Aprimorar Loja de Madeira para Escala 5</string>
-	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId">Aprimorar Mesa de Cantaria para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId2">Aprimorar Mesa de Cantaria para Escala 4</string>
-	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId3">Aprimorar Mesa de Cantaria para Escala 5</string>
-	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId">Aprimorar Máquina de Tear para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId2">Aprimorar Máquina de Tear para Escala 4</string>
-	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId3">Aprimorar Máquina de Tear para Escala 5</string>
-	<string key="ui_upgrade_titleNoMarkup_TanningProjectId">Aprimorar Curtume para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_TanningProjectId2">Aprimorar Curtume para Escala 4</string>
-	<string key="ui_upgrade_titleNoMarkup_TanningProjectId3">Aprimorar Curtume para Escala 5</string>
-	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId">Aprimorar Oficina para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId2">Aprimorar Oficina para Escala 4</string>
-	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId3">Aprimorar Oficina para Escala 5</string>
-	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId">Aprimorar Estação de Alfaiataria para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId2">Aprimorar Estação de Alfaiataria para Escala 4</string>
-	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId3">Aprimorar Estação de Alfaiataria para Escala 5</string>
-	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId">Aprimorar Repositório Arcano para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId2">Aprimorar Repositório Arcano para Escala 4</string>
-	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId3">Aprimorar Repositório Arcano para Escala 5</string>
-	<string key="ui_upgrade_titleNoMarkup_CookingProjectId">Aprimorar Cozinha para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_CookingProjectId2">Aprimorar Cozinha para Escala 4</string>
-	<string key="ui_upgrade_titleNoMarkup_CookingProjectId3">Aprimorar Cozinha para Escala 5</string>
-	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId">Aprimorar Portões para Escala 2</string>
-	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId2">Aprimorar Portões para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId">Aprimorar Ponto de Instalação para Escala 2</string>
-	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId2">Aprimorar Ponto de Instalação para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId">Aprimorar Balista para Escala 2</string>
-	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId2">Aprimorar Balista para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId">Aprimorar Tonel de Óleo Quente para Escala 2</string>
-	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId2">Aprimorar Tonel de Óleo Quente para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId">Aprimorar Repetidores para Escala 2</string>
-	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId2">Aprimorar Repetidores para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_HornProjectId">Aprimorar Trombeta de Guerra para Escala 2</string>
-	<string key="ui_upgrade_titleNoMarkup_HornProjectId2">Aprimorar Trombeta de Guerra para Escala 3</string>
-	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId">Aprimorar Explosivos para Escala 2</string>
-	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId2">Aprimorar Explosivos para Escala 3</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BlacksmithProjectId3">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_SmeltingProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_SmeltingProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_SmeltingProjectId3">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CarpentryProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CarpentryProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CarpentryProjectId3">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_MasonryProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_MasonryProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_MasonryProjectId3">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_WeavingProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_WeavingProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_WeavingProjectId3">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_TanningProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_TanningProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_TanningProjectId3">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EngineeringProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EngineeringProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_EngineeringProjectId3">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_OutfittingProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_OutfittingProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_OutfittingProjectId3">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_AlchemistProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_AlchemistProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_AlchemistProjectId3">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CookingProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CookingProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_CookingProjectId3">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortGatesProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortGatesProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortHardPointsProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FortHardPointsProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BallistaProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_BallistaProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FireBarrelProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_FireBarrelProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_RepeaterProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_RepeaterProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_HornProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_HornProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_ExplosiveProjectId">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_title_ExplosiveProjectId2">Aprimoramento de Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId2">Aprimoramento de Escala 4</string>
+	<string key="ui_upgrade_titleNoMarkup_BlacksmithProjectId3">Aprimoramento de Escala 5</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId2">Aprimoramento de Escala 4</string>
+	<string key="ui_upgrade_titleNoMarkup_SmeltingProjectId3">Aprimoramento de Escala 5</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId2">Aprimoramento de Escala 4</string>
+	<string key="ui_upgrade_titleNoMarkup_CarpentryProjectId3">Aprimoramento de Escala 5</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId2">Aprimoramento de Escala 4</string>
+	<string key="ui_upgrade_titleNoMarkup_MasonryProjectId3">Aprimoramento de Escala 5</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId2">Aprimoramento de Escala 4</string>
+	<string key="ui_upgrade_titleNoMarkup_WeavingProjectId3">Aprimoramento de Escala 5</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId2">Aprimoramento de Escala 4</string>
+	<string key="ui_upgrade_titleNoMarkup_TanningProjectId3">Aprimoramento de Escala 5</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId2">Aprimoramento de Escala 4</string>
+	<string key="ui_upgrade_titleNoMarkup_EngineeringProjectId3">Aprimoramento de Escala 5</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId2">Aprimoramento de Escala 4</string>
+	<string key="ui_upgrade_titleNoMarkup_OutfittingProjectId3">Aprimoramento de Escala 5</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId2">Aprimoramento de Escala 4</string>
+	<string key="ui_upgrade_titleNoMarkup_AlchemistProjectId3">Aprimoramento de Escala 5</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId2">Aprimoramento de Escala 4</string>
+	<string key="ui_upgrade_titleNoMarkup_CookingProjectId3">Aprimoramento de Escala 5</string>
+	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId">Aprimoramento de Escala 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FortGatesProjectId2">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId">Aprimoramento de Escala 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FortHardPointsProjectId2">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId">Aprimoramento de Escala 2</string>
+	<string key="ui_upgrade_titleNoMarkup_BallistaProjectId2">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId">Aprimoramento de Escala 2</string>
+	<string key="ui_upgrade_titleNoMarkup_FireBarrelProjectId2">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId">Aprimoramento de Escala 2</string>
+	<string key="ui_upgrade_titleNoMarkup_RepeaterProjectId2">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_HornProjectId">Aprimoramento de Escala 2</string>
+	<string key="ui_upgrade_titleNoMarkup_HornProjectId2">Aprimoramento de Escala 3</string>
+	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId">Aprimoramento de Escala 2</string>
+	<string key="ui_upgrade_titleNoMarkup_ExplosiveProjectId2">Aprimoramento de Escala 3</string>
 	<string key="ui_upgrade_button_BlacksmithProjectId">Forja Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_BlacksmithProjectId2">Forja Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_BlacksmithProjectId3">Forja Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt;</string>
@@ -416,9 +418,9 @@
 	<string key="ui_upgrade_button_FortGatesProjectId3">Portões Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_FortHardPointsProjectId">Pontos de Instalação</string>
 	<string key="ui_upgrade_button_FortHardPointsProjectId2">Pontos de Instalação</string>
-	<string key="ui_upgrade_button_BallistaProjectId">Balista Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
-	<string key="ui_upgrade_button_BallistaProjectId2">Balista Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
-	<string key="ui_upgrade_button_BallistaProjectId3">Balista Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_BallistaProjectId">Balistas Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_BallistaProjectId2">Balistas Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
+	<string key="ui_upgrade_button_BallistaProjectId3">Balistas Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_FireBarrelProjectId">Tonel de Óleo Quente Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_FireBarrelProjectId2">Tonel de Óleo Quente Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_FireBarrelProjectId3">Tonel de Óleo Quente Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
@@ -431,45 +433,45 @@
 	<string key="ui_upgrade_button_ExplosiveProjectId">Explosivos Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_ExplosiveProjectId2">Explosivos Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt;</string>
 	<string key="ui_upgrade_button_ExplosiveProjectId3">Explosivos Escala &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_BlacksmithProjectId">Aprimore a Forja para a Escala 3 para desbloquear confecções adicionais da Escala 3 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_BlacksmithProjectId2">Aprimore a Forja para a Escala 4 para desbloquear confecções adicionais da Escala 4 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_BlacksmithProjectId3">Aprimore a Forja para a Escala 5 para desbloquear confecções adicionais da Escala 5 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_SmeltingProjectId">Aprimora a Fundição para Escala 4, que pode confeccionar &lt;font color="#ffd058"&gt;lingotes de Oricalco.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_SmeltingProjectId2">Aprimora a Fundição para Escala 5, que pode confeccionar &lt;font color="#ffd058"&gt;lingotes de Asmódeo.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_CarpentryProjectId">Aprimora a Loja de Madeira para Escala 4, que pode confeccionar &lt;font color="#ffd058"&gt;tábuas de Jucá.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_CarpentryProjectId2">Aprimora a Loja de Madeira para Escala 5, que pode confeccionar &lt;font color="#ffd058"&gt;Ébano Cintilante.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_MasonryProjectId">Aprimora a Mesa de Cantaria para Escala 4, que pode confeccionar &lt;font color="#ffd058"&gt;Pedra Imaterial Obsidiana.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_MasonryProjectId2">Aprimora a Mesa de Cantaria para Escala 5, que pode confeccionar &lt;font color="#ffd058"&gt;Pedra Rúnica.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_WeavingProjectId">Aprimora a Máquina de Tear para Escala 4, que pode confeccionar &lt;font color="#ffd058"&gt;Seda Infusa.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_WeavingProjectId2">Aprimora a Máquina de Tear para Escala 5, que pode confeccionar &lt;font color="#ffd058"&gt;Fio de Fênix.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_TanningProjectId">Aprimora o Curtume para Escala 4, que pode confeccionar &lt;font color="#ffd058"&gt;Couro Infuso.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_TanningProjectId2">Aprimora o Curtume para Escala 5, que pode confeccionar &lt;font color="#ffd058"&gt;Couro Rúnico.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_EngineeringProjectId">Aprimore a Oficina para a Escala 3 para desbloquear confecções adicionais da Escala 3 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_EngineeringProjectId2">Aprimore a Oficina para a Escala 4 para desbloquear confecções adicionais da Escala 4 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_EngineeringProjectId3">Aprimore a Oficina para a Escala 5 para desbloquear confecções adicionais da Escala 5 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_OutfittingProjectId">Aprimore a Estação de Alfaiataria para a Escala 3 para desbloquear confecções adicionais da Escala 3 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_OutfittingProjectId2">Aprimore a Estação de Alfaiataria para a Escala 4 para desbloquear confecções adicionais da Escala 4 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_OutfittingProjectId3">Aprimore a Estação de Alfaiataria para a Escala 5 para desbloquear confecções adicionais da Escala 5 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_AlchemistProjectId">Aprimore o Repositório Arcano para a Escala 3 para desbloquear confecções adicionais da Escala 3 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_AlchemistProjectId2">Aprimore o Repositório Arcano para a Escala 4 para desbloquear confecções adicionais da Escala 4 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_AlchemistProjectId3">Aprimore o Repositório Arcano para a Escala 5 para desbloquear confecções adicionais da Escala 5 e um desconto de Azoth.</string>
-	<string key="ui_upgrade_desc_CookingProjectId">Aprimora a Cozinha para Escala 3, que pode criar &lt;font color="#ffd058"&gt;refeições de Escala 3.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_CookingProjectId2">Aprimora a Cozinha para Escala 4, que pode criar &lt;font color="#ffd058"&gt;refeições de Escala 4.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_CookingProjectId3">Aprimora a Cozinha para Escala 5, que pode criar &lt;font color="#ffd058"&gt;refeições de Escala 5.&lt;/font&gt;</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId">Aprimora Portões para Escala 2. Os portões aumentam em PV.</string>
-	<string key="ui_upgrade_desc_FortGatesProjectId2">Aprimora Portões para Escala 3. Os portões aumentam em PV.</string>
-	<string key="ui_upgrade_desc_FortHardPointsProjectId">Desbloqueia um ponto adicional para implantar uma instalação (por exemplo: Balista, Tonel de Óleo Quente, etc.)</string>
-	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Desbloqueia um ponto adicional para implantar uma instalação (por exemplo: Balista, Tonel de Óleo Quente, etc.)</string>
-	<string key="ui_upgrade_desc_BallistaProjectId">Aprimora a Balista para Escala 2. Quando aprimorada, qualquer Balista existente (implantada ou não) também é aprimorada.</string>
-	<string key="ui_upgrade_desc_BallistaProjectId2">Aprimora a Balista para Escala 3. Quando aprimorada, qualquer Balista existente (implantada ou não) também é aprimorada.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId">Aprimora o Tonel de Óleo Quente para Escala 2. Quando aprimorado, todo Tonel de Óleo Quente existente (usado ou não) também é aprimorado.</string>
-	<string key="ui_upgrade_desc_FireBarrelProjectId2">Aprimora o Tonel de Óleo Quente para Escala 3. Quando aprimorado, todo Tonel de Óleo Quente existente (usado ou não) também é aprimorado.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId">Aprimora Repetidores para Escala 2. Quando aprimorados, todo Repetidor existente (implantado ou não) também é aprimorado.</string>
-	<string key="ui_upgrade_desc_RepeaterProjectId2">Aprimora Repetidores para Escala 3. Quando aprimorados, todo Repetidor existente (implantado ou não) também é aprimorado.</string>
-	<string key="ui_upgrade_desc_HornProjectId">Aprimora Trombeta de Guerra para Escala 2. Quando aprimorada, toda Trombeta de Guerra existente (implantada ou não) também é aprimorada.</string>
-	<string key="ui_upgrade_desc_HornProjectId2">Aprimora Trombeta de Guerra para Escala 3. Quando aprimorada, toda Trombeta de Guerra existente (implantada ou não) também é aprimorada.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId">Aprimora Explosivos para Escala 2. Quando aprimorados, todo Explosivo existente (implantado ou não) também é aprimorado.</string>
-	<string key="ui_upgrade_desc_ExplosiveProjectId2">Aprimora os Explosivos para Escala 3. Quando aprimorado, qualquer Explosivo existente (implantado ou não) também é aprimorado.</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId">Desbloqueie confecções adicionais da Escala 3 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId2">Desbloqueie confecções adicionais da Escala 4 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_BlacksmithProjectId3">Desbloqueie confecções adicionais da Escala 5 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_SmeltingProjectId">Confeccione &lt;font color="#ffd058"&gt;Lingotes de Oricalco&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_SmeltingProjectId2">Confeccione &lt;font color="#ffd058"&gt;Lingotes de Asmódeo&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_CarpentryProjectId">Confeccione &lt;font color="#ffd058"&gt;Tábuas de Jucá&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_CarpentryProjectId2">Confeccione &lt;font color="#ffd058"&gt;Ébano Cintilante&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_MasonryProjectId">Confeccione &lt;font color="#ffd058"&gt;Pedra Imaterial Obsidiana&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_MasonryProjectId2">Confeccione &lt;font color="#ffd058"&gt;Pedra Rúnica&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_WeavingProjectId">Confeccione &lt;font color="#ffd058"&gt;Seda Infusa&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_WeavingProjectId2">Confeccione &lt;font color="#ffd058"&gt;Fio de Fênix&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_TanningProjectId">Confeccione &lt;font color="#ffd058"&gt;Couro Infuso&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_TanningProjectId2">Confeccione &lt;font color="#ffd058"&gt;Couro Rúnico&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId">Desbloqueie confecções adicionais da Escala 3 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId2">Desbloqueie confecções adicionais da Escala 4 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_EngineeringProjectId3">Desbloqueie confecções adicionais da Escala 5 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId">Desbloqueie confecções adicionais da Escala 3 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId2">Desbloqueie confecções adicionais da Escala 4 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_OutfittingProjectId3">Desbloqueie confecções adicionais da Escala 5 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId">Desbloqueie confecções adicionais da Escala 3 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId2">Desbloqueie confecções adicionais da Escala 4 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_AlchemistProjectId3">Desbloqueie confecções adicionais da Escala 5 e um desconto de Azoth.</string>
+	<string key="ui_upgrade_desc_CookingProjectId">Confeccione &lt;font color="#ffd058"&gt;Refeições de Escala 3&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_CookingProjectId2">Confeccione &lt;font color="#ffd058"&gt;Refeições de Escala 4&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_CookingProjectId3">Confeccione &lt;font color="#ffd058"&gt;Refeições de Escala 5&lt;/font&gt;.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId">Aumente a saúde dos portões.</string>
+	<string key="ui_upgrade_desc_FortGatesProjectId2">Aumente a saúde dos portões.</string>
+	<string key="ui_upgrade_desc_FortHardPointsProjectId">Desbloqueia um ponto adicional para implantar uma instalação (Balista, Tonel de Óleo Quente etc.)</string>
+	<string key="ui_upgrade_desc_FortHardPointsProjectId2">Desbloqueia um ponto adicional para implantar uma instalação (Balista, Tonel de Óleo Quente etc.)</string>
+	<string key="ui_upgrade_desc_BallistaProjectId">Também aprimora todas as Balistas existentes.</string>
+	<string key="ui_upgrade_desc_BallistaProjectId2">Também aprimora todas as Balistas existentes.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId">Também aprimora todos os Tonéis de Óleo Quente existentes.</string>
+	<string key="ui_upgrade_desc_FireBarrelProjectId2">Também aprimora todos os Tonéis de Óleo Quente existentes.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId">Também aprimora todos os Repetidores existentes.</string>
+	<string key="ui_upgrade_desc_RepeaterProjectId2">Também aprimora todos os Repetidores existentes.</string>
+	<string key="ui_upgrade_desc_HornProjectId">Também aprimora todas as Trombetas de Guerra existentes.</string>
+	<string key="ui_upgrade_desc_HornProjectId2">Também aprimora todas as Trombetas de Guerra existentes.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId">Também aprimora todos os Explosivos existentes.</string>
+	<string key="ui_upgrade_desc_ExplosiveProjectId2">Também aprimora todos os Explosivos existentes.</string>
 	<string key="ui_event_project_endless">Infinito</string>
 	<string key="ui_territory_level">Nível do Território: {level}</string>
 	<string key="ui_enter_house">Exibir Casa</string>
@@ -520,17 +522,17 @@
 	<string key="ui_project_tooltip_upkeep_overdue">Um projeto de vila não pode ser iniciado se a manutenção do território estiver atrasada.</string>
 	<string key="ui_notavailable">N/A</string>
 	<string key="ui_timelimit">TEMPO LIMITE</string>
-	<string key="ui_minCompletionTime">TEMPO MÍNIMO DE CONCLUSÃO</string>
+	<string key="ui_minCompletionTime">TEMPO DE CONCLUSÃO</string>
 	<string key="ui_territoryinformation">Informações sobre o Território</string>
 	<string key="ui_territorylog">Registro do Território</string>
 	<string key="ui_territoryupkeep">Manutenção do Território</string>
 	<string key="ui_territoryupkeep_desc">A manutenção do território precisa ser paga a cada 7 dias pela empresa governante, a fim de impedir a degradação do território.</string>
-	<string key="ui_territoryupkeep_overdue_base_desc">Manutenção do território &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;atrasada.&lt;/font&gt; Até a manutenção ser paga:</string>
+	<string key="ui_territoryupkeep_overdue_base_desc">A manutenção está vencida:</string>
 	<string key="ui_territoryupkeep_overdue_point1">O território será degradado a cada 24 horas.</string>
 	<string key="ui_territoryupkeep_overdue_point2">Os bônus da Companhia e da Facção serão desativados.</string>
 	<string key="ui_territoryupkeep_overdue_point3">A companhia governante não poderá iniciar um projeto de vila.</string>
-	<string key="ui_territoryupkeep_overdue_desc">A manutenção do território está &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;vencida.&lt;/font&gt;\nEsse território será degradado a cada 24 horas até que a manutenção seja paga.</string>
-	<string key="ui_territoryupkeep_overdue_noupgrade_desc">A manutenção do território &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;está vencida.&lt;/font&gt;&lt;/font&gt;\n A companhia governante não pode iniciar um projeto de vila.</string>
+	<string key="ui_territoryupkeep_overdue_desc">A Manutenção do Território está &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;vencida&lt;/font&gt;.\nEste território será degradado a cada 24 horas até que a manutenção seja paga.</string>
+	<string key="ui_territoryupkeep_overdue_noupgrade_desc">A Manutenção do Território está &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;vencida&lt;/font&gt;.&lt;/font&gt;\nA companhia governante não pode iniciar um Projeto de Vila.</string>
 	<string key="ui_companypaycheck">Folha de Pagamento</string>
 	<string key="ui_companypaycheck_desc">A companhia governante recebe renda com impostos e taxas.</string>
 	<string key="ui_taxandfee">Taxas e Impostos</string>
@@ -546,7 +548,7 @@
 	<string key="ui_view_current_goal">Exibir Meta Atual</string>
 	<string key="ui_governorsdesk">Mesa do Governador</string>
 	<string key="ui_governorsdesk_desc">A companhia governante define as taxas de imposto de território e paga a manutenção aqui.</string>
-	<string key="ui_upkeep_tooltip">Se a companhia governante não pagar a manutenção a tempo, &lt;font color="#e8a015"&gt;uma parte qualquer do território será degradada.&lt;/font&gt;</string>
+	<string key="ui_upkeep_tooltip">Se a companhia governante não pagar a manutenção a tempo, &lt;font color="#e8a015"&gt;uma parte aleatória do território será degradada&lt;/font&gt;.</string>
 	<string key="ui_payroll_title">Folha de Pagamento da Companhia</string>
 	<string key="ui_payroll_tooltip">A companhia governante ganha moedas com impostos e taxas.</string>
 	<string key="ui_firstdayofcycle">Primeiro dia do ciclo</string>
@@ -579,7 +581,7 @@
 	<string key="ui_no_territory_upgrade">Um território com 0 aprimoramentos não requer nenhuma manutenção de território.</string>
 	<string key="ui_overdue">Vencido</string>
 	<string key="ui_no_upgrade_desc">Um território com &lt;font color="#ffffff"&gt;0 aprimoramentos&lt;/font&gt; não requer nenhuma manutenção de território.</string>
-	<string key="ui_payroll_bottom_desc">A renda de uma companhia é automaticamente depositada na carteira da companhia.</string>
+	<string key="ui_payroll_bottom_desc">Automaticamente depositada na carteira da companhia.</string>
 	<string key="ui_change">Trocar</string>
 	<string key="ui_until_end">Concluído! Próximo disponível em</string>
 	<string key="ui_until_end_return">Concluído!\nNovo projeto disponível em</string>
@@ -620,10 +622,10 @@
 	<string key="ui_darkness_threshold_1">Baixa</string>
 	<string key="ui_darkness_threshold_2">Média</string>
 	<string key="ui_darkness_threshold_3">Alta</string>
-	<string key="ui_darkness_threshold_desc_0">&lt;font color="#e1ddd4"&gt;Nenhuma&lt;/font&gt; Incursão de Corrupção presente</string>
-	<string key="ui_darkness_threshold_desc_1">&lt;font color="#ffd45f"&gt;Pequena&lt;/font&gt; Incursão de Corrupção pode aparecer</string>
-	<string key="ui_darkness_threshold_desc_2">&lt;font color="#f67817"&gt;Pequena e Grande&lt;/font&gt; Incursão de Corrupção pode aparecer</string>
-	<string key="ui_darkness_threshold_desc_3">&lt;font color="#f25d5d"&gt;Quantidade Máxima&lt;/font&gt; de Incursões de Corrupção presentes</string>
+	<string key="ui_darkness_threshold_desc_0">Nenhuma Incursão de Corrupção presente.</string>
+	<string key="ui_darkness_threshold_desc_1">Pequeno: Incursões de Corrupção podem aparecer.</string>
+	<string key="ui_darkness_threshold_desc_2">Pequeno e Grande: Incursões de Corrupção podem aparecer.</string>
+	<string key="ui_darkness_threshold_desc_3">Quantidade máxima de Incursões de Corrupção presentes.</string>
 	<string key="ui_plan_territory">Plano do Território</string>
 	<string key="ui_upgrade_town">Aprimorar Vila</string>
 	<string key="ui_upgrade_fort">Aprimorar Forte</string>
@@ -641,7 +643,7 @@
 	<string key="ui_cancel_mission">Cancelar Missão</string>
 	<string key="ui_complete_mission">Completar Missão</string>
 	<string key="ui_complete_all_missions">Completar Todas as Missões</string>
-	<string key="ui_lifestyle_panel_description">Inicie um projeto de vila para dar um Buff Especial a Longo Prazo aos jogadores &lt;font color="#edd05c"&gt;que possuem uma casa neste território.&lt;/font&gt;</string>
+	<string key="ui_lifestyle_panel_description">Inicie um projeto de vila para conceder um buff a todos os jogadores que possuem uma casa neste território.</string>
 	<string key="lifestyle_gathering_buff">Buff de Coleta</string>
 	<string key="lifestyle_combat_buff">Buff de Combate</string>
 	<string key="lifestyle_crafting_buff">Buff de Confecção</string>
@@ -652,19 +654,19 @@
 	<string key="ui_territory_influence">Influência de Território</string>
 	<string key="ui_territory_governed_by_label">Este Território é governado por</string>
 	<string key="ui_AlwaysAvailableProjectId">Manutenção da vila</string>
-	<string key="lifestyle_title_LumberJackSpiritProjectId">Ativar Espírito do Lenhador</string>
-	<string key="lifestyle_title_MinersResolveProjectId">Ativar Determinação do Minerador</string>
-	<string key="lifestyle_title_HuntersBountyProjectId">Ativar Recompensa do Caçador</string>
-	<string key="lifestyle_title_FarmersHarvestProjectId">Ativar Colheita do Fazendeiro</string>
-	<string key="lifestyle_title_ArcaneBlessingProjectId">Ativar Benção Arcana</string>
-	<string key="lifestyle_title_HaleAndHeartyProjectId">Ativar Forte e Saudável</string>
-	<string key="lifestyle_title_StalwartProjectId">Ativar Firmeza</string>
-	<string key="lifestyle_title_OutfittersInspirationProjectId">Ativar Inspiração do Armeiro</string>
-	<string key="lifestyle_title_BlacksmithTemperamentProjectId">Ativar Temperamento do Ferreiro</string>
-	<string key="lifestyle_title_ArcaneWisdomProjectId">Ativar Sabedoria do Arcanista</string>
-	<string key="lifestyle_title_ChefsPassionProjectId">Ativar Paixão do Chefe de Cozinha</string>
-	<string key="lifestyle_title_EngineersPatienceProjectId">Ativar Paciência do Engenheiro</string>
-	<string key="lifestyle_title_FishermansFortuneProjectId">Ativar Sorte do Pescador</string>
+	<string key="lifestyle_title_LumberJackSpiritProjectId">Espírito do Lenhador</string>
+	<string key="lifestyle_title_MinersResolveProjectId">Determinação do Minerador</string>
+	<string key="lifestyle_title_HuntersBountyProjectId">Recompensa do Caçador</string>
+	<string key="lifestyle_title_FarmersHarvestProjectId">Colheita do Fazendeiro</string>
+	<string key="lifestyle_title_ArcaneBlessingProjectId">Benção Arcana</string>
+	<string key="lifestyle_title_HaleAndHeartyProjectId">Forte e Saudável</string>
+	<string key="lifestyle_title_StalwartProjectId">Firmeza</string>
+	<string key="lifestyle_title_OutfittersInspirationProjectId">Inspiração do Armeiro</string>
+	<string key="lifestyle_title_BlacksmithTemperamentProjectId">Temperamento do Ferreiro</string>
+	<string key="lifestyle_title_ArcaneWisdomProjectId">Sabedoria do Arcanista</string>
+	<string key="lifestyle_title_ChefsPassionProjectId">Paixão do Chefe de Cozinha</string>
+	<string key="lifestyle_title_EngineersPatienceProjectId">Paciência do Engenheiro</string>
+	<string key="lifestyle_title_FishermansFortuneProjectId">Sorte do Pescador</string>
 	<string key="lifestyle_button_LumberJackSpiritProjectId">Espírito do Lenhador</string>
 	<string key="lifestyle_button_MinersResolveProjectId">Determinação do Minerador</string>
 	<string key="lifestyle_button_HuntersBountyProjectId">Recompensa do Caçador</string>
@@ -678,19 +680,19 @@
 	<string key="lifestyle_button_ChefsPassionProjectId">Paixão do Chefe de Cozinha</string>
 	<string key="lifestyle_button_EngineersPatienceProjectId">Paciência do Engenheiro</string>
 	<string key="lifestyle_button_FishermansFortuneProjectId">Sorte do Pescador</string>
-	<string key="lifestyle_desc_LumberJackSpiritProjectId">Aumenta a Quantidade de Extração de Madeira em &lt;font color="#ffffff"&gt;20%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_MinersResolveProjectId">Aumenta a Quantidade de Mineração em &lt;font color="#ffffff"&gt;20%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_HuntersBountyProjectId">Aumenta a Quantidade de Esfolamento em &lt;font color="#ffffff"&gt;20%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_FarmersHarvestProjectId">Aumenta a Quantidade de Colheita em &lt;font color="#ffffff"&gt;20%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_ArcaneBlessingProjectId">Aumenta a absorção de dano de Corrompidos em &lt;font color="#ffffff"&gt;5%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_HaleAndHeartyProjectId">Aumenta PV base em &lt;font color="#ffffff"&gt;10%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_StalwartProjectId">Aumenta a Recuperação de Defesa em &lt;font color="#ffffff"&gt;20%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_OutfittersInspirationProjectId">Aumenta a Pontuação de Equipamento de Armeiro base após Confecção por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_BlacksmithTemperamentProjectId">Aumenta a Pontuação de Equipamento de Ferreiro base após Confecção por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_ArcaneWisdomProjectId">Aumenta a Pontuação de Equipamento de Arcanista base após Confecção por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_ChefsPassionProjectId">Aumenta as chances de conseguir refeições adicionais ao cozinhar por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_EngineersPatienceProjectId">Aumenta a Pontuação de Equipamento de Engenheiro base após Confecção por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
-	<string key="lifestyle_desc_FishermansFortuneProjectId">Aumenta a Chance de Melhorar a Pesca por &lt;font color="#ffffff"&gt;3 dias.&lt;/font&gt;</string>
+	<string key="lifestyle_desc_LumberJackSpiritProjectId">Aumenta o Rendimento da Extração de Madeira em &lt;font color="#ffffff"&gt;20%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_MinersResolveProjectId">Aumenta o Rendimento da Mineração em &lt;font color="#ffffff"&gt;20%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_HuntersBountyProjectId">Aumenta o Rendimento do Esfolamento em &lt;font color="#ffffff"&gt;20%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_FarmersHarvestProjectId">Aumenta o Rendimento da Colheita em &lt;font color="#ffffff"&gt;20%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_ArcaneBlessingProjectId">Aumenta a absorção de dano de Corrompidos em &lt;font color="#ffffff"&gt;5%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_HaleAndHeartyProjectId">Aumenta PV base em &lt;font color="#ffffff"&gt;10%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_StalwartProjectId">Aumenta a Recuperação de Defesa em &lt;font color="#ffffff"&gt;20%&lt;/font&gt; por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_OutfittersInspirationProjectId">Aumenta a Pontuação de Equipamento de Armeiro base por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_BlacksmithTemperamentProjectId">Aumenta a Pontuação de Equipamento de Ferreiro base por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_ArcaneWisdomProjectId">Aumenta a Pontuação de Equipamento de Arcanista base por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_ChefsPassionProjectId">Aumenta as chances de conseguir refeições adicionais ao cozinhar por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_EngineersPatienceProjectId">Aumenta a Pontuação de Equipamento de Engenheiro base por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
+	<string key="lifestyle_desc_FishermansFortuneProjectId">Aumenta a Chance de Melhorar a Pesca por &lt;font color="#ffffff"&gt;3 dias&lt;/font&gt;.</string>
 	<string key="ui_your_standing">Sua Posição</string>
 	<string key="ui_station_tier">Escala &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{tier}&lt;/font&gt;</string>
 	<string key="ui_benefits">Benefícios</string>

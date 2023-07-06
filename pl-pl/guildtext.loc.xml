@@ -100,8 +100,8 @@
 	<string key="ui_guildranknameinusemessage">Stopień o takiej nazwie już istnieje.</string>
 	<string key="ui_guildoverviewtab">Informacje ogólne</string>
 	<string key="ui_guildoverviewtabsubtitle">Przeczytaj wiadomość dnia</string>
-	<string key="ui_guildwarstab">Trwające wojny</string>
-	<string key="ui_guildwarstabsubtitle">Przejrzyj wrogów</string>
+	<string key="ui_guildwarstab">Aktywne konflikty</string>
+	<string key="ui_guildwarstabsubtitle">Zobacz aktywne konflikty</string>
 	<string key="ui_guildrankstab">Stopnie</string>
 	<string key="ui_guildrostertab">Członkowie</string>
 	<string key="ui_guildsiegetab">Okres oblężenia</string>
@@ -183,6 +183,8 @@
 	<string key="ui_guildCannotInviteNoPrivilege">Nie można wysłać zaproszeń do kompanii. Za niski stopień.</string>
 	<string key="ui_guildCannotInviteNoFaction">Nie można wysłać zaproszeń do kompanii. Brak frakcji.</string>
 	<string key="ui_guildcannotpromote_nofaction" rel_version="Feature_Unfactioned_Company_Members">Nie można mianować do rangi zarządcy. Gracz nie należy do frakcji.</string>
+	<string key="ui_guild_blocked_on_this_world" rel_version="Feature_Cross_World_Social">Nie możesz wykonać tej czynności w tym świecie.</string>
+	<string key="ui_guild_cannot_invite_player_from_other_world" rel_version="Feature_Cross_World_Social">Nie możesz zaprosić gracza z innego świata.</string>
 	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Osadnik</string>
 	<string key="ui_guildranksettler_SHE">Osadniczka</string>
 	<string key="ui_guildranksettler_THEY">Osoba osadnicza</string>
@@ -381,7 +383,7 @@
 	<string key="ui_otherguildstitle">Świat</string>
 	<string key="ui_otherguildssubtitle">Ze świata {worldName}</string>
 	<string key="ui_guildsinworld">{number} w świecie {worldName}</string>
-	<string key="ui_warstitle">Wojny</string>
+	<string key="ui_warstitle">Konflikty</string>
 	<string key="ui_otherguilds_memberslabel">Członkowie</string>
 	<string key="ui_otherguilds_claimslabel"> </string>
 	<string key="ui_otherguilds_claimslabelsingular"> </string>
@@ -455,6 +457,7 @@
 	<string key="ui_trade_failure_global_storage_wrong_faction">Aby można było wycofać przedmioty, oba terytoria muszą należeć do twojej frakcji, a opłata za utrzymanie terytorium musi być uiszczona.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Możesz zdeponować przedmioty w składziku znajdującym się tylko w twojej bieżącej lokalizacji.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit_rfi">Możesz zdeponować przedmioty tylko w składziku znajdującym się w odwiedzonych przez ciebie osadach.</string>
+	<string key="ui_trade_failure_global_storage_settlement_inaccessible">Nie możesz deponować przedmiotów w niedostępnych osadach.</string>
 	<string key="ui_guildclaimsowned">Posiadane terytoria</string>
 	<string key="ui_guildoneclaimowned">Posiadane terytorium</string>
 	<string key="ui_acceptguildinvitepopuptitle">Wstąpić do nowej kompanii?</string>
@@ -623,7 +626,7 @@
 	<string key="ui_no_faction" comment="text to show when a faction name would be present but the player isn't in one">Brak frakcji</string>
 	<string key="ui_wartime">Czas wojny</string>
 	<string key="ui_location">Lokacja</string>
-	<string key="ui_how_does_war_work">Jak działa wojna?</string>
+	<string key="ui_how_does_war_work">Jak działa wojna</string>
 	<string key="ui_how_does_invasion_work">Jak działa inwazja?</string>
 	<string key="ui_signup_restriction_tooltip">Nie możesz zapisać się do wroga twojej frakcji.</string>
 	<string key="ui_signup_nofaction_tooltip">Musisz mieć frakcję, by móc zapisać się na wojnę.</string>
@@ -654,10 +657,11 @@
 	<string key="ui_how_war_works">Samouczek wojny</string>
 	<string key="ui_how_invasion_works">Samouczek inwazji</string>
 	<string key="ui_tutorial_level_requirement">Do udziału w inwazji wymagany jest &lt;font color="#ffe294"&gt;{level}. poziom gracza&lt;/font&gt;.</string>
-	<string key="ui_raid_time_remaining">Pozostało &lt;font color="#bababa"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_raid_time_remaining">&lt;font color="#bababa"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_current_time">Aktualny czas: &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{time}&lt;/font&gt;</string>
 	<string key="ui_manage_army">Zarządzaj armią</string>
 	<string key="ui_invitation_time">Zaproszenia zostaną wysłane o:\n&lt;font color="#ffdd85"&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_warinvitation_time">Zaproszenie zostanie wysłane za</string>
 	<string key="ui_normal">Normalny</string>
 	<string key="ui_high">Wysoki</string>
 	<string key="ui_highest">Najwyższy</string>

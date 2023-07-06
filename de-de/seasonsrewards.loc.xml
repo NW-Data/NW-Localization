@@ -1,8 +1,11 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="ui_navmenu_seasons_rewards" rel_version="Feature_Seasons_Rewards">Saisonpass</string>
 	<string key="ui_season_xp" rel_version="Feature_Seasons_Rewards">Saison-EP</string>
 	<string key="data_season_01_name" rel_version="Season_1_Perm">Saison 1 Kameradschaft und Feuer</string>
+	<string key="data_season_01_display_name" rel_version="Season_1_Perm">Saison 1</string>
 	<string key="data_season_01_desc" rel_version="Season_1_Perm">Die Startsaison von New World!</string>
+	<string key="data_season_02_name" rel_version="Season_2_Perm">Saison 2 Blut der Sande</string>
+	<string key="data_season_02_display_name" rel_version="Season_2_Perm">Saison 2</string>
+	<string key="data_season_02_desc" rel_version="Season_2_Perm">In der zweiten Saison von New World werden Geheimnisse gelüftet und Blut vergossen!</string>
 	<string key="seasons_rewards_categorical_progression_id" rel_version="Feature_Seasons_Rewards">Saisonpass</string>
 	<string key="seasons_rewards_tab_battlepass" rel_version="Feature_Seasons_Rewards">Kampfpass</string>
 	<string key="seasons_rewards_tab_journey" rel_version="Feature_Seasons_Rewards">Reise</string>
@@ -20,10 +23,11 @@
 	<string key="seasons_rewards_journey_chapter_xp_label" rel_version="Feature_Seasons_Rewards">+{xp} Saison-EP &lt;img src="lyshineui/images/SeasonsRewards/Icon_BXP_Tiny"&gt;&lt;/img&gt;</string>
 	<string key="seasons_rewards_claim_previous_chapter" rel_version="Feature_Seasons_Rewards">Vorheriges Kapitel muss beansprucht werden.</string>
 	<string key="seasons_rewards_claim_tooltip" rel_version="Feature_Seasons_Rewards">Erfülle {count} Ziele.</string>
-	<string key="seasons_rewards_task_complete_title" rel_version="Feature_Seasons_Rewards">Aufgabe abgeschlossen</string>
+	<string key="seasons_rewards_task_complete_title" rel_version="Feature_Seasons_Rewards">Ziel erfüllt</string>
 	<string key="seasons_rewards_activity_complete_title" rel_version="Feature_Seasons_Rewards">Aktivität abgeschlossen</string>
+	<string key="seasons_rewards_journey_title_reward" rel_version="Feature_Seasons_Rewards">Titel: {title}</string>
 	<string key="seasons_rewards_banner_journey_title" rel_version="Feature_Seasons_Rewards">Saison-EP verfügbar</string>
-	<string key="seasons_rewards_banner_journey_header" rel_version="Feature_Seasons_Rewards">Reiseaufgaben</string>
+	<string key="seasons_rewards_banner_journey_header" rel_version="Feature_Seasons_Rewards">Reiseziele</string>
 	<string key="seasons_rewards_banner_seasonpass_title" rel_version="Feature_Seasons_Rewards">Saisonbelohnungen verfügbar</string>
 	<string key="seasons_rewards_banner_seasonpass_header" rel_version="Feature_Seasons_Rewards">Belohnungsserie</string>
 	<string key="seasons_rewards_banner_activitycard_title" rel_version="Feature_Seasons_Rewards">Saisonstempel verfügbar</string>
@@ -34,6 +38,7 @@
 	<string key="ui_seasons_progressbar_complete" rel_version="Feature_Seasons_Rewards">Abgeschlossen!</string>
 	<string key="seasons_rewards_level_requirement_notification" rel_version="Feature_Seasons_Rewards">Du musst mindestens Stufe {minlevel} erreicht haben, um auf die Saison-Funktion zuzugreifen.</string>
 	<string key="seasons_token_feature_disabled_notification_text" rel_version="Feature_Seasons_Consumable_Tokens">Marken der Saison sind derzeit deaktiviert.</string>
+	<string key="seasons_leveling_guide_tooltip_text" rel_version="Feature_Seasons_Rewards">Schaltet den Zugang zur Saison-Belohnungsserie frei</string>
 	<string key="ui_activities" rel_version="Feature_Seasons_Rewards">Aktivitäten</string>
 	<string key="ui_totalcardscompleted" rel_version="Feature_Seasons_Rewards">Abgeschlossene Karten: {total}</string>
 	<string key="ui_stampcardbonus" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="2"&gt;&lt;/img&gt; Stemple die Karte ab, um {bxp} Saison-EP zu erhalten.</string>
@@ -42,11 +47,12 @@
 	<string key="ui_totalfillbonus" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="2"&gt;&lt;/img&gt; Erhalte bis zu {bxp} Saison-EP pro Karte.</string>
 	<string key="ui_nextcard" rel_version="Feature_Seasons_Rewards">Karte abschließen</string>
 	<string key="ui_reroll" rel_version="Feature_Seasons_Rewards">Aktivitäten neu auswürfeln</string>
+	<string key="ui_reroll_azoth" rel_version="Feature_Seasons_Rewards">&lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" scale="1.5" yOffset="1"&gt;&lt;/img&gt; {cost} ({amount})</string>
 	<string key="ui_howitworks" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/Icons/Misc/icon_question_orange" scale="2" yOffset="5"&gt;&lt;/img&gt; Wie funktionieren Aktivitätenkarten?</string>
 	<string key="ui_howitworks_journey" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/Icons/Misc/icon_question_orange" scale="2" yOffset="5"&gt;&lt;/img&gt; Wie funktioniert die Saisonreise?</string>
 	<string key="ui_rerollhover" rel_version="Feature_Seasons_Rewards">Für {cost} Azoth kannst du die aktuelle Aktivitätenliste neu auswürfeln.</string>
 	<string key="ui_rerolltitle" rel_version="Feature_Seasons_Rewards">Neu auswürfeln</string>
-	<string key="ui_rerolltext" rel_version="Feature_Seasons_Rewards">Möchtest du die Aktivitätenliste neu auswürfeln?\n\nDer Fortschritt für nicht abgeschlossene Aktivitäten geht verloren.</string>
+	<string key="ui_rerolltext" rel_version="Feature_Seasons_Rewards">Möchtest du die Aktivitätenliste neu auswürfeln?\n\nDer Fortschritt für nicht abgestempelte Aktivitäten geht verloren.</string>
 	<string key="ui_reroll_cantAfford" rel_version="Feature_Seasons_Rewards">Du hast nicht genug Azoth.</string>
 	<string key="ui_cellbxp" rel_version="Feature_Seasons_Rewards">{bxp}</string>
 	<string key="ui_newcardtitle" rel_version="Feature_Seasons_Rewards">Möchtest du eine neue Karte?</string>
@@ -63,8 +69,8 @@
 	<string key="ui_hiw_sect1_pt1" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Wähle ein hervorgehobenes Feld, um der Karte einen Stempel aufzudrücken und Saison-EP zu verdienen.</string>
 	<string key="ui_hiw_sect1_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Stemple vollständige Linien auf der Karte ab, um zusätzliche Saison-EP zu erhalten.</string>
 	<string key="ui_hiw_sect1_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Sammle genug Stempel, um eine Karte abzuschließen und eine neue zu erhalten.</string>
-	<string key="ui_hiw_sect2_header" rel_version="Feature_Seasons_Rewards">Wurfwiederholung</string>
-	<string key="ui_hiw_sect2_desc" rel_version="Feature_Seasons_Rewards">Wenn dir die Aktivitäten auf deiner aktuellen Stempelkarte nicht gefallen, kannst du sie gegen Azoth neu auswürfeln lassen. Abgeschlossene Stempel bleiben erhalten, aber deine angebotenen Aktivitäten, einschließlich derer, die du abgeschlossen hast, werden durch neue Aktivitäten ersetzt, um deine neue Karte zu vervollständigen.</string>
+	<string key="ui_hiw_sect2_header" rel_version="Feature_Seasons_Rewards">Neu auswürfeln</string>
+	<string key="ui_hiw_sect2_desc" rel_version="Feature_Seasons_Rewards">Mit Azoth kannst du die Aktivitätenliste neu auswürfeln, um neue Aktivitäten zu erhalten. Der Fortschritt für nicht abgestempelte Aktivitäten geht verloren.</string>
 	<string key="ui_hiw_sect2_pt1" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Für jede neue Karte kannst du die Aktivitäten einmal kostenlos neu auswürfeln.</string>
 	<string key="ui_hiw_sect2_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Die Kosten für eine Neu-Auswürfelung steigen mit jedem Einsatz.</string>
 	<string key="ui_hiw_sect2_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Die Kosten für eine Neu-Auswürfelung werden bei einer neuen Karte zurückgesetzt.</string>
@@ -73,11 +79,11 @@
 	<string key="ui_hiw_journey_sect1_pt1" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Kapitel und Herausforderungen bieten einzigartige Ziele, auf die du im Laufe der Saison hinarbeiten kannst.</string>
 	<string key="ui_hiw_journey_sect1_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Wenn du ein Ziel erreicht hast, erhältst du eine Belohnung.</string>
 	<string key="ui_hiw_journey_sect1_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Hol deine Belohnungen ab, um dem Kapitelziel näher zu kommen.</string>
-	<string key="ui_hiw_journey_sect2_header" rel_version="Feature_Seasons_Rewards">Abschlussziele</string>
+	<string key="ui_hiw_journey_sect2_header" rel_version="Feature_Seasons_Rewards">Kapitelbelohnung</string>
 	<string key="ui_hiw_journey_sect2_desc" rel_version="Feature_Seasons_Rewards">Erreiche das Ziel eines Kapitels, um die Kapitelbelohnung freizuschalten.</string>
 	<string key="ui_hiw_journey_sect2_pt1" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Jedes Kapitel hat ein Abschlussziel.</string>
 	<string key="ui_hiw_journey_sect2_pt2" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Erreiche genug Ziele, um das Abschlussziel zu erreichen.</string>
-	<string key="ui_hiw_journey_sect2_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Du erhältst die Hauptbelohnung eines Kapitels, wenn du das Abschlussziel erreichst.</string>
+	<string key="ui_hiw_journey_sect2_pt3" rel_version="Feature_Seasons_Rewards">&lt;img src="LyShineUI/Images/SeasonsRewards/pip" yOffset="1"&gt;&lt;/img&gt; Du erhältst die Kapitelbelohnung, wenn du das Abschlussziel erreichst.</string>
 	<string key="ui_seasons_task_ObtainLevel_name" rel_version="Feature_Seasons_Rewards">Erste Schritte</string>
 	<string key="ui_seasons_task_ObtainLevel_desc" rel_version="Feature_Seasons_Rewards">Erlange Stufe {level}</string>
 	<string key="ui_seasons_task_CompleteExpedition_name" rel_version="Feature_Seasons_Rewards">Expeditions-Erkundung I</string>
@@ -153,9 +159,9 @@
 	<string key="ui_seasons_task_CompleteQuest_CurseOfTheBones_name" rel_version="Feature_Seasons_Rewards">Der Fluch des Gesichtslosen</string>
 	<string key="ui_seasons_task_CompleteQuest_CurseOfTheBones_desc" rel_version="Feature_Seasons_Rewards">Schließe folgende Aufgabe von Skye ab: Der Fluch des Gesichtslosen</string>
 	<string key="ui_seasons_task_CompleteM10Expedition75000Score_TheEmpyreanForge_name" rel_version="Feature_Seasons_Rewards">Perfekt geschmiedet</string>
-	<string key="ui_seasons_task_CompleteM10Expedition_TheEmpyreanForge_desc" rel_version="Feature_Seasons_Rewards">Schließe Empyreum-Schmiede M10 mit mindestens {score} Punkten ab.</string>
+	<string key="ui_seasons_task_CompleteM10Expedition_TheEmpyreanForge_desc" rel_version="Feature_Seasons_Rewards">Schließe Empyreum-Schmiede Mutation 10 mit mindestens {score} Punkten ab.</string>
 	<string key="ui_seasons_task_CompleteEveryM10ExpeditionWithGoldRatingOrHigher_name" rel_version="Feature_Seasons_Rewards">Gold oder Tod!</string>
-	<string key="ui_seasons_task_CompleteEveryM10ExpeditionWithGoldRatingOrHigher_desc" rel_version="Feature_Seasons_Rewards">Schließe alle M10-Expeditionen mit mindestens einer Goldbewertung ab.</string>
+	<string key="ui_seasons_task_CompleteEveryM10ExpeditionWithGoldRatingOrHigher_desc" rel_version="Feature_Seasons_Rewards">Schließe alle Mutation-10-Expeditionen mit mindestens einer Goldbewertung ab.</string>
 	<string key="ui_seasons_task_FlameCoreFunI_name" rel_version="Feature_Seasons_Rewards">Flammenkernspaß I</string>
 	<string key="ui_seasons_task_FlameCoreFunII_name" rel_version="Feature_Seasons_Rewards">Flammenkernspaß II</string>
 	<string key="ui_seasons_task_FlameCoreFunIII_name" rel_version="Feature_Seasons_Rewards">Flammenkernspaß III</string>
@@ -209,16 +215,18 @@
 	<string key="ui_seasons_task_CompleteFellowshipAndFireSeasonalStory_desc" rel_version="Feature_Seasons_Rewards">Schließe die Saisonhandlung "Kameradschaft und Feuer" ab.</string>
 	<string key="ui_seasons_task_Craft25GS600UsingFlameCore_name" rel_version="Feature_Seasons_Rewards">Flammenkernsammler</string>
 	<string key="ui_seasons_task_Craft25GS600UsingFlameCore_desc" rel_version="Feature_Seasons_Rewards">Stelle 25 Gegenstände mit RW 600 mithilfe von Flammenkernen her.</string>
-	<string key="ui_seasons_task_Complete25M10ExpeditionWithGoldRank_name" rel_version="Feature_Seasons_Rewards">Gold oder Tod!</string>
-	<string key="ui_seasons_task_Complete25M10ExpeditionWithGoldRank_desc" rel_version="Feature_Seasons_Rewards">Schließe 25 M10-Expeditionen mit mindestens einer Goldbewertung ab.</string>
+	<string key="ui_seasons_task_Complete25M10ExpeditionWithGoldRank_name" rel_version="Feature_Seasons_Rewards">Mutationsmeisterschaft</string>
+	<string key="ui_seasons_task_Complete25M10ExpeditionWithGoldRank_desc" rel_version="Feature_Seasons_Rewards">Schließe 25 Mutation-10-Expeditionen mit mindestens einer Silberbewertung ab.</string>
 	<string key="ui_seasons_task_Complete10MutatedExpeditionsFlawlessly_name" rel_version="Feature_Seasons_Rewards">Dem Tod von der Schippe springen</string>
 	<string key="ui_seasons_task_Complete10MutatedExpeditionsFlawlessly_desc" rel_version="Feature_Seasons_Rewards">Schließe 10 mutierte Expeditionen ab, ohne dass jemand in deiner Gruppe stirbt.</string>
 	<string key="ui_seasons_task_LocateLostEasel_name" rel_version="Feature_Seasons_Rewards">Einfache Staffeleien</string>
 	<string key="ui_seasons_task_LocateLostEasel_desc" rel_version="Feature_Seasons_Rewards">Finde eine verlorene Staffelei.</string>
-	<string key="token_toggle_popup" rel_version="Feature_Seasons_Consumable_Tokens">Stärkungen</string>
-	<string key="token_show_popup" rel_version="Feature_Seasons_Consumable_Tokens">Stärkungen</string>
-	<string key="token_list_header" rel_version="Feature_Seasons_Consumable_Tokens">Stärkungen</string>
+	<string key="token_toggle_popup" rel_version="Feature_Seasons_Consumable_Tokens">Erhöhungen</string>
+	<string key="token_show_popup" rel_version="Feature_Seasons_Consumable_Tokens">Erhöhungen</string>
+	<string key="token_list_header" rel_version="Feature_Seasons_Consumable_Tokens">Erhöhungen</string>
+	<string key="token_command_openmenu" rel_version="Feature_Seasons_Consumable_Tokens">Erhöhungen</string>
 	<string key="token_use_new_header" rel_version="Feature_Seasons_Consumable_Tokens">Stärkung verwenden</string>
+	<string key="permit_use_new_header" rel_version="Feature_Seasons_Consumable_Tokens">Lizenz verwenden</string>
 	<string key="token_use_new_body" rel_version="Feature_Seasons_Consumable_Tokens">Dies für diesen Charakter aktiveren: {boostName}?\n\nDer Effekt wirkt für {duration}.</string>
 	<string key="token_add_time_header" rel_version="Feature_Seasons_Consumable_Tokens">Zeit hinzufügen</string>
 	<string key="token_add_time_body" rel_version="Feature_Seasons_Consumable_Tokens">Effekt {boostName} um {duration} verlängern?\n\nNeue verbleibende Zeit: {newDuration}</string>
@@ -227,6 +235,8 @@
 	<string key="token_use_expired" rel_version="Feature_Seasons_Consumable_Tokens">{boostName} hat keinen Effekt mehr.</string>
 	<string key="token_tooltip_list_item" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;&lt;font color={color}&gt;{effectName}&lt;/font&gt;&lt;/font&gt;\nVerbleibende Zeit: {timeRemaining}</string>
 	<string key="token_disabled" rel_version="Feature_Seasons_Consumable_Tokens">Deaktiviert</string>
+	<string key="token_pending_append" rel_version="Feature_Seasons_Consumable_Tokens">{tokenName} (Ausstehend: {pendingQty})</string>
+	<string key="token_pending_newline" rel_version="Feature_Seasons_Consumable_Tokens">{tokenName}\n(Ausstehend: {pendingQty})</string>
 	<string key="SeasonsActivities_Close1MajorBreach" rel_version="Feature_Seasons_Rewards">Schließe große Ausbrüche.</string>
 	<string key="SeasonsActivities_Close1MinorBreaches" rel_version="Feature_Seasons_Rewards">Schließe kleine Ausbrüche.</string>
 	<string key="SeasonsActivities_Kill10Lost" rel_version="Feature_Seasons_Rewards">Töte Verlorene.</string>
@@ -257,7 +267,8 @@
 	<string key="SeasonsActivities_ParticipateIn1OPR" rel_version="Feature_Seasons_Rewards">Nimm am Außenpostensturm teil.</string>
 	<string key="SeasonsActivities_ParticipateIn3_3v3" rel_version="Feature_Seasons_Rewards">Nimm an 3-gegen-3-Arenen teil.</string>
 	<string key="SeasonsActivities_DealOrHeal100000In3v3" rel_version="Feature_Seasons_Rewards">Füge in 3-gegen-3-Arenen Schaden zu oder heile.</string>
-	<string key="SeasonsActivities_Loot2EliteChests" rel_version="Feature_Seasons_Rewards">Plündere Elitetruhen.</string>
+	<string key="SeasonsActivities_LootEliteChest" rel_version="Feature_Seasons_Rewards">Plündere Elitetruhen.</string>
+	<string key="SeasonsActivities_LootSulfurChest" rel_version="Feature_Seasons_Rewards">Plündere Schwefelloch-Truhen.</string>
 	<string key="SeasonsActivities_Kill25VarangianKnightsAtPOI" rel_version="Feature_Seasons_Rewards">Töte varangianische Ritter bei einem Orientierungspunkt.</string>
 	<string key="SeasonsActivities_Kill10FlameVarangianKnights" rel_version="Feature_Seasons_Rewards">Töte geschmiedete varangianische Ritter.</string>
 	<string key="SeasonsActivities_Complete1Expedition" rel_version="Feature_Seasons_Rewards">Schließe eine Expedition ab.</string>
@@ -286,7 +297,7 @@
 	<string key="SeasonsActivities_Spend250AzothSalt" rel_version="Feature_Seasons_Rewards">Gib Azoth aus.</string>
 	<string key="SeasonsActivities_Place1Decoration" rel_version="Feature_Seasons_Rewards">Platziere in deinem Haus eine Dekoration.</string>
 	<string key="SeasonsActivities_Complete2PvpFactionMissions" rel_version="Feature_Seasons_Rewards">Schließe PvP-Fraktionsmissionen ab.</string>
-	<string key="SeasonsActivities_FlawlessVictoryInPvpArena" rel_version="Feature_Seasons_Rewards">Erringe in der PvP-Arena einen makellosen Sieg.</string>
+	<string key="SeasonsActivities_FlawlessVictoryInPvpArena" rel_version="Feature_Seasons_Rewards">Erringe in der PvP-Arena einen Sieg.</string>
 	<string key="SeasonsActivities_UseFlameCoreForgex1" rel_version="Feature_Seasons_Rewards">Stelle einen Abguss in der Flammenkernschmiede her</string>
 	<string key="SeasonsActivities_CraftUsingTimelessShard" rel_version="Feature_Seasons_Rewards">Stelle mit zeitlosen Splittern Gegenstände mit Rang 5 her.</string>
 	<string key="SeasonsActivities_CraftUsingPoultryThigh" rel_version="Feature_Seasons_Rewards">Koche Truthahnschenkel-Rezepte mit Rang 5.</string>
@@ -296,6 +307,11 @@
 	<string key="SeasonsActivities_ConsumeT5Coating" rel_version="Feature_Seasons_Rewards">Verwende Waffenbeschichtungen mit Rang 5.</string>
 	<string key="SeasonsActivities_ConsumeT5TradeskillConsumable" rel_version="Feature_Seasons_Rewards">Verwende Verbrauchsgegenstände mit Rang 5 bei der Herstellung.</string>
 	<string key="SeasonsActivities_ConsumeT5ResistanceConsumable" rel_version="Feature_Seasons_Rewards">Verwende Verbrauchsgegenstände für Resistenz mit Rang 5.</string>
+	<string key="SeasonsActivities_DefeatBrimstoneSandsBoss" rel_version="Feature_Seasons_Rewards">Besiege Shah-Neshen den Verschlinger.</string>
+	<string key="SeasonsActivities_Kill10Dunewalkers" rel_version="Season_2_Perm">Töte Sandgeher.</string>
+	<string key="SeasonsActivities_PlayMaudlinbugSong" rel_version="Season_2_Perm">Spiele den Schafgarbenkäfer-Walzer.</string>
+	<string key="SeasonsActivities_Gather500Resources" rel_version="Season_2_Perm">Sammle Rohstoffe.</string>
+	<string key="SeasonsActivities_Kill5Scorpions" rel_version="Feature_Seasons_Rewards">Töte Skorpione.</string>
 	<string key="SeasonsRewardTrack_Activity" rel_version="Feature_Seasons_Rewards">Aktivitätenkarte</string>
 	<string key="SeasonsRewardTrack_PurchaseLevels" rel_version="Feature_Seasons_Rewards">Stufen kaufen</string>
 	<string key="SeasonsRewardTrack_Free" rel_version="Feature_Seasons_Rewards">Kostenlos</string>
@@ -314,7 +330,7 @@
 	<string key="SeasonsRewardTrack_Unclaimed_Rewards" rel_version="Feature_Seasons_Rewards">&lt;font color={color}&gt;{amount}&lt;/font&gt; unbeansprucht</string>
 	<string key="SeasonsRewardTrack_Current_Level" rel_version="Feature_Seasons_Rewards">Aktuelle Stufe ansehen</string>
 	<string key="SeasonsRewardTrack_PremiumSelectErrorNotification" rel_version="Feature_Seasons_Rewards">Wähle bitte einen Premium-Pass zum Kauf aus.</string>
-	<string key="SeasonsRewardTrack_Season1WelcomeText" rel_version="Feature_Seasons_Rewards">Saison 1 ist gestartet!\n\nVerdiene Saison-EP durch den Abschluss der Saisonreise mit Aktivitätenkarten.</string>
+	<string key="SeasonsRewardTrack_SeasonWelcomeText" rel_version="Feature_Seasons_Rewards">Saison {index} ist gestartet!\n\nVerdiene Saison-EP durch den Abschluss der Saisonkapitel und Aktivitätenkarten.</string>
 	<string key="SeasonsRewardTrack_JourneyLevelRequirementTooltip" rel_version="Feature_Seasons_Rewards">Du musst mindestens Stufe {level} erreicht haben, um auf die Saisonreise zuzugreifen.</string>
 	<string key="SeasonsRewardTrack_PurchaseHeadStartButtonLabel" rel_version="Feature_Seasons_Rewards">Premium-Pass + 20</string>
 	<string key="SeasonsRewardTrack_PurchasePassButtonLabel" rel_version="Feature_Seasons_Rewards">Premium-Pass</string>
@@ -325,8 +341,169 @@
 	<string key="SeasonsRewardTrack_ClaimError_AlreadyClaimingReward" rel_version="Feature_Seasons_Rewards">Du versuchst bereits, eine Belohnung zu beanspruchen. Versuche es bitte später erneut.</string>
 	<string key="SeasonsRewardTrack_TransactionError" rel_version="Feature_Seasons_Rewards">Transaktion kann nicht verarbeitet werden. Versuche es bitte später erneut.</string>
 	<string key="SeasonsRewardTrack_PartialClaimWarning" rel_version="Feature_Seasons_Rewards">Einer oder mehrere der Gegenstände dieser Belohnung wurden bereits für dieses Konto beansprucht.</string>
+	<string key="SeasonsRewardTrack_LevelsPrice" rel_version="Feature_Seasons_Rewards">{price}&lt;img src="LyShineUI/Images/mtx/icon_mtx_currency" scale="0.78125"&gt;&lt;/img&gt;</string>
+	<string key="SeasonsRewardTrack_ClaimUnclaimedButton" rel_version="Feature_Seasons_Rewards">Vorherige unbeanspruchte Belohnungen</string>
+	<string key="SeasonsRewardsUnclaimed_UnclaimedPopupHeader" rel_version="Feature_Seasons_Rewards">Unbeanspruchte Belohnungen</string>
+	<string key="SeasonsRewardsUnclaimed_UnclaimedPopupBody" rel_version="Feature_Seasons_Rewards">Alle verdienten Belohnungen aus der Vorsaison kannst du für begrenzte Zeit noch nachträglich beanspruchen!\n\nMöchtest du zu den unbeanspruchten Saisonbelohnungen gehen?</string>
 	<string key="ui_seasonpassrewardsinfo">&lt;img src="LyShineUI/Images/Icons/Misc/icon_question_orange" scale="2" yOffset="5"&gt;&lt;/img&gt; Info zu Saisonpassbelohnungen</string>
 	<string key="url_seasonpassrewardsinfo">https://www.newworld.com/de-de/news/articles/season-pass-free-and-premium-reward-tracks-faq</string>
 	<string key="SeasonsRewardTrack_SoftDisabledNotification" rel_version="Feature_Seasons_Rewards">Saisonaktivitäten sind derzeit deaktiviert.</string>
+	<string key="ui_seasons_task_name_CollectGlyph_1" rel_version="Season_2_Perm">Glyphengelehrter I</string>
+	<string key="ui_seasons_task_name_CollectGlyph_2" rel_version="Season_2_Perm">Glyphengelehrter II</string>
+	<string key="ui_seasons_task_name_CollectGlyph_3" rel_version="Season_2_Perm">Glyphengelehrter III</string>
+	<string key="ui_seasons_task_name_CollectGlyph_4" rel_version="Season_2_Perm">Glyphengelehrter IV</string>
+	<string key="ui_seasons_task_name_CollectGlyph_5" rel_version="Season_2_Perm">Glyphengelehrter V</string>
+	<string key="ui_seasons_task_description_CollectGlyphSingle" rel_version="Season_2_Perm">Besuche und sammle {maxCount} Glyphe in der Schwefelsandwüste.</string>
+	<string key="ui_seasons_task_description_CollectGlyph" rel_version="Season_2_Perm">Besuche und sammle {maxCount} Glyphen in der Schwefelsandwüste.</string>
+	<string key="ui_seasons_task_name_CraftGoldenScarab_1" rel_version="Season_2_Perm">Skarabäenschmied I</string>
+	<string key="ui_seasons_task_name_CraftGoldenScarab_2" rel_version="Season_2_Perm">Skarabäenschmied II</string>
+	<string key="ui_seasons_task_description_CraftGoldenScarabSingle" rel_version="Season_2_Perm">Fertige einen Gegenstand mit einem goldenen Skarabäus an.</string>
+	<string key="ui_seasons_task_description_CraftGoldenScarab" rel_version="Season_2_Perm">Fertige {maxCount} Gegenstände mit einem goldenen Skarabäus an.</string>
+	<string key="ui_seasons_task_name_WinArenaMatches_1" rel_version="Season_2_Perm">Gladiator I</string>
+	<string key="ui_seasons_task_name_WinArenaMatches_2" rel_version="Season_2_Perm">Gladiator II</string>
+	<string key="ui_seasons_task_name_CompleteFactionMissions_1" rel_version="Season_2_Perm">Fraktionsfanatiker I</string>
+	<string key="ui_seasons_task_name_CompleteFactionMissions_2" rel_version="Season_2_Perm">Fraktionsfanatiker II</string>
+	<string key="ui_seasons_task_description_CompleteFactionMissions" rel_version="Season_2_Perm">Schließe {maxCount} Fraktionsmissionen ab.</string>
+	<string key="ui_seasons_task_name_CompleteSeasonalChallenge_1" rel_version="Season_2_Perm">Herausforderungsbewältigung I</string>
+	<string key="ui_seasons_task_name_CompleteSeasonalChallenge_2" rel_version="Season_2_Perm">Herausforderungsbewältigung II</string>
+	<string key="ui_seasons_task_name_CompleteSeasonalChallenge_3" rel_version="Season_2_Perm">Herausforderungsbewältigung III</string>
+	<string key="ui_seasons_task_name_CompleteSeasonalChallenge_4" rel_version="Season_2_Perm">Herausforderungsbewältigung IV</string>
+	<string key="ui_seasons_task_name_CompleteSeasonalChallenge_5" rel_version="Season_2_Perm">Herausforderungsbewältigung V</string>
+	<string key="ui_seasons_task_descripion_CompleteSeasonalChallengeSingle" rel_version="Season_2_Perm">Schließe eine Saisonherausforderung ab.</string>
+	<string key="ui_seasons_task_descripion_CompleteSeasonalChallenge" rel_version="Season_2_Perm">Schließe {maxCount} Saisonherausforderungen ab.</string>
+	<string key="ui_seasons_task_name_CompleteTownProjects_1" rel_version="Season_2_Perm">Projektvorläufer I</string>
+	<string key="ui_seasons_task_name_CompleteTownProjects_2" rel_version="Season_2_Perm">Projektvorläufer II</string>
+	<string key="ui_seasons_task_name_CompleteTownProjects_3" rel_version="Season_2_Perm">Projektvorläufer III</string>
+	<string key="ui_seasons_task_description_CompleteTownProjectsSingle" rel_version="Season_2_Perm">Schließe ein Stadtprojekt ab.</string>
+	<string key="ui_seasons_task_description_CompleteTownProjects" rel_version="Season_2_Perm">Schließe {maxCount} Stadtprojekte ab.</string>
+	<string key="ui_seasons_task_name_CompleteActivityCards_1" rel_version="Season_2_Perm">Betagter Abenteurer I</string>
+	<string key="ui_seasons_task_name_CompleteActivityCards_2" rel_version="Season_2_Perm">Betagter Abenteurer II</string>
+	<string key="ui_seasons_task_name_CompleteActivityCards_3" rel_version="Season_2_Perm">Betagter Abenteurer III</string>
+	<string key="ui_seasons_task_name_CompleteActivityCards_4" rel_version="Season_2_Perm">Betagter Abenteurer IV</string>
+	<string key="ui_seasons_task_name_CompleteActivityCards_5" rel_version="Season_2_Perm">Betagter Abenteurer V</string>
+	<string key="ui_seasons_task_description_CompleteActivityCardsSingle" rel_version="Season_2_Perm">Vervollständige eine Aktivitätenkarte.</string>
+	<string key="ui_seasons_task_description_CompleteActivityCards" rel_version="Season_2_Perm">Vervollständige {maxCount} Aktivitätenkarten.</string>
+	<string key="ui_seasons_task_name_CloseBreaches_1" rel_version="Season_2_Perm">Breschenschließung I</string>
+	<string key="ui_seasons_task_name_CloseBreaches_2" rel_version="Season_2_Perm">Breschenschließung II</string>
+	<string key="ui_seasons_task_name_CloseBreaches_3" rel_version="Season_2_Perm">Breschenschließung III</string>
+	<string key="ui_seasons_task_name_CloseBreaches_4" rel_version="Season_2_Perm">Breschenschließung IV</string>
+	<string key="ui_seasons_task_name_CloseBreaches_5" rel_version="Season_2_Perm">Breschenschließung V</string>
+	<string key="ui_seasons_task_description_CloseBreaches" rel_version="Season_2_Perm">Schließe {maxCount} Verderbnisausbrüche.</string>
+	<string key="ui_seasons_task_description_CloseMinorBreaches" rel_version="Season_2_Perm">Schließe {maxCount} kleine Verderbnisausbrüche.</string>
+	<string key="ui_seasons_task_description_CloseMajorBreaches" rel_version="Season_2_Perm">Schließe {maxCount} große Verderbnisausbrüche.</string>
+	<string key="ui_seasons_task_name_PlayOutpostRush_1" rel_version="Season_2_Perm">Sturmkampf I</string>
+	<string key="ui_seasons_task_name_PlayOutpostRush_2" rel_version="Season_2_Perm">Sturmkampf II</string>
+	<string key="ui_seasons_task_description_PlayOutpostRushSingle" rel_version="Season_2_Perm">Nimm an einem Außenpostensturm teil.</string>
+	<string key="ui_seasons_task_description_PlayOutpostRush" rel_version="Season_2_Perm">Nimm an {maxCount} Außenpostenstürmen teil.</string>
+	<string key="ui_seasons_task_name_WinWar_1" rel_version="Season_2_Perm">PLATZHALTER</string>
+	<string key="ui_seasons_task_description_WinWarSingle" rel_version="Season_2_Perm">Gewinne einen Krieg.</string>
+	<string key="ui_seasons_task_description_WinWar" rel_version="Season_2_Perm">Gewinne {maxCount} Kriege.</string>
+	<string key="ui_seasons_task_name_PvPXP" rel_version="Season_2_Perm">Adeptenfeind</string>
+	<string key="ui_seasons_task_description_PvPXP" rel_version="Season_2_Perm">Erringe {maxCount} PvP-EP.</string>
+	<string key="ui_seasons_task_name_CaptureFactionControlPoints_1" rel_version="Season_2_Perm">Kontrollpunkteroberung I</string>
+	<string key="ui_seasons_task_name_CaptureFactionControlPoints_2" rel_version="Season_2_Perm">Kontrollpunkteroberung II</string>
+	<string key="ui_seasons_task_name_CaptureFactionControlPoints_3" rel_version="Season_2_Perm">Kontrollpunkteroberung III</string>
+	<string key="ui_seasons_task_name_CaptureFactionControlPoints_4" rel_version="Season_2_Perm">Kontrollpunkteroberung IV</string>
+	<string key="ui_seasons_task_description_CaptureFactionControlPointsSingle" rel_version="Season_2_Perm">Erobere einen Fraktionskontrollpunkt.</string>
+	<string key="ui_seasons_task_description_CaptureFactionControlPoints" rel_version="Season_2_Perm">Erobere {maxCount} Fraktionskontrollpunkte.</string>
+	<string key="ui_seasons_task_name_KillPlayerOpenWorld_1" rel_version="Season_2_Perm">Bedrohung der offenen Welt</string>
+	<string key="ui_seasons_task_description_KillPlayerOpenWorld" rel_version="Season_2_Perm">Töte {maxCount} Spieler in der offenen Welt und erhalte Azoth-Salz.</string>
+	<string key="ui_seasons_task_name_CompleteTrialHatchery" rel_version="Season_2_Perm">Die Brutstätte</string>
+	<string key="ui_seasons_task_description_CompleteTrialHatchery" rel_version="Season_2_Perm">Schließe die Brutstätten-Prüfung ab.</string>
+	<string key="ui_seasons_task_name_CompleteTrialSandworm" rel_version="Season_2_Perm">Der Sandwurm</string>
+	<string key="ui_seasons_task_description_CompleteTrialSandworm" rel_version="Season_2_Perm">Schließe die Sandwurm-Prüfung ab.</string>
+	<string key="ui_seasons_task_name_CompleteEnnead" rel_version="Season_2_Perm">Die Enneade</string>
+	<string key="ui_seasons_task_description_CompleteEnnead" rel_version="Season_2_Perm">Schließe die Enneaden-Expedition ab.</string>
+	<string key="ui_seasons_task_name_CompleteEnneadM1" rel_version="Season_2_Perm">Enneaden-Experte I</string>
+	<string key="ui_seasons_task_description_CompleteEnneadM1" rel_version="Season_2_Perm">Schließe die Enneaden-Mutation 1 ab.</string>
+	<string key="ui_seasons_task_name_CompleteEnneadM10" rel_version="Season_2_Perm">Enneaden-Experte II</string>
+	<string key="ui_seasons_task_description_CompleteEnneadM10" rel_version="Season_2_Perm">Schließe 10 Enneaden-Mutationen ab.</string>
+	<string key="ui_seasons_task_name_KillAnubianGuardians_1" rel_version="Season_2_Perm">Anubische Auslöschung</string>
+	<string key="ui_seasons_task_description_KillAnubianGuardians" rel_version="Season_2_Perm">Töte {maxCount} Anubiswächter.</string>
+	<string key="ui_seasons_task_name_KillDunewalkers_1" rel_version="Season_2_Perm">Untergang der Sandgeher I</string>
+	<string key="ui_seasons_task_description_KillDunewalkers" rel_version="Season_2_Perm">Töte {maxCount} Sandgeher.</string>
+	<string key="ui_seasons_task_name_KillSulfurElementals_1" rel_version="Season_2_Perm">Schwefel-Elementarmagier</string>
+	<string key="ui_seasons_task_description_KillSulfurElementals" rel_version="Season_2_Perm">Töte {maxCount} Schwefel-Elementare.</string>
+	<string key="ui_seasons_task_name_KillRafflebones_1" rel_version="Season_2_Perm">Glücksknochen</string>
+	<string key="ui_seasons_task_description_KillRafflebonesSingle" rel_version="Season_2_Perm">Töte Orakelknochen.</string>
+	<string key="ui_seasons_task_description_KillRafflebones" rel_version="Season_2_Perm">Töte Orakelknochen {maxCount} mal.</string>
+	<string key="ui_seasons_task_name_DefeatSolariumKhepri" rel_version="Season_2_Perm">Solarium-Skarabäus-Schlächter</string>
+	<string key="ui_seasons_task_description_DefeatSolariumKhepri" rel_version="Season_2_Perm">Besiege im Solarium Khepri, Wagen der Morgenröte.</string>
+	<string key="ui_seasons_task_name_CraftRuneglass" rel_version="Season_2_Perm">Glasbläser</string>
+	<string key="ui_seasons_task_description_CraftRuneglass" rel_version="Season_2_Perm">Stelle {maxCount} Runenglas-Edelsteine her.</string>
+	<string key="ui_seasons_task_name_SongCallOfTheAncientsExpert" rel_version="Season_2_Perm">Ruf der Ahnen</string>
+	<string key="ui_seasons_task_description_SongCallOfTheAncientsExpert" rel_version="Season_2_Perm">Spiele das Lied "Ruf der Ahnen" mit einer Sternebewertung von 4.</string>
+	<string key="ui_seasons_task_name_SongsExpertWithFullBand_1" rel_version="Season_2_Perm">Die Band zusammenstellen</string>
+	<string key="ui_seasons_task_description_SongsExpertWithFullBand" rel_version="Season_2_Perm">Spiele mit einer kompletten Band {maxCount} Lieder auf dem Schwierigkeitsgrad "Experte".</string>
+	<string key="ui_seasons_task_name_CatchBrimstoneLegendaryFish" rel_version="Season_2_Perm">Wüstenangler</string>
+	<string key="ui_seasons_task_description_CatchBrimstoneLegendaryFish" rel_version="Season_2_Perm">Fange den legendären Fisch der Schwefelsandwüste.</string>
+	<string key="ui_seasons_task_name_CatchLbsOfFish_1" rel_version="Season_2_Perm">Halbtonnenangler</string>
+	<string key="ui_seasons_task_description_CatchLbsOfFish" rel_version="Season_2_Perm">Fange {maxCount/100} Pfund Fisch.</string>
+	<string key="ui_seasons_task_name_CraftGypsumOrbs_1" rel_version="Season_2_Perm">Gipskugel-Liebhaber</string>
+	<string key="ui_seasons_task_description_CraftGypsumOrbs" rel_version="Season_2_Perm">Stelle {maxCount} Gipskugeln her.</string>
+	<string key="ui_seasons_task_name_LootEliteSulfurChests_1" rel_version="Season_2_Perm">Schwefelbeute I</string>
+	<string key="ui_seasons_task_name_LootEliteSulfurChests_2" rel_version="Season_2_Perm">Schwefelbeute II</string>
+	<string key="ui_seasons_task_description_LootEliteSulfurChests" rel_version="Season_2_Perm">Plündere {maxCount} Elitetruhen in Schwefellöchern.</string>
+	<string key="ui_seasons_task_name_CompleteQuest_WordOfAThief" rel_version="Season_2_Perm">Diebesehrenwort</string>
+	<string key="ui_seasons_task_descriptionCompleteQuest_WordOfAThief" rel_version="Season_2_Perm">Schließe folgende Aufgabe ab: Diebesehrenwort</string>
+	<string key="ui_seasons_task_name_CompleteQuest_SecondThoughts" rel_version="Season_2_Perm">Meinungsänderung</string>
+	<string key="ui_seasons_task_description_CompleteQuest_SecondThoughts" rel_version="Season_2_Perm">Schließe folgende Aufgabe ab: Meinungsänderung</string>
+	<string key="ui_seasons_task_name_LootBrimstoneEasel" rel_version="Season_2_Perm">Schwefel-Panorama</string>
+	<string key="ui_seasons_task_description_LootBrimstoneEasel" rel_version="Season_2_Perm">Suche eine der verlorenen Staffeleien in der Schwefelsandwüste.</string>
+	<string key="ui_seasons_task_name_KillStubbles" rel_version="Season_2_Perm">Lang lebe der König</string>
+	<string key="ui_seasons_task_description_KillStubbles" rel_version="Season_2_Perm">Erlege den widerspenstigen Stoppel den Ziegenkönig.</string>
+	<string key="ui_seasons_task_name_GatherPrismabloom_15" rel_version="Season_2_Perm">Prächtige Prismablüten</string>
+	<string key="ui_seasons_task_description_GatherPrismabloom_15" rel_version="Season_2_Perm">Sammle {maxCount} Prismablüten.</string>
+	<string key="ui_seasons_task_name_KillHeka" rel_version="Season_2_Perm">Zur Hölle mit Heka</string>
+	<string key="ui_seasons_task_description_KillHeka" rel_version="Season_2_Perm">Töte Heka vom Kreuzweg.</string>
+	<string key="ui_seasons_task_name_KillDunewalkers_2" rel_version="Season_2_Perm">Untergang der Sandgeher II</string>
+	<string key="ui_seasons_task_name_CompleteQuest_TheOrdealOfTheNineGates" rel_version="Season_2_Perm">Die Prüfung der Neun Tore</string>
+	<string key="ui_seasons_task_description_CompleteQuest_TheOrdealOfTheNineGates" rel_version="Season_2_Perm">Schließe folgende Aufgabe ab: Die Prüfung der Neun Tore</string>
+	<string key="ui_seasons_task_name_CompleteQuest_PrecariousPosition" rel_version="Season_2_Perm">Heikle Position</string>
+	<string key="ui_seasons_task_description_CompleteQuest_PrecariousPosition" rel_version="Season_2_Perm">Schließe folgende Aufgabe ab: Heikle Position</string>
+	<string key="ui_seasons_task_name_CompleteQuest_EmptyNest" rel_version="Season_2_Perm">Ein leeres Nest</string>
+	<string key="ui_seasons_task_description_CompleteQuest_EmptyNest" rel_version="Season_2_Perm">Schließe folgende Aufgabe ab: Ein leeres Nest</string>
+	<string key="ui_seasons_task_name_CompleteQuest_Rememberance" rel_version="Season_2_Perm">Erinnerung</string>
+	<string key="ui_seasons_task_description_CompleteQuest_Rememberance" rel_version="Season_2_Perm">Schließe folgende Aufgabe ab: Erinnerung</string>
+	<string key="ui_seasons_task_name_CompleteStory_BrimstoneSands" rel_version="Season_2_Perm">Retter der Sande</string>
+	<string key="ui_seasons_task_description_CompleteStory_BrimstoneSands" rel_version="Season_2_Perm">Schließe die Schwefelsandwüsten-Haupthandlung ab.</string>
+	<string key="ui_seasons_task_name_KillNamedBrimstone" rel_version="Season_2_Perm">Schwefelsand-Schlachter</string>
+	<string key="ui_seasons_task_description_KillNamedBrimstone" rel_version="Season_2_Perm">Töte {maxCount} benannte Gegner in der Schwefelsandwüste.</string>
+	<string key="ui_seasons_task_name_Challenge_CompleteTrialSandwormFlawless" rel_version="Season_2_Perm">Dem Verzehrer trotzen</string>
+	<string key="ui_seasons_task_description_Challenge_CompleteTrialSandwormFlawless" rel_version="Season_2_Perm">Schließe die Sandwurm-Prüfung makellos ab.</string>
+	<string key="ui_seasons_task_name_Challenge_CompleteTrialHatchery10Minutes" rel_version="Season_2_Perm">Hastiger Brüter</string>
+	<string key="ui_seasons_task_description_Challenge_CompleteTrialHatchery10Minutes" rel_version="Season_2_Perm">Schließe die Brutstätten-Prüfung in weniger als 10 Minuten ab.</string>
+	<string key="ui_seasons_task_name_Challenge_CompleteM10ExpeditionsFlawless" rel_version="Season_2_Perm">Mutationsgott</string>
+	<string key="ui_seasons_task_description_Challenge_CompleteM10ExpeditionsFlawless" rel_version="Season_2_Perm">Schließe die {maxCount} Mutation-10-Expedition makellos ab.</string>
+	<string key="ui_seasons_task_name_Challenge_KillRafflebones" rel_version="Season_2_Perm">Knochen des Schicksals</string>
+	<string key="ui_seasons_task_name_Challenge_CompleteStory_BloodOfTheSands" rel_version="Season_2_Perm">Freund der Sande</string>
+	<string key="ui_seasons_task_description_Challenge_CompleteStory_BloodOfTheSands" rel_version="Season_2_Perm">Schließe die Saisonhandlung "Das Blut der Sande" ab.</string>
+	<string key="ui_seasons_task_name_Challenge_PlayerKillingBlows" rel_version="Season_2_Perm">Blutgott</string>
+	<string key="ui_seasons_task_description_Challenge_PlayerKillingBlows" rel_version="Season_2_Perm">Versetze {maxCount} Spielern den Todesstoß.</string>
+	<string key="ui_seasons_task_name_Challenge_WinArenaMatchesNewMap" rel_version="Season_2_Perm">Wüstenarena-Champion</string>
+	<string key="ui_seasons_task_description_Challenge_WinArenaMatchesNewMap" rel_version="Season_2_Perm">Gewinne {maxCount} Arenakämpfe auf der neuen Karte.</string>
+	<string key="ui_seasons_task_name_Challenge_CompleteActivityCards" rel_version="Season_2_Perm">Stempelsammler</string>
+	<string key="ui_seasons_task_name_Challenge_FishingAptitudeLevels" rel_version="Season_2_Perm">Blutangler</string>
+	<string key="ui_seasons_task_description_Challenge_FishingAptitudeLevels" rel_version="Season_2_Perm">Erreiche {maxCount} Angel-Begabungsstufen.</string>
+	<string key="ui_seasons_task_name_Challenge_CraftItemsGoldenScarabs" rel_version="Season_2_Perm">Goldschmied</string>
+	<string key="SeasonsActivities_Complete2Songs" rel_version="Season_2_Perm">Spiele Lieder.</string>
+	<string key="ui_CWI_reroll_disabled_tooltip" rel_version="Season_2_Perm">In weltübergreifenden Instanzen ist die Wurfwiederholung von Aktivitäten deaktiviert. Wurfwiederholungen sind auf deiner Heimatwelt möglich.</string>
+	<string key="ui_CWI_claiming_disabled_title" rel_version="Season_2_Perm">Beanspruchen deaktiviert</string>
+	<string key="ui_CWI_claiming_items_disabled_desc" rel_version="Season_2_Perm">In weltübergreifenden Instanzen ist das Beanspruchen von Gegenständen deaktiviert. Beanspruche Gegenstände, wenn du wieder auf deiner Heimatwelt bist.</string>
+	<string key="ui_CWI_claiming_tasks_disabled_desc" rel_version="Season_2_Perm">In weltübergreifenden Instanzen ist das Beanspruchen von Aufgaben deaktiviert. Beanspruche Reiseaufgaben, wenn du wieder auf deiner Heimatwelt bist.</string>
+	<string key="ui_CWI_basic_pass_desc" rel_version="Season_2_Perm">Werte deinen Saisonpass auf Premium auf. Wenn du einen Startvorteil-Pass möchtest, schaue dir den Startvorteil-Tooltip an.</string>
+	<string key="ui_CWI_headstart_pass_tooltip" rel_version="Season_2_Perm">In weltübergreifenden Instanzen ist der "Stufenkauf" deaktiviert. Wenn du einen Startvorteil-Pass möchtest, schließe diesen Kauf auf deiner Heimatwelt ab.</string>
+	<string key="ui_CWI_purchase_levels_tooltip" rel_version="Season_2_Perm">In weltübergreifenden Instanzen ist der Stufenkauf deaktiviert.</string>
+	<string key="ui_CWI_purchase_premium_tooltip" rel_version="Season_2_Perm">In weltübergreifenden Instanzen ist der Kauf von Premium deaktiviert.</string>
+	<string key="SeasonsActivities_KillPOIMyrkgard" rel_version="Feature_Seasons_Rewards">Töte Gegner in Düsterheim.</string>
+	<string key="SeasonsActivities_KillPOIImperialPalace" rel_version="Feature_Seasons_Rewards">Töte Gegner im Kaiserlichen Palast.</string>
+	<string key="SeasonsActivities_KillPOIMalevolence" rel_version="Feature_Seasons_Rewards">Töte Gegner in Heimtücke.</string>
+	<string key="SeasonsActivities_KillPOIEternalPool" rel_version="Feature_Seasons_Rewards">Töte Gegner im Ewigen Weiher.</string>
+	<string key="SeasonsActivities_KillPOIBedsOfTaBitJet" rel_version="Feature_Seasons_Rewards">Töte Gegner in der Ruhestätte von Ta-Bitjet.</string>
+	<string key="SeasonsActivities_KillNamed" rel_version="Feature_Seasons_Rewards">Töte benannte Gegner.</string>
+	<string key="SeasonsActivities_KillElite" rel_version="Feature_Seasons_Rewards">Töte Elitegegner.</string>
+	<string key="SeasonsActivities_KillNamedDunewalker" rel_version="Season_2_Perm">Töte einen benannten Sandgeher.</string>
+	<string key="SeasonsActivities_CompleteYahhhh" rel_version="Season_2_Perm">Spiele "YAAAHHHH!"</string>
+	<string key="SeasonsActivities_Gather1MaudlinDust" rel_version="Season_2_Perm">Sammle Schafgarbenstaub.</string>
 </resources>
 

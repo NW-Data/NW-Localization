@@ -1,5 +1,6 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="inv_DroppedItems">Itens Derrubados</string>
+	<string key="inv_Dropped">Derrubado</string>
 	<string key="inv_Storage">Armazenamento</string>
 	<string key="inv_itemDamaged">{num} item(ns) estão severamente danificados. É bom reparar logo.</string>
 	<string key="inv_itemBroken">{num} item(ns) estão quebrados.</string>
@@ -66,9 +67,9 @@
 	<string key="inv_equipLoadSlow">Pesada</string>
 	<string key="inv_equipLoadOverburdened">Excesso de Equipamento</string>
 	<string key="inv_equipLoadTooltip">O peso combinado da armadura e do escudo equipados determina a sua Carga Equipada. Cada Carga Equipada oferece uma esquiva única e outros efeitos.</string>
-	<string key="inv_equipLoadFastTooltip">• Dano Base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]}% \n• Cura Causada: +30% \n• Sua esquiva é uma rolagem rápida. \n• Custo de Vigor de Esquiva: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s após sofrer um golpe corpo a corpo, a distância de esquiva é reduzida em 20% e você não pode correr.</string>
+	<string key="inv_equipLoadFastTooltip">• Dano Base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]}% \n• Cura Baseada em Dano: +30% \n• Sua esquiva é uma rolagem rápida. \n• Custo de Vigor de Esquiva: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s após sofrer um golpe corpo a corpo, a distância de esquiva é reduzida em 20% e você não pode correr.</string>
 	<string key="inv_equipLoadNormalTooltip">• Dano Base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]}% \n• Duração do Controle Sofrido: -10% \n• Sua esquiva é um pulo rápido. \n• Custo de Vigor de Esquiva: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s após sofrer um golpe corpo a corpo, a distância de esquiva é reduzida em 20% e você não pode correr.</string>
-	<string key="inv_equipLoadSlowTooltip">• Estabilidade do Bloqueio: +15% \n• Duração do Controle Sofrido: -20% \n• Cura Causada: -30% \n• Sua esquiva é um passo direcionado. \n• Custo de Vigor de Esquiva: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s após sofrer um golpe corpo a corpo, você não pode correr.</string>
+	<string key="inv_equipLoadSlowTooltip">• Estabilidade do Bloqueio: +15% \n• Duração do Controle Sofrido: -20% \n• Cura Baseada em Dano: -30% \n• Sua esquiva é um passo direcionado. \n• Custo de Vigor de Esquiva: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s após sofrer um golpe corpo a corpo, você não pode correr.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Quando ultrapassa seu limite máximo de Carga Equipada, você não pode se esquivar, nem correr, nem usar habilidades. É bom desequipar alguns itens.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Se o limite de peso do inventário for excedido, você fica sobrecarregado, o que restringe seus movimentos e ações. Você também consome mais vigor ao bloquear.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Você equipou mais do que a sua carga equipada suporta. Você não pode se esquivar nem correr, e sofrerá uma penalidade significativa na Regeneração de Vigor. É bom desequipar alguns itens.</string>
@@ -116,7 +117,7 @@
 	<string key="fc_campingSiteLvl2">Acampamento Nv II</string>
 	<string key="fc_campingSiteLvl3">Acampamento Nv III</string>
 	<string key="fc_campingSiteLvl4">Acampamento Nv IV</string>
-	<string key="fc_breakCampNotification">Segure [{value}] para desvincular-se do acampamento</string>
+	<string key="fc_breakCampNotification">Segure {$ui.makeCampOn$} para desvincular-se do acampamento.</string>
 	<string key="fc_makecamp">Montar Acampamento</string>
 	<string key="fc_breakcamp">Desmontar Acampamento</string>
 	<string key="fc_weaponsectiontitle">Armas e Ferramentas</string>
@@ -128,8 +129,8 @@
 	<string key="fc_fieldcrafting">Confecção de Campo</string>
 	<string key="fc_distance">Acampamento a:</string>
 	<string key="fc_craftingErrorMessage">Você não tem os recursos para confeccionar este item.</string>
-	<string key="fc_campBroken">Desvinculado do Acampamento</string>
-	<string key="ui_currency_self">Não É Possível Transferir Moeda para Si Mesmo</string>
+	<string key="fc_campBroken">Desvinculado do acampamento.</string>
+	<string key="ui_currency_self">Não é possível transferir moeda para si mesmo.</string>
 	<string key="ui_currency_nameinvalid">Nome de Jogador Inválido</string>
 	<string key="ui_currency_namevalid">Nome de Jogador Válido</string>
 	<string key="ui_currency_offline">Jogador Offline</string>
@@ -151,10 +152,10 @@
 	<string key="ui_box_opening_open_another_single">Abrir Próxima</string>
 	<string key="ui_box_opening_max_items_reached">+{quantity} itens a mais</string>
 	<string key="ui_dropall">Largar tudo</string>
-	<string key="ui_dropall_in_trade">Não é possível soltar itens enquanto estiver negociando</string>
+	<string key="ui_dropall_in_trade">Não é possível soltar itens enquanto está negociando.</string>
 	<string key="ui_transfer_all_filtered">Não é possível mover todos os itens nesta seção enquanto eles estão filtrados.</string>
-	<string key="ui_storeall">Mover tudo para a despensa</string>
-	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COMO USAR UM FILTRO DE ITENS&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrar por&lt;/font&gt;\n• Nome de item\n• Pontuação Mínima de Equipamento (por exemplo: 100)\n• Escala Mínima de Item (por exemplo: E1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Exemplos&lt;/font&gt;\n• Espada 200\n• Machado E1\n• Picareta -ferro</string>
+	<string key="ui_storeall">Mova tudo para a despensa.</string>
+	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COMO USAR UM FILTRO DE ITENS&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrar por&lt;/font&gt;\n• Nome de item (por exemplo: Espada -Machado)\n• Vantagens/Gemas (por exemplo: [Proteção] -[Sorte]\n• Pontuação Mínima de Equipamento (por exemplo: 100)\n• Escala Mínima (por exemplo: E1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Exemplos&lt;/font&gt;\n• Espada 200\n• Machado E1\n• Picareta -ferro\n• Mosquete [Eletrificado]</string>
 	<string key="ui_filterText">Buscar</string>
 	<string key="ui_filterHeader">Filtrar item</string>
 	<string key="ui_sort">Ordenar</string>
@@ -193,7 +194,7 @@
 	<string key="inv_TargetOutsideLos">Não Há como Ver o Alvo</string>
 	<string key="inv_moreItems">&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{value}&lt;/font&gt; Itens a Mais</string>
 	<string key="lo_name" comment="This key needs to be short to be used directly as a loadout name." rel_version="Feature_Gear_Set_Storage">Equipamentos</string>
-	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">CONJUNTOS DE EQUIPAMENTO</string>
+	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">CONJ. DE EQUIPAMENTO</string>
 	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">CONJUNTOS DE EQUIPAMENTO</string>
 	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Os itens em Conjuntos de Equipamento não fazem parte do seu inventário nem contribuem para o seu inventário ou peso de armazenamento.</string>
 	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Adicionar ao Conjunto de Equipamento</string>
