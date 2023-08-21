@@ -994,6 +994,7 @@
 	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional">x{bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_reached_max_daily_pvp_arena_rewards">¡Límite diario de sal de arena JcJ alcanzado!</string>
 	<string key="ui_reached_max_fort_takeover_rewards">¡Has alcanzado el límite de recompensas diario de Asalto al fuerte!</string>
+	<string key="ui_reached_max_daily_fotb_rafflebones">Has alcanzado el límite diario de la fortuna de los fieros rifatabas</string>
 	<string key="world_landing_title">Hemos elegido un mundo óptimo para ti</string>
 	<string key="world_set">¿Conjunto de mundos?</string>
 	<string key="world_set_title">*¿Qué es un conjunto de mundos?</string>
@@ -2675,6 +2676,9 @@
 	<string key="ui_pvp_modes_guide_2_body">Asalto a puesto remoto es un combate de 20 contra 20 que tiene lugar en una gran isla con tres puestos remotos.\n\nLos equipos ganan puntos al capturar y mantener el control sobre los puestos remotos.\n\nEl primer equipo con 1000 puntos gana el combate.\n\nLa isla tiene recursos especiales y criaturas que los equipos pueden utilizar para inclinar la balanza de la guerra a su favor.</string>
 	<string key="ui_pvp_modes_guide_3_header">Arena 3 contra 3</string>
 	<string key="ui_pvp_modes_guide_3_body">En las arenas 3 contra 3, dos equipos se enfrentan para sobrevivir. El combate tendrá un formato del mejor de cinco.\n\nElimina a todo el equipo contrario para ganar la ronda.\n\nGana tres rondas para ganar el combate.\n\nNo se permiten los consumibles. Cuanto más se alargue una ronda, más se debilitarán las habilidades curativas. Si la ronda se alarga demasiado, aparecerá un anillo de fuego que se reducirá cada vez más hasta que gane un bando.</string>
+	<string key="ui_transmog_guide_title1" rel_version="Feature_Transmog">Cómo funciona</string>
+	<string key="ui_transmog_guide_body1" rel_version="Feature_Transmog">Cuando un objeto se añade a tu inventario, se añadirá automáticamente a tu colección de transformación y podrá transformarse en un diseño.\n\nUna vez que esté en tu colección de transformación, no necesitarás tenerlo para que se pueda transformar en un diseño.</string>
+	<string key="ui_transmog_guide_body2" rel_version="Feature_Transmog">Ve a la estación de transformación &lt;img src="lyshineui/images/map/icon/pois/transmog" xPadding="-10" scale="3.5" yOffset="14"&gt;&lt;/img&gt;, busca el objeto y usa los blasones de transformación &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; para crear un diseño.\n\nLos diseños transformados son válidos para toda tu cuenta (se pueden usar en cualquiera de tus personajes).</string>
 	<string key="ui_event_token_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Los blasones desaparecerán al final del evento.&lt;/font&gt;</string>
 	<string key="ui_event_item_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Este objeto desaparecerá al final del evento.&lt;/font&gt;</string>
 	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;El evento termina en: &lt;font color="#cca000"&gt;{timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
@@ -2706,6 +2710,34 @@
 	<string key="attribution_SpringtideBloom_2023" rel_version="Event_SpringtideBloom_Perm">Afloramiento Primaveral 2023</string>
 	<string key="ui_event_reputation_title">Reputación de evento</string>
 	<string key="ui_event_reputation_description">La reputación de evento desbloquea nuevos objetos de la tienda del evento.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Como:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Completando misiones de evento&lt;/font&gt;</string>
+	<string key="ui_transmog_filter_name" rel_version="Feature_Transmog">Nombre</string>
+	<string key="ui_transmog_filter_transmog_factor" rel_version="Feature_Transmog">Factor de transformación</string>
+	<string key="ui_transmog_filter_source_in_game" rel_version="Feature_Transmog">Origen: juego</string>
+	<string key="ui_transmog_filter_source_craftable" rel_version="Feature_Transmog">Origen: objeto fabricable</string>
+	<string key="ui_transmog_filter_source_store" rel_version="Feature_Transmog">Origen: tienda</string>
+	<string key="ui_transmog_filter_source_twitch_drop" rel_version="Feature_Transmog">Origen: Drop de Twitch</string>
+	<string key="ui_transmog_filter_source_prime_gaming" rel_version="Feature_Transmog">Origen: Prime Gaming</string>
+	<string key="ui_transmog_filter_owned" rel_version="Feature_Transmog">Desbloqueado</string>
+	<string key="ui_transmog_filter_captured" rel_version="Feature_Transmog">Conseguido</string>
+	<string key="ui_transmog_filter_fullsets" rel_version="Feature_Transmog">Conjuntos completos</string>
+	<string key="ui_transmog_appearance_captured" rel_version="Feature_Transmog">Añadido a la colección de transformación</string>
+	<string key="ui_transmog_open_menu" rel_version="Feature_Transmog">Pedir ayuda a un estilomante</string>
+	<string key="ui_transmog_unequip_skin" rel_version="Feature_Transmog">Desequipar diseño</string>
+	<string key="ui_transmog_stop_preview" rel_version="Feature_Transmog">Detener vista previa</string>
+	<string key="ui_apply_set" rel_version="Feature_Transmog">Aplicar conjunto</string>
+	<string key="ui_preview_set" rel_version="Feature_Transmog">Vista previa del conjunto</string>
+	<string key="ui_transmog" rel_version="Feature_Transmog">Transformación</string>
+	<string key="ui_transmog_tokens" rel_version="Feature_Transmog">Blasones de transformación</string>
+	<string key="ui_transmog_purchase_tokens" rel_version="Feature_Transmog">Comprar blasones de transformación</string>
+	<string key="ui_transmog_add_more_tokens" rel_version="Feature_Transmog">Añadir más &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" scale="2.3" yOffset="10"&gt;&lt;/img&gt;</string>
+	<string key="ui_transmog_more_tokens" rel_version="Feature_Transmog">Necesitas más blasones de transformación</string>
+	<string key="ui_transmog_token_desc" rel_version="Feature_Transmog">Puedes usar blasones de transformación con un estilomante para crear diseños a partir de objetos que has conseguido.\n\nNo necesitas tener el objeto para crear un diseño si lo has adquirido previamente.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;A través de:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#FFFFFF"&gt; Recompensas, Eventos, Tienda&lt;/font&gt;</string>
+	<string key="ui_transmog_clear_preview" rel_version="Feature_Transmog">Quitar vista previa</string>
+	<string key="ui_transmog_dye_title" rel_version="Feature_Transmog">Teñir armadura y diseños</string>
+	<string key="ui_transmog_dye_instructions" rel_version="Feature_Transmog">Marca la casilla en la columna &lt;img src="lyshineui/images/icons/crafting/icon_skin_mask_tan" xPadding="0" scale="1.0" yOffset="1.0"&gt;&lt;/img&gt; para teñir el diseño de una pieza de armadura.</string>
+	<string key="ui_transmog_select_skin" rel_version="Feature_Transmog">Seleccionar diseño</string>
+	<string key="ui_transmog_unlock_for" rel_version="Feature_Transmog">Desbloquear por &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font &gt;&lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" scale="1.8" xPadding="5" yOffset="5"&gt;&lt;/img&gt;</string>
+	<string key="ui_transmog_not_available" rel_version="Feature_Transmog">No disponible</string>
 	<string key="attribution_RabbitSeason_2023" rel_version="Feature_RabbitSeasonPerm">La venganza de los conejos (2023)</string>
 	<string key="ui_transmog_error_inventory_not_ready">Error al transformar: El inventario no está listo.</string>
 	<string key="ui_transmog_error_service_server_error">Error al transformar: Error de servicio.</string>
@@ -2714,6 +2746,8 @@
 	<string key="ui_transmog_error_skin_not_unlocked">Error al transformar: No se ha desbloqueado el diseño</string>
 	<string key="ui_transmog_error_no_item_equipped">Error al transformar: La ranura está vacía</string>
 	<string key="ui_transmog_error_mismatch_item_class">Error al transformar: No se puede equipar el diseño a tipos de objetos distintos.</string>
+	<string key="ui_transmog_error_skin_already_applied">Error al transformar: Ya se ha aplicado el aspecto al objeto</string>
+	<string key="ui_transmog_error_apply_skin_pending">Error al transformar: Objeto pendiente de cambiar de aspecto</string>
 	<string key="ui_transmog_error_generic">Error de transformación</string>
 	<string key="ui_transmog_npc_name">Estilomante</string>
 	<string key="ui_transmog_npc_tooltip">Crea diseños de los objetos que has conseguido usando &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; blasones de transformación.</string>
