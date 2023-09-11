@@ -994,6 +994,7 @@
 	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional">x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_reached_max_daily_pvp_arena_rewards">Heutiges Limit für Salz aus der PvP-Arena erreicht!</string>
 	<string key="ui_reached_max_fort_takeover_rewards">Tägliches Belohnungslimit für die Fort-Übernahme erreicht!</string>
+	<string key="ui_reached_max_daily_fotb_rafflebones">Tägliches Orakelknochen-Limit für "Das Glück der Mutigen" erreicht!</string>
 	<string key="world_landing_title">Die optimale WELT wurde für dich ausgewählt.</string>
 	<string key="world_set">Weltset?</string>
 	<string key="world_set_title">*Was ist ein Weltset?</string>
@@ -1152,10 +1153,10 @@
 	<string key="ui_intelligence_description">(Magiefokussiert)</string>
 	<string key="ui_focus_description">(Heilungsfokussiert)</string>
 	<string key="ui_constitution_tooltip">Primärattribut für die Gesamtgesundheit.</string>
-	<string key="ui_strength_tooltip">Primärattribut für Kriegshammer, Streitaxt, Schwert, Beil, Donnerbüchse und Flegel.\n\nSekundärattribut für Speer.\n\nDas Großschwert skaliert gleichmäßig mit dem Attribut und Geschick.</string>
+	<string key="ui_strength_tooltip">Primärattribut für Kriegshammer, Streitaxt, Schwert, Beil und Donnerbüchse.\n\nSekundärattribut für Speer.\n\nDas Großschwert skaliert gleichmäßig mit dem Attribut und Geschick.</string>
 	<string key="ui_dexterity_tooltip">Primärattribut für Bogen, Rapier, Speer und Muskete.\n\nSekundärattribut für Schwert und Beil.\n\nDas Großschwert skaliert gleichmäßig mit dem Attribut und Stärke.</string>
 	<string key="ui_intelligence_tooltip">Primärattribut für Feuerstab, Eisstulpen und Unheilsstulpen.\n\nSekundärattribut für Rapier, Donnerbüchse und Muskete.</string>
-	<string key="ui_focus_tooltip">Primärattribut für Lebensstab.\n\nSekundärattribut für Unheilsstulpen und Flegel.</string>
+	<string key="ui_focus_tooltip">Primärattribut für Lebensstab.\n\nSekundärattribut für Unheilsstulpen.</string>
 	<string key="ui_spirit_tooltip">GLAUBE\n\nIn Glaube investierte Punkte erhöhen:\n\n-- Gesamtwert an Mana\n-- Verteidigung gegen Unheilsschaden\n-- Verderbnisresistenz\n\n-- Zauberstärke der Himmlischen Zauberstulpen\n</string>
 	<string key="ui_vitality_tooltip">KÖRPERBAU\n\nIn Körperbau investierte Punkte erhöhen:\n\n-- Verteidigung gegen physischen Schaden\n-- Giftresistenz\n-- Maximales Ausrüstungsgewicht\n</string>
 	<string key="ui_endurance_tooltip">ZÄHIGKEIT\n\nIn Zähigkeit investierte Punkte erhöhen: \n\n-- Ausdauer \n-- Verteidigung gegen Blitzschaden \n-- Verwundungsresistenz \n</string>
@@ -2238,7 +2239,7 @@
 	<string key="ui_clusterwarning_description1">Du musst deinen Charakter in {worldName} löschen, wenn du in einer anderen {worldSetName}-Welt spielen willst.</string>
 	<string key="ui_clusterwarning_description2">Wenn Freunde von dir in anderen {worldSetName}-Welten spielen, kannst du nicht mit ihnen zusammen spielen.</string>
 	<string key="ui_clusterwarning_freshstart" rel_version="Feature_FreshStart">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Auf {worldName} können nur neue Charaktere erstellt werden.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können nicht in diese Neuanfang-Welt übertragen werden.</string>
-	<string key="ui_clusterwarning_bfnw" rel_version="Feature_BFNW">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Die Charakter-Erstellung auf {worldName} ist Teilnehmern an „Zurück nach Aeternum“ vorbehalten.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können weder auf diese Welt noch aus dieser übertragen werden.</string>
+	<string key="ui_clusterwarning_bfnw" rel_version="Feature_BFNW">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Die Charakter-Erstellung auf {worldName} ist Teilnehmern an „Ruf der Wildnis“ vorbehalten.</string>
 	<string key="ui_clusterwarning_non_freshstart">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können auf diese Welt und aus ihr heraus übertragen werden.</string>
 	<string key="ui_clusterwarning_transferoutonly">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können nicht auf diese Welt übertragen werden.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können aus dieser Welt übertragen werden.</string>
 	<string key="ui_clusterwarning_transferinonly">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können auf diese Welt übertragen werden.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können nicht aus dieser Welt heraus übertragen werden.</string>
@@ -2675,6 +2676,9 @@
 	<string key="ui_pvp_modes_guide_2_body">Der Außenpostensturm ist ein 20-gegen-20-Match, das auf einer großen Insel mit drei Außenposten stattfindet.\n\nTeams erhalten Punkte, indem sie Außenposten erobern und halten.\n\nDas Team, das als erstes 1.000 Punkte erreicht, gewinnt das Match.\n\nAuf der Insel gibt es besondere Rohstoffe und Kreaturen, die von den Teams genutzt werden können, um den Kampf zu ihren Gunsten zu entscheiden.</string>
 	<string key="ui_pvp_modes_guide_3_header">3-gegen-3-Arena</string>
 	<string key="ui_pvp_modes_guide_3_body">In 3-gegen-3-Arenen kämpfen zwei Teams bis zum Tod gegeneinander. Das Spiel findet in einem Fünf-gewinnt-Format statt.\n\nEliminiere das gesamte gegnerische Team, um eine Runde zu gewinnen.\n\nGewinne drei Runden, um das Spiel zu gewinnen.\n\nVerbrauchsgegenstände sind nicht erlaubt. Je länger eine Runde dauert, desto schwächer werden die Heilfertigkeiten. Und wenn die Runde zu lange dauert, beginnt sich ein Feuerring zu schließen, bis eine Seite gewonnen hat.</string>
+	<string key="ui_transmog_guide_title1" rel_version="Feature_Transmog">So funktioniert's</string>
+	<string key="ui_transmog_guide_body1" rel_version="Feature_Transmog">Landet ein Gegenstand in deinem Inventar, wird er automatisch deiner Transmog-Sammlung hinzugefügt und kann in einen Skin transmogiert werden.\n\nNachdem der Gegenstand in die Transmog-Sammlung aufgenommen wurde, musst du ihn nicht länger besitzen, um ihn in einen Skin zu transmogieren.</string>
+	<string key="ui_transmog_guide_body2" rel_version="Feature_Transmog">Gehe zur Transmog-Station &lt;img src="lyshineui/images/map/icon/pois/transmog" xPadding="-10" scale="3.5" yOffset="14"&gt;&lt;/img&gt;, suche deinen gewünschten Gegenstand und nutze Transmog-Marken &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt;, um einen Skin zu erstellen.\n\nTransmog-Skins gelten für das ganze Konto (können also von allen Charakteren des Kontos genutzt werden).</string>
 	<string key="ui_event_token_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Marken verschwinden am Ende des Events.&lt;/font&gt;</string>
 	<string key="ui_event_item_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Dieser Gegenstand verschwindet am Ende des Events.&lt;/font&gt;</string>
 	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Event endet in: &lt;font color="#cca000"&gt;{timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
@@ -2706,6 +2710,34 @@
 	<string key="attribution_SpringtideBloom_2023" rel_version="Event_SpringtideBloom_Perm">Frühlingsblüte 2023</string>
 	<string key="ui_event_reputation_title">Ereignis-Ansehen</string>
 	<string key="ui_event_reputation_description">Durch Ereignis-Ansehen werden neue Gegenstände im Ereignis-Laden freigeschaltet.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Quelle:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ffffff"&gt; Ereignis-Missionen abschließen&lt;/font&gt;</string>
+	<string key="ui_transmog_filter_name" rel_version="Feature_Transmog">Name</string>
+	<string key="ui_transmog_filter_transmog_factor" rel_version="Feature_Transmog">Transmog-Faktor</string>
+	<string key="ui_transmog_filter_source_in_game" rel_version="Feature_Transmog">Quelle: Im Spiel</string>
+	<string key="ui_transmog_filter_source_craftable" rel_version="Feature_Transmog">Quelle: Herstellbar</string>
+	<string key="ui_transmog_filter_source_store" rel_version="Feature_Transmog">Quelle: Shop</string>
+	<string key="ui_transmog_filter_source_twitch_drop" rel_version="Feature_Transmog">Quelle: Twitch Drop</string>
+	<string key="ui_transmog_filter_source_prime_gaming" rel_version="Feature_Transmog">Quelle: Prime Gaming</string>
+	<string key="ui_transmog_filter_owned" rel_version="Feature_Transmog">Freigeschaltet</string>
+	<string key="ui_transmog_filter_captured" rel_version="Feature_Transmog">Gesammelt</string>
+	<string key="ui_transmog_filter_fullsets" rel_version="Feature_Transmog">Volles Set</string>
+	<string key="ui_transmog_appearance_captured" rel_version="Feature_Transmog">Hinzugefügt zur Transmog-Sammlung</string>
+	<string key="ui_transmog_open_menu" rel_version="Feature_Transmog">Hole dir die Hilfe eines Zauberwebers.</string>
+	<string key="ui_transmog_unequip_skin" rel_version="Feature_Transmog">Skin ablegen</string>
+	<string key="ui_transmog_stop_preview" rel_version="Feature_Transmog">Vorschau beenden</string>
+	<string key="ui_apply_set" rel_version="Feature_Transmog">Set anwenden</string>
+	<string key="ui_preview_set" rel_version="Feature_Transmog">Vorschau des Sets</string>
+	<string key="ui_transmog" rel_version="Feature_Transmog">Transmog</string>
+	<string key="ui_transmog_tokens" rel_version="Feature_Transmog">Transmog-Marken</string>
+	<string key="ui_transmog_purchase_tokens" rel_version="Feature_Transmog">Transmog-Marken kaufen</string>
+	<string key="ui_transmog_add_more_tokens" rel_version="Feature_Transmog">Mehr &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" scale="2.3" yOffset="10"&gt;&lt;/img&gt; hinzufügen</string>
+	<string key="ui_transmog_more_tokens" rel_version="Feature_Transmog">Du brauchst mehr Transmog-Marken.</string>
+	<string key="ui_transmog_token_desc" rel_version="Feature_Transmog">Transmog-Marken werden beim Zauberweber eingesetzt, um aus Gegenständen, die du gefunden hast, Skins zu erschaffen.\n\nDu musst den Gegenstand nicht besitzen, nachdem du ihn einmal gefunden hast, um einen Skin zu erstellen.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Quelle:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#FFFFFF"&gt; Belohnungen, Events, Shop&lt;/font&gt;</string>
+	<string key="ui_transmog_clear_preview" rel_version="Feature_Transmog">Vorschau löschen</string>
+	<string key="ui_transmog_dye_title" rel_version="Feature_Transmog">Rüstung und Skins färben</string>
+	<string key="ui_transmog_dye_instructions" rel_version="Feature_Transmog">Aktiviere das Kästchen in der &lt;img src="lyshineui/images/icons/crafting/icon_skin_mask_tan" xPadding="0" scale="1.0" yOffset="1.0"&gt;&lt;/img&gt;-Spalte, um den Skin für ein Rüstungsteil einzufärben.</string>
+	<string key="ui_transmog_select_skin" rel_version="Feature_Transmog">Skin auswählen</string>
+	<string key="ui_transmog_unlock_for" rel_version="Feature_Transmog">Freischalten für &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font &gt;&lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" scale="1.8" xPadding="5" yOffset="5"&gt;&lt;/img&gt;</string>
+	<string key="ui_transmog_not_available" rel_version="Feature_Transmog">Nicht verfügbar</string>
 	<string key="attribution_RabbitSeason_2023" rel_version="Feature_RabbitSeasonPerm">Die Rache des Kaninchens 2023</string>
 	<string key="ui_transmog_error_inventory_not_ready">Transmog fehlgeschlagen: Inventardienst nicht bereit.</string>
 	<string key="ui_transmog_error_service_server_error">Transmog fehlgeschlagen: Dienst-Fehler.</string>
@@ -2714,9 +2746,14 @@
 	<string key="ui_transmog_error_skin_not_unlocked">Transmog fehlgeschlagen: Skin ist nicht freigeschaltet.</string>
 	<string key="ui_transmog_error_no_item_equipped">Transmog fehlgeschlagen: Platz ist leer.</string>
 	<string key="ui_transmog_error_mismatch_item_class">Transmog fehlgeschlagen: Skin kann nur an passenden Typen ausgerüstet werden.</string>
+	<string key="ui_transmog_error_skin_already_applied">Transmog fehlgeschlagen: Aussehen wurde bereits auf den Gegenstand angewendet.</string>
+	<string key="ui_transmog_error_apply_skin_pending">Transmog fehlgeschlagen: Es stehen noch Aussehensänderungen für den Gegenstand aus.</string>
 	<string key="ui_transmog_error_generic">Transmog-Fehler</string>
 	<string key="ui_transmog_npc_name">Zauberweber</string>
 	<string key="ui_transmog_npc_tooltip">Erstelle Skins aus Gegenständen, die du durch den Einsatz von &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; Transmog-Marken gesammelt hast.</string>
+	<string key="ui_transmog_dyeing_previews_disabled">Eingefärbte Skins haben keine Vorschau.</string>
+	<string key="ui_transmog_services_unavailable_title">Transmog-Dienste nicht verfügbar</string>
+	<string key="ui_transmog_services_unavailable_message">Transmog aktuell nicht möglich. Versuche es bitte später erneut.</string>
 	<string key="ui_unclaimed_seasons_rewards">Unbeanspruchte Saisonbelohnungen</string>
 	<string key="generic_list_2">{item1} und {item2}</string>
 	<string key="generic_list_3">{item1}, {item2} und {item3}</string>
