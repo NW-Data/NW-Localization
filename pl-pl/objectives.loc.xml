@@ -55,6 +55,7 @@
 	<string key="objective_darkness_task_complete_waves_desc" speaker="UI">Pokonaj fale przeciwnika ({targetAmount}).</string>
 	<string key="objective_darkness_task_complete_waves_desc_p" speaker="UI">Pokonaj fale przeciwnika ({targetAmount}).</string>
 	<string key="objective_darkness_task_kill_enemies_desc" speaker="UI">Zabij wroga ({targetName}) w liczbie: {targetAmount}.</string>
+	<string key="objective_darkness_task_kill_enemies_territory_desc" speaker="UI">Zabij: {targetName} ({targetAmount}) w: {territoryID}.</string>
 	<string key="objective_darkness_task_kill_enemies_desc_p" speaker="UI">Zabij wrogów ({targetName}) w liczbie: {targetAmount}.</string>
 	<string key="objective_darkness_task_major_corrupted_portal_container_desc" speaker="UI">Powstrzymaj skażonych akolitów przed otwarciem portalu.</string>
 	<string key="objective_destination_distance" speaker="UI">CEL ({distance})</string>
@@ -90,6 +91,8 @@
 	<string key="objective_seasonquest_desc" speaker="UI">Cele wątku sezonowego</string>
 	<string key="objective_skillprogression" speaker="UI">Rozwój umiejętności</string>
 	<string key="objective_skillprogression_desc" speaker="UI">Cele związane z rozwojem umiejętności</string>
+	<string key="objective_mountquest" speaker="UI">Zadanie trofeum</string>
+	<string key="objective_mountquest_desc" speaker="UI">Cele trofeum</string>
 	<string key="objective_epicequipment" speaker="UI">Epickie wyposażenie</string>
 	<string key="objective_epicequipment_desc" speaker="UI">Zadania związane z epickim wyposażeniem</string>
 	<string key="objective_kill" speaker="UI">Zabij wroga {enemy}</string>
@@ -113,6 +116,7 @@
 	<string key="objective_mission_task_desc_return_to_giver_cm" speaker="UI">Zakończ przy tablicy projektów miasteczka, znajdującej się w: {destinationName}</string>
 	<string key="objective_mission_task_desc_return_to_giver" speaker="UI">Zakończ u przedstawiciela frakcji w: {destinationName}</string>
 	<string key="objective_mission_task_desc_return_to_any_giver" speaker="UI">Zakończ u dowolnego przedstawiciela frakcji</string>
+	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Wyjdź z instancji, by ukończyć zadanie</string>
 	<string key="objective_mission_task_explore_POITag" speaker="UI">Zbadaj miejsce: {POITags}</string>
 	<string key="objective_mission_task_explore_the_POITag" speaker="UI">Zbadaj miejsce: {POITags}</string>
 	<string key="objective_mission_task_goto_Map_Location" speaker="UI">Zbadaj wrak statku oznaczony na mapie</string>
@@ -173,6 +177,7 @@
 	<string key="objective_faction_story_quest" speaker="UI">Zadanie wątku frakcji</string>
 	<string key="objective_season_quest" speaker="UI">Zadanie wątku sezonowego</string>
 	<string key="objective_skill_progression_quest" speaker="UI">Zadanie związane z rozwojem umiejętności</string>
+	<string key="objective_mount_quest" speaker="UI">Zadanie trofeum</string>
 	<string key="objective_side_quests" speaker="UI">Zadania poboczne</string>
 	<string key="objective_event" speaker="UI">Zadania z wydarzeń</string>
 	<string key="objective_event_desc" speaker="UI">Zadania dostępne podczas wydarzenia</string>
@@ -198,6 +203,8 @@
 	<string key="objective_recipetemplate" comment="How recipe names show in the HUD. Use {title} for the item name" speaker="UI">Receptura: {title}</string>
 	<string key="objective_recipe_abandontitle">Porzuć schemat</string>
 	<string key="objective_recipe_abandonbody">Czy na pewno chcesz porzucić obecny schemat?</string>
+	<string key="objective_artifacts" rel_version="Feature_Artifacts" speaker="UI">Artefakty</string>
+	<string key="objective_artifacts_desc" rel_version="Feature_Artifacts" speaker="UI">Pozyskiwane z aktywnych przedmiotów artefaktowych.</string>
 	<string key="objective_subtitle_locationwithcolor" speaker="UI">&lt;font color={color}&gt;{territoryName}&lt;/font&gt;</string>
 	<string key="objective_subtitle_locationanddifficulty" speaker="UI">{territory} – {difficulty}</string>
 	<string key="objective_recommendedgroup" speaker="UI">Grupa {group}</string>
@@ -310,6 +317,63 @@
 	<string key="objective_mission_boatencounter_obj_title" rel_version="Quest_MSQ2_Revamp">Zniszcz łódź</string>
 	<string key="objective_mission_boatencounter_obj_desc" rel_version="Quest_MSQ2_Revamp">Wystrzel z armat</string>
 	<string key="objective_available">Dostępne</string>
+	<string key="objective_mission_faction_darkness_hunt" rel_version="Territory_FirstLight">Ukończ polowanie na ciemność</string>
+	<string key="objective_mission_faction_timetrial_gimmick" rel_version="Territory_FirstLight">Ukończ azothową próbę czasową</string>
 	<string key="ui_show_available_objectives">Pokaż dostępne</string>
+	<string key="objective_timetrial_completed" speaker="UI">Próba czasowa ukończona!</string>
+	<string key="objective_timetrial_failed" speaker="UI">Próba czasowa zakończona niepowodzeniem!</string>
+	<string key="objective_timetrial_timeLeft" speaker="UI">Pozostały czas: {secondsAdded} sekund(y)</string>
+	<string key="objective_timetrial_addTime" speaker="UI">{secondsAdded} s.</string>
+	<string key="objective_multiple_active_races" speaker="UI">Jednocześnie aktywny może być tylko jeden wyścig</string>
+	<string key="objective_artifact_equip_to_view" rel_version="Feature_Artifacts">Wyposaż się w artefakty, by zobaczyć cele.</string>
+	<string key="objective_artifact_max_reminder" rel_version="Feature_Artifacts">Zbyt wiele aktywnych celów artefaktów. Porzuć jeden z nich, by rozpocząć nowy.</string>
+	<string key="objective_artifact_equip_reminder" rel_version="Feature_Artifacts">Po wyposażeniu:</string>
+	<string key="Objective_Artifact_PerkTasks" rel_version="Feature_Expansion_1">Każde zadanie odblokowuje profit</string>
+	<string key="Objective_Artifact_Desc" rel_version="Feature_Expansion_1">Ukończ poniższe, by ulepszyć ten artefakt:</string>
+	<string key="Objective_Artifact_Set1_HeavyHead" rel_version="Feature_Expansion_1">Artefakt: Nieustępliwy hełm</string>
+	<string key="Objective_Artifact_Set1_HeavyChest" rel_version="Feature_Expansion_1">Artefakt: Mroczna płyta próżni</string>
+	<string key="Objective_Artifact_Set1_HeavyHands" rel_version="Feature_Expansion_1">Artefakt: Magnetyczne rękawice</string>
+	<string key="Objective_Artifact_Set1_HeavyLegs" rel_version="Feature_Expansion_1">Artefakt: Nogawice Wolności</string>
+	<string key="Objective_Artifact_Set1_MediumHead" rel_version="Feature_Expansion_1">Artefakt: Opaska na głowę</string>
+	<string key="Objective_Artifact_Set1_MediumChest" rel_version="Feature_Expansion_1">Artefakt: Chyży płaszcz</string>
+	<string key="Objective_Artifact_Set1_MediumHands" rel_version="Feature_Expansion_1">Artefakt: Upiorne rękawiczki</string>
+	<string key="Objective_Artifact_Set1_MediumLegs" rel_version="Feature_Expansion_1">Artefakt: Zestrojone spodnie</string>
+	<string key="Objective_Artifact_Set1_LightHead" rel_version="Feature_Expansion_1">Artefakt: Czarodziejski kapelusz</string>
+	<string key="Objective_Artifact_Set1_LightChest" rel_version="Feature_Expansion_1">Artefakt: Waga piórkowa</string>
+	<string key="Objective_Artifact_Set1_LightFeet" rel_version="Feature_Expansion_1">Artefakt: Lekkie owijki</string>
+	<string key="Objective_Artifact_Set1_1hLongsword" rel_version="Feature_Expansion_1">Artefakt: Rzeźnik</string>
+	<string key="Objective_Artifact_Set1_1hThrowingAxe" rel_version="Feature_Expansion_1">Artefakt: Francisa</string>
+	<string key="Objective_Artifact_Set1_2hWarhammer" rel_version="Feature_Expansion_1">Artefakt: Mjölnir</string>
+	<string key="Objective_Artifact_Set1_2hGreatAxe" rel_version="Feature_Expansion_1">Artefakt: Otchłań</string>
+	<string key="Objective_Artifact_Set1_2hBow" rel_version="Feature_Expansion_1">Artefakt: Bełtownik</string>
+	<string key="Objective_Artifact_Set1_2hMusket" rel_version="Feature_Expansion_1">Artefakt: Mechanik</string>
+	<string key="Objective_Artifact_Set1_1hKiteShield" rel_version="Feature_Expansion_1">Artefakt: Micheal</string>
+	<string key="Objective_Artifact_Set1_1hTowerShield" rel_version="Feature_Expansion_1">Artefakt: Mur</string>
+	<string key="Objective_Artifact_Set1_2hStaffFire" rel_version="Feature_Expansion_1">Artefakt: Piekielna pięść</string>
+	<string key="Objective_Artifact_Set1_2hSpear" rel_version="Feature_Expansion_1">Artefakt: Żądło skorpiona</string>
+	<string key="Objective_Artifact_Set1_1hRapier" rel_version="Feature_Expansion_1">Artefakt: Wykańczacz</string>
+	<string key="Objective_Artifact_Set1_1hGauntletVoid" rel_version="Feature_Expansion_1">Artefakt: Pozbawiżyciel</string>
+	<string key="Objective_Artifact_Set1_2hBlunderbuss" rel_version="Feature_Expansion_1">Artefakt: Pomór</string>
+	<string key="Objective_Artifact_Set1_2hGreatSword" rel_version="Feature_Expansion_1">Artefakt: Spokój</string>
+	<string key="Objective_Artifact_Set1_1hFlail" rel_version="Feature_Expansion_1">Artefakt: Odo</string>
+	<string key="Objective_Artifact_Set1_Earring1" rel_version="Feature_Expansion_1">Artefakt: Nieskończone pragnienie</string>
+	<string key="Objective_Artifact_Set1_Ring1" rel_version="Feature_Expansion_1">Artefakt: Krwiopijca</string>
+	<string key="Objective_Artifact_Set1_Amulet1" rel_version="Feature_Expansion_1">Artefakt: Zaginiony stoper</string>
+	<string key="Objective_Artifact_Set1_Amulet2" rel_version="Feature_Expansion_1">Artefakt: Ankh</string>
+	<string key="Objective_Kill_Dungeon_DepthBoss" rel_version="Feature_Expansion_1">Pokonaj: {targetName} podczas ekspedycji do Głębin</string>
+	<string key="Objective_Kill_in_FL" rel_version="Feature_Expansion_1">Pokonaj wrogów ({targetName}) w Niebiańskiej Dziczy</string>
+	<string key="Objective_Kill_Corvid" rel_version="Feature_Expansion_1">Pokonaj kruki w Niebiańskiej Dziczy</string>
+	<string key="Objective_Kill_Depths" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w zmutowanych Głębinach</string>
+	<string key="Objective_Kill_Genesis" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w zmutowanym Ogrodzie Genezy</string>
+	<string key="Objective_Kill_Dynasty" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w zmutowanej Stoczni Dynastii</string>
+	<string key="Objective_Kill_BnBP" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w zmutowanych Pąklach i czarnym prochu</string>
+	<string key="Objective_Kill_Tempest" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w zmutowanym Sercu Burzy</string>
+	<string key="Objective_Kill_Lazarus" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w zmutowanej Użyteczności Łazarza</string>
+	<string key="Objective_Kill_Ennead" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w zmutowanej Enneadzie</string>
+	<string key="Objective_Kill_Starstone" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w zmutowanym Gwiezdnym Kurhanie</string>
+	<string key="Objective_Kill_Empyean" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w zmutowanej Empirejskiej Kuźni</string>
+	<string key="Objective_Kill_OPR" rel_version="Feature_Expansion_1">Pokonaj: {targetName} podczas napadu na posterunek</string>
+	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Pokonaj: {targetName} na arenie</string>
+	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Pokonaj: {targetName}</string>
 </resources>
 

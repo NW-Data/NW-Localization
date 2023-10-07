@@ -220,6 +220,13 @@
 	<string key="ui_guild">Compañía</string>
 	<string key="ui_war_declared_chat_notification">¡{guild1} le declaró la guerra a {guild2} por el control de {territoryName}!</string>
 	<string key="ui_war_extended_chat_notification">¡Se prolongó la guerra entre {guild1} y {guild2}!</string>
+	<string key="ui_influence_race_contribution_threshold_crossed">Tu compañía ganó suficiente influencia como para declarar la guerra en {territoryName} si tu facción gana la carrera de influencia.</string>
+	<string key="ui_influence_race_scheduled">Se programó una carrera de influencia en {territoryName}.</string>
+	<string key="ui_influence_race_started">Comenzó una carrera de influencia en {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction1">El sindicato ganó la carrera de influencia en {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction2">Los saqueadores ganaron la carrera de influencia en {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction3">El pacto ganó la carrera de influencia en {territoryName}.</string>
+	<string key="ui_influence_race_ended_nowinner">La carrera de influencia en {territoryName} terminó.</string>
 	<string key="ui_active_conquest">Conquista activa</string>
 	<string key="ui_conquest_in">La conquista se inicia en</string>
 	<string key="ui_online_num">{Num} en línea</string>
@@ -344,7 +351,7 @@
 	<string key="ui_waypoint_set_to_ping">Se configuró el marcador para marcar</string>
 	<string key="ui_chat_name_raid">Hacer una incursión</string>
 	<string key="ui_chat_name_raid_upper">INCURSIÓN</string>
-	<string key="ui_error_raidchat" comment="An error when you try to talk in raid chat">No estás en un ejército.</string>
+	<string key="ui_error_raidchat" comment="An error when you try to talk in raid chat">No estás en una incursión.</string>
 	<string key="ui_error_guildchat" comment="An error when you try to talk in guild chat">No formas parte de ninguna compañía.</string>
 	<string key="ui_notification_pvp_enabled">La marca de PvP está activada.</string>
 	<string key="ui_notification_pvp_flagged">Marcado para PvP.</string>
@@ -438,6 +445,9 @@
 	<string key="ui_subarmy_decline_tooltip">Te han rechazado para unirte al ejército de suscriptores del streamer.</string>
 	<string key="ui_subarmy_waiting">Esperando a la aprobación del streamer...</string>
 	<string key="ui_subarmy_pending">Pendiente...</string>
+	<string key="group_member_cannot_join_expedition">{playerName} no cumple los requisitos para entrar en esta expedición.</string>
+	<string key="self_cannot_join_expedition">No puedes unirte a la expedición</string>
+	<string key="required_level_warning">Se requiere el nivel {level}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Buscar grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Mi sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crear sala de espera</string>
@@ -496,7 +506,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Tu marca de PvP no coincide con la de la sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">La facción debe ser la misma para una sala de PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Cambiaron los requisitos de la sala de espera y no los cumples.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Error del filtro del chat. Actualiza el texto e inténtalo nuevamente.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Your Lobby Description contained profanity or prohibited words, please try again.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">No puedes enviar más solicitudes.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">La sala de espera está llena</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} rechazó la comprobación de preparación.</string>
@@ -570,7 +580,6 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Abrir la expedición con tu grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_probation">Para crear una sala de espera, tu cuenta debe tener más de {accountProbationTimeRequired}, con un tiempo de juego mayor que {characterProbationTimeRequired}.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Tienes que desbloquear este nivel de dificultad para crear una nueva sala de espera.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invitación aceptada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invitación rechazada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Invitación rechazada El jugador ya está en la sala de espera.</string>
@@ -639,6 +648,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Tu nivel: {level}\nEl nivel mínimo no puede superar tu nivel.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Puntuación de tu equipo: {gearscore}\nLa puntuación del equipo mínima no puede superar la puntuación de tu equipo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">"{text}"</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_invalid_characters">Character not allowed in the Lobby Description</string>
 	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Salas de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">Hace {time}</string>

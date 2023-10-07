@@ -220,6 +220,13 @@
 	<string key="ui_guild">Companhia</string>
 	<string key="ui_war_declared_chat_notification">{guild1} declarou guerra contra {guild2} pelo domínio de {territoryName}!</string>
 	<string key="ui_war_extended_chat_notification">A guerra entre {guild1} e {guild2} foi prorrogada!</string>
+	<string key="ui_influence_race_contribution_threshold_crossed">Sua Companhia ganhou influência o suficiente para declarar Guerra em {territoryName} se sua facção vencer a Corrida de Influência.</string>
+	<string key="ui_influence_race_scheduled">Uma Corrida de Influência foi agendada em {territoryName}.</string>
+	<string key="ui_influence_race_started">Uma Corrida de Influência começou em {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction1">O Sindicato ganhou uma Corrida de Influência em {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction2">Os Saqueadores ganharam uma Corrida de Influência em {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction3">A Aliança ganhou uma Corrida de Influência em {territoryName}.</string>
+	<string key="ui_influence_race_ended_nowinner">A Corrida de Influência em {territoryName} acabou.</string>
 	<string key="ui_active_conquest">Conquista Ativa</string>
 	<string key="ui_conquest_in">Conquista iniciando em</string>
 	<string key="ui_online_num">{Num} Online</string>
@@ -344,7 +351,7 @@
 	<string key="ui_waypoint_set_to_ping">Ponto de referência definido para sinalização</string>
 	<string key="ui_chat_name_raid">Atacar</string>
 	<string key="ui_chat_name_raid_upper">ATACAR</string>
-	<string key="ui_error_raidchat" comment="An error when you try to talk in raid chat">Você não está em um exército.</string>
+	<string key="ui_error_raidchat" comment="An error when you try to talk in raid chat">Você não está em um ataque.</string>
 	<string key="ui_error_guildchat" comment="An error when you try to talk in guild chat">Você não está em uma companhia.</string>
 	<string key="ui_notification_pvp_enabled">Sinalização PvP ativada.</string>
 	<string key="ui_notification_pvp_flagged">Sinalizado para PVP.</string>
@@ -438,6 +445,9 @@
 	<string key="ui_subarmy_decline_tooltip">Sua solicitação para entrar na Tropa de Inscritos do streamer foi recusada.</string>
 	<string key="ui_subarmy_waiting">Aguardando a aprovação do streamer...</string>
 	<string key="ui_subarmy_pending">Pendente...</string>
+	<string key="group_member_cannot_join_expedition">{playerName} não é elegível para entrar nesta Expedição</string>
+	<string key="self_cannot_join_expedition">Não É Possível Entrar na Expedição</string>
+	<string key="required_level_warning">Requer o Nível {level}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Encontrar Grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Meu Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Criar Saguão</string>
@@ -496,7 +506,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Sua sinalização de PvP não corresponde ao Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">É preciso estar na mesma facção para entrar no Saguão de PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Os requisitos do Saguão mudaram e você não os atende.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Erro no filtro de chat. Atualize seu texto e tente novamente.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Your Lobby Description contained profanity or prohibited words, please try again.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Você não pode enviar mais solicitações.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Saguão Lotado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} recusou a verificação de preparo.</string>
@@ -570,7 +580,6 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Abrir Expedição com Seu Grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_probation">Sua conta deve ter mais de {accountProbationTimeRequired} com um tempo de jogo maior que {characterProbationTimeRequired} para criar um saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Você deve desbloquear este nível de dificuldade para criar um novo Saguão.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Recusar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Convite Aceito</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Convite Recusado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Convite recusado. O jogador já está no Saguão.</string>
@@ -639,6 +648,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Seu nível: {level}\nO nível mínimo não pode exceder o seu nível.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Sua Pontuação do Equipamento: {gearscore}\nA pontuação mínima de equipamento não pode exceder sua pontuação do equipamento.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">“{text}”</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_invalid_characters">Character not allowed in the Lobby Description</string>
 	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Saguões</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">Há {time}</string>

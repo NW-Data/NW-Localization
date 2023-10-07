@@ -132,6 +132,9 @@
 	<string key="reward_type_tooltip_service" rel_version="Feature_MTX">Jeśli postać spełnia wszystkie wymagania przeniesienia, wybierz świat i/lub region do przeniesienia.</string>
 	<string key="reward_type_tooltip_loadout" rel_version="Feature_Gear_Set_Storage">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;ZESTAW WYPOSAŻENIA&lt;/font&gt;: Możesz przypisać przedmioty do nowego miejsca na zestaw wyposażenia z ekwipunku.</string>
 	<string key="reward_type_tooltip_transmog" rel_version="Season_2_Perm">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;ŻETON PRZEMIANY&lt;/font&gt;: Użyj tego żetonu, by odblokować różne wyglądy przedmiotów u Stylomanty.</string>
+	<string key="reward_type_tooltip_mount" rel_version="Feature_Mounts">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;WIERZCHOWCE&lt;/font&gt;: Korzystaj z wierzchowca, by szybciej przemierzać świat i rozwijać umiejętność Jazdy.</string>
+	<string key="reward_type_tooltip_mountattachment" rel_version="Feature_Mounts">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;DODATKI DLA WIERZCHOWCA&lt;/font&gt;: Użyj dodatków dla wierzchowca, by przyozdobić boki swojego wierzchowca.</string>
+	<string key="reward_type_tooltip_itemmountdye" rel_version="Feature_Mounts">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;BARWNIK DLA WIERZCHOWCA&lt;/font&gt;: Użyj barwników dla wierzchowca, by ufarbować pancerz i elementy kropierza twojego wierzchowca.</string>
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Uwaga:&lt;/font&gt; Herbów kompanii może używać tylko zarządca (twórca) kompanii.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Zawartość niedostępna</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Ta zawartość jest chwilowo niedostępna.</string>
@@ -184,6 +187,10 @@
 	<string key="ui_claim_fail_transactionerror">Błąd transakcji. Spróbuj ponownie.</string>
 	<string key="ui_claim_fail_claimpending">Już trwa transakcja odebrania. Poczekaj na jej zakończenie, zanim odbierzesz kolejne.</string>
 	<string key="ui_claim_fail_entitlementnotunlocked">Nie możesz odebrać uprawnienia, którego nie posiadasz. Odczekaj chwilę i spróbuj ponownie.</string>
+	<string key="store_requires_expansion_single">Wymaga: {expansionName}</string>
+	<string key="store_requires_expansion_multiple">{quantity} przedmioty w tej paczce wymagają: {expansionName}</string>
+	<string key="store_requires_expansion_warning">Nie będziesz w stanie użyć {quantity} przedmiotów w tej paczce, dopóki nie zakupisz: {expansionName}.</string>
+	<string key="store_requires_expansion_confirm">Kup mimo to</string>
 	<string key="smolderingscarlet_dye_name" rel_version="Dye_SmolderingScarlet">Uwodzicielski szkarłat</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Runiczny szakal</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Półksiężycowy kieł</string>
@@ -1078,6 +1085,11 @@
 	<string key="Bundle_PR_MedievalHistoric_Apparel_description" rel_version="Entitlements_MedievalHistoric">Okryj swe ciało stalową skorupą lub skończ w drewnianej trumnie.\n\nZawiera dwa warianty ubiory, jeden naznaczony śladami walki!</string>
 	<string key="Bundle_PR_MedievalHistoric_Weapon_name" rel_version="Entitlements_MedievalHistoric">Pradawna broń</string>
 	<string key="Bundle_PR_MedievalHistoric_Weapon_description" rel_version="Entitlements_MedievalHistoric">Stal mająca stulecia potrafi być równie zabójcza, jak ta wykuta dzisiaj – o ile się o nią zadba.</string>
+	<string key="reward_type_mount" rel_version="Feature_Mounts">Wierzchowiec</string>
+	<string key="reward_type_mountattachment" rel_version="Feature_Mounts">Dodatek dla wierzchowca</string>
+	<string key="reward_type_mounttrailvfx" rel_version="Feature_Mounts">Podążanie za drogą VFX</string>
+	<string key="reward_type_mountsummonvfx" rel_version="Feature_Mounts">Przywołanie wierzchowca VFX</string>
+	<string key="reward_type_itemmountdye" rel_version="Feature_Mounts">Barwnik dla wierzchowca</string>
 	<string key="reward_type_emote_permit" rel_version="Feature_Premium_Emotes">Pozwolenie na gest</string>
 	<string key="Apparel_FrontierWasteland_Shawl_name" rel_version="Apparel_WastelandFrontier_1">Odludny pionier</string>
 	<string key="Apparel_FrontierWasteland_Gambeson_name" rel_version="Apparel_WastelandFrontier_2">Długorogi legionista</string>
@@ -1104,6 +1116,41 @@
 	<string key="Emote_Premium_Firework5_x10_name" rel_version="Feature_Premium_Emotes">Spadająca gwiazda – pozwolenie na gest, 10-pak</string>
 	<string key="Emote_Premium_Firework_Show_Pack_name" rel_version="Feature_Premium_Emotes">Pokaz fajerwerków – mieszana paczka</string>
 	<string key="Emote_Premium_Firework_Show_Pack_description" rel_version="Feature_Premium_Emotes">Zadziw swoich znajomych wspaniałym pokazem fajerwerków! Tylko pamiętaj, by mieć w pogotowiu wiadro z wodą w razie ewentualnego pożaru.\nZawiera po pięć pozwoleń na gesty z kategorii: Kwieciste fajerwerki, Fajerwerki dynastii, Fajerwerki driad, Pradawne fajerwerki oraz Spadająca gwiazda.</string>
+	<string key="MountAttachmentItem_Blacksmith_name" rel_version="Feature_Mounts">Kowal – dodatek dla wierzchowca</string>
+	<string key="MountAttachmentItem_Flags_name" rel_version="Feature_Mounts">Flagi – dodatek dla wierzchowca</string>
+	<string key="MountAttachmentItem_Tome_name" rel_version="Feature_Mounts">Tomiszcze – dodatek dla wierzchowca</string>
+	<string key="MountAttachmentItem_Logging_name" rel_version="Feature_Mounts">Wyrąb – dodatek dla wierzchowca</string>
+	<string key="MountAttachmentItem_TreasureChest_name" rel_version="Feature_Mounts">Skrzynia ze skarbem – dodatek dla wierzchowca</string>
+	<string key="MountAttachmentItem_Cooking_name" rel_version="Feature_Mounts">Gotowanie – dodatek dla wierzchowca</string>
+	<string key="MountAttachmentItem_AncientArtifact_name" rel_version="Feature_Mounts">Pradawny artefakt – dodatek dla wierzchowca</string>
+	<string key="MountAttachmentItem_Fishing_name" rel_version="Feature_Mounts">Rybołówstwo – dodatek dla wierzchowca</string>
+	<string key="MountAttachmentItem_BotanyKit_name" rel_version="Feature_Mounts">Zestaw botaniczny – dodatek dla wierzchowca</string>
+	<string key="MountAttachmentItem_Blacksmith_description" rel_version="Feature_Mounts">To kowadło bardzo ci się przyda, o ile tylko masz pod ręką młot.</string>
+	<string key="MountAttachmentItem_Flags_description" rel_version="Feature_Mounts">Pokaż swoją lojalność! Względem czegoś tam…</string>
+	<string key="MountAttachmentItem_Tome_description" rel_version="Feature_Mounts">Książki są dla magów. Aha… czyli umiesz czarować.</string>
+	<string key="MountAttachmentItem_Logging_description" rel_version="Feature_Mounts">Nie przepuścisz żadnemu drzewu. Żadnemu!</string>
+	<string key="MountAttachmentItem_TreasureChest_description" rel_version="Feature_Mounts">Ależ masz piękny łup. Lepiej trzymaj go blisko siebie. I nie spuszczaj z niego oka.</string>
+	<string key="MountAttachmentItem_Cooking_description" rel_version="Feature_Mounts">Kucharz jest zawsze w cenie. Chyba że nie potrafi gotować. Wtedy z reguły traci życie.</string>
+	<string key="MountAttachmentItem_AncientArtifact_description" rel_version="Feature_Mounts">Wygląda świetnie. Oby tylko nie otworzył portalu, przez który do Aeternum przedostanie się jeszcze więcej maszkar.</string>
+	<string key="MountAttachmentItem_Fishing_description" rel_version="Feature_Mounts">Ale sztuka! Oby twój wierzchowiec szybko zawiózł cię do osady, zanim twoja zdobycz zacznie cuchnąć!</string>
+	<string key="MountAttachmentItem_BotanyKit_description" rel_version="Feature_Mounts">Przeznaczony dla tych, których fascynuje świat roślin wszelakich.</string>
+	<string key="ui_mounts_horse_name_2" rel_version="Feature_Mounts">Koń 2</string>
+	<string key="ui_mounts_horse_name_3" rel_version="Feature_Mounts">Koń 3</string>
+	<string key="ui_mounts_horse_name_4" rel_version="Feature_Mounts">Koń 4</string>
+	<string key="ui_mounts_horse_name_5" rel_version="Feature_Mounts">Koń 5</string>
+	<string key="ui_mounts_horse_name_6" rel_version="Feature_Mounts">Koń 6</string>
+	<string key="ui_mounts_wolf_name_1" rel_version="Feature_Mounts">Wilk 1</string>
+	<string key="ui_mounts_wolf_name_2" rel_version="Feature_Mounts">Wilk 2</string>
+	<string key="ui_mounts_wolf_name_3" rel_version="Feature_Mounts">Wilk 3</string>
+	<string key="ui_mounts_wolf_name_4" rel_version="Feature_Mounts">Wilk 4</string>
+	<string key="ui_mounts_wolf_name_5" rel_version="Feature_Mounts">Wilk 5</string>
+	<string key="ui_mounts_wolf_name_6" rel_version="Feature_Mounts">Wilk 6</string>
+	<string key="ui_mounts_lion_name_1" rel_version="Feature_Mounts">Lew 1</string>
+	<string key="ui_mounts_lion_name_2" rel_version="Feature_Mounts">Lew 2</string>
+	<string key="ui_mounts_lion_name_3" rel_version="Feature_Mounts">Lew 3</string>
+	<string key="ui_mounts_lion_name_4" rel_version="Feature_Mounts">Lew 4</string>
+	<string key="ui_mounts_lion_name_5" rel_version="Feature_Mounts">Lew 5</string>
+	<string key="ui_mounts_lion_name_6" rel_version="Feature_Mounts">Lew 6</string>
 	<string key="Bundle_PR_Balance_HeraldOfOrder_name" rel_version="Entitlements_Balance">Herold ładu – paczka</string>
 	<string key="Bundle_PR_Balance_HeraldOfOrder_description" rel_version="Entitlements_Balance">Czy zawalczysz o utrzymanie równowagi pomiędzy ładem a chaosem na Aeternum?</string>
 	<string key="Bundle_PR_Balance_KeeperOfEquilibrium_name" rel_version="Entitlements_Balance">Strażnik równowagi – paczka</string>
@@ -1112,10 +1159,15 @@
 	<string key="Bundle_PR_Balance_DefenderOfHarmony_description" rel_version="Entitlements_Balance">Bez harmonii panuje chaos.</string>
 	<string key="Bundle_PR_JesterSmile_name" rel_version="Entitlements_Balance">Puenta błazna – paczka</string>
 	<string key="Bundle_PR_JesterSmile_description" rel_version="Entitlements_Balance">Cięty język błazna bywa zabójczy. Gdy zaś dasz mu miecz, szybko zrzednie ci mina.</string>
+	<string key="reward_type_MountDye" rel_version="Entitlements_Balance">Barwnik dla wierzchowca</string>
 	<string key="reward_type_TokenPack" rel_version="Feature_Transmog">Paczka żetonów</string>
 	<string key="Apparel_Balance_HeraldOfOrder_name" rel_version="Armor_Balance">Herold ładu</string>
 	<string key="Apparel_Balance_KeeperOfEquilibrium_name" rel_version="Armor_Balance">Strażnik równowagi</string>
 	<string key="Apparel_Balance_DefenderOfHarmony_name" rel_version="Armor_Balance">Obrońca harmonii</string>
+	<string key="SeasonPass_Premium_Season_3_name" rel_version="Season_3_Perm">Przepustka premium – sezon 3</string>
+	<string key="SeasonPass_HeadStart_Season_3_name" rel_version="Season_3_Perm">Przepustka premium szybkiego startu – sezon 3</string>
 	<string key="reward_type_token_single" rel_version="Feature_Transmog">Żeton</string>
+	<string key="Token_PremiumEmote_WitchBroom_name">Miotła wiedźmy – pozwolenie</string>
+	<string key="Token_PremiumEmote_WitchBroom_description">Leć, piękna! Leć!</string>
 </resources>
 

@@ -179,6 +179,8 @@
 	<string key="ui_encounter_ongoingwar">LAUFENDER KRIEG</string>
 	<string key="ui_encounter_upcominginvasion">BEVORSTEHENDE INVASION</string>
 	<string key="ui_encounter_ongoinginvasion">LAUFENDE INVASION</string>
+	<string key="ui_encounter_upcomingrace" rel_version="Feature_Influence_V2">BEVORSTEHENDER WETTLAUF</string>
+	<string key="ui_encounter_ongoingrace" rel_version="Feature_Influence_V2">LAUFENDER WETTLAUF</string>
 	<string key="ui_encounter_yourstatus">DEIN STATUS</string>
 	<string key="ui_encounter_statusstandby">Dein Status: &lt;font color='#fab445'&gt;Auf Abruf&lt;/font&gt;</string>
 	<string key="ui_encounter_statusselected">Dein Status: &lt;font color='#30e5ab'&gt;Ausgewählt&lt;/font&gt;</string>
@@ -223,6 +225,7 @@
 	<string key="ui_settlementinfo_notclaimed">Die Siedlung ist unbeansprucht.</string>
 	<string key="ui_territoryinfo_unenterable">Nicht verfügbar</string>
 	<string key="ui_territoryinfo_unenterabledescription">Du kannst das Gebiet nicht betreten.</string>
+	<string key="ui_territoryinfo_earnings">Bringt bis zu &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{maxPercent} %&lt;/font&gt; mehr Steuereinnahmen.</string>
 	<string key="ui_fortressinfo_upcomingbattlelabel">Bevorstehendes Kampfereignis</string>
 	<string key="ui_fortressinfo_ongoingbattlelabel">Laufendes Kampfereignis</string>
 	<string key="ui_fortressinfo_noupcomingbattle">Es gibt keine bevorstehenden Kampfereignisse.</string>
@@ -232,7 +235,7 @@
 	<string key="ui_fortressinfo_invasion">Invasion beginnt in:</string>
 	<string key="ui_fortressinfo_ongoinginvasion">Invasion im Gang</string>
 	<string key="ui_fortressinfo_resolvinginvasion">Invasion wird beendet</string>
-	<string key="ui_fortressinfo_invasiondescription">Dieses Gebiet wird von den Verderbten angegriffen. Der Krieg kann nicht erklärt werden, bevor die Invasion beendet ist.</string>
+	<string key="ui_fortressinfo_invasiondescription">Ein Krieg kann erst ab dem nächsten Einflusswettlauf erklärt werden.</string>
 	<string key="ui_fortressinfo_button_declarewar">Krieg erklären!</string>
 	<string key="ui_fortressinfo_button_manage">Armee verwalten</string>
 	<string key="ui_fortressinfo_button_signup_at_board">An Kriegsübersicht eintragen</string>
@@ -244,16 +247,16 @@
 	<string key="ui_fortressinfo_invasionattackername">Verderbte</string>
 	<string key="ui_fortressinfo_timetodeclare">Zeit zur Kriegserklärung:</string>
 	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Angehalten (Invasion)</string>
-	<string key="ui_fortressinfo_conflictdescription">Du erlangst in diesem Gebiet &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;keinen Einfluss&lt;/font&gt; mehr, bis der Krieg beendet ist. (Alle anderen Fraktionsmissions-Belohnungen wie EP und Taler sind weiterhin erhältlich.)\n\nWenn mehrere Kompanien, die Einfluss ausgeübt haben, den Krieg erklären, wird eine zufällig ausgewählt.</string>
+	<string key="ui_fortressinfo_conflictdescription">Du erlangst in diesem Gebiet bis zum nächsten Einflusswettlauf &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;keinen Einfluss&lt;/font&gt; mehr.\n\nWenn mehrere Kompanien, die Einfluss ausgeübt haben, den Krieg erklären, wird eine zufällig ausgewählt.</string>
 	<string key="ui_fortressinfo_noconflict">Gebiet nicht im Krieg</string>
 	<string key="ui_fortressinfo_contributionnotrequired">Bisher hat noch keine Kompanie genug Einfluss beigesteuert. Jede Kompanie kann den Krieg erklären.</string>
 	<string key="ui_fortressinfo_hascontribution">Deine Kompanie HAT genug Einfluss beigesteuert, um den Krieg erklären zu können.</string>
-	<string key="ui_fortressinfo_insufficientcontribution">Deine Kompanie HAT NICHT genug Einfluss beigesteuert, um den Krieg erklären zu können.</string>
-	<string key="ui_fortressinfo_noconflictdescription">Damit ein Angreifer in diesem Gebiet den Krieg erklären kann, muss seine Kompanie aus mindestens 25 Mitgliedern bestehen und seine Fraktion muss zunächst genügend Gebietseinfluss aufbauen.</string>
+	<string key="ui_fortressinfo_insufficientcontribution">Deine Kompanie HAT NICHT genug Einfluss beigesteuert, um den Krieg erklären zu können. Hinweis: Es kann einige Minuten dauern, um deine Einflussbeteiligung zu verarbeiten.</string>
+	<string key="ui_fortressinfo_noconflictdescription">Damit ein Angreifer in diesem Gebiet den Krieg erklären kann, muss seine Kompanie aus mindestens 25 Mitgliedern bestehen und seine Fraktion muss zunächst in einem Einflusswettlauf genügend Gebietseinfluss aufbauen.</string>
 	<string key="ui_fortressinfo_upcomingwarlabel">Krieg beginnt in:</string>
 	<string key="ui_fortressinfo_ongoingwarlabel">Krieg ist aktiv</string>
 	<string key="ui_fortressinfo_resolveingwarlabel">Krieg wird beigelegt</string>
-	<string key="ui_fortressinfo_atwardescription">Du erlangst in diesem Gebiet &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;keinen Einfluss&lt;/font&gt; mehr, bis der Krieg beendet ist. (Alle anderen Fraktionsmissions-Belohnungen wie EP und Gold sind weiterhin erhältlich).</string>
+	<string key="ui_fortressinfo_atwardescription">Du erlangst in diesem Gebiet bis zum nächsten Einflusswettlauf &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;keinen Einfluss&lt;/font&gt; mehr.</string>
 	<string key="ui_township">Siedlung</string>
 	<string key="ui_fortress">Fort</string>
 	<string key="ui_complete">Abgeschlossen</string>
@@ -534,7 +537,8 @@
 	<string key="ui_territoryupkeep_overdue_desc">Die Gebietsunterhaltungskosten sind &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;überfällig&lt;/font&gt;.\nDas Gebiet wird alle 24 Stunden heruntergestuft, bis die Unterhaltungskosten entrichtet wurden.</string>
 	<string key="ui_territoryupkeep_overdue_noupgrade_desc">Die Gebietsunterhaltungskosten sind &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;überfällig&lt;/font&gt;.&lt;/font&gt;\nDie herrschende Kompanie kann kein Stadtprojekt beginnen.</string>
 	<string key="ui_companypaycheck">Gehälter</string>
-	<string key="ui_companypaycheck_desc">Die herrschende Kompanie erhält Einnahmen aus Steuern und Gebühren.</string>
+	<string key="ui_companypaycheck_desc">Die herrschende Kompanie erhält Einnahmen aus Steuern und Gebühren.\n\n{territoryName} bringt &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{currentPercent} %&lt;/font&gt; (maximal &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{maxPercent} %&lt;/font&gt;) Steuereinnahmen.</string>
+	<string key="ui_companypaycheck_tooltip">Die erzeugten Einnahmen für die herrschenden Kompanien basieren prozentual auf den in der ganzen Welt gezahlten Steuern und hängen auch vom Aufwertungslevel des Gebiets ab. Je mehr eine Kompanie ein Gebiet aufwertet, desto höher ist der prozentuale Anteil an den Steuern (bis zum angegebenen Maximalwert).</string>
 	<string key="ui_taxandfee">Steuern und Gebühren</string>
 	<string key="ui_taxandfee_desc">Die herrschende Kompanie kann die Höhe der Steuern und Gebühren anpassen.</string>
 	<string key="ui_governingCompanyOnly">Nur herrschende Kompanie</string>
@@ -578,6 +582,7 @@
 	<string key="ui_territory_downgrade">Gebietsherabstufung</string>
 	<string key="ui_payment_not_required">Zum gegenwärtigen Zeitpunkt ist keine Zahlung erforderlich.</string>
 	<string key="ui_upkeep_not_required">KEINE UNTERHALTUNGSKOSTEN ERFORDERLICH</string>
+	<string key="ui_upkeep_disabled">Unterhaltskostenzahlung deaktiviert</string>
 	<string key="ui_no_territory_upgrade">Ein Gebiet, das keine einzige Aufrüstung besitzt, erfordert keine Gebietsunterhaltungskosten.</string>
 	<string key="ui_overdue">Überfällig</string>
 	<string key="ui_no_upgrade_desc">Ein Gebiet, das &lt;font color="#ffffff"&gt;keine einzige Aufrüstung&lt;/font&gt; besitzt, erfordert keine Gebietsunterhaltungskosten.</string>
@@ -696,5 +701,54 @@
 	<string key="ui_your_standing">Dein Ruf</string>
 	<string key="ui_station_tier">Rang &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{tier}&lt;/font&gt;</string>
 	<string key="ui_benefits">Boni</string>
+	<string key="influence_race_results" rel_version="Feature_Influence_V2">EINFLUSSWETTLAUFERGEBNISSE</string>
+	<string key="influence_top_companies" rel_version="Feature_Influence_V2">BESTE KOMPANIEN NACH EINFLUSS</string>
+	<string key="influence_top_players" rel_version="Feature_Influence_V2">BESTE EINZELSPIELER NACH EINFLUSS</string>
+	<string key="influence_saved_amount" rel_version="Feature_Influence_V2">GESPEICHERTER EINFLUSS</string>
+	<string key="influence_earned_amount" rel_version="Feature_Influence_V2">VERDIENTER EINFLUSS</string>
+	<string key="influence_towers_captured" rel_version="Feature_Influence_V2">EROBERTE TÜRME</string>
+	<string key="influence_total_kills" rel_version="Feature_Influence_V2">TÖTUNGEN IN DER OFFENEN WELT</string>
+	<string key="Cutlass_Keys_Tower_01" rel_version="Feature_Influence_V2">Südlicher Entermesserriff-Wachturm</string>
+	<string key="Cutlass_Keys_Tower_02" rel_version="Feature_Influence_V2">Nördlicher Entermesserriff-Wachturm</string>
+	<string key="Cutlass_Keys_Tower_03" rel_version="Feature_Influence_V2">Östlicher Entermesserriff-Wachturm</string>
+	<string key="Windsward_Tower_01" rel_version="Feature_Influence_V2">Südlicher Windkreis-Wachturm</string>
+	<string key="Windsward_Tower_02" rel_version="Feature_Influence_V2">Nördlicher Windkreis-Wachturm</string>
+	<string key="Windsward_Tower_03" rel_version="Feature_Influence_V2">Zentraler Windkreis-Wachturm</string>
+	<string key="Monarchs_Bluff_Tower_01" rel_version="Feature_Influence_V2">Westlicher Königsfels-Wachturm</string>
+	<string key="Monarchs_Bluff_Tower_02" rel_version="Feature_Influence_V2">Südlicher Königsfels-Wachturm</string>
+	<string key="Monarchs_Bluff_Tower_03" rel_version="Feature_Influence_V2">Östlicher Königsfels-Wachturm</string>
+	<string key="Everfall_Tower_01" rel_version="Feature_Influence_V2">Nördlicher Immerfall-Wachturm</string>
+	<string key="Everfall_Tower_02" rel_version="Feature_Influence_V2">Östlicher Immerfall-Wachturm</string>
+	<string key="Everfall_Tower_03" rel_version="Feature_Influence_V2">Westlicher Immerfall-Wachturm</string>
+	<string key="Ebonscale_Reach_Tower_01" rel_version="Feature_Influence_V2">Zentraler Ebenmaß-Wachturm</string>
+	<string key="Ebonscale_Reach_Tower_02" rel_version="Feature_Influence_V2">Nördlicher Ebenmaß-Wachturm</string>
+	<string key="Ebonscale_Reach_Tower_03" rel_version="Feature_Influence_V2">Südlicher Ebenmaß-Wachturm</string>
+	<string key="Weavers_Fen_Tower_01" rel_version="Feature_Influence_V2">Östlicher Webermoor-Wachturm</string>
+	<string key="Weavers_Fen_Tower_02" rel_version="Feature_Influence_V2">Südlicher Webermoor-Wachturm</string>
+	<string key="Weavers_Fen_Tower_03" rel_version="Feature_Influence_V2">Westlicher Webermoor-Wachturm</string>
+	<string key="Reekwater_Tower_01" rel_version="Feature_Influence_V2">Südlicher Brackwasser-Wachturm</string>
+	<string key="Reekwater_Tower_02" rel_version="Feature_Influence_V2">Zentraler Brackwasser-Wachturm</string>
+	<string key="Reekwater_Tower_03" rel_version="Feature_Influence_V2">Nördlicher Brackwasser-Wachturm</string>
+	<string key="Restless_Shore_Tower_01" rel_version="Feature_Influence_V2">Zentraler Unstete-Küste-Wachturm</string>
+	<string key="Restless_Shore_Tower_02" rel_version="Feature_Influence_V2">Südlicher Unstete-Küste-Wachturm</string>
+	<string key="Restless_Shore_Tower_03" rel_version="Feature_Influence_V2">Nördlicher Unstete-Küste-Wachturm</string>
+	<string key="Brightwood_Tower_01" rel_version="Feature_Influence_V2">Östlicher Lichtholz-Wachturm</string>
+	<string key="Brightwood_Tower_02" rel_version="Feature_Influence_V2">Südlicher Lichtholz-Wachturm</string>
+	<string key="Brightwood_Tower_03" rel_version="Feature_Influence_V2">Westlicher Lichtholz-Wachturm</string>
+	<string key="Mourningdale_Tower_01" rel_version="Feature_Influence_V2">Nördlicher Klagental-Wachturm</string>
+	<string key="Mourningdale_Tower_02" rel_version="Feature_Influence_V2">Westlicher Klagental-Wachturm</string>
+	<string key="Mourningdale_Tower_03" rel_version="Feature_Influence_V2">Östlicher Klagental-Wachturm</string>
+	<string key="Brimstone_Sands_Tower_01" rel_version="Feature_Influence_V2">Nördlicher Schwefelsandwüste-Wachturm</string>
+	<string key="Brimstone_Sands_Tower_02" rel_version="Feature_Influence_V2">Zentraler Schwefelsandwüste-Wachturm</string>
+	<string key="Brimstone_Sands_Tower_03" rel_version="Feature_Influence_V2">Südlicher Schwefelsandwüste-Wachturm</string>
+	<string key="Edengrove_Tower_01" rel_version="Feature_Influence_V2">Östlicher Edenhain-Wachturm</string>
+	<string key="Edengrove_Tower_02" rel_version="Feature_Influence_V2">Südlicher Edenhain-Wachturm</string>
+	<string key="Edengrove_Tower_03" rel_version="Feature_Influence_V2">Nördlicher Edenhain-Wachturm</string>
+	<string key="generic_influence_tower_description" rel_version="Feature_Influence_V2">Der Kontrollpunkt kann während eines Einflusswettlaufs erobert werden.\n\n&lt;img src="lyshineui/images/icons/FactionBuffs/FC_Buff_IPIncrease" xPadding="0" scale="2" yOffset="4"&gt;&lt;/img&gt;&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;+10&lt;/font&gt;&lt;/font&gt; Einfluss alle 5 Sekunden.\n&lt;img src="lyshineui/images/icons/FactionBuffs/FC_Buff_IPIncrease" xPadding="0" scale="2" yOffset="4"&gt;&lt;/img&gt;&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;+10 %&lt;/font&gt;&lt;/font&gt; verdienter Einfluss</string>
+	<string key="influence_myfaction_1" rel_version="Feature_Influence_V2">MEINE FRAKTION: &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_1_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#8c37d9"&gt;Das Syndikat&lt;/font&gt;</string>
+	<string key="influence_myfaction_2" rel_version="Feature_Influence_V2">MEINE FRAKTION: &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_2_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#8c37d9"&gt;Die Marodeure&lt;/font&gt;</string>
+	<string key="influence_myfaction_3" rel_version="Feature_Influence_V2">MEINE FRAKTION: &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_3_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#8c37d9"&gt;Das Bündnis&lt;/font&gt;</string>
+	<string key="influence_tower_ownership_title" rel_version="Feature_Influence_V2">TURMZUGEHÖRIGKEIT</string>
+	<string key="influence_view_previous_influence_race" rel_version="Feature_Influence_V2">Wettlaufergebnisse ansehen</string>
 </resources>
 

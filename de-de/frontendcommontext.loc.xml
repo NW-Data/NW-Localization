@@ -138,6 +138,7 @@
 	<string key="mm_invalidname_corrupt">Der Name enthält ungültige Zeichen.</string>
 	<string key="mm_invalidname_badwords">Dieser Name darf nicht verwendet werden.</string>
 	<string key="mm_invalidname_multiplespaces">Der Name enthält mehrere aufeinanderfolgende Leerräume Wörter.</string>
+	<string key="mm_rename_throttled">Benennung abgebrochen, versuche es später noch einmal.</string>
 	<string key="mm_invalidname_unknown">Dieser Name darf nicht verwendet werden.</string>
 	<string key="mm_csdkerr_early_message">Die Registrierung der Verbindung erfolgte nicht rechtzeitig.</string>
 	<string key="mm_csdkerr_multiple_registration">Keine eindeutige Serververbindung.</string>
@@ -148,7 +149,7 @@
 	<string key="mm_csdkerr_transport_security_error">Es konnte keine sichere Verbindung hergestellt werden. Bitte starte das Spiel neu oder aktualisiere es und versuche es erneut.</string>
 	<string key="mm_csdkerr_registration_failed">Keine Verbindung zum Server möglich.</string>
 	<string key="mm_csdkerr_registration_unmarshal_error">Datenfehler auf dem Server. Suche bitte nach einem aktuellen Patch.</string>
-	<string key="mm_csdkerr_disconnect">Unerwartete Servertrennnung. Verbindungsaufbau ...</string>
+	<string key="mm_csdkerr_disconnect">Unerwartete Servertrennung. \nVerbindungsaufbau ...</string>
 	<string key="mm_csdkerr_replicate_timeout">Zeitüberschreitung während der Statussynchronisierung.</string>
 	<string key="mm_csdkerr_registration_failed_retry">Serververbindung fehlgeschlagen</string>
 	<string key="mm_connerr_rep_registration_timeout">Verbindung zum Server nicht möglich. Bitte überprüfe deine Internetverbindung und versuche es erneut.</string>
@@ -167,7 +168,7 @@
 	<string key="mm_rejected_Capitals_Not_Ready">Server nicht bereit: Basen werden errichtet.</string>
 	<string key="mm_rejected_Duplicate_Connection">Der Spieler ist bereits verbunden.</string>
 	<string key="mm_rejected_No_Persistence_Spawner">Server noch nicht spielbereit. Erneuter Versuch …</string>
-	<string key="mm_rejected_Character_Restore_Failure">Serverfehler: Die Charakterwiederherstellung ist fehlgeschlagen.</string>
+	<string key="mm_rejected_Character_Restore_Failure">Deine Daten sind momentan nicht verfügbar.\nBitte versuche es in wenigen Minuten noch einmal.</string>
 	<string key="mm_rejected_Character_Persist_Failure">Serverfehler: Die Charaktererhaltung ist fehlgeschlagen.</string>
 	<string key="mm_rejected_Character_Service_Failure">Serverfehler: Die Charakterdaten konnten nicht geladen werden.</string>
 	<string key="mm_rejected_Character_Already_Exists">Serverfehler: Charakter existiert bereits.</string>
@@ -175,7 +176,7 @@
 	<string key="mm_rejected_Character_Registry_Failure">Serverfehler: Fehler bei der Registrierung des Charakters.</string>
 	<string key="mm_rejected_Grid_Too_Busy">Serverfehler: Die Region ist ausgelastet. Versuche es bitte später erneut.</string>
 	<string key="mm_rejected_No_Ghost_Client">Serverfehler: Kopiervorgang konnte nicht eingeleitet werden.</string>
-	<string key="mm_rejected_Server_Crash">Verbindung zum Spielserver unerwarteterweise abgebrochen. Versuche es bitte später erneut.</string>
+	<string key="mm_rejected_Server_Crash">Verbindung zum Spielserver unerwarteterweise abgebrochen. Verbindungsaufbau ...</string>
 	<string key="mm_rejected_Free_Session_Expired_Title">Gratisspielzeit ist abgelaufen.</string>
 	<string key="mm_rejected_Free_Session_Expired">Deine Gratisspielzeit ist beendet. Klicke "OK", um ins Hauptmenü zurückkehren.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">Das Anmelde-Ticket ist für diese Welt nicht gültig.</string>
@@ -207,6 +208,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Zahlungsproblem</string>
 	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Von deinem aktuellen Standort aus ist leider kein Zugang möglich.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Du wurdest aus dem Spiel geworfen.</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Dein Charakter ist momentan gesperrt. &lt;font color="#0000ff"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Expansion kaufen&lt;/a&gt;&lt;/font&gt;</string>
 	<string key="mm_authresult_Authorized">Erfolg</string>
 	<string key="mm_characterCreateDisabled">Die Charaktererstellung ist vorübergehend deaktiviert. Die Welt ist zu voll. Bitte versuche, den Charakter auf einer anderen Welt zu erstellen.</string>
 	<string key="mm_characterTransferDisabled">Der Charaktertransfer ist für diese Welt vorübergehend deaktiviert, weil sie voll ist. Bitte versuche es auf einer anderen Welt.</string>
@@ -307,6 +309,7 @@
 	<string key="ui_bio">Biografie</string>
 	<string key="ui_attributes">Attribute</string>
 	<string key="ui_trade_skills">Fähigkeiten</string>
+	<string key="ui_trade_skill">Fähigkeit</string>
 	<string key="ui_how_it_works">So funktioniert das</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
 	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">PvP-Serie</string>
@@ -456,11 +459,20 @@
 	<string key="ui_fishing_equip_action">Angelmodus</string>
 	<string key="ui_fishing_action">Auswerfen/Beißen lassen/Einholen</string>
 	<string key="ui_fishing_reset_action">Auswerfen zurücksetzen/Verlassen</string>
+	<string key="ui_riding" rel_version="Feature_Mounts">Reiten</string>
 	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Musik</string>
 	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Vorführungsmodus</string>
 	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Spielen</string>
 	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Liedauswahl</string>
 	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Einladen</string>
+	<string key="ui_performances_notes" rel_version="Feature_MusicalPerformances">Musikstück-Noten</string>
+	<string key="ui_performances_note_up" rel_version="Feature_MusicalPerformances">Note hoch</string>
+	<string key="ui_performances_note_down" rel_version="Feature_MusicalPerformances">Note runter</string>
+	<string key="ui_performances_note_left" rel_version="Feature_MusicalPerformances">Note links</string>
+	<string key="ui_performances_note_right" rel_version="Feature_MusicalPerformances">Note rechts</string>
+	<string key="ui_performances_note_bottom" rel_version="Feature_MusicalPerformances">Note unten</string>
+	<string key="ui_performances_chord_1" rel_version="Feature_MusicalPerformances">1. Akkord-Note</string>
+	<string key="ui_performances_chord_2" rel_version="Feature_MusicalPerformances">2. Akkord-Note</string>
 	<string key="ui_camping">Zeltlager</string>
 	<string key="ui_tracking">Demnächst verfügbar</string>
 	<string key="ui_exploring">Demnächst verfügbar</string>
@@ -483,7 +495,7 @@
 	<string key="ui_source_craftable">Herstellbar</string>
 	<string key="ui_source_transmoggable" rel_version="Feature_Transmog">Transmogierbar</string>
 	<string key="ui_transmog_skin_not_owned" rel_version="Feature_Transmog">Du hast den Skin noch nicht freigeschaltet.</string>
-	<string key="ui_transmog_must_have_owned" rel_version="Feature_Transmog">Für das Transmog musst du den Gegenstand sammeln.</string>
+	<string key="ui_transmog_must_have_owned" rel_version="Feature_Transmog">Für die Transmog musst du den Gegenstand sammeln.</string>
 	<string key="ui_transmog_not_currently_available" rel_version="Feature_Transmog">Der Skin ist momentan nicht verfügbar.</string>
 	<string key="ui_transmogstation" rel_version="Feature_Transmog">Zauberweber</string>
 	<string key="ui_wildernesssurvival" comment="wilderness survival is not a trainable skill and is always equal to the character's level, so just tell users it's their character level for simplicity">Charakter</string>
@@ -505,6 +517,7 @@
 	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Logging Post Cap</string>
 	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Harvesting Post Cap</string>
 	<string key="ui_musician_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Musician Post Cap</string>
+	<string key="ui_riding_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_Mounts">Riding Post Cap</string>
 	<string key="ui_seasonpass" rel_version="Feature_Seasons_Rewards">Saisonpass</string>
 	<string key="ui_decline">Ablehnen</string>
 	<string key="ui_name_your_avatar">Charaktername</string>
@@ -613,5 +626,7 @@
 	<string key="ui_season_track_reward" rel_version="Feature_Seasons_Rewards">Unbeanspruchte Belohnungen</string>
 	<string key="error_cross_world_maintenance_title">Serverwartung</string>
 	<string key="error_cross_world_maintenance_message">Du wurdest aufgrund der Serverwartung in die offene Welt versetzt.</string>
+	<string key="tradeskill_skillcap_info">Max. Fähigkeitenstufe: {maxRank}</string>
+	<string key="tradeskill_skillcap_tooltip">Kaufe {expansionName}, um das Fähigkeitenstufenmaximum auf {maxRank} zu erhöhen.</string>
 </resources>
 

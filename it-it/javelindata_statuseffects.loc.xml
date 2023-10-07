@@ -36,6 +36,8 @@
 	<string key="GrandPotionStalwart_DisplayName">Assorbimento eccellente</string>
 	<string key="GrandPotionEncumbrance_DisplayName">Alleviamento eccellente del peso</string>
 	<string key="GrandPotionEncumbrance_Tooltip">Aumenta il limite di peso di 100,0</string>
+	<string key="SerumRegen_DisplayName">Siero rigenerante</string>
+	<string key="SerumRegen_Tooltip">Rigenera salute, mana ed energia.</string>
 	<string key="PotionBoostFireAbsT3_DisplayName">Assorbimento del fuoco I</string>
 	<string key="PotionBoostFireAbsT4_DisplayName">Assorbimento del fuoco II</string>
 	<string key="PotionBoostFireAbsT5_DisplayName">Assorbimento del fuoco III</string>
@@ -556,7 +558,7 @@
 	<string key="Mut_Nat_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Natura inaridita</string>
 	<string key="Mut_Voi_Curse3_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Vuoto inaridito</string>
 	<string key="Mut_Curse3_Weaken_DisplayName" rel_version="Feature_Dungeon_Mutators">Inaridito</string>
-	<string key="Mut_Curse3_Weaken_Tooltip" rel_version="Feature_Dungeon_Mutators">Tutti i danni inflitti si riducono di un {[Type_StatusEffectData.Mut_Curse3_Weaken.DMGStandard * -100]}% e tutte le guarigioni basate sui danni si riducono di un {[Type_StatusEffectData.Mut_Curse3_Weaken.HealScalingValueMultiplier * -100]}%.</string>
+	<string key="Mut_Curse3_Weaken_Tooltip" rel_version="Feature_Dungeon_Mutators">Tutti i danni inflitti si riducono di un {[Type_StatusEffectData.Mut_Curse3_Weaken.DMGStandard * -100]}% e tutte le cure prodotte si riducono di un {[Type_StatusEffectData.Mut_Curse3_Weaken.HealScalingValueMultiplier * -100]}%.</string>
 	<string key="Mut_Curse4_Major_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Troncatura</string>
 	<string key="Mut_Fir_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Fuoco di ritorno</string>
 	<string key="Mut_Ice_Curse4_Minor_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Ghiaccio di ritorno</string>
@@ -671,6 +673,8 @@
 	<string key="AI_Fleeting_Buff_DisplayName" rel_version="Quest_MSQ2_WeaversFen">Fugace</string>
 	<string key="AI_HalloweenBoss_PutridAura_DisplayName">Maledizione di Baalphazu</string>
 	<string key="AI_HalloweenBoss_PutridAura_Tooltip">Subisci un {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.HealthModifierDamageBased * -100]}% di danni da natura alla salute di base ogni {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.TickRate * 6]} s.</string>
+	<string key="AI_HercyneRat_Disease_DisplayName" rel_version="Territory_FirstLight">Malattia</string>
+	<string key="AI_HercyneRat_Disease_Tooltip" rel_version="Territory_FirstLight">Riduce la guarigione ricevuta di un {[Type_StatusEffectData.AI_PlagueRat_Disease.HealMod * -100]}%, accumulandosi fino a {[Type_StatusEffectData.AI_HercyneRat_Disease.StackMax]} volte.</string>
 	<string key="AI_SpiderBite_Tooltip">Avvelenato per un {[Type_StatusEffectData.AI_SpiderBite.HealthModifierDamageBased * -100]}% di danni di base da natura ogni {[Type_StatusEffectData.AI_SpiderBite.TickRate]} secondi per {[Type_StatusEffectData.AI_SpiderBite.BaseDuration]} secondi.</string>
 	<string key="AI_SpiderVenom_Tooltip">L'armatura è un {[Type_StatusEffectData.AI_SpiderVenom.ABSStandard * -100]}% meno efficace.</string>
 	<string key="AI_PoisonOnHit_Buff_DisplayName">Velenoso</string>
@@ -689,10 +693,22 @@
 	<string key="AI_Torso_Boss_Stun_Player_Tooltip">Hai subito un sovraccarico di energia arcana, che ti stordisce per 10 secondi."</string>
 	<string key="AI_Torso_Boss_ArcaneOrb_DisplayName">Sintonia arcana</string>
 	<string key="AI_Torso_Boss_ArcaneOrb_Tooltip">"Trasporti una sfera arcana che ti mette in sintonia con le frequenze magiche dei condotti arcani."</string>
+	<string key="AI_Hercyne_Bleed_DisplayName" rel_version="Territory_FirstLight">Sanguinamento</string>
+	<string key="AI_Hercyne_Bleed_Tooltip" rel_version="Territory_FirstLight">Sanguinante per un {[Type_StatusEffectData.AI_Hercyne_Bleed.HealthModifierDamageBased * -100]}% di danni di base + {[Type_StatusEffectData.AI_Hercyne_Bleed.HealthModifierPercent * -100]}% di danni fisici alla salute di base ogni {[Type_StatusEffectData.AI_Hercyne_Bleed.TickRate]} secondi per {[Type_StatusEffectData.AI_Hercyne_Bleed.BaseDuration]} secondi. Cumulabile {[Type_StatusEffectData.AI_Hercyne_Bleed.StackMax]} volte.</string>
+	<string key="AI_HercyneBoar_Thorn_Ally_DisplayName" rel_version="Territory_FirstLight">Pelle spinosa</string>
+	<string key="AI_HercyneBoar_AlphaThorns_DisplayName" rel_version="Territory_FirstLight">Pelle spinosa</string>
+	<string key="AI_HercyneBoar_ReturnDmg_DisplayName" rel_version="Territory_FirstLight">Danni di ritorno</string>
+	<string key="AI_HercyneBoar_ReturnDmg_Tooltip" rel_version="Territory_FirstLight">Stai subendo danni di ritorno dalla Pelle spinosa</string>
+	<string key="AI_HercyneCorvid_AlphaEmpower_DisplayName" rel_version="Territory_FirstLight">Potenziamento alfa</string>
+	<string key="AI_HercyneReindeer_Briar_Root_DisplayName" rel_version="Territory_FirstLight">Aggrovigliato</string>
+	<string key="AI_HercyneReindeer_Briar_Root_Tooltip" rel_version="Territory_FirstLight">Sei in un groviglio. Distruggi le radici per liberarti.</string>
 	<string key="AI_BrotherUmberto_HealthDebuff_DisplayName" rel_version="Quest_MSQ2_Brightwood">Furto di anima</string>
 	<string key="AI_BrotherUmberto_HealthDebuff_Tooltip" rel_version="Quest_MSQ2_Brightwood">La tua essenza vitale viene prosciugata, alimentando e rafforzando il nemico.</string>
 	<string key="AI_BrotherUmberto_HealthBuff_DisplayName" rel_version="Quest_MSQ2_Brightwood">Anima prosciugata</string>
 	<string key="AI_BrotherUmberto_Split_DisplayName" rel_version="Quest_MSQ2_Brightwood">Anima frammentata</string>
+	<string key="AI_Yonas_Phase1_Berserk_DisplayName" rel_version="Quest_MSQ2_Edengrove">Berserker corrotto</string>
+	<string key="AI_Yonas_Root_DisplayName" rel_version="Quest_MSQ2_Edengrove">Radicato</string>
+	<string key="AI_Yonas_Root_Tooltip" rel_version="Quest_MSQ2_Edengrove">Radicato</string>
 	<string key="AI_Bleed_9_DisplayName">Sanguinante</string>
 	<string key="AI_Bleed_9_Tooltip">Sanguinante per un {[Type_StatusEffectData.AI_Bleed_9.HealthModifierDamageBased * -100]}% di danni di base + {[Type_StatusEffectData.AI_Bleed_9.HealthModifierPercent * -100]}% di danni fisici alla salute di base ogni {[Type_StatusEffectData.AI_Bleed_9.TickRate]} secondi per {[Type_StatusEffectData.AI_Bleed_9.BaseDuration]} secondi.</string>
 	<string key="AI_Burn_9_DisplayName">Rovente</string>
@@ -810,6 +826,14 @@
 	<string key="AI_FireNaga_Flamethrower_DoT_Tooltip" rel_version="Expedition_GreatCleave_01">Rovente per un {[Type_StatusEffectData.AI_FireNaga_Flamethrower_DoT.HealthModifierPercent * -100]}% di danni da fuoco alla salute massima ogni {[Type_StatusEffectData.AI_FireNaga_Flamethrower_DoT.TickRate]} secondi per {[Type_StatusEffectData.AI_FireNaga_Flamethrower_DoT.BaseDuration]} secondi.</string>
 	<string key="AI_FireNaga_LavaPool_DoT_DisplayName" rel_version="Expedition_GreatCleave_01">Lava rovente</string>
 	<string key="AI_FireNaga_LavaPool_DoT_Tooltip" rel_version="Expedition_GreatCleave_01">Rovente per un {[Type_StatusEffectData.AI_FireNaga_LavaPool_DoT.HealthModifierPercent * -100]}% di danni da fuoco alla salute massima ogni {[Type_StatusEffectData.AI_FireNaga_LavaPool_DoT.TickRate]} secondi.</string>
+	<string key="AI_MotherwellElk_SE_Slow_DisplayName" rel_version="Quest_MSQ2_Edengrove">Rallentamento</string>
+	<string key="AI_MotherwellElk_SE_Slow_Tooltip" rel_version="Quest_MSQ2_Edengrove">Velocità di movimento ridotta di un {[Type_StatusEffectData.AI_MotherwellElk_SE_Slow.MoveSpeedMod * -100]}% per {[Type_StatusEffectData.AI_MotherwellElk_SE_Slow.BaseDuration]} secondi, cumulabile {[Type_StatusEffectData.AI_MotherwellElk_SE_Slow.StackMax]} volte.</string>
+	<string key="AI_MotherwellElk_SE_Bleed_DisplayName" rel_version="Quest_MSQ2_Edengrove">Sanguinante</string>
+	<string key="AI_MotherwellElk_SE_Bleed_Tooltip" rel_version="Quest_MSQ2_Edengrove">Sanguinante per un {[Type_StatusEffectData.AI_MotherwellElk_SE_Bleed.HealthModifierPercent * -100]}% dei danni fisici alla salute di base ogni {[Type_StatusEffectData.AI_MotherwellElk_SE_Bleed.TickRate]} secondi per {[Type_StatusEffectData.AI_MotherwellElk_SE_Bleed.BaseDuration]} secondi.</string>
+	<string key="AI_MotherwellElk_SE_Rend_DisplayName" rel_version="Quest_MSQ2_Edengrove">Lacerazione</string>
+	<string key="AI_MotherwellElk_SE_Rend_Tooltip" rel_version="Quest_MSQ2_Edengrove">I danni subiti aumentano di un {[Type_StatusEffectData.AI_MotherwellElk_SE_Rend.ABSStandard * -100]}% per {[Type_StatusEffectData.AI_MotherwellElk_SE_Rend.BaseDuration]} secondi, accumulandosi {[Type_StatusEffectData.AI_MotherwellElk_SE_Rend.StackMax]} volte.</string>
+	<string key="AI_MotherwellElk_SE_Exhaust_DisplayName" rel_version="Quest_MSQ2_Edengrove">Sfinimento</string>
+	<string key="AI_MotherwellElk_SE_Exhaust_ToolTip" rel_version="Quest_MSQ2_Edengrove">Rigenerazione di energia ridotta di un {[Type_StatusEffectData.AI_MotherwellElk_SE_Exhaust.StaminaRate * -100]}% per {[Type_StatusEffectData.AI_MotherwellElk_SE_Exhaust.BaseDuration]} secondi, cumulabile {[Type_StatusEffectData.AI_MotherwellElk_SE_Exhaust.StackMax]} volte.</string>
 	<string key="Sandworm_ArenaEncounter_PressurePlate_Ranged_Buff_DisplayName" rel_version="Trial_Brimstone_Sandworm">Spezzascudo</string>
 	<string key="Sandworm_ArenaEncounter_PressurePlate_Ranged_Buff_Tooltip" rel_version="Trial_Brimstone_Sandworm">Raggiungi lo stato sovraccaricato infliggendo danni all'energia dello scudo bonus.</string>
 	<string key="Sandworm_Acid_Resistance_DisplayName" rel_version="Trial_Brimstone_Sandworm">Cacciatore di tempeste</string>
@@ -828,6 +852,34 @@
 	<string key="Sandworm_Acid_Storm_Tooltip" rel_version="Trial_Brimstone_Sandworm">Riceve un {[Type_StatusEffectData.Sandworm_Acid_Storm.HealthModifierPercent * -100]}% di salute massima sotto forma di danni da acido e subisce Afflizione da acido ogni {[Type_StatusEffectData.Sandworm_Acid_Storm.TickRate]} secondi.</string>
 	<string key="Sandworm_Acid_Spew_DisplayName" rel_version="Trial_Brimstone_Sandworm">Sputo acido</string>
 	<string key="Sandworm_Acid_Spew_Tooltip" rel_version="Trial_Brimstone_Sandworm">Riceve un {[Type_StatusEffectData.Sandworm_Acid_Spew.HealthModifierPercent * -100]}% di salute massima sotto forma di danni da acido e subisce Afflizione da acido ogni {[Type_StatusEffectData.Sandworm_Acid_Spew.TickRate]} secondi.</string>
+	<string key="AI_ArmoredDragon_Bleed_DisplayName" rel_version="Territory_FirstLight">Schegge di respiro metallico</string>
+	<string key="AI_ArmoredDragon_Bleed_Tooltip" rel_version="Territory_FirstLight">Sanguinante per un {[Type_StatusEffectData.AI_ArmoredDragon_Bleed.HealthModifierDamageBased * -100]}% di danni di base + {[Type_StatusEffectData.AI_ArmoredDragon_Bleed.HealthModifierPercent * -100]}% di danni fisici alla salute di base ogni {[Type_StatusEffectData.AI_ArmoredDragon_Bleed.TickRate]} secondi per {[Type_StatusEffectData.AI_ArmoredDragon_Bleed.BaseDuration]} secondi.</string>
+	<string key="Mammoth_Lightning_Shock_DisplayName" rel_version="Territory_FirstLight">Esplosione elettrica</string>
+	<string key="Mammoth_Lightning_Shock_Tooltip" rel_version="Territory_FirstLight">Prosciuga {[Type_StatusEffectData.Mammoth_Lightning_Shock.Stamina * -1]} di energia ogni {[Type_StatusEffectData.Mammoth_Lightning_Shock.TickRate]} secondi e riduce la rigenerazione di energia di un {[Type_StatusEffectData.Mammoth_Lightning_Shock.StaminaRate * -100]}% per {[Type_StatusEffectData.Mammoth_Lightning_Shock.BaseDuration]} secondi. Cumulabile {[Type_StatusEffectData.Mammoth_Lightning_Shock.StackMax]} volte.</string>
+	<string key="AI_Gorilla_Boss_Attune_Fire_DisplayName" rel_version="Territory_FirstLight">Sintonia del filone infuocato</string>
+	<string key="AI_Gorilla_Boss_Attune_Fire_Description" rel_version="Territory_FirstLight">Immune ai danni da fuoco e può far esplodere elementali di filoni infuocati</string>
+	<string key="AI_Gorilla_Boss_Attune_Ice_DisplayName" rel_version="Territory_FirstLight">Sintonia del filone ghiacciato</string>
+	<string key="AI_Gorilla_Boss_Attune_Ice_Description" rel_version="Territory_FirstLight">Immune ai danni da ghiaccio e può far esplodere elementali di filoni ghiacciati</string>
+	<string key="AI_Gorilla_Boss_Attune_Nature_DisplayName" rel_version="Territory_FirstLight">Sintonia del filone naturale</string>
+	<string key="AI_Gorilla_Boss_Attune_Nature_Description" rel_version="Territory_FirstLight">Immune ai danni da natura e può far esplodere elementali di filoni naturali</string>
+	<string key="AI_Gorilla_Boss_Attune_Lightning_DisplayName" rel_version="Territory_FirstLight">Sintonia del filone folgorante</string>
+	<string key="AI_Gorilla_Boss_Attune_Lightning_Description" rel_version="Territory_FirstLight">Immune ai danni da fulmine e può far esplodere elementali di filoni folgoranti</string>
+	<string key="AI_Gorilla_Boss_Dmg_Fire_DisplayName" rel_version="Territory_FirstLight">Potenziamento del filone infuocato</string>
+	<string key="AI_Gorilla_Boss_Dmg_Fire_Description" rel_version="Territory_FirstLight">Kurok infligge un {[Type_StatusEffectData.AI_Gorilla_Boss_Dmg_Fire.DMGFire * 100]}% di danni da fuoco aggiuntivi, cumulabili fino a {[Type_StatusEffectData.AI_Gorilla_Boss_Dmg_Fire.StackMax]} volte. Raggiunto il numero massimo di accumuli, Kurok fa esplodere tutta l'energia del fuoco accumulata.</string>
+	<string key="AI_Gorilla_Boss_Dmg_Ice_DisplayName" rel_version="Territory_FirstLight">Potenziamento del filone ghiacciato</string>
+	<string key="AI_Gorilla_Boss_Dmg_Ice_Description" rel_version="Territory_FirstLight">Kurok infligge un {[Type_StatusEffectData.AI_Gorilla_Boss_Dmg_Ice.DMGIce * 100]}% di danni da ghiaccio aggiuntivi, cumulabili fino a {[Type_StatusEffectData.AI_Gorilla_Boss_Dmg_Ice.StackMax]} volte. Raggiunto il numero massimo di accumuli, Kurok fa esplodere tutta l'energia del ghiaccio accumulata.</string>
+	<string key="AI_Gorilla_Boss_Dmg_Nature_DisplayName" rel_version="Territory_FirstLight">Potenziamento del filone naturale</string>
+	<string key="AI_Gorilla_Boss_Dmg_Nature_Description" rel_version="Territory_FirstLight">Kurok infligge un {[Type_StatusEffectData.AI_Gorilla_Boss_Dmg_Nature.DMGNature * 100]}% di danni da natura aggiuntivi, cumulabili fino a {[Type_StatusEffectData.AI_Gorilla_Boss_Dmg_Nature.StackMax]} volte. Raggiunto il numero massimo di accumuli, Kurok fa esplodere tutta l'energia della natura accumulata.</string>
+	<string key="AI_Gorilla_Boss_Dmg_Lightning_DisplayName" rel_version="Territory_FirstLight">Potenziamento del filone folgorante</string>
+	<string key="AI_Gorilla_Boss_Dmg_Lightning_Description" rel_version="Territory_FirstLight">Kurok infligge un {[Type_StatusEffectData.AI_Gorilla_Boss_Dmg_Lightning.DMGLightning * 100]}% di danni da fulmine aggiuntivi, cumulabili fino a {[Type_StatusEffectData.AI_Gorilla_Boss_Dmg_Lightning.StackMax]} volte. Raggiunto il numero massimo di accumuli, Kurok fa esplodere tutta l'energia del fulmine accumulata.</string>
+	<string key="AI_Gorilla_Boss_Dmg_Void_DisplayName" rel_version="Territory_FirstLight">Entropia elementale</string>
+	<string key="AI_Gorilla_Boss_Dmg_Void_Description" rel_version="Territory_FirstLight">Kurok infligge un {[Type_StatusEffectData.AI_Gorilla_Boss_Dmg_Void.DMGCorruption * 100]}% di danni da vuoto aggiuntivi, cumulabili fino a {[Type_StatusEffectData.AI_Gorilla_Boss_Dmg_Void.StackMax]} volte.</string>
+	<string key="AI_Gorilla_Boss_DamageVuln_DisplayName" rel_version="Territory_FirstLight">Contraccolpo del filone elementale</string>
+	<string key="AI_Gorilla_Boss_DamageVuln_Description" rel_version="Territory_FirstLight">Kurok è disorientato e subisce {[Type_StatusEffectData.AI_Gorilla_Boss_DamageVuln.ABSStrike * -100]} danni in più. La durata dipende dagli accumuli di potenziamento del filone al momento del contraccolpo.</string>
+	<string key="AI_Gorilla_Boss_Burn_DisplayName" rel_version="Territory_FirstLight">Fiamme di Kurok</string>
+	<string key="AI_Gorilla_Boss_Burn_Description" rel_version="Territory_FirstLight">Rovente per un {[Type_StatusEffectData.AI_Gorilla_Boss_Burn.HealthModifierDamageBased * -100]}% dei danni di Kurok come danni da fuoco per {[Type_StatusEffectData.AI_Gorilla_Boss_Burn.BaseDuration]} secondi. Cumulabile fino a {[Type_StatusEffectData.AI_Gorilla_Boss_Burn.StackMax]} volte.</string>
+	<string key="AI_Gorilla_Boss_Chill_DisplayName" rel_version="Territory_FirstLight">Gelo di Kurok</string>
+	<string key="AI_Gorilla_Boss_Chill_Description" rel_version="Territory_FirstLight">Rallentato di un {[Type_StatusEffectData.AI_Gorilla_Boss_Chill.MoveSpeedMod * -100]}% per {[Type_StatusEffectData.AI_Gorilla_Boss_Chill.BaseDuration * 100]} secondi. Cumulabile fino a {[Type_StatusEffectData.AI_Gorilla_Boss_Chill.StackMax]} volte.</string>
 	<string key="godModeThirst_DisplayName">Modalità dio</string>
 	<string key="godModeHealth_DisplayName">Modalità dio</string>
 	<string key="godModeAll_DisplayName">Modalità dio</string>
@@ -1312,6 +1364,34 @@
 	<string key="Rapier_Evasion_Effect_Mod2_Description">Evasione2</string>
 	<string key="Rapier_Evasion_Effect_Mod3_DisplayName">Evasione3</string>
 	<string key="Rapier_Evasion_Effect_Mod3_Description">Evasione3</string>
+	<string key="Status_Flail_Impairment_HexDoT" rel_version="Weapon_Flail">Impedimento</string>
+	<string key="Status_Flail_Impairment_HexDoT_Description" rel_version="Weapon_Flail">Subisci un {[Type_StatusEffectData.Status_Flail_HexDoT.HealthModifierDamageBased * -100]}% dei danni da energia arcana al secondo e i tuoi danni da attacco si riducono di un {[Type_StatusEffectData.Status_Flail_HexDoT.DMGStandard * -100]}%.</string>
+	<string key="Status_Flail_AllySupport_WeakenBuff" rel_version="Weapon_Flail">Fragilità riflessa</string>
+	<string key="Status_Flail_AllySupport_WeakenBuff_Description" rel_version="Weapon_Flail">Hai attivo un potenziamento che indebolisce i bersagli che ti colpiscono.</string>
+	<string key="Status_Flail_Uninterruptible" rel_version="Weapon_Flail">Mazzafrusto stabile</string>
+	<string key="Status_Flail_Uninterruptible_Description" rel_version="Weapon_Flail">Sei immune agli effetti di controllo di gruppo mentre è attivo.</string>
+	<string key="Status_Flail_HealingBonus_DisplayName" rel_version="Weapon_Flail">Bonus curativo</string>
+	<string key="Status_Flail_HealingBonus_Description" rel_version="Weapon_Flail">Tutte le cure prodotte e ricevute aumentano.</string>
+	<string key="Status_Flail_EnemyDebuff_AllyDoTDurRed" rel_version="Weapon_Flail">Caduta rovinosa</string>
+	<string key="Status_Flail_EnemyDebuff_AllyDoTDurRed_Description" rel_version="Weapon_Flail">Finché questo effetto è attivo, la durata dei danni nel tempo di tutti i bersagli che ti colpiscono è ridotta.</string>
+	<string key="Status_Flail_Reinforced_DisplayName" rel_version="Weapon_Flail">Rinforzato</string>
+	<string key="Status_Flail_Reinforced_description" rel_version="Weapon_Flail">Ottieni riduzione dei danni per {[Type_StatusEffectData.Status_Flail_DefensiveStrike_Reinforced.StopOnHitCount]} colpi mentre è attivo.</string>
+	<string key="Status_Flail_DefensiveStrike_AllyBuff" rel_version="Weapon_Flail">Migliori amici</string>
+	<string key="Status_Flail_DefensiveStrike_AllyBuff_description" rel_version="Weapon_Flail">Ottieni potenziamento e assorbimento dei danni se ti trovi vicino a qualcuno che ha un mazzafrusto dotato di questo miglioramento.</string>
+	<string key="Status_Flail_NearAlly_HealPower_DisplayName" rel_version="Weapon_Flail">Meglio insieme</string>
+	<string key="Status_Flail_NearAlly_HealPower_Description" rel_version="Weapon_Flail">Quando sei vicino a un alleato, l'efficacia delle cure prodotte aumenta.</string>
+	<string key="Status_Flail_NearAlly_Anointed_DisplayName" rel_version="Weapon_Flail">Meglio insieme</string>
+	<string key="Status_Flail_NearAlly_Anointed_Description" rel_version="Weapon_Flail">Quando sei vicino a un alleato, l'efficacia delle cure ricevute aumenta.</string>
+	<string key="Status_Flail_Passive_CleanseEmpower_DisplayName" rel_version="Weapon_Flail">Purificazione prodigiosa</string>
+	<string key="Status_Flail_Passive_CleanseEmpower_Description" rel_version="Weapon_Flail">Se colpisci un bersaglio mentre questo effetto è attivo, lo purificherai da un effetto di stato prodigioso.</string>
+	<string key="Status_Flail_OnHitTaken_Lifesteal_DisplayName" rel_version="Weapon_Flail">Furto di vita</string>
+	<string key="Status_Flail_OnHitTaken_Lifesteal_Description" rel_version="Weapon_Flail">I colpi guadagnano Furto di vita mentre questo effetto è attivo.</string>
+	<string key="Status_Flail_AllyDamageSplit_Ally_DisplayName" rel_version="Weapon_Flail">Protetto da Scudo umano</string>
+	<string key="Status_Flail_AllyDamageSplit_Ally_Description" rel_version="Weapon_Flail">Quando questo effetto è attivo, una parte dei danni che subisci viene trasferita a un portatore di mazzafrusto vicino.</string>
+	<string key="Status_Flail_AllyDamageSplit_Self_DisplayName" rel_version="Weapon_Flail">Scudo umano</string>
+	<string key="Status_Flail_AllyDamageSplit_Self_Description" rel_version="Weapon_Flail">Quando questo effetto è attivo, una parte dei danni subita da un alleato vicino viene trasferita a te.</string>
+	<string key="Status_Flail_Ultimate_Healing_DisplayName">Meglio insieme</string>
+	<string key="Status_Flail_Ultimate_Healing_Description">Curi te stesso per un {[Type_StatusEffectData.Status_Flail_Ultimate_HealOverTime.HealthModifierDamageBased * 100]}% dei danni da arma di chi brandisce il mazzafrusto.</string>
 	<string key="BlockBreakerDebuffPerk_DisplayName">Sfinimento</string>
 	<string key="BlockSpeedPerk1_Description">La tua velocità di movimento aumenta di un {[Type_StatusEffectData.BlockSpeedPerk1.MoveSpeedMod * 100]}%.</string>
 	<string key="BlockSpeedPerk2_Description">La tua velocità di movimento aumenta di {[Type_StatusEffectData.BlockSpeedPerk2.MoveSpeedMod * 100]}.</string>
@@ -1323,6 +1403,7 @@
 	<string key="OR_FortSpawn_Invulnerable_Description">Invulnerabile per la durata di questo effetto dopo essersi generati nel proprio forte di Carica all'avamposto.</string>
 	<string key="Status_Empower">Potenziamento</string>
 	<string key="Status_Fortify">Fortificazione</string>
+	<string key="Status_Invulnerability">Invulnerabilità</string>
 	<string key="Status_Haste">Fretta</string>
 	<string key="Status_Slow">Rallentamento</string>
 	<string key="Status_Exhaust">Sfinimento</string>
@@ -1343,6 +1424,7 @@
 	<string key="Status_Disease">Malattia</string>
 	<string key="Status_Recovery">Recupero</string>
 	<string key="Status_Reinforced">Rinforzato</string>
+	<string key="Status_Blessed">Benedetto</string>
 	<string key="Status_Empower_Description">Hai un potenziamento di aumento dei danni attivo.</string>
 	<string key="Status_Fortify_Description">Hai un potenziamento dell'armatura attivo.</string>
 	<string key="Status_Haste_Description">La tua velocità di movimento attuale è aumentata.</string>
@@ -1360,6 +1442,7 @@
 	<string key="Status_HealOverTimeNonCombat_Description">Ottieni salute ogni secondo.</string>
 	<string key="Status_Heal_Description">I tuoi effetti di guarigione cureranno di più.</string>
 	<string key="Status_LifeSteal_Description">I danni inflitti mentre questo effetto è attivo ti cureranno.</string>
+	<string key="Status_Blessed_Description">Quando questo effetto è attivo, le cure prodotte aumentano.</string>
 	<string key="Status_GemPerk_Retaliate_Description">Bonus danni derivante dal Vantaggio Gemma della rivalsa.</string>
 	<string key="Status_Upgrade_Bow_EvasiveShot_Haste_description">La tua velocità di movimento aumenta di un {[Type_StatusEffectData.Status_Upgrade_Bow_EvasiveShot_Haste.SprintSpeedMod * 100]}%.</string>
 	<string key="Status_Passive_Bow_Skirmish_HasteOnSwap_description">La tua velocità di movimento aumenta di un {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_HasteOnSwap.SprintSpeedMod * 100]}%.</string>
@@ -1501,11 +1584,11 @@
 	<string key="Status_Ultimate_Sword_Defender_Timer_description">Allo scadere, potrai riutilizzare Formazione difensiva.</string>
 	<string key="Status_Ability_Lifestaff_OrbofProtection_description">La tua armatura aumenta di un {[Type_StatusEffectData.Status_Ability_Lifestaff_OrbofProtection.PhysicalArmor * 100]}%.</string>
 	<string key="Status_Upgrade_Lifestaff_OrbofProtection_Dmg_description">I tuoi danni aumentano di un {[Type_StatusEffectData.Status_Upgrade_Lifestaff_OrbofProtection_Dmg.DMGStandard * 100]}%.</string>
-	<string key="Status_Passive_Lifestaff_Protection_HealingOnDodge_description">Le tue guarigioni basate sui danni aumentano di un {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HealingOnDodge.HealScalingValueMultiplier * 100]}%.</string>
+	<string key="Status_Passive_Lifestaff_Protection_HealingOnDodge_description">Le tue cure prodotte aumentano di un {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HealingOnDodge.HealScalingValueMultiplier * 100]}%.</string>
 	<string key="Status_Passive_Lifestaff_Protection_HasteWhenLow_description">La tua velocità di movimento si riduce di un {[Type_StatusEffectData.Status_Passive_Lifestaff_Protection_HasteWhenLow.SprintSpeedMod * 100]}%.</string>
 	<string key="Status_Passive_Lifestaff_Protection_HasteWhenLow_Timer_description">Allo scadere, potrai riottenere Equilibrio.</string>
 	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_name">Intensifica</string>
-	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_description">Le tue guarigioni basate sui danni aumentano di un {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealingBuffonBasic.HealScalingValueMultiplier * 100]}%.</string>
+	<string key="Status_Passive_Lifestaff_Healing_HealingBuffonBasic_description">Le tue cure prodotte aumentano di un {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_HealingBuffonBasic.HealScalingValueMultiplier * 100]}%.</string>
 	<string key="Status_Passive_Lifestaff_Healing_AoeHealWhenHit_description">Attiva un'aura curativa per te e i tuoi amici nelle vicinanze in un raggio di 4 metri, guarendo un {[Type_StatusEffectData.Status_Passive_Lifestaff_Healing_AoeHealWhenHit.HealthModifierDamageBased * 100]}% dei danni da arma al secondo.</string>
 	<string key="Status_Ability_Lifestaff_SacredGround">Terra sacra</string>
 	<string key="Status_Ability_Lifestaff_SacredGround_description">Curi te stesso per un {[Type_StatusEffectData.Status_Ability_Lifestaff_SacredGround.HealthModifierDamageBased * 100]}% dei danni da arma di chi lancia l'incantesimo.</string>
@@ -1531,7 +1614,7 @@
 	<string key="Status_Perk_Weapon_OnKillEmpower_Timer_Description">Al termine, il tuo vantaggio che fa acquisire Potenziamento dopo un'uccisione può attivarsi di nuovo.</string>
 	<string key="Status_Perk_Weapon_OnKillCDR_Timer_Description">Al termine, il tuo vantaggio che fa acquisire Riduzione della ricarica dopo un'uccisione può attivarsi di nuovo.</string>
 	<string key="DodgeLowerThreatPerk_DisplayName">Sfuggente</string>
-	<string key="DodgeLowerThreatPerk_Description">Sviluppo di minacce attualmente ridotto di un {[GlobalAbilityTable.Global_Earring_ThreatSubOnDodge.ThreatDamage * -100 * {perkMultiplier}]}%.</string>
+	<string key="DodgeLowerThreatPerk_Description">Sviluppo di minacce attualmente ridotto di un {[PerksAbilityTable.Global_Earring_ThreatSubOnDodge.ThreatDamage * -100 * {perkMultiplier}]}%.</string>
 	<string key="Dungeon_ArcaneBarrierProtection">Protezione dall'arcano</string>
 	<string key="Dungeon_ArcaneBarrierProtection_Description">Un velo di protezione intorno a te che protegge dai danni da energia arcana.</string>
 	<string key="Dungeon_AzothWaterCleanse">Purificato</string>
@@ -1565,6 +1648,8 @@
 	<string key="Block_Broken_Description">Non puoi parare, schivare o scattare.</string>
 	<string key="Musket_DodgeReload_DisplayName">Timer Ricarica tattica</string>
 	<string key="Musket_DodgeReload_Description">Quando questo timer si azzera, puoi usare di nuovo Ricarica tattica.</string>
+	<string key="Musket_Deadeye_DisplayName">Ostile</string>
+	<string key="Musket_Deadeye_Description">I colpi applicano Sanguinamento mentre questo effetto è attivo.</string>
 	<string key="MeteorShowerDamage_DisplayName">Pioggia di meteoriti</string>
 	<string key="MeteorShowerDamage_Description">Stai subendo danni nel tempo da una pioggia di meteoriti.</string>
 	<string key="Doomfist_Exhaust_T5_Description" rel_version="Territory_Brimstone_Sands">Rigenerazione di energia ridotta di un {[Type_StatusEffectData.CorruptedLegion_Cyclops_ExhaustT5_Doomfist.StaminaRate * -100]}% per {[Type_StatusEffectData.CorruptedLegion_Cyclops_ExhaustT5_Doomfist.BaseDuration]} secondi.</string>
@@ -1586,9 +1671,15 @@
 	<string key="Status_NatureConditioning_Description" rel_version="Feature_Dungeon_Mutators">I danni da natura subiti mentre questo effetto è attivo vengono ridotti.</string>
 	<string key="Status_VoidConditioning" rel_version="Feature_Dungeon_Mutators">Condizionamento abissale.</string>
 	<string key="Status_VoidConditioning_Description" rel_version="Feature_Dungeon_Mutators">I danni da Vuoto subiti mentre questo effetto è attivo vengono ridotti.</string>
+	<string key="Status_SlashConditioning">Condizionamento fendente.</string>
+	<string key="Status_SlashConditioning_Description">I danni da fendente subiti mentre questo effetto è attivo vengono ridotti.</string>
+	<string key="Status_ThrustConditioning">Condizionamento affondo.</string>
+	<string key="Status_ThrustConditioning_Description">I danni da affondo subiti mentre questo effetto è attivo vengono ridotti.</string>
+	<string key="Status_StrikeConditioning">Condizionamento colpo.</string>
+	<string key="Status_StrikeConditioning_Description">I danni da colpo subiti mentre questo effetto è attivo vengono ridotti.</string>
 	<string key="AI_EvilKnight_Rally_DisplayName" rel_version="AI_Evil_Knights_P1">Grido di guerra dei Variaghi</string>
-	<string key="AI_Evil_Knight_Flamekeeper_Living_Bomb_Root_DisplayName" rel_version="Season_1_Perm">Nucleo fiammeggiante esplosivo</string>
-	<string key="AI_Evil_Knight_Flamekeeper_Living_Bomb_Root_Tooltip" rel_version="Season_1_Perm">Un nucleo fiammeggiante esplosivo ti imprigiona e ti porta alla morte se non viene distrutto dai tuoi alleati.</string>
+	<string key="AI_Evil_Knight_Flamekeeper_Living_Bomb_Root_DisplayName" rel_version="Season_1_Perm">Nucleo sulfureo esplosivo</string>
+	<string key="AI_Evil_Knight_Flamekeeper_Living_Bomb_Root_Tooltip" rel_version="Season_1_Perm">Un nucleo sulfureo esplosivo ti imprigiona e ti porta alla morte se non viene distrutto dai tuoi alleati.</string>
 	<string key="AI_Evil_Knight_Flamekeeper_Stop_Drop_And_Roll_DisplayName" rel_version="Season_1_Perm">Fermati, cadi e rotola</string>
 	<string key="AI_Evil_Knight_Flamekeeper_Stop_Drop_And_Roll_Tooltip" rel_version="Season_1_Perm">Perdi un 10% di salute ed energia al secondo. Questo effetto termina quando la tua energia scende a 0.</string>
 	<string key="AI_Evil_Knight_Flamekeeper_Combustion_DisplayName" rel_version="Season_1_Perm">Combustione</string>
@@ -1610,7 +1701,7 @@
 	<string key="Wispy_Wasp_Swarm_Tick_DisplayName">Sanguinante</string>
 	<string key="Wispy_Wasp_Swarm_Tick_Tooltip">Sanguinante per un {[Type_StatusEffectData.Wispy_Wasp_Swarm_Tick.HealthModifierPercent * -100]}% dei danni fisici alla salute di base ogni {[Type_StatusEffectData.Wispy_Wasp_Swarm_Tick.TickRate]} secondi per {[Type_StatusEffectData.Wispy_Wasp_Swarm_Tick.BaseDuration]} secondi.</string>
 	<string key="Blunderbuss_ChargeCooldown_Name" rel_version="Weapon_Blunderbuss">Tutto per tutto</string>
-	<string key="Blunderbuss_ChargeCooldown_Desc" rel_version="Weapon_Blunderbuss">La tua abilità successiva con lo schioppo si ricarica più velocemente.</string>
+	<string key="Blunderbuss_ChargeCooldown_Desc" rel_version="Weapon_Blunderbuss">La tua abilità successiva con lo schioppo ha un tempo di ricarica più breve.</string>
 	<string key="Blunderbuss_ChargeCooldownOnCooldown_Desc" rel_version="Weapon_Blunderbuss">Allo scadere, potrai usare di nuovo la tua abilità passiva Tutto per tutto.</string>
 	<string key="Blunderbuss_AbilityRamp_Name" rel_version="Weapon_Blunderbuss">Inarrestabile</string>
 	<string key="Blunderbuss_AbilityRamp_Desc" rel_version="Weapon_Blunderbuss">La tua armatura aumenta di un {[Type_StatusEffectData.Blunderbuss_AbilityRamp.PhysicalArmor * 100]}%. Cumulabile fino a {[Type_StatusEffectData.Blunderbuss_AbilityRamp.StackMax]} volte.</string>
@@ -1705,6 +1796,14 @@
 	<string key="MusicBuff_TerritoryStanding_Okay_Description" rel_version="Feature_MusicalPerformances">La reputazione del territorio aumenta di un {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T2_Okay.TerritoryStandingMod * 100]}% per {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T2_Okay.BaseDuration / 60]} minuti.</string>
 	<string key="MusicBuff_TerritoryStanding_Bad_DisplayName" rel_version="Feature_MusicalPerformances">Trionfo territoriale I</string>
 	<string key="MusicBuff_TerritoryStanding_Bad_Description" rel_version="Feature_MusicalPerformances">La reputazione del territorio aumenta di un {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T1_Bad.TerritoryStandingMod * 100]}% per {[Type_StatusEffectData.MusicBuff_TerritoryStanding_T1_Bad.BaseDuration / 60]} minuti.</string>
+	<string key="MusicBuff_GatheringXP_Amazing_DisplayName" rel_version="Feature_MusicalPerformances">Mai smettere di imparare IV</string>
+	<string key="MusicBuff_GatheringXP_Amazing_Description" rel_version="Feature_MusicalPerformances">I PE ottenuti da taglio e trasporto di legname, attività estrattiva, scuoiatura e raccolta delle messi aumentano di un {[Type_StatusEffectData.MusicBuff_GatheringXP_T4_Amazing.XPIncreasesTooltip * 100]}% per {[Type_StatusEffectData.MusicBuff_GatheringXP_T4_Amazing.BaseDuration / 60]} minuti.</string>
+	<string key="MusicBuff_GatheringXP_Great_DisplayName" rel_version="Feature_MusicalPerformances">Mai smettere di imparare III</string>
+	<string key="MusicBuff_GatheringXP_Great_Description" rel_version="Feature_MusicalPerformances">I PE ottenuti da taglio e trasporto di legname, attività estrattiva, scuoiatura e raccolta delle messi aumentano di un {[Type_StatusEffectData.MusicBuff_GatheringXP_T3_Good.XPIncreasesTooltip * 100]}% per {[Type_StatusEffectData.MusicBuff_GatheringXP_T3_Good.BaseDuration / 60]} minuti.</string>
+	<string key="MusicBuff_GatheringXP_Okay_DisplayName" rel_version="Feature_MusicalPerformances">Mai smettere di imparare II</string>
+	<string key="MusicBuff_GatheringXP_Okay_Description" rel_version="Feature_MusicalPerformances">I PE ottenuti da taglio e trasporto di legname, attività estrattiva, scuoiatura e raccolta delle messi aumentano di un {[Type_StatusEffectData.MusicBuff_GatheringXP_T2_Okay.XPIncreasesTooltip * 100]}% per {[Type_StatusEffectData.MusicBuff_GatheringXP_T2_Okay.BaseDuration / 60]} minuti.</string>
+	<string key="MusicBuff_GatheringXP_Bad_DisplayName" rel_version="Feature_MusicalPerformances">Mai smettere di imparare I</string>
+	<string key="MusicBuff_GatheringXP_Bad_Description" rel_version="Feature_MusicalPerformances">I PE ottenuti da taglio e trasporto di legname, attività estrattiva, scuoiatura e raccolta delle messi aumentano di un {[Type_StatusEffectData.MusicBuff_GatheringXP_T1_Bad.XPIncreasesTooltip * 100]}% per {[Type_StatusEffectData.MusicBuff_GatheringXP_T1_Bad.BaseDuration / 60]} minuti.</string>
 	<string key="PvPArena_GrandPotionRegen_DisplayName">Rigenerazione eccellente di salute</string>
 	<string key="PvPArena_GrandPotionRegen_Tooltip">Fornisce una notevole quantità di salute e mana nel tempo</string>
 	<string key="PvPArena_GrandPotionFocus_DisplayName">Rigenerazione eccellente di mana</string>
@@ -1766,6 +1865,11 @@
 	<string key="Status_Sandworm_SelfWeaken_Desc" rel_version="Feature_Heartgems_Sandworm">Danni inflitti ridotti di un {[Type_StatusEffectData.Status_Rune_Sandworm_SelfWeaken.DMGStandard * -100]}% mentre è attivo.</string>
 	<string key="Status_Sandworm_Uninterruptible_Name" rel_version="Feature_Heartgems_Sandworm">Nessuna interruzione</string>
 	<string key="Status_Sandworm_Uninterruptible_Desc" rel_version="Feature_Heartgems_Sandworm">Non può essere interrotto da vacillamenti e atterramenti mentre è attivo.</string>
+	<string key="Status_Rune_BeastMode_Greater_Buff_Desc" rel_version="Feature_Heartgems_BeastMode">Non può essere interrotto da vacillamenti e atterramenti mentre è attivo.</string>
+	<string key="Status_Rune_BeastMode_Survivor_Buff_Desc" rel_version="Feature_Heartgems_BeastMode">Armatura aumentata di un {[Type_StatusEffectData.Status_Rune_BeastMode_Survivor_Buff.PhysicalArmor * 100]}%.</string>
+	<string key="Status_Rune_BeastMode_Survivor_Debuff_Desc" rel_version="Feature_Heartgems_BeastMode">Danni inflitti ridotti di un {[Type_StatusEffectData.Status_Rune_BeastMode_Survivor_Debuff.DMGStandard * -100]}%.</string>
+	<string key="Status_Rune_BeastMode_Dominator_Buff_Desc" rel_version="Feature_Heartgems_BeastMode">Danni inflitti aumentati di un {[Type_StatusEffectData.Status_Rune_BeastMode_Dominator_Buff.DMGStandard * 100]}%.</string>
+	<string key="Status_Rune_BeastMode_Dominator_Debuff_Desc" rel_version="Feature_Heartgems_BeastMode">Armatura ridotta di un {[Type_StatusEffectData.Status_Rune_BeastMode_Dominator_Debuff.PhysicalArmor * -100]}%.</string>
 	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Tracking_DisplayName">Giudizio divino</string>
 	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Tracking_Tooltip">Gli dei dell'Enneade stanno giudicando il tuo cuore.</string>
 	<string key="AI_AnubianGuardian_HorusBoss_InstrumentOfJudgement_Damage_DisplayName">Verdetto divino</string>
@@ -1781,10 +1885,93 @@
 	<string key="WeaponCoatingEffect_T3_Aeternian_Description" rel_version="Season_1_Perm">Solo PvE: mentre quest'arma è attiva, infliggi un {[ConsumableItemDefinitions.CoatingAeternianT3.DMGVitalsCategory * 100]}% di danni in più agli umani.</string>
 	<string key="WeaponCoatingEffect_T2_Aeternian_DisplayName" rel_version="Season_1_Perm">Rivestimento armi contro umani comune</string>
 	<string key="WeaponCoatingEffect_T2_Aeternian_Description" rel_version="Season_1_Perm">Solo PvE: mentre quest'arma è attiva, infliggi un {[ConsumableItemDefinitions.CoatingAeternianT2.DMGVitalsCategory * 100]}% di danni in più agli umani.</string>
+	<string key="AI_ExplosiveSprout_FireExplosion_DisplayName" rel_version="Territory_FirstLight">Bruciatura</string>
+	<string key="AI_ExplosiveSprout_FireExplosion_Tooltip" rel_version="Territory_FirstLight">Infligge un {[Type_StatusEffectData.AI_ExplosiveSprout_FireExplosion.HealthModifierDamageBased * -100]}% di danni base da fuoco ogni {[Type_StatusEffectData.AI_ExplosiveSprout_FireExplosion.TickRate]} secondi.</string>
+	<string key="AI_ExplosiveSprout_PoisonExplosion_DisplayName" rel_version="Territory_FirstLight">Avvelenato</string>
+	<string key="AI_ExplosiveSprout_PoisonExplosion_Tooltip" rel_version="Territory_FirstLight">Infligge un {[Type_StatusEffectData.AI_ExplosiveSprout_PoisonExplosion.HealthModifierDamageBased * -100]}% di danni base da natura ogni {[Type_StatusEffectData.AI_ExplosiveSprout_PoisonExplosion.TickRate]} secondi.</string>
 	<string key="SpringtideBloom_SpringtideDram_MasterName">Pizzico primaverile</string>
 	<string key="SpringtideBloom_SpringtideCrumble_MasterName">Crumble primaverile</string>
 	<string key="SpringtideBloom_SpringtideWafer_MasterName">Cialda primaverile</string>
-	<string key="AI_MummifiedCorpse_Bleed_Tooltip">Sanguinante per un {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.HealthModifierDamageBased * -100]}% di danni di base + {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.HealthModifierPercent * -100]}% di danni fisici alla salute di base ogni {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.TickRate]} secondi per {[Type_StatusEffectData.AI_MummifiedCorpse_Bleed.BaseDuration]} secondi.</string>
-	<string key="AI_GhastlyHatchet_ReflexCheck_Bleed_Tooltip">Una piccola ferita a forma di X. Sanguinante per un {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.HealthModifierDamageBased * -100]}% di danni di base + {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.HealthModifierPercent * -100]}% di danni fisici alla salute di base ogni {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.TickRate]} secondi per {[Type_StatusEffectData.AI_GhastlyHatchet_ReflexCheck_Bleed.BaseDuration]} secondi.</string>
+	<string key="AI_Medusa_Gaze_DisplayName" rel_version="Territory_FirstLight">Sguardo della gorgone</string>
+	<string key="AI_Medusa_Gaze_Tooltip" rel_version="Territory_FirstLight">Rallenta di un {[Type_StatusEffectData.AI_Medusa_Gaze.MoveSpeedMod * -100]}% la velocità di movimento per {[Type_StatusEffectData.AI_Medusa_Gaze.BaseDuration]} secondi.</string>
+	<string key="AI_Medusa_Petrification_DisplayName" rel_version="Territory_FirstLight">Pietrificante</string>
+	<string key="AI_Medusa_Petrification_Tooltip" rel_version="Territory_FirstLight">Infligge danni per un {[Type_StatusEffectData.AI_Medusa_Petrification.HealthModifierPercent * -100]}% della salute e rallenta di un {[Type_StatusEffectData.AI_Medusa_Petrification.MoveSpeedMod * -100]}% la velocità di movimento per {[Type_StatusEffectData.AI_Medusa_Petrification.BaseDuration]} secondi.</string>
+	<string key="AI_Medusa_Poison_DisplayName" rel_version="Territory_FirstLight">Venefico</string>
+	<string key="AI_Medusa_Poison_Tooltip" rel_version="Territory_FirstLight">Infligge danni per un {[Type_StatusEffectData.AI_Medusa_Poison.HealthModifierPercent * -100]}% della salute.</string>
+	<string key="AI_Medusa_Poison_Pool_DisplayName" rel_version="Territory_FirstLight">Veleno di Medusa</string>
+	<string key="AI_Medusa_Poison_Pool_Tooltip" rel_version="Territory_FirstLight">Infligge danni per un {[Type_StatusEffectData.AI_Medusa_Poison_Pool.HealthModifierPercent * -100]}% della salute.</string>
+	<string key="SporeSickness_Description" rel_version="Territory_FirstLight_Spores">Sei stato contaminato da spore pericolose! Subisci danni notevolmente aumentati da tutte le fonti.</string>
+	<string key="SporeSickness_MasterName" rel_version="Territory_FirstLight_Spores">Contaminazione da spore</string>
+	<string key="SE_ArtemisBoonPotionD1_T1_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_ArtemisBoonPotionD1_T1.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, infligge il 12% di danni in più e ottiene più bottino dalle creature nelle Foreste degli Elisi per {[Type_StatusEffectData.SE_ArtemisBoonSecondaryD1_T1.BaseDuration]} secondi.</string>
+	<string key="SE_ArtemisBoonPotionD1_T1_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Artemide debole</string>
+	<string key="SE_ArtemisBoonPotionD1_T2_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_ArtemisBoonPotionD1_T2.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, infligge il 15% di danni in più e ottiene più bottino dalle creature nelle Foreste degli Elisi per {[Type_StatusEffectData.SE_ArtemisBoonSecondaryD1_T2.BaseDuration]} secondi.</string>
+	<string key="SE_ArtemisBoonPotionD1_T2_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Artemide comune</string>
+	<string key="SE_ArtemisBoonPotionD2_T2_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_ArtemisBoonPotionD2_T2.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, infligge il 15% di danni in più e ottiene più bottino dalle creature nelle Foreste degli Elisi per {[Type_StatusEffectData.SE_ArtemisBoonSecondaryD2_T2.BaseDuration]} secondi.</string>
+	<string key="SE_ArtemisBoonPotionD2_T2_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Artemide comune</string>
+	<string key="SE_ArtemisBoonPotionD2_T3_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_ArtemisBoonPotionD2_T3.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, infligge il 18% di danni in più e ottiene più bottino dalle creature nelle Foreste degli Elisi per {[Type_StatusEffectData.SE_ArtemisBoonSecondaryD2_T3.BaseDuration]} secondi.</string>
+	<string key="SE_ArtemisBoonPotionD2_T3_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Artemide forte</string>
+	<string key="SE_ArtemisBoonPotionD3_T3_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_ArtemisBoonPotionD3_T3.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, infligge il 18% di danni in più e ottiene più bottino dalle creature nelle Foreste degli Elisi per {[Type_StatusEffectData.SE_ArtemisBoonSecondaryD3_T3.BaseDuration]} secondi.</string>
+	<string key="SE_ArtemisBoonPotionD3_T3_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Artemide forte</string>
+	<string key="SE_ArtemisBoonPotionD3_T4_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_ArtemisBoonPotionD3_T4.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, infligge il 22% di danni in più e ottiene più bottino dalle creature nelle Foreste degli Elisi per {[Type_StatusEffectData.SE_ArtemisBoonSecondaryD3_T4.BaseDuration]} secondi.</string>
+	<string key="SE_ArtemisBoonPotionD3_T4_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Artemide formidabile</string>
+	<string key="SE_ArtemisBoonPotionD4_T4_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_ArtemisBoonPotionD4_T4.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, infligge il 22% di danni in più e ottiene più bottino dalle creature nelle Foreste degli Elisi per {[Type_StatusEffectData.SE_ArtemisBoonSecondaryD4_T4.BaseDuration]} secondi.</string>
+	<string key="SE_ArtemisBoonPotionD4_T4_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Artemide formidabile</string>
+	<string key="SE_ArtemisBoonPotionD5_T5_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_ArtemisBoonPotionD5_T5.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, infligge il 27% di danni in più e ottiene più bottino dalle creature nelle Foreste degli Elisi per {[Type_StatusEffectData.SE_ArtemisBoonSecondaryD5_T5.BaseDuration]} secondi.</string>
+	<string key="SE_ArtemisBoonPotionD5_T5_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Artemide impregnato</string>
+	<string key="SE_DemeterBoonPotionD1_T1_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_DemeterBoonPotionD1_T1.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, subisce il 12% di danni in meno e ottiene più risorse dalla raccolta di piante a spore per {[Type_StatusEffectData.SE_DemeterBoonSecondaryD1_T1.BaseDuration]} secondi.</string>
+	<string key="SE_DemeterBoonPotionD1_T1_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Demetra debole</string>
+	<string key="SE_DemeterBoonPotionD1_T2_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_DemeterBoonPotionD1_T2.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, subisce il 15% di danni in meno e ottiene più risorse dalla raccolta di piante a spore per {[Type_StatusEffectData.SE_DemeterBoonSecondaryD1_T2.BaseDuration]} secondi.</string>
+	<string key="SE_DemeterBoonPotionD1_T2_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Demetra comune</string>
+	<string key="SE_DemeterBoonPotionD2_T2_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_DemeterBoonPotionD2_T2.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, subisce il 15% di danni in meno e ottiene più risorse dalla raccolta di piante a spore per {[Type_StatusEffectData.SE_DemeterBoonSecondaryD2_T2.BaseDuration]} secondi.</string>
+	<string key="SE_DemeterBoonPotionD2_T2_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Demetra comune</string>
+	<string key="SE_DemeterBoonPotionD2_T3_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_DemeterBoonPotionD2_T3.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, subisce il 18% di danni in meno e ottiene più risorse dalla raccolta di piante a spore per {[Type_StatusEffectData.SE_DemeterBoonSecondaryD2_T3.BaseDuration]} secondi.</string>
+	<string key="SE_DemeterBoonPotionD2_T3_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Demetra forte</string>
+	<string key="SE_DemeterBoonPotionD3_T3_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_DemeterBoonPotionD3_T3.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, subisce il 18% di danni in meno e ottiene più risorse dalla raccolta di piante a spore per {[Type_StatusEffectData.SE_DemeterBoonSecondaryD3_T3.BaseDuration]} secondi.</string>
+	<string key="SE_DemeterBoonPotionD3_T3_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Demetra forte</string>
+	<string key="SE_DemeterBoonPotionD3_T4_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_DemeterBoonPotionD3_T4.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, subisce il 22% di danni in meno e ottiene più risorse dalla raccolta di piante a spore per {[Type_StatusEffectData.SE_DemeterBoonSecondaryD3_T4.BaseDuration]} secondi.</string>
+	<string key="SE_DemeterBoonPotionD3_T4_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Demetra formidabile</string>
+	<string key="SE_DemeterBoonPotionD4_T4_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_DemeterBoonPotionD4_T4.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, subisce il 22% di danni in meno e ottiene più risorse dalla raccolta di piante a spore per {[Type_StatusEffectData.SE_DemeterBoonSecondaryD4_T4.BaseDuration]} secondi.</string>
+	<string key="SE_DemeterBoonPotionD4_T4_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Demetra formidabile</string>
+	<string key="SE_DemeterBoonPotionD5_T5_Description" rel_version="Territory_FirstLight_Spores">La pozione consumata purifica dalla malattia da spore al contatto e dura {[Type_StatusEffectData.SE_DemeterBoonPotionD5_T5.BaseDuration / 60]} minuti. All'ingresso in una zona di afflizione, subisce il 27% di danni in meno e ottiene più risorse dalla raccolta di piante a spore per {[Type_StatusEffectData.SE_DemeterBoonSecondaryD5_T5.BaseDuration]} secondi.</string>
+	<string key="SE_DemeterBoonPotionD5_T5_MasterName" rel_version="Territory_FirstLight_Spores">Effetto passivo del Dono di Demetra impregnato</string>
+	<string key="SE_ArtemisBoonSecondaryD1_T1_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Infliggi più danni e ricevi bottino speciale dalle creature nelle Foreste degli Elisi.</string>
+	<string key="SE_ArtemisBoonSecondaryD1_T1_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Artemide debole.</string>
+	<string key="SE_ArtemisBoonSecondaryD1_T2_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Infliggi più danni e ricevi bottino speciale dalle creature nelle Foreste degli Elisi.</string>
+	<string key="SE_ArtemisBoonSecondaryD1_T2_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Artemide comune.</string>
+	<string key="SE_ArtemisBoonSecondaryD2_T2_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Infliggi più danni e ricevi bottino speciale dalle creature nelle Foreste degli Elisi.</string>
+	<string key="SE_ArtemisBoonSecondaryD2_T2_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Artemide comune.</string>
+	<string key="SE_ArtemisBoonSecondaryD2_T3_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Infliggi più danni e ricevi bottino speciale dalle creature nelle Foreste degli Elisi.</string>
+	<string key="SE_ArtemisBoonSecondaryD2_T3_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Artemide forte.</string>
+	<string key="SE_ArtemisBoonSecondaryD3_T3_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Infliggi più danni e ricevi bottino speciale dalle creature nelle Foreste degli Elisi.</string>
+	<string key="SE_ArtemisBoonSecondaryD3_T3_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Artemide forte.</string>
+	<string key="SE_ArtemisBoonSecondaryD3_T4_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Infliggi più danni e ricevi bottino speciale dalle creature nelle Foreste degli Elisi.</string>
+	<string key="SE_ArtemisBoonSecondaryD3_T4_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Artemide formidabile.</string>
+	<string key="SE_ArtemisBoonSecondaryD4_T4_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Infliggi più danni e ricevi bottino speciale dalle creature nelle Foreste degli Elisi.</string>
+	<string key="SE_ArtemisBoonSecondaryD4_T4_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Artemide formidabile.</string>
+	<string key="SE_ArtemisBoonSecondaryD5_T5_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Infliggi più danni e ricevi bottino speciale dalle creature nelle Foreste degli Elisi.</string>
+	<string key="SE_ArtemisBoonSecondaryD5_T5_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Artemide impregnato.</string>
+	<string key="SE_DemeterBoonSecondaryD1_T1_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Subisci meno danni da tutte le fonti e ricevi più risorse dalle piante a spore.</string>
+	<string key="SE_DemeterBoonSecondaryD1_T1_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Demetra debole.</string>
+	<string key="SE_DemeterBoonSecondaryD1_T2_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Subisci meno danni da tutte le fonti e ricevi più risorse dalle piante a spore.</string>
+	<string key="SE_DemeterBoonSecondaryD1_T2_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Demetra comune.</string>
+	<string key="SE_DemeterBoonSecondaryD2_T2_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Subisci meno danni da tutte le fonti e ricevi più risorse dalle piante a spore.</string>
+	<string key="SE_DemeterBoonSecondaryD2_T2_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Demetra comune.</string>
+	<string key="SE_DemeterBoonSecondaryD2_T3_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Subisci meno danni da tutte le fonti e ricevi più risorse dalle piante a spore.</string>
+	<string key="SE_DemeterBoonSecondaryD2_T3_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Demetra forte.</string>
+	<string key="SE_DemeterBoonSecondaryD3_T3_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Subisci meno danni da tutte le fonti e ricevi più risorse dalle piante a spore.</string>
+	<string key="SE_DemeterBoonSecondaryD3_T3_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Demetra forte.</string>
+	<string key="SE_DemeterBoonSecondaryD3_T4_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Subisci meno danni da tutte le fonti e ricevi più risorse dalle piante a spore.</string>
+	<string key="SE_DemeterBoonSecondaryD3_T4_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Demetra formidabile.</string>
+	<string key="SE_DemeterBoonSecondaryD4_T4_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Subisci meno danni da tutte le fonti e ricevi più risorse dalle piante a spore.</string>
+	<string key="SE_DemeterBoonSecondaryD4_T4_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Demetra formidabile.</string>
+	<string key="SE_DemeterBoonSecondaryD5_T5_Description" rel_version="Territory_FirstLight_Spores">Sei in sintonia con le spore. Subisci meno danni da tutte le fonti e ricevi più risorse dalle piante a spore.</string>
+	<string key="SE_DemeterBoonSecondaryD5_T5_MasterName" rel_version="Territory_FirstLight_Spores">Effetto del Dono di Demetra impregnato.</string>
+	<string key="FirstLightLock_DoT_EffectName_For_DeathRecap" rel_version="Territory_FirstLight">Spore tossiche</string>
+	<string key="AI_CorruptedLeviathan_IchorBurn_DisplayName" rel_version="Quest_MSQ2_GreatCleave">Bruciatura da icore</string>
+	<string key="AI_CorruptedLeviathan_IchorBurn_Tooltip" rel_version="Quest_MSQ2_GreatCleave">Ricevi {[Type_StatusEffectData.AI_CorruptedLeviathan_IchorBurn.Afflictions]} punti di corruzione ogni secondo per {[Type_StatusEffectData.AI_CorruptedLeviathan_IchorBurn.BaseDuration]} secondi.</string>
+	<string key="AI_CorruptedLeviathan_IchorCoating_DisplayName" rel_version="Quest_MSQ2_GreatCleave">Rivestimento di icore</string>
+	<string key="AI_CorruptedLeviathan_IchorCoating_Tooltip" rel_version="Quest_MSQ2_GreatCleave">Subisci un {[Type_StatusEffectData.AI_CorruptedLeviathan_IchorCoating.WKNCorruption * 100]}% di danni da Corruzione in più per {[Type_StatusEffectData.AI_CorruptedLeviathan_IchorCoating.BaseDuration]} secondi.</string>
+	<string key="PotionTurkeyLuckT5Status_MasterName" rel_version="Event_TurkeyTerror2023_Perm">Turkey Luck</string>
+	<string key="PotionTurkeyLuckT5Status_Description" rel_version="Event_TurkeyTerror2023_Perm">The blessing of the Turkey is upon you. You have better odds for rewards when slaying Turkulon.</string>
 </resources>
 

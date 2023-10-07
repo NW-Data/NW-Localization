@@ -132,6 +132,9 @@
 	<string key="reward_type_tooltip_service" rel_version="Feature_MTX">Se seu personagem atender a todos os requisitos para a transferência, selecione um mundo e/ou região para se transferir.</string>
 	<string key="reward_type_tooltip_loadout" rel_version="Feature_Gear_Set_Storage">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;CONJUNTO DE EQUIPAMENTO&lt;/font&gt;: Você pode atribuir itens a um novo espaço de Conjunto de Equipamento do seu inventário.</string>
 	<string key="reward_type_tooltip_transmog" rel_version="Season_2_Perm">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TOKEN DE ALTERAÇÃO DE APARÊNCIA&lt;/font&gt;: Você pode usar este token para desbloquear aparências no Estilomante.</string>
+	<string key="reward_type_tooltip_mount" rel_version="Feature_Mounts">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;MONTARIAS&lt;/font&gt;: Você pode usar uma montaria para viajar pelo mundo mais rapidamente e subir de nível sua habilidade de Montaria.</string>
+	<string key="reward_type_tooltip_mountattachment" rel_version="Feature_Mounts">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;ACRÉSCIMOS DE MONTARIA&lt;/font&gt;: Você pode usar acréscimos de montaria para decorar as laterais da sua montaria.</string>
+	<string key="reward_type_tooltip_itemmountdye" rel_version="Feature_Mounts">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TINTURA DE ARMADURA DA MONTARIA&lt;/font&gt;: Você pode usar tinturas de armadura da montaria para tingir partes das roupas e armaduras da sua montaria.</string>
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Aviso:&lt;/font&gt; Brasões da Companhia só podem ser usados se você for o governador (criador) da companhia.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Conteúdo Indisponível</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Este conteúdo não está disponível no momento.</string>
@@ -149,7 +152,7 @@
 	<string key="ui_leaves_store" rel_version="Feature_MTX">Sai da loja:</string>
 	<string key="ui_discount_end" rel_version="Feature_MTX">O desconto acaba em:</string>
 	<string key="ui_show_available">Mostrar somente os disponíveis</string>
-	<string key="ui_show_purchasable" rel_version="Feature_MTX">Disponível para compra</string>
+	<string key="ui_show_purchasable" rel_version="Feature_MTX">Disponível e comprável</string>
 	<string key="ui_show_all">Exibir tudo</string>
 	<string key="ui_skin_applied">Aparência aplicada ao item</string>
 	<string key="ui_skins_applied">Aparências aplicadas aos itens</string>
@@ -182,6 +185,12 @@
 	<string key="ui_claim_fail_alreadyunlocked">Você já recebeu este direito.</string>
 	<string key="ui_claim_fail_inventoryfull">Não é possível receber o direito enquanto seu inventário está cheio. Libere espaço e tente novamente.</string>
 	<string key="ui_claim_fail_transactionerror">Erro na transação. Tente novamente.</string>
+	<string key="ui_claim_fail_claimpending">Já existe uma transação de recebimento em andamento. Aguarde para que seja concluído antes de reivindicar mais.</string>
+	<string key="ui_claim_fail_entitlementnotunlocked">Não é possível receber um direito que você não possui. Aguarde e tente novamente.</string>
+	<string key="store_requires_expansion_single">Requer {expansionName}</string>
+	<string key="store_requires_expansion_multiple">{quantity} itens neste conjunto precisam de {expansionName}</string>
+	<string key="store_requires_expansion_warning">Você não poderá usar {quantity} dos itens deste conjunto até adquirir {expansionName}.</string>
+	<string key="store_requires_expansion_confirm">Comprar Mesmo Assim</string>
 	<string key="smolderingscarlet_dye_name" rel_version="Dye_SmolderingScarlet">Escarlate Abrasador</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Chacal Rúnico</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Presa Crescente</string>
@@ -1076,6 +1085,11 @@
 	<string key="Bundle_PR_MedievalHistoric_Apparel_description" rel_version="Entitlements_MedievalHistoric">Proteja-se com uma armadura de aço ou acabe em uma caixão de madeira.\n\nInclui duas variantes de vestimenta, uma com marcas de batalha!</string>
 	<string key="Bundle_PR_MedievalHistoric_Weapon_name" rel_version="Entitlements_MedievalHistoric">Armas de Antigamente</string>
 	<string key="Bundle_PR_MedievalHistoric_Weapon_description" rel_version="Entitlements_MedievalHistoric">Lâminas e aço com séculos de idade ainda podem ser mortais se forem bem cuidados.</string>
+	<string key="reward_type_mount" rel_version="Feature_Mounts">Montaria</string>
+	<string key="reward_type_mountattachment" rel_version="Feature_Mounts">Acréscimo de Montaria</string>
+	<string key="reward_type_mounttrailvfx" rel_version="Feature_Mounts">Efeito Visual de Rastro de Montaria</string>
+	<string key="reward_type_mountsummonvfx" rel_version="Feature_Mounts">Efeito Visual de Convocação de Montaria</string>
+	<string key="reward_type_itemmountdye" rel_version="Feature_Mounts">Tintura de Armadura da Montaria</string>
 	<string key="reward_type_emote_permit" rel_version="Feature_Premium_Emotes">Permissão de Gesto</string>
 	<string key="Apparel_FrontierWasteland_Shawl_name" rel_version="Apparel_WastelandFrontier_1">Pioneiro do Sertão</string>
 	<string key="Apparel_FrontierWasteland_Gambeson_name" rel_version="Apparel_WastelandFrontier_2">Legionário Chifre-longo</string>
@@ -1102,6 +1116,41 @@
 	<string key="Emote_Premium_Firework5_x10_name" rel_version="Feature_Premium_Emotes">Pacote-10 Permissão do Gesto de Fogo de Artifício de Estrela Cadente</string>
 	<string key="Emote_Premium_Firework_Show_Pack_name" rel_version="Feature_Premium_Emotes">Pacote de Variedades de Show de Fogos de Artifício</string>
 	<string key="Emote_Premium_Firework_Show_Pack_description" rel_version="Feature_Premium_Emotes">Impressione seus amigos com um deslumbrante show de fogos de artifício! Mas lembre-se de manter água ao alcance para extinguir possíveis incêndios.\nInclui cinco Permissões: de Flores, Dinastia, Dríades, Anciões e Estrela Cadente.</string>
+	<string key="MountAttachmentItem_Blacksmith_name" rel_version="Feature_Mounts">Acréscimo de Montaria do Ferrador</string>
+	<string key="MountAttachmentItem_Flags_name" rel_version="Feature_Mounts">Acréscimo de Montaria de Bandeiras</string>
+	<string key="MountAttachmentItem_Tome_name" rel_version="Feature_Mounts">Acréscimo de Montaria de Tomo</string>
+	<string key="MountAttachmentItem_Logging_name" rel_version="Feature_Mounts">Acréscimo de Montaria de Extração de Madeira</string>
+	<string key="MountAttachmentItem_TreasureChest_name" rel_version="Feature_Mounts">Acréscimo de Montaria de Baú do Tesouro</string>
+	<string key="MountAttachmentItem_Cooking_name" rel_version="Feature_Mounts">Acréscimo de Montaria de Culinária</string>
+	<string key="MountAttachmentItem_AncientArtifact_name" rel_version="Feature_Mounts">Acréscimo de Montaria de Artefato Ancião</string>
+	<string key="MountAttachmentItem_Fishing_name" rel_version="Feature_Mounts">Acréscimo de Montaria de Pesca</string>
+	<string key="MountAttachmentItem_BotanyKit_name" rel_version="Feature_Mounts">Acréscimo de Montaria de Kit de Botânica</string>
+	<string key="MountAttachmentItem_Blacksmith_description" rel_version="Feature_Mounts">Esta bigorna será extremamente útil se você tiver um martelo.</string>
+	<string key="MountAttachmentItem_Flags_description" rel_version="Feature_Mounts">Demonstre sua lealdade! A alguma coisa.</string>
+	<string key="MountAttachmentItem_Tome_description" rel_version="Feature_Mounts">Livros são para magos. O que... você provavelmente é.</string>
+	<string key="MountAttachmentItem_Logging_description" rel_version="Feature_Mounts">Não há árvore que você não derrube.</string>
+	<string key="MountAttachmentItem_TreasureChest_description" rel_version="Feature_Mounts">Você tem um ótimo saque. Mantenha-o por perto. E bem visível.</string>
+	<string key="MountAttachmentItem_Cooking_description" rel_version="Feature_Mounts">O cozinheiro é sempre popular. A menos que seja terrível no que faz. Nesse caso, geralmente o matam.</string>
+	<string key="MountAttachmentItem_AncientArtifact_description" rel_version="Feature_Mounts">Tem um visual incrível. Esperamos que isso não abra um portal para que entrem criaturas ainda mais horrendas em Aeternum.</string>
+	<string key="MountAttachmentItem_Fishing_description" rel_version="Feature_Mounts">Que peixão! Que sua montaria te leve logo a um assentamento, antes que comece a cheirar mal!</string>
+	<string key="MountAttachmentItem_BotanyKit_description" rel_version="Feature_Mounts">Para quem tem grande interesse em plantas de todos os tipos.</string>
+	<string key="ui_mounts_horse_name_2" rel_version="Feature_Mounts">Cavalo 2</string>
+	<string key="ui_mounts_horse_name_3" rel_version="Feature_Mounts">Cavalo 3</string>
+	<string key="ui_mounts_horse_name_4" rel_version="Feature_Mounts">Cavalo 4</string>
+	<string key="ui_mounts_horse_name_5" rel_version="Feature_Mounts">Cavalo 5</string>
+	<string key="ui_mounts_horse_name_6" rel_version="Feature_Mounts">Cavalo 6</string>
+	<string key="ui_mounts_wolf_name_1" rel_version="Feature_Mounts">Lobo 1</string>
+	<string key="ui_mounts_wolf_name_2" rel_version="Feature_Mounts">Lobo 2</string>
+	<string key="ui_mounts_wolf_name_3" rel_version="Feature_Mounts">Lobo 3</string>
+	<string key="ui_mounts_wolf_name_4" rel_version="Feature_Mounts">Lobo 4</string>
+	<string key="ui_mounts_wolf_name_5" rel_version="Feature_Mounts">Lobo 5</string>
+	<string key="ui_mounts_wolf_name_6" rel_version="Feature_Mounts">Lobo 6</string>
+	<string key="ui_mounts_lion_name_1" rel_version="Feature_Mounts">Leão 1</string>
+	<string key="ui_mounts_lion_name_2" rel_version="Feature_Mounts">Leão 2</string>
+	<string key="ui_mounts_lion_name_3" rel_version="Feature_Mounts">Leão 3</string>
+	<string key="ui_mounts_lion_name_4" rel_version="Feature_Mounts">Leão 4</string>
+	<string key="ui_mounts_lion_name_5" rel_version="Feature_Mounts">Leão 5</string>
+	<string key="ui_mounts_lion_name_6" rel_version="Feature_Mounts">Leão 6</string>
 	<string key="Bundle_PR_Balance_HeraldOfOrder_name" rel_version="Entitlements_Balance">Conjunto Arauto da Ordem</string>
 	<string key="Bundle_PR_Balance_HeraldOfOrder_description" rel_version="Entitlements_Balance">Você lutará para manter o equilíbrio entre caos e ordem em Aeternum?</string>
 	<string key="Bundle_PR_Balance_KeeperOfEquilibrium_name" rel_version="Entitlements_Balance">Conjunto Guardião do Equilíbrio</string>
@@ -1110,10 +1159,15 @@
 	<string key="Bundle_PR_Balance_DefenderOfHarmony_description" rel_version="Entitlements_Balance">Sem harmonia, só resta a discórdia.</string>
 	<string key="Bundle_PR_JesterSmile_name" rel_version="Entitlements_Balance">Conjunto Piada do Bobo da Corte</string>
 	<string key="Bundle_PR_JesterSmile_description" rel_version="Entitlements_Balance">A sagacidade do bobo da corte pode ser mortal. Dê a ele uma lâmina, e logo seu sorriso desaparecerá.</string>
+	<string key="reward_type_MountDye" rel_version="Entitlements_Balance">Tintura de Armadura da Montaria</string>
 	<string key="reward_type_TokenPack" rel_version="Feature_Transmog">Pacote de Tokens</string>
 	<string key="Apparel_Balance_HeraldOfOrder_name" rel_version="Armor_Balance">Arauto da Ordem</string>
 	<string key="Apparel_Balance_KeeperOfEquilibrium_name" rel_version="Armor_Balance">Guardião do Equilíbrio</string>
 	<string key="Apparel_Balance_DefenderOfHarmony_name" rel_version="Armor_Balance">Defensor da Harmonia</string>
+	<string key="SeasonPass_Premium_Season_3_name" rel_version="Season_3_Perm">Passe Premium - Temporada 3</string>
+	<string key="SeasonPass_HeadStart_Season_3_name" rel_version="Season_3_Perm">Começo Ótimo do Passe Premium - Temporada 3</string>
 	<string key="reward_type_token_single" rel_version="Feature_Transmog">Token</string>
+	<string key="Token_PremiumEmote_WitchBroom_name">Permissão da Vassoura da Bruxa</string>
+	<string key="Token_PremiumEmote_WitchBroom_description">Voe, coisa linda!</string>
 </resources>
 

@@ -110,6 +110,9 @@
 	<string key="owg_factionwarinfo_title_5_desc_4_bullet_1" rel_version="PvP_Rewards_Track">Wybieraj spośród wyjątkowych nagród, takich jak prestiżowa broń i pancerz, gesty, waluty czy przedmioty użytkowe.</string>
 	<string key="owg_failure_warning">Jeśli ta misja zakończy się porażką lub zostanie porzucona, stracisz żetony frakcji: {guildName} w liczbie: {amount}.</string>
 	<string key="owg_guildreputation_name">{guildName} – reputacja</string>
+	<string key="owg_guildreputation_next">do następnej klasy</string>
+	<string key="owg_guildreputation_next_tooltip">Aby odblokować następną klasę, ukończ zadanie potrzebne do awansu w szeregach frakcji.</string>
+	<string key="owg_guildreputation_next_tooltip_61">Aby odblokować następną klasę, ukończ zadanie potrzebne do awansu w szeregach frakcji na 61 poziomie.</string>
 	<string key="owg_guildcurrency_name">{guildName} żetony</string>
 	<string key="owg_guildcurrency">Żetony</string>
 	<string key="owg_guildreputation">Reputacja</string>
@@ -144,17 +147,20 @@
 	<string key="owg_rank_explorer_3">Ekskubitor</string>
 	<string key="owg_rank_explorer_4">Lumen</string>
 	<string key="owg_rank_explorer_5">Arbiter</string>
+	<string key="owg_rank_explorer_6" rel_version="FactionShop_V3">Paladyn</string>
 	<string key="owg_rank_merchant_1">Adept</string>
 	<string key="owg_rank_merchant_2">Skryba</string>
 	<string key="owg_rank_merchant_3">Kronikarz</string>
 	<string key="owg_rank_merchant_4">Kabalista</string>
 	<string key="owg_rank_merchant_5">Alchemik</string>
+	<string key="owg_rank_merchant_6" rel_version="FactionShop_V3">Mag</string>
 	<string key="owg_rank_number">Stopień: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{rank}&lt;/font&gt;.</string>
 	<string key="owg_rank_procurer_1">Żołnierz</string>
 	<string key="owg_rank_procurer_2">Gladiator</string>
 	<string key="owg_rank_procurer_3">Pustoszyciel</string>
 	<string key="owg_rank_procurer_4">Niszczyciel</string>
 	<string key="owg_rank_procurer_5">Dowódca</string>
+	<string key="owg_rank_procurer_6" rel_version="FactionShop_V3">Marszałek</string>
 	<string key="owg_rank_unaffiliated">Niezrzeszony</string>
 	<string key="owg_rank_unlock_tooltip">Musisz spełnić wszystkie wymagania, aby odblokować wyższy stopień.</string>
 	<string key="owg_rank_unlocked">Stopień: {rankName} odblokowany!</string>
@@ -551,5 +557,20 @@
 	<string key="ui_cant_switch_faction_incompany" rel_version="Feature_Unfactioned_Company_Members">Należysz obecnie do kompanii związanej z inną frakcją. Jeśli chcesz kontynuować, opuścisz tę kompanię.\n\nMożesz dołączać tylko do kompanii przynależących do twojej frakcji. Gracze oznaczeni do PvP mogą formować grupy tylko z graczami należącymi do tej samej frakcji. Zanim dołączysz do wybranej frakcji, warto upewnić się, jaką frakcję wybrali twoi znajomi.\n\nWybór ten nie jest nieodwracalny – możesz jednorazowo zmienić frakcję na ekranie biografii. Następnie będzie można zmienić frakcję co &lt;font color="#FFD45F"&gt;60 dni&lt;/font&gt;.</string>
 	<string key="ui_join">Dołącz</string>
 	<string key="ui_faction_join_restrictions">Możesz zmienić frakcję raz na 60 dni. Możesz dołączać tylko do kompanii przynależących do twojej frakcji.</string>
+	<string key="no_upcoming_conflicts_all" rel_version="Feature_Influence_V2">Obecnie nie ma żadnych nadchodzących konfliktów.</string>
+	<string key="pvp_mission_disabled_no_conflict" rel_version="Feature_Influence_V2">Misje PvP będą dostępne, gdy rozpocznie się zaplanowana wojna, inwazja albo walka o wpływy.</string>
+	<string key="influence_race_scheduled_title" rel_version="Feature_Influence_V2">WALKA O WPŁYWY ZAPLANOWANA</string>
+	<string key="influence_race_schedule_info" rel_version="Feature_Influence_V2">{territoryName} – walka o wpływy na tym terytorium odbędzie się w terminie:\n{date}, {startTime}-{endTime}</string>
+	<string key="influence_race_scheduled_multiple" rel_version="Feature_Influence_V2">Walki o wpływy zostały zaplanowane na poniższych terytoriach:\n{territoryNameList}</string>
+	<string key="influence_race_upcoming_title" rel_version="Feature_Influence_V2">WKRÓTCE ROZPOCZNIE SIĘ WALKA O WPŁYWY</string>
+	<string key="influence_race_upcoming_info" rel_version="Feature_Influence_V2">{territoryName} – walka o wpływy na tym terytorium odbędzie się w terminie: {startTime}-{endTime}</string>
+	<string key="influence_race_upcoming_multiple" rel_version="Feature_Influence_V2">Walki o wpływy wkrótce odbędą się na poniższych terytoriach:\n{territoryNameList}</string>
+	<string key="influence_race_starting_title" rel_version="Feature_Influence_V2">WALKA O WPŁYWY</string>
+	<string key="influence_race_starting_info" rel_version="Feature_Influence_V2">{territoryName} – rozpoczyna się walka o wpływy!</string>
+	<string key="influence_race_starting_multiple" rel_version="Feature_Influence_V2">Walki o wpływy rozpoczęły się na poniższych terytoriach:\n{territoryNameList}</string>
+	<string key="influence_race_ended_title" rel_version="Feature_Influence_V2">WALKA O WPŁYWY ZAKOŃCZONA</string>
+	<string key="influence_race_ended_info" rel_version="Feature_Influence_V2">Zobacz wyniki twojej frakcji i kompanii.</string>
+	<string key="influence_race_countdown_title" rel_version="Feature_Influence_V2">Odliczanie do walki o wpływy:</string>
+	<string key="influence_race_countdown_body" rel_version="Feature_Influence_V2">Misji PvP nie można podejmować lub kończyć, dopóki nie rozpocznie się walka o wpływy.</string>
 </resources>
 

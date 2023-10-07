@@ -1,6 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_leaderboard_inactive" rel_version="Feature_Leaderboards">Marcadores inactivos</string>
 	<string key="ui_leaderboard_category_war" rel_version="Feature_Leaderboards">Guerra</string>
-	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Asalto a puesto remoto &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
+	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Asalto a puesto remoto &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_leaderboard_category_darkness" rel_version="Feature_Leaderboards">Grietas de corrupción</string>
 	<string key="ui_leaderboard_category_openworldpvp" rel_version="Feature_Leaderboards">JcJ en mundo abierto</string>
 	<string key="ui_leaderboard_category_war_faction" rel_version="Feature_Leaderboards">Guerras de facción</string>
@@ -21,6 +22,7 @@
 	<string key="ui_leaderboard_category_expedition_barnacles" rel_version="Feature_Leaderboards">Percebes y pólvora negra</string>
 	<string key="ui_leaderboard_category_expedition_depths" rel_version="Feature_Leaderboards">Las Profundidades</string>
 	<string key="ui_leaderboard_category_expedition_starstone" rel_version="Feature_Leaderboards">Puesto Piedraestelar</string>
+	<string key="ui_leaderboard_category_expedition_divide" rel_version="Feature_Leaderboards">División salvaje</string>
 	<string key="ui_leaderboard_category_trial_sirenqueen" rel_version="Feature_Leaderboards">Reina sirena</string>
 	<string key="ui_leaderboard_category_trial_spriggan" rel_version="Feature_Leaderboards">Grieta de Monoecious</string>
 	<string key="ui_leaderboard_category_trial_swampbeast" rel_version="Feature_Leaderboards">Estanques eternos</string>
@@ -91,7 +93,6 @@
 	<string key="ui_leaderboard_display_invasion_wins" rel_version="Feature_Leaderboards">Victorias</string>
 	<string key="ui_leaderboard_display_invasion_kills" rel_version="Feature_Leaderboards">Asesinatos</string>
 	<string key="ui_leaderboard_display_invasion_kill_death" rel_version="Feature_Leaderboards">Índice de muertes y asesinatos</string>
-	<string key="ui_leaderboard_display_invasion_damage_dealt" rel_version="Feature_Leaderboards">Daño infligido</string>
 	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">No formas parte de esta clasificación</string>
 	<string key="ui_leaderboard_faction_no_faction" rel_version="Feature_Leaderboards">Únete a una facción para participar</string>
 	<string key="ui_leaderboard_faction_no_company" rel_version="Feature_Leaderboards">Únete a una compañía para participar</string>
@@ -120,9 +121,9 @@
 	<string key="ui_leaderboard_tip_inv_war_wins" rel_version="Feature_Leaderboards">Debes conseguir al menos 500 puntos para progresar en las victorias.</string>
 	<string key="ui_leaderboard_expedition_title" rel_version="Feature_Leaderboards">{expedition}, &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_leaderboard_expedition_difficulty" rel_version="Feature_Leaderboards">Dificultad</string>
-	<string key="ui_leaderboard_expedition_difficulty_1" rel_version="Feature_Leaderboards">1</string>
-	<string key="ui_leaderboard_expedition_difficulty_2" rel_version="Feature_Leaderboards">2</string>
-	<string key="ui_leaderboard_expedition_difficulty_3" rel_version="Feature_Leaderboards">3</string>
+	<string key="ui_leaderboard_expedition_difficulty_1" rel_version="Feature_Leaderboards">Intermedia</string>
+	<string key="ui_leaderboard_expedition_difficulty_2" rel_version="Feature_Leaderboards">Difícil</string>
+	<string key="ui_leaderboard_expedition_difficulty_3" rel_version="Feature_Leaderboards">Élite</string>
 	<string key="ui_leaderboard_expedition_difficulty_4" rel_version="Feature_Leaderboards">4</string>
 	<string key="ui_leaderboard_expedition_difficulty_5" rel_version="Feature_Leaderboards">5</string>
 	<string key="ui_leaderboard_expedition_difficulty_6" rel_version="Feature_Leaderboards">6</string>
@@ -142,6 +143,7 @@
 	<string key="ui_leaderboard_territory_weaversfen" rel_version="Feature_Leaderboards">Ciénaga de los Tejedores</string>
 	<string key="ui_leaderboard_territory_restlessshore" rel_version="Feature_Leaderboards">Costa de la Zozobra</string>
 	<string key="ui_leaderboard_territory_brimstone" rel_version="Feature_Leaderboards">Arenas de Azufre</string>
+	<string key="ui_leaderboard_territory_edengrove">Arboleda del Edén</string>
 	<string key="ui_leaderboard_display_legendaries" rel_version="Feature_Leaderboards">Legendarios</string>
 	<string key="ui_leaderboard_territory_all" rel_version="Feature_Leaderboards">Todos los territorios</string>
 	<string key="ui_leaderboard_row_rank_morethan" rel_version="Feature_Leaderboards">&gt;{number}</string>
@@ -153,9 +155,13 @@
 	<string key="ui_leaderboard_category_elitetrials" rel_version="Trial_Brimstone_Sandworm">Pruebas de élite</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm1" rel_version="Trial_Brimstone_Sandworm">Prueba del Devorador (por tiempo)</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm2" rel_version="Trial_Brimstone_Sandworm">Prueba del Devorador</string>
-	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Clasificación regional&lt;/font&gt;&lt;/font&gt;\n\nTu puntuación de Asalto a puesto remoto es la puntuación máxima que hayas obtenido en un enfrentamiento.</string>
+	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Clasificación regional&lt;/font&gt;&lt;/font&gt;\n\nTu puntuación de Asalto a puesto remoto es la puntuación máxima que hayas obtenido en un enfrentamiento.</string>
 	<string key="ui_leaderboard_display_regional">Regional</string>
 	<string key="ui_leaderboard_display_world_archived">Mundo (Archivado)</string>
-	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Clasificación regional&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Clasificación regional&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_leaderboard_display_influence_race_wins" rel_version="Feature_Influence_V2">Victorias en carreras de influencia</string>
+	<string key="ui_leaderboard_display_influence_race_wins_all" rel_version="Feature_Influence_V2">Todos</string>
+	<string key="ui_leaderboard_display_influence_race_wins_attackers" rel_version="Feature_Influence_V2">Atacantes</string>
+	<string key="ui_leaderboard_display_influence_race_wins_defenders" rel_version="Feature_Influence_V2">Defensores</string>
 </resources>
 

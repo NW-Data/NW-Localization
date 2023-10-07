@@ -3,9 +3,9 @@
 	<string key="ui_factioncontrol_claimed">Conquistado</string>
 	<string key="ui_factioncontrol_contested">Contestado</string>
 	<string key="ui_factioncontrol_unclaimed">Não conquistado</string>
-	<string key="ui_factioncontrol_reminder">Usar\nLembrete: você precisa estar definido como PvP e pertencer a uma facção para entrar neste momento.</string>
-	<string key="ui_factioncontrol_reminder_map">Ativo: você precisa estar definido como PvP e pertencer a uma facção para entrar neste momento. Este Ponto de Controle permanecerá ativo até que uma Guerra seja declarada ou uma Invasão esteja ativa.</string>
-	<string key="ui_factioncontrol_reminder_map_inactive">Evento Finalizado: Ponto de Controle bloqueado até uma hora após a resolução da Guerra ou Invasão.</string>
+	<string key="ui_factioncontrol_reminder">Usar\nLembrete: Você precisa ter sinalização para PvP para entrar agora.</string>
+	<string key="ui_factioncontrol_reminder_map">Ativo: Você precisa ter sinalização para PvP para entrar. Fora de uma Corrida de Influência, este Posto de Controle ficará bloqueado por uma hora após ser capturado.</string>
+	<string key="ui_factioncontrol_reminder_map_inactive">Bloqueado: O Posto de Controle é bloqueado por uma hora quando é capturado fora de uma Corrida de Influência.</string>
 	<string key="ui_factioncontrol_reminder_map_inactive_specific">{siegeType} Em Progresso: Ponto de Controle bloqueado até uma hora após a resolução da {siegeType2}.</string>
 	<string key="ui_factioncontrol_reminder_type_war">Guerra</string>
 	<string key="ui_factioncontrol_reminder_type_invasion">Invasão</string>
@@ -14,11 +14,19 @@
 	<string key="ui_factioncontrol_status_label">Status</string>
 	<string key="ui_factioncontrol_benefits_label">Benefícios de Controle</string>
 	<string key="ui_factioncontrol_territory_bonuses_label">Bônus de Território</string>
+	<string key="ui_bonus_flyout_influencesection">Seção de Influência</string>
+	<string key="ui_bonus_flyout_towermodifier">Modificador de Torre(s):</string>
+	<string key="ui_bonus_flyout_fortmodifier">Modificador de Forte:</string>
+	<string key="ui_bonus_flyout_underdogmodifier">Modificador de Desvantagem:</string>
 	<string key="ui_factioncontrol_faction_bonuses_label">Bônus de Facção</string>
 	<string key="ui_factioncontrol_controlledby_inline">Controlado por {factionName}</string>
 	<string key="ui_factioncontrol_controlledby_label">Controlado por:</string>
 	<string key="ui_factioncontrol_defend_controlpoint">Defenda o Ponto de Controle</string>
 	<string key="ui_factioncontrol_claim_controlpoint">Conquiste o Ponto de Controle</string>
+	<string key="ui_influencetower_bonus">+{multiplier}%</string>
+	<string key="ui_factioncontrol_defend_influencetower" rel_version="Feature_Influence_V2">Defenda {towerName}</string>
+	<string key="ui_factioncontrol_claim_influencetower" rel_version="Feature_Influence_V2">Conquiste {towerName}</string>
+	<string key="ui_factioncontrol_reminder_influencetower" rel_version="Feature_Influence_V2">Sinalize para PvP em um Santuário para capturar Torres de Influência.</string>
 	<string key="ui_factioncontrol_fortcontested_announce">{fortName} está sob ataque!</string>
 	<string key="ui_factioncontrol_ownerchange_announce">{fortName} foi conquistado pela facção {factionName}!</string>
 	<string key="ui_factioncontrol_controlpointactive_announce">{fortName} agora pode ser conquistado. Pegue-o para a sua facção!</string>
@@ -48,7 +56,7 @@
 	<string key="@ui_faction_store_discount_modifier_name">Desconto na Loja da Facção Global</string>
 	<string key="@ui_free_camping_name">Acampamento Sem Recursos</string>
 	<string key="@ui_chance_consumable_not_used_name">Bônus de Consumível Global</string>
-	<string key="@ui_influencepoints_modifier_desc">Pontos de Influência são aumentados em {value}</string>
+	<string key="@ui_influencepoints_modifier_desc">Aumenta os Pontos de Influência em {value} durante Corridas de Influência.</string>
 	<string key="@ui_experiencepoints_modifier_desc">Pontos de Experiência são aumentados em {value}</string>
 	<string key="@ui_azoth_fasttravel_generalcost_reduction_desc">Custo de Azoth para Viagem Rápida é reduzido em {value}</string>
 	<string key="@ui_azoth_fasttravel_weight_reduction_desc">Custo de Peso da Viagem Rápida é reduzido para {value} a cada {scaleFactor} de peso</string>
@@ -73,8 +81,8 @@
 	<string key="@ui_faction_store_discount_modifier_desc">Diminui o custo dos itens em {value} na loja da facção.</string>
 	<string key="@ui_free_camping_desc">O acampamento não custa mais recursos.</string>
 	<string key="@ui_chance_consumable_not_used_desc">Aumenta a chance de um consumível não ser consumido ao ser usado em {value}.</string>
-	<string key="@ui_fcp_crowdcontrol_qualified_warning">Há jogadores demais da sua facção na região do forte. Teletransportando em {TeleportSeconds} segundos.</string>
-	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Há jogadores demais na região do forte. Teletransportando em {TeleportSeconds} segundos.</string>
+	<string key="@ui_fcp_crowdcontrol_qualified_warning">Há jogadores demais sinalizados ou da sua facção na região do Posto de Controle da facção. Teletransportando em {TeleportSeconds} segundos.</string>
+	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Há jogadores demais na região do Posto de Controle da facção. Teletransportando em {TeleportSeconds} segundos.</string>
 	<string key="@ui_fcp_fast_travel_discounts_title">Descontos de Controle de Facção</string>
 	<string key="@ui_fcp_faction_mission_bonus_label">(+{value} de DCF)</string>
 </resources>

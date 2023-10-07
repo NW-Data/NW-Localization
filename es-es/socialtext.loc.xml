@@ -220,6 +220,13 @@
 	<string key="ui_guild">Compañía</string>
 	<string key="ui_war_declared_chat_notification">¡{guild1} le ha declarado la guerra a {guild2} por el control de {territoryName}!</string>
 	<string key="ui_war_extended_chat_notification">¡Se ha extendido la guerra entre {guild1} y {guild2}!</string>
+	<string key="ui_influence_race_contribution_threshold_crossed">Tu compañía ha ganado suficiente influencia como para poder declarar la guerra en {territoryName} si tu facción gana la carrera de influencia.</string>
+	<string key="ui_influence_race_scheduled">Se ha organizado una carrera de influencia en {territoryName}.</string>
+	<string key="ui_influence_race_started">Ha empezado una carrera de influencia en {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction1">El Sindicato ha ganado la carrera de influencia en {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction2">Los Saqueadores han ganado la carrera de influencia en {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction3">La Alianza ha ganado la carrera de influencia en {territoryName}.</string>
+	<string key="ui_influence_race_ended_nowinner">La carrera de influencia en {territoryName} ha terminado.</string>
 	<string key="ui_active_conquest">Conquista activa</string>
 	<string key="ui_conquest_in">La conquista dará comienzo en</string>
 	<string key="ui_online_num">{Num} en línea</string>
@@ -344,7 +351,7 @@
 	<string key="ui_waypoint_set_to_ping">Indicador establecido para aviso</string>
 	<string key="ui_chat_name_raid">Incursión</string>
 	<string key="ui_chat_name_raid_upper">INCURSIÓN</string>
-	<string key="ui_error_raidchat" comment="An error when you try to talk in raid chat">No formas parte de ningún ejército.</string>
+	<string key="ui_error_raidchat" comment="An error when you try to talk in raid chat">No estás en ninguna incursión.</string>
 	<string key="ui_error_guildchat" comment="An error when you try to talk in guild chat">No formas parte de ninguna compañía.</string>
 	<string key="ui_notification_pvp_enabled">Aviso de JcJ activado.</string>
 	<string key="ui_notification_pvp_flagged">Activado para JcJ.</string>
@@ -438,6 +445,9 @@
 	<string key="ui_subarmy_decline_tooltip">Han rechazado tu solicitud para unirte al ejército de suscriptores del retransmisor.</string>
 	<string key="ui_subarmy_waiting">Esperando a la aprobación del retransmisor...</string>
 	<string key="ui_subarmy_pending">Pendiente...</string>
+	<string key="group_member_cannot_join_expedition">{playerName} no puede participar en esta expedición.</string>
+	<string key="self_cannot_join_expedition">No puedes unirte a la expedición.</string>
+	<string key="required_level_warning">Nivel necesario: {level}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Encontrar un grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Mi vestíbulo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crear vestíbulo</string>
@@ -496,7 +506,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Tu estado de JcJ no coincide con el vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">En un vestíbulo JcJ solo puede haber jugadores de la misma facción.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Los requisitos del vestíbulo han cambiado y ya no cumples con ellos.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Error del filtro del chat. Actualiza el texto y vuelve a intentarlo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Your Lobby Description contained profanity or prohibited words, please try again.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">No puedes enviar más peticiones.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Vestíbulo lleno</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} ha rechazado la comprobación.</string>
@@ -570,7 +580,6 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Abrir la expedición con tu grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_probation">Tu cuenta debe tener más de {accountProbationTimeRequired} y tu tiempo de juego debe ser superior a {characterProbationTimeRequired} para poder crear un vestíbulo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Debes desbloquear este nivel de dificultad para crear un nuevo vestíbulo.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invitación aceptada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invitación rechazada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Invitación rechazada. El jugador ya está en el vestíbulo.</string>
@@ -639,6 +648,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Tu nivel: {level}\nEl nivel mínimo no puede superar tu nivel.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Tu puntuación de equipo: {gearscore}\nLa puntuación mínima de equipo no puede superar tu puntuación de equipo.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">«{text}»</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_invalid_characters">Character not allowed in the Lobby Description</string>
 	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Vestíbulo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Vestíbulos</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">Hace {time}</string>

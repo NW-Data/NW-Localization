@@ -179,9 +179,11 @@
 	<string key="ui_encounter_ongoingwar">GUERRE EN COURS</string>
 	<string key="ui_encounter_upcominginvasion">INVASION À VENIR</string>
 	<string key="ui_encounter_ongoinginvasion">INVASION EN COURS</string>
+	<string key="ui_encounter_upcomingrace" rel_version="Feature_Influence_V2">COURSE À VENIR</string>
+	<string key="ui_encounter_ongoingrace" rel_version="Feature_Influence_V2">COURSE EN COURS</string>
 	<string key="ui_encounter_yourstatus">VOTRE STATUT</string>
-	<string key="ui_encounter_statusstandby">Votre statut : &lt;font color='#fab445'&gt;En attente&lt;/font&gt;</string>
-	<string key="ui_encounter_statusselected">Votre statut : &lt;font color='#30e5ab'&gt;Sélectionné(e)&lt;/font&gt;</string>
+	<string key="ui_encounter_statusstandby">Votre statut :  &lt;font color='#fab445'&gt;En attente&lt;/font&gt;</string>
+	<string key="ui_encounter_statusselected">Votre statut :  &lt;font color='#30e5ab'&gt;Sélectionné(e)&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Gestion de l'armée</string>
 	<string key="ui_encounter_signupbutton_war">S'inscrire pour la guerre</string>
 	<string key="ui_encounter_signupDesc_war">Inscrivez-vous pour cette guerre à un\n&lt;font color='#f1ede2'&gt;tableau de guerre&lt;/font&gt; dans cette ville.</string>
@@ -223,6 +225,7 @@
 	<string key="ui_settlementinfo_notclaimed">La colonie est non revendiquée.</string>
 	<string key="ui_territoryinfo_unenterable">Indisponible</string>
 	<string key="ui_territoryinfo_unenterabledescription">Personne ne peut pénétrer dans ce territoire.</string>
+	<string key="ui_territoryinfo_earnings">Rapporte jusqu'à &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{maxPercent} %&lt;/font&gt; des recettes fiscales.</string>
 	<string key="ui_fortressinfo_upcomingbattlelabel">Événement de bataille à venir</string>
 	<string key="ui_fortressinfo_ongoingbattlelabel">Événement de bataille en cours</string>
 	<string key="ui_fortressinfo_noupcomingbattle">Aucun événement de bataille à venir.</string>
@@ -232,7 +235,7 @@
 	<string key="ui_fortressinfo_invasion">L'invasion commence dans :</string>
 	<string key="ui_fortressinfo_ongoinginvasion">Invasion active</string>
 	<string key="ui_fortressinfo_resolvinginvasion">Résolution de l'invasion</string>
-	<string key="ui_fortressinfo_invasiondescription">Ce territoire est attaqué par les altérés. La guerre ne peut pas être déclarée avant la fin de l'invasion.</string>
+	<string key="ui_fortressinfo_invasiondescription">La guerre ne peut pas être déclarée avant la prochaine Course d'influence.</string>
 	<string key="ui_fortressinfo_button_declarewar">Déclarer la guerre !</string>
 	<string key="ui_fortressinfo_button_manage">Gestion de l'armée</string>
 	<string key="ui_fortressinfo_button_signup_at_board">S'enregistrer au tableau de guerre</string>
@@ -244,16 +247,16 @@
 	<string key="ui_fortressinfo_invasionattackername">Les altérés</string>
 	<string key="ui_fortressinfo_timetodeclare">Temps pour déclarer la guerre :</string>
 	<string key="ui_fortressinfo_timetodeclare_paused_invasion">Interrompu (invasion)</string>
-	<string key="ui_fortressinfo_conflictdescription">Vous ne &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;gagnerez plus d'influence&lt;/font&gt; sur ce territoire tant que la guerre fait rage (toutes les autres récompenses de missions de faction telles que l'EXP et les pièces restent disponibles).\n\nSi plusieurs compagnies qui ont contribué par leur influence déclarent la guerre, une compagnie sera choisie aléatoirement.</string>
+	<string key="ui_fortressinfo_conflictdescription">Vous ne &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;gagnerez plus d'influence&lt;/font&gt; sur ce territoire jusqu'à la prochaine Course d'influence.\n\nSi plusieurs compagnies qui ont contribué à l'influence déclarent la guerre, une compagnie sera choisie aléatoirement.</string>
 	<string key="ui_fortressinfo_noconflict">Territoire sans conflit</string>
 	<string key="ui_fortressinfo_contributionnotrequired">Aucune compagnie n'a contribué suffisamment par son influence, donc aucune n'est qualifiée pour déclarer la guerre.</string>
 	<string key="ui_fortressinfo_hascontribution">Votre compagnie A suffisamment contribué par son influence et est qualifiée pour déclarer la guerre.</string>
-	<string key="ui_fortressinfo_insufficientcontribution">Votre compagnie N'A PAS suffisamment contribué par son influence pour être qualifiée pour déclarer la guerre.</string>
-	<string key="ui_fortressinfo_noconflictdescription">Pour qu'un assaillant puisse déclarer la guerre sur ce territoire, sa compagnie doit compter au moins 25 membres et sa faction avoir accumulé suffisamment d'influence du territoire.</string>
+	<string key="ui_fortressinfo_insufficientcontribution">Votre compagnie N'A PAS suffisamment contribué par son influence pour être qualifiée pour déclarer la guerre. Remarque : votre contribution peut prendre quelques minutes pour être prise en compte.</string>
+	<string key="ui_fortressinfo_noconflictdescription">Pour qu'un assaillant puisse déclarer la guerre sur ce territoire, sa compagnie doit compter au moins 25 membres et sa faction avoir accumulé suffisamment d'influence du territoire lors d'une Course d'influence.</string>
 	<string key="ui_fortressinfo_upcomingwarlabel">La guerre commence dans :</string>
 	<string key="ui_fortressinfo_ongoingwarlabel">Guerre en cours</string>
 	<string key="ui_fortressinfo_resolveingwarlabel">Guerre en cours de résolution</string>
-	<string key="ui_fortressinfo_atwardescription">Vous ne &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;gagnerez plus d'influence&lt;/font&gt; sur ce territoire tant que la guerre fait rage (toutes les autres récompenses de missions de faction telles que l'EXP et l'or restent disponibles).</string>
+	<string key="ui_fortressinfo_atwardescription">Vous &lt;font color="#ffffff" face="lyshineui/fonts/Nimbus_Medium.font"&gt;ne gagnerez plus d'influence&lt;/font&gt; sur ce territoire jusqu'à la prochaine Course d'influence.</string>
 	<string key="ui_township">Colonie</string>
 	<string key="ui_fortress">Forteresse</string>
 	<string key="ui_complete">Terminé</string>
@@ -534,7 +537,8 @@
 	<string key="ui_territoryupkeep_overdue_desc">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Retard&lt;/font&gt; de paiement des frais d'entretien du territoire.\nDes zones du territoire seront déclassées toutes les 24 heures jusqu'à ce que le paiement soit effectué.</string>
 	<string key="ui_territoryupkeep_overdue_noupgrade_desc">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Retard&lt;/font&gt; de paiement des frais d'entretien du territoire.&lt;/font&gt;\nLa compagnie dirigeante ne peut pas lancer de projet urbain.</string>
 	<string key="ui_companypaycheck">Salaires</string>
-	<string key="ui_companypaycheck_desc">La compagnie dirigeante perçoit un revenu issu des impôts et des taxes.</string>
+	<string key="ui_companypaycheck_desc">La compagnie dirigeante perçoit un revenu issu des impôts et des taxes.\n\nLe territoire {territoryName} rapporte &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{currentPercent} %&lt;/font&gt; (&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{maxPercent} %&lt;/font&gt; maximum) des recettes fiscales.</string>
+	<string key="ui_companypaycheck_tooltip">Les revenus obtenus par les compagnies dirigeantes sont un pourcentage des impôts payés dans un monde et dépendent du niveau d'amélioration du territoire. À mesure qu'une compagnie améliore un territoire, elle recevra un pourcentage plus élevé des recettes fiscales, jusqu'au maximum indiqué.</string>
 	<string key="ui_taxandfee">Impôts et taxes</string>
 	<string key="ui_taxandfee_desc">Le montant des impôts et des taxes peut être modifié par la compagnie dirigeante.</string>
 	<string key="ui_governingCompanyOnly">Compagnie dirigeante uniquement</string>
@@ -578,6 +582,7 @@
 	<string key="ui_territory_downgrade">Déclassement du territoire</string>
 	<string key="ui_payment_not_required">Pas de paiement requis pour l'instant.</string>
 	<string key="ui_upkeep_not_required">PAS DE FRAIS D'ENTRETIEN POUR L'INSTANT</string>
+	<string key="ui_upkeep_disabled">Paiement des frais d'entretien désactivé</string>
 	<string key="ui_no_territory_upgrade">Un territoire sans aucune amélioration n'engendre pas de frais d'entretien.</string>
 	<string key="ui_overdue">Retard</string>
 	<string key="ui_no_upgrade_desc">Un territoire sans &lt;font color="#ffffff"&gt;aucune amélioration&lt;/font&gt; n'engendre pas de frais d'entretien.</string>
@@ -622,10 +627,10 @@
 	<string key="ui_darkness_threshold_1">Faible</string>
 	<string key="ui_darkness_threshold_2">Moyen</string>
 	<string key="ui_darkness_threshold_3">Élevé</string>
-	<string key="ui_darkness_threshold_desc_0">Aucun foyer d'altération présent.</string>
-	<string key="ui_darkness_threshold_desc_1">Mineur : des foyers d'altération peuvent apparaître.</string>
-	<string key="ui_darkness_threshold_desc_2">Mineur et majeur : des foyers d'altération peuvent apparaître.</string>
-	<string key="ui_darkness_threshold_desc_3">Quantité maximale de foyers d'altération.</string>
+	<string key="ui_darkness_threshold_desc_0">Aucun foyer d'altération présent</string>
+	<string key="ui_darkness_threshold_desc_1">Mineur : Des foyers d'altération peuvent apparaître</string>
+	<string key="ui_darkness_threshold_desc_2">Mineur et majeur : Des foyers d'altération peuvent apparaître</string>
+	<string key="ui_darkness_threshold_desc_3">Quantité maximale de foyers d'altération présents</string>
 	<string key="ui_plan_territory">Organiser le territoire</string>
 	<string key="ui_upgrade_town">Améliorer la ville</string>
 	<string key="ui_upgrade_fort">Améliorer la forteresse</string>
@@ -696,5 +701,54 @@
 	<string key="ui_your_standing">Votre réputation</string>
 	<string key="ui_station_tier">Palier &lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{tier}&lt;/font&gt;</string>
 	<string key="ui_benefits">Avantages</string>
+	<string key="influence_race_results" rel_version="Feature_Influence_V2">RÉSULTATS DE LA COURSE D'INFLUENCE</string>
+	<string key="influence_top_companies" rel_version="Feature_Influence_V2">MEILLEURES COMPAGNIES PAR INFLUENCE</string>
+	<string key="influence_top_players" rel_version="Feature_Influence_V2">MEILLEURS JOUEURS PAR INFLUENCE</string>
+	<string key="influence_saved_amount" rel_version="Feature_Influence_V2">INFLUENCE SAUVEGARDÉE</string>
+	<string key="influence_earned_amount" rel_version="Feature_Influence_V2">INFLUENCE GAGNÉE</string>
+	<string key="influence_towers_captured" rel_version="Feature_Influence_V2">TOURS CAPTURÉES</string>
+	<string key="influence_total_kills" rel_version="Feature_Influence_V2">VICTIMES EN MONDE OUVERT</string>
+	<string key="Cutlass_Keys_Tower_01" rel_version="Feature_Influence_V2">Guet sud des Îles des Lames</string>
+	<string key="Cutlass_Keys_Tower_02" rel_version="Feature_Influence_V2">Guet nord des Îles des Lames</string>
+	<string key="Cutlass_Keys_Tower_03" rel_version="Feature_Influence_V2">Guet est des Îles des Lames</string>
+	<string key="Windsward_Tower_01" rel_version="Feature_Influence_V2">Guet sud de Gré-du-Vent</string>
+	<string key="Windsward_Tower_02" rel_version="Feature_Influence_V2">Guet nord de Gré-du-Vent</string>
+	<string key="Windsward_Tower_03" rel_version="Feature_Influence_V2">Guet central de Gré-du-Vent</string>
+	<string key="Monarchs_Bluff_Tower_01" rel_version="Feature_Influence_V2">Guet ouest des Falaises du Roy</string>
+	<string key="Monarchs_Bluff_Tower_02" rel_version="Feature_Influence_V2">Guet sud des Falaises du Roy</string>
+	<string key="Monarchs_Bluff_Tower_03" rel_version="Feature_Influence_V2">Guet est des Falaises du Roy</string>
+	<string key="Everfall_Tower_01" rel_version="Feature_Influence_V2">Guet nord de Haute-Chute</string>
+	<string key="Everfall_Tower_02" rel_version="Feature_Influence_V2">Guet est de Haute-Chute</string>
+	<string key="Everfall_Tower_03" rel_version="Feature_Influence_V2">Guet ouest de Haute-Chute</string>
+	<string key="Ebonscale_Reach_Tower_01" rel_version="Feature_Influence_V2">Guet central du bief de Nerécaille</string>
+	<string key="Ebonscale_Reach_Tower_02" rel_version="Feature_Influence_V2">Guet nord du bief de Nerécaille</string>
+	<string key="Ebonscale_Reach_Tower_03" rel_version="Feature_Influence_V2">Guet sud du bief de Nerécaille</string>
+	<string key="Weavers_Fen_Tower_01" rel_version="Feature_Influence_V2">Guet est du marais des Trames</string>
+	<string key="Weavers_Fen_Tower_02" rel_version="Feature_Influence_V2">Guet sud du marais des Trames</string>
+	<string key="Weavers_Fen_Tower_03" rel_version="Feature_Influence_V2">Guet ouest du marais des Trames</string>
+	<string key="Reekwater_Tower_01" rel_version="Feature_Influence_V2">Guet sud d'Eaux-Fétides</string>
+	<string key="Reekwater_Tower_02" rel_version="Feature_Influence_V2">Guet central d'Eaux-Fétides</string>
+	<string key="Reekwater_Tower_03" rel_version="Feature_Influence_V2">Guet nord d'Eaux-Fétides</string>
+	<string key="Restless_Shore_Tower_01" rel_version="Feature_Influence_V2">Guet central de la Rive tourmentée</string>
+	<string key="Restless_Shore_Tower_02" rel_version="Feature_Influence_V2">Guet sud de la Rive tourmentée</string>
+	<string key="Restless_Shore_Tower_03" rel_version="Feature_Influence_V2">Guet nord de la Rive tourmentée</string>
+	<string key="Brightwood_Tower_01" rel_version="Feature_Influence_V2">Guet est de Boisclair</string>
+	<string key="Brightwood_Tower_02" rel_version="Feature_Influence_V2">Guet sud de Boisclair</string>
+	<string key="Brightwood_Tower_03" rel_version="Feature_Influence_V2">Guet ouest de Boisclair</string>
+	<string key="Mourningdale_Tower_01" rel_version="Feature_Influence_V2">Guet nord du Val des Larmes</string>
+	<string key="Mourningdale_Tower_02" rel_version="Feature_Influence_V2">Guet ouest du Val des Larmes</string>
+	<string key="Mourningdale_Tower_03" rel_version="Feature_Influence_V2">Guet est du Val des Larmes</string>
+	<string key="Brimstone_Sands_Tower_01" rel_version="Feature_Influence_V2">Guet nord de Sulfure</string>
+	<string key="Brimstone_Sands_Tower_02" rel_version="Feature_Influence_V2">Guet central de Sulfure</string>
+	<string key="Brimstone_Sands_Tower_03" rel_version="Feature_Influence_V2">Guet sud de Sulfure</string>
+	<string key="Edengrove_Tower_01" rel_version="Feature_Influence_V2">Guet est de Bois-Éden</string>
+	<string key="Edengrove_Tower_02" rel_version="Feature_Influence_V2">Guet sud de Bois-Éden</string>
+	<string key="Edengrove_Tower_03" rel_version="Feature_Influence_V2">Guet nord de Bois-Éden</string>
+	<string key="generic_influence_tower_description" rel_version="Feature_Influence_V2">Ce point de contrôle peut être capturé lors d'une Course d'influence.\n\n&lt;img src="lyshineui/images/icons/FactionBuffs/FC_Buff_IPIncrease" xPadding="0" scale="2" yOffset="4"&gt;&lt;/img&gt;&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;+10&lt;/font&gt;&lt;/font&gt; points d'influence toutes les 5 secondes \n&lt;img src="lyshineui/images/icons/FactionBuffs/FC_Buff_IPIncrease" xPadding="0" scale="2" yOffset="4"&gt;&lt;/img&gt;&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;+10 %&lt;/font&gt;&lt;/font&gt; d'influence gagnée</string>
+	<string key="influence_myfaction_1" rel_version="Feature_Influence_V2">MA FACTION : &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_1_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#8c37d9"&gt;Ombre&lt;/font&gt;</string>
+	<string key="influence_myfaction_2" rel_version="Feature_Influence_V2">MA FACTION : &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_2_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#8c37d9"&gt;Maraudeurs&lt;/font&gt;</string>
+	<string key="influence_myfaction_3" rel_version="Feature_Influence_V2">MA FACTION : &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_3_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#8c37d9"&gt;Engagés&lt;/font&gt;</string>
+	<string key="influence_tower_ownership_title" rel_version="Feature_Influence_V2">PROPRIÉTAIRE DE LA TOUR</string>
+	<string key="influence_view_previous_influence_race" rel_version="Feature_Influence_V2">Voir les résultats de la Course</string>
 </resources>
 

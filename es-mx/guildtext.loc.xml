@@ -185,6 +185,9 @@
 	<string key="ui_guildcannotpromote_nofaction" rel_version="Feature_Unfactioned_Company_Members">No se puede promover a gobernador. No pertenece a una facción.</string>
 	<string key="ui_guild_blocked_on_this_world" rel_version="Feature_Cross_World_Social">No puedes realizar esta acción en este mundo.</string>
 	<string key="ui_guild_cannot_invite_player_from_other_world" rel_version="Feature_Cross_World_Social">No puedes invitar a un jugador de otro mundo.</string>
+	<string key="ui_guild_at_max_invite_limit">No se puede invitar al jugador. Tu gremio alcanzó su límite máximo de invitaciones.</string>
+	<string key="guild_invite_failed_too_many_invites">No se puede enviar la invitación.</string>
+	<string key="guild_invite_failed_remove_oldest_invite">Tu gremio alcanzó la cantidad máxima de invitaciones al gremio permitidas. ¿Quieres eliminar la invitación más antigua para hacer espacio para esta invitación?</string>
 	<string key="ui_guildranksettler" comment="Pronoun for Target Player">Colono</string>
 	<string key="ui_guildranksettler_SHE">Colona</string>
 	<string key="ui_guildranksettler_THEY">Colono</string>
@@ -447,7 +450,7 @@
 	<string key="ui_permission_withdraw_from_structure">{allowed} quitar objetos de estructuras de almacenamiento</string>
 	<string key="ui_permissioncategory_members">Gestión</string>
 	<string key="ui_permissioncategory_communications">Comunicación</string>
-	<string key="ui_permissioncategory_structures">Estructuras</string>
+	<string key="ui_permissioncategory_structures">Territorio</string>
 	<string key="ui_permissioncategory_treasury">Tesoro</string>
 	<string key="ui_trade_failure">Error en el intercambio</string>
 	<string key="ui_trade_failure_invalid_transaction">Transacción inválida</string>
@@ -621,14 +624,17 @@
 	<string key="ui_war_time_dec_remaining">Tiempo restante para declarar guerra: {time}</string>
 	<string key="ui_in_conflict">En conflicto</string>
 	<string key="ui_war_refund_tooltip">El dinero gastado para declarar la guerra se reembolsará si tu compañía no queda seleccionada.</string>
-	<string key="ui_not_in_conflict">El territorio debe estar en conflicto.</string>
+	<string key="ui_not_in_conflict">El territorio debe estar en conflicto luego de una carrera de influencia.</string>
 	<string key="ui_declare_war_hint">Otras compañías también pueden declarar la guerra; la compañía en guerra se seleccionará al azar.</string>
 	<string key="ui_no_company" comment="text to show when a company name would be present but the player isn't in one">Sin compañía</string>
 	<string key="ui_no_faction" comment="text to show when a faction name would be present but the player isn't in one">Sin facción</string>
 	<string key="ui_wartime">Hora de la guerra</string>
+	<string key="ui_racetime" rel_version="Feature_Influence_V2">Hora de la carrera</string>
+	<string key="ui_vs_other_factions" rel_version="Feature_Influence_V2">FACCIONES ENEMIGAS</string>
 	<string key="ui_location">Ubicación</string>
 	<string key="ui_how_does_war_work">Cómo funciona la guerra</string>
 	<string key="ui_how_does_invasion_work">¿Cómo funciona la invasión?</string>
+	<string key="ui_how_does_influencerace_work" rel_version="Feature_Influence_V2">¿Cómo funcionan las carreras de influencia?</string>
 	<string key="ui_signup_restriction_tooltip">No puedes registrarte con el oponente de tu facción.</string>
 	<string key="ui_signup_nofaction_tooltip">Debes tener una facción para poder registrarte para una guerra.</string>
 	<string key="ui_signup_warinprogress_tooltip">No puedes registrarte a guerra o invasión que ya están en progreso.</string>

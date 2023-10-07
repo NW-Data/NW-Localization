@@ -82,6 +82,7 @@
 	<string key="inv_cannotequip">Vous ne pouvez pas encore vous en équiper.</string>
 	<string key="inv_cannotequipinslot">Vous ne pouvez pas équiper cet objet dans cet emplacement.</string>
 	<string key="inv_cannotequipitem">Vous ne pouvez pas équiper cet objet.</string>
+	<string key="inv_cannotequipversion">{expansionName} est nécessaire pour pouvoir vous équiper de cet objet.</string>
 	<string key="maintenanceWindow">Maintenance</string>
 	<string key="ui_a">a</string>
 	<string key="ui_building_requirements">conditions de construction</string>
@@ -113,7 +114,9 @@
 	<string key="ui_affliction_weakness">résistance aux affaiblissements</string>
 	<string key="ui_affliction_drowning">souffle</string>
 	<string key="ui_affliction_drowning_tooltip">Si vous manquez de souffle, vous étoufferez puis mourrez.</string>
-	<string key="ui_affliction_spores_tooltip">Si vous manquez de résistance aux spores, votre corps sera recouvert de spores et subirez {[Type_StatusEffectData.SporeSickness.ABSVitalsCategory * -100]} % de dégâts de tout type en plus.</string>
+	<string key="ui_affliction_stunned">résistance à l'étourdissement</string>
+	<string key="ui_affliction_stunned_tooltip">Si vous souffrez de commotion cérébrale, vous serez en état de choc et ne pourrez pas bouger.</string>
+	<string key="ui_affliction_spores_tooltip">Si vous manquez de résistance aux spores, votre corps sera recouvert de spores et vous subirez 25 % de dégâts de tout type en plus.</string>
 	<string key="ui_affliction_spores">Résistance aux spores</string>
 	<string key="ui_affliction_blight">résistance au dépérissement</string>
 	<string key="ui_affliction_blight_tooltip">Si votre résistance au dépérissement est épuisée, vous serez vicié et infligerez {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de dégâts en moins, guérirez {[Type_StatusEffectData.Blight.HealMod * 100]} % moins et perdrez {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % de votre santé de base toutes les {[Type_StatusEffectData.Blight.TickRate]} secondes pendant {[Afflictions.AfflictionBlight.AfflictedDrainTime]} secondes.</string>
@@ -141,8 +144,10 @@
 	<string key="ui_afflicted_weakness">affaiblissement</string>
 	<string key="ui_afflicted_drowning">noyade</string>
 	<string key="ui_afflicted_drowning_tooltip">Vous avez succombé à une noyade.</string>
+	<string key="ui_afflicted_stunned">étourdissement</string>
+	<string key="ui_afflicted_stunned_tooltip">Vous êtes en état de choc et ne pouvez pas bouger.</string>
 	<string key="ui_afflicted_spores">Recouvert de spores</string>
-	<string key="ui_afflicted_spores_tooltip">Lorsque votre corps est recouvert de spores, vous subissez {[Type_StatusEffectData.SporeSickness.ABSVitalsCategory * -100]} % de dégâts de tout type en plus.</string>
+	<string key="ui_afflicted_spores_tooltip">Lorsque votre corps est recouvert de spores, vous subissez 25 % de dégâts de tout type en plus.</string>
 	<string key="ui_afflicted_blight">dépérissement</string>
 	<string key="ui_afflicted_blight_tooltip">Lorsque vous êtes vicié, vous infligez {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de dégâts en moins, guérissez {[Type_StatusEffectData.Blight.HealMod * 100]} % moins et perdez {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % de votre santé de base toutes les {[Type_StatusEffectData.Blight.TickRate]} secondes.</string>
 	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">combustion</string>
@@ -165,6 +170,8 @@
 	<string key="ui_appearance">Apparence</string>
 	<string key="ui_appearance_hold_to_rotate">Maintenir pour faire tourner</string>
 	<string key="ui_armor">Armure</string>
+	<string key="ui_weapon">Arme</string>
+	<string key="ui_trinket">Talisman</string>
 	<string key="ui_artBook">Feuilleter l'artbook</string>
 	<string key="ui_attach">AJOUTER</string>
 	<string key="ui_attachment">AJOUT</string>
@@ -192,7 +199,7 @@
 	<string key="ui_buyfor">Acheter pour</string>
 	<string key="ui_c">c</string>
 	<string key="ui_colors">Couleurs</string>
-	<string key="ui_camera">caméra</string>
+	<string key="ui_camera">Caméra</string>
 	<string key="ui_campfire">FEU DE CAMP</string>
 	<string key="ui_camp_tooltip">Placez votre bivouac avec [{keyName}]. Au bivouac, vous pouvez vous reposer ou fabriquer des objets. Si vous mourez, vous pouvez y réapparaître. Cela ne coûte rien de placer ou retirer un bivouac, mais vous ne pouvez en avoir qu'un à la fois.</string>
 	<string key="ui_camp_placed_tooltip">Maintenez [{keyName}] pour démonter le bivouac et le placer à un nouvel endroit. Cela ne coûte rien de placer ou retirer un bivouac, mais vous ne pouvez en avoir qu'un à la fois.</string>
@@ -236,7 +243,6 @@
 	<string key="ui_clickanywhere">Cliquez n'importe où</string>
 	<string key="ui_close">Fermer</string>
 	<string key="ui_closedoor">Fermer la porte</string>
-	<string key="ui_combat">combat</string>
 	<string key="ui_company_name">Nom de compagnie</string>
 	<string key="ui_company_name_input">Nommez votre compagnie</string>
 	<string key="ui_customize_company_information">Ces paramètres peuvent être modifiés à tout moment.</string>
@@ -306,6 +312,8 @@
 	<string key="ui_minutes_with_time_short">{time}m</string>
 	<string key="ui_seconds_with_time">{time} secondes</string>
 	<string key="ui_seconds_with_time_short">{time}s</string>
+	<string key="ui_second_with_time">1 second</string>
+	<string key="ui_second_with_time_short">1j</string>
 	<string key="ui_lastplayed">Dernier jeu </string>
 	<string key="ui_minuteago">une minute</string>
 	<string key="ui_lessthan_minuteago">il y a moins d'une minute</string>
@@ -375,6 +383,13 @@
 	<string key="ui_siegewindow_timelabel_21" comment="Part of a set of labels at 3 hour intervals starting at midnight. Need to remain short.">21h</string>
 	<string key="ui_charlevel">Niveau {levelNum} {current}</string>
 	<string key="ui_territory_upgrades">Améliorations de territoire {upgradeCount}</string>
+	<string key="ui_territory_locked_title">TERRITOIRE VERROUILLÉ</string>
+	<string key="ui_expansion2023_title">Le réveil de la Terre enragée</string>
+	<string key="ui_territory_expansion2023_owned_locked_desc">Les contrées sauvages élyséennes sont recouvertes de spores mortelles qui vous tueraient instantanément. Vous mourrez si vous continuez.\n Vous devez avoir atteint le niveau 60 et accompli &lt;font color="#FFD500"&gt;« L'invasion d'Artémis »&lt;/font&gt;{location} pour pénétrer dans les contrées sauvages élyséennes en toute sécurité.</string>
+	<string key="ui_territory_expansion2023_not_owned_locked_desc">Les contrées sauvages élyséennes sont recouvertes de spores mortelles qui vous tueraient instantanément. Vous mourrez si vous continuez.\n Vous devez posséder Le réveil de la Terre enragée, avoir atteint le niveau 60 et avoir accompli &lt;font color="#FFD500"&gt;« L'invasion d'Artémis »&lt;/font&gt;{location} pour pénétrer dans les contrées sauvages élyséennes en toute sécurité.</string>
+	<string key="ui_territory_expansion2023_quest_location_faction1">from the newly established settlement in Edengrove</string>
+	<string key="ui_territory_expansion2023_quest_location_faction2">from the outpost Mountainrise in Shattered Mountain</string>
+	<string key="ui_territory_expansion2023_quest_location_faction3">from the settlement Farharbor Hamlet in Reekwater</string>
 	<string key="ui_dealcard">distribuer carte</string>
 	<string key="ui_deletecharacter">Suppr. personnage</string>
 	<string key="ui_demolishstructure">Détruire la structure</string>
@@ -398,6 +413,7 @@
 	<string key="ui_end">Fin</string>
 	<string key="ui_enter">Entrée</string>
 	<string key="ui_enterplayername">Saisir nom du joueur</string>
+	<string key="ui_entermountname" rel_version="Feature_Mounts">Saisir un nom de monture</string>
 	<string key="ui_equipment">Équipement</string>
 	<string key="ui_esc">échap</string>
 	<string key="ui_european">Européen</string>
@@ -454,8 +470,8 @@
 	<string key="ui_hour">heure</string>
 	<string key="ui_hours">heures</string>
 	<string key="ui_hours:">heures :</string>
-	<string key="ui_hours_short">h</string>
-	<string key="ui_days_short">j</string>
+	<string key="ui_hours_short"> h</string>
+	<string key="ui_days_short"> j</string>
 	<string key="ui_identity_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</string>
 	<string key="ui_identity">Identité</string>
 	<string key="ui_iknowwhatitistobeasubj">Je sais ce que c'est que d'être sujette, que d'être souveraine, que d'avoir de bons voisins et que de se heurter aux agents du mal. Dans la confiance, j'ai découvert la trahison.</string>
@@ -472,6 +488,7 @@
 	<string key="ui_inventoryMaxWeight">Surcharge</string>
 	<string key="ui_inventoryweight">POIDS</string>
 	<string key="ui_inventoryslots">OBJETS UNIQUES</string>
+	<string key="ui_inventoryslots_tooltip">OBJETS UNIQUES</string>
 	<string key="ui_filtereditems">{filtered} éléments masqués par le filtre.</string>
 	<string key="ui_left">Gauche</string>
 	<string key="ui_right">Droite</string>
@@ -585,7 +602,7 @@
 	<string key="ui_playername">Nom du joueur</string>
 	<string key="ui_playernamehassentyouag">Playername vous a envoyé une invitation de groupe. Maintenez [H] pour l'accepter.</string>
 	<string key="ui_pressanykeytocontinue">Appuyez sur une touche pour continuer.</string>
-	<string key="ui_presskeytoassign">Choisissez une touche sur laquelle attribuer cette capacité.</string>
+	<string key="ui_presskeytoassign">Choisissez à quelle touche attribuer cette capacité.</string>
 	<string key="ui_previous">Précédent</string>
 	<string key="ui_progress">Progression</string>
 	<string key="ui_pronetoggle">S'allonger</string>
@@ -700,7 +717,7 @@
 	<string key="ui_buildmode_grid">CONSTRUCTION</string>
 	<string key="ui_wave">Saluer</string>
 	<string key="ui_inspect_player">Actions sociales</string>
-	<string key="ui_inspect_player_notarget">Appuyez sur [{keyName}] en regardant un joueur pour accéder au menu des actions sociales.</string>
+	<string key="ui_inspect_player_notarget">Appuyez sur {$player.social_align$} en regardant un joueur pour accéder au menu des actions sociales.</string>
 	<string key="ui_q">q</string>
 	<string key="ui_quality">Qualité</string>
 	<string key="ui_quickslot">Accès rapide 1-6</string>
@@ -762,7 +779,8 @@
 	<string key="ui_sampletooltipnthistool">Exemple d'infobulle\nCette infobulle est un cadre affichant du texte et une image.</string>
 	<string key="ui_save">Enregistrer</string>
 	<string key="ui_se">SE</string>
-	<string key="ui_binding_reserved_key_blocked">Impossible d'attribuer l'action &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; à la touche {key}, elle ne peut être réaffectée.</string>
+	<string key="ui_binding_controller_reserved_key_multiple">Attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; à &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; ?\n\nLes actions suivantes ne seront plus attribuées :\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt;</string>
+	<string key="ui_binding_reserved_key_blocked">Impossible d'attribuer l'action &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; à la touche {key} : elle ne peut être réaffectée.</string>
 	<string key="ui_binding_reserved_key_title_single">Changer l'attribution</string>
 	<string key="ui_binding_reserved_key_message_single">Attribuer &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; à &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{key}&lt;/font&gt; ?\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; ne sera plus attribué.</string>
 	<string key="ui_binding_reserved_key_title_multiple">Changer l'attribution</string>
@@ -950,6 +968,9 @@
 	<string key="ui_world_select_hide_options">Moins d'options</string>
 	<string key="ui_world_select_view_worlds">Voir les mondes</string>
 	<string key="ui_world_select_refresh">Rafraîchir</string>
+	<string key="ui_world_free_transfer">Transfert gratuit</string>
+	<string key="ui_world_leave_world">Quitter le monde</string>
+	<string key="ui_world_leave_world_confirm_message">Voulez-vous vraiment quitter {worldName}?</string>
 	<string key="ui_resolution_popup_title">Résolution</string>
 	<string key="ui_resolution_popup_title_message">Conserver cette résolution ?</string>
 	<string key="ui_monitor_popup_title">Écran</string>
@@ -994,6 +1015,8 @@
 	<string key="ui_xp_multiplier_arrow" comment="The leading space is intentional">x {bonus} &lt;img src="lyshineui/images/icons/misc/icon_xp_boost" xPadding="0" scale="1.1" yOffset="0.5"&gt;&lt;/img&gt;</string>
 	<string key="ui_reached_max_daily_pvp_arena_rewards">Limite de sel d'arène JcJ quotidienne atteinte !</string>
 	<string key="ui_reached_max_fort_takeover_rewards">Limite de récompenses quotidiennes de prise de forteresse atteinte !</string>
+	<string key="ui_reached_max_influencetower_takeover_rewards" rel_version="Feature_Influence_V2">Limite de récompenses quotidiennes de la tour d'influence atteinte !</string>
+	<string key="ui_reached_max_daily_mount_consumable_exp_usage" rel_version="Feature_Mounts">Limite d'alimentation quotidienne de monture atteinte</string>
 	<string key="ui_reached_max_daily_fotb_rafflebones">Limite quotidienne de Recèlos Don des téméraires atteinte</string>
 	<string key="world_landing_title">Le MONDE optimal a été sélectionné pour vous.</string>
 	<string key="world_set">Ensemble de mondes</string>
@@ -1153,10 +1176,10 @@
 	<string key="ui_intelligence_description">(caractéristique axée sur la magie)</string>
 	<string key="ui_focus_description">(caractéristique axée sur les soins prodigués)</string>
 	<string key="ui_constitution_tooltip">Attribut primaire pour l'état de santé général.</string>
-	<string key="ui_strength_tooltip">Attribut primaire pour le marteau d'armes, la hache double, l'épée, la hachette, et le tromblon.\n\nAttribut secondaire pour la lance.\n\nL'épée longue s'équilibre uniformément avec cette caractéristique et la dextérité.</string>
+	<string key="ui_strength_tooltip">Attribut primaire pour le marteau d'armes, la hache double, l'épée, la hachette, le tromblon et le fléau.\n\nAttribut secondaire pour la lance.\n\nL'épée longue s'équilibre uniformément avec cette caractéristique et la dextérité.</string>
 	<string key="ui_dexterity_tooltip">Attribut primaire pour l'arc, la rapière, la lance et le mousquet.\n\nAttribut secondaire pour l'épée et la hachette.\n\nL'épée longue s'équilibre uniformément avec cette caractéristique et la force.</string>
 	<string key="ui_intelligence_tooltip">Attribut primaire pour le bâton de feu, les gantelets de glace et les gantelets du néant.\n\nAttribut secondaire pour la rapière, le mousquet et le tromblon.</string>
-	<string key="ui_focus_tooltip">Attribut primaire pour le bâton de vie.\n\nAttribut secondaire pour les gantelets du néant.</string>
+	<string key="ui_focus_tooltip">Attribut primaire pour le bâton de vie.\n\nAttribut secondaire pour les gantelets du néant et le fléau.</string>
 	<string key="ui_spirit_tooltip">FOI\n\nLes points de Foi améliorent :\n\n-- le Mana total\n-- la Défense contre les dégâts de Néant\n-- la Résistance aux Altérations\n\n-- la puissance des sorts des gantelets célestes\n</string>
 	<string key="ui_vitality_tooltip">PHYSIQUE\n\nLes points de Physique améliorent :\n\n-- la Défense contre les dégâts Physiques\n-- la Résistance aux Empoisonnements\n-- la limite de Poids d'équipement\n</string>
 	<string key="ui_endurance_tooltip">ENDURANCE\n\nLes points d'Endurance améliorent :\n\n-- la Vitalité\n-- la Défense face aux dégâts d'Éclair\n-- la Résistance aux Blessures\n</string>
@@ -1218,7 +1241,7 @@
 	<string key="ui_teleport_backup_location">Votre point de réapparition n'était pas disponible, vous avez été téléporté(e) non loin.</string>
 	<string key="ui_territoryLockedReclaim">Ne peut pas être revendiqué à nouveau jusqu'à la fin de la phase de résolution.</string>
 	<string key="ui_territoryLockedClaim">Ne peut pas être revendiqué par un tiers avant la fin de la guerre.</string>
-	<string key="ui_territoryinfluencetooltip">L'influence territoriale indique le degré de contrôle exercé par une faction sur un territoire donné. En effectuant des &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;missions de faction JcJ&lt;/font&gt;, vous contribuez à l'augmentation de l'influence territoriale de votre faction. Si vous attaquez une faction qui exerce une influence de 100 % sur un territoire vous pouvez déclarer une guerre.</string>
+	<string key="ui_territoryinfluencetooltip">Lors d'une Course d'influence, les factions gagnent de l'influence grâce aux &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;missions JcJ de faction&lt;/font&gt; et aux &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;points de contrôle de faction&lt;/font&gt;. Faction Control Points give the controlling faction a bonus to all Influence Earned. \n\nThe Attacking Faction that pushes the most Influence during an Influence Race earns a declaration of war. Companies must complete Faction Missions to earn enough Influence to be eligible to declare. \n\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;Underdog Bonus:&lt;/font&gt; Les factions avec 2 territoires ou moins obtiennent un bonus de &lt;font color="#FFFFFF"&gt;10 %&lt;/font&gt; de points d'influence.</string>
 	<string key="ui_availableToReclaimIn">Revendicable à nouveau dans :</string>
 	<string key="ui_availableToClaimIn">Revendicable dans :</string>
 	<string key="ui_availableTimeToCapture">Temps de capture disponible :</string>
@@ -1569,6 +1592,7 @@
 	<string key="ui_trading_post_insufficient_quantity_message">Le comptoir n'avait pas ''{item}'' en {amount} exemplaire(s). Quelqu'un a peut-être effectué cet achat avant vous.</string>
 	<string key="ui_tooltip_requiredtouse">Requis pour l'utilisation</string>
 	<string key="ui_tooltip_required">Prérequis :</string>
+	<string key="ui_tooltip_requires">Nécessite :</string>
 	<string key="ui_tooltip_attribute">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#FFFFFF"&gt;{value}&lt;/font&gt; {label}</string>
 	<string key="ui_tooltip_equip">Équiper</string>
 	<string key="ui_tooltip_equip_requirements_not_met">Équiper - Prérequis non remplis</string>
@@ -1655,6 +1679,7 @@
 	<string key="ui_tooltip_derivedfrom">Source :</string>
 	<string key="ui_tooltip_repair_requires">Réparation avec :</string>
 	<string key="ui_tooltip_cannot_use_in_battle">Utilisation impossible en combat</string>
+	<string key="ui_tooltip_cannot_use_while_dismounted" rel_version="Feature_Mounts">Utilisation impossible pied à terre.</string>
 	<string key="ui_tooltip_clickToLock">Verrouiller objet en cliquant</string>
 	<string key="ui_siege_damage_needed">Doit utiliser une arme de siège</string>
 	<string key="ui_tooltip_gatherspeed">Vitesse\nd'exploitation</string>
@@ -1683,6 +1708,7 @@
 	<string key="ui_tooltip_setactivetool">Définir l'outil actif</string>
 	<string key="ui_tooltip_dye_equipped">Teindre l'armure équipée</string>
 	<string key="ui_tooltip_dye_item">Teindre l'objet</string>
+	<string key="ui_dye_items">Teindre des objets</string>
 	<string key="ui_remove_dye">Enlever toutes les teintures</string>
 	<string key="ui_overwrite_premium_dye_warning_title">Remplacer la teinture supérieure</string>
 	<string key="ui_overwrite_premium_dye_warning_text">Voulez-vous vraiment remplacer votre teinture supérieure ?\nCette teinture supérieure sera perdue lorsque vous aurez confirmé votre choix de teintures.</string>
@@ -1717,6 +1743,7 @@
 	<string key="ui_war_declare_fail_warDisabled">La fonction de guerre a été désactivée en raison d'une prochaine fusion des mondes.</string>
 	<string key="ui_war_declare_fail_InsufficientContribution">Vous ne pouvez pas déclarer la guerre : votre compagnie n'a pas fourni assez d'influence.</string>
 	<string key="ui_war_declare_fail_TooFewGuildMembers">Vous ne pouvez pas déclarer la guerre : votre compagnie doit compter au moins {num} membres.</string>
+	<string key="ui_war_declare_fail_influenceRace" rel_version="Feature_Influence_V2">Impossible de déclarer une guerre tant que la Course d'influence n'est pas terminée et que votre faction n'est pas déclarée vainqueur.</string>
 	<string key="ui_online_friends">Amis en ligne</string>
 	<string key="ui_any_moment">D'un moment à l'autre...</string>
 	<string key="ui_current_location">Ici</string>
@@ -1761,7 +1788,7 @@
 	<string key="ui_autocompletethrottled">Achèvement auto ralenti.</string>
 	<string key="ui_searchitem">Rechercher</string>
 	<string key="ui_searchresult">Résultats</string>
-	<string key="ui_search_all_items">Chercher tous les objets</string>
+	<string key="ui_search_all_items">Chercher tout</string>
 	<string key="ui_searchtimedout">Échec de la recherche. Veuillez réessayer.</string>
 	<string key="ui_searchthrottled">Recherche ralentie. Veuillez réessayer.</string>
 	<string key="ui_sort_colon">Trier par :</string>
@@ -1839,6 +1866,7 @@
 	<string key="ui_activewars_numactivewars">Il y a &lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{numWars}&lt;/font&gt;&lt;/font&gt; conflits à venir dans ce monde.</string>
 	<string key="ui_mapmenu_filter_wars">Guerres</string>
 	<string key="ui_mapmenu_filter_invasions">Invasions</string>
+	<string key="ui_mapmenu_filter_influenceraces" rel_version="Feature_Influence_V2">Courses d'influence</string>
 	<string key="ui_mapmenu_attacker">ASSAILLANT</string>
 	<string key="ui_mapmenu_defender">DÉFENSEUR</string>
 	<string key="ui_mapmenu_versusabbreviation" comment="The abbreviated version of versus as in Alpha Company VS Bravo Company">CONTRE</string>
@@ -1957,6 +1985,7 @@
 	<string key="ui_vitals_health_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;SANTÉ&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nPour récupérer &lt;font color={highlightColor}&gt;de la santé&lt;/font&gt;\n• Consommez des teintures mères pour en regagner rapidement\n• Consommez de la nourriture pour en récupérer progressivement après une augmentation immédiate\n\nAméliorez votre &lt;font color={highlightColor}&gt;forme&lt;/font&gt; pour augmenter votre &lt;font color={highlightColor}&gt;santé&lt;/font&gt; max.\n\n&lt;img src="lyshineui/images/icons/hud/vitals/Icon_combatstate" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt; indique que le joueur est actuellement en combat. Certaines actions de gestion de joueur sont interdites lorsque l'état en combat est actif. Terminez l'engagement ou évitez le combat pendant 10s pour quitter cet état.</string>
 	<string key="ui_vitals_stamina_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;VITALITÉ&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nLes actions défensives comme la parade ou l'esquive consomment votre &lt;font color={highlightColor}&gt;vitalité&lt;/font&gt;. Si vous n'en avez plus, vous ne pourrez plus effectuer ces actions et devrez attendre qu'elle se recharge.\n\nLa &lt;font color={highlightColor}&gt;vitalité&lt;/font&gt; se régénère progressivement toute seule, sauf si vous sprintez ou attaquez.</string>
 	<string key="ui_vitals_mana_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;MANA&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nUne ressource mystérieuse indispensable pour la pratique de la magie. Si vous en manquez, vous serez dans l'incapacité d'utiliser certaines capacités surnaturelles.\n\nLe &lt;font color={highlightColor}&gt;mana&lt;/font&gt; se régénère avec le temps.</string>
+	<string key="ui_vitals_mount_stamina_tooltip" rel_version="Feature_Mounts" comment="Use {currentValue} and {maxValue} for the vital's numbers">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;VITALITÉ DE MONTURE&lt;/font&gt;\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{currentValue} / {maxValue}&lt;/font&gt;\n\nPermet à votre monture de voyager à des vitesses supérieures. Diminue en galopant.\n\nLa &lt;font color={highlightColor}&gt;vitalité de monture&lt;/font&gt; se régénère toute seule progressivement quand vous ne galopez pas.</string>
 	<string key="ui_vitals_mana_rate_tooltip">Le mana se régénère avec le temps.\n\n1,5 point de mana par seconde de base.</string>
 	<string key="ui_vitals_cooldown_tooltip">Compte à rebours avant de pouvoir utiliser à nouveau une capacité.</string>
 	<string key="ui_vitals_food_tooltip" comment="Use {currentValue} and {maxValue} for the vital's numbers">Nourriture\n{currentValue}/{maxValue}\n\nMangez pour améliorer la vitesse de régénération de la santé. Si vous avez trop faim, vous ne pouvez plus guérir du tout !\n\nLa faim ne retire pas de santé. Elle n'affecte que sa vitesse de régénération.</string>
@@ -2088,7 +2117,7 @@
 	<string key="ui_current_gear_score">Score d'équipement actuel</string>
 	<string key="ui_next_milestone">Prochaine étape</string>
 	<string key="ui_unlocked">DÉVERROUILLÉ(E)</string>
-	<string key="ui_attribute_scale">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{name}&lt;/font&gt;\nDégâts basés sur {attribute}</string>
+	<string key="ui_attribute_scale">s'ajuste avec</string>
 	<string key="ui_weapon_damage">Dégâts</string>
 	<string key="ui_shield_disabled">Les statistiques et atouts de bouclier ne s'appliquent que si vous êtes équipé(e) d'une épée ou d'un fléau et que vous l'avez en main.\n\nSi vous n'utilisez pas d'épée ou de fléau, pensez à vous déséquiper du bouclier afin de réduire votre poids d'équipement.</string>
 	<string key="ui_unspent">non dépensé</string>
@@ -2119,6 +2148,10 @@
 	<string key="ui_weapon_mastered">Arme maîtrisée</string>
 	<string key="ui_tradeskill_mastered">Métier maîtrisé</string>
 	<string key="ui_weapon_mastery_level" comment="{level} for current mastery level, {maxLevel} for the highest possible">Niveau &lt;font color="#FFFFFF"&gt;{level}&lt;/font&gt;/{maxLevel}</string>
+	<string key="ui_Flail" rel_version="Weapon_Flail">Fléau et bouclier</string>
+	<string key="ui_Flail_mastery" rel_version="Weapon_Flail">Maîtrise du fléau</string>
+	<string key="ui_Flail_tree1" rel_version="Weapon_Flail">Prêtre</string>
+	<string key="ui_Flail_tree2" rel_version="Weapon_Flail">Bastion</string>
 	<string key="ui_rapier">Rapière</string>
 	<string key="ui_throwingaxe">Hachette</string>
 	<string key="ui_spear">Lance</string>
@@ -2203,8 +2236,8 @@
 	<string key="ui_camp_reconnect_failed">Votre bivouac a été abandonné. En installer un nouveau.</string>
 	<string key="ui_weapon_mastery_respec_warning">Voulez-vous vraiment réinitialiser cette arme ?\n\nCoût : {azoth}&lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.4" yOffset="1"&gt;&lt;/img&gt;</string>
 	<string key="ui_weapon_mastery_insufficient_azoth">Vous n'avez pas assez d'Azoth.</string>
-	<string key="ui_you_have_unlocked">Vous avez déverrouillé</string>
-	<string key="ui_you_have_earned">Vous avez obtenu :</string>
+	<string key="ui_you_have_unlocked">Déverrouillés</string>
+	<string key="ui_you_have_earned">Récompenses</string>
 	<string key="ui_now_craft">Vous pouvez désormais fabriquer</string>
 	<string key="ui_now_track">Vous pouvez désormais pister</string>
 	<string key="ui_now_track_banner">Vous pouvez désormais localiser : {resourceName}.</string>
@@ -2233,6 +2266,7 @@
 	<string key="hwm_loot_void_gauntlet">Expertise : gantelets du néant</string>
 	<string key="hwm_loot_blunderbuss">Expertise : tromblon</string>
 	<string key="hwm_loot_greatsword">Expertise : épée longue</string>
+	<string key="hwm_loot_flail">Expertise : fléau</string>
 	<string key="ui_time_display">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt; ({timezone})</string>
 	<string key="ui_clusterwarning_title">JOUER DANS {worldName}</string>
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Vous ne pouvez avoir qu'un seul personnage dans l'&lt;/font&gt; &lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt;ensemble de mondes {worldSetName}&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt;.&lt;/font&gt;</string>
@@ -2315,7 +2349,8 @@
 	<string key="ui_governing_propertytax">La compagnie dirigeante peut collecter les frais d'entretien des maisons de la colonie.</string>
 	<string key="ui_nameplate_slider">Quantité de noms de joueurs</string>
 	<string key="ui_nameplate_slider_desc">Augmenter ou réduire la quantité de noms de joueurs affichée à l'écran. ATTENTION : L'affichage d'une quantité élevée de noms de joueurs peut affecter la fréquence d'image.</string>
-	<string key="ui_stat_bonus_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount}&lt;/font&gt; {attribute}</string>
+	<string key="ui_stat_bonus_single_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; {attribute1}</string>
+	<string key="ui_stat_bonus_multiple_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; {attribute1}\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount2}&lt;/font&gt; {attribute2}</string>
 	<string key="ui_stat_bonus">+{amount} {attribute}</string>
 	<string key="ui_craft_bonus">+{amount} {bonus} {bonus2}</string>
 	<string key="ui_first_craft_bonus">(&lt;img src="lyshineui/images/icons/misc/icon_upgrade" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt;Bonus de première fabrication)</string>
@@ -2337,7 +2372,7 @@
 	<string key="ui_fishing_attach_bait">Équiper l'appât</string>
 	<string key="ui_fishing_no_bait">Aucun appât</string>
 	<string key="ui_fishing_change_bait">Changer d'appât</string>
-	<string key="ui_fishing_cast">(Maintenir) Lancer</string>
+	<string key="ui_fishing_cast">Cast</string>
 	<string key="ui_fishing_exit_fishing">Arrêter de pêcher</string>
 	<string key="ui_fishing_reset_cast">Lancer à nouveau</string>
 	<string key="ui_fishing_hook">Ça mord !</string>
@@ -2377,6 +2412,7 @@
 	<string key="ui_faction_cant_sanctuary">Pour changer de faction, vous devez vous trouver dans un sanctuaire.</string>
 	<string key="ui_faction_cant_company">Impossible de changer de faction tant que vous faites partie d'une compagnie.</string>
 	<string key="ui_faction_cant_war">Impossible de changer de faction lorsque vous participez ou devez participer à une guerre ou une invasion.</string>
+	<string key="ui_faction_cant_cross_world">You can't change factions while Cross World</string>
 	<string key="ui_faction_cant_territory">Impossible de rejoindre la faction qui contrôle actuellement le plus de territoires.</string>
 	<string key="ui_faction_cant_cooldown">Impossible de changer de faction pendant votre temps de recharge.\n{cooldown}</string>
 	<string key="ui_change_faction_warning">Une fois votre nouvelle faction choisie, vous ne pourrez plus en changer pendant 60 jours. Changer de faction remet à zéro votre rang et vos jetons de faction.</string>
@@ -2410,7 +2446,7 @@
 	<string key="ui_gather_no_faction">Le territoire doit être contrôlé par une faction.</string>
 	<string key="command_lock_salvage">Verrouiller</string>
 	<string key="command_unlock_salvage">Déverrouiller</string>
-	<string key="tooltip_lock_salvage">Verrouillez des objets pour les empêcher d'être recyclés ou lâchés. Les verrous sont supprimés lorsque les objets sont échangés ou vendus.</string>
+	<string key="tooltip_lock_salvage">Lock items to prevent them from being salvaged, dropped, or sold. Locks are removed when items are traded.</string>
 	<string key="tooltip_unlock_salvage">Déverrouillez les objets pour pouvoir les recycler ou les lâcher.</string>
 	<string key="tooltip_salvage_locked">Les objets verrouillés ne peuvent pas être recyclés.</string>
 	<string key="tooltip_salvage_remote">Vous ne pouvez pas recycler d'objets à distance.</string>
@@ -2452,6 +2488,7 @@
 	<string key="ui_tooltip_earnings">Gains</string>
 	<string key="ui_tooltip_listing_fee">{territoryName} : Frais de publication (x{quantity})</string>
 	<string key="ui_tooltip_sales_fee">{territoryName} : Frais de vente (x{quantity})</string>
+	<string key="ui_tooltip_unlock">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#EBE3D6"&gt;Se déverrouille dans : &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#FFFFFF"&gt;{sourceType}&lt;/font&gt;</string>
 	<string key="ui_notificationaccept">Accepter les notifications</string>
 	<string key="ui_notificationdecline">Refuser les notifications</string>
 	<string key="ui_banneraccept">Accepter les étendards</string>
@@ -2472,6 +2509,9 @@
 	<string key="ui_dialogueoption10">Option n° 10</string>
 	<string key="ui_damage_type_modifier_desc">{modifier} {damageAmount} % de résistance à {damageName}</string>
 	<string key="ui_emotes_premium">Émotes premium</string>
+	<string key="ui_locked">Verrouillé(e)</string>
+	<string key="ui_artifact" rel_version="Feature_Artifacts">Artéfact</string>
+	<string key="ui_artifact_already_equipped" rel_version="Feature_Artifacts">Vous avez déjà un artéfact de type {type} équipé.</string>
 	<string key="ui_locked_account_title">COMPTE VERROUILLÉ</string>
 	<string key="ui_locked_account_description">Votre compte est actuellement verrouillé.\n\nCe statut coupe l'accès à certaines fonctionnalités en jeu telles que les achats dans la boutique ou l'utilisation d'objets issus de la boutique.</string>
 	<string key="ui_gearscore_modified">Score d'équipement ajusté à la moyenne de l'expertise de {slot} et du score d'équipement de l'objet.</string>
@@ -2481,6 +2521,7 @@
 	<string key="ui_itemtypedescription_longsword">Espadon</string>
 	<string key="ui_itemtypedescription_hatchet">Hachette</string>
 	<string key="ui_itemtypedescription_rapier">Rapière</string>
+	<string key="ui_itemtypedescription_Flail" rel_version="Weapon_Flail">Fléau</string>
 	<string key="ui_itemtypedescription_club">Gourdin</string>
 	<string key="ui_itemtypedescription_spear">Lance</string>
 	<string key="ui_itemtypedescription_axe">Hache double</string>
@@ -2497,6 +2538,7 @@
 	<string key="ui_itemtypedescription_roundshield">Targe</string>
 	<string key="ui_itemtypedescription_kiteshield">Bouclier normand</string>
 	<string key="ui_itemtypedescription_towershield">Pavois</string>
+	<string key="ui_itemtypedescription_mountattachment" rel_version="Feature_Mounts">Accessoire de monture</string>
 	<string key="ui_itemtypedescription_weapon">Arme</string>
 	<string key="ui_itemtypedescription_ammo">Munitions</string>
 	<string key="ui_itemtypedescription_head_slot">Casque</string>
@@ -2524,6 +2566,10 @@
 	<string key="ui_itemtypedescription_Ringjewelry">Anneau</string>
 	<string key="ui_itemtypedescription_Earringjewelry">Boucle d'oreille</string>
 	<string key="ui_itemtypedescription_resource">Ressource</string>
+	<string key="ui_itemtypedescription_mount_strap" rel_version="Feature_Mounts">Sangle de monture</string>
+	<string key="ui_itemtypedescription_mount_shoe" rel_version="Feature_Mounts">Sabot de monture</string>
+	<string key="ui_itemtypedescription_mount_attachment" rel_version="Feature_Mounts">Accessoire de monture</string>
+	<string key="ui_itemtypedescription_mount_consumable" rel_version="Feature_Mounts">Consommable de monture</string>
 	<string key="ui_itemtypedescription_housingitem">Objet domestique</string>
 	<string key="ui_itemtypedescription_tool">Outil</string>
 	<string key="ui_itemtypedescription_miningpick">Pioche de mineur</string>
@@ -2542,6 +2588,7 @@
 	<string key="ui_itemtypedescription_bait">Appâts</string>
 	<string key="ui_itemtypedescription_outpostrush">Ressource de Déferlante</string>
 	<string key="ui_itemtypedescription_heartgem_rune" rel_version="Feature_Heartgems">Rune-cœur</string>
+	<string key="ui_heartgem_rune_slot" rel_version="Feature_Heartgems">Emplacement de rune-cœur</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_stone_form" rel_version="Feature_Heartgems">Forme rocheuse</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_detonate" rel_version="Feature_Heartgems">Détonation</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_grasping_vines" rel_version="Feature_Heartgems">Lianes accrocheuses</string>
@@ -2550,6 +2597,7 @@
 	<string key="ui_itemtooltiptitle_heartgem_rune_bile_bomb" rel_version="Feature_Heartgems_BileBomb">Bombe de bile</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_fire_storm" rel_version="Feature_Heartgems_FireStorm">Tempête de feu</string>
 	<string key="ui_itemtooltiptitle_heartgem_rune_sand_worm" rel_version="Feature_Heartgems_Sandworm">Le Dévoreur</string>
+	<string key="ui_itemtooltiptitle_heartgem_rune_beast_mode" rel_version="Feature_Heartgems_BeastMode">Rage primale</string>
 	<string key="ui_cannot_perform_action_at_this_time">Impossible d'effectuer cette action pour l'instant.</string>
 	<string key="ui_cannot_use_shield_abilities">Aucun bouclier équipé</string>
 	<string key="ui_tooltip_effect_duration">Durée de l'effet : &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#FFFFFF"&gt;{value}&lt;/font&gt;</string>
@@ -2565,6 +2613,8 @@
 	<string key="ui_autopinobjectivesFactionStory_desc">Marque automatiquement les quêtes d'histoire de la faction à l'interface quand vous les acceptez.</string>
 	<string key="ui_autopinObjectivesSkillProgression">Auto-marquage des quêtes de progression des capacités</string>
 	<string key="ui_autopinobjectivesSkillProgression_desc">Marque automatiquement les quêtes de progression des capacités à l'interface quand vous les acceptez.</string>
+	<string key="ui_autopinObjectivesMountQuest">Auto-marquage des quêtes de monture</string>
+	<string key="ui_autopinobjectivesMountQuest_desc">Marque automatiquement les quêtes de monture à l'interface quand vous les acceptez.</string>
 	<string key="ui_autopinObjectivesEpicEquipment">Auto-marquage des quêtes d'équipement épique</string>
 	<string key="ui_autopinobjectivesEpicEquipment_desc">Marque automatiquement les quêtes d'équipement épique à l'interface quand vous les acceptez.</string>
 	<string key="ui_autopinObjectivesSeasonQuest">Auto-marquage des objectifs d'histoire de la saison</string>
@@ -2617,24 +2667,18 @@
 	<string key="ui_endgame_guide_title2">Expéditions et mutations de fin de jeu</string>
 	<string key="ui_endgame_guide_title3">Déferlante</string>
 	<string key="ui_endgame_guide_title4">Invasions</string>
-	<string key="ui_endgame_guide_title5">Système d'expertise : augmenter votre score d'équipement</string>
-	<string key="ui_endgame_guide_title6">Lieux pour améliorer votre expertise par niveau</string>
-	<string key="ui_endgame_guide_title7">Gypse : bonds d'expertise ciblés</string>
-	<string key="ui_endgame_guide_title8">Éclats sombres : améliorer votre équipement</string>
-	<string key="ui_endgame_guide_title9" rel_version="Feature_Seasons_Rewards">Périple de saison</string>
+	<string key="ui_endgame_guide_title5">Gypse : bonds d'expertise ciblés</string>
+	<string key="ui_endgame_guide_title6" rel_version="Feature_Seasons_Rewards">Périple de saison</string>
 	<string key="ui_endgame_guide_body1">Ainsi vous avez atteint le niveau 60 ! Félicitations ! Le monde d'Aeternum vous est désormais totalement accessible. Voici ce que vous réserve la vie en Aeternum en fin de jeu.</string>
 	<string key="ui_endgame_guide_body2">Au niveau 60, vous avez accès à plusieurs nouvelles expéditions : le Jardin de la Genèse à Bois-Éden, l'Instrument de Lazarus à Eaux-Fétides, le Cœur de la Tempête à la Montagne du Haut-Chaos et Bernacles et Poudre noire aux Îles des Lames.\n\nCherchez l'icône rouge circulaire près de deux expéditions à la fois sur la carte : cela signifie que l'expédition est mutante et qu'elle propose une difficulté plus élevée ainsi que de meilleures récompenses. Les boss de fin dans les expéditions mutantes offrent certaines des meilleures récompenses de fin de jeu (plus d'infos sur ceci prochainement).</string>
 	<string key="ui_endgame_guide_body3">Au niveau 60, vous avez accès à la Déferlante. Vous pouvez entrer dans la file d'attente pour le mode auprès de n'importe quel représentant de faction, auprès de certains PNJ dans les avant-postes au nord ou depuis l'onglet Modes de la barre de navigation principale. Vous pouvez faire la queue en solo ou dans un groupe de cinq joueurs maximum.\n\nCe mode est un terrain d'affrontement JcJcE instancié à 20 contre 20. Il y a trois avant-postes à occuper afin de générer des points pour votre équipe. Ils peuvent être améliorés en récoltant des ressources dans la zone et en les ajoutant aux portes, canons, et autres. Pour gagner, vous devez occuper et tenir ces avant-postes. La première équipe à 1 000 points remporte le match.\n\nSi vous contribuez à hauteur de 500 points minimum à votre équipe, que ce soit en JcJ ou JcE, vous recevrez des récompenses à la fin du match.</string>
 	<string key="ui_endgame_guide_body4">Lorsqu'un territoire est attaqué par les altérés, vous pouvez vous inscrire sur le tableau de guerre local ou dans l'onglet Guerres à venir sur l'écran de la carte pour aider à défendre le territoire. Les inscriptions sont ouvertes à toutes les factions, et 40 emplacements sont disponibles et sélectionnés chaque fois par le système. Les invasions comportent 6 vagues, et la forteresse doit être défendue et ne pas être revendiquée par les altérés. Le cas échéant, la colonie locale subira des déclassements aléatoires de ses postes de fabrication ou de ses améliorations locales de niveau de vie.</string>
-	<string key="ui_endgame_guide_body5">Un numéro se trouve à côté de chaque emplacement d'équipement dans votre inventaire. Ce nombre correspond à l'expertise de chaque type d'équipement. Il s'agit du score d'équipement (S.É) maximal dont vous pouvez vous équiper dans chaque emplacement de façon optimale. En récupérant du butin des ennemis de niveau 61 et plus, vous aurez une chance de recevoir de l'équipement de score d'équipement légèrement plus élevé que votre expertise, ce qui augmentera votre expertise afin qu'elle corresponde au score d'équipement de l'équipement que vous venez de recevoir. Les coffres d'événement comme la Déferlante peuvent également vous procurer un « bond ».\n\n• Butin d'ennemis de niveau 61 : objets de score d'équipement 500-530\n• Butin d'ennemis de niveau 62 : objets de score d'équipement 530-560\n• Butin d'ennemis de niveau 63 : objets de score d'équipement 560-591\n• Butin d'ennemis de niveau 64 : objets de score d'équipement 590-600\n\nVous pouvez utiliser de l'équipement ayant un score d'équipement supérieur que votre expertise que vous avez obtenu en faisant du commerce, mais il ne sera pas efficace au-delà de votre score d'expertise actuel et n'augmentera pas ce dernier.\n\nLes ennemis rencontrés dans les repères et expéditions élites ont une chance de base plus élevée d'augmenter votre score d'expertise, tout comme les ennemis nommés de niveau 60 et plus. Les boss d'expédition lâcheront TOUJOURS un objet qui augmentera votre expertise et les expéditions en elles-mêmes fourniront TOUJOURS 3 objets (dont 1 des boss susmentionnés) à chaque partie. La probabilité de recevoir un butin d'expertise dans un coffre d'élite est plus élevée qu'en venant à bout d'un ennemi élite.</string>
-	<string key="ui_endgame_guide_body6">Score d'équipement 500-525 (Élite 60 et +) – Grande Faille : Monts difformes, Montagne du Haut-Chaos : Caminus\n\nScore d'équipement 525-577 (Élite 63 et +) – Sulfure : Lits de Ta-Bitjet, Eaux-Fétides : Banc-Gaillard, Montagne du Haut-Chaos : Mines arides\n\nScore d'équipement 577-591 (Élite 64 et +) – Eaux-Fétides : Rempart de la Sirène\n\nScore d'équipement 591 et + (Élite 65 et +) – Sulfure : Mur ouest de Nebet-Het, Castrum Principium, Héliopolis, Solarium de Khépri, Calvaire du Scorpion, Bois-Éden : Malveillance, Jardin de la Genèse, les bois de Zygoramet, bief de Nerécaille : Palais impérial, Eaux-Fétides : Instrument de Lazarus, Aiguille de Melpomène, Mare d'éternité, Montagne du Haut-Chaos : Myrkgard</string>
-	<string key="ui_endgame_guide_body7">Les gypses sont un moyen d'augmenter votre expertise dans un type d'équipement spécifique.\n\nLes gypses se déclinent en plusieurs variétés, chacune d'elles pouvant être utilisée à un four à gypses pour fabriquer des orbes de gypse. Vous aurez besoin d'une certaine quantité de chaque type pour fabriquer un orbe de gypse. L'orbe de gypse ainsi fabriqué peut servir à créer un moule en gypse d'un type d'équipement spécifique qui, une fois consommé, vous octroiera un bond d'expertise pour le type d'équipement choisi et une pièce d'équipement du score d'équipement le plus élevé.\n\nVous pouvez obtenir des gypses en diverses quantités en accomplissant différentes activités comme suit :\n\n•Gypse d'obsidienne, 3 par jour – Boss nommés dans le monde ouvert de niveau 60 et +, que l'on trouve généralement dans les repères élites.\n•Gypse de saphir, 2 par jour – Boss finaux de l'Instrument de Lazarus et du Jardin de la Genèse\n•Gypse de rubis, 2 par jour – Déferlante (avec au moins 501 points obtenus dans le match).\n•Gypse d'émeraude, 1 par jour – Récompenses de jalon de compétence de métier.\n•Gypse de citrine, 2 par jour – Arènes JcE.\n•Gypse d'améthyste, 7 par jour – Fermeture de foyers d'altération.\n•Gypse de topaze, 5 par jour – Se rendre à une réserve dédiée aux arts obscurs ou à un bivouac de palier 5 pour fabriquer une potion d'harmonisation. Buvez la potion, puis tuez des ennemis de niveau 55 et + qui lâcheront alors des gypses de topaze.\n•Gypse de diamant, 3 par jour – Vous pouvez obtenir des gypses de diamant en exploitant n'importe quel type de gisement en Aeternum. Ceci change généralement pendant les événements de saison, comme lors de la Convergence hivernale.\n•Gypse de grenat, 2 par jour – Arènes JcJ 3 contre 3.</string>
-	<string key="ui_endgame_guide_body8">Les éclats sombres peuvent être utilisés pour améliorer n'importe quelle pièce d'équipement ayant un score d'équipement compris entre 590 et 625. Si l'équipement est utilisé quand amélioré, il augmentera également votre score d'expertise.\n\nLes éclats sombres peuvent être obtenus en Déferlante, en ouvrant des coffres d'élite de haut niveau, lors des expéditions mutantes, en fabriquant de l'équipement de haut niveau et en ouvrant des moules en gypse pour des emplacements d'équipement à l'expertise de niveau 600 ou plus.</string>
-	<string key="ui_endgame_guide_body9" rel_version="Feature_Seasons_Rewards">Au niveau 60, vous avez accès au périple de la saison. Chaque nouvelle saison offre des aventures supplémentaires et des objets bonus en accomplissant celles-ci pendant la durée de la saison. Profitez d'une expérience exclusive avant la fin de la saison !</string>
+	<string key="ui_endgame_guide_body5">Les gypses sont un moyen d'augmenter votre expertise dans un type d'équipement spécifique.\n\nLes gypses se déclinent en plusieurs variétés, chacune d'elles pouvant être utilisée à un four à gypses pour fabriquer des orbes de gypse. Vous aurez besoin d'une certaine quantité de chaque type pour fabriquer un orbe de gypse. L'orbe de gypse ainsi fabriqué peut servir à créer un moule en gypse d'un type d'équipement spécifique qui, une fois consommé, vous octroiera un bond d'expertise pour le type d'équipement choisi et une pièce d'équipement du score d'équipement le plus élevé.\n\nVous pouvez obtenir des gypses en diverses quantités en accomplissant différentes activités comme suit :\n\n•Gypse d'obsidienne, 3 par jour – Boss nommés dans le monde ouvert de niveau 60 et +, que l'on trouve généralement dans les repères élites.\n•Gypse de saphir, 2 par jour – Boss finaux de l'Instrument de Lazarus et du Jardin de la Genèse\n•Gypse de rubis, 2 par jour – Déferlante (avec au moins 501 points obtenus dans le match).\n•Gypse d'émeraude, 1 par jour – Récompenses de jalon de compétence de métier.\n•Gypse de citrine, 2 par jour – Arènes JcE.\n•Gypse d'améthyste, 7 par jour – Fermeture de foyers d'altération.\n•Gypse de topaze, 5 par jour – Se rendre à une réserve dédiée aux arts obscurs ou à un bivouac de palier 5 pour fabriquer une potion d'harmonisation. Buvez la potion, puis tuez des ennemis de niveau 55 et + qui lâcheront alors des gypses de topaze.\n•Gypse de diamant, 3 par jour – Vous pouvez obtenir des gypses de diamant en exploitant n'importe quel type de gisement en Aeternum. Ceci change généralement pendant les événements de saison, comme lors de la Convergence hivernale.\n•Gypse de grenat, 2 par jour – Arènes JcJ 3 contre 3.</string>
+	<string key="ui_endgame_guide_body6" rel_version="Feature_Seasons_Rewards">Au niveau 60, vous avez accès au périple de la saison. Chaque nouvelle saison offre des aventures supplémentaires et des objets bonus en accomplissant celles-ci pendant la durée de la saison. Profitez d'une expérience exclusive avant la fin de la saison !</string>
 	<string key="ui_endgame_guide_button_view_guide">Voir le guide</string>
 	<string key="ui_endgame_guide_button_dismiss">Ignorer</string>
-	<string key="ui_endgame_banner_title">Vous avez atteint le niveau maximum !</string>
-	<string key="ui_endgame_banner_text1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;Expéditions de fin de jeu&lt;/font&gt;, dont des mutations hebdomadaires variables pour obtenir les meilleures récompenses</string>
+	<string key="ui_endgame_banner_title">Vous avez atteint le niveau 60 !</string>
+	<string key="ui_endgame_banner_text1">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;Expéditions de fin de jeu&lt;/font&gt;</string>
 	<string key="ui_endgame_banner_text2">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;Déferlante&lt;/font&gt;, un champ de bataille à 20 contre 20</string>
 	<string key="ui_endgame_banner_text3">Repères &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;élites&lt;/font&gt;, arènes d'épreuves et défis pour groupes dans le monde ouvert</string>
 	<string key="ui_endgame_banner_text4">Rendez-vous à un &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffdb7a"&gt;four à gypses&lt;/font&gt; pour améliorer votre équipement</string>
@@ -2664,7 +2708,7 @@
 	<string key="ui_pvp_guide_2_header">Contrôle de forteresse</string>
 	<string key="ui_pvp_guide_2_body">Les joueurs en mode JcJ peuvent s'affronter dans chaque forteresse pour en gagner le contrôle.\n\nPour participer, activez le mode JcJ, puis rendez-vous dans la forteresse dont vous voulez vous emparer et passez ses portes. Une fois à l'intérieur, revendiquez et tenez votre position contre les joueurs des autres factions.\n\nLa faction qui occupe la forteresse obtient des bonus sur le territoire, tels qu'une influence accrue et des gains d'EXP pour les membres de la faction. Occuper une forteresse n'affecte pas le contrôle général du territoire, mais peut être déterminant pour déclarer une guerre visant à s'emparer de ce dernier.</string>
 	<string key="ui_pvp_guide_3_header">Déclarer la guerre</string>
-	<string key="ui_pvp_guide_3_body">Participer aux combats JcJ dans le monde ouvert et accomplir des missions JcJ pour votre faction au sein d'un territoire vous aidera à accroître votre influence. Lorsque votre faction contrôle le territoire, votre influence contribue à retarder le moment où vos ennemis peuvent déclarer une guerre. Si vous n'appartenez pas à la faction au pouvoir, votre influence contribue à la mise en œuvre d'une déclaration de guerre.\n\nUne fois qu'une faction belligérante obtient assez d'influence, le territoire entre en conflit et les dirigeants de compagnie peuvent déclarer la guerre. Déclarer une guerre programme une bataille de siège à 50 contre 50 à la forteresse.</string>
+	<string key="ui_pvp_guide_3_body">Capture Influence Towers and strike down enemy Factions in open world combat for territorial supremacy. Each Faction will compete for Influence in specific zones during scheduled times. \n\nIf an attacking Faction earns enough Influence through PvP Missions, Influence Towers, and Forts before the race ends, they’ll receive bonus rewards, plus the opportunity to declare War. \n\nIf the defending Faction prevents the attackers from scoring enough Influence within the time limit, they’ll earn bonus rewards for both the Influence Race and the next War. \n\nRegardless of who wins, the attacking Faction with the most influence can escalate the conflict into War.</string>
 	<string key="ui_pvp_guide_4_header">Rejoindre un siège</string>
 	<string key="ui_pvp_guide_4_body">Les joueurs peuvent s'inscrire au tableau de guerre dans la colonie du territoire ou aux abords de sa forteresse pour participer à une bataille de siège programmée.\n\nLes gouverneurs des deux compagnies dirigeantes peuvent ensuite choisir parmi les joueurs qui se sont inscrits dans leur camp pour former leur armée de 50 joueurs.\n\nLes joueurs choisis recevront une invitation peu de temps avant l'heure programmée de la bataille de siège. S'ils acceptent, ils seront téléportés dans la zone de constitution de l'armée afin de préparer la bataille. S'ils refusent, leur place sera réassignée à d'autres joueurs se trouvant dans la liste de réserve de l'armée.\n\nLes joueurs de la faction qui attaque ou se défend ne peuvent s'inscrire que pour le camp de leur faction. Les joueurs des factions tierces peuvent s'inscrire dans n'importe quel camp. Les joueurs sans faction ne peuvent pas participer à une guerre.</string>
 	<string key="ui_pvp_guide_5_header">Faire la guerre</string>
@@ -2679,6 +2723,8 @@
 	<string key="ui_transmog_guide_title1" rel_version="Feature_Transmog">Fonctionnement</string>
 	<string key="ui_transmog_guide_body1" rel_version="Feature_Transmog">Lorsqu'un objet est ajouté à votre inventaire, il rejoint automatiquement votre collection de transmogrification et peut être transmogrifié en apparence.\n\nVous n'avez pas besoin de posséder l'objet après que celui-ci a été ajouté à votre collection de transmogrification pour le transmogrifier en apparence.</string>
 	<string key="ui_transmog_guide_body2" rel_version="Feature_Transmog">Rendez-vous dans la Station de transmogrification &lt;img src="lyshineui/images/map/icon/pois/transmog" xPadding="-10" scale="3.5" yOffset="14"&gt;&lt;/img&gt;, trouvez l'objet et utilisez des jetons de transmogrification &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; pour créer une apparence.\n\nLes apparences de transmogrification sont liées à votre compte (et sont donc utilisables par tous les personnages dudit compte).</string>
+	<string key="ui_mount_guide_title1" rel_version="Feature_Mounts">Fonctionnement</string>
+	<string key="ui_mount_guide_body1" rel_version="Feature_Mounts">Vous pouvez invoquer votre monture avec {$player.mount_summon$}. Marchez avec {$movement.walk$}, sprintez avec {$player.mount_dash$} et sautez avec {$movement.jump$}. Galoper et sauter coûte de la vitalité à la monture. Chuter de très haut et les coups ennemis réduisent sa vitalité. Votre monture récupère de la vitalité en mangeant. Si sa vitalité est trop basse, vous mettrez pied à terre.</string>
 	<string key="ui_event_token_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Les jetons disparaîtront à la fin de l'événement.&lt;/font&gt;</string>
 	<string key="ui_event_item_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Cet objet disparaîtra à la fin de l'événement.&lt;/font&gt;</string>
 	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;Fin de l'événement dans : &lt;font color="#cca000"&gt;{timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
@@ -2688,13 +2734,16 @@
 	<string key="attribution_SummerMedleyfaire_2022" rel_version="Event_Summer_Perm">Mélégies estivales 2022</string>
 	<string key="attribution_SummerMedleyfaire_2023" rel_version="Event_Summer_Perm">Mélégies estivales 2023</string>
 	<string key="attribution_NightveilHallow_2022" rel_version="Event_Halloween_Perm">Voile nocturne 2022</string>
-	<string key="attribution_Housing_SettlerSet_2021" comment="Housing Furniture Set" rel_version="Housing_Settler_Set">Meubles de colon d'Aeternum</string>
-	<string key="attribution_Housing_PirateSet_2021" comment="Housing Furniture Set" rel_version="Housing_Pirate_Set">Meubles d'Eaux-Fétides</string>
-	<string key="attribution_Housing_DynastySet_2021" comment="Housing Furniture Set" rel_version="Housing_Dynasty_Set">Meubles de Nerécaille</string>
-	<string key="attribution_Housing_LegionSet_2022" comment="Housing Furniture Set" rel_version="Housing_Legion_Set">Meubles de Sulfure</string>
+	<string key="attribution_NightveilHallow_2023" rel_version="Event_Halloween2023_Perm">Nightveil Hallow 2023</string>
+	<string key="attribution_Housing_SettlerSet_2021" rel_version="Housing_Settler_Set" comment="Housing Furniture Set">Meubles de colon d'Aeternum</string>
+	<string key="attribution_Housing_PirateSet_2021" rel_version="Housing_Pirate_Set" comment="Housing Furniture Set">Meubles d'Eaux-Fétides</string>
+	<string key="attribution_Housing_DynastySet_2021" rel_version="Housing_Dynasty_Set" comment="Housing Furniture Set">Meubles de Nerécaille</string>
+	<string key="attribution_Housing_LegionSet_2022" rel_version="Housing_Legion_Set" comment="Housing Furniture Set">Meubles de Sulfure</string>
 	<string key="attribution_TurkeyTerror_2022" rel_version="Event_TurkeyTerror_Perm">Danger : dindon 2022</string>
+	<string key="attribution_TurkeyTerror_2023" rel_version="Event_TurkeyTerror2023_Perm">Turkey Terror 2023</string>
 	<string key="attribution_Season_1" rel_version="Season_1_Perm">Saison 1</string>
 	<string key="attribution_Season_2" rel_version="Season_2_Perm">Saison 2</string>
+	<string key="attribution_Season_3" rel_version="Season_3_Perm">Saison 3</string>
 	<string key="ui_reset_daily_time">Réinitialiser quotidiennement à {time}</string>
 	<string key="ui_reset_weekly_time">Réinitialiser hebdomadairement à {time}</string>
 	<string key="ui_buy_new_world">Acheter New World</string>
@@ -2720,8 +2769,8 @@
 	<string key="ui_transmog_filter_owned" rel_version="Feature_Transmog">Déverrouillés</string>
 	<string key="ui_transmog_filter_captured" rel_version="Feature_Transmog">Récupérés</string>
 	<string key="ui_transmog_filter_fullsets" rel_version="Feature_Transmog">Ensembles complets</string>
-	<string key="ui_transmog_appearance_captured" rel_version="Feature_Transmog">Ajouté(e) à la collection de transmogrification</string>
-	<string key="ui_transmog_open_menu" rel_version="Feature_Transmog">Obtenir l'aide d'un stylemancien</string>
+	<string key="ui_transmog_appearance_captured" rel_version="Feature_Transmog">+ Added to Stylemancer</string>
+	<string key="ui_transmog_open_menu" rel_version="Feature_Transmog">Transmogrifier ma tenue</string>
 	<string key="ui_transmog_unequip_skin" rel_version="Feature_Transmog">Déséquiper l'apparence</string>
 	<string key="ui_transmog_stop_preview" rel_version="Feature_Transmog">Arrêter l'aperçu</string>
 	<string key="ui_apply_set" rel_version="Feature_Transmog">Appliquer l'ensemble</string>
@@ -2744,17 +2793,29 @@
 	<string key="ui_transmog_error_service_throttled">Échec de la transmogrification : serveur occupé, veuillez réessayer plus tard.</string>
 	<string key="ui_transmog_error_service_invalid_request">Échec de la transmogrification : requête invalide.</string>
 	<string key="ui_transmog_error_skin_not_unlocked">Échec de la transmogrification : apparence non déverrouillée.</string>
-	<string key="ui_transmog_error_no_item_equipped">Échec de la transmogrification : emplacement vide.</string>
+	<string key="ui_transmog_error_no_item_equipped">Could not apply {skinName}. emplacement vide.</string>
 	<string key="ui_transmog_error_mismatch_item_class">Échec de la transmogrification : impossible d'équiper des apparences de types dépareillés</string>
-	<string key="ui_transmog_error_skin_already_applied">Échec de la transmogrification : Apparence déjà appliquée sur l'objet</string>
+	<string key="ui_transmog_error_skin_already_applied">Did not apply {skinName}: Apparence déjà appliquée sur l'objet</string>
 	<string key="ui_transmog_error_apply_skin_pending">Échec de la transmogrification : Changement d'apparence en attente sur l'objet</string>
 	<string key="ui_transmog_error_generic">Erreur de transmogrification</string>
 	<string key="ui_transmog_npc_name">Stylemancien</string>
 	<string key="ui_transmog_npc_tooltip">Créez des apparences à partir d'objets que vous avez récupérés à l'aide de &lt;img src="lyshineui/images/icons/items/currency/transmogtokensmall" xPadding="0" scale="2.2" yOffset="6.0"&gt;&lt;/img&gt; jetons de transmogrification.</string>
+	<string key="ui_transmog_dyeing_error">Error applying dye. Veuillez réessayer.</string>
 	<string key="ui_transmog_dyeing_previews_disabled">Teinture des apparences prévisualisées impossible</string>
 	<string key="ui_transmog_services_unavailable_title">Services de transmogrification indisponibles</string>
+	<string key="ui_transmog_services_unavailable_tooltip">Transmogrification indisponible</string>
 	<string key="ui_transmog_services_unavailable_message">La transmogrification est actuellement indisponible. Veuillez réessayer plus tard.</string>
 	<string key="ui_unclaimed_seasons_rewards">Récompenses de saison non récupérées</string>
+	<string key="ui_expansion_name_expansion2023" comment="DO NOT TRANSLATE">[TMP] Expansion 2023</string>
+	<string key="ui_required_expansion_missing_tooltip" comment="DO NOT TRANSLATE">[TMP] Missing expansion: {expansion}</string>
+	<string key="ui_learn_more_about_required_expansion_buttontext">En savoir plus</string>
+	<string key="ui_horse_slot_unlock" rel_version="Feature_Mounts">Déverrouiller monture</string>
+	<string key="ui_horse_slot_unlock_description" rel_version="Feature_Mounts">Déverrouille la capacité d'équiper et d'invoquer une monture.</string>
+	<string key="ui_ridingxp_description" rel_version="Feature_Mounts">Expérience pour la compétence d'équitation.\n\nDes niveaux plus élevés déverrouillent des récompenses et des vitesses de monture accrues.</string>
+	<string key="ui_emote_slot">Emplacement d'émote n° {slot}</string>
+	<string key="ui_emote_bind_to_slot">Lier à l'emplacement </string>
+	<string key="ui_emote_unbind">Dissocier</string>
+	<string key="ui_emote_mounted_error">Impossible d’utiliser des émotes lorsque vous êtes sur une monture.</string>
 	<string key="generic_list_2">{item1} et {item2}</string>
 	<string key="generic_list_3">{item1}, {item2} et {item3}</string>
 	<string key="generic_list_4">{item1}, {item2}, {item3} et {item4}</string>
@@ -2762,6 +2823,23 @@
 	<string key="generic_list_6">{item1}, {item2}, {item3}, {item4}, {item5} et {item6}</string>
 	<string key="ui_equipment_combat_view_button">Voir l'équipement de combat</string>
 	<string key="ui_equipment_tools_view_button">Voir les outils, sacs et instruments</string>
+	<string key="ui_equipment_mounts_view_button" rel_version="Feature_Mounts">Voir l'équipement de monture</string>
 	<string key="views_tutorial">Sélectionnez la vue Outils pour accéder aux outils, sacs et instruments.</string>
+	<string key="ui_requires_expansion_to_advance">{expansionName} nécessaire pour progresser</string>
+	<string key="expansion_1_name">Le réveil de la Terre enragée</string>
+	<string key="expansion_1_name_locked">Nécessite Le réveil de la Terre enragée</string>
+	<string key="ui_filter_category_general">Général</string>
+	<string key="ui_filter_category_weapon_skin">Apparence d'arme</string>
+	<string key="ui_filter_general_lmited_time">Durée limitée</string>
+	<string key="ui_filter_general_sale">Promo</string>
+	<string key="ui_expansion_required_to_enter_territory">{expansionName} nécessaire pour pénétrer dans ce territoire.</string>
+	<string key="ui_objective_required_to_enter_territory">Vous devez terminer « &lt;font color={objectiveColor}&gt;{objectiveName}&lt;/font&gt; » pour pouvoir pénétrer dans ce territoire.</string>
+	<string key="ui_sort_by_featured">Sort by Featured</string>
+	<string key="ui_sort_by_name">Trier par nom</string>
+	<string key="ui_sort_by_release_date">Sort by Release Date</string>
+	<string key="ui_sort_by_end_date">Sort by End Date</string>
+	<string key="ui_sort_by_price_low">Sort by Price: Low to High</string>
+	<string key="ui_sort_by_price_high">Sort by Price: High to Low</string>
+	<string key="ui_requirements">Conditions nécessaires</string>
 </resources>
 

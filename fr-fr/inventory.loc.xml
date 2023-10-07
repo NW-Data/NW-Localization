@@ -25,6 +25,7 @@
 	<string key="inv_outpostrush">Déferlante</string>
 	<string key="inv_pvparenas">Arènes JcJ</string>
 	<string key="inv_runes" rel_version="Feature_Heartgems">Runes</string>
+	<string key="inv_mountitem" rel_version="Feature_Mounts">Montures</string>
 	<string key="inv_crafting_modifiers">Mods</string>
 	<string key="inv_repair_kit_count">{count} nécessaire(s) de réparation</string>
 	<string key="inv_repair_kits">Nécessaires de réparation</string>
@@ -67,9 +68,9 @@
 	<string key="inv_equipLoadSlow">Lourd</string>
 	<string key="inv_equipLoadOverburdened">Suréquipé</string>
 	<string key="inv_equipLoadTooltip">La charge combinée de l'armure et du bouclier que vous portez détermine votre poids d'équipement. Du poids d'équipement dépendent vos capacités d'esquive ainsi que d'autres effets.</string>
-	<string key="inv_equipLoadFastTooltip">• Dégâts de base : +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]} % \n• Soins basés sur les dégâts : +30 % \n• Votre esquive consiste en une roulade rapide. \n• Coût en vitalité de l'esquive : {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} \n• Pendant {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]}s après avoir pris un coup au corps à corps, la distance d'esquive est réduite de 20 % et vous ne pouvez pas courir.</string>
+	<string key="inv_equipLoadFastTooltip">• Dégâts de base : +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]} % \n• Soins prodigués : +30 % \n• Votre esquive consiste en une roulade rapide. \n• Coût en vitalité de l'esquive : {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} \n• Pendant {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]}s après avoir pris un coup au corps à corps, la distance d'esquive est réduite de 20 % et vous ne pouvez pas courir.</string>
 	<string key="inv_equipLoadNormalTooltip">• Dégâts de base : +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]} % \n• Durée du contrôle de foule subi : -10 % \n• Votre esquive consiste en un bond rapide. \n• Coût en vitalité de l'esquive : {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} \n• Pendant {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]}s après avoir pris un coup au corps à corps, la distance d'esquive est réduite de 20 % et vous ne pouvez pas courir.</string>
-	<string key="inv_equipLoadSlowTooltip">• Robustesse des parades : +15 % \n• Durée du contrôle de foule subi : -20 % \n• Soins basés sur les dégâts : -30 % \n• Votre esquive consiste en un pas chassé. \n• Coût en vitalité de l'esquive : {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} \n• Pendant {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]}s après avoir pris un coup au corps à corps, vous ne pouvez pas courir.</string>
+	<string key="inv_equipLoadSlowTooltip">• Robustesse des parades : +15 % \n• Durée du contrôle de foule subi : -20 % \n• Soins prodigués : -30 % \n• Votre esquive consiste en un pas chassé. \n• Coût en vitalité de l'esquive : {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} \n• Pendant {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]}s après avoir pris un coup au corps à corps, vous ne pouvez pas courir.</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Lorsque vous dépassez le poids d'équipement maximal, vous ne pouvez plus esquiver, courir ou utiliser de capacités. Vous devriez déséquiper quelques objets.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Si vous dépassez la limite de poids de l'inventaire, vous serez encombré(e) et vos mouvements ainsi que vos actions seront réduits. Vous perdrez également davantage de vitalité en parant.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Vous dépassez le poids d'équipement maximal : Impossible d'esquiver ou de courir et la vitesse de régénération de la vitalité est bien plus lente. Vous devriez déséquiper quelques objets.</string>
@@ -100,6 +101,7 @@
 	<string key="inv_repairparts_onlyrepairparts">Recycler cet objet vous permettra de récupérer {numRepairParts} pièce(s) de réparation.</string>
 	<string key="inv_repairparts_onlyrepairparts_withcoin">Recycler cet objet vous permettra de récupérer {numRepairParts} pièces de réparation et {coinAmount}.</string>
 	<string key="inv_coin_atlimit">&lt;font color="#f25d5d"&gt;Vous avez atteint votre limite de pièces.&lt;/font&gt;</string>
+	<string key="inv_notification_cannot_use_during_combat">Impossible d'utiliser des consommables de l'inventaire en combat ! Placez-les en accès rapide à la place.</string>
 	<string key="salvage_notification_obtained_1">Obtenu : {entry1}</string>
 	<string key="salvage_notification_obtained_2">Obtenu : {entry1} et {entry2}</string>
 	<string key="salvage_notification_obtained_3">Obtenu : {entry1}, {entry2} et {entry3}</string>
@@ -167,13 +169,15 @@
 	<string key="ui_sort_gearscore_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;score d'équipement :&lt;/font&gt;&lt;/font&gt; Bas - Élevé</string>
 	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;ordre chronologique :&lt;/font&gt;&lt;/font&gt; Plus récent - Plus ancien</string>
 	<string key="ui_sort_chrono_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;ordre chronologique :&lt;/font&gt;&lt;/font&gt; Plus ancien - Plus récent</string>
-	<string key="inv_equipmentstatrow_modifiertemplate">({baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;)</string>
-	<string key="ui_attributemodifier_pending_value">(+{pendingValue})</string>
-	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue} {attributeName}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Assignés : {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Équipement : {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Améliorations d'objet : &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;)&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;En attente : {value}&lt;/font&gt;</string>
+	<string key="inv_equipmentstatrow_modifiertemplate">{baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_pending_value">+{pendingValue}</string>
+	<string key="ui_attributemodifier_pending_value_max">+{pendingValue} | MAX</string>
+	<string key="ui_attributemodifier_at_max">MAX : {baseValue}</string>
+	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={colorAttributeMax}&gt;/{attributeMax}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Assignés : {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Équipement : {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Améliorations d'objet : &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;)&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;En attente : {value}&lt;/font&gt;</string>
 	<string key="ui_attributemodifier_required_points">Points requis :</string>
 	<string key="ui_physical_defense_short">PHYS</string>
 	<string key="ui_physical_defense_full">Résistance aux dégâts physiques</string>
@@ -226,6 +230,7 @@
 	<string key="loadout_notification_itemadd_failure_existing_slot" rel_version="Feature_Gear_Set_Storage">Impossible d'ajouter l'objet à : {loadoutName} car l'objet est déjà dans cet emplacement.</string>
 	<string key="loadout_notification_itemaddall_success" rel_version="Feature_Gear_Set_Storage">Objet ajouté à tous les ensembles d'équipement</string>
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Impossible d'ajouter l'objet à tous les ensembles d'équipement</string>
+	<string key="loadout_notification_add_artifact_to_loadout_failure" rel_version="Feature_Artifacts">Impossible d'ajouter l'artéfact à l'ensemble d'équipement : un seul artéfact de chaque type d'objet autorisé par ensemble.</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Vous devez attendre {timeRemaining} avant de pouvoir changer d'ensemble d'équipement.</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Ensembles d'équipement disponibles !\nCréez et changez d'ensemble d'équipement selon votre activité.</string>
 	<string key="loadout_notification_itemremove_space_failure" rel_version="Feature_Gear_Set_Storage">Impossible de replacer les objets de l'ensemble d'équipement dans l'inventaire à cause du manque de place.</string>
@@ -241,6 +246,11 @@
 	<string key="ui_effect_failed_MultipleFromSource">Impossible d'appliquer des effets redondants</string>
 	<string key="ui_effect_failed_AntirequisiteActive">Impossible d'appliquer en raison d'autres effets contradictoires : {competingEffect}</string>
 	<string key="ui_effect_failed_AntirequisiteActive_Multiple">Impossible d'appliquer en raison de multiples effets contradictoires</string>
+	<string key="ui_effect_failed_NotMounted" rel_version="Feature_Mounts">Impossible d'appliquer l'effet en selle.</string>
 	<string key="ui_effect_failed_Success">Effet disponible</string>
+	<string key="perktooltips_stacks">Cumuls d'atouts : </string>
+	<string key="perktooltips_stacks_over_limit">(max dépassé)</string>
+	<string key="perktooltips_stacks_over_limit_disabled">(désactivé)</string>
+	<string key="perktooltips_max_stacks">Cumuls d'atouts max : </string>
 </resources>
 

@@ -34,7 +34,7 @@
 	<string key="ui_fast_travel_error_noDestination_outpost" comment="Fast Travel">Pour effectuer ce transfert rapide, il vous faut avoir déjà visité cet avant-poste.</string>
 	<string key="ui_fast_travel_error_noDestination_shrine" comment="Fast Travel">Pour effectuer ce transfert rapide, il vous faut avoir déjà visité ce sanctuaire spirituel.</string>
 	<string key="ui_fast_travel_failed" comment="Fast Travel">Échec du transfert rapide</string>
-	<string key="ui_fast_travel_mission_abandon_confirm" comment="Fast Travel">ATTENTION : Le transfert rapide entraînera l'abandon de toutes les missions de faction JcJ.\n{count} seront abandonnées.\n\nContinuer ?</string>
+	<string key="ui_fast_travel_mission_abandon_confirm" comment="Fast Travel">ATTENTION : le transfert rapide entraînera la réinitialisation de la course chronométrée et l'abandon de toutes les missions de faction JcJ.\nRéinitialisation de {timedRaceCount} course(s) chronométrée(s) et abandon de {missionCount} mission(s).\n\nContinuer ?</string>
 	<string key="ui_fast_travel_popup_confirm" comment="Fast Travel">Voulez-vous effectuer un transfert rapide vers ce lieu ?</string>
 	<string key="ui_fast_travel_reset_popup" comment="Fast Travel">Réinitialiser le temps de recharge ?</string>
 	<string key="ui_fast_travel_reset_popup_confirm" comment="Fast Travel">Voulez-vous réinitialiser le temps de recharge ?</string>
@@ -119,6 +119,7 @@
 	<string key="ui_housingDecResult_Unknown" comment="Housing Décor Result">Erreur de placement inconnue</string>
 	<string key="ui_housingDecResult_Waiting" comment="Housing Décor Result">Placement impossible, en attente</string>
 	<string key="ui_housingDecResult_HousingTaxesUnpaid" comment="Housing Décor Result">Placement impossible, impôts impayés</string>
+	<string key="ui_housingDecResult_ServerError" comment="Housing Décor Result">Action impossible en raison d'une erreur de serveur</string>
 	<string key="ui_active_home_point_fail" comment="Housing Errors">Échec de l'enregistrement</string>
 	<string key="ui_buildmode_disabled" comment="Housing Errors">Le mode Décoration est en maintenance et actuellement désactivé.</string>
 	<string key="ui_context_menu_hint" comment="Housing Hints">Options</string>
@@ -228,7 +229,7 @@
 	<string key="ui_house_purchase_error_full" comment="Purchase House">Ce terrain est plein.\nPas d'unités disponibles à la vente.</string>
 	<string key="ui_house_purchase_error_standing" comment="Purchase House">Cette maison nécessite le niveau {standingRank} de réputation de territoire à : {standingName} pour acheter.</string>
 	<string key="ui_house_purchase_error_territory_bonus" comment="Purchase House">Bonus de permission de logement du territoire avec : {standingName} nécessaire</string>
-	<string key="ui_house_purchase_error_territory_bonus_desc" comment="Purchase House">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#F25D5D"&gt;Vous n'avez pas de&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt; bonus de propriété de maison &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#F25D5D"&gt;dans ce territoire pour acheter une maison.&lt;/font&gt;\n &lt;font color="#AAAAAA"&gt;Le bonus de propriété de logement est disponible au&lt;/font&gt; &lt;font color="#EEEEEE"&gt;niveau {standingRank} de réputation de territoire.&lt;/font&gt;</string>
+	<string key="ui_house_purchase_error_territory_bonus_desc" comment="Purchase House">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#F25D5D"&gt;Vous n'avez pas de&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt; bonus de propriété de maison &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#F25D5D"&gt;dans ce territoire pour acheter une maison.&lt;/font&gt;\n &lt;font color="#AAAAAA"&gt;Le bonus de propriété de logement est disponible au&lt;/font&gt; &lt;font color="#EEEEEE"&gt; niveau {standingRank} de réputation de territoire.&lt;/font&gt;</string>
 	<string key="ui_house_purchase_error_unknown" comment="Purchase House">Impossible d'acheter : erreur inconnue</string>
 	<string key="ui_house_purchase_standing_bonus_requirement" comment="Purchase House">Bonus de propriété de logement : {standingName}</string>
 	<string key="ui_house_purchase_standing_requirement" comment="Purchase House">Niveau de réputation : {standingValue} {standingName}</string>

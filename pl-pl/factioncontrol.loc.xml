@@ -3,9 +3,9 @@
 	<string key="ui_factioncontrol_claimed">Przejęte</string>
 	<string key="ui_factioncontrol_contested">Sporne</string>
 	<string key="ui_factioncontrol_unclaimed">Nieprzejęte</string>
-	<string key="ui_factioncontrol_reminder">Przypomnienie\nużycia: Aby wejść, musisz należeć do którejś z frakcji i oznaczyć się do PvP.</string>
-	<string key="ui_factioncontrol_reminder_map">Aktywne: Aby wejść, dołącz do frakcji i oznacz się do PvP. Ten punkt kontrolny będzie aktywny do czasu wypowiedzenia wojny lub rozpoczęcia się inwazji.</string>
-	<string key="ui_factioncontrol_reminder_map_inactive">Wydarzenie zakończone: Punkt kontrolny zostanie odblokowany 1 godzinę po zakończeniu wojny lub inwazji.</string>
+	<string key="ui_factioncontrol_reminder">Przypomnienie\nużycia: aby wejść, musisz mieć aktywne oznaczenie do PvP.</string>
+	<string key="ui_factioncontrol_reminder_map">Aktywne: aby wejść, musisz mieć aktywne oznaczenie do PvP. Gdy ten punkt kontrolny zostanie przejęty poza walką o wpływy, zostanie zablokowany na 1 godzinę.</string>
+	<string key="ui_factioncontrol_reminder_map_inactive">Zablokowane: przejęcie punktu kontrolnego poza walką o wpływy zablokuje go na 1 godzinę.</string>
 	<string key="ui_factioncontrol_reminder_map_inactive_specific">Trwa {siegeType}: Punkt kontrolny zostanie odblokowany 1 godzinę po tym, jak {siegeType2} dobiegnie końca.</string>
 	<string key="ui_factioncontrol_reminder_type_war">wojna</string>
 	<string key="ui_factioncontrol_reminder_type_invasion">inwazja</string>
@@ -14,11 +14,19 @@
 	<string key="ui_factioncontrol_status_label">Stan</string>
 	<string key="ui_factioncontrol_benefits_label">Premie za kontrolę</string>
 	<string key="ui_factioncontrol_territory_bonuses_label">Premie terytorium</string>
+	<string key="ui_bonus_flyout_influencesection">Sekcja wpływów</string>
+	<string key="ui_bonus_flyout_towermodifier">Modyfikator wież:</string>
+	<string key="ui_bonus_flyout_fortmodifier">Modyfikator fortu:</string>
+	<string key="ui_bonus_flyout_underdogmodifier">Modyfikator słabszych:</string>
 	<string key="ui_factioncontrol_faction_bonuses_label">Premie frakcyjne</string>
 	<string key="ui_factioncontrol_controlledby_inline">Pod kontrolą {factionName}</string>
 	<string key="ui_factioncontrol_controlledby_label">Pod kontrolą</string>
 	<string key="ui_factioncontrol_defend_controlpoint">Broń punktu kontrolnego</string>
 	<string key="ui_factioncontrol_claim_controlpoint">Przejmij punkt kontrolny</string>
+	<string key="ui_influencetower_bonus">+{multiplier}%</string>
+	<string key="ui_factioncontrol_defend_influencetower" rel_version="Feature_Influence_V2">Obroń: {towerName}</string>
+	<string key="ui_factioncontrol_claim_influencetower" rel_version="Feature_Influence_V2">Przejmij: {towerName}</string>
+	<string key="ui_factioncontrol_reminder_influencetower" rel_version="Feature_Influence_V2">Oznacz się do PvP w azylu, by przejąć wieże wpływów.</string>
 	<string key="ui_factioncontrol_fortcontested_announce">{fortName}: trwa atak!</string>
 	<string key="ui_factioncontrol_ownerchange_announce">{fortName}: kontrola przejęta przez: {factionName}!</string>
 	<string key="ui_factioncontrol_controlpointactive_announce">Można przejąć: {fortName}. Przejmij go dla swojej frakcji!</string>
@@ -48,7 +56,7 @@
 	<string key="@ui_faction_store_discount_modifier_name">Globalna zniżka w sklepie frakcyjnym</string>
 	<string key="@ui_free_camping_name">Darmowe biwakowanie</string>
 	<string key="@ui_chance_consumable_not_used_name">Globalna premia do przedmiotów użytkowych</string>
-	<string key="@ui_influencepoints_modifier_desc">Liczba punktów wpływów zwiększona o {value}</string>
+	<string key="@ui_influencepoints_modifier_desc">Liczba punktów wpływów zwiększona o {value} podczas walki o wpływy</string>
 	<string key="@ui_experiencepoints_modifier_desc">Liczba punktów doświadczenia zwiększona o {value}</string>
 	<string key="@ui_azoth_fasttravel_generalcost_reduction_desc">Ilość azothu potrzebna do szybkiej podróży zmniejszona o {value}</string>
 	<string key="@ui_azoth_fasttravel_weight_reduction_desc">Cena szybkiej podróży za wagę zmniejszona o {value} za każde {scaleFactor} pkt ciężaru</string>
@@ -73,8 +81,8 @@
 	<string key="@ui_faction_store_discount_modifier_desc">Zmniejsza koszt przedmiotów w sklepie frakcyjnym o {value}.</string>
 	<string key="@ui_free_camping_desc">Biwakowanie nie zużywa żadnych zasobów.</string>
 	<string key="@ui_chance_consumable_not_used_desc">O {value} zwiększa szansę na to, że skorzystanie z przedmiotu użytkowego nie zużyje go.</string>
-	<string key="@ui_fcp_crowdcontrol_qualified_warning">Na terenie fortu znajduje się zbyt wielu graczy należących do twojej frakcji. Teleportacja za {TeleportSeconds} s.</string>
-	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Na terenie fortu znajduje się zbyt wielu graczy. Teleportacja za {TeleportSeconds} s.</string>
+	<string key="@ui_fcp_crowdcontrol_qualified_warning">Na terenie z punktami kontrolnymi frakcji znajduje się zbyt wielu oznaczonych graczy lub graczy należących do twojej frakcji. Teleportacja za {TeleportSeconds} s.</string>
+	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Na terenie z punktami kontrolnymi frakcji znajduje się zbyt wielu graczy. Teleportacja za {TeleportSeconds} s.</string>
 	<string key="@ui_fcp_fast_travel_discounts_title">Zniżki za kontrolę frakcji</string>
 	<string key="@ui_fcp_faction_mission_bonus_label">(+{value} od PKF)</string>
 </resources>

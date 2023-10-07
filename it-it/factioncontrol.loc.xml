@@ -3,9 +3,9 @@
 	<string key="ui_factioncontrol_claimed">Rivendicato</string>
 	<string key="ui_factioncontrol_contested">Conteso</string>
 	<string key="ui_factioncontrol_unclaimed">Non rivendicato</string>
-	<string key="ui_factioncontrol_reminder">Usa\npromemoria: Devi selezionare PvP e far parte di una fazione per partecipare.</string>
-	<string key="ui_factioncontrol_reminder_map">Attivo: Devi selezionare PvP e far parte di una fazione per partecipare. Il punto di controllo sarà attivo fino al momento della Guerra o dell'Invasione.</string>
-	<string key="ui_factioncontrol_reminder_map_inactive">Evento terminato: il punto di controllo si sbloccherà un'ora dopo la risoluzione della Guerra o dell'Invasione.</string>
+	<string key="ui_factioncontrol_reminder">Usa\npromemoria: Devi attivare il PvP per partecipare.</string>
+	<string key="ui_factioncontrol_reminder_map">Attivo: Devi attivare il PvP per partecipare. Fuori da una Gara di influenza, questo punto di controllo sarà bloccato per un'ora dopo che è stato conquistato.</string>
+	<string key="ui_factioncontrol_reminder_map_inactive">Bloccato: Punto di controllo bloccato per un'ora dopo che è stato conquistato fuori da una Gara di influenza.</string>
 	<string key="ui_factioncontrol_reminder_map_inactive_specific">{siegeType} in corso: il punto di controllo si sbloccherà un'ora dopo la risoluzione di: {siegeType2}.</string>
 	<string key="ui_factioncontrol_reminder_type_war">Guerra</string>
 	<string key="ui_factioncontrol_reminder_type_invasion">Invasione</string>
@@ -14,11 +14,19 @@
 	<string key="ui_factioncontrol_status_label">Stato</string>
 	<string key="ui_factioncontrol_benefits_label">Vantaggi di controllo</string>
 	<string key="ui_factioncontrol_territory_bonuses_label">Bonus territorio</string>
+	<string key="ui_bonus_flyout_influencesection">Sezione di influenza</string>
+	<string key="ui_bonus_flyout_towermodifier">Modificatore torre/i:</string>
+	<string key="ui_bonus_flyout_fortmodifier">Modificatore forte:</string>
+	<string key="ui_bonus_flyout_underdogmodifier">Modificatore sfavorito:</string>
 	<string key="ui_factioncontrol_faction_bonuses_label">Bonus fazione</string>
 	<string key="ui_factioncontrol_controlledby_inline">Controllato da {factionName}</string>
 	<string key="ui_factioncontrol_controlledby_label">Controllato da:</string>
 	<string key="ui_factioncontrol_defend_controlpoint">Difendi il punto di controllo</string>
 	<string key="ui_factioncontrol_claim_controlpoint">Rivendica il punto di controllo</string>
+	<string key="ui_influencetower_bonus">+{multiplier}%</string>
+	<string key="ui_factioncontrol_defend_influencetower" rel_version="Feature_Influence_V2">Difendi: {towerName}</string>
+	<string key="ui_factioncontrol_claim_influencetower" rel_version="Feature_Influence_V2">Rivendica: {towerName}</string>
+	<string key="ui_factioncontrol_reminder_influencetower" rel_version="Feature_Influence_V2">Attiva il PvP in un santuario per catturare le torri d influenza.</string>
 	<string key="ui_factioncontrol_fortcontested_announce">{fortName} è sotto attacco!</string>
 	<string key="ui_factioncontrol_ownerchange_announce">{factionName} ha rivendicato {fortName}!</string>
 	<string key="ui_factioncontrol_controlpointactive_announce">Ora puoi rivendicare "{fortName}". Prendi questo punto di controllo per la tua fazione!</string>
@@ -48,7 +56,7 @@
 	<string key="@ui_faction_store_discount_modifier_name">Sconto negozio della fazione globale</string>
 	<string key="@ui_free_camping_name">Accampamento senza risorse</string>
 	<string key="@ui_chance_consumable_not_used_name">Bonus consumabili globale</string>
-	<string key="@ui_influencepoints_modifier_desc">Punti Influenza aumentati di {value}</string>
+	<string key="@ui_influencepoints_modifier_desc">Punti Influenza aumentati di {value} durante una Gara di influenza</string>
 	<string key="@ui_experiencepoints_modifier_desc">Punti Esperienza aumentati di {value}</string>
 	<string key="@ui_azoth_fasttravel_generalcost_reduction_desc">Costo di Azoth per il viaggio veloce ridotto di {value}</string>
 	<string key="@ui_azoth_fasttravel_weight_reduction_desc">Costo del peso per il viaggio veloce ridotto a {value} per {scaleFactor} unità di peso</string>
@@ -73,8 +81,8 @@
 	<string key="@ui_faction_store_discount_modifier_desc">Riduce il costo degli oggetti nel negozio della fazione di {value}.</string>
 	<string key="@ui_free_camping_desc">Accamparsi non richiede più risorse.</string>
 	<string key="@ui_chance_consumable_not_used_desc">Aumenta di {value} le probabilità che un oggetto consumabile non venga consumato durante l'uso.</string>
-	<string key="@ui_fcp_crowdcontrol_qualified_warning">Ci sono troppi giocatori della tua fazione nell'area del forte. Teletrasporto tra {TeleportSeconds} secondi.</string>
-	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Ci sono troppi giocatori nell'area del forte. Teletrasporto tra {TeleportSeconds} secondi.</string>
+	<string key="@ui_fcp_crowdcontrol_qualified_warning">Ci sono troppi giocatori attivi o della tua fazione nell'area del punto di controllo della fazione. Teletrasporto tra {TeleportSeconds} secondi.</string>
+	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Ci sono troppi giocatori nell'area del punto di controllo della fazione. Teletrasporto tra {TeleportSeconds} secondi.</string>
 	<string key="@ui_fcp_fast_travel_discounts_title">Sconti per il controllo fazione</string>
 	<string key="@ui_fcp_faction_mission_bonus_label">(+ {value} dai PCF)</string>
 </resources>

@@ -3,9 +3,9 @@
 	<string key="ui_factioncontrol_claimed">Beansprucht</string>
 	<string key="ui_factioncontrol_contested">Umkämpft</string>
 	<string key="ui_factioncontrol_unclaimed">Unbeansprucht</string>
-	<string key="ui_factioncontrol_reminder">Erinnerung\nverwenden: Du musst für PvP eingestellt sein und einer Fraktion angehören, um derzeit beitreten zu können.</string>
-	<string key="ui_factioncontrol_reminder_map">Aktiv: Fraktionsangehörigkeit und PvP-Modus wird benötigt. Dieser Kontrollpunkt bleibt aktiv, bis ein Krieg erklärt wird oder eine Invasion aktiv ist.</string>
-	<string key="ui_factioncontrol_reminder_map_inactive">Ereignis beendet: Der gesperrte Kontrollpunkt wird eine Stunde nach Ablauf des Kriegs oder der Invasion freigeschaltet.</string>
+	<string key="ui_factioncontrol_reminder">Erinnerung\nverwenden: Du musst für PvP verfügbar sein, um derzeit beitreten zu können.</string>
+	<string key="ui_factioncontrol_reminder_map">Aktiv: Du musst für PvP verfügbar sein, um beitreten zu können. Außerhalb des Einflusswettlaufs ist der Kontrollpunkt nach der Eroberung für eine Stunde gesperrt.</string>
+	<string key="ui_factioncontrol_reminder_map_inactive">Gesperrt: Der Kontrollpunkt ist nach der Eroberung außerhalb vom Einflusswettlauf für eine Stunde gesperrt.</string>
 	<string key="ui_factioncontrol_reminder_map_inactive_specific">{siegeType} Fortschritt: Der gesperrte Kontrollpunkt wird eine Stunde nach Ablauf von {siegeType2} freigeschaltet.</string>
 	<string key="ui_factioncontrol_reminder_type_war">Krieg</string>
 	<string key="ui_factioncontrol_reminder_type_invasion">Invasion</string>
@@ -14,11 +14,19 @@
 	<string key="ui_factioncontrol_status_label">Status</string>
 	<string key="ui_factioncontrol_benefits_label">Kontrollboni</string>
 	<string key="ui_factioncontrol_territory_bonuses_label">Gebietsboni</string>
+	<string key="ui_bonus_flyout_influencesection">Einfluss-Abschnitt</string>
+	<string key="ui_bonus_flyout_towermodifier">Turmmodifikator:</string>
+	<string key="ui_bonus_flyout_fortmodifier">Fortmodifikator:</string>
+	<string key="ui_bonus_flyout_underdogmodifier">Außenseitermodifikator:</string>
 	<string key="ui_factioncontrol_faction_bonuses_label">Fraktionsboni</string>
 	<string key="ui_factioncontrol_controlledby_inline">Kontrolliert von {factionName}</string>
 	<string key="ui_factioncontrol_controlledby_label">Kontrolliert von:</string>
 	<string key="ui_factioncontrol_defend_controlpoint">Verteidige den Kontrollpunkt</string>
 	<string key="ui_factioncontrol_claim_controlpoint">Beanspruche den Kontrollpunkt</string>
+	<string key="ui_influencetower_bonus">+{multiplier} %</string>
+	<string key="ui_factioncontrol_defend_influencetower" rel_version="Feature_Influence_V2">{towerName} verteidigen</string>
+	<string key="ui_factioncontrol_claim_influencetower" rel_version="Feature_Influence_V2">{towerName} abholen</string>
+	<string key="ui_factioncontrol_reminder_influencetower" rel_version="Feature_Influence_V2">Markiere dich in einer Zufluchtsstätte für PvP, um Einflusstürme zu erobern.</string>
 	<string key="ui_factioncontrol_fortcontested_announce">{fortName} wird angegriffen!</string>
 	<string key="ui_factioncontrol_ownerchange_announce">{fortName} wurde durch {factionName} beansprucht!</string>
 	<string key="ui_factioncontrol_controlpointactive_announce">{fortName} kann jetzt beansprucht werden. Erobere es für deine Fraktion!</string>
@@ -48,7 +56,7 @@
 	<string key="@ui_faction_store_discount_modifier_name">Globaler Fraktionsladen-Rabatt</string>
 	<string key="@ui_free_camping_name">Rohstoffloses Lagern</string>
 	<string key="@ui_chance_consumable_not_used_name">Verbrauchsgegenstandsbonus</string>
-	<string key="@ui_influencepoints_modifier_desc">Einflusspunkte um {value} erhöht</string>
+	<string key="@ui_influencepoints_modifier_desc">Einflusspunkte während des Einflusswettlaufs um {value} erhöht.</string>
 	<string key="@ui_experiencepoints_modifier_desc">Erfahrungspunkte um {value} erhöht</string>
 	<string key="@ui_azoth_fasttravel_generalcost_reduction_desc">Azoth-Kosten für Schnellreise um {value} gesenkt</string>
 	<string key="@ui_azoth_fasttravel_weight_reduction_desc">Gewichtskosten für Schnellreise um {value} je {scaleFactor} Gewicht gesenkt</string>
@@ -73,8 +81,8 @@
 	<string key="@ui_faction_store_discount_modifier_desc">Verringert die Gegenstandskosten im Fraktionsladen um {value}.</string>
 	<string key="@ui_free_camping_desc">Lagern kostet keine Rohstoffe mehr.</string>
 	<string key="@ui_chance_consumable_not_used_desc">Erhöht die Wahrscheinlichkeit, dass ein Verbrauchsgegenstand bei Verwendung nicht verbraucht wird, um {value}.</string>
-	<string key="@ui_fcp_crowdcontrol_qualified_warning">Es befinden sich zu viele Spieler aus deiner Fraktion im Fort. Teleportation in {TeleportSeconds} Sekunden.</string>
-	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Es befinden sich zu viele Spieler im Fort. Teleportation in {TeleportSeconds} Sekunden.</string>
+	<string key="@ui_fcp_crowdcontrol_qualified_warning">Es befinden sich zu viele markierte Spieler oder Spieler aus deiner Fraktion im Bereich des Fraktionskontrollpunkts. Teleportation in {TeleportSeconds} Sekunden.</string>
+	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Es befinden sich zu viele Spieler im Bereich des Fraktionskontrollpunkts. Teleportation in {TeleportSeconds} Sekunden.</string>
 	<string key="@ui_fcp_fast_travel_discounts_title">Fraktionskontrolle-Rabatte</string>
 	<string key="@ui_fcp_faction_mission_bonus_label">(+{value} vom FKR)</string>
 </resources>
