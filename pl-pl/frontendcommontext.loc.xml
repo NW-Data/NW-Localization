@@ -138,6 +138,7 @@
 	<string key="mm_invalidname_corrupt">To imię zawiera nieprawidłowe znaki.</string>
 	<string key="mm_invalidname_badwords">Nie można użyć tej nazwy.</string>
 	<string key="mm_invalidname_multiplespaces">To imię zawiera kilka spacji z rzędu.</string>
+	<string key="mm_rename_throttled">Nazwa odrzucona, spróbuj ponownie później.</string>
 	<string key="mm_invalidname_unknown">Nie można użyć tej nazwy.</string>
 	<string key="mm_csdkerr_early_message">Rejestracja połączenia nie dotarła na czas</string>
 	<string key="mm_csdkerr_multiple_registration">Niejednoznaczne połączenie z serwerem.</string>
@@ -167,7 +168,7 @@
 	<string key="mm_rejected_Capitals_Not_Ready">Serwer nie jest gotowy: trwa budowanie baz.</string>
 	<string key="mm_rejected_Duplicate_Connection">Gracz jest już połączony.</string>
 	<string key="mm_rejected_No_Persistence_Spawner">Serwer nie jest jeszcze gotowy do przyjęcia graczy. Ponawianie…</string>
-	<string key="mm_rejected_Character_Restore_Failure">Błąd serwera: nie udało się przywrócić postaci.</string>
+	<string key="mm_rejected_Character_Restore_Failure">Twoje dane są obecnie niedostępne.\nSpróbuj ponownie za kilka minut.</string>
 	<string key="mm_rejected_Character_Persist_Failure">Błąd serwera: nie udało się utrzymać postaci.</string>
 	<string key="mm_rejected_Character_Service_Failure">Błąd serwera: nie udało się wczytać danych postaci.</string>
 	<string key="mm_rejected_Character_Already_Exists">Błąd serwera: postać już istnieje.</string>
@@ -175,7 +176,7 @@
 	<string key="mm_rejected_Character_Registry_Failure">Błąd serwera: nie udało się zarejestrować postaci.</string>
 	<string key="mm_rejected_Grid_Too_Busy">Błąd serwera: region jest niedostępny z powodu zbyt dużej aktywności. Spróbuj ponownie później.</string>
 	<string key="mm_rejected_No_Ghost_Client">Błąd serwera: nie udało się rozpocząć replikacji.</string>
-	<string key="mm_rejected_Server_Crash">Utracono połączenie z serwerem, spróbuj ponownie później.</string>
+	<string key="mm_rejected_Server_Crash">Utracono połączenie z serwerem. Trwa ponowne łączenie…</string>
 	<string key="mm_rejected_Free_Session_Expired_Title">Darmowy czas rozgrywki wygasł.</string>
 	<string key="mm_rejected_Free_Session_Expired">Skończył się darmowy czas twojej rozgrywki. Naciśnij "OK", aby powrócić do menu głównego.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">Zgłoszenie logowania nie jest prawidłowe dla świata</string>
@@ -207,6 +208,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Problem z płatnością</string>
 	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Nie możemy zapewnić ci dostępu z twojej obecnej lokalizacji.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Wyrzucono cię z gry.</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Twoja postać jest obecnie zablokowana. &lt;font color="#0000ff"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Kup rozszerzenie.&lt;/a&gt;&lt;/font&gt;</string>
 	<string key="mm_authresult_Authorized">Sukces</string>
 	<string key="mm_characterCreateDisabled">Tworzenie postaci zostało tymczasowo wyłączone – ten świat jest pełny. Wybierz inny świat.</string>
 	<string key="mm_characterTransferDisabled">Przenoszenie postaci jest aktualnie niedostępne, ponieważ ten świat jest pełny. Wybierz inny świat.</string>
@@ -238,7 +240,7 @@
 	<string key="mm_queuewithestimate">Szacowany czas: {time}\nMiejsce w kolejce: {rank}\n{status}</string>
 	<string key="mm_queuewithcappedestimate">Szacowany czas: &gt;{time}\nMiejsce w kolejce: {rank}\n{status}</string>
 	<string key="mm_queueestimateunknown">Szacowany czas: nieznany\nMiejsce w kolejce: nieznane\n{status}</string>
-	<string key="mm_queuepopuptitle">Oczekiwanie na zalogowanie...</string>
+	<string key="mm_queuepopuptitle">Logowanie...</string>
 	<string key="mm_queuejoinfailed">Zalogowanie niemożliwe z powodu zbyt dużej liczby oczekujących graczy. Spróbuj ponownie później.</string>
 	<string key="mm_queuerefresherror">Błąd połączenia z kolejką logowania. Ponawianie...</string>
 	<string key="mm_server_message_title">Komunikat serwera</string>
@@ -307,6 +309,7 @@
 	<string key="ui_bio">Biografia</string>
 	<string key="ui_attributes">Cechy</string>
 	<string key="ui_trade_skills">Profesje</string>
+	<string key="ui_trade_skill">Profesja</string>
 	<string key="ui_how_it_works">Jak to działa?</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
 	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">Ścieżka PvP</string>
@@ -456,11 +459,20 @@
 	<string key="ui_fishing_equip_action">Tryb wędkowania</string>
 	<string key="ui_fishing_action">Zarzuć / Złap / Zwiń</string>
 	<string key="ui_fishing_reset_action">Resetuj rzucanie / Przerwij</string>
+	<string key="ui_riding" rel_version="Feature_Mounts">Jazda</string>
 	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Muzyka</string>
 	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Tryb występu</string>
 	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Graj</string>
 	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Wybór piosenki</string>
 	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Zaproś</string>
+	<string key="ui_performances_notes" rel_version="Feature_MusicalPerformances">Nuty utworu muzycznego</string>
+	<string key="ui_performances_note_up" rel_version="Feature_MusicalPerformances">Nuta w górę</string>
+	<string key="ui_performances_note_down" rel_version="Feature_MusicalPerformances">Nuta w dół</string>
+	<string key="ui_performances_note_left" rel_version="Feature_MusicalPerformances">Nuta w lewo</string>
+	<string key="ui_performances_note_right" rel_version="Feature_MusicalPerformances">Nuta w prawo</string>
+	<string key="ui_performances_note_bottom" rel_version="Feature_MusicalPerformances">Nuta dolna</string>
+	<string key="ui_performances_chord_1" rel_version="Feature_MusicalPerformances">1. nuta akordu</string>
+	<string key="ui_performances_chord_2" rel_version="Feature_MusicalPerformances">2. nuta akordu</string>
 	<string key="ui_camping">Biwakowanie</string>
 	<string key="ui_tracking">Już wkrótce</string>
 	<string key="ui_exploring">Już wkrótce</string>
@@ -505,6 +517,7 @@
 	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit faktorii drwalskiej</string>
 	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit faktorii żniwiarskiej</string>
 	<string key="ui_musician_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Limit muzyków</string>
+	<string key="ui_riding_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_Mounts">Limit faktorii jeździeckiej</string>
 	<string key="ui_seasonpass" rel_version="Feature_Seasons_Rewards">Przepustka sezonowa</string>
 	<string key="ui_decline">Odrzuć</string>
 	<string key="ui_name_your_avatar">Imię postaci</string>
@@ -613,5 +626,7 @@
 	<string key="ui_season_track_reward" rel_version="Feature_Seasons_Rewards">Nieodebrane nagrody</string>
 	<string key="error_cross_world_maintenance_title">Konserwacja serwera</string>
 	<string key="error_cross_world_maintenance_message">Przeniesiono cię do otwartego świata z powodu konserwacji serwera.</string>
+	<string key="tradeskill_skillcap_info">Maksymalny poziom profesji: {maxRank}</string>
+	<string key="tradeskill_skillcap_tooltip">{expansionName} – zakup, by podnieść maksymalny poziom profesji do {maxRank}.</string>
 </resources>
 

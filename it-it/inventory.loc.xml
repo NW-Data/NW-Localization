@@ -25,6 +25,7 @@
 	<string key="inv_outpostrush">Carica all'avamposto</string>
 	<string key="inv_pvparenas">Arene PvP</string>
 	<string key="inv_runes" rel_version="Feature_Heartgems">Rune</string>
+	<string key="inv_mountitem" rel_version="Feature_Mounts">Cavalcature</string>
 	<string key="inv_crafting_modifiers">Modificatori</string>
 	<string key="inv_repair_kit_count">Kit di riparazione: {count}</string>
 	<string key="inv_repair_kits">Kit di riparazione</string>
@@ -100,6 +101,7 @@
 	<string key="inv_repairparts_onlyrepairparts">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio.</string>
 	<string key="inv_repairparts_onlyrepairparts_withcoin">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio e {coinAmount}.</string>
 	<string key="inv_coin_atlimit">&lt;font color="#f25d5d"&gt;Hai raggiunto il limite massimo di monete.&lt;/font&gt;</string>
+	<string key="inv_notification_cannot_use_during_combat">Impossibile usare i consumabili nell'inventario durante il combattimento! Equipaggiali nei Comandi rapidi</string>
 	<string key="salvage_notification_obtained_1">Hai ottenuto: {entry1}</string>
 	<string key="salvage_notification_obtained_2">Hai ottenuto: {entry1} e {entry2}</string>
 	<string key="salvage_notification_obtained_3">Hai ottenuto: {entry1}, {entry2} e {entry3}</string>
@@ -167,13 +169,15 @@
 	<string key="ui_sort_gearscore_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordina per &lt;font color="#ebe3d6"&gt;punteggio attrezzatura:&lt;/font&gt;&lt;/font&gt; Basso - Alto</string>
 	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordina per &lt;font color="#ebe3d6"&gt;Più recente&lt;/font&gt;&lt;/font&gt; Più recente - Meno recente</string>
 	<string key="ui_sort_chrono_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordina per &lt;font color="#ebe3d6"&gt;Più recente&lt;/font&gt;&lt;/font&gt; Meno recente - Più recente</string>
-	<string key="inv_equipmentstatrow_modifiertemplate">({baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;)</string>
-	<string key="ui_attributemodifier_pending_value">(+{pendingValue})</string>
-	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue} {attributeName}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Assegnati: {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Equipaggiamento: {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Potenziamenti oggetto: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;In attesa: {value}&lt;/font&gt;</string>
+	<string key="inv_equipmentstatrow_modifiertemplate">{baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_pending_value">+{pendingValue}</string>
+	<string key="ui_attributemodifier_pending_value_max">+{pendingValue} | MAX</string>
+	<string key="ui_attributemodifier_at_max">MAX: {baseValue}</string>
+	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={colorAttributeMax}&gt;/{attributeMax}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Assegnati: {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Equipaggiamento: {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Potenziamenti oggetto: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;In attesa: {value}&lt;/font&gt;</string>
 	<string key="ui_attributemodifier_required_points">Punti richiesti:</string>
 	<string key="ui_physical_defense_short">DIF</string>
 	<string key="ui_physical_defense_full">Resistenza ai danni fisici</string>
@@ -226,6 +230,7 @@
 	<string key="loadout_notification_itemadd_failure_existing_slot" rel_version="Feature_Gear_Set_Storage">Impossibile aggiungere l'oggetto a: {loadoutName} (si trova già in questo slot).</string>
 	<string key="loadout_notification_itemaddall_success" rel_version="Feature_Gear_Set_Storage">Oggetto aggiunto a tutti i set attrezzatura</string>
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Impossibile aggiungere l'oggetto a tutti i set attrezzatura</string>
+	<string key="loadout_notification_add_artifact_to_loadout_failure" rel_version="Feature_Artifacts">Impossibile aggiungere il manufatto al Set attrezzatura; è possibile avere solo 1 manufatto per ogni tipo di oggetto nel Set attrezzatura.</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Devi aspettare {timeRemaining} per poter cambiare set attrezzatura</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Set attrezzatura disponibili!\nCrea e cambia rapidamente set attrezzatura per qualsiasi attività.</string>
 	<string key="loadout_notification_itemremove_space_failure" rel_version="Feature_Gear_Set_Storage">Impossibile rimettere nell'inventario gli oggetti del set attrezzatura in quanto lo spazio non è sufficiente.</string>
@@ -241,6 +246,11 @@
 	<string key="ui_effect_failed_MultipleFromSource">Impossibile applicare effetti ridondanti</string>
 	<string key="ui_effect_failed_AntirequisiteActive">Impossibile applicare a causa di un effetto in conflitto: {competingEffect}</string>
 	<string key="ui_effect_failed_AntirequisiteActive_Multiple">Impossibile applicare a causa di più effetti in conflitto</string>
+	<string key="ui_effect_failed_NotMounted" rel_version="Feature_Mounts">Impossibile applicare l'effetto a cavallo</string>
 	<string key="ui_effect_failed_Success">Effetto disponibile</string>
+	<string key="perktooltips_stacks">Accumuli vantaggio </string>
+	<string key="perktooltips_stacks_over_limit">(oltre il massimo)</string>
+	<string key="perktooltips_stacks_over_limit_disabled">(disattivato)</string>
+	<string key="perktooltips_max_stacks">Accumuli massimi vantaggio: </string>
 </resources>
 

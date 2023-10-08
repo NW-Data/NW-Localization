@@ -110,6 +110,9 @@
 	<string key="owg_factionwarinfo_title_5_desc_4_bullet_1" rel_version="PvP_Rewards_Track">Wähle aus einzigartigen Belohnungen aus, darunter prestigeträchtige Rüstungen und Waffen, Emotes, Währung und Verbrauchsgegenstände.</string>
 	<string key="owg_failure_warning">Wenn du die Mission abbrichst oder du daran scheiterst, verlierst du {amount}x "{guildName}"-Marken.</string>
 	<string key="owg_guildreputation_name">{guildName}-Ansehen</string>
+	<string key="owg_guildreputation_next">zum nächsten Rang</string>
+	<string key="owg_guildreputation_next_tooltip">Absolviere die Aufgabe zum Fraktionsaufstieg, um den nächsten Rang freizuschalten.</string>
+	<string key="owg_guildreputation_next_tooltip_61">Absolviere die Aufgabe zum Fraktionsaufstieg auf Stufe 61, um den nächsten Rang freizuschalten.</string>
 	<string key="owg_guildcurrency_name">"{guildName}"-Marken</string>
 	<string key="owg_guildcurrency">Marken</string>
 	<string key="owg_guildreputation">Ansehen</string>
@@ -144,17 +147,20 @@
 	<string key="owg_rank_explorer_3">Excubitor</string>
 	<string key="owg_rank_explorer_4">Luminus</string>
 	<string key="owg_rank_explorer_5">Richter</string>
+	<string key="owg_rank_explorer_6" rel_version="FactionShop_V3">Paladin</string>
 	<string key="owg_rank_merchant_1">Adept</string>
 	<string key="owg_rank_merchant_2">Skriptor</string>
 	<string key="owg_rank_merchant_3">Chronist</string>
 	<string key="owg_rank_merchant_4">Kabbalist</string>
 	<string key="owg_rank_merchant_5">Alchemist</string>
+	<string key="owg_rank_merchant_6" rel_version="FactionShop_V3">Magus</string>
 	<string key="owg_rank_number">Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{rank}&lt;/font&gt;</string>
 	<string key="owg_rank_procurer_1">Soldat</string>
 	<string key="owg_rank_procurer_2">Gladiator</string>
 	<string key="owg_rank_procurer_3">Verheerer</string>
 	<string key="owg_rank_procurer_4">Zerstörer</string>
 	<string key="owg_rank_procurer_5">Kommandant</string>
+	<string key="owg_rank_procurer_6" rel_version="FactionShop_V3">Marschall</string>
 	<string key="owg_rank_unaffiliated">Fraktionslos</string>
 	<string key="owg_rank_unlock_tooltip">Du musst alle Anforderungen erfüllen, um den nächsten Rang freizuschalten.</string>
 	<string key="owg_rank_unlocked">Rang {rankName} freigeschaltet!</string>
@@ -551,5 +557,20 @@
 	<string key="ui_cant_switch_faction_incompany" rel_version="Feature_Unfactioned_Company_Members">Du bist derzeit in einer Kompanie, die mit einer anderen Fraktion verbündet ist. Wenn du fortfährst, wirst du aus dieser Kompanie entfernt.\n\nDu kannst nur einer Kompanie beitreten, die derselben Fraktion angehört. Wenn du für PvP markiert bist, kannst du dich nur mit Spielern aus derselben Fraktion zu einer Gruppe zusammenschließen. Vor dem Beitritt solltest du dich vergewissern, für welche Fraktionen sich deine Freunde entschieden haben.\n\nDeine Entscheidung ist nicht endgültig – du kannst deine Fraktion einmal im Biographie-Menü wechseln. Danach kannst du sie alle &lt;font color="#FFD45F"&gt;60 Tage&lt;/font&gt; erneut wechseln.</string>
 	<string key="ui_join">Beitreten</string>
 	<string key="ui_faction_join_restrictions">Du kannst alle 60 Tage die Fraktion wechseln und nur einer Kompanie beitreten, die deiner Fraktion angehört.</string>
+	<string key="no_upcoming_conflicts_all" rel_version="Feature_Influence_V2">Derzeit sind in dieser Welt keine bevorstehenden Konflikte geplant.</string>
+	<string key="pvp_mission_disabled_no_conflict" rel_version="Feature_Influence_V2">PvP-Missionen werden verfügbar, sobald ein geplanter Krieg, eine Invasion oder ein Wettlauf beginnt.</string>
+	<string key="influence_race_scheduled_title" rel_version="Feature_Influence_V2">EINFLUSSWETTLAUF GEPLANT</string>
+	<string key="influence_race_schedule_info" rel_version="Feature_Influence_V2">In "{territoryName}" findet ein geplanter Einflusswettlauf am \n{date}, {startTime}–{endTime} statt.</string>
+	<string key="influence_race_scheduled_multiple" rel_version="Feature_Influence_V2">In den folgenden Gebieten sind Einflusswettläufe geplant:\n{territoryNameList}.</string>
+	<string key="influence_race_upcoming_title" rel_version="Feature_Influence_V2">EINFLUSSWETTLAUF STARTET BALD</string>
+	<string key="influence_race_upcoming_info" rel_version="Feature_Influence_V2">Der Einflusswettlauf in "{territoryName}" läuft von {startTime} bis {endTime}.</string>
+	<string key="influence_race_upcoming_multiple" rel_version="Feature_Influence_V2">In den folgenden Gebieten beginnen demnächst Einflusswettläufe: \n{territoryNameList}.</string>
+	<string key="influence_race_starting_title" rel_version="Feature_Influence_V2">EINFLUSSWETTLAUF</string>
+	<string key="influence_race_starting_info" rel_version="Feature_Influence_V2">Der Einflusswettlauf in "{territoryName}" beginnt jetzt!</string>
+	<string key="influence_race_starting_multiple" rel_version="Feature_Influence_V2">In den folgenden Gebieten haben Einflusswettläufe begonnen:\n{territoryNameList}.</string>
+	<string key="influence_race_ended_title" rel_version="Feature_Influence_V2">EINFLUSSWETTLAUF BEENDET</string>
+	<string key="influence_race_ended_info" rel_version="Feature_Influence_V2">Schau dir die Ergebnisse für deine Fraktion und deine Kompanie an.</string>
+	<string key="influence_race_countdown_title" rel_version="Feature_Influence_V2">Einflusswettlauf-Countdown:</string>
+	<string key="influence_race_countdown_body" rel_version="Feature_Influence_V2">PvP-Missionen können nicht angenommen oder abgeschlossen werden, bis der Einflusswettlauf beginnt.</string>
 </resources>
 

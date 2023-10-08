@@ -220,6 +220,13 @@
 	<string key="ui_guild">Compagnie</string>
 	<string key="ui_war_declared_chat_notification">{guild1} déclare la guerre à : {guild2}, pour le contrôle de : {territoryName} !</string>
 	<string key="ui_war_extended_chat_notification">La guerre entre {guild1} et {guild2} est reconduite !</string>
+	<string key="ui_influence_race_contribution_threshold_crossed">Votre compagnie a gagné suffisamment d'influence pour déclarer la guerre à {territoryName} si votre faction remporte la Course d'influence.</string>
+	<string key="ui_influence_race_scheduled">Une Course d'influence a été programmée sur le territoire {territoryName}.</string>
+	<string key="ui_influence_race_started">Une Course d'influence a débuté sur le territoire {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction1">L'Ombre a remporté la Course d'influence sur le territoire {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction2">Les Maraudeurs ont remporté la Course d'influence sur le territoire {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction3">Les Engagés ont remporté la Course d'influence sur le territoire {territoryName}.</string>
+	<string key="ui_influence_race_ended_nowinner">La Course d'influence a pris fin sur le territoire {territoryName}.</string>
 	<string key="ui_active_conquest">Conquête en cours</string>
 	<string key="ui_conquest_in">Début de la conquête dans</string>
 	<string key="ui_online_num">{Num} en ligne</string>
@@ -344,7 +351,7 @@
 	<string key="ui_waypoint_set_to_ping">Point de passage défini sur une indication</string>
 	<string key="ui_chat_name_raid">Assaut</string>
 	<string key="ui_chat_name_raid_upper">ASSAUT</string>
-	<string key="ui_error_raidchat" comment="An error when you try to talk in raid chat">Vous n'êtes pas dans une armée.</string>
+	<string key="ui_error_raidchat" comment="An error when you try to talk in raid chat">Vous n'êtes pas dans un raid.</string>
 	<string key="ui_error_guildchat" comment="An error when you try to talk in guild chat">Vous ne faites pas partie d'une compagnie.</string>
 	<string key="ui_notification_pvp_enabled">Mode JcJ activé.</string>
 	<string key="ui_notification_pvp_flagged">En mode JcJ.</string>
@@ -438,6 +445,9 @@
 	<string key="ui_subarmy_decline_tooltip">Vous avez refusé de rejoindre l'armée d'abonnés du streameur.</string>
 	<string key="ui_subarmy_waiting">En attente de l'autorisation du streameur...</string>
 	<string key="ui_subarmy_pending">En attente...</string>
+	<string key="group_member_cannot_join_expedition">{playerName} n'est pas en mesure de pénétrer dans cette expédition.</string>
+	<string key="self_cannot_join_expedition">Impossible de rejoindre l'expédition</string>
+	<string key="required_level_warning">Nécessite le niveau {level}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Trouver un groupe</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Mon salon</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Créer un salon</string>
@@ -496,7 +506,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Votre mode JcJ ne correspond pas au salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">Vous devez être dans la même faction pour un salon JcJ.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Les conditions d'entrée dans le salon ont changé et vous n'y répondez pas.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Erreur de filtre de discussion. Veuillez mettre à jour votre texte et réessayer.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Your Lobby Description contained profanity or prohibited words, please try again.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Vous ne pouvez pas envoyer plus de requêtes.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Salon plein</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} a décliné la vérification.</string>
@@ -570,7 +580,6 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Ouvrir l'expédition avec votre groupe</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_probation">Votre compte doit avoir au moins {accountProbationTimeRequired} au compteur, avec un temps de jeu doit être supérieur à {characterProbationTimeRequired} pour créer un salon.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Vous devez d'abord déverrouiller ce niveau de difficulté pour créer un nouveau salon.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Refuser</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invitation acceptée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invitation refusée</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Invitation refusée. Joueur déjà dans le salon.</string>
@@ -639,6 +648,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Votre niveau : {level}\nLe niveau minimum ne peut pas être supérieur à votre niveau.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Votre score d'équipement : {gearscore}\nLe score d'équipement minimum ne peut pas être supérieur à votre score d'équipement.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">« {text} »</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_invalid_characters">Character not allowed in the Lobby Description</string>
 	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Salon</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Salons</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">Il y a {time}</string>

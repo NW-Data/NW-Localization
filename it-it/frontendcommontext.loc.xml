@@ -138,6 +138,7 @@
 	<string key="mm_invalidname_corrupt">Questo nome contiene caratteri non validi.</string>
 	<string key="mm_invalidname_badwords">Questo nome non può essere utilizzato.</string>
 	<string key="mm_invalidname_multiplespaces">Questo nome contiene più spazi consecutivi.</string>
+	<string key="mm_rename_throttled">Denominazione limitata, riprova più tardi.</string>
 	<string key="mm_invalidname_unknown">Questo nome non può essere utilizzato.</string>
 	<string key="mm_csdkerr_early_message">La registrazione della connessione non è arrivata in tempo</string>
 	<string key="mm_csdkerr_multiple_registration">La connessione al server è ambigua.</string>
@@ -167,7 +168,7 @@
 	<string key="mm_rejected_Capitals_Not_Ready">Server non pronto: Basi in costruzione.</string>
 	<string key="mm_rejected_Duplicate_Connection">Il giocatore è già connesso.</string>
 	<string key="mm_rejected_No_Persistence_Spawner">Il server non è ancora pronto per i giocatori. Nuovo tentativo in corso...</string>
-	<string key="mm_rejected_Character_Restore_Failure">Errore del server: Ripristino del personaggio non riuscito.</string>
+	<string key="mm_rejected_Character_Restore_Failure">I tuoi dati non sono attualmente disponibili.\nRiprova tra qualche minuto.</string>
 	<string key="mm_rejected_Character_Persist_Failure">Errore del server: Persistenza del personaggio non riuscita.</string>
 	<string key="mm_rejected_Character_Service_Failure">Errore del server: Caricamento del personaggio non riuscito.</string>
 	<string key="mm_rejected_Character_Already_Exists">Errore del server: Il personaggio esiste già.</string>
@@ -175,7 +176,7 @@
 	<string key="mm_rejected_Character_Registry_Failure">Errore del server: Errore nella registrazione del personaggio.</string>
 	<string key="mm_rejected_Grid_Too_Busy">Errore del server: La regione è troppo occupata, riprova più tardi.</string>
 	<string key="mm_rejected_No_Ghost_Client">Errore del server: Avvio copia non riuscito.</string>
-	<string key="mm_rejected_Server_Crash">Inattesa perdita di connessione con il server di gioco, riprova più tardi.</string>
+	<string key="mm_rejected_Server_Crash">Perdita di connessione con il server di gioco inaspettata. Riconnessione in corso...</string>
 	<string key="mm_rejected_Free_Session_Expired_Title">Il tempo a disposizione per il gioco gratuito è scaduto.</string>
 	<string key="mm_rejected_Free_Session_Expired">Il tempo a tua disposizione per il gioco gratuito è terminato. Fai clic su Ok per tornare al Menu.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">Il ticket di accesso non è valido per il mondo</string>
@@ -207,6 +208,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Problema con il pagamento</string>
 	<string key="mm_rejected_Client_Kicked_Embargoed_Country">Non è possibile accedere dalla tua posizione attuale.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Sei stato espulso dal gioco.</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Al momento il tuo personaggio è bloccato. &lt;font color="#0000ff"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Acquista espansione.&lt;/a&gt;&lt;/font&gt;</string>
 	<string key="mm_authresult_Authorized">Successo</string>
 	<string key="mm_characterCreateDisabled">La creazione dei personaggi è temporaneamente disabilitata perché questo mondo è pieno. Prova su un altro mondo.</string>
 	<string key="mm_characterTransferDisabled">I trasferimenti dei personaggi sono temporaneamente disabilitati perché questo mondo è pieno. Prova su un altro mondo.</string>
@@ -307,6 +309,7 @@
 	<string key="ui_bio">Biografia</string>
 	<string key="ui_attributes">Attributi</string>
 	<string key="ui_trade_skills">Competenze</string>
+	<string key="ui_trade_skill">Competenza</string>
 	<string key="ui_how_it_works">Come funziona</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">PvP</string>
 	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">Percorso PvP</string>
@@ -456,11 +459,20 @@
 	<string key="ui_fishing_equip_action">Modalità Pesca</string>
 	<string key="ui_fishing_action">Lancia / Cattura / Avvolgi</string>
 	<string key="ui_fishing_reset_action">Lancia di nuovo / Termina</string>
+	<string key="ui_riding" rel_version="Feature_Mounts">Equitazione</string>
 	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Musica</string>
 	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Modalità Esibizione</string>
 	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Suona</string>
 	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Selezione brano</string>
 	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Invita</string>
+	<string key="ui_performances_notes" rel_version="Feature_MusicalPerformances">Note traccia musicale</string>
+	<string key="ui_performances_note_up" rel_version="Feature_MusicalPerformances">Nota su</string>
+	<string key="ui_performances_note_down" rel_version="Feature_MusicalPerformances">Nota giù</string>
+	<string key="ui_performances_note_left" rel_version="Feature_MusicalPerformances">Nota sinistra</string>
+	<string key="ui_performances_note_right" rel_version="Feature_MusicalPerformances">Nota destra</string>
+	<string key="ui_performances_note_bottom" rel_version="Feature_MusicalPerformances">Nota fondo</string>
+	<string key="ui_performances_chord_1" rel_version="Feature_MusicalPerformances">Nota 1° accordo</string>
+	<string key="ui_performances_chord_2" rel_version="Feature_MusicalPerformances">Nota 2° accordo</string>
 	<string key="ui_camping">Accampamento</string>
 	<string key="ui_tracking">Prossimamente</string>
 	<string key="ui_exploring">Prossimamente</string>
@@ -505,6 +517,7 @@
 	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Logging Post Cap</string>
 	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Harvesting Post Cap</string>
 	<string key="ui_musician_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Musician Post Cap</string>
+	<string key="ui_riding_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_Mounts">Riding Post Cap</string>
 	<string key="ui_seasonpass" rel_version="Feature_Seasons_Rewards">Pass stagionale</string>
 	<string key="ui_decline">Rifiuta</string>
 	<string key="ui_name_your_avatar">Nome personaggio</string>
@@ -613,5 +626,7 @@
 	<string key="ui_season_track_reward" rel_version="Feature_Seasons_Rewards">Ricompense non riscosse</string>
 	<string key="error_cross_world_maintenance_title">Manutenzione del server</string>
 	<string key="error_cross_world_maintenance_message">Ti abbiamo spostato nel mondo aperto per manutenzione del server.</string>
+	<string key="tradeskill_skillcap_info">Livello massimo Competenza: {maxRank}</string>
+	<string key="tradeskill_skillcap_tooltip">Acquista {expansionName} per aumentare il livello massimo della Competenza a {maxRank}.</string>
 </resources>
 

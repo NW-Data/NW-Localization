@@ -55,6 +55,7 @@
 	<string key="objective_darkness_task_complete_waves_desc" speaker="UI">Sconfiggi {targetAmount} ondata di nemici.</string>
 	<string key="objective_darkness_task_complete_waves_desc_p" speaker="UI">Sconfiggi {targetAmount} ondate di nemici.</string>
 	<string key="objective_darkness_task_kill_enemies_desc" speaker="UI">Uccidi {targetAmount} {targetName}</string>
+	<string key="objective_darkness_task_kill_enemies_territory_desc" speaker="UI">Uccidi {targetAmount} {targetName} presso: {territoryID}.</string>
 	<string key="objective_darkness_task_kill_enemies_desc_p" speaker="UI">Uccidi: {targetName} (x{targetAmount}).</string>
 	<string key="objective_darkness_task_major_corrupted_portal_container_desc" speaker="UI">Impedisci agli accoliti corrotti di aprire il portale.</string>
 	<string key="objective_destination_distance" speaker="UI">DESTINAZIONE ({distance})</string>
@@ -90,6 +91,8 @@
 	<string key="objective_seasonquest_desc" speaker="UI">Obiettivi della storia stagionale</string>
 	<string key="objective_skillprogression" speaker="UI">Avanzamento competenze</string>
 	<string key="objective_skillprogression_desc" speaker="UI">Obiettivi di avanzamento competenze</string>
+	<string key="objective_mountquest" speaker="UI">Missione per cavalcatura</string>
+	<string key="objective_mountquest_desc" speaker="UI">Obiettivi di cavalcatura</string>
 	<string key="objective_epicequipment" speaker="UI">Equipaggiamento epico</string>
 	<string key="objective_epicequipment_desc" speaker="UI">Missioni per equipaggiamento epico</string>
 	<string key="objective_kill" speaker="UI">Uccidi: {enemy}</string>
@@ -113,6 +116,7 @@
 	<string key="objective_mission_task_desc_return_to_giver_cm" speaker="UI">Porta a termine presso il tabellone Progetto cittadino di: {destinationName}</string>
 	<string key="objective_mission_task_desc_return_to_giver" speaker="UI">Porta a termine presso il rappresentante della fazione di: {destinationName}</string>
 	<string key="objective_mission_task_desc_return_to_any_giver" speaker="UI">Porta a termine presso un qualsiasi rappresentante della fazione</string>
+	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Esci dall'istanza per completare l'incarico</string>
 	<string key="objective_mission_task_explore_POITag" speaker="UI">Esplora {POITags}</string>
 	<string key="objective_mission_task_explore_the_POITag" speaker="UI">Esplora {POITags}</string>
 	<string key="objective_mission_task_goto_Map_Location" speaker="UI">Perlustra il relitto segnato sulla mappa</string>
@@ -173,6 +177,7 @@
 	<string key="objective_faction_story_quest" speaker="UI">Missione della storia della fazione</string>
 	<string key="objective_season_quest" speaker="UI">Missione della storia stagionale</string>
 	<string key="objective_skill_progression_quest" speaker="UI">Missione per l'avanzamento competenze</string>
+	<string key="objective_mount_quest" speaker="UI">Missione per cavalcatura</string>
 	<string key="objective_side_quests" speaker="UI">Missioni secondarie</string>
 	<string key="objective_event" speaker="UI">Missioni evento</string>
 	<string key="objective_event_desc" speaker="UI">Missioni disponibili durante un evento</string>
@@ -198,6 +203,8 @@
 	<string key="objective_recipetemplate" comment="How recipe names show in the HUD. Use {title} for the item name" speaker="UI">Ricetta per: {title}</string>
 	<string key="objective_recipe_abandontitle">Abbandona la ricetta</string>
 	<string key="objective_recipe_abandonbody">Vuoi davvero abbandonare la ricetta attuale?</string>
+	<string key="objective_artifacts" rel_version="Feature_Artifacts" speaker="UI">Manufatti</string>
+	<string key="objective_artifacts_desc" rel_version="Feature_Artifacts" speaker="UI">Ottenuti tramite i manufatti attivi.</string>
 	<string key="objective_subtitle_locationwithcolor" speaker="UI">&lt;font color={color}&gt;{territoryName}&lt;/font&gt;</string>
 	<string key="objective_subtitle_locationanddifficulty" speaker="UI">{territory} - {difficulty}</string>
 	<string key="objective_recommendedgroup" speaker="UI">Gruppo {group}</string>
@@ -310,6 +317,63 @@
 	<string key="objective_mission_boatencounter_obj_title" rel_version="Quest_MSQ2_Revamp">Distruggi l'imbarcazione</string>
 	<string key="objective_mission_boatencounter_obj_desc" rel_version="Quest_MSQ2_Revamp">Fai fuoco con i cannoni</string>
 	<string key="objective_available">Disponibile</string>
+	<string key="objective_mission_faction_darkness_hunt" rel_version="Territory_FirstLight">Completa la Caccia all'oscurità</string>
+	<string key="objective_mission_faction_timetrial_gimmick" rel_version="Territory_FirstLight">Completa la Prova del tempo di Azoth</string>
 	<string key="ui_show_available_objectives">Mostra disponibili</string>
+	<string key="objective_timetrial_completed" speaker="UI">Prova a tempo completata!</string>
+	<string key="objective_timetrial_failed" speaker="UI">Prova a tempo non completata</string>
+	<string key="objective_timetrial_timeLeft" speaker="UI">Tempo rimanente: {secondsAdded} secondi</string>
+	<string key="objective_timetrial_addTime" speaker="UI">{secondsAdded} secondi</string>
+	<string key="objective_multiple_active_races" speaker="UI">Può essere attiva solo una gara alla volta</string>
+	<string key="objective_artifact_equip_to_view" rel_version="Feature_Artifacts">Equipaggia il manufatto per visualizzare gli obiettivi.</string>
+	<string key="objective_artifact_max_reminder" rel_version="Feature_Artifacts">Troppi obiettivi dei manufatti in corso. Abbandona un obiettivo in corso per iniziarne un altro.</string>
+	<string key="objective_artifact_equip_reminder" rel_version="Feature_Artifacts">Quando equipaggiato:</string>
+	<string key="Objective_Artifact_PerkTasks" rel_version="Feature_Expansion_1">Ogni incarico sblocca un vantaggio</string>
+	<string key="Objective_Artifact_Desc" rel_version="Feature_Expansion_1">Completa gli incarichi seguenti per migliorare questo manufatto</string>
+	<string key="Objective_Artifact_Set1_HeavyHead" rel_version="Feature_Expansion_1">Manufatto: Elmo inflessibile</string>
+	<string key="Objective_Artifact_Set1_HeavyChest" rel_version="Feature_Expansion_1">Manufatto: Piastra oscura del Vuoto</string>
+	<string key="Objective_Artifact_Set1_HeavyHands" rel_version="Feature_Expansion_1">Manufatto: Guanti magnetici</string>
+	<string key="Objective_Artifact_Set1_HeavyLegs" rel_version="Feature_Expansion_1">Manufatto: Brache della libertà</string>
+	<string key="Objective_Artifact_Set1_MediumHead" rel_version="Feature_Expansion_1">Manufatto: Fascia cranica</string>
+	<string key="Objective_Artifact_Set1_MediumChest" rel_version="Feature_Expansion_1">Manufatto: Giacca agile</string>
+	<string key="Objective_Artifact_Set1_MediumHands" rel_version="Feature_Expansion_1">Manufatto: Guanti demoniaci</string>
+	<string key="Objective_Artifact_Set1_MediumLegs" rel_version="Feature_Expansion_1">Manufatto: Pantaloni della sintonia</string>
+	<string key="Objective_Artifact_Set1_LightHead" rel_version="Feature_Expansion_1">Manufatto: Cappello da stregone</string>
+	<string key="Objective_Artifact_Set1_LightChest" rel_version="Feature_Expansion_1">Manufatto: Peso piuma</string>
+	<string key="Objective_Artifact_Set1_LightFeet" rel_version="Feature_Expansion_1">Manufatto: Fasce per i piedi da acrobata</string>
+	<string key="Objective_Artifact_Set1_1hLongsword" rel_version="Feature_Expansion_1">Manufatto: La macellaia</string>
+	<string key="Objective_Artifact_Set1_1hThrowingAxe" rel_version="Feature_Expansion_1">Manufatto: Francisa</string>
+	<string key="Objective_Artifact_Set1_2hWarhammer" rel_version="Feature_Expansion_1">Manufatto: Mjölnir</string>
+	<string key="Objective_Artifact_Set1_2hGreatAxe" rel_version="Feature_Expansion_1">Manufatto: L'abisso</string>
+	<string key="Objective_Artifact_Set1_2hBow" rel_version="Feature_Expansion_1">Manufatto: Lanciadardi</string>
+	<string key="Objective_Artifact_Set1_2hMusket" rel_version="Feature_Expansion_1">Manufatto: Il meccanico</string>
+	<string key="Objective_Artifact_Set1_1hKiteShield" rel_version="Feature_Expansion_1">Manufatto: Micheal</string>
+	<string key="Objective_Artifact_Set1_1hTowerShield" rel_version="Feature_Expansion_1">Manufatto: Il muro</string>
+	<string key="Objective_Artifact_Set1_2hStaffFire" rel_version="Feature_Expansion_1">Manufatto: Pugno infernale</string>
+	<string key="Objective_Artifact_Set1_2hSpear" rel_version="Feature_Expansion_1">Manufatto: Pungiglione dello scorpione</string>
+	<string key="Objective_Artifact_Set1_1hRapier" rel_version="Feature_Expansion_1">Manufatto: Colpo di grazia</string>
+	<string key="Objective_Artifact_Set1_1hGauntletVoid" rel_version="Feature_Expansion_1">Manufatto: Succhiavita</string>
+	<string key="Objective_Artifact_Set1_2hBlunderbuss" rel_version="Feature_Expansion_1">Manufatto: Pestilenza</string>
+	<string key="Objective_Artifact_Set1_2hGreatSword" rel_version="Feature_Expansion_1">Manufatto: Serentità</string>
+	<string key="Objective_Artifact_Set1_1hFlail" rel_version="Feature_Expansion_1">Manufatto: Odo</string>
+	<string key="Objective_Artifact_Set1_Earring1" rel_version="Feature_Expansion_1">Manufatto: Sete infinita</string>
+	<string key="Objective_Artifact_Set1_Ring1" rel_version="Feature_Expansion_1">Manufatto: Bevisangue</string>
+	<string key="Objective_Artifact_Set1_Amulet1" rel_version="Feature_Expansion_1">Manufatto: Cronometro dei Perduti</string>
+	<string key="Objective_Artifact_Set1_Amulet2" rel_version="Feature_Expansion_1">Manufatto: Ankh</string>
+	<string key="Objective_Kill_Dungeon_DepthBoss" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Le Profondità</string>
+	<string key="Objective_Kill_in_FL" rel_version="Feature_Expansion_1">Sconfiggi {targetName} nemici nelle Foreste degli Elisi</string>
+	<string key="Objective_Kill_Corvid" rel_version="Feature_Expansion_1">Sconfiggi dei nemici corvidi nelle Foreste degli Elisi</string>
+	<string key="Objective_Kill_Depths" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Le Profondità mutata</string>
+	<string key="Objective_Kill_Genesis" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Giardino della Genesi mutata</string>
+	<string key="Objective_Kill_Dynasty" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Cantiere navale della dinastia mutata</string>
+	<string key="Objective_Kill_BnBP" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Cirripedi e polvere da sparo mutata</string>
+	<string key="Objective_Kill_Tempest" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Il cuore della Tempesta mutata</string>
+	<string key="Objective_Kill_Lazarus" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Strumentalità di Lazzaro mutata</string>
+	<string key="Objective_Kill_Ennead" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Enneade mutata</string>
+	<string key="Objective_Kill_Starstone" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Tumuli di pietra stellare mutata</string>
+	<string key="Objective_Kill_Empyean" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Fucina empirea mutata</string>
+	<string key="Objective_Kill_OPR" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Carica all'avamposto</string>
+	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Sconfiggi {targetName} presso l'Arena</string>
+	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Sconfiggi: {targetName}</string>
 </resources>
 

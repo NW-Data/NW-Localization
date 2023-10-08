@@ -25,6 +25,7 @@
 	<string key="inv_outpostrush">Asalto a puesto remoto</string>
 	<string key="inv_pvparenas">Arenas JcJ</string>
 	<string key="inv_runes" rel_version="Feature_Heartgems">Runas</string>
+	<string key="inv_mountitem" rel_version="Feature_Mounts">Monturas</string>
 	<string key="inv_crafting_modifiers">Fabricación</string>
 	<string key="inv_repair_kit_count">Kit de reparación: {count}</string>
 	<string key="inv_repair_kits">Kits de reparación</string>
@@ -100,6 +101,7 @@
 	<string key="inv_repairparts_onlyrepairparts">Aprovechar este artículo te devolverá {numRepairParts} piezas de reparación.</string>
 	<string key="inv_repairparts_onlyrepairparts_withcoin">Aprovechar este artículo te devolverá: {numRepairParts} piezas de reparación y {coinAmount}.</string>
 	<string key="inv_coin_atlimit">&lt;font color="#f25d5d"&gt;Has alcanzado el límite de monedas.&lt;/font&gt;</string>
+	<string key="inv_notification_cannot_use_during_combat">¡No puedes usar consumibles del inventario en combate! En su lugar, debes equiparlos en una ranura rápida.</string>
 	<string key="salvage_notification_obtained_1">Has obtenido {entry1}.</string>
 	<string key="salvage_notification_obtained_2">Has obtenido {entry1} y {entry2}.</string>
 	<string key="salvage_notification_obtained_3">Has obtenido {entry1}, {entry2} y {entry3}.</string>
@@ -167,13 +169,15 @@
 	<string key="ui_sort_gearscore_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordenar por &lt;font color="#ebe3d6"&gt;puntuación de equipo:&lt;/font&gt;&lt;/font&gt; Baja - Alta</string>
 	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordenar por &lt;font color="#ebe3d6"&gt;antigüedad:&lt;/font&gt;&lt;/font&gt; Más recientes - Más antiguos</string>
 	<string key="ui_sort_chrono_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordenar por &lt;font color="#ebe3d6"&gt;antigüedad:&lt;/font&gt;&lt;/font&gt; Antiguo - Nuevo</string>
-	<string key="inv_equipmentstatrow_modifiertemplate">({baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;)</string>
-	<string key="ui_attributemodifier_pending_value">(+{pendingValue})</string>
-	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue} {attributeName}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Asignado: {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Equipo: {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Potenciadores de objetos: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Pendiente: {value}&lt;/font&gt;</string>
+	<string key="inv_equipmentstatrow_modifiertemplate">{baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_pending_value">+{pendingValue}</string>
+	<string key="ui_attributemodifier_pending_value_max">+{pendingValue} | MÁX.</string>
+	<string key="ui_attributemodifier_at_max">MÁX: {baseValue}</string>
+	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={colorAttributeMax}&gt;/{attributeMax}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Asignado: {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Equipo: {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Potenciadores de objetos: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Pendiente: {value}&lt;/font&gt;</string>
 	<string key="ui_attributemodifier_required_points">Puntos necesarios:</string>
 	<string key="ui_physical_defense_short">FÍS</string>
 	<string key="ui_physical_defense_full">Resistencia al daño físico</string>
@@ -194,7 +198,7 @@
 	<string key="inv_TargetOutsideLos">El objetivo está fuera de la línea de visión</string>
 	<string key="inv_moreItems">&lt;font face="lyshineui/fonts/Nimbus_bold.font"&gt;{value}&lt;/font&gt; objetos más</string>
 	<string key="lo_name" comment="This key needs to be short to be used directly as a loadout name." rel_version="Feature_Gear_Set_Storage">Conjunto de equipo</string>
-	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">CONJUNTOS DE EQUIPO</string>
+	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">CONJ. DE EQUIPO</string>
 	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">CONJUNTOS DE EQUIPO</string>
 	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Los objetos de conjuntos de equipo no forman parte del inventario y no afectan a su peso ni al del almacenamiento.</string>
 	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Enviar al conjunto de equipo</string>
@@ -226,6 +230,7 @@
 	<string key="loadout_notification_itemadd_failure_existing_slot" rel_version="Feature_Gear_Set_Storage">No se ha podido añadir el objeto a {loadoutName}; ya está en esta ranura.</string>
 	<string key="loadout_notification_itemaddall_success" rel_version="Feature_Gear_Set_Storage">Se ha añadido el objeto a todos los conjuntos de equipo.</string>
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">No se ha podido añadir el objeto a todos los conjuntos de equipo.</string>
+	<string key="loadout_notification_add_artifact_to_loadout_failure" rel_version="Feature_Artifacts">No se ha podido añadir el artefacto al conjunto de equipo. Solo se puede tener un artefacto de cada tipo de objeto en el conjunto.</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Debes esperar {timeRemaining} para poder cambiar el conjunto de equipo.</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">¡Hay conjuntos de equipo disponibles!\nCrea y cambia conjuntos de equipo para cualquier actividad.</string>
 	<string key="loadout_notification_itemremove_space_failure" rel_version="Feature_Gear_Set_Storage">No se han podido devolver al inventario los objetos del conjunto de equipo debido a que falta espacio.</string>
@@ -241,6 +246,11 @@
 	<string key="ui_effect_failed_MultipleFromSource">No se pueden aplicar los efectos redundantes.</string>
 	<string key="ui_effect_failed_AntirequisiteActive">No se puede aplicar debido al efecto de competición {competingEffect}</string>
 	<string key="ui_effect_failed_AntirequisiteActive_Multiple">No se puede aplicar porque hay múltiples efectos de competición</string>
+	<string key="ui_effect_failed_NotMounted" rel_version="Feature_Mounts">No se puede aplicar el efecto de montura.</string>
 	<string key="ui_effect_failed_Success">Efecto disponible</string>
+	<string key="perktooltips_stacks">Acumulaciones de ventaja: </string>
+	<string key="perktooltips_stacks_over_limit">(por encima del máximo)</string>
+	<string key="perktooltips_stacks_over_limit_disabled">(desactivado)</string>
+	<string key="perktooltips_max_stacks">Acumulaciones máx. de ventaja: </string>
 </resources>
 

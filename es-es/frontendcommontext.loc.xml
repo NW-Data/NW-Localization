@@ -138,6 +138,7 @@
 	<string key="mm_invalidname_corrupt">Este nombre contiene caracteres no admitidos.</string>
 	<string key="mm_invalidname_badwords">No se puede usar este nombre.</string>
 	<string key="mm_invalidname_multiplespaces">Este nombre contiene varios espacios consecutivos.</string>
+	<string key="mm_rename_throttled">Se ha restringido el nombre. Inténtalo de nuevo más tarde.</string>
 	<string key="mm_invalidname_unknown">No se puede usar este nombre.</string>
 	<string key="mm_csdkerr_early_message">El registro de conexión no ha llegado a tiempo</string>
 	<string key="mm_csdkerr_multiple_registration">La conexión del servidor es ambigua.</string>
@@ -167,7 +168,7 @@
 	<string key="mm_rejected_Capitals_Not_Ready">El servidor no está listo: Se están construyendo bases.</string>
 	<string key="mm_rejected_Duplicate_Connection">El jugador ya está conectado.</string>
 	<string key="mm_rejected_No_Persistence_Spawner">El servidor no está aún listo para los jugadores. Intentando de nuevo...</string>
-	<string key="mm_rejected_Character_Restore_Failure">Error del servidor: Error al restablecer el personaje.</string>
+	<string key="mm_rejected_Character_Restore_Failure">No están disponibles tus datos en este momento.\nVuelve a intentarlo en unos minutos.</string>
 	<string key="mm_rejected_Character_Persist_Failure">Error del servidor: Error al conservar el personaje.</string>
 	<string key="mm_rejected_Character_Service_Failure">Error del servidor: error al cargar datos del personaje.</string>
 	<string key="mm_rejected_Character_Already_Exists">Error del servidor: El personaje ya existe.</string>
@@ -175,7 +176,7 @@
 	<string key="mm_rejected_Character_Registry_Failure">Error del servidor: se ha producido un error al registrar el personaje.</string>
 	<string key="mm_rejected_Grid_Too_Busy">Error del servidor: La región está demasiado llena, inténtalo de nuevo más tarde.</string>
 	<string key="mm_rejected_No_Ghost_Client">Error del servidor: no se ha podido iniciar la replicación.</string>
-	<string key="mm_rejected_Server_Crash">Se perdió el contacto de forma inesperada con el servidor. Inténtalo de nuevo más adelante.</string>
+	<string key="mm_rejected_Server_Crash">Se perdió el contacto de forma inesperada con el servidor. Reconectando...</string>
 	<string key="mm_rejected_Free_Session_Expired_Title">Tiempo para jugar gratuitamente agotado</string>
 	<string key="mm_rejected_Free_Session_Expired">Se ha agotado el tiempo para jugar gratuitamente. Haz clic en «Aceptar» para volver al menú principal.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">La solicitud de inicio de sesión no es válida para el mundo</string>
@@ -207,6 +208,7 @@
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Error de pago</string>
 	<string key="mm_rejected_Client_Kicked_Embargoed_Country">No podemos ofrecerte acceso desde tu ubicación actual.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Se te ha expulsado del juego.</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Tu personaje está bloqueado ahora mismo. &lt;font color="#0000ff"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Compra la expansión.&lt;/a&gt;&lt;/font&gt;</string>
 	<string key="mm_authresult_Authorized">Éxito</string>
 	<string key="mm_characterCreateDisabled">Este mundo está lleno, por lo que la creación de personajes se ha deshabilitado temporalmente. Inténtalo en otro mundo.</string>
 	<string key="mm_characterTransferDisabled">Este mundo está lleno, por lo que la transferencia de personajes se ha deshabilitado temporalmente. Inténtalo en otro mundo.</string>
@@ -307,6 +309,7 @@
 	<string key="ui_bio">Biografía</string>
 	<string key="ui_attributes">Atributos</string>
 	<string key="ui_trade_skills">Hab. de oficio</string>
+	<string key="ui_trade_skill">Habilidad de oficio</string>
 	<string key="ui_how_it_works">Cómo funciona</string>
 	<string key="ui_pvp_track_skills_tab" rel_version="PvP_Rewards_Track">JcJ</string>
 	<string key="ui_pvp_track" rel_version="PvP_Rewards_Track">Seguimiento JcJ</string>
@@ -456,11 +459,20 @@
 	<string key="ui_fishing_equip_action">Modo de pesca</string>
 	<string key="ui_fishing_action">Lanzar/Enganchar/Recoger sedal</string>
 	<string key="ui_fishing_reset_action">Volver a lanzar/Dejar de pescar</string>
+	<string key="ui_riding" rel_version="Feature_Mounts">Monta</string>
 	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Música</string>
 	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Modo de actuación</string>
 	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Tocar</string>
 	<string key="ui_performances_equip" rel_version="Feature_MusicalPerformances">Selección de canción</string>
 	<string key="ui_performances_invite" rel_version="Feature_MusicalPerformances">Invitar</string>
+	<string key="ui_performances_notes" rel_version="Feature_MusicalPerformances">Notas de la pista musical</string>
+	<string key="ui_performances_note_up" rel_version="Feature_MusicalPerformances">Nota de arriba</string>
+	<string key="ui_performances_note_down" rel_version="Feature_MusicalPerformances">Nota de abajo</string>
+	<string key="ui_performances_note_left" rel_version="Feature_MusicalPerformances">Nota de la izquierda</string>
+	<string key="ui_performances_note_right" rel_version="Feature_MusicalPerformances">Nota de la derecha</string>
+	<string key="ui_performances_note_bottom" rel_version="Feature_MusicalPerformances">Última nota</string>
+	<string key="ui_performances_chord_1" rel_version="Feature_MusicalPerformances">Primer acorde</string>
+	<string key="ui_performances_chord_2" rel_version="Feature_MusicalPerformances">Segundo acorde</string>
 	<string key="ui_camping">Campamento</string>
 	<string key="ui_tracking">Próximamente</string>
 	<string key="ui_exploring">Próximamente</string>
@@ -505,6 +517,7 @@
 	<string key="ui_logging_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Logging Post Cap</string>
 	<string key="ui_harvesting_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Harvesting Post Cap</string>
 	<string key="ui_musician_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_PostCapTradeSkills">Musician Post Cap</string>
+	<string key="ui_riding_postcap" comment="This isn't player-facing, and doesn't need translation" rel_version="Feature_Mounts">Riding Post Cap</string>
 	<string key="ui_seasonpass" rel_version="Feature_Seasons_Rewards">Pase de temporada</string>
 	<string key="ui_decline">Rechazar</string>
 	<string key="ui_name_your_avatar">Nombre del personaje</string>
@@ -613,5 +626,7 @@
 	<string key="ui_season_track_reward" rel_version="Feature_Seasons_Rewards">Recompensas no reclamadas</string>
 	<string key="error_cross_world_maintenance_title">Mantenimiento del servidor</string>
 	<string key="error_cross_world_maintenance_message">Se te ha enviado al mundo abierto por mantenimiento del servidor.</string>
+	<string key="tradeskill_skillcap_info">Nivel máximo de habilidades de oficio: {maxRank}</string>
+	<string key="tradeskill_skillcap_tooltip">Compra {expansionName} para aumentar el nivel máximo de habilidades de oficio a {maxRank}.</string>
 </resources>
 

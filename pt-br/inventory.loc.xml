@@ -25,6 +25,7 @@
 	<string key="inv_outpostrush">Investida do Posto Avançado</string>
 	<string key="inv_pvparenas">Arenas PvP</string>
 	<string key="inv_runes" rel_version="Feature_Heartgems">Runas</string>
+	<string key="inv_mountitem" rel_version="Feature_Mounts">Montarias</string>
 	<string key="inv_crafting_modifiers">Confecção</string>
 	<string key="inv_repair_kit_count">{count} Kit de Reparo</string>
 	<string key="inv_repair_kits">Kits de Reparo</string>
@@ -100,6 +101,7 @@
 	<string key="inv_repairparts_onlyrepairparts">Sucatear este item fornecerá {numRepairParts} Peças de Reparos.</string>
 	<string key="inv_repairparts_onlyrepairparts_withcoin">Sucatear este item fornecerá {numRepairParts} Peças de Reparos e {coinAmount}.</string>
 	<string key="inv_coin_atlimit">&lt;font color="#f25d5d"&gt;Você atingiu seu Limite de Moedas.&lt;/font&gt;</string>
+	<string key="inv_notification_cannot_use_during_combat">Não é possível usar consumíveis do inventário durante o combate! Em vez disso, equipe-se nos Acessos Rápidos.</string>
 	<string key="salvage_notification_obtained_1">Obteve {entry1}</string>
 	<string key="salvage_notification_obtained_2">Obteve {entry1} e {entry2}</string>
 	<string key="salvage_notification_obtained_3">Obteve {entry1}, {entry2} e {entry3}</string>
@@ -167,13 +169,15 @@
 	<string key="ui_sort_gearscore_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordenar por &lt;font color="#ebe3d6"&gt;Pontuação do Equipamento:&lt;/font&gt;&lt;/font&gt; Baixa - Alta</string>
 	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordenar por &lt;font color="#ebe3d6"&gt;Tempo:&lt;/font&gt;&lt;/font&gt; Mais novo - Mais antigo</string>
 	<string key="ui_sort_chrono_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ordenar por &lt;font color="#ebe3d6"&gt;Tempo:&lt;/font&gt;&lt;/font&gt; Mais antigo - Mais novo</string>
-	<string key="inv_equipmentstatrow_modifiertemplate">({baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;)</string>
-	<string key="ui_attributemodifier_pending_value">(+{pendingValue})</string>
-	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue} {attributeName}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Concedido: {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Equipamento: {value}&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Buffs de itens: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;&lt;/font&gt;</string>
-	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;Pendente: {value}&lt;/font&gt;</string>
+	<string key="inv_equipmentstatrow_modifiertemplate">{baseValue} &lt;font color={modifierColor}&gt;{operator} {modifierValue}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_pending_value">+{pendingValue}</string>
+	<string key="ui_attributemodifier_pending_value_max">+{pendingValue} | MÁX.</string>
+	<string key="ui_attributemodifier_at_max">MÁX.: {baseValue}</string>
+	<string key="ui_attributemodifier_tooltip">&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={color}&gt;{attributeValue}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={colorAttributeMax}&gt;/{attributeMax}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_committed">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Concedido: {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_equipment">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Equipamento: {value}&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_buffs">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Buffs de itens: &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={modifierColor}&gt;{modifierOperator}{value}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={color}&gt;&lt;/font&gt;</string>
+	<string key="ui_attributemodifier_tooltip_pending">&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={color}&gt;Pendente: {value}&lt;/font&gt;</string>
 	<string key="ui_attributemodifier_required_points">Pontos necessários:</string>
 	<string key="ui_physical_defense_short">FÍS.</string>
 	<string key="ui_physical_defense_full">Resistência a Dano Físico</string>
@@ -226,6 +230,7 @@
 	<string key="loadout_notification_itemadd_failure_existing_slot" rel_version="Feature_Gear_Set_Storage">Não foi possível adicionar o item a {loadoutName}, ele já está neste espaço.</string>
 	<string key="loadout_notification_itemaddall_success" rel_version="Feature_Gear_Set_Storage">Item adicionado a todos os Conjuntos de Equipamento</string>
 	<string key="loadout_notification_itemaddall_failure" rel_version="Feature_Gear_Set_Storage">Não foi possível adicionar o item a todos os Conjuntos de Equipamento</string>
+	<string key="loadout_notification_add_artifact_to_loadout_failure" rel_version="Feature_Artifacts">Não foi possível adicionar artefato ao Conjunto de Equipamento. Só é possível ter 1 artefato de cada tipo de item no Conjunto de Equipamento.</string>
 	<string key="loadout_notification_switch_loadout_on_cooldown" rel_version="Feature_Gear_Set_Storage">Você deve aguardar {timeRemaining} para poder trocar Conjuntos de Equipamento</string>
 	<string key="loadout_tutorial" rel_version="Feature_Gear_Set_Storage">Conjuntos de Equipamento disponíveis!\nCrie e troque Conjuntos de Equipamento rapidamente para qualquer atividade.</string>
 	<string key="loadout_notification_itemremove_space_failure" rel_version="Feature_Gear_Set_Storage">Não foi possível devolver os itens do conjunto de equipamento ao inventário porque o espaço não é adequado.</string>
@@ -241,6 +246,11 @@
 	<string key="ui_effect_failed_MultipleFromSource">Não é possível aplicar efeitos redundantes</string>
 	<string key="ui_effect_failed_AntirequisiteActive">Não é possível aplicar devido ao efeito concorrente: {competingEffect}</string>
 	<string key="ui_effect_failed_AntirequisiteActive_Multiple">Não é possível aplicar devido a vários efeitos concorrentes</string>
+	<string key="ui_effect_failed_NotMounted" rel_version="Feature_Mounts">Não foi possível aplicar o efeito em montaria</string>
 	<string key="ui_effect_failed_Success">Efeito disponível</string>
+	<string key="perktooltips_stacks">Acúmulos de vantagem: </string>
+	<string key="perktooltips_stacks_over_limit">(Acima do limite)</string>
+	<string key="perktooltips_stacks_over_limit_disabled">(Desativado)</string>
+	<string key="perktooltips_max_stacks">Máximo de acúmulos de vantagem: </string>
 </resources>
 

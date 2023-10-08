@@ -1,6 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_leaderboard_inactive" rel_version="Feature_Leaderboards">Classements inactifs</string>
 	<string key="ui_leaderboard_category_war" rel_version="Feature_Leaderboards">Guerre</string>
-	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Déferlante &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
+	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Déferlante &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_leaderboard_category_darkness" rel_version="Feature_Leaderboards">Foyers d'altération</string>
 	<string key="ui_leaderboard_category_openworldpvp" rel_version="Feature_Leaderboards">JcJ dans le monde ouvert</string>
 	<string key="ui_leaderboard_category_war_faction" rel_version="Feature_Leaderboards">Guerres de factions</string>
@@ -21,6 +22,7 @@
 	<string key="ui_leaderboard_category_expedition_barnacles" rel_version="Feature_Leaderboards">Bernacles et Poudre noire</string>
 	<string key="ui_leaderboard_category_expedition_depths" rel_version="Feature_Leaderboards">Les Profondeurs</string>
 	<string key="ui_leaderboard_category_expedition_starstone" rel_version="Feature_Leaderboards">Carrières de pierre d'étoile</string>
+	<string key="ui_leaderboard_category_expedition_divide" rel_version="Feature_Leaderboards">Fossé sauvage</string>
 	<string key="ui_leaderboard_category_trial_sirenqueen" rel_version="Feature_Leaderboards">Reine Sirène</string>
 	<string key="ui_leaderboard_category_trial_spriggan" rel_version="Feature_Leaderboards">Fissure monoïque</string>
 	<string key="ui_leaderboard_category_trial_swampbeast" rel_version="Feature_Leaderboards">Mares d'éternité</string>
@@ -91,7 +93,6 @@
 	<string key="ui_leaderboard_display_invasion_wins" rel_version="Feature_Leaderboards">Victoires</string>
 	<string key="ui_leaderboard_display_invasion_kills" rel_version="Feature_Leaderboards">Ennemis tués</string>
 	<string key="ui_leaderboard_display_invasion_kill_death" rel_version="Feature_Leaderboards">Ratio Victimes/Morts</string>
-	<string key="ui_leaderboard_display_invasion_damage_dealt" rel_version="Feature_Leaderboards">Dégâts infligés</string>
 	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">Vous ne figurez pas dans ce classement.</string>
 	<string key="ui_leaderboard_faction_no_faction" rel_version="Feature_Leaderboards">Rejoignez une faction pour participer</string>
 	<string key="ui_leaderboard_faction_no_company" rel_version="Feature_Leaderboards">Rejoignez une compagnie pour participer</string>
@@ -120,9 +121,9 @@
 	<string key="ui_leaderboard_tip_inv_war_wins" rel_version="Feature_Leaderboards">Vous devez au moins marquer 500 points pour que vos victoires soient prises en compte.</string>
 	<string key="ui_leaderboard_expedition_title" rel_version="Feature_Leaderboards">{expedition}, &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_leaderboard_expedition_difficulty" rel_version="Feature_Leaderboards">Difficulté</string>
-	<string key="ui_leaderboard_expedition_difficulty_1" rel_version="Feature_Leaderboards">1</string>
-	<string key="ui_leaderboard_expedition_difficulty_2" rel_version="Feature_Leaderboards">2</string>
-	<string key="ui_leaderboard_expedition_difficulty_3" rel_version="Feature_Leaderboards">3</string>
+	<string key="ui_leaderboard_expedition_difficulty_1" rel_version="Feature_Leaderboards">Apprenti</string>
+	<string key="ui_leaderboard_expedition_difficulty_2" rel_version="Feature_Leaderboards">Difficile</string>
+	<string key="ui_leaderboard_expedition_difficulty_3" rel_version="Feature_Leaderboards">Élite</string>
 	<string key="ui_leaderboard_expedition_difficulty_4" rel_version="Feature_Leaderboards">4</string>
 	<string key="ui_leaderboard_expedition_difficulty_5" rel_version="Feature_Leaderboards">5</string>
 	<string key="ui_leaderboard_expedition_difficulty_6" rel_version="Feature_Leaderboards">6</string>
@@ -142,6 +143,7 @@
 	<string key="ui_leaderboard_territory_weaversfen" rel_version="Feature_Leaderboards">Marais des Trames</string>
 	<string key="ui_leaderboard_territory_restlessshore" rel_version="Feature_Leaderboards">Rive tourmentée</string>
 	<string key="ui_leaderboard_territory_brimstone" rel_version="Feature_Leaderboards">Sulfure</string>
+	<string key="ui_leaderboard_territory_edengrove">Bois-Éden</string>
 	<string key="ui_leaderboard_display_legendaries" rel_version="Feature_Leaderboards">Légendaires</string>
 	<string key="ui_leaderboard_territory_all" rel_version="Feature_Leaderboards">Tous les territoires</string>
 	<string key="ui_leaderboard_row_rank_morethan" rel_version="Feature_Leaderboards">&gt;{number}</string>
@@ -153,9 +155,13 @@
 	<string key="ui_leaderboard_category_elitetrials" rel_version="Trial_Brimstone_Sandworm">Épreuves d'élite</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm1" rel_version="Trial_Brimstone_Sandworm">Épreuve du Dévoreur - Temps</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm2" rel_version="Trial_Brimstone_Sandworm">Épreuve du Dévoreur</string>
-	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Classement régional&lt;/font&gt;&lt;/font&gt;\n\nVotre score de Déferlante est le meilleur score que vous ayez fait lors d'un match.</string>
+	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Classement régional&lt;/font&gt;&lt;/font&gt;\n\nVotre score de Déferlante est le meilleur score que vous ayez fait lors d'un match.</string>
 	<string key="ui_leaderboard_display_regional">Régional</string>
 	<string key="ui_leaderboard_display_world_archived">Monde (archivé)</string>
-	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Classement régional&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Classement régional&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_leaderboard_display_influence_race_wins" rel_version="Feature_Influence_V2">Victoires en Course d'influence</string>
+	<string key="ui_leaderboard_display_influence_race_wins_all" rel_version="Feature_Influence_V2">Tous</string>
+	<string key="ui_leaderboard_display_influence_race_wins_attackers" rel_version="Feature_Influence_V2">Assaillants</string>
+	<string key="ui_leaderboard_display_influence_race_wins_defenders" rel_version="Feature_Influence_V2">Défenseurs</string>
 </resources>
 

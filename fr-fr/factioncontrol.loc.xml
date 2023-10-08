@@ -3,9 +3,9 @@
 	<string key="ui_factioncontrol_claimed">Revendiqué</string>
 	<string key="ui_factioncontrol_contested">Contesté</string>
 	<string key="ui_factioncontrol_unclaimed">Non revendiqué</string>
-	<string key="ui_factioncontrol_reminder">Rappel : Vous devez être en mode JcJ et appartenir à une faction pour participer.</string>
-	<string key="ui_factioncontrol_reminder_map">Revendication active : Vous devez être en mode JcJ et appartenir à une faction pour participer. Ce point de contrôle restera actif tant que la guerre est active.</string>
-	<string key="ui_factioncontrol_reminder_map_inactive">Évènement terminé : Le point de contrôle sera débloqué une heure après la résolution de la guerre ou de l'invasion.</string>
+	<string key="ui_factioncontrol_reminder">Rappel : vous devez être en mode JcJ pour participer.</string>
+	<string key="ui_factioncontrol_reminder_map">Revendication active : vous devez être en mode JcJ pour participer. En dehors d'une Course d'influence, ce point de contrôle sera verrouillé pendant une heure après sa capture.</string>
+	<string key="ui_factioncontrol_reminder_map_inactive">Revendication verrouillée : point de contrôle verrouillé pendant une heure une fois capturé en dehors d'une Course d'influence.</string>
 	<string key="ui_factioncontrol_reminder_map_inactive_specific">{siegeType} en cours : Le point de contrôle sera débloqué une heure après la résolution de : {siegeType2} en cours.</string>
 	<string key="ui_factioncontrol_reminder_type_war">Guerre</string>
 	<string key="ui_factioncontrol_reminder_type_invasion">Invasion</string>
@@ -14,11 +14,19 @@
 	<string key="ui_factioncontrol_status_label">Statut</string>
 	<string key="ui_factioncontrol_benefits_label">Avantages du contrôle</string>
 	<string key="ui_factioncontrol_territory_bonuses_label">Bonus de territoire</string>
+	<string key="ui_bonus_flyout_influencesection">Section d'influence</string>
+	<string key="ui_bonus_flyout_towermodifier">Modificateur de tour(s) :</string>
+	<string key="ui_bonus_flyout_fortmodifier">Modificateur de forteresse :</string>
+	<string key="ui_bonus_flyout_underdogmodifier">Modificateur d'outsider :</string>
 	<string key="ui_factioncontrol_faction_bonuses_label">Bonus de faction</string>
 	<string key="ui_factioncontrol_controlledby_inline">Contrôlé par {factionName}</string>
 	<string key="ui_factioncontrol_controlledby_label">Contrôlé par :</string>
 	<string key="ui_factioncontrol_defend_controlpoint">Défense du point de contrôle</string>
 	<string key="ui_factioncontrol_claim_controlpoint">Revendication du point de contrôle</string>
+	<string key="ui_influencetower_bonus">+{multiplier} %</string>
+	<string key="ui_factioncontrol_defend_influencetower" rel_version="Feature_Influence_V2">Défendre {towerName}</string>
+	<string key="ui_factioncontrol_claim_influencetower" rel_version="Feature_Influence_V2">Capturer {towerName}</string>
+	<string key="ui_factioncontrol_reminder_influencetower" rel_version="Feature_Influence_V2">Activez le mode JcJ dans un sanctuaire pour capturer des tours d'influence.</string>
 	<string key="ui_factioncontrol_fortcontested_announce">La forteresse {fortName} est attaquée !</string>
 	<string key="ui_factioncontrol_ownerchange_announce">La forteresse {fortName} a été revendiquée par {factionName} !</string>
 	<string key="ui_factioncontrol_controlpointactive_announce">La forteresse {fortName} peut désormais être revendiquée. Prenez-la au nom de votre faction !</string>
@@ -48,7 +56,7 @@
 	<string key="@ui_faction_store_discount_modifier_name">Remise générale sur la boutique de faction</string>
 	<string key="@ui_free_camping_name">Bivouac sans ressources</string>
 	<string key="@ui_chance_consumable_not_used_name">Bonus de consommables général</string>
-	<string key="@ui_influencepoints_modifier_desc">Points d'influence augmentés de {value}</string>
+	<string key="@ui_influencepoints_modifier_desc">Points d'influence augmentés de {value} lors d'une Course d'influence</string>
 	<string key="@ui_experiencepoints_modifier_desc">Points d'expérience augmentés de {value}</string>
 	<string key="@ui_azoth_fasttravel_generalcost_reduction_desc">Coût en Azoth des transferts rapides réduit de {value}</string>
 	<string key="@ui_azoth_fasttravel_weight_reduction_desc">Coût lié au niveau d'encombrement ramené à {value} par {scaleFactor} lors des transferts rapides</string>
@@ -73,8 +81,8 @@
 	<string key="@ui_faction_store_discount_modifier_desc">Réduit de {value} le coût des objets dans la boutique de faction.</string>
 	<string key="@ui_free_camping_desc">Bivouaquer ne coûte plus de ressources.</string>
 	<string key="@ui_chance_consumable_not_used_desc">Augmente de {value} les chances qu'un consommable ne soit pas consommé après utilisation.</string>
-	<string key="@ui_fcp_crowdcontrol_qualified_warning">Il y a trop de joueurs de votre faction dans la zone de la forteresse. Téléportation dans {TeleportSeconds} secondes.</string>
-	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Il y a trop de joueurs dans la zone de la forteresse. Téléportation dans {TeleportSeconds} secondes.</string>
+	<string key="@ui_fcp_crowdcontrol_qualified_warning">Il y a trop de joueurs en mode JcJ ou de votre faction dans la zone de point de contrôle de la faction. Téléportation dans {TeleportSeconds} secondes.</string>
+	<string key="@ui_fcp_crowdcontrol_unqualified_warning">Il y a trop de joueurs dans la zone de point de contrôle de la faction. Téléportation dans {TeleportSeconds} secondes.</string>
 	<string key="@ui_fcp_fast_travel_discounts_title">Promotions sur le contrôle de faction</string>
 	<string key="@ui_fcp_faction_mission_bonus_label">(+{value} de PCF)</string>
 </resources>

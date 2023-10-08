@@ -1,6 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_leaderboard_inactive" rel_version="Feature_Leaderboards">Nieaktywny ranking</string>
 	<string key="ui_leaderboard_category_war" rel_version="Feature_Leaderboards">Wojna</string>
-	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Napad na posterunek &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
+	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Napad na posterunek &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_leaderboard_category_darkness" rel_version="Feature_Leaderboards">Wyłomy skażenia</string>
 	<string key="ui_leaderboard_category_openworldpvp" rel_version="Feature_Leaderboards">PvP w otwartym świecie</string>
 	<string key="ui_leaderboard_category_war_faction" rel_version="Feature_Leaderboards">Wojny frakcji</string>
@@ -21,6 +22,7 @@
 	<string key="ui_leaderboard_category_expedition_barnacles" rel_version="Feature_Leaderboards">Pąkle i czarny proch</string>
 	<string key="ui_leaderboard_category_expedition_depths" rel_version="Feature_Leaderboards">Głębiny</string>
 	<string key="ui_leaderboard_category_expedition_starstone" rel_version="Feature_Leaderboards">Gwiezdny Kurhan</string>
+	<string key="ui_leaderboard_category_expedition_divide" rel_version="Feature_Leaderboards">Dziki Przełom</string>
 	<string key="ui_leaderboard_category_trial_sirenqueen" rel_version="Feature_Leaderboards">Królowa Syren</string>
 	<string key="ui_leaderboard_category_trial_spriggan" rel_version="Feature_Leaderboards">Jednopienna Rozpadlina</string>
 	<string key="ui_leaderboard_category_trial_swampbeast" rel_version="Feature_Leaderboards">Wieczne Stawy</string>
@@ -91,7 +93,6 @@
 	<string key="ui_leaderboard_display_invasion_wins" rel_version="Feature_Leaderboards">Zwycięstwa</string>
 	<string key="ui_leaderboard_display_invasion_kills" rel_version="Feature_Leaderboards">Zabójstwa</string>
 	<string key="ui_leaderboard_display_invasion_kill_death" rel_version="Feature_Leaderboards">Współczynnik zabójstw i śmierci</string>
-	<string key="ui_leaderboard_display_invasion_damage_dealt" rel_version="Feature_Leaderboards">Zadane obrażenia</string>
 	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">Nie masz wyniku w tym rankingu</string>
 	<string key="ui_leaderboard_faction_no_faction" rel_version="Feature_Leaderboards">Dołącz do frakcji, by wziąć udział</string>
 	<string key="ui_leaderboard_faction_no_company" rel_version="Feature_Leaderboards">Dołącz do kompanii, by wziąć udział</string>
@@ -120,9 +121,9 @@
 	<string key="ui_leaderboard_tip_inv_war_wins" rel_version="Feature_Leaderboards">Musisz zdobyć przynajmniej 500 pkt, by zaliczyć postęp w kierunku zwycięstwa.</string>
 	<string key="ui_leaderboard_expedition_title" rel_version="Feature_Leaderboards">{expedition}, &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_leaderboard_expedition_difficulty" rel_version="Feature_Leaderboards">Poziom trudności</string>
-	<string key="ui_leaderboard_expedition_difficulty_1" rel_version="Feature_Leaderboards">1</string>
-	<string key="ui_leaderboard_expedition_difficulty_2" rel_version="Feature_Leaderboards">2</string>
-	<string key="ui_leaderboard_expedition_difficulty_3" rel_version="Feature_Leaderboards">3</string>
+	<string key="ui_leaderboard_expedition_difficulty_1" rel_version="Feature_Leaderboards">Średni</string>
+	<string key="ui_leaderboard_expedition_difficulty_2" rel_version="Feature_Leaderboards">Trudny</string>
+	<string key="ui_leaderboard_expedition_difficulty_3" rel_version="Feature_Leaderboards">Elitarny</string>
 	<string key="ui_leaderboard_expedition_difficulty_4" rel_version="Feature_Leaderboards">4</string>
 	<string key="ui_leaderboard_expedition_difficulty_5" rel_version="Feature_Leaderboards">5</string>
 	<string key="ui_leaderboard_expedition_difficulty_6" rel_version="Feature_Leaderboards">6</string>
@@ -142,6 +143,7 @@
 	<string key="ui_leaderboard_territory_weaversfen" rel_version="Feature_Leaderboards">Tkackie Mokradła</string>
 	<string key="ui_leaderboard_territory_restlessshore" rel_version="Feature_Leaderboards">Niespokojne Brzegi</string>
 	<string key="ui_leaderboard_territory_brimstone" rel_version="Feature_Leaderboards">Piaskobrzegi</string>
+	<string key="ui_leaderboard_territory_edengrove">Rajski Gaj</string>
 	<string key="ui_leaderboard_display_legendaries" rel_version="Feature_Leaderboards">Legendarne</string>
 	<string key="ui_leaderboard_territory_all" rel_version="Feature_Leaderboards">Wszystkie terytoria</string>
 	<string key="ui_leaderboard_row_rank_morethan" rel_version="Feature_Leaderboards">&gt;{number}</string>
@@ -153,9 +155,13 @@
 	<string key="ui_leaderboard_category_elitetrials" rel_version="Trial_Brimstone_Sandworm">Elitarne próby</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm1" rel_version="Trial_Brimstone_Sandworm">Próba Pożeracza – czas ukończenia</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm2" rel_version="Trial_Brimstone_Sandworm">Próba Pożeracza</string>
-	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Ranking regionalny&lt;/font&gt;&lt;/font&gt;\n\nTwój wynik napadu na posterunek to najlepszy wynik zdobyty podczas meczu.</string>
+	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Ranking regionalny&lt;/font&gt;&lt;/font&gt;\n\nTwój wynik napadu na posterunek to najlepszy wynik zdobyty podczas meczu.</string>
 	<string key="ui_leaderboard_display_regional">Regionalny</string>
 	<string key="ui_leaderboard_display_world_archived">Światowy (zarchiwizowano)</string>
-	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Ranking regionalny&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Ranking regionalny&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_leaderboard_display_influence_race_wins" rel_version="Feature_Influence_V2">Wygrane walki o wpływy</string>
+	<string key="ui_leaderboard_display_influence_race_wins_all" rel_version="Feature_Influence_V2">Wszystko</string>
+	<string key="ui_leaderboard_display_influence_race_wins_attackers" rel_version="Feature_Influence_V2">Atakujący</string>
+	<string key="ui_leaderboard_display_influence_race_wins_defenders" rel_version="Feature_Influence_V2">Obrońcy</string>
 </resources>
 

@@ -220,6 +220,13 @@
 	<string key="ui_guild">Compagnia</string>
 	<string key="ui_war_declared_chat_notification">{guild1} ha dichiarato guerra a {guild2} per il controllo di {territoryName}!</string>
 	<string key="ui_war_extended_chat_notification">La guerra tra {guild1} e {guild2} è stata protratta!</string>
+	<string key="ui_influence_race_contribution_threshold_crossed">Se la tua fazione vince la Gara di influenza, la tua compagnia ha contribuito abbastanza influenza per dichiarare guerra nel territorio: {territoryName}.</string>
+	<string key="ui_influence_race_scheduled">È stata programmata una Gara di influenza nel territorio {territoryName}.</string>
+	<string key="ui_influence_race_started">È cominciata una Gara di influenza nel territorio {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction1">L'Unione ha vinto la Gara di influenza nel territorio {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction2">I Predoni hanno vinto la Gara di influenza nel territorio {territoryName}.</string>
+	<string key="ui_influence_race_ended_faction3">Il Patto ha vinto la Gara di influenza nel territorio {territoryName}.</string>
+	<string key="ui_influence_race_ended_nowinner">La Gara di influenza nel territorio {territoryName} è terminata.</string>
 	<string key="ui_active_conquest">Conquista attiva</string>
 	<string key="ui_conquest_in">La conquista inizia tra</string>
 	<string key="ui_online_num">{Num} online</string>
@@ -344,7 +351,7 @@
 	<string key="ui_waypoint_set_to_ping">Punto di riferimento impostato su avviso</string>
 	<string key="ui_chat_name_raid">Incursione</string>
 	<string key="ui_chat_name_raid_upper">INCURSIONE</string>
-	<string key="ui_error_raidchat" comment="An error when you try to talk in raid chat">Non fai parte di un esercito.</string>
+	<string key="ui_error_raidchat" comment="An error when you try to talk in raid chat">Non sei in un'incursione.</string>
 	<string key="ui_error_guildchat" comment="An error when you try to talk in guild chat">Non fai parte di una compagnia.</string>
 	<string key="ui_notification_pvp_enabled">PvP attivato.</string>
 	<string key="ui_notification_pvp_flagged">PvP attivo.</string>
@@ -438,6 +445,9 @@
 	<string key="ui_subarmy_decline_tooltip">La tua richiesta di adesione alla sessione Subscriber Army dello streamer è stata rifiutata.</string>
 	<string key="ui_subarmy_waiting">In attesa dell'approvazione dello streamer...</string>
 	<string key="ui_subarmy_pending">In attesa...</string>
+	<string key="group_member_cannot_join_expedition">{playerName} non può partecipare a questa spedizione</string>
+	<string key="self_cannot_join_expedition">Impossibile partecipare alla spedizione</string>
+	<string key="required_level_warning">Richiede livello {level}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Trova gruppo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">La mia lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crea lobby</string>
@@ -496,7 +506,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Il tuo PvP non corrisponde alla lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">Dovete essere nella stessa fazione per una lobby PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">I requisiti della lobby sono cambiati e tu non li soddisfi.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Errore filtro chat. Aggiorna il testo e riprova.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Your Lobby Description contained profanity or prohibited words, please try again.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Non puoi inviare altre richieste.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Lobby al completo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} ha rifiutato di eseguire i controlli preliminari</string>
@@ -570,7 +580,6 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_join_with_group">Apri la spedizione con il tuo gruppo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_in_probation">Per creare una lobby, devi avere un account da più di {accountProbationTimeRequired} e devi aver giocato per almeno {characterProbationTimeRequired}.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_difficulty_locked">Devi sbloccare questo livello di difficoltà per creare una nuova lobby.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_decline">Rifiuta</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationaccepted">Invito accettato</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationdeclined">Invito rifiutato</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_ingroup">Invito rifiutato. Giocatore già nella lobby.</string>
@@ -639,6 +648,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Il tuo livello: {level}\nIl livello minimo non può essere superiore al tuo livello.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Il tuo punteggio attrezzatura: {gearscore}\nIl punteggio attrezzatura minimo non può essere superiore al tuo punteggio attrezzatura.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">"{text}"</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_invalid_characters">Character not allowed in the Lobby Description</string>
 	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">{time} fa</string>

@@ -1,6 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<string key="ui_leaderboard_inactive" rel_version="Feature_Leaderboards">Inaktive Bestenlisten</string>
 	<string key="ui_leaderboard_category_war" rel_version="Feature_Leaderboards">Krieg</string>
-	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Außenpostensturm &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
+	<string key="ui_leaderboard_category_outpostrush" rel_version="Feature_Leaderboards">Außenpostensturm &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="1.0" xPadding="2" yOffset="2"&gt;&lt;/img&gt;</string>
 	<string key="ui_leaderboard_category_darkness" rel_version="Feature_Leaderboards">Verderbnisausbrüche</string>
 	<string key="ui_leaderboard_category_openworldpvp" rel_version="Feature_Leaderboards">PvP in der offenen Welt</string>
 	<string key="ui_leaderboard_category_war_faction" rel_version="Feature_Leaderboards">Fraktionskriege</string>
@@ -21,6 +22,7 @@
 	<string key="ui_leaderboard_category_expedition_barnacles" rel_version="Feature_Leaderboards">Seepocken und Schwarzpulver</string>
 	<string key="ui_leaderboard_category_expedition_depths" rel_version="Feature_Leaderboards">Die Untiefen</string>
 	<string key="ui_leaderboard_category_expedition_starstone" rel_version="Feature_Leaderboards">Sternensteingrabhügel</string>
+	<string key="ui_leaderboard_category_expedition_divide" rel_version="Feature_Leaderboards">Wilde Spalte</string>
 	<string key="ui_leaderboard_category_trial_sirenqueen" rel_version="Feature_Leaderboards">Sirenenkönigin</string>
 	<string key="ui_leaderboard_category_trial_spriggan" rel_version="Feature_Leaderboards">Einhauskluft</string>
 	<string key="ui_leaderboard_category_trial_swampbeast" rel_version="Feature_Leaderboards">Ewige Weiher</string>
@@ -91,7 +93,6 @@
 	<string key="ui_leaderboard_display_invasion_wins" rel_version="Feature_Leaderboards">Siege</string>
 	<string key="ui_leaderboard_display_invasion_kills" rel_version="Feature_Leaderboards">Tötungen</string>
 	<string key="ui_leaderboard_display_invasion_kill_death" rel_version="Feature_Leaderboards">K/D-Verhältnis</string>
-	<string key="ui_leaderboard_display_invasion_damage_dealt" rel_version="Feature_Leaderboards">Ausgeteilter Schaden</string>
 	<string key="ui_leaderboard_character_empty_leaderboard" rel_version="Feature_Leaderboards">Du bist nicht auf dieser Rangliste vertreten.</string>
 	<string key="ui_leaderboard_faction_no_faction" rel_version="Feature_Leaderboards">Tritt einer Fraktion bei, um teilnehmen zu können</string>
 	<string key="ui_leaderboard_faction_no_company" rel_version="Feature_Leaderboards">Tritt einer Kompanie bei, um teilnehmen zu können</string>
@@ -120,9 +121,9 @@
 	<string key="ui_leaderboard_tip_inv_war_wins" rel_version="Feature_Leaderboards">Du musst mindestens 500 Punkte erreichen, um dich in Richtung Sieg vorzuarbeiten.</string>
 	<string key="ui_leaderboard_expedition_title" rel_version="Feature_Leaderboards">{expedition}, &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_leaderboard_expedition_difficulty" rel_version="Feature_Leaderboards">Schwierigkeitsgrad</string>
-	<string key="ui_leaderboard_expedition_difficulty_1" rel_version="Feature_Leaderboards">1</string>
-	<string key="ui_leaderboard_expedition_difficulty_2" rel_version="Feature_Leaderboards">2</string>
-	<string key="ui_leaderboard_expedition_difficulty_3" rel_version="Feature_Leaderboards">3</string>
+	<string key="ui_leaderboard_expedition_difficulty_1" rel_version="Feature_Leaderboards">Fortgeschritten</string>
+	<string key="ui_leaderboard_expedition_difficulty_2" rel_version="Feature_Leaderboards">Schwer</string>
+	<string key="ui_leaderboard_expedition_difficulty_3" rel_version="Feature_Leaderboards">Elite</string>
 	<string key="ui_leaderboard_expedition_difficulty_4" rel_version="Feature_Leaderboards">4</string>
 	<string key="ui_leaderboard_expedition_difficulty_5" rel_version="Feature_Leaderboards">5</string>
 	<string key="ui_leaderboard_expedition_difficulty_6" rel_version="Feature_Leaderboards">6</string>
@@ -142,6 +143,7 @@
 	<string key="ui_leaderboard_territory_weaversfen" rel_version="Feature_Leaderboards">Webermoor</string>
 	<string key="ui_leaderboard_territory_restlessshore" rel_version="Feature_Leaderboards">Unstete Küste</string>
 	<string key="ui_leaderboard_territory_brimstone" rel_version="Feature_Leaderboards">Schwefelsandwüste</string>
+	<string key="ui_leaderboard_territory_edengrove">Edenhain</string>
 	<string key="ui_leaderboard_display_legendaries" rel_version="Feature_Leaderboards">Legendäres</string>
 	<string key="ui_leaderboard_territory_all" rel_version="Feature_Leaderboards">Alle Gebiete</string>
 	<string key="ui_leaderboard_row_rank_morethan" rel_version="Feature_Leaderboards">&gt;{number}</string>
@@ -153,9 +155,13 @@
 	<string key="ui_leaderboard_category_elitetrials" rel_version="Trial_Brimstone_Sandworm">Eliteprüfungen</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm1" rel_version="Trial_Brimstone_Sandworm">Die Prüfung des Verzehrers – Abschlusszeit</string>
 	<string key="ui_leaderboard_display_elitetrials_sandworm2" rel_version="Trial_Brimstone_Sandworm">Die Prüfung des Verzehrers</string>
-	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Regionale Bestenliste&lt;/font&gt;&lt;/font&gt;\n\nDas ist dein bisheriger Außenpostensturm-Bestwert in einem Match.</string>
+	<string key="ui_leaderboard_tip_outpostrush_score" rel_version="Feature_Leaderboards">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Regionale Bestenliste&lt;/font&gt;&lt;/font&gt;\n\nDas ist dein bisheriger Außenpostensturm-Bestwert in einem Match.</string>
 	<string key="ui_leaderboard_display_regional">Region</string>
 	<string key="ui_leaderboard_display_world_archived">Welt (archiviert)</string>
-	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Regionale Bestenliste&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_leaderboard_tip_regional_only">&lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier_tan" scale="2.0" xPadding="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Regular.font"&gt;Regionale Bestenliste&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_leaderboard_display_influence_race_wins" rel_version="Feature_Influence_V2">Einflusswettlauf-Siege</string>
+	<string key="ui_leaderboard_display_influence_race_wins_all" rel_version="Feature_Influence_V2">Alle</string>
+	<string key="ui_leaderboard_display_influence_race_wins_attackers" rel_version="Feature_Influence_V2">Angreifer</string>
+	<string key="ui_leaderboard_display_influence_race_wins_defenders" rel_version="Feature_Influence_V2">Verteidiger</string>
 </resources>
 
