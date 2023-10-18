@@ -671,6 +671,14 @@
 	<string key="AI_Slime_Slow_Tooltip">Réduit la vitesse de déplacement de {[Type_StatusEffectData.AI_Slime_Slow.MoveSpeedMod * -100]} %.</string>
 	<string key="AI_PillarGoat_Buff_DisplayName" rel_version="Territory_Brimstone_Sands">Insistance</string>
 	<string key="AI_Fleeting_Buff_DisplayName" rel_version="Quest_MSQ2_WeaversFen">Fugacité</string>
+	<string key="AI_HalloweenPlaguer_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Peste de potirons</string>
+	<string key="AI_HalloweenPlaguer_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Réduit les soins reçus de {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]}% pendant {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]}secondes. Cumulable {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]}fois.</string>
+	<string key="AI_HalloweenBoss_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Peste de potirons</string>
+	<string key="AI_HalloweenBoss_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Réduit les soins reçus de {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]}% pendant {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]}secondes. Cumulable {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]}fois.</string>
+	<string key="AI_HalloweenGourdspewer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Aura purificatrice</string>
+	<string key="AI_HalloweenGourdspewer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Soigne de la peste de potirons et {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.HealthModifierPercent * 100]}% de votre santé de base toutes les {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.TickRate]}secondes.</string>
+	<string key="AI_HalloweenPlaguer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Aura purificatrice</string>
+	<string key="AI_HalloweenPlaguer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Soigne de la peste de potirons et {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.HealthModifierPercent * 100]}% de votre santé de base toutes les {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.TickRate]}secondes.</string>
 	<string key="AI_HalloweenBoss_PutridAura_DisplayName">Malédiction de Baalphazu</string>
 	<string key="AI_HalloweenBoss_PutridAura_Tooltip">Subit des dégâts de nature à hauteur de {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.HealthModifierDamageBased * -100]}% de la santé de base toutes les {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.TickRate * 6]}secondes.</string>
 	<string key="AI_HercyneRat_Disease_DisplayName" rel_version="Territory_FirstLight">Maladie</string>
@@ -1444,6 +1452,7 @@
 	<string key="Status_LifeSteal_Description">Les dégâts infligés pendant que cet effet est actif vous soignent.</string>
 	<string key="Status_Blessed_Description">Les soins prodigués sont augmentés tant que cet effet est actif.</string>
 	<string key="Status_GemPerk_Retaliate_Description">Bonus de dégâts de l'atout de gemme Riposte.</string>
+	<string key="Status_PoisonDiseaseCombo_Description">Vous subissez actuellement des dégâts d'empoisonnement sur la durée et êtes malade. Vos soins prodigués sont également réduits.</string>
 	<string key="Status_Upgrade_Bow_EvasiveShot_Haste_description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.Status_Upgrade_Bow_EvasiveShot_Haste.SprintSpeedMod * 100]} %.</string>
 	<string key="Status_Passive_Bow_Skirmish_HasteOnSwap_description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_HasteOnSwap.SprintSpeedMod * 100]} %.</string>
 	<string key="Status_Passive_Bow_Skirmish_DodgeHaste_description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_DodgeHaste.SprintSpeedMod * 100]} %.</string>
@@ -1973,5 +1982,17 @@
 	<string key="AI_CorruptedLeviathan_IchorCoating_Tooltip" rel_version="Quest_MSQ2_GreatCleave">Subit {[Type_StatusEffectData.AI_CorruptedLeviathan_IchorCoating.WKNCorruption * 100]} % de dégâts d'altération en plus pendant {[Type_StatusEffectData.AI_CorruptedLeviathan_IchorCoating.BaseDuration]} secondes.</string>
 	<string key="PotionTurkeyLuckT5Status_MasterName" rel_version="Event_TurkeyTerror2023_Perm">Turkey Luck</string>
 	<string key="PotionTurkeyLuckT5Status_Description" rel_version="Event_TurkeyTerror2023_Perm">The blessing of the Turkey is upon you. You have better odds for rewards when slaying Turkulon.</string>
+	<string key="Mammoth_Chain_Lightning_DisplayName" rel_version="Territory_FirstLight">Électrocution</string>
+	<string key="Mammoth_Chain_Lightning_Tooltip" rel_version="Territory_FirstLight">Choque 1 allié à portée chaque seconde pendant {[Type_StatusEffectData.Mammoth_Lightning_Empowered_Debuff_Tick.BaseDuration]} secondes.</string>
+	<string key="SE_MeshChange_Adiana_Description" rel_version="Event_Halloween2023_Perm">Visitez les paniers de friandises tout en portant ce costume pour des bonbons.</string>
+	<string key="SE_MeshChange_Adiana_MasterName" rel_version="Event_Halloween2023_Perm">Costume d'Adiana</string>
+	<string key="SE_MeshChange_Thorpe_Description" rel_version="Event_Halloween2023_Perm">Visitez les paniers de friandises tout en portant ce costume pour des bonbons.</string>
+	<string key="SE_MeshChange_Thorpe_MasterName" rel_version="Event_Halloween2023_Perm">Costume de Thorpe</string>
+	<string key="SE_MeshChange_Anubian_Horus_Description" rel_version="Event_Halloween2023_Perm">Visitez les paniers de friandises tout en portant ce costume pour des bonbons.</string>
+	<string key="SE_MeshChange_Anubian_Horus_MasterName" rel_version="Event_Halloween2023_Perm">Le costume d'Horus anubien</string>
+	<string key="SE_MeshChange_Lost_Monarch_Description" rel_version="Event_Halloween2023_Perm">Visitez les paniers de friandises tout en portant ce costume pour des bonbons.</string>
+	<string key="SE_MeshChange_Lost_Monarch_MasterName" rel_version="Event_Halloween2023_Perm">Le costume du Roy dévoyé</string>
+	<string key="Mammoth_Boss_IceStorm_Slow_Tooltip" rel_version="Territory_FirstLight">Vitesse de déplacement réduite de {[Type_StatusEffectData.Mammoth_Boss_IceStorm_Slow.SprintSpeedMod * -100]} % par cumul.</string>
+	<string key="Mammoth_Boss_IceStorm_Slow_DisplayName" rel_version="Territory_FirstLight">Ralentissement</string>
 </resources>
 
