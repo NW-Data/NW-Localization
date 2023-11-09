@@ -671,6 +671,14 @@
 	<string key="AI_Slime_Slow_Tooltip">Bewegungstempo um {[Type_StatusEffectData.AI_Slime_Slow.MoveSpeedMod * -100]} % verringert.</string>
 	<string key="AI_PillarGoat_Buff_DisplayName" rel_version="Territory_Brimstone_Sands">Aufdringlich</string>
 	<string key="AI_Fleeting_Buff_DisplayName" rel_version="Quest_MSQ2_WeaversFen">Fließend</string>
+	<string key="AI_HalloweenPlaguer_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Kürbisplage</string>
+	<string key="AI_HalloweenPlaguer_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Verringert die erhaltene Heilung für {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]} Sekunden um {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]} %. {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]}-mal stapelbar.</string>
+	<string key="AI_HalloweenBoss_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Kürbisplage</string>
+	<string key="AI_HalloweenBoss_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Verringert die erhaltene Heilung für {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]} Sekunden um {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]} %. {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]}-mal stapelbar.</string>
+	<string key="AI_HalloweenGourdspewer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Läuterungsaura</string>
+	<string key="AI_HalloweenGourdspewer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Heilt Kürbisplage und alle {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.TickRate]} Sekunden {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.HealthModifierPercent * 100]} % des Gesundheitsgrundwerts.</string>
+	<string key="AI_HalloweenPlaguer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Läuterungsaura</string>
+	<string key="AI_HalloweenPlaguer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Heilt Kürbisplage und alle {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.TickRate]} Sekunden {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.HealthModifierPercent * 100]} % des Gesundheitsgrundwerts.</string>
 	<string key="AI_HalloweenBoss_PutridAura_DisplayName">Baalphazus Fluch</string>
 	<string key="AI_HalloweenBoss_PutridAura_Tooltip">Du erleidest alle {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.TickRate * 6]} Sekunden Naturschaden in Höhe von {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.HealthModifierDamageBased * -100]} % des Gesundheitsgrundwerts.</string>
 	<string key="AI_HercyneRat_Disease_DisplayName" rel_version="Territory_FirstLight">Krankheit</string>
@@ -709,6 +717,8 @@
 	<string key="AI_Yonas_Phase1_Berserk_DisplayName" rel_version="Quest_MSQ2_Edengrove">Verderbter Berserker</string>
 	<string key="AI_Yonas_Root_DisplayName" rel_version="Quest_MSQ2_Edengrove">Festgesetzt</string>
 	<string key="AI_Yonas_Root_Tooltip" rel_version="Quest_MSQ2_Edengrove">Festgesetzt</string>
+	<string key="AI_Yonas_Stun_4sec_DisplayName" rel_version="Quest_MSQ2_Edengrove">Betäubt</string>
+	<string key="AI_Yonas_Stun_4sec_Tooltip" rel_version="Quest_MSQ2_Edengrove">Betäubt</string>
 	<string key="AI_Bleed_9_DisplayName">Blutung</string>
 	<string key="AI_Bleed_9_Tooltip">{[Type_StatusEffectData.AI_Bleed_9.BaseDuration]} Sekunden lang alle {[Type_StatusEffectData.AI_Bleed_9.TickRate]} Sekunden physischer Schaden in Höhe von {[Type_StatusEffectData.AI_Bleed_9.HealthModifierDamageBased * -100]} % des Basisschadens + {[Type_StatusEffectData.AI_Bleed_9.HealthModifierPercent * -100]} % des Gesundheitsgrundwerts durch Blutung.</string>
 	<string key="AI_Burn_9_DisplayName">Brennend</string>
@@ -1444,6 +1454,7 @@
 	<string key="Status_LifeSteal_Description">Solange dieser Effekt aktiv ist, heilt dich zugefügter Schaden.</string>
 	<string key="Status_Blessed_Description">Solange dieser Effekt aktiv ist, ist die gewirkte Heilung erhöht.</string>
 	<string key="Status_GemPerk_Retaliate_Description">Schadensbonus durch Edelsteineffekt "Vergeltung".</string>
+	<string key="Status_PoisonDiseaseCombo_Description">Du leidest derzeit unter einem Giftschaden-über-Zeit-Effekt und deine gewirkte Heilung ist verringert.</string>
 	<string key="Status_Upgrade_Bow_EvasiveShot_Haste_description">Dein Bewegungstempo wird um {[Type_StatusEffectData.Status_Upgrade_Bow_EvasiveShot_Haste.SprintSpeedMod * 100]} % erhöht.</string>
 	<string key="Status_Passive_Bow_Skirmish_HasteOnSwap_description">Dein Bewegungstempo wird um {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_HasteOnSwap.SprintSpeedMod * 100]} % erhöht.</string>
 	<string key="Status_Passive_Bow_Skirmish_DodgeHaste_description">Dein Bewegungstempo wird um {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_DodgeHaste.SprintSpeedMod * 100]} % erhöht.</string>
@@ -1973,5 +1984,17 @@
 	<string key="AI_CorruptedLeviathan_IchorCoating_Tooltip" rel_version="Quest_MSQ2_GreatCleave">Du erleidest {[Type_StatusEffectData.AI_CorruptedLeviathan_IchorCoating.BaseDuration]} Sekunden lang {[Type_StatusEffectData.AI_CorruptedLeviathan_IchorCoating.WKNCorruption * 100]} % mehr Verderbnisschaden.</string>
 	<string key="PotionTurkeyLuckT5Status_MasterName" rel_version="Event_TurkeyTerror2023_Perm">Turkey Luck</string>
 	<string key="PotionTurkeyLuckT5Status_Description" rel_version="Event_TurkeyTerror2023_Perm">The blessing of the Turkey is upon you. You have better odds for rewards when slaying Turkulon.</string>
+	<string key="Mammoth_Chain_Lightning_DisplayName" rel_version="Territory_FirstLight">Stromschlag</string>
+	<string key="Mammoth_Chain_Lightning_Tooltip" rel_version="Territory_FirstLight">Fügt einem Verbündeten jede Sekunde für {[Type_StatusEffectData.Mammoth_Lightning_Empowered_Debuff_Tick.BaseDuration]} Sekunden einen Stromschlag zu.</string>
+	<string key="SE_MeshChange_Adiana_Description" rel_version="Event_Halloween2023_Perm">Um Süßigkeiten zu bekommen, gehe zu Körben mit Leckereien, während du dieses Kostüm trägst.</string>
+	<string key="SE_MeshChange_Adiana_MasterName" rel_version="Event_Halloween2023_Perm">Adiana-Kostüm</string>
+	<string key="SE_MeshChange_Thorpe_Description" rel_version="Event_Halloween2023_Perm">Um Süßigkeiten zu bekommen, gehe zu Körben mit Leckereien, während du dieses Kostüm trägst.</string>
+	<string key="SE_MeshChange_Thorpe_MasterName" rel_version="Event_Halloween2023_Perm">Thorpe-Kostüm</string>
+	<string key="SE_MeshChange_Anubian_Horus_Description" rel_version="Event_Halloween2023_Perm">Um Süßigkeiten zu bekommen, gehe zu Körben mit Leckereien, während du dieses Kostüm trägst.</string>
+	<string key="SE_MeshChange_Anubian_Horus_MasterName" rel_version="Event_Halloween2023_Perm">Anubischer-Horus-Kostüm</string>
+	<string key="SE_MeshChange_Lost_Monarch_Description" rel_version="Event_Halloween2023_Perm">Um Süßigkeiten zu bekommen, gehe zu Körben mit Leckereien, während du dieses Kostüm trägst.</string>
+	<string key="SE_MeshChange_Lost_Monarch_MasterName" rel_version="Event_Halloween2023_Perm">Verlorener-Monarch-Kostüm</string>
+	<string key="Mammoth_Boss_IceStorm_Slow_Tooltip" rel_version="Territory_FirstLight">Das Bewegungstempo wird pro Stapel um {[Type_StatusEffectData.Mammoth_Boss_IceStorm_Slow.SprintSpeedMod * -100]} % verringert.</string>
+	<string key="Mammoth_Boss_IceStorm_Slow_DisplayName" rel_version="Territory_FirstLight">Verlangsamt</string>
 </resources>
 

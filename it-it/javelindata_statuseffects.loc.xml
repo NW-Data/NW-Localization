@@ -671,6 +671,14 @@
 	<string key="AI_Slime_Slow_Tooltip">Velocità di movimento ridotta di un {[Type_StatusEffectData.AI_Slime_Slow.MoveSpeedMod * -100]}%.</string>
 	<string key="AI_PillarGoat_Buff_DisplayName" rel_version="Territory_Brimstone_Sands">Insistente</string>
 	<string key="AI_Fleeting_Buff_DisplayName" rel_version="Quest_MSQ2_WeaversFen">Fugace</string>
+	<string key="AI_HalloweenPlaguer_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Incubo della zucca</string>
+	<string key="AI_HalloweenPlaguer_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Riduce la guarigione ricevuta di un {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]}% per {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]} s accumulandosi fino a {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]} volte.</string>
+	<string key="AI_HalloweenBoss_PumpkinPlague_DisplayName" rel_version="Event_Halloween_Temp">Incubo della zucca</string>
+	<string key="AI_HalloweenBoss_PumpkinPlague_Tooltip" rel_version="Event_Halloween_Temp">Riduce la guarigione ricevuta di un {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.HealMod * -100]}% per {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.BaseDuration]} s accumulandosi fino a {[Type_StatusEffectData.AI_HalloweenPlaguer_PumpkinPlague.StackMax]} volte.</string>
+	<string key="AI_HalloweenGourdspewer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Aura purificante</string>
+	<string key="AI_HalloweenGourdspewer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Rimuove Incubo della zucca e cura di un {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.HealthModifierPercent * 100]}% della salute base ogni {[Type_StatusEffectData.AI_HalloweenGourdspewer_HealPuddle.TickRate]} s.</string>
+	<string key="AI_HalloweenPlaguer_HealPuddle_DisplayName" rel_version="Event_Halloween_Temp">Aura purificante</string>
+	<string key="AI_HalloweenPlaguer_HealPuddle_Tooltip" rel_version="Event_Halloween_Temp">Rimuove Incubo della zucca e cura di un {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.HealthModifierPercent * 100]}% della salute base ogni {[Type_StatusEffectData.AI_HalloweenPlaguer_HealPuddle.TickRate]} s.</string>
 	<string key="AI_HalloweenBoss_PutridAura_DisplayName">Maledizione di Baalphazu</string>
 	<string key="AI_HalloweenBoss_PutridAura_Tooltip">Subisci un {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.HealthModifierDamageBased * -100]}% di danni da natura alla salute di base ogni {[Type_StatusEffectData.HalloweenBoss_Putrid_Aura_DoT_Damage.TickRate * 6]} s.</string>
 	<string key="AI_HercyneRat_Disease_DisplayName" rel_version="Territory_FirstLight">Malattia</string>
@@ -709,6 +717,8 @@
 	<string key="AI_Yonas_Phase1_Berserk_DisplayName" rel_version="Quest_MSQ2_Edengrove">Berserker corrotto</string>
 	<string key="AI_Yonas_Root_DisplayName" rel_version="Quest_MSQ2_Edengrove">Radicato</string>
 	<string key="AI_Yonas_Root_Tooltip" rel_version="Quest_MSQ2_Edengrove">Radicato</string>
+	<string key="AI_Yonas_Stun_4sec_DisplayName" rel_version="Quest_MSQ2_Edengrove">Stordito</string>
+	<string key="AI_Yonas_Stun_4sec_Tooltip" rel_version="Quest_MSQ2_Edengrove">Stordito</string>
 	<string key="AI_Bleed_9_DisplayName">Sanguinante</string>
 	<string key="AI_Bleed_9_Tooltip">Sanguinante per un {[Type_StatusEffectData.AI_Bleed_9.HealthModifierDamageBased * -100]}% di danni di base + {[Type_StatusEffectData.AI_Bleed_9.HealthModifierPercent * -100]}% di danni fisici alla salute di base ogni {[Type_StatusEffectData.AI_Bleed_9.TickRate]} secondi per {[Type_StatusEffectData.AI_Bleed_9.BaseDuration]} secondi.</string>
 	<string key="AI_Burn_9_DisplayName">Rovente</string>
@@ -1444,6 +1454,7 @@
 	<string key="Status_LifeSteal_Description">I danni inflitti mentre questo effetto è attivo ti cureranno.</string>
 	<string key="Status_Blessed_Description">Quando questo effetto è attivo, le cure prodotte aumentano.</string>
 	<string key="Status_GemPerk_Retaliate_Description">Bonus danni derivante dal Vantaggio Gemma della rivalsa.</string>
+	<string key="Status_PoisonDiseaseCombo_Description">Stai subendo un effetto di danni da veleno nel tempo e di malattia, e anche una riduzione delle cure prodotte.</string>
 	<string key="Status_Upgrade_Bow_EvasiveShot_Haste_description">La tua velocità di movimento aumenta di un {[Type_StatusEffectData.Status_Upgrade_Bow_EvasiveShot_Haste.SprintSpeedMod * 100]}%.</string>
 	<string key="Status_Passive_Bow_Skirmish_HasteOnSwap_description">La tua velocità di movimento aumenta di un {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_HasteOnSwap.SprintSpeedMod * 100]}%.</string>
 	<string key="Status_Passive_Bow_Skirmish_DodgeHaste_description">La tua velocità di movimento aumenta di un {[Type_StatusEffectData.Status_Passive_Bow_Skirmish_DodgeHaste.SprintSpeedMod * 100]}%.</string>
@@ -1973,5 +1984,17 @@
 	<string key="AI_CorruptedLeviathan_IchorCoating_Tooltip" rel_version="Quest_MSQ2_GreatCleave">Subisci un {[Type_StatusEffectData.AI_CorruptedLeviathan_IchorCoating.WKNCorruption * 100]}% di danni da Corruzione in più per {[Type_StatusEffectData.AI_CorruptedLeviathan_IchorCoating.BaseDuration]} secondi.</string>
 	<string key="PotionTurkeyLuckT5Status_MasterName" rel_version="Event_TurkeyTerror2023_Perm">Turkey Luck</string>
 	<string key="PotionTurkeyLuckT5Status_Description" rel_version="Event_TurkeyTerror2023_Perm">The blessing of the Turkey is upon you. You have better odds for rewards when slaying Turkulon.</string>
+	<string key="Mammoth_Chain_Lightning_DisplayName" rel_version="Territory_FirstLight">Folgorazione</string>
+	<string key="Mammoth_Chain_Lightning_Tooltip" rel_version="Territory_FirstLight">Dai una scossa al secondo a 1 alleato a portata per {[Type_StatusEffectData.Mammoth_Lightning_Empowered_Debuff_Tick.BaseDuration]} secondi.</string>
+	<string key="SE_MeshChange_Adiana_Description" rel_version="Event_Halloween2023_Perm">Visita i cestini dei dolcetti indossando questo costume per ricevere le caramelle.</string>
+	<string key="SE_MeshChange_Adiana_MasterName" rel_version="Event_Halloween2023_Perm">Costume di Adiana</string>
+	<string key="SE_MeshChange_Thorpe_Description" rel_version="Event_Halloween2023_Perm">Visita i cestini dei dolcetti indossando questo costume per ricevere le caramelle.</string>
+	<string key="SE_MeshChange_Thorpe_MasterName" rel_version="Event_Halloween2023_Perm">Costume di Thorpe</string>
+	<string key="SE_MeshChange_Anubian_Horus_Description" rel_version="Event_Halloween2023_Perm">Visita i cestini dei dolcetti indossando questo costume per ricevere le caramelle.</string>
+	<string key="SE_MeshChange_Anubian_Horus_MasterName" rel_version="Event_Halloween2023_Perm">Costume di Horus di Anubi</string>
+	<string key="SE_MeshChange_Lost_Monarch_Description" rel_version="Event_Halloween2023_Perm">Visita i cestini dei dolcetti indossando questo costume per ricevere le caramelle.</string>
+	<string key="SE_MeshChange_Lost_Monarch_MasterName" rel_version="Event_Halloween2023_Perm">Costume da monarca perduto</string>
+	<string key="Mammoth_Boss_IceStorm_Slow_Tooltip" rel_version="Territory_FirstLight">Velocità di movimento ridotta di un {[Type_StatusEffectData.Mammoth_Boss_IceStorm_Slow.SprintSpeedMod * -100]}% per accumulo.</string>
+	<string key="Mammoth_Boss_IceStorm_Slow_DisplayName" rel_version="Territory_FirstLight">Rallentamento</string>
 </resources>
 
