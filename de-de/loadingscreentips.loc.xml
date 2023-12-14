@@ -63,8 +63,8 @@
 	<string key="tip_overworld_combat_weaponCoatings01-content">Bei Waffenbeschichtungen handelt es sich um mächtige, aber kurzfristige Boni, die auf eine Waffe angewendet werden. So erhältst du einen Vorteil gegenüber einer bestimmten Gegnerart, zum Beispiel gegen Verderbte oder Ahnen. Beschichtungen können auch auf Fernwaffen und magische Waffen angewendet werden!</string>
 	<string key="tip_overworld_combat_grit01-title">Mut</string>
 	<string key="tip_overworld_combat_grit01-content">Wenn ein Charakter während eines Angriffs weiß leuchtet, kann er nicht unterbrochen werden, außer durch Massenkontroll-Statuseffekte (Verlangsamen, Verwurzeln und Betäuben).</string>
-	<string key="tip_overworld_combat_swordAndShield01-title">Schwert und Schild</string>
-	<string key="tip_overworld_combat_swordAndShield01-content">Die Werte des Schildes kommen dem Spieler nur zugute, wenn ein Schwert ausgerüstet ist.</string>
+	<string key="tip_overworld_combat_swordAndShield01-title">Der Nebenhand-Schild</string>
+	<string key="tip_overworld_combat_swordAndShield01-content">Schildeffekte sind nur aktiv, wenn der Schild gezogen ist.</string>
 	<string key="tip_overworld_combat_rapier01-title">Rapier</string>
 	<string key="tip_overworld_combat_rapier01-content">Die raschen Schnitte des Rapiers passen gut zu auf Intelligenz basierenden Waffen wie Stäben und Stulpen.</string>
 	<string key="tip_overworld_combat_hatchet01-title">Beil</string>
@@ -138,7 +138,7 @@
 	<string key="tip_overworld_equipment_equipmentLoad01-title">Ausrüstung</string>
 	<string key="tip_overworld_equipment_equipmentLoad01-content">Das Gewicht deiner Ausrüstung bestimmt deine Ausweichmöglichkeiten. Mit leichter Ausrüstung kannst du dich der Gefahr beim Ausweichen mit einer Rolle entziehen.</string>
 	<string key="tip_overworld_equipment_skins01-title">Gegenstands-Skins</string>
-	<string key="tip_overworld_equipment_skins01-content">Mit Linksklick auf eine Waffe oder ein Rüstungsteil im Inventar kannst du den Skin ausrüsten. Wähle die Option "Skin ändern", um einen der Skins für diesen Gegenstand auszurüsten, die du besitzt.</string>
+	<string key="tip_overworld_equipment_skins01-content">Durch Auswählen einer Waffe oder eines Rüstungsteils im Inventar kannst du einen Skin ausrüsten. Wähle die Option "Skin ändern", um einen der Skins für diesen Gegenstand auszurüsten, die du besitzt.</string>
 	<string key="tip_overworld_equipment_dyes01-title">Farbstoffe</string>
 	<string key="tip_overworld_equipment_dyes01-content">Farbstoffe können auf verschiedene Teile jedes Gegenstands angewendet werden. Probiere verschiedene Kombinationen aus, bevor du ein Farbschema festlegst.</string>
 	<string key="tip_overworld_equipment_rarity01-title">Die Nutzbarkeit bestimmt den Wert</string>
@@ -154,7 +154,7 @@
 	<string key="tip_overworld_equipment_repairing01-title">Schnellreparatur und Zerlegen</string>
 	<string key="tip_overworld_equipment_repairing01-content">Drücke das Tastenkürzel, um einen Gegenstand mit einem Klick zu reparieren oder zu zerlegen. [{hint1}] + Linksklick für Schnellreparatur und [{hint2}] + Linksklick für schnelles Zerlegen.</string>
 	<string key="tip_overworld_equipment_lockingItems01-title">Gegenstände sperren</string>
-	<string key="tip_overworld_equipment_lockingItems01-content">Verhindere, dass Gegenstände in deinem Inventar zerlegt werden, indem du auf den Gegenstand klickst und anschließend "Sperren" wählst [{hint1}]. Der Gegenstand wird mit einem Sperrsymbol gekennzeichnet.</string>
+	<string key="tip_overworld_equipment_lockingItems01-content">Verhindere, dass Gegenstände zerlegt werden, indem du zunächst den Gegenstand in deinem Inventar und dann "Sperren" [{hint1}] auswählst. Der Gegenstand wird mit einem Sperrsymbol gekennzeichnet.</string>
 	<string key="tip_overworld_factions_types01-title">Das Syndikat</string>
 	<string key="tip_overworld_factions_types01-content">Schlaue Jünger, die gerissen für Wahrheit und Fortschritt kämpfen.</string>
 	<string key="tip_overworld_factions_types02-title">Die Marodeure</string>
@@ -216,7 +216,7 @@
 	<string key="tip_overworld_fishing_mechanics04-title">Angeln</string>
 	<string key="tip_overworld_fishing_mechanics04-content">Mit Ködern verringert sich die Zeit, bis die Fische anbeißen.</string>
 	<string key="tip_overworld_fishing_mechanics05-title">Angeln</string>
-	<string key="tip_overworld_fishing_mechanics05-content">Drücke [{hint1}], um in den Angelmodus zu gehen und wirf dann mit einem Linksklick die Angel aus.</string>
+	<string key="tip_overworld_fishing_mechanics05-content">Drücke [{hint1}], um den Angelmodus aufzurufen.</string>
 	<string key="tip_overworld_fishing_poles01-title">Angeln</string>
 	<string key="tip_overworld_fishing_poles01-content">Mit besseren Angeln kannst du weiter auswerfen. Sie halten länger, die Leine entspannt sich schneller und die Chance auf seltenere Fische steigt.</string>
 	<string key="tip_overworld_fishing_poles02-title">Angeln</string>
@@ -300,7 +300,7 @@
 	<string key="tip_overworld_movement_compass01-title">Rohstoffe aufspüren</string>
 	<string key="tip_overworld_movement_compass01-content">Wenn du bestimmte Fähigkeiten verbesserst, schaltest du höhere Stufen der Rohstoffsuche in deinem Kompass frei.</string>
 	<string key="tip_overworld_movement_map01-title">Wegpunkte</string>
-	<string key="tip_overworld_movement_map01-content">Wenn du in eine bestimmte Richtung unterwegs bist, öffne die Karte [{hint1}] und setze mit Rechtsklick einen Wegpunkt. Dieser erscheint auf deinem Kompass und hilft dir beim Navigieren.</string>
+	<string key="tip_overworld_movement_map01-content">Wenn du in eine bestimmte Richtung unterwegs bist, öffne die Karte [{hint1}], um einen Wegpunkt an deinem Ziel zu setzen. Dieser erscheint auf deinem Kompass und hilft dir beim Navigieren.</string>
 	<string key="tip_overworld_movement_lore01-title">Weltgeschichtsseiten</string>
 	<string key="tip_overworld_movement_lore01-content">Füttere deinen Geist! Das Lesen von Wissensseiten auf Aeternum bringt EP!</string>
 	<string key="tip_overworld_pings_contextualPings01-title">Kontextuelle Pings</string>
@@ -502,7 +502,7 @@
 	<string key="tip_outpostRush_general02-title">Außenpostensturm</string>
 	<string key="tip_outpostRush_general02-content">Sammle behandeltes Holz, Erz und Tierhäute und baue damit Tore und Belagerungswaffen, um deinen Außenposten aufzuwerten. Baue einen Kommandoposten, um mächtige Offensiv- und Defensivboni für dein Team zu erhalten.</string>
 	<string key="tip_outpostRush_general03-title">Außenpostensturm</string>
-	<string key="tip_outpostRush_general03-content">Nutze Beschwörungssteine, um in Beschwörungszirkeln mächtige Verbündete herbeizurufen. Beschwöre einen Bären, indem du einen Stein in der Rüstungsschmiede kaufst, oder erhalte einen ultrastarken Wüstling, indem du dem verderbten Portal etwas Azoth opferst.</string>
+	<string key="tip_outpostRush_general03-content">Nutze Beschwörungssteine, um in Beschwörungszirkeln mächtige Verbündete herbeizurufen. Besiege wichtige Gegner, um Bären- und Gespensterbeschwörungen zu bekommen, oder erhalte einen ultrastarken Wüstling, indem du das verderbte Portal säuberst.</string>
 	<string key="tip_outpostRush_general04-title">Außenpostensturm</string>
 	<string key="tip_outpostRush_general04-content">Baronin Hain ist ein Geist einer vor langer Zeit verstorbenen Adligen, die auf der Insel ihr Unwesen treibt. Besiege sie, um einen mächtigen Bonus zu erhalten, der die Verteidigung deines Teams verstärkt und den Punktestand der Gegner einfriert.</string>
 	<string key="tip_pvpArena_general01-title" rel_version="Feature_PVP_Arenas">Durch Feuer und Flamme</string>

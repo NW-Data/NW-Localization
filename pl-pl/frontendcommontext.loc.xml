@@ -178,7 +178,7 @@
 	<string key="mm_rejected_No_Ghost_Client">Błąd serwera: nie udało się rozpocząć replikacji.</string>
 	<string key="mm_rejected_Server_Crash">Utracono połączenie z serwerem. Trwa ponowne łączenie…</string>
 	<string key="mm_rejected_Free_Session_Expired_Title">Darmowy czas rozgrywki wygasł.</string>
-	<string key="mm_rejected_Free_Session_Expired">Skończył się darmowy czas twojej rozgrywki. Naciśnij "OK", aby powrócić do menu głównego.</string>
+	<string key="mm_rejected_Free_Session_Expired">Skończył się darmowy czas twojej rozgrywki. Powrócisz do menu głównego.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">Zgłoszenie logowania nie jest prawidłowe dla świata</string>
 	<string key="mm_rejected_Player_Not_Entitled_To_World">Odmowa dostępu: Brak uprawnień do tego świata gry.</string>
 	<string key="mm_rejected_Matchmaking_Login">Zaloguj się ponownie, by dołączyć do meczu.</string>
@@ -187,7 +187,7 @@
 	<string key="mm_rejected_Client_Kicked_AFK">Wyrzucono cię z gry z powodu zbyt długiej nieaktywności.</string>
 	<string key="mm_rejected_Client_Kicked_DuplicateSession">Twoje konto połączyło się z innej sesji gry.</string>
 	<string key="mm_rejected_Client_Kicked_CharacterDeactivated">Twoja postać została usunięta.</string>
-	<string key="mm_rejected_Client_Kicked_Maintenance">Trwają prace konserwacyjne świata. Podczas prac konserwacyjnych świat nie będzie dostępny. Naciśnij "OK", aby powrócić do menu głównego.</string>
+	<string key="mm_rejected_Client_Kicked_Maintenance">Trwają prace konserwacyjne świata. Świat niedostępny. Powrócisz do menu głównego.</string>
 	<string key="mm_rejected_Client_Kicked_Abuse">Wyrzucono cię ze względu na złe zachowanie. Ogarnij się!</string>
 	<string key="mm_rejected_Client_Kicked_Banned">Twoje konto zostało zablokowane.</string>
 	<string key="mm_rejected_Client_Kicked_BannedHacking">Hackowanie</string>
@@ -240,7 +240,7 @@
 	<string key="mm_queuewithestimate">Szacowany czas: {time}\nMiejsce w kolejce: {rank}\n{status}</string>
 	<string key="mm_queuewithcappedestimate">Szacowany czas: &gt;{time}\nMiejsce w kolejce: {rank}\n{status}</string>
 	<string key="mm_queueestimateunknown">Szacowany czas: nieznany\nMiejsce w kolejce: nieznane\n{status}</string>
-	<string key="mm_queuepopuptitle">Logowanie...</string>
+	<string key="mm_queuepopuptitle">Oczekiwanie na zalogowanie...</string>
 	<string key="mm_queuejoinfailed">Zalogowanie niemożliwe z powodu zbyt dużej liczby oczekujących graczy. Spróbuj ponownie później.</string>
 	<string key="mm_queuerefresherror">Błąd połączenia z kolejką logowania. Ponawianie...</string>
 	<string key="mm_server_message_title">Komunikat serwera</string>
@@ -268,7 +268,7 @@
 	<string key="lt_6_text2">Jeśli chcesz przełamać obronę przeciwnika, naciśnij &lt;font color="#fff1ce"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;F&lt;/font&gt;&lt;/font&gt;, by wykonać atak przełamujący.</string>
 	<string key="lt_7_title">Budowanie konstrukcji</string>
 	<string key="lt_7_text">Plan konstrukcji można umieścić na przejętej ziemi.\nAby zbudować konstrukcję, dodawaj do jej planu surowce w miarę ich znajdowania.</string>
-	<string key="ui_chat_placeholder">Wprowadź wiadomość. @imię (wspomnij rozmówcę)</string>
+	<string key="ui_chat_placeholder">Wprowadź wiadomość. @mention (wspomnij rozmówcę)</string>
 	<string key="loadingScreen_ingame_scenic01">WCZYTYWANIE</string>
 	<string key="loadingScreen_ingame_scenic02">WCZYTYWANIE</string>
 	<string key="loadingScreen_ingame_scenic03">WCZYTYWANIE</string>
@@ -305,6 +305,7 @@
 	<string key="loadingScreen_ingame_ancient08">WCZYTYWANIE</string>
 	<string key="ui_cantDropMissionItem">Nie można wyrzucić przedmiotów fabularnych</string>
 	<string key="ui_cantDropLockedItem">Nie można wyrzucić zablokowanych przedmiotów</string>
+	<string key="ui_cantDropGameModeItem">Przedmioty związane z trybem gry są upuszczane tylko podczas śmierci</string>
 	<string key="ui_navmenu_progression">POSTAĆ</string>
 	<string key="ui_bio">Biografia</string>
 	<string key="ui_attributes">Cechy</string>
@@ -346,6 +347,12 @@
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Premie za punkt kontrolny: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt; Premia za ukończenie ścieżki: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">Ukończono ścieżkę PvP</string>
+	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvPRewardsTrack_Update">Pula nagród: \n+ nazwane wyposażenie</string>
+	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvPRewardsTrack_Update">Pula nagród: \n+ prestiżowe wyposażenie</string>
+	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvPRewardsTrack_Update">Pula nagród: \n+ wielki pancerz\n+ broń Drapieżcy</string>
+	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvPRewardsTrack_Update">Pula nagród: \n+ więcej ciemnej materii\n+ więcej monet\n+ więcej żetonów\n+ więcej eliksirów</string>
+	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvPRewardsTrack_Update">Pula nagród: \n+ więcej ciemnej materii</string>
+	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvPRewardsTrack_Update">Pula nagród: \n+ więcej wszystkiego</string>
 	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">Kamień milowy ścieżki {milestone}:</string>
 	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">Kamień milowy ścieżki{milestone}</string>
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Nagroda</string>
@@ -459,7 +466,6 @@
 	<string key="ui_fishing_equip_action">Tryb wędkowania</string>
 	<string key="ui_fishing_action">Zarzuć / Złap / Zwiń</string>
 	<string key="ui_fishing_reset_action">Resetuj rzucanie / Przerwij</string>
-	<string key="ui_riding" rel_version="Feature_Mounts">Jazda</string>
 	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Muzyka</string>
 	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Tryb występu</string>
 	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Graj</string>
@@ -476,7 +482,7 @@
 	<string key="ui_camping">Biwakowanie</string>
 	<string key="ui_tracking">Już wkrótce</string>
 	<string key="ui_exploring">Już wkrótce</string>
-	<string key="ui_crafting">Wytwarzanie</string>
+	<string key="ui_crafting">Rzemiosło</string>
 	<string key="ui_repairing">Naprawa</string>
 	<string key="ui_gathering">Zbieranie</string>
 	<string key="ui_refining">Przetwarzanie</string>

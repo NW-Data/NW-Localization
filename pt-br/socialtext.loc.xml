@@ -298,7 +298,7 @@
 	<string key="ui_spotlight_failed_notification_title">A Conexão Falhou</string>
 	<string key="ui_spotlight_failed_notification_message">Não foi possível iniciar o Destaque de Streamers da Twitch. Certifique-se de que sua transmissão esteja ao vivo e tente novamente.</string>
 	<string key="ui_spotlight_error">&lt;font color="#835acd"&gt;Status:&lt;/font&gt; &lt;font color="#f25d5d"&gt; Erro&lt;/font&gt;</string>
-	<string key="ui_subarmy_title">Tropa Inscrita na Twitch</string>
+	<string key="ui_subarmy_title">Tropa de Inscritos na Twitch</string>
 	<string key="ui_subarmy_join_desc">Entre na sessão da tropa de inscritos de outros streamers.</string>
 	<string key="ui_subarmy_tooltip">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Ative&lt;/font&gt; nas &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Configurações&lt;/font&gt; para criar ou se juntar à Tropa de Inscritos na Twitch.</string>
 	<string key="ui_subarmy_subtitle_sessions">{number} sessões disponíveis</string>
@@ -506,7 +506,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Sua sinalização de PvP não corresponde ao Saguão.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">É preciso estar na mesma facção para entrar no Saguão de PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Os requisitos do Saguão mudaram e você não os atende.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Your Lobby Description contained profanity or prohibited words, please try again.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">A descrição do seu Saguão continha palavrões ou palavras proibidas. Tente novamente.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Você não pode enviar mais solicitações.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Saguão Lotado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} recusou a verificação de preparo.</string>
@@ -543,6 +543,15 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Você deve selecionar uma função.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_none_accepted_tooltip">É preciso aceitar pelo menos uma função.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip_queue">Não é permitido solicitar a entrada em um saguão enquanto está em uma fila de modo de jogo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in">Travar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in_disabled_tooltip">Você precisa selecionar uma função que não atingiu o máximo permitido.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_change_role">Alterar Função</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_decline">Recusar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_minimize">Minimizar</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_bonus_label">Bônus de Função</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_max_allowed">Máx. de {amount}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_players_locked_in">Jogadores travados - &lt;font color={numberColor}&gt; &lt;img src="LyShineUI/Images/icons/chat/channelgroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; {numLockedIn}&lt;/font&gt; / {numInGroup}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_all_players_locked_in">Todos os jogadores estão travados. Entrando na fila...</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Você precisa ter {quantity} {item}(s) para criar um novo Saguão para esta expedição.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Funções atuais neste grupo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
@@ -586,6 +595,8 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Convite recusado. O jogador não correspondeu à sinalização PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Convite recusado. O jogador atingiu o limite de Expedições.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Convite recusado. O jogador está em uma Facção diferente.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mutationlevel">Convite recusado. O nível do jogador é muito baixo.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_mutationlevel">Você está em um nível muito baixo para criar um saguão para esta expedição transmutada.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Convidar ao Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Somente o criador do Saguão pode convidar.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} já está no seu Saguão.</string>
@@ -648,7 +659,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Seu nível: {level}\nO nível mínimo não pode exceder o seu nível.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Sua Pontuação do Equipamento: {gearscore}\nA pontuação mínima de equipamento não pode exceder sua pontuação do equipamento.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">“{text}”</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_invalid_characters">Character not allowed in the Lobby Description</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_invalid_characters">Personagem não permitido na descrição do Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Saguão</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Saguões</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">Há {time}</string>

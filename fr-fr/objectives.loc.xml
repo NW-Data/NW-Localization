@@ -47,12 +47,12 @@
 	<string key="objective_craft" speaker="UI">Fabriquer : {itemName}</string>
 	<string key="objective_craft_an" speaker="UI">Fabriquer : {itemName}</string>
 	<string key="objective_craft_p" speaker="UI">Fabriquer : {itemName} x {itemAmount}</string>
-	<string key="objective_crafthealingdrops" speaker="UI">Fabriquer au bivouac (par défaut : [Y]) : {itemName}</string>
+	<string key="objective_crafthealingdrops" speaker="UI">Fabriquer au bivouac : {itemName}</string>
 	<string key="objective_crafthealthfood" speaker="UI">Cuisiner de quoi récupérer de la santé au feu de camp du guetteur</string>
 	<string key="objective_crafting" speaker="UI">Fabrication</string>
 	<string key="objective_craftsoverseersword" speaker="UI">Fabriquer à la forge : {itemName}</string>
 	<string key="objective_darkness_corrupted_portal_desc" speaker="UI">Empêchez l'ouverture du portail par les acolytes altérés.</string>
-	<string key="objective_darkness_corrupted_portal_title" speaker="UI">portail d'altération</string>
+	<string key="objective_darkness_corrupted_portal_title" speaker="UI">Portail d'altération</string>
 	<string key="objective_darkness_task_complete_waves_desc" speaker="UI">Repoussez {targetAmount} vague d'ennemis.</string>
 	<string key="objective_darkness_task_complete_waves_desc_p" speaker="UI">Repoussez {targetAmount} vagues d'ennemis.</string>
 	<string key="objective_darkness_task_kill_enemies_desc" speaker="UI">Tuez : {targetName} x {targetAmount}.</string>
@@ -193,7 +193,7 @@
 	<string key="objective_world" speaker="UI">Monde</string>
 	<string key="objective_onboarding_goToOutpost_task01_desc" speaker="UI">Explorer la tour de guet</string>
 	<string key="objective_onboarding_goToOutpost_task02_desc" speaker="UI">Aller à une tour de guet</string>
-	<string key="objective_onboarding_goToOutpost_task03_desc" speaker="UI">Ouvrir la carte (par défaut : [?])</string>
+	<string key="objective_onboarding_goToOutpost_task03_desc" speaker="UI">Ouvrir la carte</string>
 	<string key="objective_pin" speaker="UI">Épingler</string>
 	<string key="objective_pinned" speaker="UI">Épinglé</string>
 	<string key="objective_populatehere" speaker="UI">Vos cartes sont placées ici.</string>
@@ -257,13 +257,13 @@
 	<string key="objective_mission_task_patrol_windsward" speaker="UI">Patrouiller sur le territoire</string>
 	<string key="patrol_task_container_description" speaker="UI">Tenez votre position sans perdre la vie.</string>
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Tenir : {POITags} pendant {timeRemaining}</string>
-	<string key="objective_mission_task_control_point" speaker="UI">Prendre la forteresse {TerritoryID} au nom des Maraudeurs</string>
+	<string key="objective_mission_task_control_point" speaker="UI">Capturer un point de contrôle de faction pour les Maraudeurs dans le territoire {TerritoryID}.</string>
 	<string key="task_choose_faction" speaker="UI">Choisir une faction avec : {destinationName}</string>
 	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Terminer la quête</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Accepter la quête</string>
 	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Quest  Description" quest_id="S_getoffbeach">Explorez ce qui ressemble à une tour de guet.</string>
 	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title" quest_id="S_getoffbeach">Seul survivant</string>
-	<string key="task_getoffbeach_openmap">Ouvrir la carte (par défaut : [?])</string>
+	<string key="task_getoffbeach_openmap">Ouvrir la carte</string>
 	<string key="have_berries">Manger des baies</string>
 	<string key="objective_mission_kill_generic_at_POI">Vaincre : {targetName} à : {POITags}</string>
 	<string key="objective_mission_loot_chests_generic_at_POI">Fouiller les coffres pour trouver : {itemName} à : {POITags}</string>
@@ -311,8 +311,8 @@
 	<string key="objective_mission_kill_with_firestaff">Utiliser un bâton de feu et vaincre : {targetName}</string>
 	<string key="objective_mission_kill_with_lifestaff">Utiliser un bâton de vie et vaincre : {targetName}</string>
 	<string key="objective_mission_kill_with_icegauntlet">Utiliser des gantelets de glace et vaincre : {targetName}</string>
-	<string key="objective_mission_task_control_point_S">Prendre la forteresse {TerritoryID} au nom de l'Ombre</string>
-	<string key="objective_mission_task_control_point_C">Prendre la forteresse {TerritoryID} au nom des Engagés</string>
+	<string key="objective_mission_task_control_point_S">Capturer un point de contrôle de faction pour l'Ombre dans le territoire {TerritoryID}.</string>
+	<string key="objective_mission_task_control_point_C">Capturer un point de contrôle de faction pour les Engagés dans le territoire {TerritoryID}.</string>
 	<string key="objective_mission_faction_corruption_breach" rel_version="Quest_FM_BreachMissions">Sceller un foyer d'altération</string>
 	<string key="objective_mission_rescue_npc_generic" rel_version="Quest_MSQ2_Revamp">Sauver les otages</string>
 	<string key="objective_mission_boatencounter_obj_title" rel_version="Quest_MSQ2_Revamp">Détruire le bateau</string>
@@ -327,6 +327,8 @@
 	<string key="objective_timetrial_addTime" speaker="UI">+{secondsAdded} secondes</string>
 	<string key="objective_timetrial_tutorial" speaker="UI">[{key} pour GALOPER]</string>
 	<string key="objective_timetrial_tourStart" speaker="UI">PARTEZ !</string>
+	<string key="objective_timetrial_timeout_teleport_prompt_title" speaker="UI">&lt;font color={color}&gt;Échec de l'épreuve chronométrée&lt;/font&gt;</string>
+	<string key="objective_timetrial_timeout_teleport_prompt_description" speaker="UI">Voulez-vous vous téléporter de nouveau au début et réessayer ?</string>
 	<string key="objective_multiple_active_races" speaker="UI">Une seule course peut être active à la fois.</string>
 	<string key="objective_artifact_equip_to_view" rel_version="Feature_Artifacts">S'équiper de l'artéfact pour voir les objectifs.</string>
 	<string key="objective_artifact_max_reminder" rel_version="Feature_Artifacts">Trop d'objectifs d'artéfact en cours. Abandonnez-en un pour en démarrer un autre.</string>
@@ -337,12 +339,16 @@
 	<string key="Objective_Artifact_Set1_HeavyChest" rel_version="Feature_Expansion_1">Artéfact : Plates sombres du néant</string>
 	<string key="Objective_Artifact_Set1_HeavyHands" rel_version="Feature_Expansion_1">Artéfact : Gantelets magnétiques</string>
 	<string key="Objective_Artifact_Set1_HeavyLegs" rel_version="Feature_Expansion_1">Artéfact : Liberté</string>
+	<string key="Objective_Artifact_Set1_HeavyFeet" rel_version="Feature_Artifacts_Set2">Artéfact : L'indéracinable</string>
 	<string key="Objective_Artifact_Set1_MediumHead" rel_version="Feature_Expansion_1">Artéfact : Turban de Djinn</string>
 	<string key="Objective_Artifact_Set1_MediumChest" rel_version="Feature_Expansion_1">Artéfact : Manteau souple</string>
 	<string key="Objective_Artifact_Set1_MediumHands" rel_version="Feature_Expansion_1">Artéfact : Gants de goule</string>
 	<string key="Objective_Artifact_Set1_MediumLegs" rel_version="Feature_Expansion_1">Artéfact : Pantalon en cuir de phase</string>
+	<string key="Objective_Artifact_Set1_MediumFeet" rel_version="Feature_Artifacts_Set2">Artéfact : Chaussures ailées</string>
 	<string key="Objective_Artifact_Set1_LightHead" rel_version="Feature_Expansion_1">Artéfact : Chapeau de sorcier gris</string>
 	<string key="Objective_Artifact_Set1_LightChest" rel_version="Feature_Expansion_1">Artéfact : Poids-plume</string>
+	<string key="Objective_Artifact_Set1_LightHands" rel_version="Feature_Artifacts_Set2">Artéfact : Gants de preste dégainage</string>
+	<string key="Objective_Artifact_Set1_LightLegs" rel_version="Feature_Artifacts_Set2">Artéfact : Garde-genoux</string>
 	<string key="Objective_Artifact_Set1_LightFeet" rel_version="Feature_Expansion_1">Artéfact : Bandages de pieds d'acrobate</string>
 	<string key="Objective_Artifact_Set1_1hLongsword" rel_version="Feature_Expansion_1">Artéfact : Le Boucher</string>
 	<string key="Objective_Artifact_Set1_1hThrowingAxe" rel_version="Feature_Expansion_1">Artéfact : Francisque de Freya</string>
@@ -350,11 +356,14 @@
 	<string key="Objective_Artifact_Set1_2hGreatAxe" rel_version="Feature_Expansion_1">Artéfact : Les Abysses</string>
 	<string key="Objective_Artifact_Set1_2hBow" rel_version="Feature_Artifacts_Set2">Artéfact : Lance-carreaux</string>
 	<string key="Objective_Artifact_Set1_2hMusket" rel_version="Feature_Expansion_1">Artéfact : Le Mécanicien</string>
+	<string key="Objective_Artifact_Set1_1hRoundShield" rel_version="Feature_Artifacts_Set2">Artéfact : Gladiateur</string>
 	<string key="Objective_Artifact_Set1_1hKiteShield" rel_version="Feature_Expansion_1">Artéfact : Michael</string>
 	<string key="Objective_Artifact_Set1_1hTowerShield" rel_version="Feature_Expansion_1">Artéfact : Le Mur</string>
 	<string key="Objective_Artifact_Set1_2hStaffFire" rel_version="Feature_Expansion_1">Artéfact : Fournaise</string>
+	<string key="Objective_Artifact_Set1_2hStaffLife" rel_version="Feature_Artifacts_Set2">Artéfact : Vengeance</string>
 	<string key="Objective_Artifact_Set1_2hSpear" rel_version="Feature_Expansion_1">Artéfact : Dard du scorpion</string>
 	<string key="Objective_Artifact_Set1_1hRapier" rel_version="Feature_Expansion_1">Artéfact : L'Acheveur</string>
+	<string key="Objective_Artifact_Set1_1hGauntletIce" rel_version="Feature_Artifacts_Set2">Artéfact : Les Gelés</string>
 	<string key="Objective_Artifact_Set1_1hGauntletVoid" rel_version="Feature_Expansion_1">Artéfact : Écourteurs de vie</string>
 	<string key="Objective_Artifact_Set1_2hBlunderbuss" rel_version="Feature_Expansion_1">Artéfact : Pestilence</string>
 	<string key="Objective_Artifact_Set1_2hGreatSword" rel_version="Feature_Expansion_1">Artéfact : Sérénité</string>
@@ -362,6 +371,8 @@
 	<string key="Objective_Artifact_Set1_Earring1" rel_version="Feature_Expansion_1">Artéfact : Soif inassouvible</string>
 	<string key="Objective_Artifact_Set1_Ring1" rel_version="Feature_Expansion_1">Artéfact : Buveur de sang</string>
 	<string key="Objective_Artifact_Set1_Amulet1" rel_version="Feature_Expansion_1">Artéfact : Chronomètre égaré</string>
+	<string key="Objective_Artifact_Set1_Earring2" rel_version="Feature_Artifacts_Set2">Artéfact : Quiétude océane</string>
+	<string key="Objective_Artifact_Set1_Ring2" rel_version="Feature_Artifacts_Set2">Artéfact : Tête pensante</string>
 	<string key="Objective_Artifact_Set1_Amulet2" rel_version="Feature_Expansion_1">Artéfact : Ânkh</string>
 	<string key="Objective_Kill_Dungeon_DepthBoss" rel_version="Feature_Expansion_1">Vaincre dans l'expédition des Profondeurs : {targetName}</string>
 	<string key="Objective_Kill_in_FL" rel_version="Feature_Expansion_1">Vaincre dans les contrées sauvages élyséennes des ennemis : {targetName}</string>
@@ -375,9 +386,19 @@
 	<string key="Objective_Kill_Ennead" rel_version="Feature_Expansion_1">Vaincre {targetName} dans l'Ennéade</string>
 	<string key="Objective_Kill_Starstone" rel_version="Feature_Expansion_1">Vaincre {targetName} dans les carrières de pierre d'étoile</string>
 	<string key="Objective_Kill_Empyean" rel_version="Feature_Expansion_1">Vaincre {targetName} dans la forge empyréenne</string>
+	<string key="Objective_Kill_GlacialTarn" rel_version="Feature_Artifacts_Set2">Vaincre {targetName} dans le lac de glace</string>
 	<string key="Objective_Kill_OPR" rel_version="Feature_Expansion_1">Vaincre {targetName} en Déferlante</string>
 	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Vaincre {targetName} en arène</string>
 	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Éliminer {targetName} ennemis</string>
 	<string key="Objective_CraftArtifact" rel_version="Feature_Expansion_1">Améliorer cet objet au four à gypses</string>
+	<string key="objective_encounter_stage2">Étape 2 :</string>
+	<string key="objective_encounter_stage3">Étape 3 :</string>
+	<string key="objective_encounter_stage9">Étape 9 :</string>
+	<string key="objective_encounter_stage5">Étape 5 :</string>
+	<string key="objective_encounter_stage1">Étape 1 :</string>
+	<string key="objective_encounter_stage7">Étape 7 :</string>
+	<string key="objective_encounter_stage6">Étape 6 :</string>
+	<string key="objective_encounter_stage8">Étape 8 :</string>
+	<string key="objective_encounter_stage4">Étape 4 :</string>
 </resources>
 
