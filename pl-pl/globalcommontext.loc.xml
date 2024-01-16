@@ -81,7 +81,7 @@
 	<string key="inv_rarity_salvage_confirm">Próbujesz rozebrać potężny przedmiot. Na pewno?</string>
 	<string key="inv_cannotsalvage_equipped">Nie możesz odzyskać składników z wyposażonych przedmiotów.</string>
 	<string key="inv_cannotsalvage_full">Nie można odzyskać składników. Twój ekwipunek jest pełny.</string>
-	<string key="inv_cannotsalvage_currencyfull">Nie można odzyskać, ponieważ {currency} jest pełny.</string>
+	<string key="inv_cannotsalvage_currencyfull">Nie można odzyskać – brak miejsca na {currency}.</string>
 	<string key="ui_move_hint">Ruch</string>
 	<string key="ui_link_to_chat_hint">Wspomnij na czacie</string>
 	<string key="ui_split_stack_hint">Podziel stos</string>
@@ -216,7 +216,7 @@
 	<string key="ui_azoth_currency">Azoth</string>
 	<string key="ui_azoth_desc">Azoth służy do szybkiej podróży pomiędzy kapliczkami i osadami oraz do wytwarzania potężniejszych przedmiotów.\n\nZdobywaj go przez wykonywanie zadań i zamykanie wyłomów skażenia.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Źródło:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#FFFFFF"&gt;Wyłomy skażenia, zadania&lt;/font&gt;</string>
 	<string key="ui_cards">Karty</string>
-	<string key="ui_leave_arena_coming_soon">Funkcja "opuszczanie areny" zostanie wkótce dodana</string>
+	<string key="ui_leave_arena_coming_soon">Funkcja "opuszczanie areny" zostanie wkrótce dodana</string>
 	<string key="ui_equipfishingpole">{$player.fishing_activate$}, aby wędkować</string>
 	<string key="ui_castfishingline">: Zarzuć żyłkę</string>
 	<string key="ui_fishing_hotspot_nearby">Znajdź łowisko w okolicy!</string>
@@ -296,7 +296,7 @@
 	<string key="ui_customize_company">Dostosuj kompanię</string>
 	<string key="ui_customize_company_description">Wybierz herb kompanii.</string>
 	<string key="ui_cyclepermissions">PRZEŁĄCZAJ POZWOLENIA</string>
-	<string key="ui_d">d</string>
+	<string key="ui_d">d.</string>
 	<string key="ui_day">dzień</string>
 	<string key="ui_days">dni</string>
 	<string key="ui_years">lat(a)</string>
@@ -477,8 +477,8 @@
 	<string key="ui_hour">godz.</string>
 	<string key="ui_hours">godz.</string>
 	<string key="ui_hours:">godz.:</string>
-	<string key="ui_hours_short">g</string>
-	<string key="ui_days_short">d</string>
+	<string key="ui_hours_short">h</string>
+	<string key="ui_days_short">d.</string>
 	<string key="ui_identity_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</string>
 	<string key="ui_identity">Tożsamość</string>
 	<string key="ui_iknowwhatitistobeasubj">Wiem, jak to jest być poddanym i jak to jest być władcą, co znaczy mieć dobrych sąsiadów i czasem spotykać złoczyńców. W zaufaniu znalazłam zdradę.</string>
@@ -1070,6 +1070,7 @@
 	<string key="ui_killfeed_tradeskill_val">+{amount}</string>
 	<string key="ui_navmenu_friends">ZNAJOMI</string>
 	<string key="ui_navmenu_modes">Tryby</string>
+	<string key="ui_navmenu_activities" rel_version="Feature_PUG_Finder">Aktywności</string>
 	<string key="ui_navmenu_guild">Kompania</string>
 	<string key="ui_navmenu_map">Mapa</string>
 	<string key="ui_navmenu_journal">Dziennik</string>
@@ -1142,6 +1143,7 @@
 	<string key="ui_constitution">Kondycja</string>
 	<string key="ui_respec">Rekonfig.</string>
 	<string key="ui_respec_attributes">Resetuj wszystkie punkty cech</string>
+	<string key="ui_cannot_respec_attributes_during_combat">Nie można przeprowadzić rekonfiguracji cech podczas walki</string>
 	<string key="ui_respec_mastery">Resetuj wszystkie punkty biegłości</string>
 	<string key="ui_base">Podstawa</string>
 	<string key="ui_health">Zdrowie</string>
@@ -1546,7 +1548,7 @@
 	<string key="ui_deathrecap_new_personal_best">Nowy rekord życiowy!</string>
 	<string key="ui_deathrecap_respawn_ready">Gotowy</string>
 	<string key="ui_deathrecap_respawn_overloaded">To miejsce jest zbyt zatłoczone, by się w nim odrodzić.</string>
-	<string key="ui_deathrecap_respawn_out_of_range">Musisz znajdować się w odległości nie większej niż &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; od obozu, by móc się odrodzić.</string>
+	<string key="ui_deathrecap_respawn_out_of_range">Musisz być nie więcej niż &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; od obozu, by móc się odrodzić.</string>
 	<string key="ui_deathrecap_respawn_out_of_range_with_cooldown">Odrodzenie dostępne za &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt; w odległości nie większej niż &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; od obozu.</string>
 	<string key="ui_deathrecap_survived_for">Postać przeżyła:</string>
 	<string key="ui_deathrecap_respawn_points">Punkty odrodzenia</string>
@@ -1614,7 +1616,7 @@
 	<string key="ui_tooltip_required">Wymagania:</string>
 	<string key="ui_tooltip_requires">Wymaga:</string>
 	<string key="ui_tooltip_attribute">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#FFFFFF"&gt;{value}&lt;/font&gt; {label}</string>
-	<string key="ui_tooltip_equip">Ekwipuj</string>
+	<string key="ui_tooltip_equip">Użyj</string>
 	<string key="ui_tooltip_equip_desc">Wyposaż się w ten przedmiot</string>
 	<string key="ui_tooltip_equip_requirements_not_met">Wymagania nie zostały spełnione</string>
 	<string key="ui_tooltip_equipasweapon">Użyj jako broni</string>
@@ -1686,7 +1688,7 @@
 	<string key="ui_chat_mention_self_markup">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font" color="#FFFFFF"&gt;@{name}&lt;/font&gt;</string>
 	<string key="ui_and">i</string>
 	<string key="ui_or">Lub</string>
-	<string key="ui_for">na</string>
+	<string key="ui_for">za</string>
 	<string key="ui_question_mark">?</string>
 	<string key="ui_tooltip_ingredient_type">Typ:</string>
 	<string key="ui_tooltip_ingredient_types">Typy:</string>
@@ -2641,7 +2643,7 @@
 	<string key="ui_autopinobjectivesFactionStory_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania frakcji po ich przyjęciu</string>
 	<string key="ui_autopinObjectivesSkillProgression">Automatycznie przypinaj zadania dotyczące rozwoju umiejętności</string>
 	<string key="ui_autopinobjectivesSkillProgression_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania rozwoju umiejętności po ich przyjęciu</string>
-	<string key="ui_autopinObjectivesMountQuest">Automatycznie przypinaj zadania trofeum</string>
+	<string key="ui_autopinObjectivesMountQuest">Automatycznie przypinaj zadania związane z wierzchowcem</string>
 	<string key="ui_autopinobjectivesMountQuest_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania związane z wierzchowcem po ich przyjęciu</string>
 	<string key="ui_autopinObjectivesEpicEquipment">Automatycznie przypinaj zadania związane z epickim wyposażeniem</string>
 	<string key="ui_autopinobjectivesEpicEquipment_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania związane z epickim wyposażeniem po ich przyjęciu</string>
@@ -2871,6 +2873,5 @@
 	<string key="ui_sort_by_price_high">Sortuj według ceny: Wysoka – niska</string>
 	<string key="ui_requirements">Wymagania</string>
 	<string key="ui_external_rewards">Zewnętrzne nagrody</string>
-	<string key="ui_cannot_respec_attributes_during_combat">Nie można przeprowadzić rekonfiguracji cech podczas walki</string>
 </resources>
 

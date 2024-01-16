@@ -231,10 +231,12 @@
 	<string key="FoodRecoveryT3_MasterName">Rassasié</string>
 	<string key="FoodRecoveryT4_MasterName">Rassasié</string>
 	<string key="FoodRecoveryT5_MasterName">Rassasié</string>
-	<string key="FoodRecoveryT2_Description">Vous récupérez {[Type_StatusEffectData.FoodRecoveryT2.HealthModifierPercent * 100]} % de votre santé max toutes les 2,5s.</string>
-	<string key="FoodRecoveryT3_Description">Vous récupérez {[Type_StatusEffectData.FoodRecoveryT3.HealthModifierPercent * 100]} % de votre santé max toutes les 2,5s.</string>
-	<string key="FoodRecoveryT4_Description">Vous récupérez {[Type_StatusEffectData.FoodRecoveryT4.HealthModifierPercent * 100]} % de votre santé max toutes les 2,5s.</string>
-	<string key="FoodRecoveryT5_Description">Vous récupérez {[Type_StatusEffectData.FoodRecoveryT5.HealthModifierPercent * 100]} % de votre santé max toutes les 2,5s.</string>
+	<string key="FoodRecoveryT52_MasterName">Rassasié</string>
+	<string key="FoodRecoveryT2_Description">Vous récupérez {[Type_StatusEffectData.FoodRecoveryT2.HealthModifierPercent * 100]} % de votre santé max toutes les 2,5 s.</string>
+	<string key="FoodRecoveryT3_Description">Vous récupérez {[Type_StatusEffectData.FoodRecoveryT3.HealthModifierPercent * 100]} % de votre santé max toutes les 2,5 s.</string>
+	<string key="FoodRecoveryT4_Description">Vous récupérez {[Type_StatusEffectData.FoodRecoveryT4.HealthModifierPercent * 100]} % de votre santé max toutes les 2,5 s.</string>
+	<string key="FoodRecoveryT5_Description">Vous récupérez {[Type_StatusEffectData.FoodRecoveryT5.HealthModifierPercent * 100]} % de votre santé max toutes les 2,5 s.</string>
+	<string key="FoodRecoveryT52_Description">Vous récupérez {[Type_StatusEffectData.FoodRecoveryT52.HealthModifierPercent * 100]} % de votre santé max toutes les 2,5 s.</string>
 	<string key="FoodCorruptedT1_Effect_Tooltip">Confère une faible protection contre les dégâts infligés par les altérés. Confère 1 point de forme supplémentaire.</string>
 	<string key="FoodLostT1_Effect_Tooltip">Confère une faible protection contre les dégâts infligés par les dévoyés. Confère 1 point de forme supplémentaire.</string>
 	<string key="FoodAngryEarthT1_Effect_Tooltip">Confère une faible protection contre les dégâts infligés par les créatures de la Terre enragée. Confère 1 point de forme supplémentaire.</string>
@@ -877,6 +879,8 @@
 	<string key="AI_IceGolem_Slow_Tooltip" rel_version="Expedition_GreatCleave_00">Réduit la vitesse de déplacement de {[Type_StatusEffectData.AI_IceGolem_Slow.MoveSpeedMod * -100]} % pendant {[Type_StatusEffectData.AI_IceGolem_Slow.BaseDuration]} secondes. Cumulable {[Type_StatusEffectData.AI_IceGolem_Slow.StackMax]} fois.</string>
 	<string key="AI_IceGolem_Slow_FrostBreath_DisplayName" rel_version="Expedition_GreatCleave_00">Ralentissement</string>
 	<string key="AI_IceGolem_Slow_FrostBreath_Tooltip" rel_version="Expedition_GreatCleave_00">Réduit la vitesse de déplacement de {[Type_StatusEffectData.AI_IceGolem_Slow_FrostBreath.MoveSpeedMod * -100]} % pendant {[Type_StatusEffectData.AI_IceGolem_Slow_FrostBreath.BaseDuration]} secondes. Cumulable {[Type_StatusEffectData.AI_IceGolem_Slow_FrostBreath.StackMax]} fois.</string>
+	<string key="AI_IceGolem_Hypothermia_DisplayName" rel_version="Expedition_GreatCleave_00">Hypothermie</string>
+	<string key="AI_IceGolem_Hypothermia_Tooltip" rel_version="Expedition_GreatCleave_00">Blesse à hauteur de {[Type_StatusEffectData.AI_IceGolem_Hypothermia.HealthModifierPercent * -100]} % des dégâts de glace de base toutes les {[Type_StatusEffectData.AI_IceGolem_Hypothermia.TickRate]} secondes pendant {[Type_StatusEffectData.AI_IceGolem_Hypothermia.BaseDuration]} secondes, cumulable {[Type_StatusEffectData.AI_IceGolem_Hypothermia.StackMax]} fois.</string>
 	<string key="AI_AncientGuardian_Bowman_Frosty_Rapid_Shot_DisplayName" rel_version="Season_4_Perm">Nuage de glace</string>
 	<string key="AI_AncientGuardian_Bowman_Frosty_Rapid_Shot_Tooltip" rel_version="Season_4_Perm">Réduit la vitesse de déplacement de {[Type_StatusEffectData.AI_AncientGuardian_Bowman_Frosty_Rapid_Shot.MoveSpeedMod * -100]} %.</string>
 	<string key="AI_MotherwellElk_SE_Slow_DisplayName" rel_version="Quest_MSQ2_Edengrove">Ralentissement</string>
@@ -1449,6 +1453,10 @@
 	<string key="Status_Flail_AllyDamageSplit_Self_Description" rel_version="Weapon_Flail">Tant que cet effet est actif, une partie des dégâts qu'un allié proche subit vous est transférée.</string>
 	<string key="Status_Flail_Ultimate_Healing_DisplayName">Union salutaire</string>
 	<string key="Status_Flail_Ultimate_Healing_Description">Vos soins sont équivalents à {[Type_StatusEffectData.Status_Flail_Ultimate_HealOverTime.HealthModifierDamageBased * 100]} % des dégâts de l'arme du porteur du fléau.</string>
+	<string key="Status_StaticCharge">Charge statique</string>
+	<string key="Status_StaticCharge_Description">Si un ennemi maniant Lance-carreaux vous touche avec 3 cumuls actifs, vous déclenchez une décharge statique occasionnant des dégâts bonus.</string>
+	<string key="Status_StaticDischarge">Décharge statique</string>
+	<string key="Status_StaticDischarge_Description">Inflige {[Type_StatusEffectData.Status_Perk_Artifact_Set1_Bow_StaticDischarge.HealthModifierDamageBased * -100]} % des dégâts de l'arme de l'assaillant.</string>
 	<string key="BlockBreakerDebuffPerk_DisplayName">Épuisement</string>
 	<string key="BlockSpeedPerk1_Description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.BlockSpeedPerk1.MoveSpeedMod * 100]}.</string>
 	<string key="BlockSpeedPerk2_Description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.BlockSpeedPerk2.MoveSpeedMod * 100]}.</string>
@@ -1603,7 +1611,7 @@
 	<string key="Status_VoidGauntlet_NullChamber_Empower_Description" rel_version="Weapon_Void_Gauntlet">Augmente les dégâts infligés de {[Type_StatusEffectData.VoidGauntlet_NullChamber_Empower.DMGCorruption * 100]} %.</string>
 	<string key="Status_VoidGauntlet_NullChamber_Weaken_Description" rel_version="Weapon_Void_Gauntlet">Réduit les dégâts infligés de {[Type_StatusEffectData.VoidGauntlet_NullChamber_Weaken.DMGCorruption * -100]} %.</string>
 	<string key="Status_VoidGauntlet_Scream_Fortify_Description" rel_version="Weapon_Void_Gauntlet">Votre armure est augmentée de {[Type_StatusEffectData.VoidGauntlet_Scream_Fortify.PhysicalArmor * 100]} %.</string>
-	<string key="Status_Perk_VoidGauntlet_Scream_Disease_Description" rel_version="Weapon_Void_Gauntlet">Les soins reçus sont réduits de {[Type_StatusEffectData.VoidGauntlet_Scream_Disease.HealMod * -100]} %.</string>
+	<string key="Status_Perk_VoidGauntlet_Scream_Disease_Description" rel_version="Weapon_Void_Gauntlet">Les soins reçus sont réduits de {[Type_StatusEffectData.VoidGauntlet_Scream_Disease.HealMod * -100 {perkMultiplier}]} % et les soins prodigués de {[Type_StatusEffectData.VoidGauntlet_Scream_Disease.HealScalingValueMultiplier * -100 * {perkMultiplier}]} %.</string>
 	<string key="Status_VoidGauntlet_DecayingOrb_Heal_Description" rel_version="Weapon_Void_Gauntlet">Soigne à hauteur de {[Type_StatusEffectData.VoidGauntlet_DecayingOrb_Heal.HealthModifierDamageBased * 100]} % des dégâts de l'arme par seconde.</string>
 	<string key="Status_VoidGauntlet_DecayingOrb_SlowVsDebuff_Description" rel_version="Weapon_Void_Gauntlet">Réduit votre vitesse de déplacement de {[Type_StatusEffectData.VoidGauntlet_DecayingOrb_SlowVsDebuff.MoveSpeedMod * -100]} %.</string>
 	<string key="Status_VoidGauntlet_DrainingTether_Empower_Description" rel_version="Weapon_Void_Gauntlet">Augmente les dégâts infligés de {[Type_StatusEffectData.VoidGauntlet_DrainingTether_Empower.DMGCorruption * 100]} %.</string>
@@ -1753,8 +1761,8 @@
 	<string key="RoadTravel_SprintBoost_Description">Augmente votre vitesse de déplacement de {[Type_StatusEffectData.Traversal_RoadSprintBoost_Haste.SprintSpeedMod * 100]} % lorsque vous sprintez sur les routes.</string>
 	<string key="OutOfCombat_PassiveRegen_Name">Régénération paisible</string>
 	<string key="OutOfCombat_PassiveRegen_Description">Une régénération passive qui vous soigne progressivement, augmente la vitesse de régénération du mana et améliore les soins passifs de la nourriture quand vous n'êtes pas en combat</string>
-	<string key="Status_Weapon_DiseaseOnCrit_Description" rel_version="MorePerksV1">Réduit l'efficacité des soins de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealMod * -100]} %.</string>
-	<string key="Status_Weapon_DiseaseOnHeavy_Description" rel_version="MorePerksV1">Réduit l'efficacité des soins de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100]} %.</string>
+	<string key="Status_Weapon_DiseaseOnCrit_Description" rel_version="MorePerksV1">L'efficacité des soins reçus est réduite de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealMod * -100]} % et celle des soins prodigués de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealScalingValueMultiplier * -100 * {perkMultiplier}]} %.</string>
+	<string key="Status_Weapon_DiseaseOnHeavy_Description" rel_version="MorePerksV1">L'efficacité des soins reçus est réduite de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100]} % et celle des soins prodigués de {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealScalingValueMultiplier * -100 * {perkMultiplier}]} %.</string>
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Votre armure est réduite de {[Type_StatusEffectData.Status_Perk_Weapon_ChargedHeavy_Rend.PhysicalArmor * -100]} %.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Quand l'effet se termine, vous pouvez de nouveau déclencher l'atout « Lacération tranchante ».</string>
 	<string key="Wispy_Wasp_Swarm_Tick_DisplayName">Saignement</string>
@@ -2054,17 +2062,11 @@
 	<string key="SE_MeshChange_Anubian_Horus_MasterName" rel_version="Event_Halloween2023_Perm">Le costume d'Horus anubien</string>
 	<string key="SE_MeshChange_Lost_Monarch_Description" rel_version="Event_Halloween2023_Perm">Visitez les paniers de friandises tout en portant ce costume pour des bonbons.</string>
 	<string key="SE_MeshChange_Lost_Monarch_MasterName" rel_version="Event_Halloween2023_Perm">Le costume du Roy dévoyé</string>
+	<string key="Dungeon_CrossWorldPugGroup_DisplayName" rel_version="Feature_PUG_Finder">Camarades de fortune</string>
+	<string key="Dungeon_CrossWorldPugGroup_Description" rel_version="Feature_PUG_Finder">Les groupes JcE créés par matchmaking intermondes obtiennent\n\n+15 % de santé\n+15 % de dégâts\n+15 % de soins</string>
 	<string key="Mammoth_Boss_IceStorm_Slow_Tooltip" rel_version="Territory_FirstLight">Vitesse de déplacement réduite de {[Type_StatusEffectData.Mammoth_Boss_IceStorm_Slow.SprintSpeedMod * -100]} % par cumul.</string>
 	<string key="Mammoth_Boss_IceStorm_Slow_DisplayName" rel_version="Territory_FirstLight">Ralentissement</string>
 	<string key="Chameleon_Sticky_Slow_6sec_DisplayName" rel_version="Territory_FirstLight">Colle</string>
 	<string key="Chameleon_Sticky_Slow_6sec_Tooltip" rel_version="Territory_FirstLight">Réduit la vitesse de déplacement de {[Type_StatusEffectData.Chameleon_Sticky_Slow_6sec.MoveSpeedMod * -100]} % pendant {[Type_StatusEffectData.Chameleon_Sticky_Slow_6sec.BaseDuration]} secondes.</string>
-	<string key="Status_StaticCharge">Charge statique</string>
-	<string key="FoodRecoveryT52_MasterName">Rassasié</string>
-	<string key="AI_IceGolem_Hypothermia_DisplayName">Hypothermie</string>
-	<string key="AI_IceGolem_Hypothermia_Tooltip">Blesse à hauteur de {[Type_StatusEffectData.AI_IceGolem_Hypothermia.HealthModifierPercent * -100]} % des dégâts de glace de base toutes les {[Type_StatusEffectData.AI_IceGolem_Hypothermia.TickRate]} secondes pendant {[Type_StatusEffectData.AI_IceGolem_Hypothermia.BaseDuration]} secondes, cumulable {[Type_StatusEffectData.AI_IceGolem_Hypothermia.StackMax]} fois.</string>
-	<string key="FoodRecoveryT52_Description">Vous récupérez {[Type_StatusEffectData.FoodRecoveryT52.HealthModifierPercent * 100]} % de votre santé max toutes les 2,5 s.</string>
-	<string key="Status_StaticDischarge">Décharge statique</string>
-	<string key="Status_StaticCharge_Description">Si un ennemi maniant Lance-carreaux vous touche avec 3 cumuls actifs, vous déclenchez une décharge statique occasionnant des dégâts bonus.</string>
-	<string key="Status_StaticDischarge_Description">Inflige {[Type_StatusEffectData.Status_Perk_Artifact_Set1_Bow_StaticDischarge.HealthModifierDamageBased * -100]} % des dégâts de l'arme de l'assaillant.</string>
 </resources>
 

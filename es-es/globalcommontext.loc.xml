@@ -834,7 +834,7 @@
 	<string key="ui_stable">Establo</string>
 	<string key="ui_storagecontainer">CONTENEDOR DE ALMACENAMIENTO</string>
 	<string key="ui_container">CONTENEDOR</string>
-	<string key="ui_storageshed">ALMACÉN</string>
+	<string key="ui_storageshed">COBERTIZO DE ALMACENAMIENTO</string>
 	<string key="ui_stowaway">Polizón</string>
 	<string key="ui_enable_audio_window_unfocus">Reproducir sonido de fondo</string>
 	<string key="ui_enable_audio_window_unfocus_desc">El audio del juego seguirá sonando mientras la ventana esté minimizada o no se encuentre activa.</string>
@@ -1070,6 +1070,7 @@
 	<string key="ui_killfeed_tradeskill_val">+{amount}</string>
 	<string key="ui_navmenu_friends">AMIGOS</string>
 	<string key="ui_navmenu_modes">Modos</string>
+	<string key="ui_navmenu_activities" rel_version="Feature_PUG_Finder">Actividades</string>
 	<string key="ui_navmenu_guild">Compañía</string>
 	<string key="ui_navmenu_map">Mapa</string>
 	<string key="ui_navmenu_journal">Diario</string>
@@ -1142,6 +1143,7 @@
 	<string key="ui_constitution">Constitución</string>
 	<string key="ui_respec">Reasignar</string>
 	<string key="ui_respec_attributes">Reembolso de todos los puntos de atributo</string>
+	<string key="ui_cannot_respec_attributes_during_combat">No se pueden reasignar atributos durante el combate.</string>
 	<string key="ui_respec_mastery">Reembolso de todos los puntos de maestría</string>
 	<string key="ui_base">Base</string>
 	<string key="ui_health">Salud</string>
@@ -1546,11 +1548,11 @@
 	<string key="ui_deathrecap_new_personal_best">¡Nuevo récord personal!</string>
 	<string key="ui_deathrecap_respawn_ready">Listo</string>
 	<string key="ui_deathrecap_respawn_overloaded">Este sitio está demasiado concurrido como para reaparecer.</string>
-	<string key="ui_deathrecap_respawn_out_of_range">Tienes que estar a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; del campamento o menos para reaparecer.</string>
+	<string key="ui_deathrecap_respawn_out_of_range">Tienes que estar a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; del campamento o menos.</string>
 	<string key="ui_deathrecap_respawn_out_of_range_with_cooldown">Puedes reaparecer en &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt; a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; del campamento o menos.</string>
 	<string key="ui_deathrecap_survived_for">Vivo durante</string>
 	<string key="ui_deathrecap_respawn_points">Puntos de reaparición</string>
-	<string key="ui_global_storage">Almacén</string>
+	<string key="ui_global_storage">Cobertizo de almacenamiento</string>
 	<string key="ui_global_storage_desc">Almacena objetos aquí. Ningún jugador puede llevarse ni ver los objetos que dejas aquí.</string>
 	<string key="ui_global_storage_visit_storage_shed">Ve a un cobertizo de almacenamiento para ver los objetos guardados.</string>
 	<string key="ui_claimmarker">Punto de conquista</string>
@@ -1760,7 +1762,7 @@
 	<string key="ui_war_declare_fail_SameFaction">No puedes declarar la guerra. El defensor está en tu misma facción.</string>
 	<string key="ui_war_declare_fail_NoTerritory">No puedes declarar la guerra. El defensor no tiene territorio.</string>
 	<string key="ui_war_declare_fail_beforeSiegeWindow">Solo puedes declarar la guerra a un territorio durante el periodo de asedio del defensor. Esta acción reservará tu tiempo de guerra para el periodo de asedio del día siguiente.\n\nNOTAS: Si otras compañías envían declaraciones de guerra a la vez que tú, habrá un sorteo para decidir quién tiene derecho a declarar la guerra. Si tu compañía no resulta elegida, recuperarás el dinero.</string>
-	<string key="ui_war_declare_fail_afterSiegeWindow">Solo puedes declarar la guerra a un territorio durante el periodo de asedio del defensor. Esta acción reservará tu tiempo de guerra para el periodo de asedio del día siguiente.\n\nNOTAS: Si otras compañías envían declaraciones de guerra a la vez que tú, habrá un sorteo para decidir quién tiene derecho a declarar la guerra. Si tu compañía no resulta elegida, recuperarás el dinero.</string>
+	<string key="ui_war_declare_fail_afterSiegeWindow">Solo puedes declarar la guerra a un territorio durante el periodo de asedio del defensor. Esta acción reservará tu tiempo de guerra para el periodo de asedio del día siguiente.\n\nNOTAS: si otras compañías envían declaraciones de guerra a la vez que tú, habrá un sorteo para decidir quién tiene derecho a declarar la guerra. Si tu compañía no resulta elegida, recuperarás el dinero.</string>
 	<string key="ui_war_declare_fail_noPermissions">No puedes declarar la guerra. El rango que tienes en la compañía no te lo permite.</string>
 	<string key="ui_war_declare_fail_noConflictState">No puedes declarar la guerra. Tu facción no tiene suficiente influencia como para causar un conflicto.</string>
 	<string key="ui_war_declare_fail_warDisabled">Se ha desactivado la guerra debido a una unión de mundos pendiente.</string>
@@ -1812,7 +1814,7 @@
 	<string key="ui_searchitem">Buscar</string>
 	<string key="ui_searchresult">Buscar resultado</string>
 	<string key="ui_search_all_items">Buscar</string>
-	<string key="ui_searchtimedout">Tiempo agotado. Inténtalo de nuevo.</string>
+	<string key="ui_searchtimedout">Se ha agotado el tiempo de búsqueda. Inténtalo de nuevo.</string>
 	<string key="ui_searchthrottled">La búsqueda se ha detenido. Inténtalo de nuevo.</string>
 	<string key="ui_sort_colon">Ordenar por:</string>
 	<string key="ui_server_refresh_throttle_hint">Espera, por favor</string>
@@ -1897,7 +1899,7 @@
 	<string key="ui_mapmenu_warendsin">La guerra termina en &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color={colorHex}&gt;{timeRemaining}&lt;/font&gt;</string>
 	<string key="ui_mapmenu_ownedby">Controlado por &lt;font color={colorHex}&gt;{guildName}&lt;/font&gt;</string>
 	<string key="ui_mapmenu_warlist_failure_throttled">La solicitud se ha detenido. Inténtalo de nuevo.</string>
-	<string key="ui_mapmenu_warlist_failure_timeout">Tiempo agotado. Inténtalo de nuevo.</string>
+	<string key="ui_mapmenu_warlist_failure_timeout">Se ha agotado el tiempo de solicitud. Inténtalo de nuevo.</string>
 	<string key="ui_mapmenu_warlist_failure_generic">Se ha producido un error. Inténtalo de nuevo.</string>
 	<string key="ui_mapmenu_warlist_retry">Reintentar</string>
 	<string key="ui_mapmenu_manage_objectives">Objetivos</string>
@@ -2192,7 +2194,7 @@
 	<string key="ui_greataxe_tree2">Vapuleador</string>
 	<string key="ui_juggernaut">Imparables</string>
 	<string key="ui_crowdcrusher">Aplastamultitudes</string>
-	<string key="ui_warhammer">Martillo</string>
+	<string key="ui_warhammer">Martillo de guerra</string>
 	<string key="ui_warhammer_mastery">Maestría con martillos de guerra</string>
 	<string key="ui_bow">Arco</string>
 	<string key="ui_bow_mastery">Maestría con arcos</string>
@@ -2242,7 +2244,7 @@
 	<string key="ui_cooldown">Tiempo de recarga</string>
 	<string key="ui_cooldown_reduction">Reduc. de recarga</string>
 	<string key="ui_abilitynotunlocked">Esta habilidad no está desbloqueada</string>
-	<string key="ui_gearscore_bonus">Bonif. de puntuación de equipo</string>
+	<string key="ui_gearscore_bonus">Bonificación de puntuación de equipo</string>
 	<string key="ui_craftchance_bonus">Bonificación de probabilidad de éxito de artesanía</string>
 	<string key="ui_destroyBoundItem">¿Destruir objeto?</string>
 	<string key="ui_destroyBoundItemMessage">Este objeto está vinculado a ti. Si lo sueltas, se destruirá. ¿Quieres destruir este objeto?</string>
@@ -2871,6 +2873,5 @@
 	<string key="ui_sort_by_price_high">Ordenar por precio: De mayor a menor</string>
 	<string key="ui_requirements">Requisitos</string>
 	<string key="ui_external_rewards">Recompensas externas</string>
-	<string key="ui_cannot_respec_attributes_during_combat">No se pueden reasignar atributos durante el combate.</string>
 </resources>
 

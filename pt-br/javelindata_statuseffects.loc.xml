@@ -231,10 +231,12 @@
 	<string key="FoodRecoveryT3_MasterName">Bem Alimentado</string>
 	<string key="FoodRecoveryT4_MasterName">Bem Alimentado</string>
 	<string key="FoodRecoveryT5_MasterName">Bem Alimentado</string>
+	<string key="FoodRecoveryT52_MasterName">Bem Alimentado</string>
 	<string key="FoodRecoveryT2_Description">Cura em {[Type_StatusEffectData.FoodRecoveryT2.HealthModifierPercent * 100]}% da sua Saúde máxima a cada 2,5 s.</string>
 	<string key="FoodRecoveryT3_Description">Cura em {[Type_StatusEffectData.FoodRecoveryT3.HealthModifierPercent * 100]}% da sua Saúde máxima a cada 2,5 s.</string>
 	<string key="FoodRecoveryT4_Description">Cura em {[Type_StatusEffectData.FoodRecoveryT4.HealthModifierPercent * 100]}% da sua Saúde máxima a cada 2,5 s.</string>
 	<string key="FoodRecoveryT5_Description">Cura em {[Type_StatusEffectData.FoodRecoveryT5.HealthModifierPercent * 100]}% da sua Saúde máxima a cada 2,5 s.</string>
+	<string key="FoodRecoveryT52_Description">Cura em {[Type_StatusEffectData.FoodRecoveryT52.HealthModifierPercent * 100]}% da sua Saúde máxima a cada 2,5 s.</string>
 	<string key="FoodCorruptedT1_Effect_Tooltip">Fornece Proteção fraca contra danos causados por Corrompidos. Proporciona 1 ponto adicional de Constituição.</string>
 	<string key="FoodLostT1_Effect_Tooltip">Fornece Proteção fraca contra danos causados por Perdidos. Proporciona 1 ponto adicional de Constituição.</string>
 	<string key="FoodAngryEarthT1_Effect_Tooltip">Fornece Proteção fraca contra danos causados por criaturas de Terra Indócil. Proporciona 1 ponto adicional de Constituição.</string>
@@ -685,7 +687,7 @@
 	<string key="AI_Empress_DragonBurn_DisplayName">Queimadura</string>
 	<string key="AI_Empress_DragonBurn_Tooltip">Causa {[Type_StatusEffectData.AI_Empress_DragonBurn.HealthModifierDamageBased * -100]}% de Dano Flamejante a cada {[Type_StatusEffectData.AI_Empress_DragonBurn.TickRate]} segundos durante {[Type_StatusEffectData.AI_Empress_DragonBurn.BaseDuration]} segundos. Acumula {[Type_StatusEffectData.AI_Empress_DragonBurn.StackMax]} vezes.</string>
 	<string key="AI_Torso_Boss_ArenaShrink_DisplayName">Fardo Arcano</string>
-	<string key="AI_Torso_Boss_ArenaShrink_Tooltip">Você sofre uma carga de energia arcana, que lhe silencia e causa dano contínuo.</string>
+	<string key="AI_Torso_Boss_ArenaShrink_Tooltip">Você sofre uma carga de energia arcana, que lhe silencia e causa dano ao longo do tempo.</string>
 	<string key="AI_Torso_Boss_Stun_Player_DisplayName">Sobrecarga Arcana</string>
 	<string key="AI_Torso_Boss_Stun_Player_Tooltip">Você sofre uma sobrecarga de energia arcana que te atordoa por 10 s.</string>
 	<string key="AI_Torso_Boss_ArcaneOrb_DisplayName">Harmonização Arcana</string>
@@ -877,6 +879,8 @@
 	<string key="AI_IceGolem_Slow_Tooltip" rel_version="Expedition_GreatCleave_00">Reduz a Velocidade de movimento em {[Type_StatusEffectData.AI_IceGolem_Slow.MoveSpeedMod * -100]}% durante {[Type_StatusEffectData.AI_IceGolem_Slow.BaseDuration]} s, acumulando-se {[Type_StatusEffectData.AI_IceGolem_Slow.StackMax]} vezes.</string>
 	<string key="AI_IceGolem_Slow_FrostBreath_DisplayName" rel_version="Expedition_GreatCleave_00">Lento</string>
 	<string key="AI_IceGolem_Slow_FrostBreath_Tooltip" rel_version="Expedition_GreatCleave_00">Reduz a Velocidade de movimento em {[Type_StatusEffectData.AI_IceGolem_Slow_FrostBreath.MoveSpeedMod * -100]}% durante {[Type_StatusEffectData.AI_IceGolem_Slow_FrostBreath.BaseDuration]} s, acumulando-se {[Type_StatusEffectData.AI_IceGolem_Slow_FrostBreath.StackMax]} vezes.</string>
+	<string key="AI_IceGolem_Hypothermia_DisplayName" rel_version="Expedition_GreatCleave_00">Hipotermia</string>
+	<string key="AI_IceGolem_Hypothermia_Tooltip" rel_version="Expedition_GreatCleave_00">Causa {[Type_StatusEffectData.AI_IceGolem_Hypothermia.HealthModifierPercent * -100]}% da saúde base como Dano de Gelo a cada {[Type_StatusEffectData.AI_IceGolem_Hypothermia.TickRate]} segundos durante {[Type_StatusEffectData.AI_IceGolem_Hypothermia.BaseDuration]} segundos, acumulando {[Type_StatusEffectData.AI_IceGolem_Hypothermia.StackMax]} vezes.</string>
 	<string key="AI_AncientGuardian_Bowman_Frosty_Rapid_Shot_DisplayName" rel_version="Season_4_Perm">Nuvem de Gelo</string>
 	<string key="AI_AncientGuardian_Bowman_Frosty_Rapid_Shot_Tooltip" rel_version="Season_4_Perm">Velocidade de movimento reduzida em {[Type_StatusEffectData.AI_AncientGuardian_Bowman_Frosty_Rapid_Shot.MoveSpeedMod * -100]}%.</string>
 	<string key="AI_MotherwellElk_SE_Slow_DisplayName" rel_version="Quest_MSQ2_Edengrove">Lentidão</string>
@@ -1449,6 +1453,10 @@
 	<string key="Status_Flail_AllyDamageSplit_Self_Description" rel_version="Weapon_Flail">Enquanto este efeito estiver ativo, parte do dano que um aliado próximo sofre será transferida para você.</string>
 	<string key="Status_Flail_Ultimate_Healing_DisplayName">Melhor Juntos</string>
 	<string key="Status_Flail_Ultimate_Healing_Description">Você recebe cura de {[Type_StatusEffectData.Status_Flail_Ultimate_HealOverTime.HealthModifierDamageBased * 100]}% do dano de arma do açoitador.</string>
+	<string key="Status_StaticCharge">Carga Estática</string>
+	<string key="Status_StaticCharge_Description">Se um Lança-dardos inimigo com 3 acúmulos ativos te atingir, você acionará uma descarga estática, causando dano adicional.</string>
+	<string key="Status_StaticDischarge">Descarga Estática</string>
+	<string key="Status_StaticDischarge_Description">Causa {[Type_StatusEffectData.Status_Perk_Artifact_Set1_Bow_StaticDischarge.HealthModifierDamageBased * -100]}% do dano de arma do atacante.</string>
 	<string key="BlockBreakerDebuffPerk_DisplayName">Exaustão</string>
 	<string key="BlockSpeedPerk1_Description">Sua velocidade de movimento aumenta em {[Type_StatusEffectData.BlockSpeedPerk1.MoveSpeedMod * 100]}.</string>
 	<string key="BlockSpeedPerk2_Description">Sua velocidade de movimento aumenta em {[Type_StatusEffectData.BlockSpeedPerk2.MoveSpeedMod * 100]}.</string>
@@ -2054,17 +2062,11 @@
 	<string key="SE_MeshChange_Anubian_Horus_MasterName" rel_version="Event_Halloween2023_Perm">Traje de Hórus Anubiano</string>
 	<string key="SE_MeshChange_Lost_Monarch_Description" rel_version="Event_Halloween2023_Perm">Visite a cesta de guloseimas usando essa fantasia para ganhar doces.</string>
 	<string key="SE_MeshChange_Lost_Monarch_MasterName" rel_version="Event_Halloween2023_Perm">Traje de Monarca Perdido</string>
+	<string key="Dungeon_CrossWorldPugGroup_DisplayName" rel_version="Feature_PUG_Finder">Novos Amigos Encontrados</string>
+	<string key="Dungeon_CrossWorldPugGroup_Description" rel_version="Feature_PUG_Finder">Grupos PvE criados por organização de partidas entre mundos ganham:\n\n+15% de Saúde\n+15% de Dano\n+15% de Cura</string>
 	<string key="Mammoth_Boss_IceStorm_Slow_Tooltip" rel_version="Territory_FirstLight">Velocidade de movimento reduzida em {[Type_StatusEffectData.Mammoth_Boss_IceStorm_Slow.SprintSpeedMod * -100]}% por acúmulo.</string>
 	<string key="Mammoth_Boss_IceStorm_Slow_DisplayName" rel_version="Territory_FirstLight">Sofreu Lentidão</string>
 	<string key="Chameleon_Sticky_Slow_6sec_DisplayName" rel_version="Territory_FirstLight">Grudento</string>
 	<string key="Chameleon_Sticky_Slow_6sec_Tooltip" rel_version="Territory_FirstLight">Velocidade de movimento reduzida em {[Type_StatusEffectData.Chameleon_Sticky_Slow_6sec.MoveSpeedMod * -100]}% durante {[Type_StatusEffectData.Chameleon_Sticky_Slow_6sec.BaseDuration]} segundos.</string>
-	<string key="Status_StaticCharge">Carga Estática</string>
-	<string key="FoodRecoveryT52_MasterName">Bem Alimentado</string>
-	<string key="AI_IceGolem_Hypothermia_DisplayName">Hipotermia</string>
-	<string key="AI_IceGolem_Hypothermia_Tooltip">Causa {[Type_StatusEffectData.AI_IceGolem_Hypothermia.HealthModifierPercent * -100]}% da saúde base como Dano de Gelo a cada {[Type_StatusEffectData.AI_IceGolem_Hypothermia.TickRate]} segundos durante {[Type_StatusEffectData.AI_IceGolem_Hypothermia.BaseDuration]} segundos, acumulando {[Type_StatusEffectData.AI_IceGolem_Hypothermia.StackMax]} vezes.</string>
-	<string key="FoodRecoveryT52_Description">Cura em {[Type_StatusEffectData.FoodRecoveryT52.HealthModifierPercent * 100]}% da sua Saúde máxima a cada 2,5 s.</string>
-	<string key="Status_StaticDischarge">Descarga Estática</string>
-	<string key="Status_StaticCharge_Description">Se um Lança-dardos inimigo com 3 acúmulos ativos te atingir, você acionará uma descarga estática, causando dano adicional.</string>
-	<string key="Status_StaticDischarge_Description">Causa {[Type_StatusEffectData.Status_Perk_Artifact_Set1_Bow_StaticDischarge.HealthModifierDamageBased * -100]}% do dano de arma do atacante.</string>
 </resources>
 
