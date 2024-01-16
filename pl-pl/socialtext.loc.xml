@@ -57,7 +57,7 @@
 	<string key="ui_guildname_multiple_spaces">Nie można zmienić nazwy kompanii – zawiera kilka spacji z rzędu</string>
 	<string key="ui_createguildname_use_badword">Nieprawidłowa nazwa kompanii – zawiera nieodpowiednie słowa.</string>
 	<string key="ui_guild_server_error">Błąd kompanii, spróbuj ponownie później</string>
-	<string key="ui_invalidguildmessageoftheday">Nieprawidłowa wiadomość</string>
+	<string key="ui_invalidguildmessageoftheday">Nieprawidłowa kompanijna wiadomość dnia</string>
 	<string key="ui_guildmessageoftheday_invalid_characters">Nie można zmienić nazwy kompanijnej wiadomości dnia – zawiera nieprawidłowe znaki.</string>
 	<string key="ui_guildmessageoftheday_too_long">Nie można zmienić nazwy kompanijnej wiadomości dnia – nieprawidłowa długość.</string>
 	<string key="ui_guildmessageoftheday_use_badword">Nie można zmienić nazwy kompanijnej wiadomości dnia – zawiera nieodpowiednie słowa.</string>
@@ -196,8 +196,8 @@
 	<string key="ui_invite_to_guild">Zaproś do kompanii</string>
 	<string key="ui_acceptfriendinvite">Przyjmij zaproszenie</string>
 	<string key="ui_rejectfriendinvite">Odrzuć zaproszenie</string>
-	<string key="ui_faction_invite_error">Nie możesz wysłać zaproszenia do członka innej frakcji.</string>
-	<string key="ui_faction_invite_error_pvp_group">Nie możesz wysłać zaproszenia do grupy PvP członkowi innej frakcji.</string>
+	<string key="ui_faction_invite_error">Nie możesz wysłać zaproszenia do członka innej frakcji</string>
+	<string key="ui_faction_invite_error_pvp_group">Nie możesz wysłać zaproszenia do grupy PvP członkowi innej frakcji</string>
 	<string key="ui_nofaction_invite_error">Nie możesz wysłać zaproszenia do osoby nienależącej do żadnej frakcji.</string>
 	<string key="ui_inguild_invite_error" comment="">Nie możesz wysłać zaproszenia do członka swojej kompanii.</string>
 	<string key="ui_cannot_interact_offline" comment="">Nie możesz tego zrobić, gracz jest w trybie offline.</string>
@@ -298,7 +298,7 @@
 	<string key="ui_spotlight_failed_notification_title">Błąd połączenia</string>
 	<string key="ui_spotlight_failed_notification_message">Nie można uaktywnić wyróżniania streamera na Twitchu. Sprawdź, czy twój stream działa, i spróbuj ponownie.</string>
 	<string key="ui_spotlight_error">&lt;font color="#835acd"&gt;Stan:&lt;/font&gt; &lt;font color="#f25d5d"&gt; błąd&lt;/font&gt;</string>
-	<string key="ui_subarmy_title">Armia Twitch</string>
+	<string key="ui_subarmy_title">Armia subskrybentów Twitch</string>
 	<string key="ui_subarmy_join_desc">Dołącz do sesji dla armii subskrybentów innych streamerów.</string>
 	<string key="ui_subarmy_tooltip">&lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;Włącz&lt;/font&gt; w &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;ustawieniach&lt;/font&gt;, by stworzyć armię subskrybentów Twitcha lub do niej dołączyć.</string>
 	<string key="ui_subarmy_subtitle_sessions">Dostępne sesje: {number}</string>
@@ -506,7 +506,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_flag_mismatch">Twoje oznaczenie do PvP nie zgadza się z lobby.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_pvp_faction_mismatch">Musisz należeć do tej samej frakcji, by móc dołączyć do lobby PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_requirements_not_met">Wymagania lobby uległy zmianie, a ty ich nie spełniasz.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Your Lobby Description contained profanity or prohibited words, please try again.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_cleanspeakerror">Twój opis lobby zawierał wulgaryzm lub słowa zabronione. Spróbuj ponownie.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_atmaxapplications">Nie możesz wysłać więcej zgłoszeń.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_groupfull">Lobby jest pełne</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_convert_to_group_declined">{playerName} nie jest w gotowości.</string>
@@ -543,6 +543,15 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Musisz wybrać rolę.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_none_accepted_tooltip">Musisz zaakceptować przynajmniej 1 rolę</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip_queue">Nie możesz wysłać prośby o dołączenie do lobby, gdy czekasz w kolejce do trybu gry.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in">Blokada</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in_disabled_tooltip">Musisz wybrać rolę, która nie osiągnęła limitu osobowego.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_change_role">Zmień rolę</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_decline">Odrzuć</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_minimize">Minimalizuj</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_bonus_label">Premie roli</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_max_allowed">Maks. {amount}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_players_locked_in">Gracze zablokowani – &lt;font color={numberColor}&gt; &lt;img src="LyShineUI/Images/icons/chat/channelgroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; {numLockedIn}&lt;/font&gt; / {numInGroup}</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_all_players_locked_in">Wszyscy gracze zablokowani. Dołączanie do kolejki…</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_required_item_tooltip">Jeśli chcesz stworzyć nowe lobby tej ekspedycji, musisz posiadać: {item} ({quantity}).</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Obecne role w tej grupie</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
@@ -586,6 +595,8 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_pvpflagmismatched">Zaproszenie odrzucone. Gracz ma niezgodne oznaczenie do PvP.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_atdungeonlimit">Zaproszenie odrzucone. Gracz osiągnął limit ekspedycji.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mismatchedfaction">Zaproszenie odrzucone. Gracz należy do innej frakcji.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_invitationautodeclined_mutationlevel">Zaproszenie odrzucone. Gracz ma zbyt niski poziom.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_error_mutationlevel">Masz zbyt niski poziom, by móc stworzyć lobby dla tej zmutowanej ekspedycji.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite">Zaproś do lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_not_creator">Tylko twórca lobby może zapraszać innych graczy.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_directinvite_tooltip_already_in_group">{player} należy już do twojego lobby.</string>
@@ -648,7 +659,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_level_desc">Twój poziom: {level}\nMinimalny poziom nie może przewyższać twojego poziomu.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_min_gear_score_desc">Twoje punkty wyposażenia: {gearscore}\nMinimalna liczba punktów wyposażenia nie może przewyższać twojej liczby punktów wyposażenia.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_format">"{text}"</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_invalid_characters">Character not allowed in the Lobby Description</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_comment_invalid_characters">Znak niedozwolony w opisie lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_chat_name_group_finder_group">Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_lobbies_header">Lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_time_ago">{time} temu</string>

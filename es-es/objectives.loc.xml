@@ -47,7 +47,7 @@
 	<string key="objective_craft" speaker="UI">Fabrica: {itemName}</string>
 	<string key="objective_craft_an" speaker="UI">Fabrica 1 {itemName}</string>
 	<string key="objective_craft_p" speaker="UI">Fabrica: {itemName} ({itemAmount})</string>
-	<string key="objective_crafthealingdrops" speaker="UI">Fabrica en tu campamento: {itemName} (por defecto: [Y])</string>
+	<string key="objective_crafthealingdrops" speaker="UI">Fabrica {itemName} en tu campamento</string>
 	<string key="objective_crafthealthfood" speaker="UI">Cocina algo que te ayude a recuperar salud en la hoguera del vigía</string>
 	<string key="objective_crafting" speaker="UI">Artesanía</string>
 	<string key="objective_craftsoverseersword" speaker="UI">Fabrica en la fragua: {itemName}</string>
@@ -193,7 +193,7 @@
 	<string key="objective_world" speaker="UI">Mundo</string>
 	<string key="objective_onboarding_goToOutpost_task01_desc" speaker="UI">Investiga la atalaya</string>
 	<string key="objective_onboarding_goToOutpost_task02_desc" speaker="UI">Viaja hasta la atalaya</string>
-	<string key="objective_onboarding_goToOutpost_task03_desc" speaker="UI">Abre el mapa (por defecto: [M])</string>
+	<string key="objective_onboarding_goToOutpost_task03_desc" speaker="UI">Abre el mapa</string>
 	<string key="objective_pin" speaker="UI">Fijar</string>
 	<string key="objective_pinned" speaker="UI">Fijado</string>
 	<string key="objective_populatehere" speaker="UI">Tus cartas se acumularán aquí.</string>
@@ -257,13 +257,13 @@
 	<string key="objective_mission_task_patrol_windsward" speaker="UI">Patrulla el territorio</string>
 	<string key="patrol_task_container_description" speaker="UI">Defiende la zona y logra sobrevivir.</string>
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Defiende {POITags} durante {timeRemaining}</string>
-	<string key="objective_mission_task_control_point" speaker="UI">Captura el fuerte {TerritoryID} para los Saqueadores</string>
+	<string key="objective_mission_task_control_point" speaker="UI">Captura el punto de control de una facción en {TerritoryID} para los Saqueadores</string>
 	<string key="task_choose_faction" speaker="UI">Elige una facción de {destinationName}</string>
 	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Completa la misión</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Aceptar misión</string>
 	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Quest  Description" quest_id="S_getoffbeach">Investiga lo que parece ser una atalaya.</string>
 	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title" quest_id="S_getoffbeach">Único superviviente</string>
-	<string key="task_getoffbeach_openmap">Abre el mapa (por defecto: [M])</string>
+	<string key="task_getoffbeach_openmap">Abre el mapa</string>
 	<string key="have_berries">Come bayas</string>
 	<string key="objective_mission_kill_generic_at_POI">Ve a {POITags} y derrota: {targetName}</string>
 	<string key="objective_mission_loot_chests_generic_at_POI">Busca cofres en {POITags} que contengan: {itemName}</string>
@@ -311,8 +311,8 @@
 	<string key="objective_mission_kill_with_firestaff">Derrota a {targetName} usando el báculo ígneo</string>
 	<string key="objective_mission_kill_with_lifestaff">Derrota a {targetName} usando el báculo de vida</string>
 	<string key="objective_mission_kill_with_icegauntlet">Derrota a {targetName} usando la manopla de hielo</string>
-	<string key="objective_mission_task_control_point_S">Captura el fuerte {TerritoryID} para el Sindicato</string>
-	<string key="objective_mission_task_control_point_C">Captura el fuerte {TerritoryID} para la Alianza</string>
+	<string key="objective_mission_task_control_point_S">Captura el punto de control de una facción en {TerritoryID} para el Sindicato.</string>
+	<string key="objective_mission_task_control_point_C">Captura el punto de control de una facción en {TerritoryID} para la Alianza.</string>
 	<string key="objective_mission_faction_corruption_breach" rel_version="Quest_FM_BreachMissions">Cierra una grieta de corrupción.</string>
 	<string key="objective_mission_rescue_npc_generic" rel_version="Quest_MSQ2_Revamp">Rescata a los rehenes</string>
 	<string key="objective_mission_boatencounter_obj_title" rel_version="Quest_MSQ2_Revamp">Destruye el bote</string>
@@ -327,6 +327,8 @@
 	<string key="objective_timetrial_addTime" speaker="UI">+ {secondsAdded} segundos</string>
 	<string key="objective_timetrial_tutorial" speaker="UI">[{key} para CORRER]</string>
 	<string key="objective_timetrial_tourStart" speaker="UI">¡ADELANTE!</string>
+	<string key="objective_timetrial_timeout_teleport_prompt_title" speaker="UI">&lt;font color={color}&gt;Prueba por tiempo fallida&lt;/font&gt;</string>
+	<string key="objective_timetrial_timeout_teleport_prompt_description" speaker="UI">¿Quieres teletransportarte al principio y volver a intentarlo?</string>
 	<string key="objective_multiple_active_races" speaker="UI">Solo puede haber una carrera activa a la vez.</string>
 	<string key="objective_artifact_equip_to_view" rel_version="Feature_Artifacts">Equipa el artefacto para ver los objetivos.</string>
 	<string key="objective_artifact_max_reminder" rel_version="Feature_Artifacts">Demasiados objetivos de artefactos en curso. Anula uno existente para empezar otro.</string>
@@ -337,12 +339,16 @@
 	<string key="Objective_Artifact_Set1_HeavyChest" rel_version="Feature_Expansion_1">Artefacto: Coraza oscura de vacío</string>
 	<string key="Objective_Artifact_Set1_HeavyHands" rel_version="Feature_Expansion_1">Artefacto: Manoplas magnéticas</string>
 	<string key="Objective_Artifact_Set1_HeavyLegs" rel_version="Feature_Expansion_1">Artefacto: Libertad</string>
+	<string key="Objective_Artifact_Set1_HeavyFeet" rel_version="Feature_Artifacts_Set2">Artefacto: El impasible</string>
 	<string key="Objective_Artifact_Set1_MediumHead" rel_version="Feature_Expansion_1">Artefacto: Venda para la cabeza de genio</string>
 	<string key="Objective_Artifact_Set1_MediumChest" rel_version="Feature_Expansion_1">Artefacto: Abrigo ágil</string>
 	<string key="Objective_Artifact_Set1_MediumHands" rel_version="Feature_Expansion_1">Artefacto: Guantes de gul</string>
 	<string key="Objective_Artifact_Set1_MediumLegs" rel_version="Feature_Expansion_1">Artefacto: Calzas de cuero armónicas</string>
+	<string key="Objective_Artifact_Set1_MediumFeet" rel_version="Feature_Artifacts_Set2">Artefacto: Zapatos alados</string>
 	<string key="Objective_Artifact_Set1_LightHead" rel_version="Feature_Expansion_1">Artefacto: Sombrero de mago gris</string>
 	<string key="Objective_Artifact_Set1_LightChest" rel_version="Feature_Expansion_1">Artefacto: Pesopluma</string>
+	<string key="Objective_Artifact_Set1_LightHands" rel_version="Feature_Artifacts_Set2">Artefacto: Guantes de duelo</string>
+	<string key="Objective_Artifact_Set1_LightLegs" rel_version="Feature_Artifacts_Set2">Artefacto: Cubrerrodillas</string>
 	<string key="Objective_Artifact_Set1_LightFeet" rel_version="Feature_Expansion_1">Artefacto: Vendas para los pies de acróbata</string>
 	<string key="Objective_Artifact_Set1_1hLongsword" rel_version="Feature_Expansion_1">Artefacto: Carnicera</string>
 	<string key="Objective_Artifact_Set1_1hThrowingAxe" rel_version="Feature_Expansion_1">Artefacto: Francisca de Freya</string>
@@ -350,11 +356,14 @@
 	<string key="Objective_Artifact_Set1_2hGreatAxe" rel_version="Feature_Expansion_1">Artefacto: Abismo</string>
 	<string key="Objective_Artifact_Set1_2hBow" rel_version="Feature_Artifacts_Set2">Artefacto: Lanzavirotes</string>
 	<string key="Objective_Artifact_Set1_2hMusket" rel_version="Feature_Expansion_1">Artefacto: Mecánico</string>
+	<string key="Objective_Artifact_Set1_1hRoundShield" rel_version="Feature_Artifacts_Set2">Artefacto: Gladiador</string>
 	<string key="Objective_Artifact_Set1_1hKiteShield" rel_version="Feature_Expansion_1">Artefacto: Michael</string>
 	<string key="Objective_Artifact_Set1_1hTowerShield" rel_version="Feature_Expansion_1">Artefacto: Inexpugnable</string>
 	<string key="Objective_Artifact_Set1_2hStaffFire" rel_version="Feature_Expansion_1">Artefacto: Infierno</string>
+	<string key="Objective_Artifact_Set1_2hStaffLife" rel_version="Feature_Artifacts_Set2">Artefacto: Venganza</string>
 	<string key="Objective_Artifact_Set1_2hSpear" rel_version="Feature_Expansion_1">Artefacto: Aguijón de escorpión</string>
 	<string key="Objective_Artifact_Set1_1hRapier" rel_version="Feature_Expansion_1">Artefacto: Puntilla</string>
+	<string key="Objective_Artifact_Set1_1hGauntletIce" rel_version="Feature_Artifacts_Set2">Artefacto: Gélida</string>
 	<string key="Objective_Artifact_Set1_1hGauntletVoid" rel_version="Feature_Expansion_1">Artefacto: Robavidas</string>
 	<string key="Objective_Artifact_Set1_2hBlunderbuss" rel_version="Feature_Expansion_1">Artefacto: Pestilencia</string>
 	<string key="Objective_Artifact_Set1_2hGreatSword" rel_version="Feature_Expansion_1">Artefacto: Serenidad</string>
@@ -362,8 +371,10 @@
 	<string key="Objective_Artifact_Set1_Earring1" rel_version="Feature_Expansion_1">Artefacto: Sed insaciable</string>
 	<string key="Objective_Artifact_Set1_Ring1" rel_version="Feature_Expansion_1">Artefacto: Bebesangre</string>
 	<string key="Objective_Artifact_Set1_Amulet1" rel_version="Feature_Expansion_1">Artefacto: Cronómetro perdido</string>
+	<string key="Objective_Artifact_Set1_Earring2" rel_version="Feature_Artifacts_Set2">Artefacto: Paz oceánica</string>
+	<string key="Objective_Artifact_Set1_Ring2" rel_version="Feature_Artifacts_Set2">Artefacto: Cerebro</string>
 	<string key="Objective_Artifact_Set1_Amulet2" rel_version="Feature_Expansion_1">Artefacto: Anj</string>
-	<string key="Objective_Kill_Dungeon_DepthBoss" rel_version="Feature_Expansion_1">Derrota a {targetName} en la expedición de Las Profundidades.</string>
+	<string key="Objective_Kill_Dungeon_DepthBoss" rel_version="Feature_Expansion_1">Derrota a {targetName} en la expedición de las Profundidades.</string>
 	<string key="Objective_Kill_in_FL" rel_version="Feature_Expansion_1">Derrota a enemigos {targetName} en las Tierras salvajes elíseas.</string>
 	<string key="Objective_Kill_Corvid" rel_version="Feature_Expansion_1">Derrota a enemigos córvidos en las Tierras salvajes elíseas.</string>
 	<string key="Objective_Kill_Depths" rel_version="Feature_Expansion_1">Derrota a {targetName} en Las Profundidades</string>
@@ -375,9 +386,19 @@
 	<string key="Objective_Kill_Ennead" rel_version="Feature_Expansion_1">Derrota a {targetName} en la Enéada</string>
 	<string key="Objective_Kill_Starstone" rel_version="Feature_Expansion_1">Derrota a {targetName} en el puesto Piedraestelar</string>
 	<string key="Objective_Kill_Empyean" rel_version="Feature_Expansion_1">Derrota a enemigos {targetName} en la fragua empírea</string>
+	<string key="Objective_Kill_GlacialTarn" rel_version="Feature_Artifacts_Set2">Derrota enemigos {targetName} en el lago glaciar</string>
 	<string key="Objective_Kill_OPR" rel_version="Feature_Expansion_1">Derrota a enemigos {targetName} en Asalto a puesto remoto</string>
 	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Derrota a enemigos {targetName} en la arena</string>
 	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Derrota a enemigos {targetName}</string>
 	<string key="Objective_CraftArtifact" rel_version="Feature_Expansion_1">Mejora este objeto en el horno de aljez</string>
+	<string key="objective_encounter_stage2">Etapa 2:</string>
+	<string key="objective_encounter_stage3">Etapa 3:</string>
+	<string key="objective_encounter_stage9">Etapa 9:</string>
+	<string key="objective_encounter_stage5">Etapa 5:</string>
+	<string key="objective_encounter_stage1">Etapa 1:</string>
+	<string key="objective_encounter_stage7">Etapa 7:</string>
+	<string key="objective_encounter_stage6">Etapa 6:</string>
+	<string key="objective_encounter_stage8">Etapa 8:</string>
+	<string key="objective_encounter_stage4">Etapa 4:</string>
 </resources>
 

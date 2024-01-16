@@ -182,8 +182,8 @@
 	<string key="ui_encounter_upcomingrace" rel_version="Feature_Influence_V2">COURSE À VENIR</string>
 	<string key="ui_encounter_ongoingrace" rel_version="Feature_Influence_V2">COURSE EN COURS</string>
 	<string key="ui_encounter_yourstatus">VOTRE STATUT</string>
-	<string key="ui_encounter_statusstandby">Votre statut :  &lt;font color='#fab445'&gt;En attente&lt;/font&gt;</string>
-	<string key="ui_encounter_statusselected">Votre statut :  &lt;font color='#30e5ab'&gt;Sélectionné(e)&lt;/font&gt;</string>
+	<string key="ui_encounter_statusstandby">Votre statut : &lt;font color='#fab445'&gt;en attente&lt;/font&gt;</string>
+	<string key="ui_encounter_statusselected">Votre statut : &lt;font color='#30e5ab'&gt;sélectionné(e)&lt;/font&gt;</string>
 	<string key="ui_encounter_managebutton">Gestion de l'armée</string>
 	<string key="ui_encounter_signupbutton_war">S'inscrire pour la guerre</string>
 	<string key="ui_encounter_signupDesc_war">Inscrivez-vous pour cette guerre à un\n&lt;font color='#f1ede2'&gt;tableau de guerre&lt;/font&gt; dans cette ville.</string>
@@ -225,7 +225,7 @@
 	<string key="ui_settlementinfo_notclaimed">La colonie est non revendiquée.</string>
 	<string key="ui_territoryinfo_unenterable">Indisponible</string>
 	<string key="ui_territoryinfo_unenterabledescription">Personne ne peut pénétrer dans ce territoire.</string>
-	<string key="ui_territoryinfo_earnings">Rapporte jusqu'à &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{maxPercent} %&lt;/font&gt; des recettes fiscales.</string>
+	<string key="ui_territoryinfo_earnings">Jusqu'à &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{maxPercent} %&lt;/font&gt; des recettes fiscales.</string>
 	<string key="ui_fortressinfo_upcomingbattlelabel">Événement de bataille à venir</string>
 	<string key="ui_fortressinfo_ongoingbattlelabel">Événement de bataille en cours</string>
 	<string key="ui_fortressinfo_noupcomingbattle">Aucun événement de bataille à venir.</string>
@@ -656,7 +656,7 @@
 	<string key="ui_active_buffs">Actives</string>
 	<string key="ui_new_mission">Une nouvelle mission sera\nbientôt disponible.</string>
 	<string key="ui_mission_canceled">Mission annulée</string>
-	<string key="ui_territory_influence">Influence de territoire </string>
+	<string key="ui_territory_influence">Influence de territoire</string>
 	<string key="ui_territory_governed_by_label">Ce territoire est régi par :</string>
 	<string key="ui_AlwaysAvailableProjectId">Entretien de la ville</string>
 	<string key="lifestyle_title_LumberJackSpiritProjectId">Esprit du bûcheron</string>
@@ -704,7 +704,7 @@
 	<string key="influence_race_results" rel_version="Feature_Influence_V2">RÉSULTATS DE LA COURSE D'INFLUENCE</string>
 	<string key="influence_race_disclaimer" rel_version="Feature_Influence_V2">*Les tours capturées, l'influence obtenue/conservée et le classement de la compagnie peuvent mettre jusqu'à 3 minutes pour s'actualiser complètement.</string>
 	<string key="influence_top_companies" rel_version="Feature_Influence_V2">MEILLEURES COMPAGNIES PAR INFLUENCE</string>
-	<string key="influence_top_companies_error" rel_version="Feature_Influence_V2">Erreur du chargement des données de la meilleure compagnie</string>
+	<string key="influence_top_companies_error" rel_version="Feature_Influence_V2">Aucune compagnie n'a terminé de missions JcJ lors de cette Course d'influence.</string>
 	<string key="influence_top_players" rel_version="Feature_Influence_V2">MEILLEURS JOUEURS PAR INFLUENCE</string>
 	<string key="influence_top_players_error" rel_version="Feature_Influence_V2">Erreur du chargement des données du meilleur joueur</string>
 	<string key="influence_saved_amount" rel_version="Feature_Influence_V2">INFLUENCE SAUVEGARDÉE</string>
@@ -752,7 +752,7 @@
 	<string key="Edengrove_Tower_01" rel_version="Feature_Influence_V2">Guet est de Bois-Éden</string>
 	<string key="Edengrove_Tower_02" rel_version="Feature_Influence_V2">Guet sud de Bois-Éden</string>
 	<string key="Edengrove_Tower_03" rel_version="Feature_Influence_V2">Guet nord de Bois-Éden</string>
-	<string key="generic_influence_tower_description" rel_version="Feature_Influence_V2">Ce point de contrôle peut être capturé lors d'une Course d'influence.\n\n&lt;img src="lyshineui/images/icons/FactionBuffs/FC_Buff_IPIncrease" xPadding="0" scale="2" yOffset="4"&gt;&lt;/img&gt;&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;+10&lt;/font&gt;&lt;/font&gt; points d'influence toutes les 5 secondes \n&lt;img src="lyshineui/images/icons/FactionBuffs/FC_Buff_IPIncrease" xPadding="0" scale="2" yOffset="4"&gt;&lt;/img&gt;&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;+10 %&lt;/font&gt;&lt;/font&gt; d'influence gagnée</string>
+	<string key="generic_influence_tower_description" rel_version="Feature_Influence_V2">Ce point de contrôle peut être capturé lors d'une Course d'influence.\n\n&lt;img src="lyshineui/images/icons/FactionBuffs/FC_Buff_IPIncrease" xPadding="0" scale="2" yOffset="4"&gt;&lt;/img&gt;&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;+{TowerInfluenceValue}&lt;/font&gt;&lt;/font&gt; points d'influence toutes les 5 secondes \n&lt;img src="lyshineui/images/icons/FactionBuffs/FC_Buff_IPIncrease" xPadding="0" scale="2" yOffset="4"&gt;&lt;/img&gt;&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;+{TowerPercentageValue} %&lt;/font&gt;&lt;/font&gt; d'influence gagnée</string>
 	<string key="influence_myfaction_1" rel_version="Feature_Influence_V2">MA FACTION : &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_1_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#8c37d9"&gt;Ombre&lt;/font&gt;</string>
 	<string key="influence_myfaction_2" rel_version="Feature_Influence_V2">MA FACTION : &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_2_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#149834"&gt;Maraudeurs&lt;/font&gt;</string>
 	<string key="influence_myfaction_3" rel_version="Feature_Influence_V2">MA FACTION : &lt;img src="lyshineui/images/crests/foregrounds/icon_faction_fg_3_colored_small" xPadding="0" scale="2" yOffset="15"&gt;&lt;/img&gt; &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#ff9900"&gt;Engagés&lt;/font&gt;</string>

@@ -509,6 +509,9 @@
 	<string key="Procedural_PotionBoostVoidAbsT3">Potion d'absorption du néant puissante</string>
 	<string key="Procedural_PotionBoostVoidAbsT4">Potion d'absorption du néant ultra puissante</string>
 	<string key="Procedural_PotionBoostVoidAbsT5">Potion d'absorption du néant imprégnée</string>
+	<string key="Procedural_PotionBoostIceAbsT3" rel_version="IceAbsorbPot">Potion d'absorption de la glace puissante</string>
+	<string key="Procedural_PotionBoostIceAbsT4" rel_version="IceAbsorbPot">Potion d'absorption de la glace ultra puissante</string>
+	<string key="Procedural_PotionBoostIceAbsT5" rel_version="IceAbsorbPot">Potion d'absorption de la glace imprégnée</string>
 	<string key="Procedural_HealthRecoveryT1">Petite ration</string>
 	<string key="Procedural_HealthRecoveryT2">Ration de voyage</string>
 	<string key="Procedural_HealthRecoveryT3">Repas léger</string>
@@ -1986,34 +1989,44 @@
 	<string key="Procedural_1hFlailT4" rel_version="Weapon_Flail">Fléau en métal stellaire</string>
 	<string key="Procedural_1hFlailT5" rel_version="Weapon_Flail">Fléau en orichalque</string>
 	<string key="Procedural_1hFlailT52" rel_version="Weapon_Flail">Fléau en mithril</string>
-	<string key="CraftArtifact_Set1_HeavyHead_Name">Amélioration – Casque inébranlable</string>
-	<string key="CraftArtifact_Set1_HeavyChest_Name">Amélioration – Plates sombres du néant</string>
-	<string key="CraftArtifact_Set1_HeavyHands_Name">Amélioration – Gantelets magnétiques</string>
-	<string key="CraftArtifact_Set1_HeavyLegs_Name">Amélioration – Liberté</string>
-	<string key="CraftArtifact_Set1_MediumHead_Name">Amélioration – Bandeau</string>
-	<string key="CraftArtifact_Set1_MediumChest_Name">Amélioration – Manteau souple</string>
-	<string key="CraftArtifact_Set1_MediumHands_Name">Amélioration – Gants de goule</string>
-	<string key="CraftArtifact_Set1_MediumLegs_Name">Amélioration – Pantalon de phase</string>
-	<string key="CraftArtifact_Set1_LightHead_Name">Amélioration – Chapeau de mage</string>
-	<string key="CraftArtifact_Set1_LightChest_Name">Amélioration – Poids-plume</string>
-	<string key="CraftArtifact_Set1_LightFeet_Name">Amélioration – Bandages de pieds d'acrobate</string>
-	<string key="CraftArtifact_Set1_1hLongsword_Name">Amélioration – Le Boucher</string>
-	<string key="CraftArtifact_Set1_1hThrowingAxe_Name">Amélioration – Francisque</string>
-	<string key="CraftArtifact_Set1_2hWarhammer_Name">Amélioration – Mjöllnir</string>
-	<string key="CraftArtifact_Set1_2hGreatAxe_Name">Amélioration – Les Abysses</string>
-	<string key="CraftArtifact_Set1_2hMusket_Name">Amélioration – Le Mécanicien</string>
-	<string key="CraftArtifact_Set1_1hKiteShield_Name">Amélioration – Michael</string>
-	<string key="CraftArtifact_Set1_1hTowerShield_Name">Amélioration – Le Mur</string>
-	<string key="CraftArtifact_Set1_2hStaffFire_Name">Amélioration – Fournaise</string>
-	<string key="CraftArtifact_Set1_2hSpear_Name">Amélioration – Dard du scorpion</string>
-	<string key="CraftArtifact_Set1_1hRapier_Name">Amélioration – L'Acheveur</string>
-	<string key="CraftArtifact_Set1_1hGauntletVoid_Name">Amélioration – Écourteurs de vie</string>
-	<string key="CraftArtifact_Set1_2hBlunderbuss_Name">Amélioration – Pestilence</string>
-	<string key="CraftArtifact_Set1_2hGreatSword_Name">Amélioration – Sérénité</string>
-	<string key="CraftArtifact_Set1_1hFlail_Name">Amélioration – Odo</string>
-	<string key="CraftArtifact_Set1_Earring1_Name">Amélioration – Soif inassouvible</string>
-	<string key="CraftArtifact_Set1_Ring1_Name">Amélioration – Buveur de sang</string>
-	<string key="CraftArtifact_Set1_Amulet1_Name">Amélioration – Chronomètre égaré</string>
-	<string key="CraftArtifact_Set1_Amulet2_Name">Amélioration – Ânkh</string>
+	<string key="CraftArtifact_Set1_HeavyHead_Name">Amélioration – Inébranlable au four à gypses</string>
+	<string key="CraftArtifact_Set1_HeavyChest_Name">Amélioration – Plates sombres du néant au four à gypses</string>
+	<string key="CraftArtifact_Set1_HeavyHands_Name">Amélioration – Gantelets magnétiques au four à gypses</string>
+	<string key="CraftArtifact_Set1_HeavyLegs_Name">Amélioration – Liberté au four à gypses</string>
+	<string key="CraftArtifact_Set1_HeavyFeet_Name" rel_version="Feature_Artifacts_Set2">Amélioration – L'indéracinable au four à gypses</string>
+	<string key="CraftArtifact_Set1_MediumHead_Name">Amélioration – Turban de Djinn au four à gypses</string>
+	<string key="CraftArtifact_Set1_MediumChest_Name">Amélioration – Manteau souple au four à gypses</string>
+	<string key="CraftArtifact_Set1_MediumHands_Name">Amélioration – Gants de goule au four à gypses</string>
+	<string key="CraftArtifact_Set1_MediumLegs_Name">Amélioration – Pantalon de phase au four à gypses</string>
+	<string key="CraftArtifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Amélioration – Chaussures ailées au four à gypses</string>
+	<string key="CraftArtifact_Set1_LightHead_Name">Amélioration – Chapeau de sorcier gris au four à gypses</string>
+	<string key="CraftArtifact_Set1_LightChest_Name">Amélioration – Poids-plume au four à gypses</string>
+	<string key="CraftArtifact_Set1_LightHands_Name" rel_version="Feature_Artifacts_Set2">Amélioration – Réflexes affûtés au four à gypses</string>
+	<string key="CraftArtifact_Set1_LightLegs_Name" rel_version="Feature_Artifacts_Set2">Amélioration – Garde-genoux de Koya au four à gypses</string>
+	<string key="CraftArtifact_Set1_LightFeet_Name">Amélioration – Bandages de pieds d'acrobate au four à gypses</string>
+	<string key="CraftArtifact_Set1_1hLongsword_Name">Amélioration – Le Boucher au four à gypses</string>
+	<string key="CraftArtifact_Set1_1hThrowingAxe_Name">Amélioration – Francisque de Freya au four à gypses</string>
+	<string key="CraftArtifact_Set1_2hWarhammer_Name">Amélioration – Étincelle de Mjöllnir au four à gypses</string>
+	<string key="CraftArtifact_Set1_2hGreatAxe_Name">Amélioration – Les Abysses au four à gypses</string>
+	<string key="CraftArtifact_Set1_2hBow_Name" rel_version="Feature_Artifacts_Set2">Amélioration – Lance-carreaux au four à gypses</string>
+	<string key="CraftArtifact_Set1_2hMusket_Name">Amélioration – Le Mécanicien au four à gypses</string>
+	<string key="CraftArtifact_Set1_1hRoundShield_Name" rel_version="Feature_Artifacts_Set2">Amélioration – Gladiateur au four à gypses</string>
+	<string key="CraftArtifact_Set1_1hKiteShield_Name">Amélioration – Michael au four à gypses</string>
+	<string key="CraftArtifact_Set1_1hTowerShield_Name">Amélioration – Le Mur au four à gypses</string>
+	<string key="CraftArtifact_Set1_2hStaffFire_Name">Amélioration – Fournaise au four à gypses</string>
+	<string key="CraftArtifact_Set1_2hStaffLife_Name" rel_version="Feature_Artifacts_Set2">Amélioration – Vengeance au four à gypses</string>
+	<string key="CraftArtifact_Set1_2hSpear_Name">Amélioration – Dard du scorpion au four à gypses</string>
+	<string key="CraftArtifact_Set1_1hRapier_Name">Amélioration – L'Acheveur au four à gypses</string>
+	<string key="CraftArtifact_Set1_1hGauntletIce_Name" rel_version="Feature_Artifacts_Set2">Amélioration – Gel puissant au four à gypses</string>
+	<string key="CraftArtifact_Set1_1hGauntletVoid_Name">Amélioration – Écourteurs de vie au four à gypses</string>
+	<string key="CraftArtifact_Set1_2hBlunderbuss_Name">Amélioration – Pestilence au four à gypses</string>
+	<string key="CraftArtifact_Set1_2hGreatSword_Name">Amélioration – Sérénité au four à gypses</string>
+	<string key="CraftArtifact_Set1_1hFlail_Name">Amélioration – Odo au four à gypses</string>
+	<string key="CraftArtifact_Set1_Earring1_Name">Amélioration – Soif inassouvible au four à gypses</string>
+	<string key="CraftArtifact_Set1_Ring1_Name">Amélioration – Buveur de sang au four à gypses</string>
+	<string key="CraftArtifact_Set1_Amulet1_Name">Amélioration – Chronomètre égaré au four à gypses</string>
+	<string key="CraftArtifact_Set1_Earring2_Name" rel_version="Feature_Artifacts_Set2">Amélioration – Quiétude océane au four à gypses</string>
+	<string key="CraftArtifact_Set1_Ring2_Name" rel_version="Feature_Artifacts_Set2">Amélioration – Tête pensante au four à gypses</string>
+	<string key="CraftArtifact_Set1_Amulet2_Name">Amélioration – Ânkh au four à gypses</string>
 </resources>
 

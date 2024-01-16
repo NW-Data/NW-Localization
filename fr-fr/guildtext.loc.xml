@@ -23,7 +23,7 @@
 	<string key="ui_friendleftmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; a quitté la partie !</string>
 	<string key="ui_friendremovedmessage">{playerName} ne fait plus partie de vos amis.</string>
 	<string key="ui_friendremovedtitle">Ami retiré</string>
-	<string key="ui_friendrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; veut faire partie de vos amis. Appuyez sur Esc pour ouvrir le menu Social.</string>
+	<string key="ui_friendrequestrecipientmessage">&lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt; veut faire partie de vos amis.</string>
 	<string key="ui_friendrequestsendermessage">Vous avez demandé à faire partie des amis de {playerName}.</string>
 	<string key="ui_friendrequesttitle">Proposition d'amitié</string>
 	<string key="ui_friendshipacceptedmessage">Vous faites partie des amis de &lt;font color="#9e947e"&gt;{playerName}&lt;/font&gt;.</string>
@@ -84,7 +84,7 @@
 	<string key="ui_factionalignment">FACTION</string>
 	<string key="ui_guildname">Nom de compagnie</string>
 	<string key="ui_guildnamechangemessage">Le nom de la compagnie a été modifié : &lt;font color="#9e947e"&gt;{guildName}&lt;/font&gt;.</string>
-	<string key="ui_guildnamechangetitle">Modification du nom de Cie</string>
+	<string key="ui_guildnamechangetitle">Changement de nom de compagnie</string>
 	<string key="ui_guildnamehere">Nom de la compagnie</string>
 	<string key="ui_guildnameinusemessage">Le nom « {guildName} » est déjà pris.</string>
 	<string key="ui_guildmessageofthedayhere">Message du jour de la compagnie</string>
@@ -98,7 +98,7 @@
 	<string key="ui_guildsetmemberrankfailednoconsulmessage_THEY">Impossible de changer le rang de {playerName}, car il n'y a pas d'autres consuls pour prendre sa place.</string>
 	<string key="ui_guildpermissionstab">Autorisations</string>
 	<string key="ui_guildranknameinusemessage">Ce nom de rang existe déjà.</string>
-	<string key="ui_guildoverviewtab">Synthèse</string>
+	<string key="ui_guildoverviewtab">Aperçu</string>
 	<string key="ui_guildoverviewtabsubtitle">Lire le message du jour</string>
 	<string key="ui_guildwarstab">Conflits en cours</string>
 	<string key="ui_guildwarstabsubtitle">Voir les conflits en cours</string>
@@ -170,7 +170,7 @@
 	<string key="ui_guildui">Compagnie</string>
 	<string key="ui_guildclaimtitle">Revendication de Cie</string>
 	<string key="ui_guildclaimmessage">Votre compagnie a revendiqué &lt;font color="#9e947e"&gt;{territoryName}&lt;/font&gt;.</string>
-	<string key="ui_guildrequestthrottledmessage">Requête ralentie. Veuillez réessayer plus tard.</string>
+	<string key="ui_guildrequestthrottledmessage">Requête ralentie. Réessayez plus tard.</string>
 	<string key="ui_guildrankgovernor" comment="Pronoun for Target Player">Gouverneur</string>
 	<string key="ui_guildrankgovernor_SHE">Gouverneur</string>
 	<string key="ui_guildrankgovernor_THEY">Gouverneur</string>
@@ -268,7 +268,7 @@
 	<string key="ui_permission_war_raid_manage">{allowed} gérer les groupes d'armée et les inscriptions</string>
 	<string key="ui_permission_build_defensive_structures">{allowed} bâtir et remplacer la forteresse d'une compagnie</string>
 	<string key="ui_playeralreadyinguildmessage">{playerName} est déjà membre de votre compagnie.</string>
-	<string key="ui_playerguild">compagnie de {LocalPlayerName}</string>
+	<string key="ui_playerguild">Compagnie de {LocalPlayerName}</string>
 	<string key="ui_promote">Promouvoir</string>
 	<string key="ui_promote_transfer_owner">Transférer la propriété</string>
 	<string key="ui_promotetoguildmaster_confirm_title">Transférer la compagnie ?</string>
@@ -344,12 +344,12 @@
 	<string key="ui_wardeclarationpopup_siegewindow_and_warcost_changed">Le coût de déclaration de la guerre et la fenêtre de siège ont changé. Veuillez réessayer.</string>
 	<string key="ui_wardeclarationpopup_attackinfo_warning">Attention !</string>
 	<string key="ui_wardeclarationpopup_attackinfo_text">Votre compagnie peut être &lt;font color={colorHex}&gt;contre-attaquée&lt;/font&gt; une fois la guerre déclarée, lors de la phase de résolution.</string>
-	<string key="ui_wardeclarationpopup_attackinfo_viewdetail">Détails</string>
+	<string key="ui_wardeclarationpopup_attackinfo_viewdetail">Afficher les détails</string>
 	<string key="ui_wardeclarationpopup_attackinfopopup_title">Avant de déclarer la guerre...</string>
 	<string key="ui_wardeclarationpopup_attackinfopopup_message">N'oubliez pas que la &lt;font color={defendingColorHex}&gt;compagnie attaquée peut vous déclarer la guerre à son tour&lt;/font&gt;\nen lançant une &lt;font color={counterAttackColor}&gt;contre-attaque&lt;/font&gt; lors de la &lt;font color={resolutionPhaseColor}&gt;phase de résolution&lt;/font&gt;.\n\nSi une contre-attaque est lancée, les &lt;font color={situationReversedColor}&gt;rôles sont inversés&lt;/font&gt;.\nVotre compagnie devra défendre son territoire face à l'ennemi !</string>
 	<string key="ui_wardeclarationpopup_declare_title">Déclaration de guerre</string>
 	<string key="ui_wardeclarationpopup_declare_message">Lorsque la guerre est déclarée, votre compagnie peut attaquer la forteresse pendant 30 minutes avec {maxRosterMembers} joueurs maximum.\nSi elle parvient à s'emparer du marqueur de revendication dans la forteresse, votre compagnie prend la gouvernance du territoire.</string>
-	<string key="ui_wardeclarationpopup_declare_image_war">Déclarer la guerre</string>
+	<string key="ui_wardeclarationpopup_declare_image_war">Rejoindre</string>
 	<string key="ui_wardeclarationpopup_declare_image_attack">Attaquer la forteresse</string>
 	<string key="ui_wardeclarationpopup_declare_image_territory">Revendiquer le territoire</string>
 	<string key="ui_wardeclarationpopup_siege_title">Fenêtre de siège</string>
@@ -431,7 +431,7 @@
 	<string key="ui_warnotification_message_multiple">Votre compagnie a {numWarsText} guerres à venir.</string>
 	<string key="ui_warnotificationconquest_message">Il vous reste &lt;font color={colorHex}&gt;{numHours} heures&lt;/font&gt; pour cela.</string>
 	<string key="ui_war_cost_info">Le coût de la guerre augmentera selon :\n\nLa différence de nombre de membres de chaque compagnie.\n\nLe nombre de guerres auxquelles participe l'autre compagnie.\n\nLe nombre de guerres auxquelles participe votre compagnie.\n\nLe nombre reconductions de cette guerre.</string>
-	<string key="ui_warnotification_viewdetail">Détails</string>
+	<string key="ui_warnotification_viewdetail">Afficher les détails</string>
 	<string key="ui_warnotification_settime">Définir</string>
 	<string key="ui_warnotification_dismiss">Ignorer</string>
 	<string key="ui_warphase_scouting_ends_at">La guerre commence :</string>
@@ -555,7 +555,7 @@
 	<string key="ui_siege_signup_playerssignedup">Joueurs inscrits</string>
 	<string key="ui_siege_signup_protect">Protégez le territoire</string>
 	<string key="ui_siege_signup_attack">Attaquez le territoire</string>
-	<string key="ui_siege_signup_fightdarkness">Combattez les altérés</string>
+	<string key="ui_siege_signup_fightdarkness">Affronter les altérés</string>
 	<string key="ui_siege_signup_description_attackers">Vous aiderez la compagnie qui attaque à conquérir ce territoire.\nLes assaillants seront postés au &lt;font color="#ffffff"&gt;camp de guerre&lt;/font&gt;, et l'objectif est de capturer le point de revendication de la forteresse.</string>
 	<string key="ui_siege_signup_description_defenders">Vous aiderez la compagnie qui défend à conserver le territoire.\nLes défenseurs seront postés à l'&lt;font color="#ffffff"&gt;intérieur de la forteresse&lt;/font&gt;, et l'objectif est de protéger le point de revendication afin qu'il ne soit pas capturé.</string>
 	<string key="ui_siege_signup_description_invasion">L'armée des altérés attaquera la &lt;font color="#ffffff"&gt;forteresse {territoryName}&lt;/font&gt; afin de conquérir le territoire et détruire la colonie.\nBattez-vous pour défendre le territoire, protégez la colonie, prenez part à une grande bataille et gagnez des récompenses !</string>
@@ -584,7 +584,7 @@
 	<string key="ui_siege_signup_dailywarlimit_attacker_limitreached">Vous avez atteint votre limite de guerres en tant qu'assaillant pour aujourd'hui et ne pouvez pas vous inscrire pour d'autres guerres en tant qu'assaillant.</string>
 	<string key="ui_siege_signup_dailywarlimit_defender_available">Vous pouvez vous inscrire pour des guerres en tant que défenseur.</string>
 	<string key="ui_siege_signup_dailywarlimit_defender_limitreached">Vous avez atteint votre limite de guerres en tant que défenseur pour aujourd'hui et ne pouvez pas vous inscrire pour d'autres guerres en tant que défenseur.</string>
-	<string key="ui_siege_signup_conquest_overlap_title">Voulez-vous continuer ?</string>
+	<string key="ui_siege_signup_conquest_overlap_title">C'est vrai ?</string>
 	<string key="ui_siege_signup_conquest_overlap_confirm">Vous avez déjà une inscription pour une guerre prévue au même moment.\nVoulez-vous annuler votre inscription dans le territoire {territoryName} ?</string>
 	<string key="ui_siege_signup_abandon_title">Annuler l'inscription</string>
 	<string key="ui_siege_signup_abandon_message">Voulez-vous vraiment annuler votre inscription à cette guerre ?</string>
@@ -641,7 +641,7 @@
 	<string key="ui_signup_not_available">Inscription indisponible</string>
 	<string key="ui_signup_level_requirement">&lt;font color="#ff6363"&gt;Niveau de joueur {level}&lt;/font&gt; &lt;font color="#c0c0c0"&gt; requis pour s'inscrire.&lt;/font&gt;</string>
 	<string key="ui_signup_count">&lt;font color="#ffffff"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; joueurs inscrits</string>
-	<string key="ui_signup_instruction_title_1">Veuillez patienter...</string>
+	<string key="ui_signup_instruction_title_1">Une minute.</string>
 	<string key="ui_signup_instruction_title_2">Soyez en ligne.</string>
 	<string key="ui_signup_instruction_title_3">Sur la liste de réserve ?</string>
 	<string key="ui_signup_instruction_desc_1_war">Vous recevrez une notification si la compagnie vous sélectionne.</string>
@@ -678,5 +678,6 @@
 	<string key="ui_war_schedule_adjustment_cancelled">annulé(e)</string>
 	<string key="ui_war_schedule_adjustment_rescheduled">reporté(e)</string>
 	<string key="ui_war_camp_tier">Palier &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_weapons_tier">Palier Arme de siège</string>
 </resources>
 

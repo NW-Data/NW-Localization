@@ -52,6 +52,11 @@
 	<string key="print">Imprimir</string>
 	<string key="pause">Pausa</string>
 	<string key="ui_date">Fecha</string>
+	<string key="ui_columns">Columnas</string>
+	<string key="ui_move_up">Subir</string>
+	<string key="ui_move_down">Bajar</string>
+	<string key="ui_column_left">Columna izquierda</string>
+	<string key="ui_column_right">Columna derecha</string>
 	<string key="interact_cyclePermissions">Recorrer permisos</string>
 	<string key="interact_demolish">Demoler estructura</string>
 	<string key="interact_pickup">Coger estructura</string>
@@ -60,6 +65,7 @@
 	<string key="inv_drop">Soltar</string>
 	<string key="inv_equip">Equipar</string>
 	<string key="inv_repair">Reparar</string>
+	<string key="inv_repair_kit">Kit de reparación</string>
 	<string key="ui_repair_icon">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_repair" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Reparar</string>
 	<string key="ui_repair_icon_noconfirm">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_repair" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Reparar rápidamente</string>
 	<string key="ui_repair_kit_icon">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_repair" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Usar kit de reparación</string>
@@ -69,6 +75,7 @@
 	<string key="ui_salvage_icon">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_salvage" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Aprovechar</string>
 	<string key="ui_salvage_icon_noconfirm">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_salvage" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Aprovechar rápidamente</string>
 	<string key="ui_salvage_lock_icon">Bloquear/Desbloquear</string>
+	<string key="ui_salvage_all">Aprovechar todo</string>
 	<string key="ui_inv_noNeedRepair">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_repair" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Reparación innecesaria</string>
 	<string key="inv_salvage_confirm">¿Seguro que quieres aprovechar este objeto?</string>
 	<string key="inv_rarity_salvage_confirm">Estás a punto de aprovechar un objeto poderoso. ¿Seguro que quieres hacerlo?</string>
@@ -210,13 +217,13 @@
 	<string key="ui_azoth_desc">Puedes usar Azoth para hacer un viaje rápido entre diferentes templos y asentamientos y para construir objetos más poderosos.\n\nEl Azoth se puede conseguir completando misiones y cerrando grietas de corrupción.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Como:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#FFFFFF"&gt;Grietas de corrupción y misiones&lt;/font&gt;</string>
 	<string key="ui_cards">Cartas</string>
 	<string key="ui_leave_arena_coming_soon">Próximamente: funcionalidad de salir de la arena</string>
-	<string key="ui_equipfishingpole">[{value}] para pescar</string>
+	<string key="ui_equipfishingpole">{$player.fishing_activate$} para pescar</string>
 	<string key="ui_castfishingline">: Arrojar sedal</string>
 	<string key="ui_fishing_hotspot_nearby">¡Encuentra la zona de pesca que hay cerca!</string>
 	<string key="ui_changekey">Cambiar llave</string>
 	<string key="ui_changeweapon">cambiar arma</string>
 	<string key="ui_create_character_title_main_menu">Crear un personaje</string>
-	<string key="ui_create_character_message_main_menu">Haz clic en Jugar para crear un personaje en este mundo.</string>
+	<string key="ui_create_character_message_main_menu">Selecciona Jugar para crear un personaje en este mundo.</string>
 	<string key="ui_character_main_menu">Personaje</string>
 	<string key="ui_world_main_menu">Mundo</string>
 	<string key="ui_charactername">Nombre del personaje</string>
@@ -258,7 +265,7 @@
 	<string key="ui_connecttogame">Conectar al juego</string>
 	<string key="ui_contacts">Contactos</string>
 	<string key="ui_with">Con:</string>
-	<string key="ui_into"> </string>
+	<string key="ui_into">A:</string>
 	<string key="ui_purchase_slot_button">Comprar ranura</string>
 	<string key="ui_convertitem">Convertir {numItems} objetos</string>
 	<string key="ui_copperaxehead">cabeza de hacha de cobre</string>
@@ -312,8 +319,8 @@
 	<string key="ui_minutes_with_time_short">{time} min</string>
 	<string key="ui_seconds_with_time">{time} segundos</string>
 	<string key="ui_seconds_with_time_short">{time} s</string>
-	<string key="ui_second_with_time">1 second</string>
-	<string key="ui_second_with_time_short">1 d</string>
+	<string key="ui_second_with_time">1 segundo</string>
+	<string key="ui_second_with_time_short">1 s</string>
 	<string key="ui_lastplayed">Última sesión</string>
 	<string key="ui_minuteago">Hace 1 minuto</string>
 	<string key="ui_lessthan_minuteago">hace menos de 1 minuto</string>
@@ -385,11 +392,11 @@
 	<string key="ui_territory_upgrades">Mejoras del territorio: {upgradeCount}</string>
 	<string key="ui_territory_locked_title">TERRITORIO BLOQUEADO</string>
 	<string key="ui_expansion2023_title">El alzamiento de los tierramarga</string>
-	<string key="ui_territory_expansion2023_owned_locked_desc">Las Tierras salvajes elíseas están llenas de esporas letales que te matarán al instante. Si sigues adelante, morirás.\n Debes alcanzar el nivel 60 y completar &lt;font color="#FFD500"&gt;«La invasión de Artemisa»&lt;/font&gt;{location} para entrar en las Tierras salvajes elíseas sin correr peligro.</string>
-	<string key="ui_territory_expansion2023_not_owned_locked_desc">Las Tierras salvajes elíseas están llenas de esporas letales que te matarán al instante. Si sigues adelante, morirás.\n Debes poseer «El alzamiento de los tierramarga», alcanzar el nivel 60 y completar &lt;font color="#FFD500"&gt;«La invasión de Artemisa»&lt;/font&gt;{location} para entrar en las Tierras salvajes elíseas sin correr peligro.</string>
-	<string key="ui_territory_expansion2023_quest_location_faction1">from the newly established settlement in Edengrove</string>
-	<string key="ui_territory_expansion2023_quest_location_faction2">from the outpost Mountainrise in Shattered Mountain</string>
-	<string key="ui_territory_expansion2023_quest_location_faction3">from the settlement Farharbor Hamlet in Reekwater</string>
+	<string key="ui_territory_expansion2023_owned_locked_desc">Las Tierras salvajes elíseas están llenas de esporas letales que te matarán al instante. Si sigues adelante, morirás.\n Debes alcanzar el nivel 60 y completar &lt;font color="#FFD500"&gt;«La invasión de Artemisa»&lt;/font&gt; {location} para entrar en las Tierras salvajes elíseas sin correr peligro.</string>
+	<string key="ui_territory_expansion2023_not_owned_locked_desc">Las Tierras salvajes elíseas están llenas de esporas letales que te matarán al instante. Si sigues adelante, morirás.\n Debes poseer «El alzamiento de los tierramarga», alcanzar el nivel 60 y completar &lt;font color="#FFD500"&gt;«La invasión de Artemisa»&lt;/font&gt; {location} para entrar en las Tierras salvajes elíseas sin correr peligro.</string>
+	<string key="ui_territory_expansion2023_quest_location_faction1">desde el nuevo asentamiento de Arboleda del Edén</string>
+	<string key="ui_territory_expansion2023_quest_location_faction2">desde el puesto remoto Altamontaña de Cima Quebrada</string>
+	<string key="ui_territory_expansion2023_quest_location_faction3">desde el asentamiento Aldea de Puertodistante de Aguas Fétidas</string>
 	<string key="ui_dealcard">repartir carta</string>
 	<string key="ui_deletecharacter">Borrar personaje</string>
 	<string key="ui_demolishstructure">Demoler estructura</string>
@@ -470,8 +477,8 @@
 	<string key="ui_hour">hora</string>
 	<string key="ui_hours">horas</string>
 	<string key="ui_hours:">horas:</string>
-	<string key="ui_hours_short"> h</string>
-	<string key="ui_days_short"> d</string>
+	<string key="ui_hours_short">h</string>
+	<string key="ui_days_short">d</string>
 	<string key="ui_identity_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum...</string>
 	<string key="ui_identity">Identidad</string>
 	<string key="ui_iknowwhatitistobeasubj">Sé lo que es ser un súbdito, ser un soberano, tener buenos vecinos, y a veces encontrarse con malvados anhelantes. En la confianza he hallado traición.</string>
@@ -488,7 +495,7 @@
 	<string key="ui_inventoryMaxWeight">Carga excesiva</string>
 	<string key="ui_inventoryweight">PESO</string>
 	<string key="ui_inventoryslots">OBJETOS ÚNICOS</string>
-	<string key="ui_inventoryslots_tooltip">OBJETOS ÚNICOS</string>
+	<string key="ui_inventoryslots_tooltip">&lt;font face="lyshineui/fonts/Nimbus_regular.font" color={textColor}&gt;Objetos únicos:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color={usedColor}&gt; {usedSlots}&lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_medium.font" color={maxColor}&gt;/{maxSlots}&lt;/font&gt;</string>
 	<string key="ui_filtereditems">{filtered} objetos ocultos mediante el filtro.</string>
 	<string key="ui_left">Izquierda</string>
 	<string key="ui_right">Derecha</string>
@@ -724,10 +731,10 @@
 	<string key="ui_quickslots">Ranuras rápidas</string>
 	<string key="ui_quillsquillshelloworld">plumas (plumas): Hola, mundo. Si alguien quiere unirse a mi compañía, puede hacerlo por 50 dinares.</string>
 	<string key="ui_quillsrocket">plumas (cohete)</string>
-	<string key="ui_options_fov">Campo de visión (vertical)</string>
-	<string key="ui_options_fov_desc">Ajusta el campo de visión de la cámara</string>
+	<string key="ui_options_fov">Campo de visión</string>
+	<string key="ui_options_fov_desc">Ajusta el campo de visión</string>
 	<string key="ui_options_gamma">Gamma</string>
-	<string key="ui_options_gamma_desc">Ajusta el nivel de gamma.</string>
+	<string key="ui_options_gamma_desc">Ajusta el nivel de gamma</string>
 	<string key="ui_options_basic_settings">Ajustes básicos</string>
 	<string key="ui_options_brightness_setting">Ajustes de brillo</string>
 	<string key="ui_options_brightness_setting_desc">Ajusta el brillo del monitor hasta que el logotipo de New World de la izquierda apenas se vea.\nPodrás cambiar la configuración más adelante en la pantalla de ajustes si lo necesitas.</string>
@@ -779,7 +786,6 @@
 	<string key="ui_sampletooltipnthistool">Mensaje de muestra\nEste mensaje es un cuadrado sencillo con un marco en el que solo se muestra texto.</string>
 	<string key="ui_save">Guardar</string>
 	<string key="ui_se">SE</string>
-	<string key="ui_binding_controller_reserved_key_multiple">¿Asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; a &lt;img src="{path}" gpBtn="{key}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;?\n\nLas siguientes acciones ya no estarán asignadas a ninguna tecla:\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt;</string>
 	<string key="ui_binding_reserved_key_blocked">No se puede asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionName}&lt;/font&gt; a la tecla {key}. Está reservada y no se puede desasignar.</string>
 	<string key="ui_binding_reserved_key_title_single">Cambiar asignación de teclas</string>
 	<string key="ui_binding_reserved_key_message_single">¿Asignar &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{newAction}&lt;/font&gt; a &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{key}&lt;/font&gt;?\n\n&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{oldAction}&lt;/font&gt; ya no tendrá ninguna tecla asignada.</string>
@@ -831,7 +837,7 @@
 	<string key="ui_storageshed">ALMACÉN</string>
 	<string key="ui_stowaway">Polizón</string>
 	<string key="ui_enable_audio_window_unfocus">Reproducir sonido de fondo</string>
-	<string key="ui_enable_audio_window_unfocus_desc">Si está activado, el audio del juego seguirá sonando mientras la ventana esté minimizada o no se encuentre activa.</string>
+	<string key="ui_enable_audio_window_unfocus_desc">El audio del juego seguirá sonando mientras la ventana esté minimizada o no se encuentre activa.</string>
 	<string key="ui_submit">Enviar</string>
 	<string key="ui_comma">,</string>
 	<string key="ui_sw">SO</string>
@@ -898,7 +904,7 @@
 	<string key="ui_chat_chat">CHAT</string>
 	<string key="ui_continue">Continuar</string>
 	<string key="ui_legalterms">Condiciones de uso de Amazon Games</string>
-	<string key="ui_code_of_conduct">Consulta el Código de conducta de Amazon Games en el navegador.</string>
+	<string key="ui_code_of_conduct">Código de conducta de Amazon Games</string>
 	<string key="ui_code_of_conduct_desc">Consulta el Código de conducta de Amazon Games en el navegador</string>
 	<string key="ui_region_warning_text">Tienes una mala conexión con esta región, lo cual podría empeorar tu experiencia. Escoge una región más cercana a tu ubicación.</string>
 	<string key="ui_landing_all_slots_full">Todas las ranuras de personaje de las regiones están llenas. Tienes que borrar un personaje existente para poder crear uno nuevo.</string>
@@ -914,7 +920,7 @@
 	<string key="ui_landing_tile_default_description4">Pregunta a los desarrolladores: ¿Qué es la influencia de facción?</string>
 	<string key="ui_landing_tile_default_description5">Visita los foros</string>
 	<string key="ui_region_warning_text_all">Todas las conexiones a las regiones disponibles son malas, lo cual puede empeorar tu experiencia.</string>
-	<string key="ui_anti-cheat">Consulta la Divulgación de software Anti-Cheat en el navegador.</string>
+	<string key="ui_anti-cheat">Divulgación de software Anti-Cheat</string>
 	<string key="ui_anti-cheat_desc">Consulta la Información sobre el software antitrampas en el navegador</string>
 	<string key="ui_legalprivacy">Consulta nuestro Aviso de privacidad.</string>
 	<string key="ui_prealphatag">Versión de prueba - CONFIDENCIAL</string>
@@ -968,24 +974,29 @@
 	<string key="ui_world_select_hide_options">Ocultar más opciones</string>
 	<string key="ui_world_select_view_worlds">Ver mundos</string>
 	<string key="ui_world_select_refresh">Actualizar</string>
-	<string key="ui_world_free_transfer">Transferencia gratuita</string>
-	<string key="ui_world_leave_world">Salir del mundo</string>
-	<string key="ui_world_leave_world_confirm_message_start">Salir de un mundo afecta a la experiencia de tu personaje:</string>
-	<string key="ui_world_leave_world_confirm_message_friends_list">Tu lista de amigos no se transferirá</string>
-	<string key="ui_world_leave_world_confirm_message_company_membership">Ni la membresía a tu compañía ni los fondos en la tesorería se transferirán</string>
-	<string key="ui_world_leave_world_confirm_message_town_projects">Tus misiones del proyecto de pueblo no se transferirán</string>
-	<string key="ui_world_leave_world_confirm_message_faction_missions">Tus misiones de facción no se transferirán</string>
-	<string key="ui_world_leave_world_confirm_message_trading_post">Tus contratos en puestos comerciales no se transferirán y se cancelarán</string>
-	<string key="ui_world_leave_world_confirm_message_season_pass">Tu progreso y recompensas en el pase de temporada se transferirán</string>
-	<string key="ui_world_leave_world_confirm_message_houses">Tus casas se transferirán</string>
-	<string key="ui_world_leave_world_confirm_message_end">¿Seguro que quieres salir de {worldName}?\n\nUna vez que salgas de este mundo no podrás regresar hasta que se desbloquee y solo se pueda seleccionar un mundo en esta región.</string>
+	<string key="ui_world_free_transfer">Transferir gratis</string>
+	<string key="ui_world_leave_world">Abandonar mundo</string>
+	<string key="ui_world_leave_world_confirm_message_start">La experiencia de tu personaje se ve afectada cuando abandonas un mundo:</string>
+	<string key="ui_world_leave_world_confirm_message_friends_list">No se transferirá tu lista de amigos</string>
+	<string key="ui_world_leave_world_confirm_message_company_membership">No se transferirán tu compañía ni los fondos de la tesorería</string>
+	<string key="ui_world_leave_world_confirm_message_town_projects">No se transferirán las misiones de proyecto de pueblo</string>
+	<string key="ui_world_leave_world_confirm_message_faction_missions">No se transferirán las misiones de facción</string>
+	<string key="ui_world_leave_world_confirm_message_trading_post">Se cancelarán y no se transferirán los contratos de tu puesto comercial</string>
+	<string key="ui_world_leave_world_confirm_message_season_pass">Se transferirán tu progreso del pase de temporada y tus recompensas</string>
+	<string key="ui_world_leave_world_confirm_message_houses">Se transferirán tus casas</string>
+	<string key="ui_world_leave_world_confirm_message_end">¿Seguro que quieres abandonar {worldName}?\n\nUna vez que salgas del mundo, no podrás volver hasta que se haya desbloqueado y solo podrás seleccionar un mundo en esta región.</string>
+	<string key="ui_world_leave_world_failed_header">Transferencia de personaje no disponible</string>
+	<string key="ui_world_leave_world_failed_message">La transferencia de personaje gratuita no está disponible en estos momentos.</string>
+	<string key="ui_world_free_transfer_tooltip_transfer_unavailable">La transferencia de personaje no está disponible en estos momentos.</string>
+	<string key="ui_world_free_transfer_tooltip_is_latent">Ya se ha solicitado la transferencia de este personaje</string>
+	<string key="ui_world_free_transfer_tooltip_cooldown">Transferencia de personaje\nDisponible en {time}</string>
 	<string key="ui_resolution_popup_title">Resolución</string>
 	<string key="ui_resolution_popup_title_message">¿Mantener esta resolución?</string>
 	<string key="ui_monitor_popup_title">Monitor</string>
 	<string key="ui_monitor_popup_title_message">¿Mostrar en este monitor?</string>
 	<string key="ui_monitor_name">Monitor</string>
 	<string key="ui_short_level">Nv.</string>
-	<string key="ui_factioncurrency">Blasones</string>
+	<string key="ui_factioncurrency">Blasones de {faction}</string>
 	<string key="ui_factionreputation">Reputación de {faction}</string>
 	<string key="ui_factioninfluence">Influencia de {faction}</string>
 	<string key="ui_faction_select">Selecciona tu facción.</string>
@@ -1054,9 +1065,9 @@
 	<string key="ui_floating_xp_val">&lt;img src="lyshineui/images/icons/misc/icon_xp" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;{amount}</string>
 	<string key="ui_floating_standing_val">&lt;img src="lyshineui/images/icons/misc/icon_territoryStanding" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;{amount}</string>
 	<string key="ui_killfeed_xp_val">+ {amount}</string>
-	<string key="ui_killfeed_coin_val">+ {amount}</string>
-	<string key="ui_killfeed_standing_val">+ {amount}</string>
-	<string key="ui_killfeed_tradeskill_val">+ {amount}</string>
+	<string key="ui_killfeed_coin_val">+{amount}</string>
+	<string key="ui_killfeed_standing_val">+{amount}</string>
+	<string key="ui_killfeed_tradeskill_val">+{amount}</string>
 	<string key="ui_navmenu_friends">AMIGOS</string>
 	<string key="ui_navmenu_modes">Modos</string>
 	<string key="ui_navmenu_guild">Compañía</string>
@@ -1065,6 +1076,7 @@
 	<string key="ui_navmenu_settings">Ajustes</string>
 	<string key="ui_navmenu_exit">SALIR/OPCIONES</string>
 	<string key="ui_navmenu_game_menu">Menú del juego</string>
+	<string key="ui_navmenu_social_menu">Menú de interacciones sociales</string>
 	<string key="ui_navmenu_benchmark">RENDIMIENTO</string>
 	<string key="ui_navmenu_store">Tienda</string>
 	<string key="ui_navmenu_quit">Salir</string>
@@ -1222,7 +1234,7 @@
 	<string key="ui_corruption_tooltip">El tipo de daño de &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;vacío&lt;/font&gt; normalmente es más efectivo contra los incorruptos.</string>
 	<string key="ui_siege_tooltip">El tipo de daño de &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;asedio&lt;/font&gt; normalmente es más efectivo contra las estructuras.</string>
 	<string key="ui_absorption_tooltip">El porcentaje de reducción aplicado al daño recibido después de que haya sido reducido por la defensa.</string>
-	<string key="ui_click_to_choose_this_skin">Haz clic para elegir este diseño.</string>
+	<string key="ui_click_to_choose_this_skin">Selecciona para elegir este diseño.</string>
 	<string key="ui_housing_tooltip_placed_all">Has colocado todos estos objetos.</string>
 	<string key="ui_warning_cannot_build_on_claimed_land">No puedes construir en territorio conquistado por otra persona.</string>
 	<string key="ui_warning_cannot_build_without_claim">Debes conquistar este terreno antes de poder construir en él.</string>
@@ -1249,7 +1261,7 @@
 	<string key="ui_teleport_backup_location">Tu lugar de reaparición no estaba disponible, por lo que se te ha trasladado a uno cercano.</string>
 	<string key="ui_territoryLockedReclaim">No es posible conquistarlo hasta que concluya la fase de resolución.</string>
 	<string key="ui_territoryLockedClaim">No pueden conquistarlo terceras partes hasta que la guerra haya terminado.</string>
-	<string key="ui_territoryinfluencetooltip">En una carrera de influencia, las facciones ganan influencia a través de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;misiones de facción JcJ&lt;/font&gt; y &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;puntos de control de facción&lt;/font&gt;. Faction Control Points give the controlling faction a bonus to all Influence Earned. \n\nThe Attacking Faction that pushes the most Influence during an Influence Race earns a declaration of war. Companies must complete Faction Missions to earn enough Influence to be eligible to declare. \n\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;Underdog Bonus:&lt;/font&gt; Las facciones con menos de 2 territorios controlados obtienen una bonificación adicional de un &lt;font color="#FFFFFF"&gt;10 %&lt;/font&gt; de puntos de influencia.</string>
+	<string key="ui_territoryinfluencetooltip">En una carrera de influencia, las facciones ganan influencia a través de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;misiones de facción JcJ&lt;/font&gt; y &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;puntos de control de facción&lt;/font&gt;. Los puntos de control de facciones otorgan a la facción con el control una bonificación a toda la influencia obtenida. \n\nLa facción atacante que obtenga más influencia durante una carrera de influencia puede declarar una guerra. Las compañías deben completar misiones de facción para obtener suficiente influencia para poder declarar una guerra. \n\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt; Bonificación por vulnerable:&lt;/font&gt; Las facciones con menos de 2 territorios controlados obtienen una bonificación adicional de un &lt;font color="#FFFFFF"&gt;10 %&lt;/font&gt; de puntos de influencia.</string>
 	<string key="ui_availableToReclaimIn">Podrá volver a conquistarse en:</string>
 	<string key="ui_availableToClaimIn">Podrá conquistarse en:</string>
 	<string key="ui_availableTimeToCapture">Tiempo disponible para la captura:</string>
@@ -1544,7 +1556,7 @@
 	<string key="ui_claimmarker">Punto de conquista</string>
 	<string key="ui_claimstreak">Día {number}</string>
 	<string key="ui_random_location">Ubicación aleatoria</string>
-	<string key="ui_scroll_hint">Zoom (con la rueda)</string>
+	<string key="ui_scroll_hint">Zoom</string>
 	<string key="ui_map_rotate_camera">(Mantener) Rotar cámara</string>
 	<string key="ui_zoom_camera">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="8"&gt;&lt;/img&gt; + &lt;img src="lyshineui/images/icons/misc/Icon_MiddleMouseButton" xPadding="1" scale="2.3" yOffset="9"&gt;&lt;/img&gt; (Mantener) Zoom</string>
 	<string key="ui_global_storage_description">Otros jugadores no pueden llevarse ni ver los objetos que dejas aquí. Debes volver a este puesto remoto para recuperar los objetos.</string>
@@ -1603,9 +1615,11 @@
 	<string key="ui_tooltip_requires">Se necesita:</string>
 	<string key="ui_tooltip_attribute">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#FFFFFF"&gt;{value}&lt;/font&gt; {label}</string>
 	<string key="ui_tooltip_equip">Equipar</string>
-	<string key="ui_tooltip_equip_requirements_not_met">Equipar (requisitos no cumplidos)</string>
+	<string key="ui_tooltip_equip_desc">Equipar este objeto</string>
+	<string key="ui_tooltip_equip_requirements_not_met">No se cumplen los requisitos</string>
 	<string key="ui_tooltip_equipasweapon">Equipar como arma</string>
 	<string key="ui_tooltip_unequip">Desequipar</string>
+	<string key="ui_tooltip_unequip_desc">Desequipar este objeto</string>
 	<string key="ui_tooltip_drop">Soltar</string>
 	<string key="ui_tooltip_discard">Descartar</string>
 	<string key="ui_tooltip_read">Leer</string>
@@ -1622,6 +1636,7 @@
 	<string key="ui_tooltip_shiftclick">SHIFT + &lt;img src="lyshineui/images/icons/misc/Icon_LeftMouseButton" xPadding="0" scale="2.2" yOffset="5"&gt;&lt;/img&gt;</string>
 	<string key="ui_tooltip_ctrlclick">CTRL + &lt;img src="lyshineui/images/icons/misc/Icon_LeftMouseButton" xPadding="0" scale="2.2" yOffset="5"&gt;&lt;/img&gt;</string>
 	<string key="ui_tooltip_altclick">ALT + &lt;img src="lyshineui/images/icons/misc/Icon_LeftMouseButton" xPadding="0" scale="2.2" yOffset="5"&gt;&lt;/img&gt;</string>
+	<string key="ui_tooltip_hintclick">+ &lt;img src="lyshineui/images/icons/misc/Icon_LeftMouseButton" xPadding="0" scale="2.2" yOffset="5"&gt;&lt;/img&gt;</string>
 	<string key="ui_tooltip_repairclick">+ &lt;img src="lyshineui/images/icons/misc/Icon_LeftMouseButton" xPadding="0" scale="2.2" yOffset="5"&gt;&lt;/img&gt;</string>
 	<string key="ui_tooltip_repairkitclick">+ &lt;img src="lyshineui/images/icons/misc/Icon_LeftMouseButton" xPadding="0" scale="2.2" yOffset="5"&gt;&lt;/img&gt;</string>
 	<string key="ui_tooltip_salvageclick">+ &lt;img src="lyshineui/images/icons/misc/Icon_LeftMouseButton" xPadding="0" scale="2.2" yOffset="5"&gt;&lt;/img&gt;</string>
@@ -1657,7 +1672,7 @@
 	<string key="ui_repair_better_kit_warning">Tienes un kit de reparación de clase inferior con el que podrías reparar este objeto. ¿Quieres repararlo usando ese kit de reparación?</string>
 	<string key="ui_repair_all">Reparar todo</string>
 	<string key="ui_repair_all_armor">Tu armadura está dañada. Repárala con piezas de reparación o kits de reparación.</string>
-	<string key="ui_repair_all_tutorial">Haz clic aquí para reparar todo lo equipado de una sola vez.</string>
+	<string key="ui_repair_all_tutorial">Selecciona aquí para reparar todo lo equipado de una sola vez.</string>
 	<string key="ui_repair_all_disabled">No tienes suficientes monedas y/o kits o piezas de reparación para arreglar todos los objetos.</string>
 	<string key="ui_repair_all_disabled_tutorial">&lt;font color="#f25d5d"&gt;No tienes suficientes monedas y/o kits o piezas de reparación para arreglar todos los objetos.&lt;/font&gt;</string>
 	<string key="ui_repair_all_disabled_salvage">Aprovecha el equipo que no uses para obtener piezas de reparación.</string>
@@ -1688,7 +1703,7 @@
 	<string key="ui_tooltip_repair_requires">Reparado con</string>
 	<string key="ui_tooltip_cannot_use_in_battle">No se puede usar en combate.</string>
 	<string key="ui_tooltip_cannot_use_while_dismounted" rel_version="Feature_Mounts">No se puede usar si no te subes a la montura.</string>
-	<string key="ui_tooltip_clickToLock">Haz clic sobre el objeto para bloquear</string>
+	<string key="ui_tooltip_clickToLock">Selecciona el objeto para bloquear.</string>
 	<string key="ui_siege_damage_needed">Se debe usar un arma de asedio.</string>
 	<string key="ui_tooltip_gatherspeed">Vel. recolec.</string>
 	<string key="ui_tooltip_gatherbonus">Bonific. recolec.</string>
@@ -1744,8 +1759,8 @@
 	<string key="ui_war_declare_fail_NoFaction">No puedes declarar la guerra. Tu compañía no está en ninguna facción.</string>
 	<string key="ui_war_declare_fail_SameFaction">No puedes declarar la guerra. El defensor está en tu misma facción.</string>
 	<string key="ui_war_declare_fail_NoTerritory">No puedes declarar la guerra. El defensor no tiene territorio.</string>
-	<string key="ui_war_declare_fail_beforeSiegeWindow">Solo puedes declarar la guerra a un territorio durante el periodo de asedio del defensor. Esta acción reservará tu tiempo de guerra para el periodo de asedio del día siguiente.\n\nNOTAS: si otras compañías envían declaraciones de guerra a la vez que tú, habrá un sorteo para decidir quién tiene derecho a declarar la guerra. Si tu compañía no resulta elegida, recuperarás el dinero.</string>
-	<string key="ui_war_declare_fail_afterSiegeWindow">Solo puedes declarar la guerra a un territorio durante el periodo de asedio del defensor. Esta acción reservará tu tiempo de guerra para el periodo de asedio del día siguiente.\n\nNOTAS: si otras compañías envían declaraciones de guerra a la vez que tú, habrá un sorteo para decidir quién tiene derecho a declarar la guerra. Si tu compañía no resulta elegida, recuperarás el dinero.</string>
+	<string key="ui_war_declare_fail_beforeSiegeWindow">Solo puedes declarar la guerra a un territorio durante el periodo de asedio del defensor. Esta acción reservará tu tiempo de guerra para el periodo de asedio del día siguiente.\n\nNOTAS: Si otras compañías envían declaraciones de guerra a la vez que tú, habrá un sorteo para decidir quién tiene derecho a declarar la guerra. Si tu compañía no resulta elegida, recuperarás el dinero.</string>
+	<string key="ui_war_declare_fail_afterSiegeWindow">Solo puedes declarar la guerra a un territorio durante el periodo de asedio del defensor. Esta acción reservará tu tiempo de guerra para el periodo de asedio del día siguiente.\n\nNOTAS: Si otras compañías envían declaraciones de guerra a la vez que tú, habrá un sorteo para decidir quién tiene derecho a declarar la guerra. Si tu compañía no resulta elegida, recuperarás el dinero.</string>
 	<string key="ui_war_declare_fail_noPermissions">No puedes declarar la guerra. El rango que tienes en la compañía no te lo permite.</string>
 	<string key="ui_war_declare_fail_noConflictState">No puedes declarar la guerra. Tu facción no tiene suficiente influencia como para causar un conflicto.</string>
 	<string key="ui_war_declare_fail_warDisabled">Se ha desactivado la guerra debido a una unión de mundos pendiente.</string>
@@ -1820,6 +1835,7 @@
 	<string key="ui_skin_available_single">1 diseño disponible</string>
 	<string key="ui_skin_available_count">{count} diseños disponibles</string>
 	<string key="ui_skin_change_skin">Cambiar diseño</string>
+	<string key="ui_skin_change_skins">Cambiar diseños</string>
 	<string key="ui_added_to_inventory">Añadido al &lt;font color="#c0c0c0"&gt;inventario&lt;/font&gt;</string>
 	<string key="ui_currency_added">Moneda añadida</string>
 	<string key="ui_xp_added">EXP añadida</string>
@@ -1831,8 +1847,8 @@
 	<string key="ui_qb_material_bonus">Bonificación de material</string>
 	<string key="ui_qb_no_equipment_bonus">Sin bonificación de equipo</string>
 	<string key="ui_unknown">Desconocido</string>
-	<string key="ui_enable_hudShowAbilityRadials">Mostrar tiempos de recarga adicionales</string>
-	<string key="ui_enable_hudShowAbilityRadials_description">Añade un elemento a la interfaz cerca del centro de la pantalla que muestra los tiempos de recarga de las habilidades en formato radial</string>
+	<string key="ui_enable_hudShowAbilityRadials">Tiempos de recarga de habilidades radiales</string>
+	<string key="ui_enable_hudShowAbilityRadials_description">Muestra los tiempos de recarga de las habilidades en formato radial.</string>
 	<string key="ui_qb_no_skill_bonus">Sin bonificación de habilidad</string>
 	<string key="ui_qb_no_material_bonus">Sin bonificación de material</string>
 	<string key="ui_resource_quantity">{resourceName} {qtyHave} / {qtyNeeded}</string>
@@ -1890,6 +1906,7 @@
 	<string key="ui_mapmenu_territorystandings_spendprompt">BONIFICACIONES DE ESTATUS DISPONIBLES</string>
 	<string key="ui_mapmenu_territorystandings_unspent_tokens">&lt;font color="#FFFFFF"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{count}&lt;/font&gt;&lt;/font&gt; puntos de estatus de territorio por gastar</string>
 	<string key="ui_territory_tokens">Puntos de estatus en {territory}</string>
+	<string key="ui_territory_standing">Estatus en el territorio</string>
 	<string key="ui_territory_standing_short" comment="one word version to show next to rewards in the banner">Estatus</string>
 	<string key="ui_territory_standing_with_icon">Estatus en: {territoryName}</string>
 	<string key="ui_redeem_a_reward">COGE TU RECOMPENSA</string>
@@ -1936,11 +1953,11 @@
 	<string key="ui_exit_dungeon_incombat_raidtrial">No puedes abandonar una prueba de élite cuando acabas de estar en combate. \nPodrás abandonar dentro de &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
 	<string key="ui_exit_dungeon_incombat_seasontrial" rel_version="Season_2_Trial">No puedes abandonar una prueba de temporada si has estado en combate recientemente. \nPodrás abandonar dentro de &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt;</string>
 	<string key="ui_enable_newDamageNumbers">Números de daño flotantes</string>
-	<string key="ui_enable_newDamageNumbers_description">Cuando se desactiva, los números de daño se anclan a la barra de salud del enemigo.</string>
+	<string key="ui_enable_newDamageNumbers_description">Los números de daño no se anclan a la barra de salud del enemigo.</string>
 	<string key="ui_accept_duel_invites">Aceptar invitaciones de duelo</string>
 	<string key="ui_accept_duel_invites_description">Permite a otros jugadores enviarte invitaciones para batiros en duelo.</string>
 	<string key="ui_auto_traverse">Cruzar automáticamente</string>
-	<string key="ui_auto_traverse_description">Trepar y cruzar obstáculos automáticamente al ir en movimiento</string>
+	<string key="ui_auto_traverse_description">Trepa y cruza obstáculos automáticamente mientras te mueves.</string>
 	<string key="ui_chat_compact_view">Vista compacta</string>
 	<string key="ui_chat_enable_alerts">Alertas</string>
 	<string key="ui_chat_enable_alerts_options">Comprobar alertas</string>
@@ -2016,7 +2033,7 @@
 	<string key="ui_switch_on" comment="It was suggested to translate this as YES, if needed, as this is in a small switch area.">SÍ</string>
 	<string key="ui_switch_off" comment="It was suggested to translate this as NO, if needed, as this is in a small switch area.">NO</string>
 	<string key="ui_searchCompany">BUSCAR COMPAÑÍA</string>
-	<string key="ui_unbind_key">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="5"&gt;&lt;/img&gt; para desvincular la tecla</string>
+	<string key="ui_unbind_key">&lt;img src="lyshineui/images/icons/misc/Icon_RightMouseButton" xPadding="0" scale="2.2" yOffset="5"&gt;&lt;/img&gt; para desvincular la llave</string>
 	<string key="ui_unbind_key_disabled">Esta llave no se puede desvincular por el momento</string>
 	<string key="ui_uncharted_landmark">Punto de referencia no explorado</string>
 	<string key="ui_uncharted_landmark_subtext">Viaja allí para obtener más información.</string>
@@ -2125,7 +2142,7 @@
 	<string key="ui_current_gear_score">Puntuación de equipo actual</string>
 	<string key="ui_next_milestone">Siguiente desbloqueo</string>
 	<string key="ui_unlocked">DESBLOQUEADO</string>
-	<string key="ui_attribute_scale">aumenta con</string>
+	<string key="ui_attribute_scale">&lt;font face="lyshineui/fonts/Nimbus_Semibold.font" color={color}&gt;{name}&lt;/font&gt;\n{stat} aumenta con {attribute}</string>
 	<string key="ui_weapon_damage">Daño</string>
 	<string key="ui_shield_disabled">Las estadísticas y ventajas del escudo solo se aplican si tienes una espada o un mangual equipados y desenvainados.\n\nSi no estás usando una espada o un mangual, plantéate desequipar el escudo para reducir tu carga de equipo.</string>
 	<string key="ui_unspent">no gastado</string>
@@ -2356,7 +2373,7 @@
 	<string key="ui_common_uses">Usos comunes:</string>
 	<string key="ui_governing_propertytax">La compañía gobernante puede recaudar el mantenimiento por las viviendas del asentamiento.</string>
 	<string key="ui_nameplate_slider">Cantidad de placas de identificación de jugadores</string>
-	<string key="ui_nameplate_slider_desc">Aumenta o reduce la cantidad de placas de identificación que se muestran en pantalla. AVISO: Hacer que se muestren muchas placas de identificación puede afectar severamente a los FPS</string>
+	<string key="ui_nameplate_slider_desc">Ajusta la cantidad de placas de identificación que se muestran en pantalla. Los valores inferiores utilizan menos recursos del sistema.</string>
 	<string key="ui_stat_bonus_single_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; de {attribute1}</string>
 	<string key="ui_stat_bonus_multiple_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; de {attribute1}\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount2}&lt;/font&gt; de {attribute2}</string>
 	<string key="ui_stat_bonus">+{amount} {attribute}</string>
@@ -2380,7 +2397,7 @@
 	<string key="ui_fishing_attach_bait">Equipar cebo</string>
 	<string key="ui_fishing_no_bait">Sin cebo</string>
 	<string key="ui_fishing_change_bait">Cambiar cebo</string>
-	<string key="ui_fishing_cast">Cast</string>
+	<string key="ui_fishing_cast">Lanzar</string>
 	<string key="ui_fishing_exit_fishing">Dejar de pescar</string>
 	<string key="ui_fishing_reset_cast">Volver a lanzar</string>
 	<string key="ui_fishing_hook">¡Han picado!</string>
@@ -2420,7 +2437,7 @@
 	<string key="ui_faction_cant_sanctuary">Solo puedes cambiar de facción en un santuario</string>
 	<string key="ui_faction_cant_company">No puedes cambiar de facción si estás en una compañía</string>
 	<string key="ui_faction_cant_war">No puedes cambiar de facción si te has registrado para una guerra o estás en una guerra o invasión.</string>
-	<string key="ui_faction_cant_cross_world">You can't change factions while Cross World</string>
+	<string key="ui_faction_cant_cross_world">No puedes cambiar de facción mientras estés en mundo múltiple</string>
 	<string key="ui_faction_cant_territory">No puedes unirte a la facción que controle actualmente el mayor número de territorios.</string>
 	<string key="ui_faction_cant_cooldown">No puedes cambiar de facción hasta que pase el tiempo de recarga.\n{cooldown}</string>
 	<string key="ui_change_faction_warning">Una vez que cambies de facción, no podrás volver a cambiar en 60 días. Cambiar de facción restablece el rango y los blasones de facción.</string>
@@ -2454,13 +2471,16 @@
 	<string key="ui_gather_no_faction">El territorio debe estar controlado por una facción.</string>
 	<string key="command_lock_salvage">Bloquear</string>
 	<string key="command_unlock_salvage">Desbloquear</string>
-	<string key="tooltip_lock_salvage">Lock items to prevent them from being salvaged, dropped, or sold. Locks are removed when items are traded.</string>
+	<string key="tooltip_lock_salvage">Bloquea objetos para que no se puedan aprovechar ni soltar ni vender. Los objetos se desbloquean al intercambiarlos.</string>
 	<string key="tooltip_unlock_salvage">Desbloquea objetos para que se puedan aprovechar o soltar.</string>
 	<string key="tooltip_salvage_locked">Los objetos bloqueados no se pueden aprovechar.</string>
 	<string key="tooltip_salvage_remote">No puedes aprovechar objetos en ubicaciones remotas.</string>
 	<string key="tooltip_salvage_cannot">No se puede aprovechar este objeto.</string>
+	<string key="tooltip_salvage_desc">Aprovechar este objeto te devuelve:</string>
+	<string key="tooltip_repair_desc">Repara totalmente el objeto equipado.</string>
 	<string key="tooltip_discard_locked">Los objetos bloqueados no se pueden soltar.</string>
 	<string key="tooltip_move_storage">Mueve este objeto al cobertizo de almacenamiento.</string>
+	<string key="tooltip_moving_multiple_locked">No se pueden transferir en masa objetos bloqueados.</string>
 	<string key="twitch_link_title">Conectar la cuenta de Twitch a Amazon Games.</string>
 	<string key="twitch_link_desc">Conecta tu cuenta de Twitch para disfrutar de características exclusivas.</string>
 	<string key="twitch_sub_army">Ejército de suscriptores</string>
@@ -2610,9 +2630,9 @@
 	<string key="ui_cannot_use_shield_abilities">No tienes ningún escudo equipado</string>
 	<string key="ui_tooltip_effect_duration">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#FFFFFF"&gt;{value}&lt;/font&gt; Duración de los efectos</string>
 	<string key="ui_cap_unfocused_fps">Limitar FPS en segundo plano</string>
-	<string key="ui_cap_unfocused_fps_desc">Al activar, limita los FPS cuando la aplicación está minimizada o de fondo.</string>
+	<string key="ui_cap_unfocused_fps_desc">Limita los FPS cuando la ventana esté minimizada o en segundo plano.</string>
 	<string key="ui_Enable_Viewport_Scale">Escala de resolución dinámica</string>
-	<string key="ui_Enable_Viewport_Scale_desc">Al activar, la resolución interna del juego se ajusta automáticamente para mantener la estabilidad de los FPS.</string>
+	<string key="ui_Enable_Viewport_Scale_desc">Ajusta automáticamente la resolución del juego para mantener la frecuencia de fotogramas.</string>
 	<string key="ui_gathering_disabled">La recolección está desactivada</string>
 	<string key="ui_linktochat_disabled">El enlace al chat está desactivado por el momento.</string>
 	<string key="ui_autopinObjectivesMain">Autofijar misiones de la historia principal</string>
@@ -2649,7 +2669,7 @@
 	<string key="ui_interact_required_level">Tienes que llegar al nivel {level} para usar</string>
 	<string key="ui_cannot_chat_trading_blocked">Para acceder al canal se necesitan {playtimeNeeded} horas de juego, una antigüedad de la cuenta de {hoursNeeded} horas y un puesto comercial desbloqueado.</string>
 	<string key="ui_averageexpertise">Pericia</string>
-	<string key="ui_averageexpertisetooltip">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;PERICIA&lt;/font&gt;\nLa pericia se utiliza para medir la potencia máxima de un objeto cuando lo tienes equipado.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Máxima pericia que es posible alcanzar&lt;/font&gt;\n&lt;font color={highlightColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n\n&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO AUMENTAR LA PERICIA&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Puntos de interés y expediciones de élite&lt;/font&gt;\nLos botines de criaturas o cofres en áreas de nivel 60 o superior tienen la posibilidad de aumentar este valor.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Artesanía&lt;/font&gt;\nFabricar un objeto de 600 GS aumentará la pericia de este tipo de objeto.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Molde de aljez&lt;/font&gt;\nAbrir un molde de aljez incrementa la pericia.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Mejora de objetos (con fragmentos umbríos)&lt;/font&gt;\nDespués de llegar a 600 de pericia, la única manera de aumentar la pericia es mediante la mejora de los objetos con fragmentos umbríos.</string>
+	<string key="ui_averageexpertisetooltip">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;PERICIA&lt;/font&gt;\nLa pericia se utiliza para medir la potencia máxima de un objeto cuando lo tienes equipado.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Máxima pericia que es posible alcanzar&lt;/font&gt;\n&lt;font color={highlightColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n\n&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO AUMENTAR LA PERICIA&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Puntos de interés y expediciones de élite&lt;/font&gt;\nLos botines de criaturas o cofres en áreas de nivel 60 o superior tienen la posibilidad de aumentar este valor.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Artesanía&lt;/font&gt;\nFabricar un objeto de 600 PE aumentará la pericia de este tipo de objeto.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Molde de aljez&lt;/font&gt;\nAbrir un molde de aljez incrementa la pericia.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Mejora de objetos (con fragmentos umbríos)&lt;/font&gt;\nDespués de llegar a 600 de pericia, la única manera de aumentar la pericia es mediante la mejora de los objetos con fragmentos umbríos.</string>
 	<string key="ui_itemtypedescription_shield_only">Escudo</string>
 	<string key="ui_expertise_value_with_icon">&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_color" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}</string>
 	<string key="ui_expertise_warning_with_icon">&lt;font color="#ff9393"&gt;&lt;img src="lyshineui/images/icons/misc/icon_hwm_small_red" scale="1.5" yOffset="2"&gt;&lt;/img&gt;{value}&lt;/font&gt;</string>
@@ -2698,9 +2718,9 @@
 	<string key="ui_freeweekend_guide_title3" rel_version="Feature_FreeWeekend">Tiempo de sesión y colas</string>
 	<string key="ui_freeweekend_guide_title4" rel_version="Feature_FreeWeekend">Comprar New World</string>
 	<string key="ui_freeweekend_guide_body1" rel_version="Feature_FreeWeekend">Durante el evento del fin de semana gratis, cualquier jugador puede descargar New World y crear un personaje para jugar. A algunos mundos solo pueden acceder los jugadores que hayan comprado New World. Los jugadores gratuitos no pueden transferir personajes entre mundos ni acceder a la tienda ni al puesto comercial. Los personajes de jugadores gratuitos también tienen un límite máximo de 2000 &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;.</string>
-	<string key="ui_freeweekend_guide_body2" rel_version="Feature_FreeWeekend">Usa el menú de interacciones sociales (la tecla predeterminada es [O]) para buscar amigos en el mismo mundo o responder a invitaciones de otros jugadores. Participa en actividades multijugador como la arena o el Asalto a puesto remoto en la pestaña Modos del menú de escape [ESC]. Busca un grupo y embárcate en una expedición abriendo el menú del buscador de grupo en el mapa. Para ello, pasa el ratón por cualquier icono de expedición.</string>
+	<string key="ui_freeweekend_guide_body2" rel_version="Feature_FreeWeekend">Usa el menú de interacciones sociales para buscar amigos en el mismo mundo o responder a invitaciones de otros jugadores. Participa en actividades multijugador como la arena o el Asalto a puesto remoto. Busca un grupo y embárcate en una expedición abriendo el menú del buscador de grupo en el mapa. Para ello, pasa el ratón por cualquier icono de expedición.</string>
 	<string key="ui_freeweekend_guide_body3" rel_version="Feature_FreeWeekend">Para los jugadores gratuitos, New World comprueba cada cierto tiempo si hay cola en el mundo del personaje. Los jugadores pueden jugar todo el tiempo que quieran si su mundo no tiene cola cuando se realiza esta comprobación del tiempo de la sesión. Si en ese momento hay cola, el jugador gratuito volverá al menú principal y podrá ponerse a la cola para volver a entrar al mundo. Si en ese momento no hay cola, el tiempo de la sesión del jugador gratuito se extenderá hasta la próxima comprobación. Las comprobaciones temporales del tiempo de la sesión no se aplican a los jugadores que hayan comprado New World, que tendrán prioridad en la cola sobre los jugadores gratuitos.</string>
-	<string key="ui_freeweekend_guide_body4" rel_version="Feature_FreeWeekend">New World se puede comprar en la tienda de Steam, a la que se puede acceder desde el menú principal o desde el botón Menú del menú de escape [ESC]. Los jugadores gratuitos conservarán todos los personajes, objetos y avances al comprar New World. Sin embargo, para desbloquear funciones como el comercio entre jugadores y el acceso a la tienda o al puesto comercial solo cuenta el tiempo total de juego de todos los personajes de una cuenta una vez comprado el juego.</string>
+	<string key="ui_freeweekend_guide_body4" rel_version="Feature_FreeWeekend">New World se puede comprar en la tienda de Steam. Los jugadores gratuitos conservarán todos los personajes, objetos y avances al comprar New World. Sin embargo, para desbloquear funciones como el comercio entre jugadores y el acceso a la tienda o al puesto comercial solo cuenta el tiempo total de juego de todos los personajes de una cuenta una vez comprado el juego.</string>
 	<string key="ui_factions">Facciones</string>
 	<string key="ui_factions_guide_1_header">Unirse a una facción</string>
 	<string key="ui_factions_guide_1_body">Antes de unirte a una facción, debes demostrar tu valía completando una serie de misiones de iniciación de facción. Alcanza el nivel 17 y busca a quienes dan la misión inicial de cada facción cerca o en la aldea de Villabuey, en Ocaso.</string>
@@ -2712,7 +2732,7 @@
 	<string key="ui_factions_guide_4_body">Las compañías tienen el potencial para convertir a su líder en gobernador de un territorio ganando una guerra contra sus dueños actuales. Más información sobre cómo iniciar y luchar en guerras en Declarar la guerra en el Jugador contra jugador (JcJ) y en la Guía de guerras.</string>
 	<string key="ui_pvp_guide">Jugador contra jugador (JcJ) y guerras</string>
 	<string key="ui_pvp_guide_1_header">JcJ en mundo abierto</string>
-	<string key="ui_pvp_guide_1_body">Cuando formes parte de una facción, podrás activar tu marca JcJ. Activar tu marca JcJ te permitirá participar en combates de mundo abierto jugador contra jugador. Con tu marca activada, podrás atacar y recibir ataques de otros jugadores marcados de otras facciones.\n\nPara activar o desactivar tu marca JcJ, pulsa el botón Activar JcJ (predeterminado: U) estando en un asentamiento o santuario.</string>
+	<string key="ui_pvp_guide_1_body">Cuando formes parte de una facción, podrás activar tu marca JcJ desde un asentamiento o santuario. Activar tu marca JcJ te permitirá participar en combates de mundo abierto jugador contra jugador. Con tu marca activada, podrás atacar y recibir ataques de otros jugadores marcados de otras facciones.</string>
 	<string key="ui_pvp_guide_2_header">Control de fuerte</string>
 	<string key="ui_pvp_guide_2_body">Los jugadores activados pueden combatir en cada fuerte para controlarlo.\n\nPara participar, activa el JcJ, ve al fuerte por el que desees competir y entra por cualquiera de sus puertas. Una vez dentro, reclama y defiende el terreno contra jugadores de otras facciones.\n\nLa facción que controle el fuerte ganará bonificaciones en el territorio, como un aumento de influencia o de EXP para los miembros de dicha facción. Poseer un fuerte no afecta al control total del territorio, pero puede ser clave al declarar una guerra por su dominio.</string>
 	<string key="ui_pvp_guide_3_header">Declarar una guerra</string>
@@ -2737,10 +2757,10 @@
 	<string key="ui_event_item_disappears">&lt;font face="lyshineui/fonts/Nimbus_Medium.font" color="#cca000"&gt;Este objeto desaparecerá al final del evento.&lt;/font&gt;</string>
 	<string key="ui_event_time_left">&lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;El evento termina en: &lt;font color="#cca000"&gt;{timeLeft} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass_yellow.png" xPadding="0" scale="1.1" yOffset="1"&gt;&lt;/img&gt;&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_event_time_left_compass">El evento termina en &lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{timeLeft}&lt;/font&gt;</string>
-	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">Convergencia Invernal 2021</string>
-	<string key="attribution_WinterConvergence_2022" rel_version="Event_WinterConvergence_Perm">Convergencia Invernal 2022</string>
-	<string key="attribution_SummerMedleyfaire_2022" rel_version="Event_Summer_Perm">Feria Musical de verano 2022</string>
-	<string key="attribution_SummerMedleyfaire_2023" rel_version="Event_Summer_Perm">Feria Musical de verano 2023</string>
+	<string key="attribution_WinterConvergence_2021" rel_version="Event_WinterConvergence_Perm">Convergencia Invernal</string>
+	<string key="attribution_WinterConvergence_2022" rel_version="Event_WinterConvergence_Perm">Convergencia Invernal</string>
+	<string key="attribution_SummerMedleyfaire_2022" rel_version="Event_Summer_Perm">Feria Musical de verano</string>
+	<string key="attribution_SummerMedleyfaire_2023" rel_version="Event_Summer_Perm">Feria Musical de verano</string>
 	<string key="attribution_NightveilHallow_2022" rel_version="Event_Halloween_Perm">Terreno sagrado nocturno</string>
 	<string key="attribution_NightveilHallow_2023" rel_version="Event_Halloween2023_Perm">Terreno sagrado nocturno</string>
 	<string key="attribution_Housing_SettlerSet_2021" rel_version="Housing_Settler_Set" comment="Housing Furniture Set">Muebles de colono de Aetérnum</string>
@@ -2752,6 +2772,7 @@
 	<string key="attribution_Season_1" rel_version="Season_1_Perm">Temporada 1</string>
 	<string key="attribution_Season_2" rel_version="Season_2_Perm">Temporada 2</string>
 	<string key="attribution_Season_3" rel_version="Season_3_Perm">Temporada 3</string>
+	<string key="attribution_Season_4" rel_version="Season_4_Perm">Temporada 4</string>
 	<string key="ui_reset_daily_time">Se reinicia diariamente en {time}</string>
 	<string key="ui_reset_weekly_time">Se reinicia semanalmente cada {time}</string>
 	<string key="ui_buy_new_world">Comprar New World</string>
@@ -2770,7 +2791,7 @@
 	<string key="ui_transmog_filter_name" rel_version="Feature_Transmog">Nombre</string>
 	<string key="ui_transmog_filter_transmog_factor" rel_version="Feature_Transmog">Factor de transformación</string>
 	<string key="ui_transmog_filter_source_in_game" rel_version="Feature_Transmog">Origen: juego</string>
-	<string key="ui_transmog_filter_source_craftable" rel_version="Feature_Transmog">Origen: objeto fabricable</string>
+	<string key="ui_transmog_filter_source_craftable" rel_version="Feature_Transmog">Origen: fabricación</string>
 	<string key="ui_transmog_filter_source_store" rel_version="Feature_Transmog">Origen: tienda</string>
 	<string key="ui_transmog_filter_source_twitch_drop" rel_version="Feature_Transmog">Origen: Drop de Twitch</string>
 	<string key="ui_transmog_filter_source_prime_gaming" rel_version="Feature_Transmog">Origen: Prime Gaming</string>
@@ -2821,8 +2842,8 @@
 	<string key="ui_horse_slot_unlock_description" rel_version="Feature_Mounts">Desbloquea la capacidad de equipar e invocar una montura.</string>
 	<string key="ui_ridingxp_description" rel_version="Feature_Mounts">Experiencia para la habilidad de monta.\n\nSe desbloquearán recompensas y aumentará la velocidad de las monturas en los niveles más altos.</string>
 	<string key="ui_emote_slot">Ranura de gesto {slot}</string>
-	<string key="ui_emote_bind_to_slot">Vincular a la ranura </string>
-	<string key="ui_emote_unbind">Desvincular</string>
+	<string key="ui_emote_bind_to_slot">Vincular a {slot}</string>
+	<string key="ui_emote_unbind">Desvincular de {slot}</string>
 	<string key="ui_emote_mounted_error">No se pueden usar gestos mientras estés sobre la montura.</string>
 	<string key="generic_list_2">{item1} y {item2}</string>
 	<string key="generic_list_3">{item1}, {item2} y {item3}</string>
@@ -2842,12 +2863,14 @@
 	<string key="ui_filter_general_sale">Oferta</string>
 	<string key="ui_expansion_required_to_enter_territory">Necesitas {expansionName} para entrar en este territorio</string>
 	<string key="ui_objective_required_to_enter_territory">Debes completar «&lt;font color={objectiveColor}&gt;{objectiveName}&lt;/font&gt;» para entrar en este territorio</string>
-	<string key="ui_sort_by_featured">Sort by Featured</string>
+	<string key="ui_sort_by_featured">Ordenar por destacado</string>
 	<string key="ui_sort_by_name">Ordenar por nombre</string>
-	<string key="ui_sort_by_release_date">Sort by Release Date</string>
-	<string key="ui_sort_by_end_date">Sort by End Date</string>
-	<string key="ui_sort_by_price_low">Sort by Price: Low to High</string>
-	<string key="ui_sort_by_price_high">Sort by Price: High to Low</string>
+	<string key="ui_sort_by_release_date">Ordenar por fecha de lanzamiento</string>
+	<string key="ui_sort_by_end_date">Ordenar por fecha de fin</string>
+	<string key="ui_sort_by_price_low">Ordenar por precio: De menor a mayor</string>
+	<string key="ui_sort_by_price_high">Ordenar por precio: De mayor a menor</string>
 	<string key="ui_requirements">Requisitos</string>
+	<string key="ui_external_rewards">Recompensas externas</string>
+	<string key="ui_cannot_respec_attributes_during_combat">No se pueden reasignar atributos durante el combate.</string>
 </resources>
 

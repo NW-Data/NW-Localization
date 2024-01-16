@@ -178,7 +178,7 @@
 	<string key="mm_rejected_No_Ghost_Client">Erreur de serveur : Échec du démarrage de la copie.</string>
 	<string key="mm_rejected_Server_Crash">Perte inopinée de connexion avec le serveur de jeu. Reconnexion...</string>
 	<string key="mm_rejected_Free_Session_Expired_Title">Expiration de la période de jeu gratuit.</string>
-	<string key="mm_rejected_Free_Session_Expired">Votre période de jeu gratuit a pris fin. Cliquez sur OK pour retourner au menu principal.</string>
+	<string key="mm_rejected_Free_Session_Expired">Votre période de jeu gratuit a pris fin. Nous allons vous rediriger vers le menu principal.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">Le ticket de connexion est incorrect pour le monde sélectionné.</string>
 	<string key="mm_rejected_Player_Not_Entitled_To_World">Accès refusé : Accès à ce monde interdit.</string>
 	<string key="mm_rejected_Matchmaking_Login">Reconnectez-vous pour rejoindre le match.</string>
@@ -187,7 +187,7 @@
 	<string key="mm_rejected_Client_Kicked_AFK">Vous avez été éjecté de la partie parce que vous étiez absent depuis trop longtemps.</string>
 	<string key="mm_rejected_Client_Kicked_DuplicateSession">Votre compte est déjà connecté à une autre session de jeu.</string>
 	<string key="mm_rejected_Client_Kicked_CharacterDeactivated">Votre personnage a été retiré.</string>
-	<string key="mm_rejected_Client_Kicked_Maintenance">Ce monde est en cours de maintenance. Il restera indisponible jusqu'à la fin de la maintenance. Cliquez sur « OK » pour retourner au menu principal.</string>
+	<string key="mm_rejected_Client_Kicked_Maintenance">Ce monde est en cours de maintenance et indisponible. Nous allons vous rediriger vers le menu principal.</string>
 	<string key="mm_rejected_Client_Kicked_Abuse">Éjecté pour comportement indigne.</string>
 	<string key="mm_rejected_Client_Kicked_Banned">Vous avez été banni(e).</string>
 	<string key="mm_rejected_Client_Kicked_BannedHacking">Piratage</string>
@@ -240,7 +240,7 @@
 	<string key="mm_queuewithestimate">Temps estimé : {time}\nPosition dans la file : {rank}\n{status}</string>
 	<string key="mm_queuewithcappedestimate">Temps estimé : &gt; {time}\nPosition dans la file : {rank}\n{status}</string>
 	<string key="mm_queueestimateunknown">Temps estimé : Inconnu\nPosition dans la file : {status}\ninconnu</string>
-	<string key="mm_queuepopuptitle">En attente de la connexion</string>
+	<string key="mm_queuepopuptitle">En attente de la connexion...</string>
 	<string key="mm_queuejoinfailed">Connexion impossible : trop de joueurs dans la file d'attente. Veuillez réessayer plus tard.</string>
 	<string key="mm_queuerefresherror">Erreur de communication avec la file de connexion. Nouvelle tentative...</string>
 	<string key="mm_server_message_title">Message du serveur</string>
@@ -305,6 +305,7 @@
 	<string key="loadingScreen_ingame_ancient08">CHARGEMENT</string>
 	<string key="ui_cantDropMissionItem">Impossible de jeter des objets de mission.</string>
 	<string key="ui_cantDropLockedItem">Impossible de jeter des objets verrouillés.</string>
+	<string key="ui_cantDropGameModeItem">Les objets de mode de jeu ne sont lâchés qu'en mourant.</string>
 	<string key="ui_navmenu_progression">PERSONNAGE</string>
 	<string key="ui_bio">Biographie</string>
 	<string key="ui_attributes">Caractéristiques</string>
@@ -346,6 +347,12 @@
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Bonus de jalon : &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt;Bonus de chaîne terminée : &lt;/font&gt;&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ffffff"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">Chaîne JcJ terminée</string>
+	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvPRewardsTrack_Update">Réserve de récompenses : \n+Équipement nommé</string>
+	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvPRewardsTrack_Update">Réserve de récompenses : \n+Équipement de prestige</string>
+	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvPRewardsTrack_Update">Réserve de récompenses : \n+Formidable armure\n+Armes du prédateur</string>
+	<string key="ui_pvp_track_bannerrewards_4" rel_version="PvPRewardsTrack_Update">Réserve de récompenses : \n+Matière noire supplémentaire\n+Pièces supplémentaires\n+Jetons supplémentaires\n+Potions supplémentaires</string>
+	<string key="ui_pvp_track_bannerrewards_5" rel_version="PvPRewardsTrack_Update">Réserve de récompenses : \n+Matière noire supplémentaire</string>
+	<string key="ui_pvp_track_bannerrewards_6" rel_version="PvPRewardsTrack_Update">Réserve de récompenses : \n+Plus de tout</string>
 	<string key="ui_pvp_track_next_milestone" rel_version="PvP_Rewards_Track">Jalon de chaîne {milestone} à :</string>
 	<string key="ui_pvp_track_milestone" rel_version="PvP_Rewards_Track">Jalon de chaîne {milestone}</string>
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Récompense</string>
@@ -401,10 +408,10 @@
 	<string key="ui_leaderboard_rewards_this_season_count_plain" rel_version="Feature_Leaderboards">Saison {number} (cette saison)</string>
 	<string key="ui_leaderboard_rewards_this_quarter_count_plain" rel_version="Feature_Leaderboards">Trimestre {number} (ce trimestre)</string>
 	<string key="ui_leaderboard_rewards_pending_rewards" rel_version="Feature_Leaderboards">{rotation} {number} a pris fin. Les récompenses seront distribuées dans :</string>
-	<string key="ui_leaderboard_rewards_week_count_plain" rel_version="Feature_Leaderboards">Semaine {number}</string>
-	<string key="ui_leaderboard_rewards_month_count_plain" rel_version="Feature_Leaderboards">Mois {number}</string>
+	<string key="ui_leaderboard_rewards_week_count_plain" rel_version="Feature_Leaderboards">Semaine {number}</string>
+	<string key="ui_leaderboard_rewards_month_count_plain" rel_version="Feature_Leaderboards">Mois {number}</string>
 	<string key="ui_leaderboard_rewards_season_count_plain" rel_version="Feature_Leaderboards">Saison {number}</string>
-	<string key="ui_leaderboard_rewards_quarter_count_plain" rel_version="Feature_Leaderboards">Trimestre {number}</string>
+	<string key="ui_leaderboard_rewards_quarter_count_plain" rel_version="Feature_Leaderboards">Trimestre {number}</string>
 	<string key="ui_leaderboard_rewards_season" rel_version="Feature_Leaderboards">Cette saison</string>
 	<string key="ui_leaderboard_rewards_owned" rel_version="Feature_Leaderboards">Possédées</string>
 	<string key="ui_leaderboard_rewards_earned" rel_version="Feature_Leaderboards">Obtenues</string>
@@ -451,7 +458,7 @@
 	<string key="ui_smelter_desc">Permet de transformer le métal.</string>
 	<string key="ui_building">Bientôt</string>
 	<string key="ui_logging">Abattage</string>
-	<string key="ui_mining">Minage</string>
+	<string key="ui_mining">Extraire</string>
 	<string key="ui_harvesting">Récolte</string>
 	<string key="ui_azoth_staff_tradeskill">Bâton d'Azoth</string>
 	<string key="ui_skinning">Pistage et dépeçage</string>
@@ -459,7 +466,6 @@
 	<string key="ui_fishing_equip_action">Mode de pêche</string>
 	<string key="ui_fishing_action">Lancer / Hameçonner / Mouliner</string>
 	<string key="ui_fishing_reset_action">Lancer à nouveau / Arrêter</string>
-	<string key="ui_riding" rel_version="Feature_Mounts">Chevaucher</string>
 	<string key="ui_performances" rel_version="Feature_MusicalPerformances">Musique</string>
 	<string key="ui_performances_toggle" rel_version="Feature_MusicalPerformances">Mode de spectacle</string>
 	<string key="ui_performances_start" rel_version="Feature_MusicalPerformances">Jouer</string>
@@ -524,7 +530,7 @@
 	<string key="ui_portrait_title">Mon portrait</string>
 	<string key="mm_connection_error_title">Erreur de connexion</string>
 	<string key="mm_retry">Réessayer</string>
-	<string key="crafting_repair_requires">Les réparations exigent : {quantityRequired} {itemRequired}. Elles réduiront la durabilité max de {durabilityLoss}.</string>
+	<string key="crafting_repair_requires">Les réparations exigent : {quantityRequired} {itemRequired}. Elles réduiront la résistance max de {durabilityLoss}.</string>
 	<string key="crafting_repair_requires_withrepairparts">Les réparations exigent : {goldQuantityRequired} pièces et {repairPartsRequired} pièces de réparation.</string>
 	<string key="crafting_repair_requires_level">Réparations requièrent niveau</string>
 	<string key="crafting_repair_requires_kit">Les réparations requièrent : {quantityRequired} {itemRequired} de palier {tierNumber}.</string>

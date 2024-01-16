@@ -47,7 +47,7 @@
 	<string key="objective_craft" speaker="UI">Produci 1 {itemName}</string>
 	<string key="objective_craft_an" speaker="UI">Produci 1 {itemName}</string>
 	<string key="objective_craft_p" speaker="UI">Produci: {itemName} (quantità: {itemAmount})</string>
-	<string key="objective_crafthealingdrops" speaker="UI">Al tuo accampamento produci: {itemName} (tasto predefinito: [Y])</string>
+	<string key="objective_crafthealingdrops" speaker="UI">Al tuo accampamento produci: {itemName}</string>
 	<string key="objective_crafthealthfood" speaker="UI">Cucina qualcosa presso il falò del Sorvegliante per guarire</string>
 	<string key="objective_crafting" speaker="UI">Produzione</string>
 	<string key="objective_craftsoverseersword" speaker="UI">Produci 1 {itemName} alla fucina</string>
@@ -92,7 +92,7 @@
 	<string key="objective_seasonquest_desc" speaker="UI">Obiettivi della storia stagionale</string>
 	<string key="objective_skillprogression" speaker="UI">Avanzamento competenze</string>
 	<string key="objective_skillprogression_desc" speaker="UI">Obiettivi di avanzamento competenze</string>
-	<string key="objective_mountquest" speaker="UI">Missione per cavalcatura</string>
+	<string key="objective_mountquest" speaker="UI">Missioni per cavalcatura</string>
 	<string key="objective_mountquest_desc" speaker="UI">Obiettivi di cavalcatura</string>
 	<string key="objective_epicequipment" speaker="UI">Equipaggiamento epico</string>
 	<string key="objective_epicequipment_desc" speaker="UI">Missioni per equipaggiamento epico</string>
@@ -193,7 +193,7 @@
 	<string key="objective_world" speaker="UI">Mondo</string>
 	<string key="objective_onboarding_goToOutpost_task01_desc" speaker="UI">Indaga presso la torre di guardia</string>
 	<string key="objective_onboarding_goToOutpost_task02_desc" speaker="UI">Dirigiti verso la torre di guardia</string>
-	<string key="objective_onboarding_goToOutpost_task03_desc" speaker="UI">Apri la mappa (tasto predefinito: [M])</string>
+	<string key="objective_onboarding_goToOutpost_task03_desc" speaker="UI">Apri la mappa</string>
 	<string key="objective_pin" speaker="UI">Fissa</string>
 	<string key="objective_pinned" speaker="UI">Fissato</string>
 	<string key="objective_populatehere" speaker="UI">Le tue carte compariranno qui.</string>
@@ -257,13 +257,13 @@
 	<string key="objective_mission_task_patrol_windsward" speaker="UI">Pattuglia il territorio</string>
 	<string key="patrol_task_container_description" speaker="UI">Mantieni la tua posizione, ma senza lasciarci la pelle.</string>
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Tieni premuto {POITags} per {timeRemaining}</string>
-	<string key="objective_mission_task_control_point" speaker="UI">Conquista il forte di {TerritoryID} per i Predoni</string>
+	<string key="objective_mission_task_control_point" speaker="UI">Cattura un punto di controllo della fazione per i Predoni presso: {TerritoryID}</string>
 	<string key="task_choose_faction" speaker="UI">Scegli una fazione con {destinationName}</string>
 	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Porta a termine la missione</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Accetta la missione</string>
 	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Quest  Description" quest_id="S_getoffbeach">Esplora quella che sembra essere una torre di guardia.</string>
 	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title" quest_id="S_getoffbeach">Unico sopravvissuto</string>
-	<string key="task_getoffbeach_openmap">Apri la mappa (tasto predefinito: [M])</string>
+	<string key="task_getoffbeach_openmap">Apri la mappa</string>
 	<string key="have_berries">Possiedi bacche</string>
 	<string key="objective_mission_kill_generic_at_POI">Sconfiggi {targetName} presso {POITags}</string>
 	<string key="objective_mission_loot_chests_generic_at_POI">Cerca {itemName} nei forzieri presso {POITags}</string>
@@ -311,8 +311,8 @@
 	<string key="objective_mission_kill_with_firestaff">Sconfiggi {targetName} usando il bastone infuocato</string>
 	<string key="objective_mission_kill_with_lifestaff">Sconfiggi {targetName} usando il bastone della vita</string>
 	<string key="objective_mission_kill_with_icegauntlet">Sconfiggi {targetName} usando il guanto di ghiaccio</string>
-	<string key="objective_mission_task_control_point_S">Conquista il forte di {TerritoryID} per l'Unione</string>
-	<string key="objective_mission_task_control_point_C">Conquista il forte di {TerritoryID} per il Patto</string>
+	<string key="objective_mission_task_control_point_S">Cattura un punto di controllo della fazione per l'Unione presso: {TerritoryID}</string>
+	<string key="objective_mission_task_control_point_C">Cattura un punto di controllo della fazione per il Patto presso: {TerritoryID}</string>
 	<string key="objective_mission_faction_corruption_breach" rel_version="Quest_FM_BreachMissions">Chiudi una breccia della corruzione</string>
 	<string key="objective_mission_rescue_npc_generic" rel_version="Quest_MSQ2_Revamp">Salva gli ostaggi</string>
 	<string key="objective_mission_boatencounter_obj_title" rel_version="Quest_MSQ2_Revamp">Distruggi l'imbarcazione</string>
@@ -327,6 +327,8 @@
 	<string key="objective_timetrial_addTime" speaker="UI">+{secondsAdded} secondi</string>
 	<string key="objective_timetrial_tutorial" speaker="UI">[SCATTA con {key}]</string>
 	<string key="objective_timetrial_tourStart" speaker="UI">VAI!</string>
+	<string key="objective_timetrial_timeout_teleport_prompt_title" speaker="UI">&lt;font color={color}&gt;Prova a tempo non completata&lt;/font&gt;</string>
+	<string key="objective_timetrial_timeout_teleport_prompt_description" speaker="UI">Vuoi teletrasportarti all'inizio e ricominciare?</string>
 	<string key="objective_multiple_active_races" speaker="UI">Può essere attiva solo una gara alla volta</string>
 	<string key="objective_artifact_equip_to_view" rel_version="Feature_Artifacts">Equipaggia il manufatto per visualizzare gli obiettivi.</string>
 	<string key="objective_artifact_max_reminder" rel_version="Feature_Artifacts">Troppi obiettivi dei manufatti in corso. Abbandona un obiettivo in corso per iniziarne un altro.</string>
@@ -337,12 +339,16 @@
 	<string key="Objective_Artifact_Set1_HeavyChest" rel_version="Feature_Expansion_1">Manufatto: Piastra oscura del Vuoto</string>
 	<string key="Objective_Artifact_Set1_HeavyHands" rel_version="Feature_Expansion_1">Manufatto: Guanti magnetici</string>
 	<string key="Objective_Artifact_Set1_HeavyLegs" rel_version="Feature_Expansion_1">Manufatto: Libertà</string>
+	<string key="Objective_Artifact_Set1_HeavyFeet" rel_version="Feature_Artifacts_Set2">Manufatto: Gli inamovibili</string>
 	<string key="Objective_Artifact_Set1_MediumHead" rel_version="Feature_Expansion_1">Manufatto: Turbante da Djinn</string>
 	<string key="Objective_Artifact_Set1_MediumChest" rel_version="Feature_Expansion_1">Manufatto: Giacca agile</string>
 	<string key="Objective_Artifact_Set1_MediumHands" rel_version="Feature_Expansion_1">Manufatto: Guanti da demone</string>
 	<string key="Objective_Artifact_Set1_MediumLegs" rel_version="Feature_Expansion_1">Manufatto: Pantaloni di cuoio della sintonia</string>
+	<string key="Objective_Artifact_Set1_MediumFeet" rel_version="Feature_Artifacts_Set2">Manufatto: Scarpe alate</string>
 	<string key="Objective_Artifact_Set1_LightHead" rel_version="Feature_Expansion_1">Manufatto: Cappello da stregone grigio</string>
 	<string key="Objective_Artifact_Set1_LightChest" rel_version="Feature_Expansion_1">Manufatto: Peso piuma</string>
+	<string key="Objective_Artifact_Set1_LightHands" rel_version="Feature_Artifacts_Set2">Manufatto: Guanti del colpo fulmineo</string>
+	<string key="Objective_Artifact_Set1_LightLegs" rel_version="Feature_Artifacts_Set2">Manufatto: Paraginocchia</string>
 	<string key="Objective_Artifact_Set1_LightFeet" rel_version="Feature_Expansion_1">Manufatto: Fasce per i piedi da acrobata</string>
 	<string key="Objective_Artifact_Set1_1hLongsword" rel_version="Feature_Expansion_1">Manufatto: Al macello</string>
 	<string key="Objective_Artifact_Set1_1hThrowingAxe" rel_version="Feature_Expansion_1">Manufatto: Francisca di Freya</string>
@@ -350,11 +356,14 @@
 	<string key="Objective_Artifact_Set1_2hGreatAxe" rel_version="Feature_Expansion_1">Manufatto: L'abisso</string>
 	<string key="Objective_Artifact_Set1_2hBow" rel_version="Feature_Artifacts_Set2">Manufatto: Lanciadardi</string>
 	<string key="Objective_Artifact_Set1_2hMusket" rel_version="Feature_Expansion_1">Manufatto: Il meccanico</string>
+	<string key="Objective_Artifact_Set1_1hRoundShield" rel_version="Feature_Artifacts_Set2">Manufatto: Gladiatore</string>
 	<string key="Objective_Artifact_Set1_1hKiteShield" rel_version="Feature_Expansion_1">Manufatto: Michael</string>
 	<string key="Objective_Artifact_Set1_1hTowerShield" rel_version="Feature_Expansion_1">Manufatto: Il muro</string>
 	<string key="Objective_Artifact_Set1_2hStaffFire" rel_version="Feature_Expansion_1">Manufatto: Inferno</string>
+	<string key="Objective_Artifact_Set1_2hStaffLife" rel_version="Feature_Artifacts_Set2">Manufatto: Vendetta</string>
 	<string key="Objective_Artifact_Set1_2hSpear" rel_version="Feature_Expansion_1">Manufatto: Pungiglione dello scorpione</string>
 	<string key="Objective_Artifact_Set1_1hRapier" rel_version="Feature_Expansion_1">Manufatto: Colpo di grazia</string>
+	<string key="Objective_Artifact_Set1_1hGauntletIce" rel_version="Feature_Artifacts_Set2">Manufatto: Il gelido</string>
 	<string key="Objective_Artifact_Set1_1hGauntletVoid" rel_version="Feature_Expansion_1">Manufatto: Succhiavita</string>
 	<string key="Objective_Artifact_Set1_2hBlunderbuss" rel_version="Feature_Expansion_1">Manufatto: Pestilenza</string>
 	<string key="Objective_Artifact_Set1_2hGreatSword" rel_version="Feature_Expansion_1">Manufatto: Serenità</string>
@@ -362,6 +371,8 @@
 	<string key="Objective_Artifact_Set1_Earring1" rel_version="Feature_Expansion_1">Manufatto: Sete infinita</string>
 	<string key="Objective_Artifact_Set1_Ring1" rel_version="Feature_Expansion_1">Manufatto: Bevisangue</string>
 	<string key="Objective_Artifact_Set1_Amulet1" rel_version="Feature_Expansion_1">Manufatto: Cronometro dei Perduti</string>
+	<string key="Objective_Artifact_Set1_Earring2" rel_version="Feature_Artifacts_Set2">Manufatto: Pace oceanica</string>
+	<string key="Objective_Artifact_Set1_Ring2" rel_version="Feature_Artifacts_Set2">Manufatto: Mente superiore</string>
 	<string key="Objective_Artifact_Set1_Amulet2" rel_version="Feature_Expansion_1">Manufatto: Ankh</string>
 	<string key="Objective_Kill_Dungeon_DepthBoss" rel_version="Feature_Expansion_1">Sconfiggi {targetName} durante la spedizione Le Profondità</string>
 	<string key="Objective_Kill_in_FL" rel_version="Feature_Expansion_1">Sconfiggi {targetName} nemici nelle Foreste degli Elisi</string>
@@ -375,9 +386,19 @@
 	<string key="Objective_Kill_Ennead" rel_version="Feature_Expansion_1">Nell'Enneade sconfiggi: {targetName}</string>
 	<string key="Objective_Kill_Starstone" rel_version="Feature_Expansion_1">Nei Tumuli di pietra stellare sconfiggi: {targetName}</string>
 	<string key="Objective_Kill_Empyean" rel_version="Feature_Expansion_1">Nella fucina empirea sconfiggi i nemici: {targetName}</string>
+	<string key="Objective_Kill_GlacialTarn" rel_version="Feature_Artifacts_Set2">Sconfiggi {targetName} nemici nel Lago congelato</string>
 	<string key="Objective_Kill_OPR" rel_version="Feature_Expansion_1">Nella Carica all'avamposto sconfiggi i nemici: {targetName}</string>
 	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Nell'arena sconfiggi i nemici: {targetName}</string>
 	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Sconfiggi i nemici: {targetName}</string>
 	<string key="Objective_CraftArtifact" rel_version="Feature_Expansion_1">Migliora questo oggetto presso la fornace di gesso</string>
+	<string key="objective_encounter_stage2">Passo 2:</string>
+	<string key="objective_encounter_stage3">Passo 3:</string>
+	<string key="objective_encounter_stage9">Passo 9:</string>
+	<string key="objective_encounter_stage5">Passo 5:</string>
+	<string key="objective_encounter_stage1">Passo 1:</string>
+	<string key="objective_encounter_stage7">Passo 7:</string>
+	<string key="objective_encounter_stage6">Passo 6:</string>
+	<string key="objective_encounter_stage8">Passo 8:</string>
+	<string key="objective_encounter_stage4">Passo 4:</string>
 </resources>
 
