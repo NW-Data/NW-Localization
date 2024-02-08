@@ -565,7 +565,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Trabuco, arco, báculo ígneo, gran hacha, destral, manoplas de hielo, mosquete, estoque, lanza, manoplas de vacío</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Sanador</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">Los sanadores se encargan de mantener al grupo con vida utilizando potenciadores de sanación y mitigación como Fortificación. Los sanadores también son responsables de eliminar cualquier estado negativo dañino de sus aliados, como el sangrado o el veneno. Los sanadores deberían invertir en la concentración para maximizar la efectividad de su sanación.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Báculo de vida, manoplas de vacío</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Báculo de vida, manoplas de vacío, mangual</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Vestíbulo creado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Vestíbulo actualizado</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Vestíbulo eliminado</string>
@@ -713,6 +713,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_checked_tooltip">Marca cualquier casilla para elegir al menos una actividad de la lista de arriba.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_all_checked_tooltip">Todas las actividades disponibles están seleccionadas. Selecciona Aleatorio para unirte a la cola de todas las actividades y no perderte las bonificaciones diarias.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_tooltip">No puedes participar en ninguna actividad ahora mismo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_for_group_tooltip">Tu grupo no puede participar en ninguna actividad ahora mismo.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip">Hay {lobbyCount} grupos reclutando a gente para esta actividad en el buscador de grupo. Selecciona Ver vestíbulos en la pantalla de información de la actividad para buscarlos.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip_single">Hay 1 grupo reclutando a gente para esta actividad en el buscador de grupo. Selecciona Ver vestíbulos en la pantalla de información de la actividad para buscarlo.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level">Tu nivel de mutación:</string>
@@ -747,6 +748,8 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_queue_tooltip">No puedes enviar una solicitud para unirte a una cola de emparejamiento porque ya te has apuntado a {matchname}.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_role_select_tooltip">No puedes enviar una solicitud para unirte a una cola de emparejamiento porque ya te has apuntado a {matchname}. Los miembros del grupo están eligiendo roles.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_war_tooltip">No puedes enviar una solicitud para unirte a una cola de emparejamiento porque ya te has apuntado a una guerra que empieza en la próxima hora.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_at_limit">Has alcanzado el límite para este tipo de actividad.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_at_limit">Uno o más miembros del grupo han alcanzado el límite para este tipo de actividad.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_premade_group_dungeon_tooltip">No puedes enviar una solicitud para unirte a una cola de emparejamiento porque estás en cola para una expedición o una prueba de élite.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_finder_lobby_tooltip">No puedes enviar una solicitud para unirte a una cola de emparejamiento mientras estés en un vestíbulo.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_invite_tooltip">No puedes enviar una solicitud para unirte a una cola de emparejamiento porque tienes una invitación pendiente.</string>
@@ -758,6 +761,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_no_azoth_staff_simple">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; No te has equipado un báculo de Azoth.&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_full_tooltip">No puedes enviar una solicitud para unirte a una cola de emparejamiento si tu grupo está lleno.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ineligible_unhandled_tooltip">No puedes enviar una solicitud para unirte a una cola de emparejamiento ahora mismo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_M3s_disabled_tooltip">Las mutaciones de élite (M3) solo están disponibles para los grupos locales.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_cancel_queue">Dejar cola</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_select_role">Seleccionar rol</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_decline">Rechazar</string>
@@ -770,13 +774,14 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_click_here_join_group">Haz clic aquí para la opción Entrar en M3 con un grupo</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score">{gearScore}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_deserter_penalty">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Tienes la Penalización del desertor y no puedes unirte a esta cola de emparejamiento.&lt;/font&gt;</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_ineligible">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Hay al menos un miembro de tu grupo que no cumple estos requisitos.&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_ineligible">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Hay al menos un miembro de tu grupo que no cumple estos requisitos o que tiene la Penalización del desertor.&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_too_big">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Tu grupo es demasiado grande.&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_level_requirement_not_met">No cumples el requisito de nivel para esta expedición.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_gearscore_requirement_not_met">No cumples el requisito de puntuación de equipo para esta expedición.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_title">Dejar cola</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_expedition_desc">¿Seguro que quieres salir de la cola de la(s) expedición(es)?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_mutation_desc">¿Seguro que quieres salir de la cola de la(s) expedición(es) mutada(s)?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_enter_dungeon">Estás intentando entrar en esta expedición con tu grupo actual. ¿Seguro que quieres abandonar la cola de emparejamiento para entrar?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_backfilling_group">Llenando grupo</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_title">Uniéndote a la cola de emparejamiento</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_info">Debes seleccionar un rol</string>
@@ -790,17 +795,18 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_damage">- Inflige tanto daño como puedas\n- Mata a los enemigos antes de que te superen</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_damage">- Trabuco, arco, báculo ígneo, gran hacha, destral, manoplas de hielo, mosquete, estoque, lanza, manoplas de vacío\n- Invierte en habilidades y atributos que se centren en causar un daño elevado\n- Ataques con área de efecto</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_healer">- Cura y protege a tus compañeros para mantenerlos con vida\n- Elimina los estados negativos de tus aliados</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_healer">- Báculo de vida, manoplas de vacío\n- Invierte en concentración</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_healer">- Báculo de vida, manoplas de vacío, mangual\n- Invierte en concentración</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_tank">- Absorbe daño\n- Provoca a los enemigos</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">- Espada y escudo, gran hacha, martillo de guerra\n- Armadura pesada\n- Cornalinas\n- Control de multitudes (aturdimiento, inmovilidad, aplastar)</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_title">Rechazar</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_message">¿Seguro que quieres rechazar la comprobación? Tú o tu grupo saldréis de la cola y tendréis que volver a entrar.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">¿Seguro que quieres salir? Se te teletransportará fuera de la expedición y no podrás volver a unirte.\n\n&lt;font color={penaltyColor}&gt;Recibirás la penalización del desertor por salir y no podrás volver a participar en esta actividad durante un tiempo.&lt;/font&gt;\n\nSi quieres salir sin recibir la penalización, usa la opción «Votar para salir» en Ajustes de grupo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">¿Seguro que quieres salir? Se te teletransportará fuera de la expedición y no podrás volver a unirte.\n\n&lt;font color={penaltyColor}&gt;Si sales durante los 10 primeros minutos de la expedición, recibirás una penalización de deserción (20 minutos).&lt;/font&gt;\n\nPara no recibir la penalización de deserción, usa la opción «Votar para salir» en Ajustes de grupo.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc_no_penalty">¿Seguro que quieres salir? Se te teletransportará fuera de la expedición y no podrás volver a unirte.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_expedition_activity_disabled">El emparejamiento para las expediciones está desactivado. Inténtalo de nuevo más adelante.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_mutation_activity_disabled">El emparejamiento para las expediciones mutadas está desactivado. Inténtalo de nuevo más adelante.</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_dungeon_activity">Expedición(es)</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_mutation_activity">Expedición(es) mutada(s)</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">No se puede usar el emparejamiento con M3. Usa Entrar con un grupo.</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_queue_hud_already_accepted_match_tooltip">No puedes abandonar la cola si ya has aceptado una invitación a una partida.</string>
 </resources>
 

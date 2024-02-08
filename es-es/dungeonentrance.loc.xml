@@ -20,13 +20,13 @@
 	<string key="ui_dungeon_screen_header_raidtrial">Prueba de élite</string>
 	<string key="ui_dungeon_screen_header_seasontrial" rel_version="Season_2_Perm">Prueba de temporada</string>
 	<string key="ui_dungeon_screen_subheader_localgroup">Grupo local</string>
-	<string key="ui_dungeon_screen_subheader_matchmaking" rel_version="Feature_Group_Finder">Matchmaking</string>
+	<string key="ui_dungeon_screen_subheader_matchmaking" rel_version="Feature_PUG_Finder">Matchmaking</string>
 	<string key="ui_dungeon_requirements">Recomendado: &lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {level} &lt;img src="LyShineUI/Images/icons/misc/icon_character" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Número mínimo de jugadores: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize">Número mínimo de jugadores: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize_range">Número mínimo de jugadores: {minPlayers} - {maxPlayers} jugadores (Ahora: {currentPlayers})</string>
 	<string key="ui_dungeon_requirements_groupsize_single">Máximo de jugadores: 1</string>
 	<string key="ui_dungeon_requirements_gearscore">Recomendado: &lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {level}</string>
-	<string key="ui_dungeon_requirements_matchmaking_gearscore" rel_version="Feature_Group_Finder">{gearscore}+</string>
+	<string key="ui_dungeon_requirements_matchmaking_gearscore" rel_version="Feature_Group_Finder">+{gearscore}</string>
 	<string key="ui_dungeon_requirements_matchmaking_level" rel_version="Feature_Group_Finder">{level}</string>
 	<string key="ui_dungeon_requirements_level_plus">{level}+</string>
 	<string key="ui_dungeon_requirements_gearscore_plus">+{gearscore}</string>
@@ -139,8 +139,8 @@
 	<string key="dungeon_completed_raidtrial">Prueba de élite completada</string>
 	<string key="dungeon_completed_seasontrial" rel_version="Season_2_Perm">Prueba de temporada completada</string>
 	<string key="ui_dungeon_find_group" rel_version="Feature_Group_Finder">Ver vestíbulos</string>
-	<string key="ui_dungeon_local_group_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Grupo local&lt;/font&gt;\n\nEcha un vistazo a los vestíbulos y únete a grupos, o invita a amigos y miembros de compañías para completar los desafíos que Aetérnum ofrece.</string>
-	<string key="ui_dungeon_matchmaking_tooltip" rel_version="Feature_Group_Finder">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Matchmaking&lt;/font&gt;\n\nEntra en nuestra lista de espera de mundo múltiple para emparejarte con jugadores de tu región. Si es necesario, los grupos se reajustarán automáticamente.\n\nTodos los jugadores deben reunir los requisitos para acceder al contenido.</string>
+	<string key="ui_dungeon_local_group_tooltip" comment="HighPri">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Grupo local&lt;/font&gt;\n\nEcha un vistazo a los vestíbulos y únete a grupos, o invita a amigos y miembros de compañías para completar los desafíos que Aetérnum ofrece.\n\nEl emparejamiento de mundo múltiple no funciona para los grupos locales.</string>
+	<string key="ui_dungeon_matchmaking_tooltip" rel_version="Feature_PUG_Finder">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Matchmaking&lt;/font&gt;\n\nEntra en nuestra lista de espera de mundo múltiple para emparejarte con jugadores de tu región. Si es necesario, los grupos se reajustarán automáticamente.\n\nTodos los jugadores deben reunir los requisitos para acceder al contenido.</string>
 	<string key="ui_dungeon_manage_group" rel_version="Feature_Group_Finder">Gestionar vestíbulo</string>
 	<string key="ui_dungeon_view_group" rel_version="Feature_Group_Finder">Ver mi vestíbulo</string>
 	<string key="ui_dungeon_opened_pvpwarning_title">Sal del JcJ para entrar</string>
@@ -190,9 +190,9 @@
 	<string key="ui_dungeon_mutator_gearscaling_high" rel_version="Feature_Dungeon_Mutators">Escalado alto de puntuación de equipo</string>
 	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Códice</string>
 	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Normal</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_1" rel_version="Feature_Dungeon_Mutators">Intermedia</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_2" rel_version="Feature_Dungeon_Mutators">Difícil</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_3" rel_version="Feature_Dungeon_Mutators">Élite</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_1" rel_version="Feature_Dungeon_Mutators">M1</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_2" rel_version="Feature_Dungeon_Mutators">M2</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_3" rel_version="Feature_Dungeon_Mutators">M3</string>
 	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M1&lt;/font&gt; (Intermedia)</string>
 	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M2&lt;/font&gt; (Difícil)</string>
 	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M3&lt;/font&gt; (Élite)</string>
@@ -324,7 +324,7 @@
 	<string key="Mut_Nat_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Selecciona un personaje escogido periódicamente. El jugador emite un aura que inflige daño de naturaleza a los jugadores cercanos y obtiene un gran aumento de la absorción de naturaleza. (Este efecto no puede ser anulado por habilidades de jugador).</string>
 	<string key="Mut_Voi_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Selecciona un personaje escogido periódicamente. El jugador emite un aura que inflige daño de vacío a los jugadores cercanos y obtiene un gran aumento de la absorción de vacío. (Este efecto no puede ser anulado por habilidades de jugador).</string>
 	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Aplica Cansado periódicamente a los jugadores en combate, lo cual reduce su movimiento un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]} % y aumenta todo el daño que reciben en un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]} %. El efecto puede retrasarse con el uso de habilidades. (Este efecto no puede ser anulado por habilidades de jugador).</string>
-	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Te ralentizas en un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]} % y recibes un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]} % más de daño de todas las fuentes.</string>
+	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Te ralentizas en un {[Type_StatusEffect.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]} % y recibes un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]} % más de daño de todas las fuentes.</string>
 	<string key="Mut_Curse2_Fir_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">El uso de habilidades aplica Ofrenda y causa daño de fuego al jugador de forma progresiva igual al {[Type_StatusEffectData.Mut_Curse2_Fir_Major_Damage.HealthModifierPercent * -100]} % de su salud máxima. Se acumula {[Type_StatusEffectData.Mut_Curse2_Fir_Major_Damage.StackMax]} veces. Mientras esté afectado por Ofrenda, todo el daño del jugador tiene un Robavidas del {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]} %. (Este efecto no puede ser anulado por habilidades de jugador).</string>
 	<string key="Mut_Curse2_Ice_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">El uso de habilidades aplica Ofrenda y causa daño de hielo al jugador de forma progresiva igual al {[Type_StatusEffectData.Mut_Curse2_Ice_Major_Damage.HealthModifierPercent * -100]} % de su salud máxima. Se acumula {[Type_StatusEffectData.Mut_Curse2_Ice_Major_Damage.StackMax]} veces. Mientras esté afectado por Ofrenda, todo el daño del jugador tiene un Robavidas del {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]} %. (Este efecto no puede ser anulado por habilidades de jugador).</string>
 	<string key="Mut_Curse2_Nat_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">El uso de habilidades aplica Ofrenda y causa daño de naturaleza al jugador de forma progresiva igual al {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.HealthModifierPercent * -100]} % de su salud máxima. Se acumula {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.StackMax]} veces. Mientras esté afectado por Ofrenda, todo el daño del jugador tiene un Robavidas del {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]} %. (Este efecto no puede ser anulado por habilidades de jugador).</string>
@@ -432,7 +432,7 @@
 	<string key="ui_elitetrial_reward_completiondesc" rel_version="Season_2_Perm">Se otorgan estos objetos al completar la prueba. Se puede repetir.</string>
 	<string key="ui_seasontrial_available_rewards" rel_version="Season_2_Perm">Recompensas disponibles</string>
 	<string key="ui_seasontrial_exclusive_rewards" rel_version="Season_2_Perm">Recompensas exclusivas</string>
-	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Solo se darán las primeras 7 veces que se complete, y cambian cada semana.</string>
+	<string key="ui_seasontrial_exclusive_rewards_desc" rel_version="Season_2_Perm">Solo se darán las primeras 7 veces que se complete y cambian cada semana.</string>
 	<string key="ui_seasontrial_unique_rewards" rel_version="Season_2_Perm">Recompensas únicas</string>
 	<string key="ui_seasontrial_unique_rewards_desc" rel_version="Season_2_Perm">Solo se darán las primeras 7 veces que se complete y cambian cada semana.</string>
 	<string key="ui_seasontrial_basic_rewards" rel_version="Season_2_Perm">Recompensas básicas</string>

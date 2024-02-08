@@ -1152,7 +1152,7 @@
 	<string key="PerkID_Ability_Musket_ShootersStance_Name">Posição do Atirador Energizante</string>
 	<string key="PerkID_Ability_Musket_ShootersStance_Description">Acertar um alvo enquanto estiver na Posição do Atirador concede um acúmulo de Energizado, aumentando o dano em {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.DMGStandard * 100 * {perkMultiplier}]}% por {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.BaseDuration]} s. O efeito é removido ao deixar a posição (máximo de {[Type_StatusEffectData.Status_Perk_Musket_ShootersStance_Empower.StackMax]} acúmulos).</string>
 	<string key="PerkID_Ability_Musket_StoppingPower_Name">Disparo Impactante Energizante</string>
-	<string key="PerkID_Ability_Musket_StoppingPower_Description">Acertos do Disparo Impactante reduzem em {[PerksAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.CooldownTimer * -100 * {perkMultiplier}]}% os tempos de recarga de todas as outras habilidades de armadilheiro.</string>
+	<string key="PerkID_Ability_Musket_StoppingPower_Description">Ao acertar com Disparo Impactante, reduz em {[PerksAbilityTable.GlobalPerk_Ability_Musket_StoppingPower.CooldownTimer * -100 * {perkMultiplier}]}% os tempos de recarga de todas as outras habilidades de armadilheiro.</string>
 	<string key="PerkID_Ability_Musket_Traps_Name">Armadilhas Aceleradoras</string>
 	<string key="PerkID_Ability_Musket_Traps_Description">+{[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.MoveSpeedMod * 100 * {perkMultiplier}]}% de velocidade de movimento por {[Type_StatusEffectData.Status_Perk_Musket_Traps_Haste.BaseDuration]} s após implantar uma armadilha (não acumula). Armadilhas agora aplicam Hemorragia equivalente a {[Type_StatusEffectData.Status_Perk_Musket_Traps_Bleed.HealthModifierDamageBased * -100 * {perkMultiplier}]}% do dano de arma por {[Type_StatusEffectData.Status_Perk_Musket_Traps_Bleed.BaseDuration]} s.</string>
 	<string key="PerkID_Ability_Musket_StickyBomb_Name">Bombas Grudentas de Reparação</string>
@@ -1180,7 +1180,7 @@
 	<string key="PerkID_Ability_Bow_PenetratingShot_Name">Tiro Penetrante Renovador</string>
 	<string key="PerkID_Ability_Bow_PenetratingShot_Description">Abates com o Tiro Penetrante reduzem o tempo de recarga em {[PerksAbilityTable.GlobalPerk_Ability_Bow_PenetratingShot.CooldownTimer * -100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Ability_Bow_SplinterShot_Name">Flecha Explosiva Energizante</string>
-	<string key="PerkID_Ability_Bow_SplinterShot_Description">Acertos da Flecha Explosiva concedem Energizado, aumentando o dano em {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.DMGStandard * 100 * {perkMultiplier}]}% por {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.BaseDuration]} s ou até o próximo acerto.</string>
+	<string key="PerkID_Ability_Bow_SplinterShot_Description">Explosive Arrow hits grant Empower, increasing damage by {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.DMGStandard * 100 * {perkMultiplier}]}% for {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.BaseDuration]}s or until the next hit.</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Name">Tondo Afiado</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Description">+{[PerksAbilityTable.GlobalPerk_Ability_Rapier_Tondo.CritChance * 100 * {perkMultiplier}]}% de chance de acerto crítico contra alvos afetados pela Hemorragia do Tondo. Se esta vantagem estiver em uma arma, Tondo também inflige {[Type_StatusEffectData.Status_Perk_TondoWeaken.DMGStandard * -100]}% de Enfraquecido por {[Type_StatusEffectData.Status_Perk_TondoWeaken.BaseDuration]} s. </string>
 	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Name">Floreio Letal</string>
@@ -1745,7 +1745,7 @@
 	<string key="PerkID_PvP_Weapon_CleanseBuff_Crits_Name" rel_version="PvP_Rewards_Track">Críticos Purificantes</string>
 	<string key="PerkID_PvP_Weapon_CleanseBuff_Crits_Description" rel_version="PvP_Rewards_Track">Apenas PvP: Acertos críticos contra jogadores removem {[PerksAbilityTable.Global_PvP_Weapon_CleanseBuff_Crits.NumTargetStatusEffectsToRemove]} de buff do alvo (tempo de recarga: {[PerksAbilityTable.Global_PvP_Weapon_CleanseBuff_Crits.ActivationCooldown]} s).</string>
 	<string key="PerkID_PvP_Weapon_ExhaustedTarget_Slow_Name" rel_version="PvP_Rewards_Track">Exploração Exaustiva</string>
-	<string key="PerkID_PvP_Weapon_ExhaustedTarget_Slow_Description" rel_version="PvP_Rewards_Track">Apenas PvP: Acertos contra jogadores com Exaustão causam Lentidão, reduzindo a velocidade de movimento em {[Type_StatusEffectData.Status_PvP_Perk_Weapon_SlowExhausted.MoveSpeedMod * -100]}% por {[Type_StatusEffectData.Status_PvP_Perk_Weapon_SlowExhausted.BaseDuration]} s. Se acertar um alvo por trás, inflige Exaustão e reduz a regeneração de vigor em {[Type_StatusEffectData.Status_Perk_PvP_Weapon_ExhaustedTarget_Exhaust.StaminaRate * 100]}% por {[Type_StatusEffectData.Status_Perk_PvP_Weapon_ExhaustedTarget_Exhaust.BaseDuration]} s. </string>
+	<string key="PerkID_PvP_Weapon_ExhaustedTarget_Slow_Description" rel_version="PvP_Rewards_Track">Apenas PvP: Acertos contra jogadores com Exaustão causam Lentidão, reduzindo a velocidade de movimento em {[Type_StatusEffectData.Status_PvP_Perk_Weapon_SlowExhausted.MoveSpeedMod * -100]}% por {[Type_StatusEffectData.Status_PvP_Perk_Weapon_SlowExhausted.BaseDuration]} s. Se acertar um inimigo por trás, cause Exaustão e reduza a regeneração de vigor em {[Type_StatusEffectData.Status_Perk_PvP_Weapon_ExhaustedTarget_Exhaust.StaminaRate * 100]}% por {[Type_StatusEffectData.Status_Perk_PvP_Weapon_ExhaustedTarget_Exhaust.BaseDuration]} s. </string>
 	<string key="PerkID_PvP_WeaponMagic_DmgToHaste_Name" rel_version="PvP_Rewards_Track">Punição Alacrita</string>
 	<string key="PerkID_PvP_WeaponMagic_DmgToHaste_Description" rel_version="PvP_Rewards_Track">Apenas PvP: +{[PerksAbilityTable.Global_PvP_WeaponMagic_DmgToHaste.BaseDamage * 100 * {perkMultiplier}]}% de dano a jogadores com Pressa.</string>
 	<string key="PerkID_PvP_Shield_FortifyStackOnBlock_Name" rel_version="PvP_Rewards_Track">Fortificação Robusta</string>
@@ -2548,7 +2548,7 @@
 	<string key="PerkID_Armor_DmgArcane_Name">Domínio Arcano</string>
 	<string key="PerkID_Armor_DmgArcane_Desc">+{[AffixStatDataTable.Affix_Armor_DmgArcane.DMGArcane * 100 * {perkMultiplier}]}% de Dano Arcano.</string>
 	<string key="PerkID_Shield_Kite_OnBlockHeal_Name">Defesa Curativa</string>
-	<string key="PerkID_Shield_Kite_OnBlockHeal_Desc">Ao bloquear: Cura em {[Type_StatusEffectData.Status_Perk_Shield_Kite_OnBlockHeal.HealthModifierBasePercent * 100 * {perkMultiplier}]}% da saúde base (tempo de recarga de {[PerksAbilityTable.Global_Shield_Kite_OnBlockHeal.ActivationCooldown]} s).</string>
+	<string key="PerkID_Shield_Kite_OnBlockHeal_Desc">Ao bloquear: Cura em {[Type_StatusEffectData.Status_Perk_Shield_Kite_OnBlockHeal.HealthModifierBasePercent * 100 * {perkMultiplier}]}% da Saúde Máxima base (tempo de recarga de {[PerksAbilityTable.Global_Shield_Kite_OnBlockHeal.ActivationCooldown]} s).</string>
 	<string key="PerkID_Shield_Kite_OnBlockDmg_Name">Contra-Ataque</string>
 	<string key="PerkID_Shield_Kite_OnBlockDmg_Desc">Ao bloquear: Ganha {[Type_StatusEffectData.Status_Perk_Shield_Kite_OnBlockDmg.DMGStandard * 100]}% de Energizado por {[Type_StatusEffectData.Status_Perk_Shield_Kite_OnBlockDmg.BaseDuration]} s.</string>
 	<string key="PerkID_Bags_BonusTown_Name">Lealdade da Vila</string>
@@ -2565,7 +2565,7 @@
 	<string key="PerkID_Artifact_Set1_Warhammer_Name">Bênção de Mjölnir</string>
 	<string key="PerkID_Artifact_Set1_Warhammer_Desc">{[AffixStatDataTable.Affix_Artifact_Set1_Warhammer.DamagePercentage * 100]}% do dano do martelo é convertido em elétrico e você causa {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_Warhammer.BaseDamage *100]}% a mais de dano elétrico com ambas as armas.</string>
 	<string key="PerkID_Artifact_Set1_WarhammerPerk_Name">Centelha</string>
-	<string key="PerkID_Artifact_Set1_WarhammerPerk_Desc">Martelo Poderoso aplica um raio que causa {[Type_StatusEffectData.Status_Perk_Artifact_Set1_HammerWeaken.DMGStandard * -100]}% de Enfraquecido por {[Type_StatusEffectData.Status_Perk_Artifact_Set1_HammerWeaken.BaseDuration]} s.</string>
+	<string key="PerkID_Artifact_Set1_WarhammerPerk_Desc">Martelo Poderoso aplica um raio que causa {[Type_StatusEffectData.Status_Perk_Artifact_Set1_HammerWeaken.DMGStandard * -100]}% de Enfraquecido por {[Type_StatusEffectData.Status_Perk_Artifact_Set1_HammerWeaken.BaseDuration]} s.</string>
 	<string key="PerkID_Artifact_Set1_GreatAxe_Name">Lâmina Escura</string>
 	<string key="PerkID_Artifact_Set1_GreatAxe_Desc">{[AffixStatDataTable.Affix_Artifact_Set1_Greataxe.DamagePercentage * 100]}% do dano é convertido em Dano Imaterial e, se a INT. for maior, substitui a escala base da arma por Inteligência.</string>
 	<string key="PerkID_Artifact_Set1_GreatAxePerk_Name">Abismo</string>
@@ -2581,7 +2581,7 @@
 	<string key="PerkID_Artifact_Set1_KiteShield_Name">Purificação Renovadora</string>
 	<string key="PerkID_Artifact_Set1_KiteShield_Desc">Tempos de recarga reduzidos em {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_KiteShield.CooldownTimer * -100]}%\nAo bloquear: Limpa um debuff.</string>
 	<string key="PerkID_Artifact_Set1_TowerShield_Name">Muralha-Escudo</string>
-	<string key="PerkID_Artifact_Set1_TowerShield_Desc">Ganhe {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_TowerShield.BaseDamageReduction * 100]}% de redução de dano base\nVocê não pode se esquivar, mas possui {[AffixStatDataTable.Affix_Artifact_Set1_TowerShield.MaxStaminaMod * 100]}% a mais de Vigor. (Enquanto ativo ou embainhado)</string>
+	<string key="PerkID_Artifact_Set1_TowerShield_Desc">Ganhe {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_TowerShield.BaseDamageReduction * 100]}% de redução de dano base\nVocê não pode se esquivar, mas possui {[AffixStatDataTable.Affix_Artifact_Set1_TowerShield.MaxStaminaMod * 100]}% a mais de Vigor.</string>
 	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Name">Proteção Cromática</string>
 	<string key="PerkID_Artifact_Set1_TowerShieldPerk_Desc">Você sofre {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_TowerShieldPerk.BaseDamageReduction * 100]}% a menos de dano de todas as fontes elementais.</string>
 	<string key="PerkID_Artifact_Set1_Firestaff_Name">Poder Interior</string>
@@ -2597,11 +2597,11 @@
 	<string key="PerkID_Artifact_Set1_IceGauntlet_Name" rel_version="Feature_Artifacts_Set2">Final Arrepiante</string>
 	<string key="PerkID_Artifact_Set1_IceGauntlet_Desc" rel_version="Feature_Artifacts_Set2">Inimigos Congelados, Enraizados ou Resfriados recebem {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_IceGauntlet.BaseDamage * 100]}% a mais de dano (funciona em ambas as armas).</string>
 	<string key="PerkID_Artifact_Set1_IcePerk_Name">Dor Gelada</string>
-	<string key="PerkID_Artifact_Set1_IcePerk_Desc">+{[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_IceGauntlet.BaseDamage * 100]}% de dano contra alvos enraizados ou congelados</string>
+	<string key="PerkID_Artifact_Set1_IcePerk_Desc">+{[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_IcePerk.BaseDamage * 100]}% de dano contra alvos enraizados ou congelados</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Energia Negativa</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">Seus ataques a distância causam Desintegração por {[Type_StatusEffectData.VoidGauntlet_Disintegrate.BaseDuration]} s em ambas as armas (tempo de recarga de {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_VoidGauntlet.ActivationCooldown]} s). Se o seu atributo de destreza for maior, substitui a escala base da sua arma por destreza.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Feitiço Maculado</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Ataques de ambas as armas contra alvos infligem um acúmulo de veneno e uma diminuição na eficácia da cura recebida e causada em {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealthModifierDamageBased * -100]}% por acúmulo por {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.BaseDuration]} s (máx. de {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.StackMax]} acúmulos).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Os ataques de ambas as armas contra os alvos infligem um acúmulo de veneno e uma diminuição da cura recebida em {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealthModifierDamageBased * -100]}% e da saída em {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealScalingValueMultiplier * -100]}% por acúmulo durante {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.BaseDuration]}s (máximo de {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.StackMax]} acúmulos, {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_Blunderbuss.ActivationCooldown]}s de tempo de recarga de ativação).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Praga</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">{[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_BlunderbussPerk.BaseDamage * 100]}% de dano contra alvos envenenados e doentes.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Lâmina Equilibrada</string>
@@ -2642,7 +2642,7 @@
 	<string key="PerkID_Artifact_Set1_MediumLegs_SecondaryName">Completas</string>
 	<string key="PerkID_Artifact_Set1_MediumLegs_Desc">+10 para todos os atributos.</string>
 	<string key="PerkID_Artifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Ligeireza</string>
-	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">Aumenta a duração base da Pressa aplicada a você em {[Type_StatusEffectData.Status_Perk_Artifact_Set1_MediumFeetHasteDuration.EffectDurationMods_Tooltip * 100]}%.</string>
+	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">Aumenta a duração base da Pressa aplicada a você em {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_MediumFeet.StatusEffectDurationReduction * 100]}%.</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Name">Brilho</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Desc">+{[AffixStatDataTable.Affix_Artifact_Set1_LightHead.MaxManaMod * 100]}% de Mana máxima.</string>
 	<string key="PerkID_Artifact_Set1_LightChest_Name">Leveza</string>

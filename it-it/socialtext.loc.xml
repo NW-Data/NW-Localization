@@ -565,7 +565,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Schioppo, arco, bastone infuocato, ascia grande, accetta, guanto di ghiaccio, moschetto, stocco, lancia, guanto del Vuoto</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Guaritore</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">I guaritori hanno il compito di tenere in vita il gruppo usando potenziamenti come Fortificazione, capaci di curare e ridurre i danni. Possono anche ricevere l'incarico di rimuovere dagli alleati depotenziamenti dannosi, quali Sanguinamento o Veleno. Per massimizzare l'efficacia curativa, i guaritori dovrebbero aumentare la statistica Concentrazione.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastone della vita, guanto del Vuoto</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastone della vita, guanto del Vuoto, mazzafrusto</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Lobby creata</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Lobby aggiornata</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Lobby rimossa</string>
@@ -713,6 +713,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_checked_tooltip">Contrassegna una casella per selezionare almeno un'attività dalla lista qui sopra.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_all_checked_tooltip">Tutte le attività disponibili sono state selezionate. Seleziona Casuale per metterti in coda per tutte le attività, così da non perderti i bonus giornalieri.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_tooltip">Al momento non puoi partecipare ad alcuna attività.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_for_group_tooltip">Al momento il tuo gruppo non può partecipare ad alcuna attività.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip">Ci sono {lobbyCount} gruppi che reclutano membri per quest'attività nella Ricerca gruppo. Seleziona "Visualizza lobby" nella schermata delle informazioni sulle attività per scoprire quali sono.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip_single">C'è 1 gruppo che recluta membri per questa attività nella Ricerca gruppo. Seleziona "Visualizza lobby" nella schermata delle informazioni sulle attività per visualizzarle.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level">Il tuo livello di mutazione:</string>
@@ -747,6 +748,8 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_queue_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché hai già effettuato l'iscrizione a: {matchname}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_role_select_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché hai già effettuato l'iscrizione a: {matchname} I membri del gruppo stanno selezionando i ruoli.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_war_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché hai già effettuato l'iscrizione a una guerra che inizierà entro un'ora.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_at_limit">Hai raggiunto il limite per questo tipo di attività.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_at_limit">Uno o più membri del tuo gruppo hanno raggiunto il proprio limite per questo tipo di attività.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_premade_group_dungeon_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché sei nella coda di una spedizione o di una Prova élite.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_finder_lobby_tooltip">Non puoi richiedere di unirti a una coda di matchmaking mentre sei in una lobby.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_invite_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché al momento hai un invito in sospeso.</string>
@@ -758,6 +761,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_no_azoth_staff_simple">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Bastone di Azoth non equipaggiato&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_full_tooltip">Non puoi richiedere di unirti a una coda di matchmaking mentre il tuo gruppo è al completo.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ineligible_unhandled_tooltip">Non puoi richiedere di unirti a una coda di matchmaking in questo momento.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_M3s_disabled_tooltip">Le mutazioni élite (M3) sono disponibili solo per gruppi locali.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_cancel_queue">Abbandona coda</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_select_role">Seleziona ruolo</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_decline">Rifiuta</string>
@@ -770,13 +774,14 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_click_here_join_group">Fai clic qui per entrare in M3 con il gruppo</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score">{gearScore}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_deserter_penalty">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Al momento sotto penalità del disertore: impossibile unirsi a questa coda di matchmaking.&lt;/font&gt;</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_ineligible">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Almeno un membro del tuo gruppo non soddisfa questi requisiti.&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_ineligible">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Almeno un membro del tuo gruppo non soddisfa questi requisiti o al momento è sotto penalità del disertore.&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_too_big">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Il tuo gruppo è troppo numeroso.&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_level_requirement_not_met">Non soddisfi i requisiti di livello per questa spedizione.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_gearscore_requirement_not_met">Non soddisfi i requisiti di punteggio attrezzatura per questa spedizione.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_title">Abbandona coda</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_expedition_desc">Vuoi davvero abbandonare la coda della/e spedizione/i?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_mutation_desc">Vuoi davvero abbandonare la coda della/e spedizione/i mutata/e?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_enter_dungeon">Stai tentando di accedere a questa spedizione con il tuo gruppo attuale. Vuoi davvero abbandonare la coda di matchmaking per entrare?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_backfilling_group">Completamento gruppo</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_title">Ingresso nella coda di matchmaking...</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_info">Selezione dei ruoli necessaria</string>
@@ -790,17 +795,18 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_damage">- Infliggi più danni possibili\n- Uccidi i nemici prima che riescano a sopraffarti</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_damage">- Schioppo, arco, bastone infuocato, ascia grande, accetta, guanto di ghiaccio, moschetto, stocco, lancia, guanto del Vuoto\n- Investi in abilità e attributi incentrati sul provocare danni considerevoli\n- Attacchi su area d'effetto</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_healer">- Mantieni vivi i tuoi compagni con cure e riduzioni dei danni\n- Rimuovi i depotenziamenti dannosi dagli alleati</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_healer">- Bastone della vita, guanto del Vuoto\n- Investi nella statistica Concentrazione</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_healer">- Bastone della vita, guanto del Vuoto, mazzafrusto\n- Investi nella statistica Concentrazione</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_tank">- Assorbi i danni\n- Provoca i nemici</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">- Spada e scudo, ascia grande, martello da guerra\n- Armatura pesante\n- Gemme di corniola\n- Controllo di gruppo (stordimento, radicamento, schiacciamento)</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_title">Conferma il rifiuto</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_message">Vuoi davvero rifiutare i controlli preliminari? Tu o il tuo gruppo sarete rimossi dalla coda e dovrete mettervi in coda nuovamente.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Vuoi davvero andartene? Il tuo personaggio verrà teletrasportato fuori dalla spedizione e non potrai unirti nuovamente.\n\n&lt;font color={penaltyColor}&gt;Riceverai una penalità disertore, che ti impedirà di accedere a quest'attività per un determinato periodo di tempo.&lt;/font&gt;\n\nSe desideri andartene senza subire penalità, usa l'opzione Vota per abbandonare nelle Impostazioni del gruppo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Vuoi davvero andartene? Si verrà teletrasportati fuori dalla spedizione e non si potrà più rientrare.\n\n&lt;font color={penaltyColor}&gt;Se abbandoni durante i primi 10 minuti della spedizione, riceverai una penalità di abbandono (20 minuti).&lt;/font&gt;\n\nPer evitare la penalità di abbandono, utilizza l'opzione "Votare per uscire" nelle Impostazioni del gruppo.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc_no_penalty">Vuoi davvero abbandonare? Il tuo personaggio verrà teletrasportato fuori dalla spedizione e non potrai unirti nuovamente.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_expedition_activity_disabled">Al momento, il matchmaking delle spedizioni è disattivato. Riprova più tardi.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_mutation_activity_disabled">Al momento, il matchmaking delle spedizioni mutate è disattivato. Riprova più tardi.</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_dungeon_activity">Spedizione/i</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_mutation_activity">Spedizione/i mutata/e</string>
-	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">Non è possibile effettuare il matchmaking in M3 Usa ENTRA CON GRUPPO in alto.</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">Non è possibile effettuare il matchmaking in M3 Usa "Entra con gruppo" in alto.</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_queue_hud_already_accepted_match_tooltip">Non puoi lasciare la coda dopo che un invito a una partita è stato accettato.</string>
 </resources>
 

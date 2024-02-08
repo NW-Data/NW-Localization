@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="ui_entrance_dungeon_description">Explorar la expedición</string>
-	<string key="ui_enter_dungeon">Entrar</string>
-	<string key="ui_enter_solo_trial">Entrar</string>
+	<string key="ui_enter_dungeon">Ingresar</string>
+	<string key="ui_enter_solo_trial">Ingresar</string>
 	<string key="ui_enter_raid_trial">Entrar</string>
 	<string key="ui_open_dungeon_menu">Abrir</string>
 	<string key="ui_open_dungeon_menu_solo">Abrir</string>
@@ -20,7 +20,7 @@
 	<string key="ui_dungeon_screen_header_raidtrial">Prueba de élite</string>
 	<string key="ui_dungeon_screen_header_seasontrial" rel_version="Season_2_Perm">Prueba de temporada</string>
 	<string key="ui_dungeon_screen_subheader_localgroup">Grupo local</string>
-	<string key="ui_dungeon_screen_subheader_matchmaking" rel_version="Feature_Group_Finder">Emparejamiento</string>
+	<string key="ui_dungeon_screen_subheader_matchmaking" rel_version="Feature_PUG_Finder">Emparejamiento</string>
 	<string key="ui_dungeon_requirements">Recomendado: &lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {level} &lt;img src="LyShineUI/Images/icons/misc/icon_character" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Número mínimo de jugadores: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize">Número mínimo de jugadores: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize_range">Número mínimo de jugadores: {minPlayers} - {maxPlayers} jugadores (actualmente: {currentPlayers})</string>
@@ -139,8 +139,8 @@
 	<string key="dungeon_completed_raidtrial">Prueba de élite completada</string>
 	<string key="dungeon_completed_seasontrial" rel_version="Season_2_Perm">Prueba de temporada completada</string>
 	<string key="ui_dungeon_find_group" rel_version="Feature_Group_Finder">Ver salas</string>
-	<string key="ui_dungeon_local_group_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Grupo local&lt;/font&gt;\n\nInvestiga salas para unirte a grupos o invita a amigos y miembros de la compañía para conquistar cualquier desafío de Aeternum.</string>
-	<string key="ui_dungeon_matchmaking_tooltip" rel_version="Feature_Group_Finder">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Emparejamiento&lt;/font&gt;\n\nEntra a la cola entre mundos para que se te empareje con jugadores de tu región. Los grupos se rellenarán automáticamente en caso de ser necesario.\n\nTodos los jugadores DEBEN cumplir los requisitos para acceder al contenido.</string>
+	<string key="ui_dungeon_local_group_tooltip" comment="HighPri">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Grupo local&lt;/font&gt;\n\nInvestiga salas para unirte a grupos o invita a amigos y miembros de la compañía para conquistar cualquier desafío de Aeternum.\n\nLos grupos locales no son compatibles con el emparejamiento entre mundos.</string>
+	<string key="ui_dungeon_matchmaking_tooltip" rel_version="Feature_PUG_Finder">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Emparejamiento&lt;/font&gt;\n\nEntra a la cola entre mundos para que se te empareje con jugadores de tu región. Los grupos se rellenarán automáticamente en caso de ser necesario.\n\nTodos los jugadores DEBEN cumplir los requisitos para acceder al contenido.</string>
 	<string key="ui_dungeon_manage_group" rel_version="Feature_Group_Finder">Admin. sala de espera</string>
 	<string key="ui_dungeon_view_group" rel_version="Feature_Group_Finder">Ver mi sala de espera</string>
 	<string key="ui_dungeon_opened_pvpwarning_title">Abandona JcJ para entrar</string>
@@ -190,9 +190,9 @@
 	<string key="ui_dungeon_mutator_gearscaling_high" rel_version="Feature_Dungeon_Mutators">Escala alta de puntuación de equipo</string>
 	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Códice</string>
 	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Regular</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_1" rel_version="Feature_Dungeon_Mutators">Intermedio</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_2" rel_version="Feature_Dungeon_Mutators">Difícil</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_3" rel_version="Feature_Dungeon_Mutators">Élite</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_1" rel_version="Feature_Dungeon_Mutators">M1</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_2" rel_version="Feature_Dungeon_Mutators">M2</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_3" rel_version="Feature_Dungeon_Mutators">M3</string>
 	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M1&lt;/font&gt; (intermedio)</string>
 	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M2&lt;/font&gt; (difícil)</string>
 	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M3&lt;/font&gt; (élite)</string>
@@ -324,7 +324,7 @@
 	<string key="Mut_Nat_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Selecciona periódicamente a un jugador elegido. Ese jugador emite un aura que inflige daño de naturaleza a jugadores cercanos y obtiene mucha más absorción de naturaleza. (Las habilidades del jugador no pueden borrar este efecto).</string>
 	<string key="Mut_Voi_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Selecciona periódicamente a un jugador elegido. Ese jugador emite un aura que inflige daño de vacío a jugadores cercanos y obtiene mucha más absorción de vacío. (Las habilidades del jugador no pueden borrar este efecto).</string>
 	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Aplica Agotamiento periódicamente a los jugadores en combate, lo que ralentiza su movimiento en un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]} % y aumenta todo el daño que reciban en un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]} %. El efecto se puede retrasar usando habilidades. (Las habilidades del jugador no pueden borrar este efecto).</string>
-	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Tu velocidad se reduce en un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]} % y sufres un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]} % más de daño de todas las fuentes.</string>
+	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Tu velocidad se reduce en un {[Type_StatusEffect.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]} % y sufres un {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]} % más de daño de todas las fuentes.</string>
 	<string key="Mut_Curse2_Fir_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">El uso de habilidades aplica Ofrenda y causa daño de fuego al jugador de forma progresiva igual al {[Type_StatusEffectData.Mut_Curse2_Fir_Major_Damage.HealthModifierPercent * -100]} % de su salud máxima. Se acumula {[Type_StatusEffectData.Mut_Curse2_Fir_Major_Damage.StackMax]} veces. Todo el daño del jugador quita un {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]} % de vida mientras esté siendo afectado por Ofrenda. (Las habilidades del jugador no pueden borrar este efecto).</string>
 	<string key="Mut_Curse2_Ice_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">El uso de habilidades aplica Ofrenda y causa daño de hielo al jugador de forma progresiva igual al {[Type_StatusEffectData.Mut_Curse2_Ice_Major_Damage.HealthModifierPercent * -100]} % de su salud máxima. Se acumula {[Type_StatusEffectData.Mut_Curse2_Ice_Major_Damage.StackMax]} veces. Todo el daño del jugador quita un {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]} % de vida mientras se vea afectado por Ofrenda. (Las habilidades del jugador no pueden borrar este efecto).</string>
 	<string key="Mut_Curse2_Nat_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">El uso de habilidades aplica Ofrenda y causa daño de naturaleza al jugador de forma progresiva igual al {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.HealthModifierPercent * -100]} % de su salud máxima. Se acumula {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.StackMax]} veces. Todo el daño del jugador quita un {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]} % de vida mientras se vea afectado por Ofrenda. (Las habilidades del jugador no pueden borrar este efecto).</string>
@@ -446,7 +446,7 @@
 	<string key="ui_seasontrial_map_bonusrun_count" rel_version="Season_2_Perm">{count}/{max} vueltas de bonificación completadas</string>
 	<string key="ui_seasontrial_beat_in" rel_version="Season_2_Perm">Tiempo restante</string>
 	<string key="ui_seasontrial_milestone_bonus_run_rewards_message" rel_version="Season_2_Perm">Recompensas de vueltas de bonificación</string>
-	<string key="ui_seasontrial_bonus_run_header" rel_version="Season_2_Perm">Bonificación</string>
+	<string key="ui_seasontrial_bonus_run_header" rel_version="Season_2_Perm">Vueltas de bonificación</string>
 	<string key="ui_seasontrial_bonus_run_tooltip" rel_version="Season_2_Perm">Con los primeros {maxCount} intentos en la prueba obtienes recompensas adicionales cada semana. Los objetos exclusivos de la temporada solo se otorgan durante estos intentos.</string>
 	<string key="ui_seasontrial_milestone_normal_message" rel_version="Season_2_Perm">Prueba completada</string>
 	<string key="ui_elitetrial_milestone_daily_weekly_rewards_message" rel_version="Season_2_Perm">Recompensas diarias y semanales</string>

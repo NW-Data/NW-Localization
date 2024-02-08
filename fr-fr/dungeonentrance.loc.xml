@@ -20,7 +20,7 @@
 	<string key="ui_dungeon_screen_header_raidtrial">Épreuve d'élite</string>
 	<string key="ui_dungeon_screen_header_seasontrial" rel_version="Season_2_Perm">Épreuve de saison</string>
 	<string key="ui_dungeon_screen_subheader_localgroup">Groupe local</string>
-	<string key="ui_dungeon_screen_subheader_matchmaking" rel_version="Feature_Group_Finder">Matchmaking</string>
+	<string key="ui_dungeon_screen_subheader_matchmaking" rel_version="Feature_PUG_Finder">Matchmaking</string>
 	<string key="ui_dungeon_requirements">Recommandé : Joueurs &lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {level} &lt;img src="LyShineUI/Images/icons/misc/icon_character" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; minimum : {players}</string>
 	<string key="ui_dungeon_requirements_groupsize">Joueurs minimum : {players}</string>
 	<string key="ui_dungeon_requirements_groupsize_range">Joueurs minimum : {minPlayers} - {maxPlayers} joueurs (actuellement : {currentPlayers})</string>
@@ -39,7 +39,7 @@
 	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Vous devez avoir au moins : &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Vous devez avoir au moins : &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_reward_level">La qualité du butin augmente avec le niveau de difficulté.\n\nLes objets que vous trouvez peuvent différer des objets listés en fonction de leur score d'équipement.</string>
-	<string key="ui_dungeon_reward_title_regular">Récompenses d'expédition</string>
+	<string key="ui_dungeon_reward_title_regular">Récompenses des expéditions</string>
 	<string key="ui_dungeon_reward_title_mutation">Récompenses de Mutagène</string>
 	<string key="ui_dungeon_level_requirement">Niveau requis : {level}</string>
 	<string key="ui_dungeon_elapsed_time">Temps écoulé :</string>
@@ -139,8 +139,8 @@
 	<string key="dungeon_completed_raidtrial">Épreuve d'élite accomplie</string>
 	<string key="dungeon_completed_seasontrial" rel_version="Season_2_Perm">Épreuve de saison accomplie</string>
 	<string key="ui_dungeon_find_group" rel_version="Feature_Group_Finder">Voir salons</string>
-	<string key="ui_dungeon_local_group_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Groupe local&lt;/font&gt;\n\nParcourez les salons pour rejoindre des groupes ou inviter des amis et des membres de compagnie pour relever les défis que propose Aeternum.</string>
-	<string key="ui_dungeon_matchmaking_tooltip" rel_version="Feature_Group_Finder">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Matchmaking&lt;/font&gt;\n\nRejoignez notre file d'attente intermondes pour être associé(e) avec des joueurs de votre région. Les groupes seront automatiquement complétés au besoin.\n\nTous les joueurs DOIVENT remplir les conditions nécessaires pour être admissibles pour le contenu.</string>
+	<string key="ui_dungeon_local_group_tooltip" comment="HighPri">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Groupe local&lt;/font&gt;\n\nParcourez les salons pour rejoindre des groupes ou inviter des amis et des membres de compagnie pour relever les défis que propose Aeternum.\n\nLes groupes locaux ne sont pas compatibles avec le matchmaking intermondes.</string>
+	<string key="ui_dungeon_matchmaking_tooltip" rel_version="Feature_PUG_Finder">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Matchmaking&lt;/font&gt;\n\nRejoignez notre file d'attente intermondes pour être associé(e) avec des joueurs de votre région. Les groupes seront automatiquement complétés au besoin.\n\nTous les joueurs DOIVENT remplir les conditions nécessaires pour être admissibles pour le contenu.</string>
 	<string key="ui_dungeon_manage_group" rel_version="Feature_Group_Finder">Gérer mon salon</string>
 	<string key="ui_dungeon_view_group" rel_version="Feature_Group_Finder">Voir mon salon</string>
 	<string key="ui_dungeon_opened_pvpwarning_title">Abandon du JcJ pour entrer</string>
@@ -190,9 +190,9 @@
 	<string key="ui_dungeon_mutator_gearscaling_high" rel_version="Feature_Dungeon_Mutators">Équilibrage au score d'équipement supérieur</string>
 	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Codex</string>
 	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Normale</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_1" rel_version="Feature_Dungeon_Mutators">Apprenti</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_2" rel_version="Feature_Dungeon_Mutators">Difficile</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_3" rel_version="Feature_Dungeon_Mutators">Élite</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_1" rel_version="Feature_Dungeon_Mutators">M1</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_2" rel_version="Feature_Dungeon_Mutators">M2</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_3" rel_version="Feature_Dungeon_Mutators">M3</string>
 	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M1&lt;/font&gt; (Apprenti)</string>
 	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M2&lt;/font&gt; (Difficile)</string>
 	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M3&lt;/font&gt; (Élite)</string>
@@ -324,7 +324,7 @@
 	<string key="Mut_Nat_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Affecte périodiquement l'un des joueurs. Le joueur sélectionné dégage une aura qui inflige des dégâts de nature aux joueurs à proximité et augmente considérablement son absorption des dégâts de nature (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
 	<string key="Mut_Voi_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Affecte périodiquement l'un des joueurs. Le joueur sélectionné dégage une aura qui inflige des dégâts de néant aux joueurs à proximité et augmente considérablement son absorption des dégâts de néant (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
 	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Applique périodiquement Fatigue aux joueurs en combat pour ralentir leur mouvement de {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]} % et augmenter les dégâts qu'ils subissent de {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]} %. Cet effet peut être retardé à l'aide de capacités (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
-	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Ralentissement de {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]} % et augmentation de {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]} % de tous les types de dégâts subis.</string>
+	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Ralentissement de {[Type_StatusEffect.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]} % et augmentation de {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]} % de tous les types de dégâts subis.</string>
 	<string key="Mut_Curse2_Fir_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Toute utilisation de capacité applique un effet d'Offrande qui inflige progressivement des dégâts de feu à hauteur de {[Type_StatusEffectData.Mut_Curse2_Fir_Major_Damage.HealthModifierPercent * -100]} % de la santé max au joueur et se cumule {[Type_StatusEffectData.Mut_Curse2_Fir_Major_Damage.StackMax]} fois. Les joueurs subissent {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]} % des dégâts qu'ils infligent tant qu'ils sont affectés par Offrande (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
 	<string key="Mut_Curse2_Ice_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Toute utilisation de capacité applique un effet d'Offrande qui inflige progressivement des dégâts de glace à hauteur de {[Type_StatusEffectData.Mut_Curse2_Ice_Major_Damage.HealthModifierPercent * -100]} % de la santé max au joueur et se cumule {[Type_StatusEffectData.Mut_Curse2_Ice_Major_Damage.StackMax]} fois. Les joueurs subissent {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]} % des dégâts qu'ils infligent tant qu'ils sont affectés par Offrande (cet effet ne peut pas être dissipé par des capacités de joueur).</string>
 	<string key="Mut_Curse2_Nat_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Toute utilisation de capacité applique un effet d'Offrande qui inflige progressivement des dégâts de nature à hauteur de {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.HealthModifierPercent * -100]} % de la santé max au joueur et se cumule {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.StackMax]} fois. Les joueurs subissent {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]} % des dégâts qu'ils infligent tant qu'ils sont affectés par Offrande (cet effet ne peut pas être dissipé par des capacités de joueur).</string>

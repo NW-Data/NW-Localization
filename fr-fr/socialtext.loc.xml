@@ -565,7 +565,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Tromblon, arc, bâton de feu, hache double, hachette, gantelets de glace, mousquet, rapière, lance, gantelets du néant</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Guérisseur</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">Le rôle d'un guérisseur est de maintenir le groupe en vie grâce à ses soins et ses améliorations de résistance, telle que renforcement. Les guérisseurs doivent éliminer les affaiblissements subis par leurs alliés, tels que saignement et empoisonnement. Ils doivent investir dans des statistiques de concentration pour maximiser l'efficacité de leurs soins.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bâton de vie, gantelets du néant</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bâton de vie, gantelets du néant, fléau</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Salon créé</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Salon modifié</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Salon supprimé</string>
@@ -713,6 +713,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_checked_tooltip">Cochez au moins une case pour sélectionner des activités de la liste ci-dessus.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_all_checked_tooltip">Toutes les activités disponibles ont été sélectionnées. Choisissez Aléatoire pour entrer dans la file d'attente de toutes les activités afin de ne manquer aucun bonus quotidien.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_tooltip">Vous ne pouvez actuellement accomplir aucune activité.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_for_group_tooltip">Votre groupe ne peut actuellement accomplir aucune activité.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip">Il y a {lobbyCount} groupes recrutant pour cette activité dans la Recherche de groupe. Sélectionnez Voir salons sur l'écran d'informations de l'activité pour les découvrir.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip_single">Il y a 1 groupe recrutant pour cette activité dans la Recherche de groupe. Sélectionnez Voir salons sur l'écran d'informations de l'activité pour le découvrir.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level">Votre niveau de mutation :</string>
@@ -747,6 +748,8 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_queue_tooltip">Vous ne pouvez pas demander de rejoindre une file d'attente de matchmaking, car vous participez déjà à {matchname}.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_role_select_tooltip">Vous ne pouvez pas demander de rejoindre une file d'attente de matchmaking, car vous participez déjà à {matchname}. Les membres du groupe choisissent leur rôle.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_war_tooltip">Vous ne pouvez pas demander de rejoindre une file d'attente de matchmaking, car vous participez déjà à une guerre à venir qui débute dans l'heure qui suit.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_at_limit">Vous avez atteint la limite pour ce type d'activité.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_at_limit">Un ou plusieurs membres de votre groupe ont atteint la limite pour ce type d'activité.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_premade_group_dungeon_tooltip">Vous ne pouvez pas demander de rejoindre une file d'attente de matchmaking, car vous participez déjà à une expédition ou à une épreuve d'élite.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_finder_lobby_tooltip">Vous ne pouvez pas demander de rejoindre une file d'attente de matchmaking quand vous êtes dans un salon.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_invite_tooltip">Vous ne pouvez pas demander de rejoindre une file d'attente de matchmaking, car vous avez actuellement une invitation en attente.</string>
@@ -758,10 +761,11 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_no_azoth_staff_simple">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Bâton d'Azoth non équipé.&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_full_tooltip">Vous ne pouvez pas demander de rejoindre une file d'attente de matchmaking quand votre groupe est au complet.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ineligible_unhandled_tooltip">Vous ne pouvez actuellement pas demander de rejoindre une file d'attente de matchmaking.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_M3s_disabled_tooltip">Les mutations d'élite (M3) ne sont accessibles qu'aux groupes locaux.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_cancel_queue">Quitter la file d'attente</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_select_role">Choisir rôle</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_decline">Refuser</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_azoth_staff">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Équipé d'un bâton d'Azoth&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_azoth_staff">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Équiper un bâton d'Azoth&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_level">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Atteindre le niveau {minLevel}&lt;/font&gt;.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_mutation">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Terminer {name}&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_size">&lt;img src="LyShineUI/Images/icons/chat/channelgroup" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; {minPlayers} - {maxPlayers} joueurs</string>
@@ -770,13 +774,14 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_click_here_join_group">Cliquez ici pour la possibilité d'entrer dans le M3 avec le groupe</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score">{gearScore}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_deserter_penalty">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Actuellement sous Pénalité de désertion et dans l'impossibilité de rejoindre cette file d'attente de matchmaking.&lt;/font&gt;</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_ineligible">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Au moins un membre de votre groupe ne remplit pas les conditions nécessaires.&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_ineligible">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Au moins un membre de votre groupe ne remplit pas les conditions nécessaires ou souffre d'une pénalité de désertion.&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_too_big">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Votre groupe compte trop de membres.&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_level_requirement_not_met">Vous ne remplissez pas les conditions de niveau pour cette expédition.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_gearscore_requirement_not_met">Vous ne remplissez pas les conditions de score d'équipement pour cette expédition.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_title">Quitter la file d'attente</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_expedition_desc">Voulez-vous vraiment quitter la file d'attente de la ou des expéditions ?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_mutation_desc">Voulez-vous vraiment quitter la file d'attente de la ou des expéditions mutantes ?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_enter_dungeon">Vous tentez d'entrer dans cette expédition avec votre groupe actuel. Voulez-vous vraiment quitter la file d'attente de matchmaking pour y entrer ?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_backfilling_group">Remplissage du groupe</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_title">Vous allez rejoindre la file d'attente de matchmaking...</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_info">Choix du rôle requis</string>
@@ -790,17 +795,18 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_damage">- Infligez autant de dégâts que possible\n- Tuez vos adversaires avant qu'ils ne vous submergent</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_damage">- Tromblon, arc, bâton de feu, hache double, hachette, gantelets de glace, mousquet, rapière, lance et gantelets du néant\n- Investissez dans des capacités et des caractéristiques qui permettent de faire de gros dégâts\n- Attaques à zone d'effet</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_healer">- Maintenez votre groupe en vie grâce aux soins et aux atténuations\n- Dissipez les affaiblissements néfastes des alliés</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_healer">- Bâton de vie et gantelets du néant\n- Investissez dans la concentration</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_healer">- Bâton de vie, gantelets du néant, fléau\n- Investissez dans la concentration</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_tank">- Absorbe les dégâts\n- Provoque les ennemis</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">Épée et bouclier, hache double et marteau d'armes\n- Armure lourde\n- Cornalines\n- Contrôle de foule (étourdissement, enracinement, aplatissement)</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_title">Confirmer le refus</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_message">Voulez-vous vraiment refuser la vérification ? Votre groupe ou vous serez retiré de la file d'attente et devrez refaire la queue.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Voulez-vous vraiment partir ? Vous vous téléporterez en dehors de l'expédition et ne pourrez pas la rejoindre.\n\n&lt;font color={penaltyColor}&gt;Vous recevrez une pénalité de désertion pour votre abandon, vous empêchant de participer à cette activité pendant quelque temps.&lt;/font&gt;\n\nSi vous voulez partir sans subir de pénalité, utilisez l'option Voter pour abandonner dans les paramètres du groupe.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Voulez-vous vraiment partir ? Vous vous téléporterez en dehors de l'expédition et ne pourrez pas la rejoindre.\n\n&lt;font color={penaltyColor}&gt;Vous recevrez une pénalité de désertion pour votre abandon (20 minutes) si vous abandonnez dans les 10 premières minutes de l’expédition.&lt;/font&gt;\n\nSi vous voulez partir sans subir de pénalité, utilisez l'option Voter pour abandonner dans les paramètres du groupe.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc_no_penalty">Voulez-vous vraiment partir ? Vous vous téléporterez en dehors de l'expédition et ne pourrez pas le rejoindre.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_expedition_activity_disabled">Le matchmaking d'expédition est actuellement désactivé. Veuillez réessayer plus tard.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_mutation_activity_disabled">Le matchmaking d'expédition mutante est actuellement désactivé. Veuillez réessayer plus tard.</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_dungeon_activity">Expédition(s)</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_mutation_activity">Expédition(s) mutante(s)</string>
-	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">Pas de matchmaking avec M3. Utilisez ENTRER AVEC GROUPE ci-dessus.</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">Pas de matchmaking avec M3. Utilisez Entrer avec groupe ci-dessus.</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_queue_hud_already_accepted_match_tooltip">Vous ne pouvez pas quitter la file d'attente une fois qu'une invitation correspondant aux critères a été acceptée.</string>
 </resources>
 

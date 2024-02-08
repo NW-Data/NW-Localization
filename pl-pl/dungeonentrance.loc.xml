@@ -20,12 +20,12 @@
 	<string key="ui_dungeon_screen_header_raidtrial">Elitarna próba</string>
 	<string key="ui_dungeon_screen_header_seasontrial" rel_version="Season_2_Perm">Sezonowa Próba</string>
 	<string key="ui_dungeon_screen_subheader_localgroup">Grupa lokalna</string>
-	<string key="ui_dungeon_screen_subheader_matchmaking" rel_version="Feature_Group_Finder">Dobieranie graczy</string>
+	<string key="ui_dungeon_screen_subheader_matchmaking" rel_version="Feature_PUG_Finder">Dobieranie graczy</string>
 	<string key="ui_dungeon_requirements">Zalecane: &lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {level} &lt;img src="LyShineUI/Images/icons/misc/icon_character" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Minimalna liczba graczy: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize">Minimalna liczba graczy: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize_range">Minimalna liczba graczy: {minPlayers} – {maxPlayers} (obecnie: {currentPlayers})</string>
 	<string key="ui_dungeon_requirements_groupsize_single">Maksymalna liczba graczy: 1</string>
-	<string key="ui_dungeon_requirements_gearscore">Zalecane: &lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {level}</string>
+	<string key="ui_dungeon_requirements_gearscore">Zalecana: &lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {level}</string>
 	<string key="ui_dungeon_requirements_matchmaking_gearscore" rel_version="Feature_Group_Finder">{gearscore}+</string>
 	<string key="ui_dungeon_requirements_matchmaking_level" rel_version="Feature_Group_Finder">{level}</string>
 	<string key="ui_dungeon_requirements_level_plus">{level}+</string>
@@ -39,7 +39,7 @@
 	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Musisz mieć co najmniej: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Musisz mieć co najmniej: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_reward_level">Im wyższy poziom trudności, tym wyższa jakość łupu.\n\nZnalezione przedmioty mogą się różnić od przedmiotów z listy ze względu na ich liczbę punktów wyposażenia.</string>
-	<string key="ui_dungeon_reward_title_regular">Nagrody za ekspedycję</string>
+	<string key="ui_dungeon_reward_title_regular">Nagrody za ekspedycje</string>
 	<string key="ui_dungeon_reward_title_mutation">Nagrody za mutację</string>
 	<string key="ui_dungeon_level_requirement">Wymagany poziom: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Minęło:</string>
@@ -139,8 +139,8 @@
 	<string key="dungeon_completed_raidtrial">Elitarna próba ukończona</string>
 	<string key="dungeon_completed_seasontrial" rel_version="Season_2_Perm">Sezonowa Próba ukończona</string>
 	<string key="ui_dungeon_find_group" rel_version="Feature_Group_Finder">Zobacz lobby</string>
-	<string key="ui_dungeon_local_group_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Grupa lokalna&lt;/font&gt;\n\nSprawdź lobby, by dołączyć do grupy, albo zaproś znajomych i członków kompanii i wspólnie stawcie czoła wyzwaniom na Aeternum.</string>
-	<string key="ui_dungeon_matchmaking_tooltip" rel_version="Feature_Group_Finder">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Dobieranie graczy&lt;/font&gt;\n\nDołącz do kolejki obejmującej różne światy, by połączyć siły z graczami z twojego regionu. Jeśli zajdzie taka konieczność, grupy zostaną automatycznie uzupełnione.\n\nWszyscy gracze muszą spełnić wymagania, by wziąć udział w określonych aktywnościach.</string>
+	<string key="ui_dungeon_local_group_tooltip" comment="HighPri">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Grupa lokalna&lt;/font&gt;\n\nSprawdź lobby, by dołączyć do grupy, albo zaproś znajomych i członków kompanii i wspólnie stawcie czoła wyzwaniom na Aeternum.\n\nGrupy lokalne nie obsługują dobierania graczy z różnych światów.</string>
+	<string key="ui_dungeon_matchmaking_tooltip" rel_version="Feature_PUG_Finder">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Dobieranie graczy&lt;/font&gt;\n\nDołącz do kolejki obejmującej różne światy, by połączyć siły z graczami z twojego regionu. Jeśli zajdzie taka konieczność, grupy zostaną automatycznie uzupełnione.\n\nWszyscy gracze muszą spełnić wymagania, by wziąć udział w określonych aktywnościach.</string>
 	<string key="ui_dungeon_manage_group" rel_version="Feature_Group_Finder">Zarządzaj moim lobby</string>
 	<string key="ui_dungeon_view_group" rel_version="Feature_Group_Finder">Zobacz moje lobby</string>
 	<string key="ui_dungeon_opened_pvpwarning_title">Wyjdź z trybu PvP, by wejść</string>
@@ -190,9 +190,9 @@
 	<string key="ui_dungeon_mutator_gearscaling_high" rel_version="Feature_Dungeon_Mutators">Wysokie skalowanie pkt wyposażenia</string>
 	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Kodeks</string>
 	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Zwykła</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_1" rel_version="Feature_Dungeon_Mutators">Średni</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_2" rel_version="Feature_Dungeon_Mutators">Trudny</string>
-	<string key="ui_dungeon_mutator_difficulty_desc_3" rel_version="Feature_Dungeon_Mutators">Elitarny</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_1" rel_version="Feature_Dungeon_Mutators">M1</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_2" rel_version="Feature_Dungeon_Mutators">M2</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_3" rel_version="Feature_Dungeon_Mutators">M3</string>
 	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M1&lt;/font&gt; (Średni)</string>
 	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M2&lt;/font&gt; (Trudny)</string>
 	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M3&lt;/font&gt; (Elitarny)</string>
@@ -324,7 +324,7 @@
 	<string key="Mut_Nat_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Okresowo wybiera gracza. Wybrany gracz roztacza aurę zadającą obrażenia od natury innym graczom w pobliżu i otrzymuje znaczne pochłanianie obrażeń od natury. (Tego efektu nie można usunąć za pomocą zdolności gracza).</string>
 	<string key="Mut_Voi_Curse1_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Okresowo wybiera gracza. Wybrany gracz roztacza aurę zadającą obrażenia od próżni innym graczom w pobliżu i otrzymuje znaczne pochłanianie obrażeń od próżni. (Tego efektu nie można usunąć za pomocą zdolności gracza).</string>
 	<string key="Mut_Curse2_Minor_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Okresowo nakłada na walczących graczy znużenie, spowalniając ich o {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]}% i zwiększając wszystkie otrzymywane obrażenia o {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]}%. Efekt ten można opóźnić, używając zdolności. (Tego efektu nie można usunąć za pomocą zdolności gracza).</string>
-	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Spowalnia o {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]}% i sprawia, że otrzymujesz o {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]}% więcej obrażeń każdego rodzaju.</string>
+	<string key="Mut_Curse2_Minor_SlowRend_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Spowalnia o {[Type_StatusEffect.Mut_Curse2_Minor_SlowRend.MoveSpeedMod * -100]}% i sprawia, że otrzymujesz o {[Type_StatusEffectData.Mut_Curse2_Minor_SlowRend.WKNStandard * 100]}% więcej obrażeń każdego rodzaju.</string>
 	<string key="Mut_Curse2_Fir_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Używanie zdolności nakłada na gracza efekt ofiary, co sprawia, że otrzymuje rozłożone w czasie obrażenia od ognia w wysokości {[Type_StatusEffectData.Mut_Curse2_Fir_Major_Damage.HealthModifierPercent * -100]}% maksymalnego zdrowia. Kumuluje się do {[Type_StatusEffectData.Mut_Curse2_Fir_Major_Damage.StackMax]} razy. Wszystkie obrażenia zadawane przez gracza kradną {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]}% zdrowia, gdy jest pod wpływem ofiary. (Tego efektu nie można usunąć za pomocą zdolności gracza).</string>
 	<string key="Mut_Curse2_Ice_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Używanie zdolności nakłada na gracza efekt ofiary, co sprawia, że otrzymuje rozłożone w czasie obrażenia od lodu w wysokości {[Type_StatusEffectData.Mut_Curse2_Ice_Major_Damage.HealthModifierPercent * -100]}% maksymalnego zdrowia. Kumuluje się do {[Type_StatusEffectData.Mut_Curse2_Ice_Major_Damage.StackMax]} razy. Wszystkie obrażenia zadawane przez gracza kradną {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]}% zdrowia, gdy jest pod wpływem ofiary (tego efektu nie można usunąć za pomocą zdolności gracza).</string>
 	<string key="Mut_Curse2_Nat_Major_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Używanie zdolności nakłada na gracza efekt ofiary, co sprawia, że otrzymuje rozłożone w czasie obrażenia od natury w wysokości {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.HealthModifierPercent * -100]}% maksymalnego zdrowia. Kumuluje się do {[Type_StatusEffectData.Mut_Curse2_Nat_Major_Damage.StackMax]} razy. Wszystkie obrażenia zadawane przez gracza kradną {[Type_AbilityData.Mut_Curse2_Base_Major_Lifesteal.DmgPctToHealth * 100]}% zdrowia, gdy jest pod wpływem ofiary (tego efektu nie można usunąć za pomocą zdolności gracza).</string>
