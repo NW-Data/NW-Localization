@@ -4,6 +4,7 @@
 	<string key="ui_audio">Audio</string>
 	<string key="ui_controlsettings">Impostazioni dei comandi</string>
 	<string key="ui_gameplay">Impostazioni di gioco</string>
+	<string key="ui_general">Generale</string>
 	<string key="ui_graphicssettings">Impostazioni grafiche</string>
 	<string key="ui_legalnotice">Informazioni legali</string>
 	<string key="ui_legalnotice_desc">Visualizza le informazioni legali in una finestra del browser</string>
@@ -20,6 +21,8 @@
 	<string key="ui_section_gameplay">Impostazioni di gioco</string>
 	<string key="ui_section_hud">HUD</string>
 	<string key="ui_section_healing">Guarigione</string>
+	<string key="ui_section_camera_target_lock" rel_version="Feature_Controller">Blocco bersaglio nemico</string>
+	<string key="ui_section_target_lock" rel_version="Feature_Controller">Blocco bersaglio</string>
 	<string key="ui_section_notifications">Notifiche</string>
 	<string key="ui_section_preferences">Preferenze</string>
 	<string key="ui_section_volume">Volume</string>
@@ -31,16 +34,72 @@
 	<string key="ui_section_graphics">Grafica</string>
 	<string key="ui_section_advgraphics">Impostazioni grafiche avanzate</string>
 	<string key="ui_section_group">Altre opzioni</string>
+	<string key="ui_section_controller" rel_version="Feature_Controller">Controller</string>
+	<string key="ui_controlleroptions" rel_version="Feature_Controller">Opzioni controller</string>
+	<string key="ui_section_controllercamera" rel_version="Feature_Controller">Visuale controller</string>
+	<string key="ui_controllercameraoptions" rel_version="Feature_Controller">Opzioni visuale controller</string>
 	<string key="ui_voicechatsettings">Chat vocale</string>
 	<string key="ui_openvoicechatsettings">Apri impostazioni chat vocale</string>
-	<string key="ui_invertlook">Inverti telecamera [mouse/tastiera]</string>
-	<string key="ui_invertlook_desc">Stabilisci se invertire l'asse verticale quando usi mouse/tastiera</string>
-	<string key="ui_looksensitivity">Sensibilità telecamera [mouse/tastiera]</string>
-	<string key="ui_looksensitivity_desc">Imposta la velocità di movimento della telecamera quando usi mouse/tastiera</string>
+	<string key="ui_invertlook">Inverti telecamera (tastiera e mouse)</string>
+	<string key="ui_invertlook_desc">Stabilisci se invertire l'asse verticale</string>
+	<string key="ui_looksensitivity">Sensibilità telecamera (tastiera e mouse)</string>
+	<string key="ui_looksensitivity_desc">Imposta la velocità di movimento della telecamera</string>
+	<string key="ui_leftdeadzone" rel_version="Feature_Controller">Zona morta joystick sinistro</string>
+	<string key="ui_leftdeadzone_desc" rel_version="Feature_Controller">Imposta la zona morta della levetta sinistra</string>
+	<string key="ui_rightdeadzone" rel_version="Feature_Controller">Zona morta joystick destro</string>
+	<string key="ui_rightdeadzone_desc" rel_version="Feature_Controller">Imposta la zona morta della levetta destra</string>
+	<string key="ui_joysticksensitivityhorizontal" rel_version="Feature_Controller">Sensibilità orizzontale</string>
+	<string key="ui_joysticksensitivityhorizontal_desc" rel_version="Feature_Controller">Imposta la velocità orizzontale della telecamera</string>
+	<string key="ui_joysticksensitivityvertical" rel_version="Feature_Controller">Sensibilità verticale</string>
+	<string key="ui_joysticksensitivityvertical_desc" rel_version="Feature_Controller">Imposta la velocità verticale della telecamera</string>
+	<string key="ui_joysticksensitivityhorizontalADS" rel_version="Feature_Controller">Sensibilità orizzontale durante la mira</string>
+	<string key="ui_joysticksensitivityhorizontalADS_desc" rel_version="Feature_Controller">Imposta la velocità orizzontale della telecamera durante la mira</string>
+	<string key="ui_joysticksensitivityverticalADS" rel_version="Feature_Controller">Sensibilità verticale durante la mira</string>
+	<string key="ui_joysticksensitivityverticalADS_desc" rel_version="Feature_Controller">Imposta la velocità verticale della telecamera durante la mira</string>
+	<string key="ui_joysticksensitivityhorizontalTurret" rel_version="Feature_Controller">Sensibilità orizzontale della torretta</string>
+	<string key="ui_joysticksensitivityhorizontalTurret_desc" rel_version="Feature_Controller">Imposta la velocità orizzontale della telecamera mentre manovri una torretta</string>
+	<string key="ui_joysticksensitivityverticalTurret" rel_version="Feature_Controller">Sensibilità verticale della torretta</string>
+	<string key="ui_joysticksensitivityverticalTurret_desc" rel_version="Feature_Controller">Imposta la velocità verticale della telecamera mentre manovri una torretta</string>
+	<string key="ui_joystickyaxisinvert" rel_version="Feature_Controller">Inverti asse verticale</string>
+	<string key="ui_joystickyaxisinvert_desc" rel_version="Feature_Controller">Stabilisci se invertire l'asse verticale per i comandi della telecamera</string>
+	<string key="ui_joystickedgeboost" rel_version="Feature_Controller">Moltiplicatore di incremento rotazione</string>
+	<string key="ui_joystickedgeboost_desc" rel_version="Feature_Controller">Imposta la velocità di rotazione quando il joystick raggiunge il limite di movimento</string>
+	<string key="ui_joystickcurve" rel_version="Feature_Controller">Curvatura joystick della telecamera</string>
+	<string key="ui_joystickcurve_desc" rel_version="Feature_Controller">Imposta la percentuale di rotazione della telecamera</string>
+	<string key="ui_aim_assist" rel_version="Feature_Controller">Mira assistita</string>
+	<string key="ui_aim_assist_desc" rel_version="Feature_Controller">Stabilisci se abilitare la mira assistita per gli attacchi con proiettili</string>
+	<string key="ui_aim_friction_sensitivity" rel_version="Feature_Controller">Intensità attrito di mira</string>
+	<string key="ui_aim_friction_sensitivity_desc" rel_version="Feature_Controller">Imposta la quantità di attrito applicata mentre miri vicino a un bersaglio</string>
+	<string key="ui_virtualcursorsensitivity" rel_version="Feature_Controller">Sensibilità cursore virtuale</string>
+	<string key="ui_virtualcursorsensitivity_desc" rel_version="Feature_Controller">Imposta la velocità di movimento del cursore virtuale</string>
+	<string key="ui_virtualcursorhoverfadeout" rel_version="Feature_Controller">Dissolvenza cursore virtuale al passaggio</string>
+	<string key="ui_virtualcursorhoverfadeout_desc" rel_version="Feature_Controller">Il cursore virtuale sbiadisce passando sopra un elemento interattivo dell'interfaccia</string>
+	<string key="ui_menu_vibration" rel_version="Feature_Controller">Vibrazione menu</string>
+	<string key="ui_menu_vibration_desc" rel_version="Feature_Controller">Stabilisci se far vibrare il controller passando sopra un elemento interattivo dell'interfaccia</string>
+	<string key="ui_virtualcursordeadzonemultiplier" rel_version="Feature_Controller">Moltiplicatore zona morta del cursore virtuale</string>
+	<string key="ui_virtualcursordeadzonemultiplier_desc" rel_version="Feature_Controller">Imposta il moltiplicatore applicato alle impostazioni della zona morta durante l'uso del cursore virtuale</string>
+	<string key="ui_magnetism_enabled" rel_version="Feature_Controller">Magnetismo del cursore virtuale</string>
+	<string key="ui_magnetism_enabled_desc" rel_version="Feature_Controller">Stabilisci se rallentare il cursore virtuale quando è vicino a elementi interattivi dell'interfaccia.</string>
+	<string key="ui_magnetism_range_absolute" rel_version="Feature_Controller">Raggio del magnetismo assoluto</string>
+	<string key="ui_magnetism_range_absolute_desc" rel_version="Feature_Controller">Imposta la portata del magnetismo del cursore virtuale</string>
+	<string key="ui_magnetism_speed" rel_version="Feature_Controller">Forza magnetica</string>
+	<string key="ui_magnetism_speed_desc" rel_version="Feature_Controller">Imposta la forza magnetica del cursore virtuale</string>
+	<string key="ui_magnetism_forcetapers" rel_version="Feature_Controller">Aumento forza magnetica</string>
+	<string key="ui_magnetism_forcetapers_desc" rel_version="Feature_Controller">La forza magnetica aumenta quando il cursore virtuale è vicino al centro dello schermo</string>
+	<string key="ui_magnetism_forceislinear" rel_version="Feature_Controller">Forza lineare magnetica</string>
+	<string key="ui_magnetism_forceislinear_desc" rel_version="Feature_Controller">La forza magnetica del cursore virtuale è lineare</string>
+	<string key="ui_friction_enabled" rel_version="Feature_Controller">Attrito del cursore virtuale</string>
+	<string key="ui_friction_enabled_desc" rel_version="Feature_Controller">Stabilisci se rendere più adesivo il cursore virtuale passando sopra un elemento interattivo dell'interfaccia</string>
+	<string key="ui_friction_speed" rel_version="Feature_Controller">Forza d'attrito</string>
+	<string key="ui_friction_speed_desc" rel_version="Feature_Controller">Imposta la forza di attrito del cursore virtuale</string>
+	<string key="ui_map_pan_speed" rel_version="Feature_Controller">Velocità di panoramica della mappa</string>
+	<string key="ui_map_pan_speed_desc" rel_version="Feature_Controller">Imposta la velocità con cui la mappa si muove durante la panoramica</string>
+	<string key="ui_map_zoom_speed" rel_version="Feature_Controller">Velocità di zoom della mappa</string>
+	<string key="ui_map_zoom_speed_desc" rel_version="Feature_Controller">Imposta la velocità con cui la mappa si muove durante lo zoom</string>
 	<string key="ui_window_mode">Modalità di visualizzazione</string>
 	<string key="ui_window_mode_desc">Imposta modalità di visualizzazione su schermo</string>
 	<string key="ui_fullscreen">Schermo intero</string>
-	<string key="ui_unavailable_while_dead">Non disponibile quando sei morto</string>
+	<string key="ui_unavailable_while_dead">Non disponibile quando non sei in vita.</string>
 	<string key="ui_windowed">Finestra</string>
 	<string key="ui_windowed_fullscreen">Schermo intero con finestra</string>
 	<string key="ui_borderless_window">Finestra senza bordi</string>
@@ -73,7 +132,9 @@
 	<string key="ui_graphics_emote_fx">Mostra effetti emote</string>
 	<string key="ui_graphics_emote_fx_description">Stabilisci se visualizzare o meno i gli effetti delle emote degli altri giocatori</string>
 	<string key="ui_options_keybindings">Associazione tasti</string>
+	<string key="ui_options_kbm_controls">Tastiera e mouse</string>
 	<string key="ui_options_gameplay">Gioco</string>
+	<string key="ui_options_controller" rel_version="Feature_Controller">Controller</string>
 	<string key="ui_options_visuals">Video</string>
 	<string key="ui_options_preferences">Preferenze</string>
 	<string key="ui_options_audio">Audio</string>
@@ -87,7 +148,7 @@
 	<string key="ui_chat_message_gameplay_opacity_desc">Imposta l'opacità dei messaggi di chat</string>
 	<string key="ui_chat_enable_close_after_send_desc">Stabilisci se chiudere la chat dopo aver inviato un messaggio</string>
 	<string key="ui_chat_enable_always_show_time_options_desc">Stabilisci se visualizzare sempre l'orario del messaggio di chat</string>
-	<string key="ui_chat_enable_alerts_desc">Stabilisci se mostrare avvisi quando la chat è chiusa</string>
+	<string key="ui_chat_enable_alerts_desc">Stabilisci se mostrare avvisi mentre la chat è chiusa</string>
 	<string key="ui_chat_enable_color_messages_options_desc">Imposta il colore del canale per il messaggio di chat</string>
 	<string key="ui_streamermode_ui">Nascondi banner notifiche social</string>
 	<string key="ui_streamermode_ui_desc">Stabilisci se nascondere i banner relativi agli inviti alle compagnie o a unirsi a gruppi o amici (i banner degli inviti a duelli e scambi resteranno visibili)</string>
@@ -209,6 +270,11 @@
 	<string key="ui_subtitles_backing_opacity_desc">Imposta opacità dello sfondo dei sottotitoli (zero corrisponde a nessuna opacità)</string>
 	<string key="ui_subtitles_sample_speaker">Altoparlanti</string>
 	<string key="ui_subtitles_sample" speaker="@ui_subtitles_sample_speaker">Questo è un sottotitolo di prova.</string>
+	<string key="ui_dialogue_autoprogress">Progresso automatico dei dialoghi</string>
+	<string key="ui_dialogue_autoprogress_desc">Seleziona automaticamente la prima opzione nelle conversazioni</string>
+	<string key="ui_dialogue_autoprogress_pause">Pausa nei suggerimenti</string>
+	<string key="ui_dialogue_autoprogress_never">Mai</string>
+	<string key="ui_dialogue_autoprogress_always">Sempre.</string>
 	<string key="ui_metaachievementpopups">Notifiche obiettivi</string>
 	<string key="ui_metaachievementpopups_desc">Stabilisci se visualizzare una notifica sull'HUD quando un obiettivo viene completato</string>
 	<string key="ui_enable_territory_notifications">Notifiche territorio</string>
@@ -250,18 +316,27 @@
 	<string key="ui_options_textSize_bigger">Grande</string>
 	<string key="ui_cameraShake">Vibrazioni telecamera</string>
 	<string key="ui_cameraShake_desc">Stabilisci se abilitare le vibrazioni della telecamera, che potrebbero disorientare alcuni giocatori</string>
-	<string key="ui_strafeCamera">Movimento libero [mouse/tastiera]</string>
-	<string key="ui_strafeCamera_desc">Il personaggio si girerà nella direzione di input del movimento mentre utilizzi mouse/tastiera</string>
+	<string key="ui_strafeCamera">Movimento libero (tastiera e mouse)</string>
+	<string key="ui_strafeCamera_desc">Stabilisci se far girare il personaggio nella direzione di input del movimento</string>
+	<string key="ui_strafeCamera_gamepad" rel_version="Feature_Controller">Movimento libero (controller)</string>
+	<string key="ui_strafeCamera_gamepad_desc" rel_version="Feature_Controller">Stabilisci se far girare il personaggio nella direzione di input del movimento</string>
+	<string key="ui_ping_modifier" rel_version="Feature_Controller">Modificatore avvisi</string>
+	<string key="ui_modifiedCurve" rel_version="Feature_Controller">Zoom visuale in base all'inclinazione</string>
+	<string key="ui_modifiedCurve_desc" rel_version="Feature_Controller">Stabilisci se la telecamera deve eseguire uno zoom indietro quando guardi verso il basso e uno zoom avanti quando guardi verso l'alto</string>
+	<string key="ui_verticalNoiseSuppression" rel_version="Feature_Controller">Movimento verticale telecamera ridotto</string>
+	<string key="ui_verticalNoiseSuppression_desc" rel_version="Feature_Controller">Stabilisci se spostare meno la telecamera durante i salti</string>
 	<string key="ui_alwaysShowReticle">Mostra sempre mirino</string>
 	<string key="ui_alwaysShowReticle_desc">Stabilisci se rendere visibile il mirino anche quando l'arma non è estratta</string>
-	<string key="ui_toggleblockads">Attiva/disattiva Mira e Parata</string>
-	<string key="ui_toggleblockads_desc">Imposta se attivare e disattivare Mira e Parata premendo un pulsante invece che tenendolo premuto</string>
+	<string key="ui_toggleblockads">Tocca per Mira e Parata</string>
+	<string key="ui_toggleblockads_desc">Stabilisci se attivare Mira e Parata toccando i comandi corrispondenti invece di tenerli premuti</string>
 	<string key="ui_enable_ally_team_color_tinting">Colorazione squadra alleata</string>
 	<string key="ui_enable_enemy_team_color_tinting">Colorazione squadra nemica</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Stabilisci se impostare una colorazione per la squadra alleata nelle varie modalità di gioco</string>
 	<string key="ui_enable_enemy_team_color_tinting_desc">Stabilisci se impostare una colorazione per la squadra nemica nelle varie modalità di gioco</string>
 	<string key="ui_reticleDefaultColor">Colore reticolo predefinito</string>
 	<string key="ui_reticleDefaultColor_desc">Imposta colore del reticolo predefinito</string>
+	<string key="ui_reticleLockColor" rel_version="Feature_Controller">Colore reticolo mira assistita (controller)</string>
+	<string key="ui_reticleLockColor_desc" rel_version="Feature_Controller">Imposta il colore del reticolo quando è attiva la mira assistita</string>
 	<string key="ui_show_pvp_xp">Mostra PE PvP</string>
 	<string key="ui_show_pvp_xp_desc">Stabilisci se visualizzare i PE PVP</string>
 	<string key="ui_showInspectHint">Mostra tasto di scelta rapida per le azioni social</string>
@@ -289,6 +364,16 @@
 	<string key="ui_speechtotext_desc">Riconoscimento vocale per la chat vocale</string>
 	<string key="ui_spell_alignment_vfx">Indicatore di incantesimi nemici</string>
 	<string key="ui_spell_alignment_vfx_desc">Stabilisci se aggiungere indicatori alle aree di effetti visivi persistenti del giocatore nemico</string>
+	<string key="ui_shift_modifier_toggle" rel_version="Feature_Controller">Tocca per attivare modificatore di spostamento</string>
+	<string key="ui_shift_modifier_toggle_desc" rel_version="Feature_Controller">Stabilisci se attivare i modificatori di spostamento del controller toccando i comandi corrispondenti</string>
+	<string key="ui_rumble" rel_version="Feature_Controller">Vibrazione</string>
+	<string key="ui_rumble_desc" rel_version="Feature_Controller">Stabilisci se abilitare le vibrazioni del controller</string>
+	<string key="ui_rumble_sensitivity" rel_version="Feature_Controller">Sensibilità vibrazione</string>
+	<string key="ui_rumble_sensitivity_desc" rel_version="Feature_Controller">Imposta sensibilità della vibrazione del controller</string>
+	<string key="ui_attack_facing_camera_kbam_toggle" rel_version="Feature_Controller">Direzione telecamera per attacchi in mischia (tastiera e mouse)</string>
+	<string key="ui_attack_facing_camera_kbam_toggle_desc" rel_version="Feature_Controller">Stabilisci se mirare durante gli attacchi in mischia usando la direzione della telecamera invece della direzione del comando/personaggio</string>
+	<string key="ui_attack_facing_camera_gamepad_toggle" rel_version="Feature_Controller">Direzione telecamera per attacchi in mischia (controller)</string>
+	<string key="ui_attack_facing_camera_gamepad_toggle_desc" rel_version="Feature_Controller">Stabilisci se mirare durante gli attacchi in mischia usando la direzione della telecamera invece della direzione del comando/personaggio</string>
 	<string key="ui_enable_hudShowVitalsValues">Mostra i parametri vitali</string>
 	<string key="ui_enable_hudShowVitalsValues_decstription">Stabilisci se visualizzare la salute e gli altri parametri vitali sulle rispettive barre</string>
 	<string key="ui_enable_hudAlwaysFade">Dissolvenza</string>
@@ -298,7 +383,7 @@
 	<string key="ui_bandwidthmode">Modalità di larghezza di banda</string>
 	<string key="ui_bandwidthmode_desc">Imposta la modalità di larghezza di banda da usare per ricevere dati dal server (valori bassi possono incidere sulla qualità)</string>
 	<string key="ui_analyticsenabled">Dati di telemetria del client</string>
-	<string key="ui_analyticsenabled_desc">Stabilisci se inviare determinati dati di telemetria relativi alla tua esperienza di gioco e alle impostazioni al team di New World (Se riscontri problemi di rete mentre giochi, disattivare questa impostazione potrebbe essere d'aiuto)</string>
+	<string key="ui_analyticsenabled_desc">Stabilisci se inviare determinati dati di telemetria del client relativi alla tua esperienza di gioco e determinate impostazioni al team di New World (se riscontri problemi di rete mentre giochi, modificare questa impostazione potrebbe essere d'aiuto)</string>
 	<string key="ui_leaderboardenabled" rel_version="Feature_Leaderboards">Partecipa alle classifiche</string>
 	<string key="ui_leaderboardenabled_desc" rel_version="Feature_Leaderboards">Stabilisci se visualizzare o meno le classifiche del tuo personaggio e abilitare le ricompense classifica</string>
 	<string key="ui_enable_targeted_healing">Guarigione mirata</string>
@@ -306,22 +391,37 @@
 	<string key="ui_enable_camera_lock_friendlies">Blocco visuale sugli alleati</string>
 	<string key="ui_enable_camera_lock_friendlies_description">Stabilisci se abilitare il sistema di mira sugli alleati per curarli</string>
 	<string key="ui_enable_camera_lock_target_follow">Telecamera sul bersaglio agganciato</string>
-	<string key="ui_enable_camera_lock_target_follow_description">Imposta se la telecamera deve seguire il bersaglio agganciato (disabilita per consentire alla telecamera di muoversi liberamente mentre il bersaglio è agganciato)</string>
+	<string key="ui_enable_camera_lock_target_follow_description">Stabilisci se fare sì che la telecamera segua i bersagli agganciati</string>
 	<string key="ui_enable_camera_lock_retarget">Cambio bersaglio con visuale telecamera</string>
 	<string key="ui_enable_camera_lock_retarget_description">Stabilisci se abilitare il cambiamento del bersaglio agganciato con la visuale della telecamera (disponibile solo se è attiva l'opzione "Telecamera sul bersaglio agganciato")</string>
 	<string key="ui_enable_camera_lock_sticky_lock">Mantieni aggancio</string>
 	<string key="ui_enable_camera_lock_sticky_lock_description">Stabilisci se abilitare il mantenimento del bersaglio selezionato dopo le cure</string>
+	<string key="ui_enable_camera_lock_swap_toggle" rel_version="Feature_Controller">Scambia l'input Bastone della vita per il Blocco bersaglio nemico e alleato</string>
+	<string key="ui_enable_camera_lock_swap_toggle_description" rel_version="Feature_Controller">Stabilisci se scambiare i comandi per il Blocco bersaglio alleato e nemico mentre utilizzi il bastone della vita</string>
 	<string key="ui_enable_camera_lock_group_mode">Modalità gruppo</string>
-	<string key="ui_enable_camera_lock_group_mode_description">Abilita la modalità di gruppo che alterna i membri del gruppo o dell'incursione usando la rotellina centrale del mouse (non ha effetto nelle incursioni in cui è attiva l'opzione "Mira incursioni tramite gruppi e tasti di scelta rapida")</string>
+	<string key="ui_enable_camera_lock_group_mode_description">Stabilisci se alternare i membri del gruppo o dell'incursione prendendo la mira con un bastone della vita. Questa opzione viene disattivata se l'opzione "Mira incursioni tramite tasti di scelta rapida (tastiera e mouse)" è attiva.</string>
 	<string key="ui_enable_target_mygroup_only_in_raid">Solo gruppo in Incursione</string>
-	<string key="ui_enable_target_mygroup_only_in_raid_description">Limita gli alleati selezionabili ai cinque membri del tuo gruppo più vicino durante un'Incursione con modalità Gruppo attiva (non ha effetto nelle incursioni in cui è attiva l'opzione "Mira incursioni tramite gruppi e tasti di scelta rapida"</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Mira incursioni tramite gruppi e tasti di scelta rapida</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Abilita un sistema di mira nelle incursioni che consente di alternare i gruppi da incursione usando la rotellina centrale del mouse e di selezionare membri del gruppo usando i tasti di scelta rapida (per selezionare i bersagli all'interno di un gruppo sarà necessaria un'associazione di tasti; se è attiva l'opzione, solo i membri dell'incursione possono essere selezionati)</string>
+	<string key="ui_enable_target_mygroup_only_in_raid_description">Scegli se limitare gli alleati selezionabili ai membri del tuo gruppo più vicino con modalità Gruppo attiva. Questa opzione viene disattivata se l'opzione "Mira incursioni tramite gruppi e tasti di scelta rapida" è attiva.</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Mira incursioni tramite tasti di scelta rapida (tastiera e mouse)</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Stabilisci se alternare i gruppi da incursione con le associazioni di tasti Bersaglio su/giù e puntare i membri dell'incursione con le associazioni di tasti per i membri del gruppo</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud">Mostra tasti di scelta rapida nelle incursioni</string>
-	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Stabilisci se visualizzare i tasti di scelta rapida per ogni membro del gruppo selezionato quando è attiva l'opzione Mira incursioni tramite gruppi e tasti di scelta rapida</string>
+	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Stabilisci se visualizzare i tasti di scelta rapida per ogni membro del gruppo selezionato mentre è attiva l'opzione "Mira incursioni tramite gruppi e tasti di scelta rapida"</string>
+	<string key="ui_toggle_enemy_target_lock" rel_version="Feature_Controller">Attiva Blocco bersaglio nemico</string>
+	<string key="ui_toggle_ally_target_lock" rel_version="Feature_Controller">Attiva Blocco bersaglio alleato</string>
 	<string key="ui_toggle_target_lock">Attiva Blocco bersaglio</string>
+	<string key="ui_ally_target_lock_modifier" rel_version="Feature_Controller">Modificatore Blocco bersaglio alleato</string>
+	<string key="ui_enable_camera_target_lock" rel_version="Feature_Controller">Blocco bersaglio nemico</string>
+	<string key="ui_enable_camera_target_lock_desc" rel_version="Feature_Controller">Stabilisci se abilitare il sistema di mira sui nemici</string>
+	<string key="ui_camera_lock_target_switch_interpolation_speed" rel_version="Feature_Controller">Velocità di cambio bersaglio</string>
+	<string key="ui_camera_lock_target_switch_interpolation_speed_desc" rel_version="Feature_Controller">Imposta la velocità con cui la telecamera passa a un altro bersaglio</string>
+	<string key="ui_enable_camera_lock_target_auto_switch" rel_version="Feature_Controller">Cambio automatico bersaglio</string>
+	<string key="ui_enable_camera_lock_target_auto_switch_desc" rel_version="Feature_Controller">Stabilisci sa passare automaticamente al bersaglio successivo dopo l'eliminazione del primo (funziona solo se il nuovo bersaglio ti sta puntando)</string>
+	<string key="ui_enable_camera_lock_auto_break_with_hold" rel_version="Feature_Controller">Disattiva automaticamente blocco bersaglio tenendo premuto</string>
+	<string key="ui_enable_camera_lock_auto_break_with_hold_desc" rel_version="Feature_Controller">Stabilisci se disattivare automaticamente il blocco del bersaglio tenendo premuto il comando per un determinato periodo di tempo</string>
+	<string key="ui_camera_lock_auto_break_with_hold_ticks" rel_version="Feature_Controller">Durata pressione Disattiva automaticamente blocco bersaglio tenendo premuto</string>
+	<string key="ui_camera_lock_auto_break_with_hold_ticks_desc" rel_version="Feature_Controller">Imposta la durata della pressione del comando di blocco del bersaglio (in decimi di secondo) quando è attiva l'opzione "Disattiva automaticamente blocco bersaglio tenendo premuto"</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_title">Tasti di scelta rapida non associati</string>
-	<string key="ui_raid_member_hotkeys_unbound_error_message">Per attivare questa funzionalità, vai su Associazione tasti e associa tutti i comandi Punta membro del gruppo nei combattimenti con bastone della vita.</string>
+	<string key="ui_raid_member_hotkeys_unbound_error_message">Per attivare questa funzionalità, apri Associazione tasti e associa tutti i comandi "Punta membro del gruppo nei combattimenti con bastone della vita".</string>
 	<string key="ui_gena_escape" rel_version="Feature_GameEntryNarrationAssistance">Esc</string>
 	<string key="ui_gena" rel_version="Feature_GameEntryNarrationAssistance">Assistente vocale per l'ingresso in gioco</string>
 	<string key="ui_gena_title" rel_version="Feature_GameEntryNarrationAssistance">Assistente vocale per l'ingresso in gioco</string>
@@ -335,7 +435,7 @@
 	<string key="ui_genaprompt_cocscreen" rel_version="Feature_GameEntryNarrationAssistance">Codice di condotta. Acconsenti a proteggere la community, giocare onestamente e rispettare gli altri. Premi {frontEndContinue} per accettare.</string>
 	<string key="ui_genaprompt_titlescreen" rel_version="Feature_GameEntryNarrationAssistance">Schermata iniziale New World. Premi {frontEndContinue} per continuare.</string>
 	<string key="ui_genaprompt_newsscreen" rel_version="Feature_GameEntryNarrationAssistance">Novità di New World. Premi {frontEndContinue} per continuare.</string>
-	<string key="ui_genaprompt_waitingpopup" rel_version="Feature_GameEntryNarrationAssistance">In attesa di accedere. Attendi.</string>
+	<string key="ui_genaprompt_waitingpopup" rel_version="Feature_GameEntryNarrationAssistance">Accesso. Attendi.</string>
 	<string key="ui_genaprompt_loadingscreen" rel_version="Feature_GameEntryNarrationAssistance">Caricamento. Attendi.</string>
 	<string key="ui_genaprompt_characterselect" rel_version="Feature_GameEntryNarrationAssistance">Schermata di selezione del personaggio. Premi {frontEndContinue} per selezionare {characterName}. Premi {toggleMenuComponent} per tornare indietro.</string>
 	<string key="ui_genaprompt_worldselect" rel_version="Feature_GameEntryNarrationAssistance">Schermata di selezione del mondo. Premi {frontEndContinue} per selezionare {world} in {worldset}. Premi {toggleMenuComponent} per tornare indietro.</string>
@@ -355,6 +455,16 @@
 	<string key="ui_genaprompt_popupyesno" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Premi {toggleMenuComponent} per scegliere No. Premi {frontEndContinue} per scegliere Sì.</string>
 	<string key="ui_genaprompt_popupok" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Premi {frontEndContinue} per chiudere.</string>
 	<string key="ui_genaprompt_popupokcancel" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Premi {frontEndContinue} per confermare. Premi {toggleMenuComponent} per annullare.</string>
+	<string key="ui_controllerRemap" rel_version="Feature_Controller">Controller</string>
+	<string key="ui_remapPopup_message" rel_version="Feature_Controller">Stai per riassegnare:\n&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionRemap} &lt;/font&gt;\n\nPremi pulsante/i per associare:</string>
+	<string key="ui_consumable" rel_version="Feature_Controller">Consumabili</string>
+	<string key="ui_remapPopup_rebindConflict" rel_version="Feature_Controller">è già associato a un'altra azione. Se confermi la nuova assegnazione,\n l'azione precedente verrà annullata.\n&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;Confermi di voler associare questa azione? &lt;/font&gt;</string>
+	<string key="ui_keybind_confirm" rel_version="Feature_Controller">Conferma associazione</string>
+	<string key="ui_keybind_doubleMapping" rel_version="Feature_Controller">{tapBinding}\n{holdBinding}</string>
+	<string key="ui_keybind_isBound" rel_version="Feature_Controller">è attualmente associato</string>
+	<string key="ui_keybind_isBoundCombo" rel_version="Feature_Controller">è attualmente associato\n(Combo di pulsanti ammesse)</string>
+	<string key="ui_keybind_newBinding" rel_version="Feature_Controller">&lt;font color={color} face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;è la nuova associazione&lt;/font&gt; </string>
+	<string key="ui_keybind_invalidInput" rel_version="Feature_Controller"> &lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;non è un comando valido&lt;/font&gt; </string>
 	<string key="ui_loadouts" rel_version="Feature_Gear_Set_Storage">Set attrezzatura</string>
 	<string key="ui_showloadouts" rel_version="Feature_Gear_Set_Storage">Mostra set attrezzatura</string>
 	<string key="ui_hideloadouts" rel_version="Feature_Gear_Set_Storage">Nascondi set attrezzatura</string>

@@ -68,9 +68,12 @@
 	<string key="inv_equipLoadSlow">Pesada</string>
 	<string key="inv_equipLoadOverburdened">Excesso de Equipamento</string>
 	<string key="inv_equipLoadTooltip">O peso combinado da armadura e do escudo equipados determina a sua Carga Equipada. Cada Carga Equipada oferece uma esquiva única e outros efeitos.</string>
-	<string key="inv_equipLoadFastTooltip">• Dano Base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]}% \n• Cura Causada: +30% \n• Sua esquiva é uma rolagem rápida. \n• Custo de Vigor de Esquiva: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s após sofrer um golpe corpo a corpo, a distância de esquiva é reduzida em 20% e você não pode correr. \n• Dano Crítico Recebido em PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Light.CritDamageReduction * 100]}%	</string>
-	<string key="inv_equipLoadNormalTooltip">• Dano Base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]}% \n• Duração do Controle Sofrido: -10% \n• Sua esquiva é um pulo rápido. \n• Custo de Vigor de Esquiva: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s após sofrer um golpe corpo a corpo, a distância de esquiva é reduzida em 20% e você não pode correr. \n• Dano Crítico Recebido em PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Medium.CritDamageReduction * 100]}%</string>
-	<string key="inv_equipLoadSlowTooltip">• Estabilidade do Bloqueio: +15% \n• Duração do Controle Sofrido: -20% \n• Cura Causada: -30% \n• Sua esquiva é um passo direcionado. \n• Custo de Vigor de Esquiva: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} \n• Durante {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s após sofrer um golpe corpo a corpo, você não pode correr. \n• Dano Crítico Recebido em PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Heavy.CritDamageReduction * 100]}%</string>
+	<string key="inv_equipLoadFastTooltip">• Dano Base: +{[0.150000 * 100]}% \n• Cura Causada: +30% \n• Estabilidade do Bloqueio: -15% \n• Duração do Controle Sofrido: +10% \n• Sua esquiva é uma rolagem rápida. \n• Custo de Vigor de Esquiva: {[50.000000]} \n• Durante {[1.000000]} s após sofrer um golpe corpo a corpo, a distância de esquiva é reduzida em 20% e você não pode correr. \n• [PvP] Dano Crítico Recebido: -{[0.150000 * 100]}%	
+	</string>
+	<string key="inv_equipLoadNormalTooltip">• Sua esquiva é um pulo rápido. \n• Custo de Vigor de Esquiva: {[50.000000]} \n• Durante {[0.750000]} s após sofrer um golpe corpo a corpo, a distância de esquiva é reduzida em 20% e você não pode correr. \n• [PvP] Dano Crítico Recebido: -{[0.200000 * 100]}%
+	</string>
+	<string key="inv_equipLoadSlowTooltip">• Dano Base: -{[-0.150000 * -100]}% \n• Cura Causada: -30% \n• Estabilidade do Bloqueio: +15% \n• Duração do Controle Sofrido: -20% \n• Sua esquiva é um passo direcionado. \n• Custo de Vigor de Esquiva: {[55.000000]} \n• Durante {[0.500000]} s após sofrer um golpe corpo a corpo, você não pode correr. \n• [PvP] Dano Crítico Recebido: -{[0.250000 * 100]}%
+	</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Quando ultrapassa seu limite máximo de Carga Equipada, você não pode se esquivar, nem correr, nem usar habilidades. É bom desequipar alguns itens.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Se o limite de peso do inventário for excedido, você fica sobrecarregado, o que restringe seus movimentos e ações. Você também consome mais vigor ao bloquear.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Você equipou mais do que a sua carga equipada suporta. Você não pode se esquivar nem correr, e sofrerá uma penalidade significativa na Regeneração de Vigor. É bom desequipar alguns itens.</string>
@@ -91,16 +94,16 @@
 	<string key="inv_repairparts_quantity">{count} Peças de Reparos</string>
 	<string key="inv_repairparts_tooltip_name">PEÇAS DE REPAROS</string>
 	<string key="ui_repairparts">Peças de Reparos</string>
-	<string key="inv_repairparts_tooltip_description">Peças de Reparos são um recurso exclusivo usado para reparar itens.\n\nPeças de Reparos não podem ser comercializadas, vendidas ou compradas. Para receber mais, desmonte itens de armas e armaduras que você não precisa mais.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Origem:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ebe3d6"&gt; Armas, Armadura&lt;/font&gt;</string>
+	<string key="inv_repairparts_tooltip_description">Peças de Reparos são um recurso exclusivo usado para reparar itens.\n\nPeças de Reparos não podem ser comercializadas, vendidas ou compradas. Para receber mais, desmonte itens de armas e armaduras que você não precisa mais.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#b2aea1"&gt;Origem:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ebe3d6"&gt; Armas, Armadura&lt;/font&gt;</string>
 	<string key="inv_repairparts_tooltip_drivedfrom">Armas e Armadura</string>
 	<string key="inv_azoth_tooltip_drivedfrom">Incursões de Corrupção, Jornadas</string>
-	<string key="inv_repairparts_nearlimit">&lt;font color="#f25d5d"&gt;Você está quase no limite de suas Peças de Reparos.&lt;/font&gt;</string>
-	<string key="inv_repairparts_atlimit">&lt;font color="#f25d5d"&gt;Você está no limite de suas Peças de Reparos.&lt;/font&gt;</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#ff7171"&gt;Você está quase no limite de suas Peças de Reparos.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#ff7171"&gt;Você está no limite de suas Peças de Reparos.&lt;/font&gt;</string>
 	<string key="inv_repairparts_resources_nearlimit">Sucatear este item fornecerá entre {min} e {max} {itemName} e {numRepairParts} Peças de Reparos.</string>
-	<string key="inv_repairparts_resources_atlimit">Sucatear este item fornecerá entre {min} e {max} {itemName} e &lt;font color="#f25d5d"&gt;{numRepairParts} Peças de Reparos.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_atlimit">Sucatear este item fornecerá entre {min} e {max} {itemName} e &lt;font color="#ff7171"&gt;{numRepairParts} Peças de Reparos.&lt;/font&gt;</string>
 	<string key="inv_repairparts_onlyrepairparts">Sucatear este item fornecerá {numRepairParts} Peças de Reparos.</string>
 	<string key="inv_repairparts_onlyrepairparts_withcoin">Sucatear este item fornecerá {numRepairParts} Peças de Reparos e {coinAmount}.</string>
-	<string key="inv_coin_atlimit">&lt;font color="#f25d5d"&gt;Você atingiu seu Limite de Moedas.&lt;/font&gt;</string>
+	<string key="inv_coin_atlimit">&lt;font color="#ff7171"&gt;Você atingiu seu Limite de Moedas.&lt;/font&gt;</string>
 	<string key="inv_notification_cannot_use_during_combat">Não é possível usar consumíveis do inventário durante o combate! Em vez disso, equipe-se nos Acessos Rápidos.</string>
 	<string key="salvage_notification_obtained_1">Obteve {entry1}</string>
 	<string key="salvage_notification_obtained_2">Obteve {entry1} e {entry2}</string>
@@ -191,7 +194,7 @@
 	<string key="ui_Constitution_short">CON.</string>
 	<string key="ui_loot_bag_1_item">1 item</string>
 	<string key="ui_loot_bag_items">{amount} itens</string>
-	<string key="tutorial_salvage_items">Sucateie suas armas, armaduras e ferramentas para obter &lt;font color="#ffea00"&gt;Peças de Reparos&lt;/font&gt;.</string>
+	<string key="tutorial_salvage_items">Sucateie suas armas, armaduras e ferramentas para obter &lt;font color="#edc63e"&gt;Peças de Reparos&lt;/font&gt;.</string>
 	<string key="tooltip_weapon_damage_with_pellets">{damage}x{pellets}</string>
 	<string key="inv_TargetDeathDoorNotification">O Alvo está À Beira da Morte</string>
 	<string key="inv_TargetDeadNotification">O Alvo Morreu</string>
@@ -207,6 +210,8 @@
 	<string key="loadout_removefrom_command" rel_version="Feature_Gear_Set_Storage">Remover do Conjunto de Equipamento</string>
 	<string key="loadout_removefromall_command" rel_version="Feature_Gear_Set_Storage">Remover de Todos os Conjuntos de Equipamento</string>
 	<string key="loadout_store_callout" rel_version="Feature_Gear_Set_Storage">Desbloquear Conjuntos de Equipamento Adicionais</string>
+	<string key="loadout_toggle_show_hint" rel_version="Feature_Gear_Set_Storage">Exibir Conjuntos de Equipamento</string>
+	<string key="loadout_toggle_hide_hint" rel_version="Feature_Gear_Set_Storage">Ocultar Conjunto de Equipamento</string>
 	<string key="loadout_store_button" rel_version="Feature_Gear_Set_Storage">Abrir Loja</string>
 	<string key="loadout_import_current" rel_version="Feature_Gear_Set_Storage">Importar itens equipados</string>
 	<string key="loadout_unequipall_tooltip" rel_version="Feature_Gear_Set_Storage">Remover todos os itens</string>

@@ -40,6 +40,7 @@
 	<string key="ui_dye_number" rel_version="Feature_MTX">Tintura n. {rewardId}</string>
 	<string key="ui_unlock_bundle" rel_version="Feature_MTX">Desbloquear conjunto</string>
 	<string key="ui_purchase" rel_version="Feature_MTX">Comprar</string>
+	<string key="ui_purchase_bundle" rel_version="Feature_MTX">Comprar Conjunto</string>
 	<string key="ui_confirm_purchase" rel_version="Feature_MTX">Confirmar Desbloqueio</string>
 	<string key="ui_credit_balance" rel_version="Feature_MTX">Saldo de créditos {balance}</string>
 	<string key="ui_get_credits" rel_version="Feature_MTX">Obter Marcas da Sorte</string>
@@ -69,10 +70,12 @@
 	<string key="entitlement_included" rel_version="Feature_MTX">Incluído</string>
 	<string key="ui_account_bound" rel_version="Feature_MTX">Todos os itens são vinculados à conta (não negociáveis) e não reembolsáveis</string>
 	<string key="ui_account_bound_tooltip" rel_version="Feature_MTX">Todos os itens são vinculados à conta (podem ser usados em todos os seus personagens) e não podem ser descartados, negociados ou vendidos no Entreposto Comercial. Todos os itens também não são reembolsáveis.\n\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font" &gt;Itens consumíveis: &lt;/font&gt; Esses itens têm uso limitado; se você usar um deles em um personagem específico, a quantidade será reduzida em toda a conta. Por exemplo, se você tiver cinco tinturas e usar uma delas em um personagem, os outros personagens da mesma conta também ficarão com quatro tinturas restantes.</string>
-	<string key="ui_unlock_for" rel_version="Feature_MTX">Desbloqueie por &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.5" yOffset="10"&gt;&lt;/img&gt;</string>
+	<string key="store_confirm_purchase_item_cost" rel_version="Feature_MTX">Desbloquear &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{itemName}&lt;/font&gt; por &lt;img src="lyshineui/images/mtx/icon_mtx_currency" xPadding="2" scale="1.8" yOffset="5"&gt;&lt;/img&gt;&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{cost}&lt;/font&gt;?</string>
+	<string key="store_confirm_purchase_balance" rel_version="Feature_MTX">Novo Saldo: &lt;img src="lyshineui/images/mtx/icon_mtx_currency" xPadding="2" scale="1.8" yOffset="5"&gt;&lt;/img&gt;&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{amount}&lt;/font&gt;</string>
+	<string key="ui_unlock_for" rel_version="Feature_MTX">Desbloqueie por &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.5" yOffset="10"&gt;&lt;/img&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt;</string>
 	<string key="ui_unlock_with_icon" rel_version="Feature_MTX">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_purchase" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Desbloquear</string>
 	<string key="ui_bundle_with_icon" rel_version="Feature_MTX">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_bundle" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Conjunto de DLC</string>
-	<string key="ui_currency_price_big" rel_version="Feature_MTX">{number} &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="1.8" yOffset="7"&gt;&lt;/img&gt;</string>
+	<string key="ui_currency_price_big" rel_version="Feature_MTX">&lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="1.8" yOffset="7"&gt;&lt;/img&gt; {number}</string>
 	<string key="ui_do_not_own" rel_version="Feature_MTX">Você não possui este item.</string>
 	<string key="ui_housing_tooltip_noitem">Você não possui este item.</string>
 	<string key="ui_housing_tooltip_not_entitled">Você não possui este item.</string>
@@ -156,7 +159,7 @@
 	<string key="ui_skin_applied">Aparência aplicada ao item</string>
 	<string key="ui_skins_applied">Aparências aplicadas aos itens</string>
 	<string key="ui_purchase_skin">Procurar aparências</string>
-	<string key="ui_shop_tier">ESCALA &lt;font face="lyshineui/fonts/Pica_Italic.font"&gt;&lt;font color="#ffffff"&gt;{number}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_shop_tier">ESCALA &lt;font face="lyshineui/fonts/Pica_Italic.font"&gt;&lt;font color="#ebe3d6"&gt;{number}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_mtx_coming_soon">Em Breve!</string>
 	<string key="ui_button_disabled_dead">Você não pode executar esta ação enquanto estiver morto.</string>
 	<string key="url_refundpolicy_US" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://www.amazongames.com/en-us/support/new-world/articles/amazon-games-refund-policy</string>
@@ -180,6 +183,8 @@
 	<string key="ui_notification_unlock_desc">Itens foram adicionados à sua conta.</string>
 	<string key="ui_notification_unlock_title">Desbloqueou!</string>
 	<string key="ui_view_item">Exibir Itens</string>
+	<string key="store_no_search_results">Nenhum resultado encontrado</string>
+	<string key="store_show_history">Recente</string>
 	<string key="ui_claim_fail_achievementmissing" comment="DO NOT TRANSLATE">Entitlement isn't tied to an Achievement! Failed to claim item.</string>
 	<string key="ui_claim_fail_alreadyunlocked">Você já recebeu este direito.</string>
 	<string key="ui_claim_fail_inventoryfull">Não é possível receber o direito enquanto seu inventário está cheio. Libere espaço e tente novamente.</string>
@@ -188,6 +193,9 @@
 	<string key="ui_claim_fail_entitlementnotunlocked">Não é possível receber um direito que você não possui. Aguarde e tente novamente.</string>
 	<string key="store_requires_expansion_single">Requer {expansionName}</string>
 	<string key="store_requires_expansion_multiple">{quantity} itens neste conjunto precisam de {expansionName}</string>
+	<string key="store_requires_expansion_single_icon">&lt;img src="lyshineui/images/icons/misc/icon_exclamation" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; Requer {expansionName}</string>
+	<string key="store_requires_expansion_single_bundle_icon">&lt;img src="lyshineui/images/icons/misc/icon_exclamation" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; 1 item neste conjunto requer {expansionName}</string>
+	<string key="store_requires_expansion_multiple_icon">&lt;img src="lyshineui/images/icons/misc/icon_exclamation" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; {quantity} itens neste conjunto requerem {expansionName}</string>
 	<string key="store_requires_expansion_warning">Você não poderá usar {quantity} dos itens deste conjunto até adquirir {expansionName}.</string>
 	<string key="store_requires_expansion_confirm">Comprar Mesmo Assim</string>
 	<string key="smolderingscarlet_dye_name" rel_version="Dye_SmolderingScarlet">Escarlate Abrasador</string>
@@ -352,7 +360,7 @@
 	<string key="Bundle_Armor_Good_Evil_description" rel_version="Bundle_Apparel_AngelsDemons">“Em Aeternum, o bem e o mal, o sagrado e o profano envolvem-se como vinhas retorcidas.”</string>
 	<string key="Bundle_Decor_Pirate_description" rel_version="New_World_Launch">“Águas traiçoeiras podem esconder grandes tesouros.”</string>
 	<string key="Bundle_Emote_Launch_description" rel_version="Bundle_LaunchSet_Emote">“Gestos vitais compreendidos em todos os idiomas.”</string>
-	<string key="ui_no_featured_deal">Não há nenhuma promoção em destaque.\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;&lt;font color="#ffffff"&gt;E X P L O R E A L O J A&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_no_featured_deal">Não há nenhuma promoção em destaque.\n\n&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;&lt;font color="#ebe3d6"&gt;E X P L O R E A L O J A&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_no_featured_deal_store">Não há nenhuma promoção em destaque.\nExplore a loja usando as abas na esquerda.</string>
 	<string key="Marks_Of_Fortune_5000_name" rel_version="New_World_Launch">Malote de Marcos</string>
 	<string key="Marks_Of_Fortune_11000_name" rel_version="New_World_Launch">Monte de Marcos</string>
@@ -1187,8 +1195,8 @@
 	<string key="Bundle_PR_BF_Gladekeeper_name" rel_version="Entitlements_Gothknight">Pacote Guardião da clareira</string>
 	<string key="Bundle_PR_BF_Gladekeeper_description" rel_version="Entitlements_Gothknight">A clareira permanece pacífica e serena somente devido à sua proteção inabalável.</string>
 	<string key="Bundle_PR_BF_KnightofHonor_name" rel_version="Entitlements_Gothknight">Pacote Cavalheiro de Honra</string>
-	<string key="Bundle_PR_BF_KnightofHonor_description" rel_version="Entitlements_Gothknight">O cavalheirismo não está morto. Não enquanto você viver.</string>
-	<string key="Bundle_PR_BF_MaulersBrawlers_name" rel_version="Entitlements_Gothknight">Conjunto Marteladores e Brigões</string>
+	<string key="Bundle_PR_BF_KnightofHonor_description" rel_version="Entitlements_Gothknight">O cavalheirismo não está morto. Não enquanto você estiver vivo.</string>
+	<string key="Bundle_PR_BF_MaulersBrawlers_name" rel_version="Entitlements_Gothknight">Pacote Marteladores e Brigões</string>
 	<string key="Bundle_PR_BF_MaulersBrawlers_description" rel_version="Entitlements_Gothknight">Estenda a mão e toque alguém com extrema força com um implemento mortal.</string>
 	<string key="Bundle_PR_BF_AzothArcana_name" rel_version="Entitlements_Gothknight">Pacote Azoth Arcana</string>
 	<string key="Bundle_PR_BF_AzothArcana_description" rel_version="Entitlements_Gothknight">Para aqueles que sentem os fios da magia entrelaçados em seu próprio ser.</string>
@@ -1203,5 +1211,13 @@
 	<string key="Apparel_Seance_TheEffigy_name" rel_version="Entitlements_Seance">A Efígie</string>
 	<string key="SeasonPass_Premium_Season_4_name" rel_version="Season_4_Perm">Passe Premium - Temporada 4</string>
 	<string key="SeasonPass_HeadStart_Season_4_name" rel_version="Season_4_Perm">Começo Ótimo do Passe Premium - Temporada 4</string>
+	<string key="StoreItem_Bundle_PR_Reaper_Bundle1_name" rel_version="Entitlements_Reaper">Conjunto do Fantasma da Garganta Imaterial</string>
+	<string key="StoreItem_Bundle_PR_Reaper_Bundle1_description" rel_version="Entitlements_Reaper">Se olhar para o imaterial por tempo suficiente, logo sua garganta se abrirá e consumirá você.</string>
+	<string key="StoreItem_Bundle_PR_Reaper_Bundle2_name" rel_version="Entitlements_Reaper">Conjunto da Feição do Soberano Espectral</string>
+	<string key="StoreItem_Bundle_PR_Reaper_Bundle2_description" rel_version="Entitlements_Reaper">O Senhor do Nada um dia será o Senhor de Tudo.</string>
+	<string key="StoreItem_Bundle_PR_Reaper_Bundle3_name" rel_version="Entitlements_Reaper">Conjunto de Acréscimo de Montaria Abraço do Ceifeiro</string>
+	<string key="StoreItem_Bundle_PR_Reaper_Bundle3_description" rel_version="Entitlements_Reaper">Seu corcel é tanto do Imaterial quanto você é.</string>
+	<string key="StoreItem_Bundle_PR_Battlemage_Bundle_name" rel_version="Entitlements_Battlemage">Steelclad Warlock Bundle</string>
+	<string key="StoreItem_Bundle_PR_Battlemage_Bundle_description" rel_version="Entitlements_Battlemage">An Arcanist with an attitude. And a deadly repertoire of spells.</string>
 </resources>
 

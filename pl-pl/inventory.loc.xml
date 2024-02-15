@@ -68,9 +68,12 @@
 	<string key="inv_equipLoadSlow">Ciężkie</string>
 	<string key="inv_equipLoadOverburdened">Nadmiar ekwipunku</string>
 	<string key="inv_equipLoadTooltip">Łączna waga noszonego pancerza i tarczy określa ciężar twojego wyposażenia. W zależności od ciężaru wyposażenia różnią się uniki i inne efekty.</string>
-	<string key="inv_equipLoadFastTooltip">• Obrażenia podstawowe: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]}% \n• Leczenie innych: +30% \n• W ramach uniku wykonujesz szybki przewrót. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s. W tym czasie nie możesz również biegać.\n• Otrzymywane obrażenia krytyczne podczas PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Light.CritDamageReduction * 100]}%	</string>
-	<string key="inv_equipLoadNormalTooltip">• Obrażenia podstawowe: +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]}% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -10% \n• W ramach uniku wykonujesz szybki odskok. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s. W tym czasie nie możesz również biegać.\n• Otrzymywane obrażenia krytyczne podczas PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Medium.CritDamageReduction * 100]}%</string>
-	<string key="inv_equipLoadSlowTooltip">• Stabilność blokowania: +15% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -20% \n• Leczenie innych: -30% \n• Możesz wykonać powolny zwód. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że nie możesz biegać przez {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s.\n• Otrzymywane obrażenia krytyczne podczas PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Heavy.CritDamageReduction * 100]}%</string>
+	<string key="inv_equipLoadFastTooltip">• Obrażenia podstawowe: +{[0.150000 * 100]}% \n• Leczenie innych: +30% \n• Stabilność blokowania: -15% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: +10% \n• W ramach uniku wykonujesz szybki przewrót. \n• Koszt uniku: {[50.000000]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[1.000000]} s. W tym czasie nie możesz również biegać. \n• [PvP] Otrzymywane obrażenia krytyczne: -{[0.150000 * 100]}%	
+	</string>
+	<string key="inv_equipLoadNormalTooltip">• W ramach uniku wykonujesz szybki odskok. \n• Koszt uniku: {[50.000000]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[0.750000]} s. W tym czasie nie możesz również biegać. \n• [PvP] Otrzymywane obrażenia krytyczne: -{[0.200000 * 100]}%
+	</string>
+	<string key="inv_equipLoadSlowTooltip">• Obrażenia podstawowe: -{[-0.150000 * -100]}% \n• Leczenie innych: -30% \n• Stabilność blokowania: +15% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -20% \n• Możesz wykonać powolny zwód. \n• Koszt uniku: {[55.000000]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że nie możesz biegać przez {[0.500000]} s.\n• [PvP] Otrzymywane obrażenia krytyczne: -{[0.250000 * 100]}%
+	</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Po przekroczeniu maksymalnego ciężaru wyposażenia nie możesz wykonywać uników, biegać i używać umiejętności. Odłóż część przedmiotów.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Jeśli limit ciężaru twojego ekwipunku zostanie przekroczony, ulegniesz przeciążeniu – stan ten ogranicza twoje ruchy i czynności. Ponadto blokowanie zużywa więcej wytrzymałości.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Waga przenoszonych przez ciebie przedmiotów przekracza maksymalny ciężar wyposażenia. Nie możesz biegać ani wykonywać uników i otrzymujesz karę do szybkości regeneracji wytrzymałości. Odłóż część przedmiotów.</string>
@@ -91,16 +94,16 @@
 	<string key="inv_repairparts_quantity">Części zamienne: {count}</string>
 	<string key="inv_repairparts_tooltip_name">CZĘŚCI ZAMIENNE</string>
 	<string key="ui_repairparts">Części zamienne</string>
-	<string key="inv_repairparts_tooltip_description">Części zamienne to zasoby używane do naprawy przedmiotów.\n\nCzęści zamiennych nie można kupić, sprzedać ani nimi handlować. By zdobyć więcej, rozbieraj na części niepotrzebne elementy pancerza i broń.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Źródło:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ebe3d6"&gt;Broń, pancerz&lt;/font&gt;</string>
+	<string key="inv_repairparts_tooltip_description">Części zamienne to zasoby używane do naprawy przedmiotów.\n\nCzęści zamiennych nie można kupić, sprzedać ani nimi handlować. By zdobyć więcej, rozbieraj na części niepotrzebne elementy pancerza i broń.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#b2aea1"&gt;Źródło:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ebe3d6"&gt;Broń, pancerz&lt;/font&gt;</string>
 	<string key="inv_repairparts_tooltip_drivedfrom">Broń i pancerz</string>
 	<string key="inv_azoth_tooltip_drivedfrom">Wyłomy skażenia, zadania</string>
-	<string key="inv_repairparts_nearlimit">&lt;font color="#f25d5d"&gt;Prawie osiągnięto limit części zamiennych.&lt;/font&gt;</string>
-	<string key="inv_repairparts_atlimit">&lt;font color="#f25d5d"&gt;Osiągnięto limit części zamiennych.&lt;/font&gt;</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#ff7171"&gt;Prawie osiągnięto limit części zamiennych.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#ff7171"&gt;Osiągnięto limit części zamiennych.&lt;/font&gt;</string>
 	<string key="inv_repairparts_resources_nearlimit">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} ({min}–{max}) oraz części zamienne: {numRepairParts}.</string>
-	<string key="inv_repairparts_resources_atlimit">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} ({min}–{max}) oraz &lt;font color="#f25d5d"&gt;części zamienne: {numRepairParts}.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_atlimit">Po odzyskaniu tego przedmiotu otrzymasz: {itemName} ({min}–{max}) oraz &lt;font color="#ff7171"&gt;części zamienne: {numRepairParts}.&lt;/font&gt;</string>
 	<string key="inv_repairparts_onlyrepairparts">Po odzyskaniu tego przedmiotu otrzymasz części zamienne w liczbie {numRepairParts}.</string>
 	<string key="inv_repairparts_onlyrepairparts_withcoin">Po odzyskaniu tego przedmiotu otrzymasz części zamienne ({numRepairParts}) oraz monety ({coinAmount}).</string>
-	<string key="inv_coin_atlimit">&lt;font color="#f25d5d"&gt;Osiągnięto limit monet.&lt;/font&gt;</string>
+	<string key="inv_coin_atlimit">&lt;font color="#ff7171"&gt;Osiągnięto limit monet.&lt;/font&gt;</string>
 	<string key="inv_notification_cannot_use_during_combat">Podczas walki nie można korzystać z przedmiotów użytkowych, które są w ekwipunku! Aby z nich korzystać, dodaj je do okien szybkiego wyboru.</string>
 	<string key="salvage_notification_obtained_1">Pozyskano: {entry1}</string>
 	<string key="salvage_notification_obtained_2">Pozyskano: {entry1} oraz {entry2}</string>
@@ -191,7 +194,7 @@
 	<string key="ui_Constitution_short">KOND.</string>
 	<string key="ui_loot_bag_1_item">1 przedmiot</string>
 	<string key="ui_loot_bag_items">Przedmioty: {amount}</string>
-	<string key="tutorial_salvage_items">Odzyskuj &lt;font color="#ffea00"&gt;części zamienne&lt;/font&gt; z broni, pancerzy i narzędzi.</string>
+	<string key="tutorial_salvage_items">Odzyskuj &lt;font color="#edc63e"&gt;części zamienne&lt;/font&gt; z broni, pancerzy i narzędzi.</string>
 	<string key="tooltip_weapon_damage_with_pellets">{damage}x{pellets}</string>
 	<string key="inv_TargetDeathDoorNotification">Cel jest u bram zaświatów</string>
 	<string key="inv_TargetDeadNotification">Cel nie żyje</string>
@@ -207,6 +210,8 @@
 	<string key="loadout_removefrom_command" rel_version="Feature_Gear_Set_Storage">Usuń z zestawu wyposażenia</string>
 	<string key="loadout_removefromall_command" rel_version="Feature_Gear_Set_Storage">Usuń z wszystkich zestawów wyposażenia</string>
 	<string key="loadout_store_callout" rel_version="Feature_Gear_Set_Storage">Odblokuj dodatkowe zestawy wyposażenia</string>
+	<string key="loadout_toggle_show_hint" rel_version="Feature_Gear_Set_Storage">Pokaż zestawy wyposażenia</string>
+	<string key="loadout_toggle_hide_hint" rel_version="Feature_Gear_Set_Storage">Ukryj zestawy wyposażenia</string>
 	<string key="loadout_store_button" rel_version="Feature_Gear_Set_Storage">Otwórz sklep</string>
 	<string key="loadout_import_current" rel_version="Feature_Gear_Set_Storage">Dodaj wyposażone przedmioty</string>
 	<string key="loadout_unequipall_tooltip" rel_version="Feature_Gear_Set_Storage">Usuń wszystkie przedmioty</string>

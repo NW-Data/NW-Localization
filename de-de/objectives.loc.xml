@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="ui_locationHudHeader" speaker="UI" comment="header above event/location objectives on HUD while esc menu is open">Ort</string>
-	<string key="ui_pinnedHudHeader" speaker="UI" comment="header above manually pinned objectives on HUD while esc menu is open">Angeheftet</string>
-	<string key="ui_nearbyHudHeader" speaker="UI" comment="header above auto-added nearby objectives on HUD while esc menu is open">Nahe</string>
+	<string key="ui_locationHudHeader" comment="header above event/location objectives on HUD while esc menu is open" speaker="UI">Ort</string>
+	<string key="ui_pinnedHudHeader" comment="header above manually pinned objectives on HUD while esc menu is open" speaker="UI">Angeheftet</string>
+	<string key="ui_nearbyHudHeader" comment="header above auto-added nearby objectives on HUD while esc menu is open" speaker="UI">Nahe</string>
 	<string key="journal_chapter_count" speaker="UI">Gefundene Kapitel:</string>
 	<string key="journal_chapter_title" speaker="UI">KAPITEL</string>
 	<string key="journal_chapters_completed" speaker="UI">Abgeschlossene Kapitel</string>
@@ -35,10 +35,10 @@
 	<string key="objective_bringsword" speaker="UI">Stelle beim Waffenschmied Folgendes her: {itemName}</string>
 	<string key="objective_build" speaker="UI">Errichte Folgendes: {structureName}.</string>
 	<string key="objective_buySell_buyItem" speaker="UI">Kaufe {itemAmount}x {itemName}.</string>
-	<string key="objective_buySell_earnGoldFromItem" speaker="UI">Verdiene {amountCount} Taler durch den Verkauf von "{itemName}".</string>
+	<string key="objective_buySell_earnGoldFromItem" speaker="UI">Verdiene {amountCount} Taler durch den Verkauf von Folgendem: {itemName}.</string>
 	<string key="objective_buySell_earnGoldSingleTransaction" speaker="UI">Verdiene {amountCount} Taler bei einer einzelnen Transaktion</string>
 	<string key="objective_buySell_sellItem" speaker="UI">Verkaufe {itemAmount}x {itemName}.</string>
-	<string key="objective_buySell_spendGoldOnItem" speaker="UI">Gib {amountCount} Taler für den Kauf von "{itemName}" aus.</string>
+	<string key="objective_buySell_spendGoldOnItem" speaker="UI">Gib {amountCount} Taler für den Kauf von Folgendem aus: {itemName}.</string>
 	<string key="objective_buySell_spendGoldSingleTransaction" speaker="UI">Gib bei einer einzelnen Transaktion {amountCount} Taler aus</string>
 	<string key="objective_completed" speaker="UI">Ziel erfüllt</string>
 	<string key="dynamic_poi_objective_completed" speaker="UI">Landmarke erkundet</string>
@@ -78,7 +78,7 @@
 	<string key="objective_guild" speaker="UI">Tritt einer Kompanie bei</string>
 	<string key="objective_hand_in_destination" speaker="UI">Sprich mit: {npcName}</string>
 	<string key="objective_have_level" speaker="UI">Erreiche Stufe {level}</string>
-	<string key="objective_have" speaker="UI">Erhalte "{itemName}"</string>
+	<string key="objective_have" speaker="UI">Erhalte Folgendes: {itemName}.</string>
 	<string key="objective_have_p" speaker="UI">Erlange {itemAmount}x {itemName}.</string>
 	<string key="@objective_house_score" speaker="UI">Erreiche Hausdekorationspunktzahl {score}</string>
 	<string key="objective_ingredients" speaker="UI">ZUTATEN</string>
@@ -100,7 +100,7 @@
 	<string key="objective_kill_p" speaker="UI">Töte {amountCount}x {enemy}.</string>
 	<string key="objective_location" speaker="UI">Ort</string>
 	<string key="objective_location_desc" speaker="UI">Zu bestimmten Gebieten hinzugefügt</string>
-	<string key="objective_loot" speaker="UI">Erbeute {itemName}.</string>
+	<string key="objective_loot" speaker="UI">Erbeute Folgendes: {itemName}.</string>
 	<string key="objective_mission" speaker="UI">Fraktionsmissionen</string>
 	<string key="objective_mission_desc" speaker="UI">Erhalten von einem Fraktionsvertreter</string>
 	<string key="objective_mission_desc_bounty_hunter_kill" speaker="UI">Erkunde die Umgebung und töte gefährliche Feinde</string>
@@ -117,7 +117,7 @@
 	<string key="objective_mission_task_desc_return_to_giver_cm" speaker="UI">Abschluss an der Stadtprojektübersicht ({destinationName})</string>
 	<string key="objective_mission_task_desc_return_to_giver" speaker="UI">Abschluss beim Fraktionsvertreter ({destinationName})</string>
 	<string key="objective_mission_task_desc_return_to_any_giver" speaker="UI">Bei einem beliebigen Fraktionsvertreter abschließen</string>
-	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Verlasse die Instanz, um die Aufgabe abzuschließen.</string>
+	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Kehre zum Abschließen zum Missionsgeber zurück. </string>
 	<string key="objective_mission_task_explore_POITag" speaker="UI">Erkunde: {POITags}</string>
 	<string key="objective_mission_task_explore_the_POITag" speaker="UI">Erkunde: {POITags}</string>
 	<string key="objective_mission_task_goto_Map_Location" speaker="UI">Untersuche das auf der Karte markierte Schiffswrack</string>
@@ -158,10 +158,10 @@
 	<string key="objective_get_msq_message" speaker="UI">Du hast derzeit keine aktive Haupthandlungsaufgaben.\nSuche auf der Karte nach diesem Symbol, um herauszufinden, ob die nächste Haupthandlungsaufgabe verfügbar ist.</string>
 	<string key="M_procurer_craft_workorder_items" speaker="UI">Herstellungsmission</string>
 	<string key="objective_challenge" speaker="UI">Herausforderung</string>
-	<string key="objective_name_template" speaker="UI" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title.">Aufgabe: {title}</string>
-	<string key="objective_name_and_rewards_template" speaker="UI" comment="Shows above rewards on the conversation screen. {title} is the quest title">"{title}" – Belohnungen</string>
-	<string key="objective_rewards_completion" speaker="UI" comment="Rewards label when completing a quest">Belohnungen für Abschluss</string>
-	<string key="objective_rewards_proposal" speaker="UI" comment="Rewards label when accepting a quest">Schließe die Aufgabe ab, um Folgendes zu erhalten:</string>
+	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Aufgabe: {title}</string>
+	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">"{title}" – Belohnungen</string>
+	<string key="objective_rewards_completion" comment="Rewards label when completing a quest" speaker="UI">Belohnungen für Abschluss</string>
+	<string key="objective_rewards_proposal" comment="Rewards label when accepting a quest" speaker="UI">Schließe die Aufgabe ab, um Folgendes zu erhalten:</string>
 	<string key="objective_objective" speaker="UI">Ziel</string>
 	<string key="objective_objectives" speaker="UI">Ziele</string>
 	<string key="objectives_sort" speaker="UI">Sortieren nach:</string>
@@ -201,7 +201,7 @@
 	<string key="objective_recipepinned" speaker="UI">Plan angeheftet</string>
 	<string key="objective_recipes" speaker="UI">Pläne</string>
 	<string key="objective_recipes_desc" speaker="UI">Aus Herstellungswerkstellen</string>
-	<string key="objective_recipetemplate" speaker="UI" comment="How recipe names show in the HUD. Use {title} for the item name">Plan für {title}</string>
+	<string key="objective_recipetemplate" comment="How recipe names show in the HUD. Use {title} for the item name" speaker="UI">Plan für {title}</string>
 	<string key="objective_recipe_abandontitle">Plan wegwerfen</string>
 	<string key="objective_recipe_abandonbody">Möchtest du den aktuellen Plan wirklich wegwerfen?</string>
 	<string key="objective_artifacts" speaker="UI" rel_version="Feature_Artifacts">Artefakte</string>
@@ -259,9 +259,9 @@
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Halte {POITags} für {timeRemaining}</string>
 	<string key="objective_mission_task_control_point" speaker="UI">Erobere am folgenden Ort einen Fraktionskontrollpunkt für die Marodeure: {TerritoryID}.</string>
 	<string key="task_choose_faction" speaker="UI">Wähle eine Fraktion (via {destinationName})</string>
-	<string key="complete_available_prompt_DEFAULT" speaker="UI - Button" comment="male">Aufgabe abschließen</string>
+	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Aufgabe abschließen</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Nimm folgende Aufgabe an:</string>
-	<string key="desc_getoffbeach" speaker="UI - Journal - Quest  Description" comment="male">Untersuche den Ort, der so etwas wie ein Wachturm zu sein scheint.</string>
+	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Quest  Description">Untersuche den Ort, der so etwas wie ein Wachturm zu sein scheint.</string>
 	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title">Einziger Überlebender</string>
 	<string key="task_getoffbeach_openmap">Öffne die Karte</string>
 	<string key="have_berries">Suche Beeren</string>
@@ -400,47 +400,27 @@
 	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Besiege: {targetName}-Gegner in Arena</string>
 	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Besiege folgende Gegner: {targetName}</string>
 	<string key="Objective_CraftArtifact" rel_version="Feature_Expansion_1">Werte den Gegenstand am Gips-Ofen auf.</string>
-	<string key="LNY_tribute_table" rel_version="Event_Lunar_NewYear_Temp">Tribut an den Drachen</string>
-	<string key="LNY_tribute_table_description" rel_version="Event_Lunar_NewYear_Temp">Beschaffe Erbstücke von den Verderbten und koche eine traditionelle Opferspeise, um den Drachensegen zu erbitten. Dieses Ereignis rotiert zwischen verschiedenen Orten in Ebenmaß.</string>
-	<string key="Objective_lny_tribute_wave_00_title" rel_version="Event_Lunar_NewYear_Temp">Sammle Erbstücke.</string>
-	<string key="Objective_lny_tribute_wave_00_desc" rel_version="Event_Lunar_NewYear_Temp">Beschaffe Gegenstände von den Verderbten.</string>
-	<string key="Objective_lny_tribute_heirloom_01_title" rel_version="Event_Lunar_NewYear_Temp">Kommuniziere mit dem Drachen</string>
-	<string key="Objective_lny_tribute_heirloom_01_desc" rel_version="Event_Lunar_NewYear_Temp">Beschaffe Jahrhundertwein und stelle ihn auf den Beistelltisch.</string>
-	<string key="Objective_lny_tribute_heirloom_02_title" rel_version="Event_Lunar_NewYear_Temp">Kommuniziere mit dem Drachen</string>
-	<string key="Objective_lny_tribute_heirloom_02_desc" rel_version="Event_Lunar_NewYear_Temp">Beschaffe jadegrünen Tee und stelle ihn auf den Beistelltisch.</string>
-	<string key="Objective_lny_tribute_heirloom_03_title" rel_version="Event_Lunar_NewYear_Temp">Kommuniziere mit dem Drachen</string>
-	<string key="Objective_lny_tribute_heirloom_03_desc" rel_version="Event_Lunar_NewYear_Temp">Beschaffe eine Schriftrolle der Ahnen und lege sie auf den Beistelltisch.</string>
-	<string key="Objective_lny_tribute_wave_03_title" rel_version="Event_Lunar_NewYear_Temp">Kommuniziere mit dem Drachen</string>
-	<string key="Objective_lny_tribute_wave_03_desc" rel_version="Event_Lunar_NewYear_Temp">Bereite gedeihenden Fisch zu stelle ihn auf den Beistelltisch.</string>
-	<string key="Objective_lny_tribute_wave_04_title" rel_version="Event_Lunar_NewYear_Temp">Schließe das Ritual ab.</string>
-	<string key="Objective_lny_tribute_wave_04_desc" rel_version="Event_Lunar_NewYear_Temp">Nähere dich dem Energieausbruch.</string>
-	<string key="Objective_lny_tribute_wave_04B_desc" rel_version="Event_Lunar_NewYear_Temp">Stimme dich auf den Drachensegen ein.</string>
-	<string key="Objective_lny_tribute_wave_05_title" rel_version="Event_Lunar_NewYear_Temp">Die Unwürdigen</string>
-	<string key="Objective_lny_tribute_wave_05_desc" rel_version="Event_Lunar_NewYear_Temp">Besiege die Dynastien-Räuber.</string>
-	<string key="Objective_lny_tribute_wave_06A_title" rel_version="Event_Lunar_NewYear_Temp">Die Unwürdigen</string>
-	<string key="Objective_lny_tribute_wave_06A_desc" rel_version="Event_Lunar_NewYear_Temp">Besiege Dynastien-Grobiane.</string>
-	<string key="Objective_lny_tribute_wave_06B_title" rel_version="Event_Lunar_NewYear_Temp">Die Unwürdigen</string>
-	<string key="Objective_lny_tribute_wave_06B_desc" rel_version="Event_Lunar_NewYear_Temp">Besiege Dynastien-Musketiere.</string>
-	<string key="Objective_lny_tribute_wave_07A_title" rel_version="Event_Lunar_NewYear_Temp">Die Unwürdigen</string>
-	<string key="Objective_lny_tribute_wave_07A_desc" rel_version="Event_Lunar_NewYear_Temp">Besiege die Dynastien-Magd Ying.</string>
-	<string key="Objective_lny_tribute_wave_07B_title" rel_version="Event_Lunar_NewYear_Temp">Die Unwürdigen</string>
-	<string key="Objective_lny_tribute_wave_07B_desc" rel_version="Event_Lunar_NewYear_Temp">Besiege die verderbten Tiger.</string>
-	<string key="Objective_lny_tribute_get" rel_version="Event_Lunar_NewYear_Temp">Beschaffe Dynastien-Erbstücke.</string>
-	<string key="Objective_lny_tribute_get_heirloom_01" rel_version="Event_Lunar_NewYear_Temp">Beschaffe Jahrhundertwein.</string>
-	<string key="Objective_lny_tribute_get_heirloom_02" rel_version="Event_Lunar_NewYear_Temp">Beschaffe jadegrünen Tee.</string>
-	<string key="Objective_lny_tribute_get_heirloom_03" rel_version="Event_Lunar_NewYear_Temp">Beschaffe eine Schriftrolle der Ahnen.</string>
-	<string key="Objective_lny_tribute_fish" rel_version="Event_Lunar_NewYear_Temp">Bereite den Tribut vor.</string>
-	<string key="Objective_lny_tribute_get_fish" rel_version="Event_Lunar_NewYear_Temp">Koche gedeihenden Fisch in dem Wok auf dem nahegelegenen Essenswagen.</string>
-	<string key="Objective_lny_tribute_place" rel_version="Event_Lunar_NewYear_Temp">Beginne das Ritual.</string>
-	<string key="Objective_lny_tribute_place_heirloom_01" rel_version="Event_Lunar_NewYear_Temp">Stelle den Jahrhundertwein auf den Altar.</string>
-	<string key="Objective_lny_tribute_place_heirloom_02" rel_version="Event_Lunar_NewYear_Temp">Stelle den jadegrünen Tee auf den Altar.</string>
-	<string key="Objective_lny_tribute_place_heirloom_03" rel_version="Event_Lunar_NewYear_Temp">Lege die Schriftrolle der Ahnen auf den Altar.</string>
-	<string key="Objective_lny_tribute_place_fish" rel_version="Event_Lunar_NewYear_Temp">Platziere den gedeihenden Fisch und kommuniziere mit dem Drachen.</string>
-	<string key="Objective_lny_tribute_wave_3_1_desc" rel_version="Event_Lunar_NewYear_Temp">Besiege die verderbten Dynastien-Truppen.</string>
-	<string key="Objective_lny_tribute_wave_3_2_desc" rel_version="Event_Lunar_NewYear_Temp">Überlebe die Verderbnisbelagerung.</string>
-	<string key="Objective_lny_tribute_wave_3_3_desc" rel_version="Event_Lunar_NewYear_Temp">Besiege Dynastien-Grobiane und Dynastien-Musketiere.</string>
-	<string key="Objective_lny_tribute_wave_3_4_desc" rel_version="Event_Lunar_NewYear_Temp">Besiege Ying und ihre Tiere.</string>
-	<string key="Objective_lny_tribute_reward" rel_version="Event_Lunar_NewYear_Temp">Bring das Ritual zu Ende.</string>
-	<string key="Objective_lny_tribute_reward_break_core" rel_version="Event_Lunar_NewYear_Temp">Zerbrich den verderbten Kern und lege den Drachensegen frei.</string>
+	<string key="Objective_Artifact_Set2_HeavyHands" rel_version="Feature_Artifacts_S5">Artefakt: Gillis Schwerkraftstulpen</string>
+	<string key="Objective_Artifact_Set2_HeavyLegs" rel_version="Feature_Artifacts_S5">Artefakt: Eisenherz</string>
+	<string key="Objective_Artifact_Set2_MediumChest" rel_version="Feature_Artifacts_S5">Artefakt: Zorn der Natur</string>
+	<string key="Objective_Artifact_Set2_LightFeet" rel_version="Feature_Artifacts_S5">Artefakt: Stiefel des Glaubens</string>
+	<string key="Objective_Artifact_Set2_1hThrowingAxe" rel_version="Feature_Artifacts_S5">Artefakt: Sünde</string>
+	<string key="Objective_Artifact_Set2_2hGreatAxe" rel_version="Feature_Artifacts_S5">Artefakt: Zorn des Sturmwinds</string>
+	<string key="Objective_Artifact_Set2_2hSpear" rel_version="Feature_Artifacts_S5">Artefakt: Gift</string>
+	<string key="Objective_Artifact_Set2_Amulet1" rel_version="Feature_Artifacts_S5">Artefakt: Phönix</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase0" rel_version="Quest_MSQ3_Ebonscale">Rette den gequälten Prinzen</string>
+	<string key="99F_Enc_Liang_Objective_Phase0" rel_version="Quest_MSQ3_Ebonscale">Gehe zu Liang.</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase1" rel_version="Quest_MSQ3_Ebonscale">Rette den gequälten Prinzen</string>
+	<string key="99F_Enc_Liang_Objective_Phase1" rel_version="Quest_MSQ3_Ebonscale">Setze Fähigkeiten oder schwere Angriffe ein, um Liang mit Talismanen zu behängen.</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase2" rel_version="Quest_MSQ3_Ebonscale">Rette den gequälten Prinzen</string>
+	<string key="99F_Enc_Liang_Objective_Phase2" rel_version="Quest_MSQ3_Ebonscale">Behänge Liang noch mit 6 weiteren Talismanen, um ihn bewegungsunfähig zu machen.</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase3" rel_version="Quest_MSQ3_Ebonscale">Rette den gequälten Prinzen</string>
+	<string key="99F_Enc_Liang_Objective_Phase3" rel_version="Quest_MSQ3_Ebonscale">Behänge Liang noch mit 8 weiteren Talismanen, um ihn bewegungsunfähig zu machen.</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase4" rel_version="Quest_MSQ3_Ebonscale">Rette den gequälten Prinzen</string>
+	<string key="99F_Enc_Liang_Objective_Phase4" rel_version="Quest_MSQ3_Ebonscale">Befreie Liangs Seele mit deinem Azoth-Stab und gehe dann nach draußen.</string>
+	<string key="objective_weekly_description" speaker="UI">Wöchentliche Aufgabe</string>
+	<string key="objective_daily_description" speaker="UI">Tägliche Aufgabe</string>
+	<string key="objective_hourly_description" speaker="UI">Stündliche Aufgabe</string>
+	<string key="objective_minutely_description" speaker="UI">Minütliche Aufgabe</string>
 </resources>
 

@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="ui_locationHudHeader" speaker="UI" comment="header above event/location objectives on HUD while esc menu is open">Ubicación</string>
-	<string key="ui_pinnedHudHeader" speaker="UI" comment="header above manually pinned objectives on HUD while esc menu is open">Fijado</string>
-	<string key="ui_nearbyHudHeader" speaker="UI" comment="header above auto-added nearby objectives on HUD while esc menu is open">Cerca</string>
+	<string key="ui_locationHudHeader" comment="header above event/location objectives on HUD while esc menu is open" speaker="UI">Ubicación</string>
+	<string key="ui_pinnedHudHeader" comment="header above manually pinned objectives on HUD while esc menu is open" speaker="UI">Fijado</string>
+	<string key="ui_nearbyHudHeader" comment="header above auto-added nearby objectives on HUD while esc menu is open" speaker="UI">Cerca</string>
 	<string key="journal_chapter_count" speaker="UI">Capítulos descubiertos:</string>
 	<string key="journal_chapter_title" speaker="UI">CAPÍTULO</string>
 	<string key="journal_chapters_completed" speaker="UI">Capítulos completados</string>
@@ -117,7 +117,7 @@
 	<string key="objective_mission_task_desc_return_to_giver_cm" speaker="UI">Completo en el tablero de proyectos de pueblo de {destinationName}</string>
 	<string key="objective_mission_task_desc_return_to_giver" speaker="UI">Completa en el representante de la facción de {destinationName}</string>
 	<string key="objective_mission_task_desc_return_to_any_giver" speaker="UI">Completa en cualquier representante de la facción</string>
-	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Sal de la instancia para completar la tarea</string>
+	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Regresa al proveedor de la misión para completar </string>
 	<string key="objective_mission_task_explore_POITag" speaker="UI">Explora {POITags}</string>
 	<string key="objective_mission_task_explore_the_POITag" speaker="UI">Explora los {POITags}</string>
 	<string key="objective_mission_task_goto_Map_Location" speaker="UI">Investiga el naufragio marcado en tu mapa</string>
@@ -158,10 +158,10 @@
 	<string key="objective_get_msq_message" speaker="UI">Actualmente, no tienes misiones activas de la historia principal.\nBusca este ícono en el mapa para averiguar si está disponible la siguiente misión de la historia principal.</string>
 	<string key="M_procurer_craft_workorder_items" speaker="UI">Misión de fabricación</string>
 	<string key="objective_challenge" speaker="UI">Desafío</string>
-	<string key="objective_name_template" speaker="UI" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title.">Misión: "{title}"</string>
-	<string key="objective_name_and_rewards_template" speaker="UI" comment="Shows above rewards on the conversation screen. {title} is the quest title">"{title}" - Recompensas</string>
-	<string key="objective_rewards_completion" speaker="UI" comment="Rewards label when completing a quest">Recompensas por finalización</string>
-	<string key="objective_rewards_proposal" speaker="UI" comment="Rewards label when accepting a quest">Completa la misión para recibir las recompensas</string>
+	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Misión: "{title}"</string>
+	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">"{title}" - Recompensas</string>
+	<string key="objective_rewards_completion" comment="Rewards label when completing a quest" speaker="UI">Recompensas por finalización</string>
+	<string key="objective_rewards_proposal" comment="Rewards label when accepting a quest" speaker="UI">Completa la misión para recibir las recompensas</string>
 	<string key="objective_objective" speaker="UI">Objetivo</string>
 	<string key="objective_objectives" speaker="UI">Objetivos</string>
 	<string key="objectives_sort" speaker="UI">Ordenar por:</string>
@@ -201,7 +201,7 @@
 	<string key="objective_recipepinned" speaker="UI">Receta pegada</string>
 	<string key="objective_recipes" speaker="UI">Recetas</string>
 	<string key="objective_recipes_desc" speaker="UI">Agregar desde cualquier taller de fabricación</string>
-	<string key="objective_recipetemplate" speaker="UI" comment="How recipe names show in the HUD. Use {title} for the item name">Receta para {title}</string>
+	<string key="objective_recipetemplate" comment="How recipe names show in the HUD. Use {title} for the item name" speaker="UI">Receta para {title}</string>
 	<string key="objective_recipe_abandontitle">Abandonar receta</string>
 	<string key="objective_recipe_abandonbody">¿Confirmas que quieres abandonar tu receta actual?</string>
 	<string key="objective_artifacts" speaker="UI" rel_version="Feature_Artifacts">Artefactos</string>
@@ -259,9 +259,9 @@
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Defiende {POITags} durante {timeRemaining}</string>
 	<string key="objective_mission_task_control_point" speaker="UI">Captura el punto de control de una facción en {TerritoryID} para los merodeadores</string>
 	<string key="task_choose_faction" speaker="UI">Elige una facción con {destinationName}</string>
-	<string key="complete_available_prompt_DEFAULT" speaker="UI - Button" comment="male">Completa la misión</string>
+	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Completa la misión</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Acepta la misión</string>
-	<string key="desc_getoffbeach" speaker="UI - Journal - Quest  Description" comment="male">Investiga lo que parece ser un puesto de observación.</string>
+	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Quest  Description">Investiga lo que parece ser un puesto de observación.</string>
 	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title">Único superviviente</string>
 	<string key="task_getoffbeach_openmap">Abre el mapa</string>
 	<string key="have_berries">Toma arándanos</string>
@@ -400,47 +400,27 @@
 	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Derrota a los enemigos {targetName} en una arena</string>
 	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Derrota a los enemigos {targetName}</string>
 	<string key="Objective_CraftArtifact" rel_version="Feature_Expansion_1">Mejora este objeto en el horno de aljez</string>
-	<string key="LNY_tribute_table" rel_version="Event_Lunar_NewYear_Temp">Tributo al dragón</string>
-	<string key="LNY_tribute_table_description" rel_version="Event_Lunar_NewYear_Temp">Consigue reliquias familiares de los corrompidos y cocina un plato tradicional como tributo para invocar la bendición del dragón. Este evento va rotando entre diferentes ubicaciones en Ebonscale Reach.</string>
-	<string key="Objective_lny_tribute_wave_00_title" rel_version="Event_Lunar_NewYear_Temp">Consigue reliquias</string>
-	<string key="Objective_lny_tribute_wave_00_desc" rel_version="Event_Lunar_NewYear_Temp">Recupera objetos de los corrompidos</string>
-	<string key="Objective_lny_tribute_heirloom_01_title" rel_version="Event_Lunar_NewYear_Temp">Comulga con el dragón</string>
-	<string key="Objective_lny_tribute_heirloom_01_desc" rel_version="Event_Lunar_NewYear_Temp">Recupera el vino centenario y colócalo en la mesa auxiliar</string>
-	<string key="Objective_lny_tribute_heirloom_02_title" rel_version="Event_Lunar_NewYear_Temp">Comulga con el dragón</string>
-	<string key="Objective_lny_tribute_heirloom_02_desc" rel_version="Event_Lunar_NewYear_Temp">Recupera el té verde de jade y colócalo en la mesa auxiliar</string>
-	<string key="Objective_lny_tribute_heirloom_03_title" rel_version="Event_Lunar_NewYear_Temp">Comulga con el dragón</string>
-	<string key="Objective_lny_tribute_heirloom_03_desc" rel_version="Event_Lunar_NewYear_Temp">Recupera el pergamino antiguo y colócalo en la mesa auxiliar</string>
-	<string key="Objective_lny_tribute_wave_03_title" rel_version="Event_Lunar_NewYear_Temp">Comulga con el dragón</string>
-	<string key="Objective_lny_tribute_wave_03_desc" rel_version="Event_Lunar_NewYear_Temp">Prepara el pescado en flor y colócalo en el altar</string>
-	<string key="Objective_lny_tribute_wave_04_title" rel_version="Event_Lunar_NewYear_Temp">Completa el ritual</string>
-	<string key="Objective_lny_tribute_wave_04_desc" rel_version="Event_Lunar_NewYear_Temp">Acércate a la erupción de energía</string>
-	<string key="Objective_lny_tribute_wave_04B_desc" rel_version="Event_Lunar_NewYear_Temp">Sintonízate con la bendición del dragón</string>
-	<string key="Objective_lny_tribute_wave_05_title" rel_version="Event_Lunar_NewYear_Temp">Los indignos</string>
-	<string key="Objective_lny_tribute_wave_05_desc" rel_version="Event_Lunar_NewYear_Temp">Derrota a los ladrones de la dinastía</string>
-	<string key="Objective_lny_tribute_wave_06A_title" rel_version="Event_Lunar_NewYear_Temp">Los indignos</string>
-	<string key="Objective_lny_tribute_wave_06A_desc" rel_version="Event_Lunar_NewYear_Temp">Derrota al matón de la dinastía</string>
-	<string key="Objective_lny_tribute_wave_06B_title" rel_version="Event_Lunar_NewYear_Temp">Los indignos</string>
-	<string key="Objective_lny_tribute_wave_06B_desc" rel_version="Event_Lunar_NewYear_Temp">Derrota a los mosqueteros dinásticos</string>
-	<string key="Objective_lny_tribute_wave_07A_title" rel_version="Event_Lunar_NewYear_Temp">Los indignos</string>
-	<string key="Objective_lny_tribute_wave_07A_desc" rel_version="Event_Lunar_NewYear_Temp">Derrota a la doncella Ying de la dinastía</string>
-	<string key="Objective_lny_tribute_wave_07B_title" rel_version="Event_Lunar_NewYear_Temp">Los indignos</string>
-	<string key="Objective_lny_tribute_wave_07B_desc" rel_version="Event_Lunar_NewYear_Temp">Derrota a los tigres corrompidos</string>
-	<string key="Objective_lny_tribute_get" rel_version="Event_Lunar_NewYear_Temp">Recupera los recuerdos familiares de la dinastía</string>
-	<string key="Objective_lny_tribute_get_heirloom_01" rel_version="Event_Lunar_NewYear_Temp">Encuentra y recupera el vino centenario</string>
-	<string key="Objective_lny_tribute_get_heirloom_02" rel_version="Event_Lunar_NewYear_Temp">Encuentra y recupera el té verde de jade</string>
-	<string key="Objective_lny_tribute_get_heirloom_03" rel_version="Event_Lunar_NewYear_Temp">Encuentra y recupera el pergamino antiguo</string>
-	<string key="Objective_lny_tribute_fish" rel_version="Event_Lunar_NewYear_Temp">Prepara el tributo</string>
-	<string key="Objective_lny_tribute_get_fish" rel_version="Event_Lunar_NewYear_Temp">Cocina el pescado en flor en el wok del carro de comidas cercano</string>
-	<string key="Objective_lny_tribute_place" rel_version="Event_Lunar_NewYear_Temp">Inicia el ritual</string>
-	<string key="Objective_lny_tribute_place_heirloom_01" rel_version="Event_Lunar_NewYear_Temp">Coloca el vino centenario en el altar</string>
-	<string key="Objective_lny_tribute_place_heirloom_02" rel_version="Event_Lunar_NewYear_Temp">Coloca el té verde de jade en el altar</string>
-	<string key="Objective_lny_tribute_place_heirloom_03" rel_version="Event_Lunar_NewYear_Temp">Coloca el pergamino antiguo en el altar</string>
-	<string key="Objective_lny_tribute_place_fish" rel_version="Event_Lunar_NewYear_Temp">Coloca el pescado en flor y comulga con el dragón</string>
-	<string key="Objective_lny_tribute_wave_3_1_desc" rel_version="Event_Lunar_NewYear_Temp">Derrota a las fuerzas corrompidas de la dinastía</string>
-	<string key="Objective_lny_tribute_wave_3_2_desc" rel_version="Event_Lunar_NewYear_Temp">Sobrevive al asedio de la corrupción</string>
-	<string key="Objective_lny_tribute_wave_3_3_desc" rel_version="Event_Lunar_NewYear_Temp">Derrota al matón y a los mosqueteros de la dinastía</string>
-	<string key="Objective_lny_tribute_wave_3_4_desc" rel_version="Event_Lunar_NewYear_Temp">Derrota a Ying y a sus mascotas</string>
-	<string key="Objective_lny_tribute_reward" rel_version="Event_Lunar_NewYear_Temp">Completa el ritual</string>
-	<string key="Objective_lny_tribute_reward_break_core" rel_version="Event_Lunar_NewYear_Temp">Rompe el núcleo corrompido y revela la bendición del dragón</string>
+	<string key="Objective_Artifact_Set2_HeavyHands" rel_version="Feature_Artifacts_S5">Artefacto: Manoplas de gravedad de Gilli</string>
+	<string key="Objective_Artifact_Set2_HeavyLegs" rel_version="Feature_Artifacts_S5">Artefacto: Corazón de hierro</string>
+	<string key="Objective_Artifact_Set2_MediumChest" rel_version="Feature_Artifacts_S5">Artefacto: Ira de la naturaleza</string>
+	<string key="Objective_Artifact_Set2_LightFeet" rel_version="Feature_Artifacts_S5">Artefacto: Botas de credo</string>
+	<string key="Objective_Artifact_Set2_1hThrowingAxe" rel_version="Feature_Artifacts_S5">Artefacto: Pecado</string>
+	<string key="Objective_Artifact_Set2_2hGreatAxe" rel_version="Feature_Artifacts_S5">Artefacto: Furia de la tempestad</string>
+	<string key="Objective_Artifact_Set2_2hSpear" rel_version="Feature_Artifacts_S5">Artefacto: Veneno</string>
+	<string key="Objective_Artifact_Set2_Amulet1" rel_version="Feature_Artifacts_S5">Artefacto: Fénix</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase0" rel_version="Quest_MSQ3_Ebonscale">Salva al príncipe atormentado</string>
+	<string key="99F_Enc_Liang_Objective_Phase0" rel_version="Quest_MSQ3_Ebonscale">Acércate a Liang</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase1" rel_version="Quest_MSQ3_Ebonscale">Salva al príncipe atormentado</string>
+	<string key="99F_Enc_Liang_Objective_Phase1" rel_version="Quest_MSQ3_Ebonscale">Usa habilidades o ataques pesados para aplicar talismanes a Liang</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase2" rel_version="Quest_MSQ3_Ebonscale">Salva al príncipe atormentado</string>
+	<string key="99F_Enc_Liang_Objective_Phase2" rel_version="Quest_MSQ3_Ebonscale">Aplica 6 talismanes más para inmovilizar a Liang</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase3" rel_version="Quest_MSQ3_Ebonscale">Salva al príncipe atormentado</string>
+	<string key="99F_Enc_Liang_Objective_Phase3" rel_version="Quest_MSQ3_Ebonscale">Aplica 8 talismanes más para inmovilizar a Liang</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase4" rel_version="Quest_MSQ3_Ebonscale">Salva al príncipe atormentado</string>
+	<string key="99F_Enc_Liang_Objective_Phase4" rel_version="Quest_MSQ3_Ebonscale">Usa tu bastón de azoth para liberar el alma de Liang y regresar al afuera</string>
+	<string key="objective_weekly_description" speaker="UI">Misión semanal</string>
+	<string key="objective_daily_description" speaker="UI">Misión diaria</string>
+	<string key="objective_hourly_description" speaker="UI">Misión por hora</string>
+	<string key="objective_minutely_description" speaker="UI">Misión de una vez por minuto</string>
 </resources>
 

@@ -4,6 +4,7 @@
 	<string key="ui_audio">Sonido</string>
 	<string key="ui_controlsettings">Ajustes de control</string>
 	<string key="ui_gameplay">Jugabilidad</string>
+	<string key="ui_general">General</string>
 	<string key="ui_graphicssettings">Ajustes gráficos</string>
 	<string key="ui_legalnotice">Avisos legales</string>
 	<string key="ui_legalnotice_desc">Consulta los avisos legales en el navegador.</string>
@@ -20,6 +21,8 @@
 	<string key="ui_section_gameplay">Jugabilidad</string>
 	<string key="ui_section_hud">HUD</string>
 	<string key="ui_section_healing">Curación</string>
+	<string key="ui_section_camera_target_lock" rel_version="Feature_Controller">Fijación de objetivos enemigos</string>
+	<string key="ui_section_target_lock" rel_version="Feature_Controller">Fijación de objetivo</string>
 	<string key="ui_section_notifications">Notificaciones</string>
 	<string key="ui_section_preferences">Preferencias</string>
 	<string key="ui_section_volume">Volumen</string>
@@ -31,16 +34,72 @@
 	<string key="ui_section_graphics">Gráficos</string>
 	<string key="ui_section_advgraphics">Gráficos avanzados</string>
 	<string key="ui_section_group">Más opciones</string>
+	<string key="ui_section_controller" rel_version="Feature_Controller">Mando</string>
+	<string key="ui_controlleroptions" rel_version="Feature_Controller">Opciones de mando</string>
+	<string key="ui_section_controllercamera" rel_version="Feature_Controller">Control de cámara</string>
+	<string key="ui_controllercameraoptions" rel_version="Feature_Controller">Opciones de control de cámara</string>
 	<string key="ui_voicechatsettings">Chat de voz</string>
 	<string key="ui_openvoicechatsettings">Abrir ajustes de chat de voz</string>
-	<string key="ui_invertlook">Invertir cámara [ratón/teclado]</string>
-	<string key="ui_invertlook_desc">Invierte el eje vertical al usar el ratón o el teclado.</string>
-	<string key="ui_looksensitivity">Sensibilidad de la cámara [ratón/teclado]</string>
-	<string key="ui_looksensitivity_desc">Cambia la velocidad a la que se mueve tu cámara al usar el ratón o el teclado.</string>
+	<string key="ui_invertlook">Invertir cámara (teclado y ratón)</string>
+	<string key="ui_invertlook_desc">Invierte el eje vertical.</string>
+	<string key="ui_looksensitivity">Sensibilidad de la cámara (teclado y ratón)</string>
+	<string key="ui_looksensitivity_desc">Ajusta la velocidad de movimiento de la cámara.</string>
+	<string key="ui_leftdeadzone" rel_version="Feature_Controller">Zona muerta del joystick izquierdo</string>
+	<string key="ui_leftdeadzone_desc" rel_version="Feature_Controller">Ajusta el tamaño de la zona muerta del joystick izquierdo.</string>
+	<string key="ui_rightdeadzone" rel_version="Feature_Controller">Zona muerta del joystick derecho</string>
+	<string key="ui_rightdeadzone_desc" rel_version="Feature_Controller">Ajusta el tamaño de la zona muerta del joystick derecho.</string>
+	<string key="ui_joysticksensitivityhorizontal" rel_version="Feature_Controller">Sensibilidad horizontal</string>
+	<string key="ui_joysticksensitivityhorizontal_desc" rel_version="Feature_Controller">Ajusta la velocidad horizontal de la cámara.</string>
+	<string key="ui_joysticksensitivityvertical" rel_version="Feature_Controller">Sensibilidad vertical</string>
+	<string key="ui_joysticksensitivityvertical_desc" rel_version="Feature_Controller">Ajusta la velocidad vertical de la cámara.</string>
+	<string key="ui_joysticksensitivityhorizontalADS" rel_version="Feature_Controller">Sensibilidad horizontal de la mira</string>
+	<string key="ui_joysticksensitivityhorizontalADS_desc" rel_version="Feature_Controller">Ajusta la velocidad horizontal de la cámara al apuntar con la mira.</string>
+	<string key="ui_joysticksensitivityverticalADS" rel_version="Feature_Controller">Sensibilidad vertical de la mira</string>
+	<string key="ui_joysticksensitivityverticalADS_desc" rel_version="Feature_Controller">Ajusta la velocidad vertical de la cámara al apuntar con la mira.</string>
+	<string key="ui_joysticksensitivityhorizontalTurret" rel_version="Feature_Controller">Sensibilidad horizontal con torretas</string>
+	<string key="ui_joysticksensitivityhorizontalTurret_desc" rel_version="Feature_Controller">Ajusta la velocidad horizontal de la cámara al usar una torreta.</string>
+	<string key="ui_joysticksensitivityverticalTurret" rel_version="Feature_Controller">Sensibilidad vertical con torretas</string>
+	<string key="ui_joysticksensitivityverticalTurret_desc" rel_version="Feature_Controller">Ajusta la velocidad vertical de la cámara al usar una torreta.</string>
+	<string key="ui_joystickyaxisinvert" rel_version="Feature_Controller">Invertir eje vertical</string>
+	<string key="ui_joystickyaxisinvert_desc" rel_version="Feature_Controller">Invierte el eje vertical de la cámara.</string>
+	<string key="ui_joystickedgeboost" rel_version="Feature_Controller">Velocidad de giro</string>
+	<string key="ui_joystickedgeboost_desc" rel_version="Feature_Controller">Ajusta la velocidad de giro cuando el joystick alcanza su rango máximo de movimiento.</string>
+	<string key="ui_joystickcurve" rel_version="Feature_Controller">Curva de velocidad del joystick de cámara</string>
+	<string key="ui_joystickcurve_desc" rel_version="Feature_Controller">Ajusta la velocidad de giro de la cámara.</string>
+	<string key="ui_aim_assist" rel_version="Feature_Controller">Ayuda al apuntar</string>
+	<string key="ui_aim_assist_desc" rel_version="Feature_Controller">Activa la ayuda al apuntar para ataques con proyectiles.</string>
+	<string key="ui_aim_friction_sensitivity" rel_version="Feature_Controller">Fuerza de fricción al apuntar</string>
+	<string key="ui_aim_friction_sensitivity_desc" rel_version="Feature_Controller">Establece la cantidad de fricción que se aplica al apuntar cerca de un objetivo.</string>
+	<string key="ui_virtualcursorsensitivity" rel_version="Feature_Controller">Sensibilidad del cursor virtual</string>
+	<string key="ui_virtualcursorsensitivity_desc" rel_version="Feature_Controller">Ajusta la velocidad de movimiento del cursor virtual.</string>
+	<string key="ui_virtualcursorhoverfadeout" rel_version="Feature_Controller">Ocultar cursor virtual al pasarlo por encima</string>
+	<string key="ui_virtualcursorhoverfadeout_desc" rel_version="Feature_Controller">El cursor virtual desaparece al pasarlo por encima de un elemento de la IU.</string>
+	<string key="ui_menu_vibration" rel_version="Feature_Controller">Vibración del menú</string>
+	<string key="ui_menu_vibration_desc" rel_version="Feature_Controller">Activa la vibración del mando al pasar el ratón por encima de elementos de la IU interactivos.</string>
+	<string key="ui_virtualcursordeadzonemultiplier" rel_version="Feature_Controller">Multiplicador de la zona muerta del cursor virtual</string>
+	<string key="ui_virtualcursordeadzonemultiplier_desc" rel_version="Feature_Controller">Ajusta el multiplicador que se aplica a los ajustes de zonas muertas al usar el cursor virtual.</string>
+	<string key="ui_magnetism_enabled" rel_version="Feature_Controller">Magnetismo del cursor virtual</string>
+	<string key="ui_magnetism_enabled_desc" rel_version="Feature_Controller">Ralentiza el cursor virtual cuando está cerca de elementos de la IU interactivos.</string>
+	<string key="ui_magnetism_range_absolute" rel_version="Feature_Controller">Rango del magnetismo</string>
+	<string key="ui_magnetism_range_absolute_desc" rel_version="Feature_Controller">Ajusta el rango de magnetismo del cursor virtual.</string>
+	<string key="ui_magnetism_speed" rel_version="Feature_Controller">Fuerza de magnetismo</string>
+	<string key="ui_magnetism_speed_desc" rel_version="Feature_Controller">Ajusta la fuerza de magnetismo del cursor virtual.</string>
+	<string key="ui_magnetism_forcetapers" rel_version="Feature_Controller">Fuerza gradual de magnetismo</string>
+	<string key="ui_magnetism_forcetapers_desc" rel_version="Feature_Controller">La fuerza de magnetismo aumenta cuando el cursor virtual está cerca del centro de la pantalla.</string>
+	<string key="ui_magnetism_forceislinear" rel_version="Feature_Controller">Fuerza de magnetismo lineal</string>
+	<string key="ui_magnetism_forceislinear_desc" rel_version="Feature_Controller">La fuerza de magnetismo del cursor virtual es lineal.</string>
+	<string key="ui_friction_enabled" rel_version="Feature_Controller">Fricción del cursor virtual</string>
+	<string key="ui_friction_enabled_desc" rel_version="Feature_Controller">El cursor virtual se adhiere más al pasarlo por encima de elementos de la IU interactivos.</string>
+	<string key="ui_friction_speed" rel_version="Feature_Controller">Fuerza de fricción</string>
+	<string key="ui_friction_speed_desc" rel_version="Feature_Controller">Ajusta la fuerza de fricción del cursor virtual.</string>
+	<string key="ui_map_pan_speed" rel_version="Feature_Controller">Velocidad de desplazamiento del mapa</string>
+	<string key="ui_map_pan_speed_desc" rel_version="Feature_Controller">Ajusta la velocidad de movimiento del mapa al desplazarse.</string>
+	<string key="ui_map_zoom_speed" rel_version="Feature_Controller">Velocidad de zoom del mapa</string>
+	<string key="ui_map_zoom_speed_desc" rel_version="Feature_Controller">Ajusta la velocidad de movimiento del mapa al hacer zoom.</string>
 	<string key="ui_window_mode">Modo de ventana</string>
 	<string key="ui_window_mode_desc">Establece el modo de visualización de la pantalla.</string>
 	<string key="ui_fullscreen">Pantalla completa</string>
-	<string key="ui_unavailable_while_dead">No disponible mientras estás muerto</string>
+	<string key="ui_unavailable_while_dead">No disponible mientras se está muerto</string>
 	<string key="ui_windowed">En ventana</string>
 	<string key="ui_windowed_fullscreen">Pantalla completa en ventana</string>
 	<string key="ui_borderless_window">Ventana sin bordes</string>
@@ -73,7 +132,9 @@
 	<string key="ui_graphics_emote_fx">Mostrar efectos de gestos</string>
 	<string key="ui_graphics_emote_fx_description">Muestra los efectos de los gestos de otros jugadores.</string>
 	<string key="ui_options_keybindings">Asignaciones de teclas</string>
+	<string key="ui_options_kbm_controls">Ratón y teclado</string>
 	<string key="ui_options_gameplay">Partida</string>
+	<string key="ui_options_controller" rel_version="Feature_Controller">Mando</string>
 	<string key="ui_options_visuals">Vídeo</string>
 	<string key="ui_options_preferences">Preferencias</string>
 	<string key="ui_options_audio">Sonido</string>
@@ -209,6 +270,11 @@
 	<string key="ui_subtitles_backing_opacity_desc">Ajusta la opacidad del fondo de los subtítulos (cero es sin fondo).</string>
 	<string key="ui_subtitles_sample_speaker">Hablante</string>
 	<string key="ui_subtitles_sample" speaker="@ui_subtitles_sample_speaker">Esto es un ejemplo de un subtítulo.</string>
+	<string key="ui_dialogue_autoprogress">Avance automático de diálogos</string>
+	<string key="ui_dialogue_autoprogress_desc">Selecciona automáticamente la primera opción en las conversaciones.</string>
+	<string key="ui_dialogue_autoprogress_pause">Pausar en preguntas</string>
+	<string key="ui_dialogue_autoprogress_never">Nunca</string>
+	<string key="ui_dialogue_autoprogress_always">Siempre.</string>
 	<string key="ui_metaachievementpopups">Notificaciones de logros.</string>
 	<string key="ui_metaachievementpopups_desc">Muestra una notificación en el HUD cuando se completa un logro.</string>
 	<string key="ui_enable_territory_notifications">Notificaciones del territorio</string>
@@ -250,22 +316,31 @@
 	<string key="ui_options_textSize_bigger">Más grande</string>
 	<string key="ui_cameraShake">Sacudida de la cámara</string>
 	<string key="ui_cameraShake_desc">Activa la sacudida de la cámara. Podría desorientar a ciertos jugadores.</string>
-	<string key="ui_strafeCamera">Movimiento libre [ratón/teclado]</string>
-	<string key="ui_strafeCamera_desc">El personaje se girará hacia la dirección de movimiento indicada al usar el ratón o el teclado.</string>
+	<string key="ui_strafeCamera">Movimiento libre (ratón y teclado)</string>
+	<string key="ui_strafeCamera_desc">El personaje gira hacia la dirección de movimiento a la que se apunte.</string>
+	<string key="ui_strafeCamera_gamepad" rel_version="Feature_Controller">Movimiento libre (mando)</string>
+	<string key="ui_strafeCamera_gamepad_desc" rel_version="Feature_Controller">El personaje gira hacia la dirección de movimiento a la que se apunte.</string>
+	<string key="ui_ping_modifier" rel_version="Feature_Controller">Modificador de avisos</string>
+	<string key="ui_modifiedCurve" rel_version="Feature_Controller">Zoom de cámara según inclinación</string>
+	<string key="ui_modifiedCurve_desc" rel_version="Feature_Controller">La cámara se alejará al mirar hacia abajo y se acercará al hacerlo hacia arriba.</string>
+	<string key="ui_verticalNoiseSuppression" rel_version="Feature_Controller">Movimiento de cámara vertical reducido</string>
+	<string key="ui_verticalNoiseSuppression_desc" rel_version="Feature_Controller">La cámara se mueve menos al saltar.</string>
 	<string key="ui_alwaysShowReticle">Mostrar siempre la mira</string>
-	<string key="ui_alwaysShowReticle_desc">La retícula es visible incluso cuando tienes el arma envainada.</string>
-	<string key="ui_toggleblockads">Alternar apuntar y bloquear</string>
-	<string key="ui_toggleblockads_desc">Activa apuntar y bloquear al pulsar el botón en lugar de tener que mantenerlo pulsado.</string>
+	<string key="ui_alwaysShowReticle_desc">Muestra la retícula incluso cuando tienes el arma guardada.</string>
+	<string key="ui_toggleblockads">Tocar para apuntar y bloquear</string>
+	<string key="ui_toggleblockads_desc">Activa apuntar y bloquear al tocar la tecla o botón asignados en lugar de mantenerlos pulsados.</string>
 	<string key="ui_enable_ally_team_color_tinting">Tinte de color de equipo aliado</string>
 	<string key="ui_enable_enemy_team_color_tinting">Tinte de color de equipo enemigo</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Activa el tinte de color para equipos aliados en los modos de juego.</string>
 	<string key="ui_enable_enemy_team_color_tinting_desc">Activa el tinte de color para equipos enemigos en los modos de juego.</string>
 	<string key="ui_reticleDefaultColor">Color de retícula predeterminado</string>
 	<string key="ui_reticleDefaultColor_desc">Establece el color de la retícula por defecto.</string>
+	<string key="ui_reticleLockColor" rel_version="Feature_Controller">Color de retícula de la ayuda al apuntar (mando)</string>
+	<string key="ui_reticleLockColor_desc" rel_version="Feature_Controller">Ajusta el color de la retícula cuando la ayuda al apuntar está activada.</string>
 	<string key="ui_show_pvp_xp">Mostrar EXP JcJ</string>
 	<string key="ui_show_pvp_xp_desc">Muestra la EXP JcJ.</string>
 	<string key="ui_showInspectHint">Indicación de tecla rápida de interacciones sociales</string>
-	<string key="ui_showInspectHint_desc">Al mirar a un jugador cercano, muestra la indicación de interacciones sociales.</string>
+	<string key="ui_showInspectHint_desc">Muestra la indicación de interacciones sociales al mirar a un jugador cercano.</string>
 	<string key="ui_restore_defaults">Restaurar por defecto</string>
 	<string key="ui_restore_defaults_desc">Restaura estas opciones a su configuración por defecto</string>
 	<string key="ui_restore_defaults_prompt">¿Seguro que quieres cambiar estas opciones a sus valores por defecto?</string>
@@ -289,6 +364,16 @@
 	<string key="ui_speechtotext_desc">Activa Convertir voz en texto en el chat de voz.</string>
 	<string key="ui_spell_alignment_vfx">Indicadores de hechizos enemigos</string>
 	<string key="ui_spell_alignment_vfx_desc">Añade indicadores a los efectos visuales de las áreas de efecto persistentes del jugador enemigo.</string>
+	<string key="ui_shift_modifier_toggle" rel_version="Feature_Controller">Tocar para activar el modificador de cambio de botones</string>
+	<string key="ui_shift_modifier_toggle_desc" rel_version="Feature_Controller">Activa los modificadores de cambio de botones al tocar la tecla o botón asignados.</string>
+	<string key="ui_rumble" rel_version="Feature_Controller">Vibración</string>
+	<string key="ui_rumble_desc" rel_version="Feature_Controller">Activa la vibración del mando.</string>
+	<string key="ui_rumble_sensitivity" rel_version="Feature_Controller">Sensibilidad de vibración</string>
+	<string key="ui_rumble_sensitivity_desc" rel_version="Feature_Controller">Ajusta la sensibilidad de la vibración del mando.</string>
+	<string key="ui_attack_facing_camera_kbam_toggle" rel_version="Feature_Controller">Dirección de la cámara para ataques cuerpo a cuerpo (ratón y teclado)</string>
+	<string key="ui_attack_facing_camera_kbam_toggle_desc" rel_version="Feature_Controller">Los ataques cuerpo a cuerpo se dirigen hacia la dirección de la cámara en lugar de la dirección del personaje o a la que se apunte.</string>
+	<string key="ui_attack_facing_camera_gamepad_toggle" rel_version="Feature_Controller">Dirección de la cámara para ataques cuerpo a cuerpo (mando)</string>
+	<string key="ui_attack_facing_camera_gamepad_toggle_desc" rel_version="Feature_Controller">Los ataques cuerpo a cuerpo se dirigen hacia la dirección de la cámara en lugar de la dirección del personaje o a la que se apunte.</string>
 	<string key="ui_enable_hudShowVitalsValues">Mostrar valores vitales</string>
 	<string key="ui_enable_hudShowVitalsValues_decstription">Muestra el valor de la salud y de otros atributos en sus barras respectivas.</string>
 	<string key="ui_enable_hudAlwaysFade">Aparición de contexto</string>
@@ -304,24 +389,39 @@
 	<string key="ui_enable_targeted_healing">Curación a objetivos</string>
 	<string key="ui_enable_targeted_healing_description">Activa el sistema de curación a objetivos.</string>
 	<string key="ui_enable_camera_lock_friendlies">Fijar aliados con la cámara</string>
-	<string key="ui_enable_camera_lock_friendlies_description">Activa el sistema de fijación de objetivos aliados para curar.</string>
-	<string key="ui_enable_camera_lock_target_follow">Seguimiento de cámara al objetivo bloqueado</string>
-	<string key="ui_enable_camera_lock_target_follow_description">Activa el seguimiento de la cámara al objetivo bloqueado. Al desactivar la opción, la cámara se mueve libremente mientras el objetivo está bloqueado.</string>
+	<string key="ui_enable_camera_lock_friendlies_description">Activa el sistema de fijación de objetivos aliados para curarlos.</string>
+	<string key="ui_enable_camera_lock_target_follow">Seguimiento de cámara al objetivo fijado</string>
+	<string key="ui_enable_camera_lock_target_follow_description">La cámara sigue al objetivo fijado.</string>
 	<string key="ui_enable_camera_lock_retarget">Cambio de objetivo mediante el movimiento de la cámara</string>
-	<string key="ui_enable_camera_lock_retarget_description">Permite cambiar el objetivo fijado moviendo la cámara. Solo es posible si se ha activado el seguimiento de cámara al objetivo bloqueado.</string>
+	<string key="ui_enable_camera_lock_retarget_description">Permite cambiar el objetivo fijado moviendo la cámara. Solo es posible si se ha activado el seguimiento de cámara al objetivo fijado.</string>
 	<string key="ui_enable_camera_lock_sticky_lock">Bloqueo pegajoso</string>
 	<string key="ui_enable_camera_lock_sticky_lock_description">Permite mantener el mismo objetivo tras hacer curaciones.</string>
+	<string key="ui_enable_camera_lock_swap_toggle" rel_version="Feature_Controller">Cambiar la fijación de objetivo aliado o enemigo con báculo de vida</string>
+	<string key="ui_enable_camera_lock_swap_toggle_description" rel_version="Feature_Controller">Cambia las asignaciones para fijar objetivos enemigos o aliados al usar el báculo de vida.</string>
 	<string key="ui_enable_camera_lock_group_mode">Modo grupo</string>
-	<string key="ui_enable_camera_lock_group_mode_description">Activa el modo de grupo, que alterna entre los miembros del grupo o de la incursión únicamente mediante la rueda central del ratón. Esta opción no funciona en incursiones si se ha activado la opción «Fijación de incursión mediante grupos y atajos».</string>
+	<string key="ui_enable_camera_lock_group_mode_description">Alterna entre los miembros del grupo o de la incursión al apuntar con un báculo de vida. Esta opción no funciona si se ha activado Fijación de incursión mediante atajos (ratón y teclado).</string>
 	<string key="ui_enable_target_mygroup_only_in_raid">Solo grupo en incursión</string>
-	<string key="ui_enable_target_mygroup_only_in_raid_description">Limita los aliados objetivos a los cinco miembros de tu grupo mientras estés en una incursión con el modo de grupo activado. Esta opción no funciona si se ha activado la opción «Fijación de incursión mediante grupos y atajos».</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Fijación de incursión mediante grupos y atajos</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Activa la fijación de incursiones, que alterna entre los grupos de incursión mediante la rueda central del ratón y la selección de miembros mediante el atajo de teclas. Es necesario asignar las teclas de fijación de miembros del grupo para seleccionar los objetivos dentro de un grupo. Solo se puede fijar a miembros de la incursión si se activa.</string>
+	<string key="ui_enable_target_mygroup_only_in_raid_description">Limita los aliados objetivos a los miembros de tu grupo mientras el modo de grupo esté activado. Esta opción no funciona si se ha activado Fijación de incursión mediante grupos y atajos.</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Fijación de incursión mediante atajos (ratón y teclado)</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Alterna entre grupos de incursión con asignaciones de teclas para Cambiar objetivo arriba/abajo y fija miembros de incursión con asignaciones de teclas para Fijación de miembros del grupo.</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud">Mostrar pistas de atajos en incursiones</string>
-	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Muestra pistas de atajos para cada miembro del grupo seleccionado si se ha activado la fijación de incursión mediante grupos y atajos.</string>
+	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Muestra pistas de atajos para cada miembro del grupo seleccionado si se ha activado Fijación de incursión mediante grupos y atajos.</string>
+	<string key="ui_toggle_enemy_target_lock" rel_version="Feature_Controller">Activar fijación de objetivos enemigos</string>
+	<string key="ui_toggle_ally_target_lock" rel_version="Feature_Controller">Activar fijación de objetivos aliados</string>
 	<string key="ui_toggle_target_lock">Alternar fijación de objetivo</string>
+	<string key="ui_ally_target_lock_modifier" rel_version="Feature_Controller">Modificador de fijación de objetivos aliados</string>
+	<string key="ui_enable_camera_target_lock" rel_version="Feature_Controller">Fijación de objetivos enemigos</string>
+	<string key="ui_enable_camera_target_lock_desc" rel_version="Feature_Controller">Activa el sistema de fijación de objetivos enemigos.</string>
+	<string key="ui_camera_lock_target_switch_interpolation_speed" rel_version="Feature_Controller">Velocidad al cambiar de objetivo</string>
+	<string key="ui_camera_lock_target_switch_interpolation_speed_desc" rel_version="Feature_Controller">Ajusta la velocidad a la que se mueve la cámara hacia otro objetivo.</string>
+	<string key="ui_enable_camera_lock_target_auto_switch" rel_version="Feature_Controller">Cambiar de objetivos automáticamente</string>
+	<string key="ui_enable_camera_lock_target_auto_switch_desc" rel_version="Feature_Controller">Cambias de objetivo automáticamente tras eliminar al anterior. Solo cambia si el nuevo objetivo te está atacando a ti.</string>
+	<string key="ui_enable_camera_lock_auto_break_with_hold" rel_version="Feature_Controller">Desactivar fijación de objetivos automáticamente al mantener</string>
+	<string key="ui_enable_camera_lock_auto_break_with_hold_desc" rel_version="Feature_Controller">Desactiva automáticamente la fijación de objetivos al mantener su botón o tecla durante un tiempo determinado.</string>
+	<string key="ui_camera_lock_auto_break_with_hold_ticks" rel_version="Feature_Controller">Duración para desactivar fijación de objetivos automáticamente al mantener</string>
+	<string key="ui_camera_lock_auto_break_with_hold_ticks_desc" rel_version="Feature_Controller">Establece la cantidad de tiempo en décimas de segundos para mantener necesaria para fijar al objetivo si se ha activado Desactivar fijación de objetivos automáticamente al mantener.</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_title">No se han asignado atajos</string>
-	<string key="ui_raid_member_hotkeys_unbound_error_message">Ve a las asignaciones de teclas para asignar teclas a todos los participantes del combate con báculos de vida y activar esta función.</string>
+	<string key="ui_raid_member_hotkeys_unbound_error_message">Abre las asignaciones de teclas para asignar teclas a todos los miembros del grupo objetivo con báculos de vida y activar esta función.</string>
 	<string key="ui_gena_escape" rel_version="Feature_GameEntryNarrationAssistance">Escape</string>
 	<string key="ui_gena" rel_version="Feature_GameEntryNarrationAssistance">Asistente de narración para las entradas del juego</string>
 	<string key="ui_gena_title" rel_version="Feature_GameEntryNarrationAssistance">Asistente de narración para las entradas del juego</string>
@@ -355,6 +455,16 @@
 	<string key="ui_genaprompt_popupyesno" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Pulsa {toggleMenuComponent} para No. Pulsa {frontEndContinue} para Sí.</string>
 	<string key="ui_genaprompt_popupok" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Pulsa {frontEndContinue} para cerrar.</string>
 	<string key="ui_genaprompt_popupokcancel" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Pulsa {frontEndContinue} para confirmar. Pulsa {toggleMenuComponent} para cancelar.</string>
+	<string key="ui_controllerRemap" rel_version="Feature_Controller">Mando</string>
+	<string key="ui_remapPopup_message" rel_version="Feature_Controller">Estás a punto de reasignar:\n&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionRemap} &lt;/font&gt;\n\nPulsa el botón o los botones a los que quieras asignar:</string>
+	<string key="ui_consumable" rel_version="Feature_Controller">Consumibles</string>
+	<string key="ui_remapPopup_rebindConflict" rel_version="Feature_Controller">ya está asignado a otra acción. Si lo reasignas, la anterior\n acción se eliminará.\n&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;¿Seguro que quieres asignar esta acción? &lt;/font&gt;</string>
+	<string key="ui_keybind_confirm" rel_version="Feature_Controller">Confirmar asignación</string>
+	<string key="ui_keybind_doubleMapping" rel_version="Feature_Controller">{tapBinding}\n{holdBinding}</string>
+	<string key="ui_keybind_isBound" rel_version="Feature_Controller">ya está asignado</string>
+	<string key="ui_keybind_isBoundCombo" rel_version="Feature_Controller">ya está asignado\n(Combinación de botones aceptada)</string>
+	<string key="ui_keybind_newBinding" rel_version="Feature_Controller">&lt;font color={color} face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt; es la nueva asignación&lt;/font&gt; </string>
+	<string key="ui_keybind_invalidInput" rel_version="Feature_Controller"> &lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;no es válido&lt;/font&gt; </string>
 	<string key="ui_loadouts" rel_version="Feature_Gear_Set_Storage">Conjunto de equipo</string>
 	<string key="ui_showloadouts" rel_version="Feature_Gear_Set_Storage">Mostrar conjuntos de equipo</string>
 	<string key="ui_hideloadouts" rel_version="Feature_Gear_Set_Storage">Ocultar conjuntos de equipo</string>

@@ -68,9 +68,12 @@
 	<string key="inv_equipLoadSlow">Pesante</string>
 	<string key="inv_equipLoadOverburdened">Sovraccarico</string>
 	<string key="inv_equipLoadTooltip">Il peso totale dell'armatura e dello scudo equipaggiati determina il carico equipaggiato. Ogni carico equipaggiato offre una schivata unica e altri effetti.</string>
-	<string key="inv_equipLoadFastTooltip">• Danni base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]}% \n• Cure prodotte: +30% \n• La tua schivata è una rotolata veloce. \n• Costo energia schivata: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} \n• Dopo aver subito un colpo in mischia, per {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s la distanza della schivata è ridotta di un 20% e non puoi correre. \n• Danni critici subiti PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Light.CritDamageReduction * 100]}%	</string>
-	<string key="inv_equipLoadNormalTooltip">• Danni base: +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]}% \n• Durata controllo di gruppo subito: -10% \n• La tua schivata è un salto veloce. \n• Costo energia schivata: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} \n• Dopo aver subito un colpo in mischia, per {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s la distanza della schivata è ridotta di un 20% e non puoi correre. \n• Danni critici subiti PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Medium.CritDamageReduction * 100]}%</string>
-	<string key="inv_equipLoadSlowTooltip">• Stabilità della parata: +15% \n• Durata controllo di gruppo subito: -20% \n• Cure prodotte: -30% \n• La tua schivata è uno spostamento direzionale. \n• Costo energia schivata: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} \n• Dopo aver subito un colpo in mischia, per {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s non puoi correre. \n• Danni critici subiti PvP: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Heavy.CritDamageReduction * 100]}%</string>
+	<string key="inv_equipLoadFastTooltip">• Danni base: +{[0.150000 * 100]}% \n• Cure prodotte: +30% \n• Stabilità della parata: -15% \n• Durata controllo di gruppo subito: +10% \n• La tua schivata è una rotolata veloce. \n• Costo energia schivata: {[50.000000]} \n• Dopo aver subito un colpo in mischia, per {[1.000000]} s la distanza della schivata è ridotta di un 20% e non puoi correre. \n• Danni critici subiti PvP: -{[0.150000 * 100]}%	
+	</string>
+	<string key="inv_equipLoadNormalTooltip">• La tua schivata è un salto veloce. \n• Costo energia schivata: {[50.000000]} \n• Dopo aver subito un colpo in mischia, per {[0.750000]} s la distanza della schivata è ridotta di un 20% e non puoi correre. \n• Danni critici subiti PvP: -{[0.200000 * 100]}%
+	</string>
+	<string key="inv_equipLoadSlowTooltip">• Danni base: -{[-0.150000 * -100]}% \n• Cure prodotte: -30% \n• Stabilità della parata: +15% \n• Durata controllo di gruppo subito: -20% \n• La tua schivata è uno spostamento direzionale. \n• Costo energia schivata: {[55.000000]} \n• Dopo aver subito un colpo in mischia, per {[0.500000]} s non puoi correre. \n• Danni critici subiti PvP: -{[0.250000 * 100]}%
+	</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Quando superi il peso dell'equipaggiamento massimo, non puoi schivare, correre, né usare le abilità. Dovresti rimuovere qualche oggetto.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Se il limite di peso dell'inventario viene superato avrai difficoltà a muoverti e a compiere azioni. Inoltre, perderai più energia durante le parate.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Hai superato il carico massimo equipaggiabile. Non puoi schivare né correre e il tasso di rigenerazione dell'energia è molto ridotto. Dovresti rimuovere qualche oggetto.</string>
@@ -91,16 +94,16 @@
 	<string key="inv_repairparts_quantity">Pezzi di ricambio: {count}</string>
 	<string key="inv_repairparts_tooltip_name">PEZZI DI RICAMBIO</string>
 	<string key="ui_repairparts">Pezzi di ricambio</string>
-	<string key="inv_repairparts_tooltip_description">I pezzi di ricambio sono una risorsa speciale per riparare oggetti.\n\nNon possono essere scambiati, venduti o acquistati. Puoi ricavarli da armi e pezzi di armatura che non ti servono più.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Origine:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ebe3d6"&gt; armi, armatura&lt;/font&gt;</string>
+	<string key="inv_repairparts_tooltip_description">I pezzi di ricambio sono una risorsa speciale per riparare oggetti.\n\nNon possono essere scambiati, venduti o acquistati. Puoi ricavarli da armi e pezzi di armatura che non ti servono più.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#b2aea1"&gt;Origine:&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ebe3d6"&gt; armi, armatura&lt;/font&gt;</string>
 	<string key="inv_repairparts_tooltip_drivedfrom">Armi e armatura</string>
 	<string key="inv_azoth_tooltip_drivedfrom">Brecce della corruzione, missioni</string>
-	<string key="inv_repairparts_nearlimit">&lt;font color="#f25d5d"&gt;Hai quasi raggiunto il limite di pezzi di ricambio consentiti.&lt;/font&gt;</string>
-	<string key="inv_repairparts_atlimit">&lt;font color="#f25d5d"&gt;Hai raggiunto il limite di pezzi di ricambio consentiti.&lt;/font&gt;</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#ff7171"&gt;Hai quasi raggiunto il limite di pezzi di ricambio consentiti.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#ff7171"&gt;Hai raggiunto il limite di pezzi di ricambio consentiti.&lt;/font&gt;</string>
 	<string key="inv_repairparts_resources_nearlimit">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e {numRepairParts} ricambi.</string>
-	<string key="inv_repairparts_resources_atlimit">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e &lt;font color="#f25d5d"&gt;{numRepairParts} ricambi.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_atlimit">Recuperando questo oggetto otterrai: {min}-{max} {itemName} e &lt;font color="#ff7171"&gt;{numRepairParts} ricambi.&lt;/font&gt;</string>
 	<string key="inv_repairparts_onlyrepairparts">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio.</string>
 	<string key="inv_repairparts_onlyrepairparts_withcoin">Recuperando questo oggetto otterrai {numRepairParts} pezzi di ricambio e {coinAmount}.</string>
-	<string key="inv_coin_atlimit">&lt;font color="#f25d5d"&gt;Hai raggiunto il limite massimo di monete.&lt;/font&gt;</string>
+	<string key="inv_coin_atlimit">&lt;font color="#ff7171"&gt;Hai raggiunto il limite massimo di monete.&lt;/font&gt;</string>
 	<string key="inv_notification_cannot_use_during_combat">Impossibile usare i consumabili nell'inventario durante il combattimento! Equipaggiali nei Comandi rapidi</string>
 	<string key="salvage_notification_obtained_1">Hai ottenuto: {entry1}</string>
 	<string key="salvage_notification_obtained_2">Hai ottenuto: {entry1} e {entry2}</string>
@@ -191,7 +194,7 @@
 	<string key="ui_Constitution_short">COST</string>
 	<string key="ui_loot_bag_1_item">1 oggetto</string>
 	<string key="ui_loot_bag_items">{amount} oggetti</string>
-	<string key="tutorial_salvage_items">Recupera armi, armatura e strumenti per ottenere &lt;font color="#ffea00"&gt;pezzi di ricambio&lt;/font&gt;.</string>
+	<string key="tutorial_salvage_items">Recupera armi, armatura e strumenti per ottenere &lt;font color="#edc63e"&gt;pezzi di ricambio&lt;/font&gt;.</string>
 	<string key="tooltip_weapon_damage_with_pellets">{damage}x{pellets}</string>
 	<string key="inv_TargetDeathDoorNotification">Il bersaglio è un passo dalla morte</string>
 	<string key="inv_TargetDeadNotification">Il bersaglio è morto</string>
@@ -207,6 +210,8 @@
 	<string key="loadout_removefrom_command" rel_version="Feature_Gear_Set_Storage">Rimuovi da set attrezzatura</string>
 	<string key="loadout_removefromall_command" rel_version="Feature_Gear_Set_Storage">Rimuovi da tutti i set attrezzatura</string>
 	<string key="loadout_store_callout" rel_version="Feature_Gear_Set_Storage">Sblocca set attrezzatura aggiuntivi</string>
+	<string key="loadout_toggle_show_hint" rel_version="Feature_Gear_Set_Storage">Mostra set attrezzatura</string>
+	<string key="loadout_toggle_hide_hint" rel_version="Feature_Gear_Set_Storage">Nascondi set attrezzatura</string>
 	<string key="loadout_store_button" rel_version="Feature_Gear_Set_Storage">Apri deposito</string>
 	<string key="loadout_import_current" rel_version="Feature_Gear_Set_Storage">Importa oggetti equipaggiati</string>
 	<string key="loadout_unequipall_tooltip" rel_version="Feature_Gear_Set_Storage">Rimuovi tutti gli oggetti</string>

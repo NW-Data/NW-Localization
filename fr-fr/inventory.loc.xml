@@ -68,9 +68,12 @@
 	<string key="inv_equipLoadSlow">Lourd</string>
 	<string key="inv_equipLoadOverburdened">Suréquipé</string>
 	<string key="inv_equipLoadTooltip">La charge combinée de l'armure et du bouclier que vous portez détermine votre poids d'équipement. Du poids d'équipement dépendent vos capacités d'esquive ainsi que d'autres effets.</string>
-	<string key="inv_equipLoadFastTooltip">• Dégâts de base : +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]} % \n• Soins prodigués : +30 % \n• Votre esquive consiste en une roulade rapide. \n• Coût en vitalité de l'esquive : {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} \n• Pendant {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s après avoir pris un coup au corps à corps, la distance d'esquive est réduite de 20 % et vous ne pouvez pas courir. \n• Dégâts critiques subis en JcJ : -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Light.CritDamageReduction * 100]} %	</string>
-	<string key="inv_equipLoadNormalTooltip">• Dégâts de base : +{[Type_EncumbranceData.Player.EquipLoadDamageMultNormal * 100]} % \n• Durée du contrôle de foule subi : -10 % \n• Votre esquive consiste en un bond rapide. \n• Coût en vitalité de l'esquive : {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} \n• Pendant {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s après avoir pris un coup au corps à corps, la distance d'esquive est réduite de 20 % et vous ne pouvez pas courir. \n• Dégâts critiques subis en JcJ : -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Medium.CritDamageReduction * 100]} %</string>
-	<string key="inv_equipLoadSlowTooltip">• Robustesse des parades : +15 % \n• Durée du contrôle de foule subi : -20 % \n• Soins prodigués : -30 % \n• Votre esquive consiste en un pas chassé. \n• Coût en vitalité de l'esquive : {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} \n• Pendant {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s après avoir pris un coup au corps à corps, vous ne pouvez pas courir. \n• Dégâts critiques subis en JcJ : -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Heavy.CritDamageReduction * 100]} %</string>
+	<string key="inv_equipLoadFastTooltip">• Dégâts de base : +{[0.150000 * 100]} % \n• Soins prodigués : +30 % \n• Stabilité de parade : -15 % \n• Durée de contrôle de foule subi : +10 % \n• Votre esquive consiste en une roulade rapide. \n• Coût en vitalité de l'esquive : {[50.000000]} \n• Pendant {[1.000000]} s après avoir pris un coup au corps à corps, la distance d'esquive est réduite de 20 % et vous ne pouvez pas courir. \n• Dégâts critiques subis [JcJ] : -{[0.150000 * 100]} %	
+	</string>
+	<string key="inv_equipLoadNormalTooltip">• Votre esquive consiste en un bond rapide. \n• Coût en vitalité de l'esquive : {[50.000000]} \n• Pendant {[0.750000]} s après avoir pris un coup au corps à corps, la distance d'esquive est réduite de 20 % et vous ne pouvez pas courir. \n• Dégâts critiques subis [JcJ] : -{[0.200000 * 100]} %
+	</string>
+	<string key="inv_equipLoadSlowTooltip">• Dégâts de base : -{[-0.150000 * -100]} % \n• Soins prodigués : -30 % \n• Stabilité de parade : +15 % \n• Durée de contrôle de foule subi : -20 % \n• Votre esquive consiste en un pas chassé. \n• Coût en vitalité de l'esquive : {[55.000000]} \n• Pendant {[0.500000]} s après avoir pris un coup au corps à corps, vous ne pouvez pas courir. \n• Dégâts critiques subis [JcJ] : -{[0.250000 * 100]} %
+	</string>
 	<string key="inv_equipLoadOverburdenedTooltip">Lorsque vous dépassez le poids d'équipement maximal, vous ne pouvez plus esquiver, courir ou utiliser de capacités. Vous devriez déséquiper quelques objets.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Si vous dépassez la limite de poids de l'inventaire, vous serez encombré(e) et vos mouvements ainsi que vos actions seront réduits. Vous perdrez également davantage de vitalité en parant.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Vous dépassez le poids d'équipement maximal : Impossible d'esquiver ou de courir et la vitesse de régénération de la vitalité est bien plus lente. Vous devriez déséquiper quelques objets.</string>
@@ -91,16 +94,16 @@
 	<string key="inv_repairparts_quantity">{count} pièce(s) de réparation</string>
 	<string key="inv_repairparts_tooltip_name">PIÈCES DE RÉPARATION</string>
 	<string key="ui_repairparts">Pièces de réparation</string>
-	<string key="inv_repairparts_tooltip_description">Les pièces de réparation servent à réparer les objets.\n\nElles ne peuvent être échangées, vendues ou achetées. Pour en obtenir plus, recyclez des armes et armures superflues.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#aaaaaa"&gt;Source :&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ebe3d6"&gt; armes, armures&lt;/font&gt;</string>
+	<string key="inv_repairparts_tooltip_description">Les pièces de réparation servent à réparer les objets.\n\nElles ne peuvent être échangées, vendues ou achetées. Pour en obtenir plus, recyclez des armes et armures superflues.\n\n&lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#b2aea1"&gt;Source :&lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_medium.font" color="#ebe3d6"&gt; armes, armures&lt;/font&gt;</string>
 	<string key="inv_repairparts_tooltip_drivedfrom">Armes et armures</string>
 	<string key="inv_azoth_tooltip_drivedfrom">Foyers d'altération, Quêtes</string>
-	<string key="inv_repairparts_nearlimit">&lt;font color="#f25d5d"&gt;Vous êtes sur le point d'atteindre la limite de pièces de réparation.&lt;/font&gt;</string>
-	<string key="inv_repairparts_atlimit">&lt;font color="#f25d5d"&gt;Limite de pièces de réparation atteinte.&lt;/font&gt;</string>
+	<string key="inv_repairparts_nearlimit">&lt;font color="#ff7171"&gt;Vous êtes sur le point d'atteindre la limite de pièces de réparation.&lt;/font&gt;</string>
+	<string key="inv_repairparts_atlimit">&lt;font color="#ff7171"&gt;Limite de pièces de réparation atteinte.&lt;/font&gt;</string>
 	<string key="inv_repairparts_resources_nearlimit">Recycler cet objet vous permettra de récupérer {min}-{max} {itemName}et {numRepairParts} pièce(s) de réparation.</string>
-	<string key="inv_repairparts_resources_atlimit">Recycler cet objet vous permettra de récupérer {min}-{max} {itemName}et &lt;font color="#f25d5d"&gt;{numRepairParts} pièce(s) de réparation.&lt;/font&gt;</string>
+	<string key="inv_repairparts_resources_atlimit">Recycler cet objet vous permettra de récupérer {min}-{max} {itemName}et &lt;font color="#ff7171"&gt;{numRepairParts} pièce(s) de réparation.&lt;/font&gt;</string>
 	<string key="inv_repairparts_onlyrepairparts">Recycler cet objet vous permettra de récupérer {numRepairParts} pièce(s) de réparation.</string>
 	<string key="inv_repairparts_onlyrepairparts_withcoin">Recycler cet objet vous permettra de récupérer {numRepairParts} pièces de réparation et {coinAmount}.</string>
-	<string key="inv_coin_atlimit">&lt;font color="#f25d5d"&gt;Vous avez atteint votre limite de pièces.&lt;/font&gt;</string>
+	<string key="inv_coin_atlimit">&lt;font color="#ff7171"&gt;Vous avez atteint votre limite de pièces.&lt;/font&gt;</string>
 	<string key="inv_notification_cannot_use_during_combat">Impossible d'utiliser des consommables de l'inventaire en combat ! Placez-les en accès rapide à la place.</string>
 	<string key="salvage_notification_obtained_1">Obtenu : {entry1}</string>
 	<string key="salvage_notification_obtained_2">Obtenu : {entry1} et {entry2}</string>
@@ -191,7 +194,7 @@
 	<string key="ui_Constitution_short">FME</string>
 	<string key="ui_loot_bag_1_item">1 objet</string>
 	<string key="ui_loot_bag_items">{amount} objets</string>
-	<string key="tutorial_salvage_items">Recycler vos armes, armures et outils pour obtenir des &lt;font color="#ffea00"&gt;pièces de réparation&lt;/font&gt;.</string>
+	<string key="tutorial_salvage_items">Recycler vos armes, armures et outils pour obtenir des &lt;font color="#edc63e"&gt;pièces de réparation&lt;/font&gt;.</string>
 	<string key="tooltip_weapon_damage_with_pellets">{damage} x {pellets}</string>
 	<string key="inv_TargetDeathDoorNotification">La cible est aux portes de la mort.</string>
 	<string key="inv_TargetDeadNotification">La cible est morte.</string>
@@ -207,6 +210,8 @@
 	<string key="loadout_removefrom_command" rel_version="Feature_Gear_Set_Storage">Retirer de l'ensemble d'équipement</string>
 	<string key="loadout_removefromall_command" rel_version="Feature_Gear_Set_Storage">Retirer de tous les ensembles d'équipement</string>
 	<string key="loadout_store_callout" rel_version="Feature_Gear_Set_Storage">Déverrouiller des ens. d'équipement suppl.</string>
+	<string key="loadout_toggle_show_hint" rel_version="Feature_Gear_Set_Storage">Afficher les ensembles d'équipement</string>
+	<string key="loadout_toggle_hide_hint" rel_version="Feature_Gear_Set_Storage">Cacher les ensembles d'équipement</string>
 	<string key="loadout_store_button" rel_version="Feature_Gear_Set_Storage">Ouvrir boutique</string>
 	<string key="loadout_import_current" rel_version="Feature_Gear_Set_Storage">Importer objets équipés</string>
 	<string key="loadout_unequipall_tooltip" rel_version="Feature_Gear_Set_Storage">Enlever tous les objets</string>

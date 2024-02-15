@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="ui_locationHudHeader" speaker="UI" comment="header above event/location objectives on HUD while esc menu is open">Luogo</string>
-	<string key="ui_pinnedHudHeader" speaker="UI" comment="header above manually pinned objectives on HUD while esc menu is open">Fissato</string>
-	<string key="ui_nearbyHudHeader" speaker="UI" comment="header above auto-added nearby objectives on HUD while esc menu is open">Vicino</string>
+	<string key="ui_locationHudHeader" comment="header above event/location objectives on HUD while esc menu is open" speaker="UI">Luogo</string>
+	<string key="ui_pinnedHudHeader" comment="header above manually pinned objectives on HUD while esc menu is open" speaker="UI">Fissato</string>
+	<string key="ui_nearbyHudHeader" comment="header above auto-added nearby objectives on HUD while esc menu is open" speaker="UI">Vicino</string>
 	<string key="journal_chapter_count" speaker="UI">Capitoli scoperti:</string>
 	<string key="journal_chapter_title" speaker="UI">CAPITOLO</string>
 	<string key="journal_chapters_completed" speaker="UI">Capitoli completati</string>
@@ -79,7 +79,7 @@
 	<string key="objective_hand_in_destination" speaker="UI">Parla con {npcName}</string>
 	<string key="objective_have_level" speaker="UI">Raggiungi il livello {level}</string>
 	<string key="objective_have" speaker="UI">Ottieni: {itemName}</string>
-	<string key="objective_have_p" speaker="UI">Ottieni:{itemName} (x{itemAmount})</string>
+	<string key="objective_have_p" speaker="UI">Ottieni: {itemName} (x{itemAmount})</string>
 	<string key="@objective_house_score" speaker="UI">Raggiungi il punteggio arredamento {score}</string>
 	<string key="objective_ingredients" speaker="UI">INGREDIENTI</string>
 	<string key="objective_journal" speaker="UI">Diario</string>
@@ -114,10 +114,10 @@
 	<string key="objective_mission_desc_merchant_courier" speaker="UI">Trasporta provviste essenziali a un altro avamposto</string>
 	<string key="objective_mission_desc_procurer_acquire" speaker="UI">Vai a procurarti risorse essenziali</string>
 	<string key="objective_mission_POI_kill_enemy_for_x" speaker="UI">Vai presso {POITags} e uccidi {enemyName} per ottenere: {itemName}</string>
-	<string key="objective_mission_task_desc_return_to_giver_cm" speaker="UI">Porta a termine presso il tabellone Progetto cittadino di: {destinationName}</string>
+	<string key="objective_mission_task_desc_return_to_giver_cm" speaker="UI">Porta a termine presso il tabellone dei progetti cittadini di: {destinationName}</string>
 	<string key="objective_mission_task_desc_return_to_giver" speaker="UI">Porta a termine presso il rappresentante della fazione di: {destinationName}</string>
 	<string key="objective_mission_task_desc_return_to_any_giver" speaker="UI">Porta a termine presso un qualsiasi rappresentante della fazione</string>
-	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Esci dall'istanza per completare l'incarico</string>
+	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Torna dal fornitore di missioni per completare </string>
 	<string key="objective_mission_task_explore_POITag" speaker="UI">Esplora {POITags}</string>
 	<string key="objective_mission_task_explore_the_POITag" speaker="UI">Esplora {POITags}</string>
 	<string key="objective_mission_task_goto_Map_Location" speaker="UI">Perlustra il relitto segnato sulla mappa</string>
@@ -138,7 +138,7 @@
 	<string key="objective_mission_task_kill_X_enemies_have_X_items_goto_POITag" speaker="UI">Abbatti {targetName} presso {POITags} per ottenere: {itemName}</string>
 	<string key="objective_mission_task_kill_X_enemies_have_X_items_goto_territoryID" speaker="UI">Abbatti {targetName} presso {territoryID} per ottenere: {itemName}</string>
 	<string key="objective_mission_task_kill_X_enemies_have_X_items_goto_territoryID_POITag" speaker="UI">Abbatti {targetName} presso {POITags} {territoryID} per ottenere: {itemName}</string>
-	<string key="objective_mission_task_kill_X_enemies_have_X_items_poi" speaker="UI">Abbatti {targetName} presso {POITags} per ottenere: {itemName} (x{itemAmount}) </string>
+	<string key="objective_mission_task_kill_X_enemies_have_X_items_poi" speaker="UI">Abbatti {targetName} presso {POITags} per ottenere: {itemName} (x{itemAmount})</string>
 	<string key="objective_mission_task_kill_X_enemies_poi" speaker="UI">Abbatti {targetName} (x{targetAmount}) presso {POITags}</string>
 	<string key="objective_mission_task_search_containers" speaker="UI">Cerca nei forzieri presso {POITags} per ottenere: {itemName}</string>
 	<string key="objective_mission_task_timer" speaker="UI">Tempo rimanente: {remainingTime}</string>
@@ -158,10 +158,10 @@
 	<string key="objective_get_msq_message" speaker="UI">Al momento non sono attive missioni della storia principale.\nLa prossima missione della storia principale sarà disponibile quando verrà visualizzata questa icona sulla mappa.</string>
 	<string key="M_procurer_craft_workorder_items" speaker="UI">Missione di produzione</string>
 	<string key="objective_challenge" speaker="UI">Sfida</string>
-	<string key="objective_name_template" speaker="UI" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title.">Missione: "{title}"</string>
-	<string key="objective_name_and_rewards_template" speaker="UI" comment="Shows above rewards on the conversation screen. {title} is the quest title">Ricompense per "{title}"</string>
-	<string key="objective_rewards_completion" speaker="UI" comment="Rewards label when completing a quest">Ricompense per il completamento</string>
-	<string key="objective_rewards_proposal" speaker="UI" comment="Rewards label when accepting a quest">Completa la missione per ricevere</string>
+	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Missione: "{title}"</string>
+	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">Ricompense per "{title}"</string>
+	<string key="objective_rewards_completion" comment="Rewards label when completing a quest" speaker="UI">Ricompense per il completamento</string>
+	<string key="objective_rewards_proposal" comment="Rewards label when accepting a quest" speaker="UI">Completa la missione per ricevere</string>
 	<string key="objective_objective" speaker="UI">Obiettivo</string>
 	<string key="objective_objectives" speaker="UI">Obiettivi</string>
 	<string key="objectives_sort" speaker="UI">Ordina per:</string>
@@ -201,7 +201,7 @@
 	<string key="objective_recipepinned" speaker="UI">Ricetta fissata</string>
 	<string key="objective_recipes" speaker="UI">Ricette</string>
 	<string key="objective_recipes_desc" speaker="UI">Aggiungi da qualunque postazione di produzione</string>
-	<string key="objective_recipetemplate" speaker="UI" comment="How recipe names show in the HUD. Use {title} for the item name">Ricetta per: {title}</string>
+	<string key="objective_recipetemplate" comment="How recipe names show in the HUD. Use {title} for the item name" speaker="UI">Ricetta per: {title}</string>
 	<string key="objective_recipe_abandontitle">Abbandona la ricetta</string>
 	<string key="objective_recipe_abandonbody">Vuoi davvero abbandonare la ricetta attuale?</string>
 	<string key="objective_artifacts" speaker="UI" rel_version="Feature_Artifacts">Manufatti</string>
@@ -259,14 +259,14 @@
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Tieni premuto {POITags} per {timeRemaining}</string>
 	<string key="objective_mission_task_control_point" speaker="UI">Cattura un punto di controllo della fazione per i Predoni presso: {TerritoryID}</string>
 	<string key="task_choose_faction" speaker="UI">Scegli una fazione con {destinationName}</string>
-	<string key="complete_available_prompt_DEFAULT" speaker="UI - Button" comment="male">Porta a termine la missione</string>
+	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Porta a termine la missione</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Accetta la missione</string>
-	<string key="desc_getoffbeach" speaker="UI - Journal - Quest  Description" comment="male">Esplora quella che sembra essere una torre di guardia.</string>
+	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Quest  Description">Esplora quella che sembra essere una torre di guardia.</string>
 	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title">Unico sopravvissuto</string>
 	<string key="task_getoffbeach_openmap">Apri la mappa</string>
 	<string key="have_berries">Possiedi bacche</string>
 	<string key="objective_mission_kill_generic_at_POI">Sconfiggi {targetName} presso {POITags}</string>
-	<string key="objective_mission_loot_chests_generic_at_POI">Cerca {itemName} nei forzieri presso {POITags}</string>
+	<string key="objective_mission_loot_chests_generic_at_POI">Cerca nei forzieri presso {POITags} per ottenere: {itemName}</string>
 	<string key="objective_mission_hunt_generic_at_POI">Dai la caccia a {targetName} presso {POITags}</string>
 	<string key="objective_mission_skin_generic">Scuoiali per ottenere {itemName}</string>
 	<string key="objective_mission_poach_generic_at_POI" comment="test">Raccogli {itemName} da {targetName} presso {POITags}</string>
@@ -280,9 +280,9 @@
 	<string key="objective_mission_poach_flint_at_POI">Raccogli selce sulla spiaggia presso {POITags}</string>
 	<string key="objective_mission_poach_iron_at_POI">Estrai minerale di ferro dai giacimenti presso {POITags}</string>
 	<string key="objective_mission_kill_generic_at_POI_S">Abbatti {targetName} presso {POITags}</string>
-	<string key="objective_mission_loot_chests_generic_at_POI_S">Cerca {itemName} nei forzieri presso {POITags}</string>
+	<string key="objective_mission_loot_chests_generic_at_POI_S">Cerca nei forzieri presso {POITags} per ottenere: {itemName}</string>
 	<string key="objective_mission_kill_generic_at_POI_C">Elimina definitivamente {targetName} presso {POITags}</string>
-	<string key="objective_mission_loot_chests_generic_at_POI_C">Cerca {itemName} nei forzieri presso {POITags}</string>
+	<string key="objective_mission_loot_chests_generic_at_POI_C">Cerca nei forzieri presso {POITags} per ottenere: {itemName}</string>
 	<string key="objective_mission_poach_bushes_at_POI">Raccogli {itemName} dai cespugli presso {POITags}</string>
 	<string key="dynamic_poi_mission_collect">Cerca documenti geografici nei forzieri</string>
 	<string key="dynamic_poi_mission_kill_category" speaker="UI">Abbatti {targetName} nemici</string>
@@ -324,7 +324,7 @@
 	<string key="objective_timetrial_completed" speaker="UI">Prova a tempo completata!</string>
 	<string key="objective_timetrial_failed" speaker="UI">Prova a tempo non completata</string>
 	<string key="objective_timetrial_timeLeft" speaker="UI">Tempo rimanente: {secondsAdded} secondi</string>
-	<string key="objective_timetrial_addTime" speaker="UI">+{secondsAdded} secondi</string>
+	<string key="objective_timetrial_addTime" speaker="UI">+ {secondsAdded} secondi</string>
 	<string key="objective_timetrial_tutorial" speaker="UI">[SCATTA con {key}]</string>
 	<string key="objective_timetrial_tourStart" speaker="UI">VAI!</string>
 	<string key="objective_timetrial_timeout_teleport_prompt_title" speaker="UI">&lt;font color={color}&gt;Prova a tempo non completata&lt;/font&gt;</string>
@@ -400,47 +400,27 @@
 	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Nell'arena sconfiggi i nemici: {targetName}</string>
 	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Sconfiggi i nemici: {targetName}</string>
 	<string key="Objective_CraftArtifact" rel_version="Feature_Expansion_1">Migliora questo oggetto presso la fornace di gesso</string>
-	<string key="LNY_tribute_table" rel_version="Event_Lunar_NewYear_Temp">Tributo al drago</string>
-	<string key="LNY_tribute_table_description" rel_version="Event_Lunar_NewYear_Temp">Recupera dei cimeli dai Corrotti e prepara un pasto tradizionale come tributo per evocare la benedizione del drago. Questo evento ruota tra le varie ambientazioni di Scaglia d'ebano.</string>
-	<string key="Objective_lny_tribute_wave_00_title" rel_version="Event_Lunar_NewYear_Temp">Raccogli i cimeli</string>
-	<string key="Objective_lny_tribute_wave_00_desc" rel_version="Event_Lunar_NewYear_Temp">Recupera cimeli dai Corrotti</string>
-	<string key="Objective_lny_tribute_heirloom_01_title" rel_version="Event_Lunar_NewYear_Temp">Comunica con il drago</string>
-	<string key="Objective_lny_tribute_heirloom_01_desc" rel_version="Event_Lunar_NewYear_Temp">Recupera il vino secolare e posizionalo sul tavolino</string>
-	<string key="Objective_lny_tribute_heirloom_02_title" rel_version="Event_Lunar_NewYear_Temp">Comunica con il drago</string>
-	<string key="Objective_lny_tribute_heirloom_02_desc" rel_version="Event_Lunar_NewYear_Temp">Recupera il tè verde giada e posizionalo sul tavolino</string>
-	<string key="Objective_lny_tribute_heirloom_03_title" rel_version="Event_Lunar_NewYear_Temp">Comunica con il drago</string>
-	<string key="Objective_lny_tribute_heirloom_03_desc" rel_version="Event_Lunar_NewYear_Temp">Recupera l'antica pergamena e posizionala sul tavolino</string>
-	<string key="Objective_lny_tribute_wave_03_title" rel_version="Event_Lunar_NewYear_Temp">Comunica con il drago</string>
-	<string key="Objective_lny_tribute_wave_03_desc" rel_version="Event_Lunar_NewYear_Temp">Prepara il pesce fiorente e posizionalo sull'altare</string>
-	<string key="Objective_lny_tribute_wave_04_title" rel_version="Event_Lunar_NewYear_Temp">Completa il rituale</string>
-	<string key="Objective_lny_tribute_wave_04_desc" rel_version="Event_Lunar_NewYear_Temp">Avvicinati alla fonte di energia</string>
-	<string key="Objective_lny_tribute_wave_04B_desc" rel_version="Event_Lunar_NewYear_Temp">Sintonizzati con la benedizione del drago</string>
-	<string key="Objective_lny_tribute_wave_05_title" rel_version="Event_Lunar_NewYear_Temp">Gli indegni</string>
-	<string key="Objective_lny_tribute_wave_05_desc" rel_version="Event_Lunar_NewYear_Temp">Sconfiggi i ladri della dinastia</string>
-	<string key="Objective_lny_tribute_wave_06A_title" rel_version="Event_Lunar_NewYear_Temp">Gli indegni</string>
-	<string key="Objective_lny_tribute_wave_06A_desc" rel_version="Event_Lunar_NewYear_Temp">Sconfiggi il guardaspalle della dinastia</string>
-	<string key="Objective_lny_tribute_wave_06B_title" rel_version="Event_Lunar_NewYear_Temp">Gli indegni</string>
-	<string key="Objective_lny_tribute_wave_06B_desc" rel_version="Event_Lunar_NewYear_Temp">Sconfiggi i moschettieri della dinastia</string>
-	<string key="Objective_lny_tribute_wave_07A_title" rel_version="Event_Lunar_NewYear_Temp">Gli indegni</string>
-	<string key="Objective_lny_tribute_wave_07A_desc" rel_version="Event_Lunar_NewYear_Temp">Sconfiggi la fanciulla della dinastia Ying</string>
-	<string key="Objective_lny_tribute_wave_07B_title" rel_version="Event_Lunar_NewYear_Temp">Gli indegni</string>
-	<string key="Objective_lny_tribute_wave_07B_desc" rel_version="Event_Lunar_NewYear_Temp">Sconfiggi le tigri dei Corrotti</string>
-	<string key="Objective_lny_tribute_get" rel_version="Event_Lunar_NewYear_Temp">Recupera i cimeli della dinastia</string>
-	<string key="Objective_lny_tribute_get_heirloom_01" rel_version="Event_Lunar_NewYear_Temp">Trova e recupera il vino secolare</string>
-	<string key="Objective_lny_tribute_get_heirloom_02" rel_version="Event_Lunar_NewYear_Temp">Trova e recupera il tè verde giada</string>
-	<string key="Objective_lny_tribute_get_heirloom_03" rel_version="Event_Lunar_NewYear_Temp">Trova e recupera l'antica pergamena</string>
-	<string key="Objective_lny_tribute_fish" rel_version="Event_Lunar_NewYear_Temp">Prepara il tributo</string>
-	<string key="Objective_lny_tribute_get_fish" rel_version="Event_Lunar_NewYear_Temp">Prepara il pesce fiorente nel wok usando il carretto lì vicino</string>
-	<string key="Objective_lny_tribute_place" rel_version="Event_Lunar_NewYear_Temp">Inizia il rituale</string>
-	<string key="Objective_lny_tribute_place_heirloom_01" rel_version="Event_Lunar_NewYear_Temp">Posiziona il vino secolare sull'altare</string>
-	<string key="Objective_lny_tribute_place_heirloom_02" rel_version="Event_Lunar_NewYear_Temp">Posiziona il tè verde giada sull'altare</string>
-	<string key="Objective_lny_tribute_place_heirloom_03" rel_version="Event_Lunar_NewYear_Temp">Posiziona l'antica pergamena sull'altare</string>
-	<string key="Objective_lny_tribute_place_fish" rel_version="Event_Lunar_NewYear_Temp">Posiziona il pesce fiorente e comunica con il drago</string>
-	<string key="Objective_lny_tribute_wave_3_1_desc" rel_version="Event_Lunar_NewYear_Temp">Sconfiggi le forze della dinastia dei Corrotti</string>
-	<string key="Objective_lny_tribute_wave_3_2_desc" rel_version="Event_Lunar_NewYear_Temp">Sopravvivi all'assedio della Corruzione</string>
-	<string key="Objective_lny_tribute_wave_3_3_desc" rel_version="Event_Lunar_NewYear_Temp">Sconfiggi il guardaspalle e i moschettieri della dinastia</string>
-	<string key="Objective_lny_tribute_wave_3_4_desc" rel_version="Event_Lunar_NewYear_Temp">Sconfiggi Ying e i suoi animali domestici</string>
-	<string key="Objective_lny_tribute_reward" rel_version="Event_Lunar_NewYear_Temp">Completa il rituale</string>
-	<string key="Objective_lny_tribute_reward_break_core" rel_version="Event_Lunar_NewYear_Temp">Distruggi il Nucleo corrotto e rivela la benedizione del drago</string>
+	<string key="Objective_Artifact_Set2_HeavyHands" rel_version="Feature_Artifacts_S5">Manufatto: Guanti della gravità di Gilli</string>
+	<string key="Objective_Artifact_Set2_HeavyLegs" rel_version="Feature_Artifacts_S5">Manufatto: Cuore di ferro</string>
+	<string key="Objective_Artifact_Set2_MediumChest" rel_version="Feature_Artifacts_S5">Manufatto: Collera della natura</string>
+	<string key="Objective_Artifact_Set2_LightFeet" rel_version="Feature_Artifacts_S5">Manufatto: Stivali del credo</string>
+	<string key="Objective_Artifact_Set2_1hThrowingAxe" rel_version="Feature_Artifacts_S5">Manufatto: Peccato</string>
+	<string key="Objective_Artifact_Set2_2hGreatAxe" rel_version="Feature_Artifacts_S5">Manufatto: Furia della tempesta</string>
+	<string key="Objective_Artifact_Set2_2hSpear" rel_version="Feature_Artifacts_S5">Manufatto: Veleno</string>
+	<string key="Objective_Artifact_Set2_Amulet1" rel_version="Feature_Artifacts_S5">Manufatto: Fenice</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase0" rel_version="Quest_MSQ3_Ebonscale">Salva il principe tormentato</string>
+	<string key="99F_Enc_Liang_Objective_Phase0" rel_version="Quest_MSQ3_Ebonscale">Avvicinati a Liang</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase1" rel_version="Quest_MSQ3_Ebonscale">Salva il principe tormentato</string>
+	<string key="99F_Enc_Liang_Objective_Phase1" rel_version="Quest_MSQ3_Ebonscale">Usa le competenze o gli attacchi pesanti per applicare talismani a Liang</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase2" rel_version="Quest_MSQ3_Ebonscale">Salva il principe tormentato</string>
+	<string key="99F_Enc_Liang_Objective_Phase2" rel_version="Quest_MSQ3_Ebonscale">Applica altri 6 talismani per immobilizzare Liang</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase3" rel_version="Quest_MSQ3_Ebonscale">Salva il principe tormentato</string>
+	<string key="99F_Enc_Liang_Objective_Phase3" rel_version="Quest_MSQ3_Ebonscale">Applica altri 8 talismani per immobilizzare Liang</string>
+	<string key="99F_Enc_Liang_Objective_Title_Phase4" rel_version="Quest_MSQ3_Ebonscale">Salva il principe tormentato</string>
+	<string key="99F_Enc_Liang_Objective_Phase4" rel_version="Quest_MSQ3_Ebonscale">Usa il bastone di Azoth per liberare l'anima di Liang e tornare all'esterno</string>
+	<string key="objective_weekly_description" speaker="UI">Missione settimanale</string>
+	<string key="objective_daily_description" speaker="UI">Missione giornaliera</string>
+	<string key="objective_hourly_description" speaker="UI">Missione oraria</string>
+	<string key="objective_minutely_description" speaker="UI">Missione una volta al minuto</string>
 </resources>
 
