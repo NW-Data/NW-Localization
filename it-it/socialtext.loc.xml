@@ -448,7 +448,7 @@
 	<string key="group_member_cannot_join_expedition">{playerName} non può partecipare a questa spedizione</string>
 	<string key="self_cannot_join_expedition">Impossibile partecipare alla spedizione</string>
 	<string key="required_level_warning">Richiede livello {level}</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Trova gruppo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Visualizza lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">La mia lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crea lobby</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_lobby">Lobby PvP</string>
@@ -565,7 +565,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Schioppo, arco, bastone infuocato, ascia grande, accetta, guanto di ghiaccio, moschetto, stocco, lancia, guanto del Vuoto</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Guaritore</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">I guaritori hanno il compito di tenere in vita il gruppo usando potenziamenti come Fortificazione, capaci di curare e ridurre i danni. Possono anche ricevere l'incarico di rimuovere dagli alleati depotenziamenti dannosi, quali Sanguinamento o Veleno. Per massimizzare l'efficacia curativa, i guaritori dovrebbero aumentare la statistica Concentrazione.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastone della vita, guanto del Vuoto</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastone della vita, guanto del Vuoto, mazzafrusto</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Lobby creata</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Lobby aggiornata</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Lobby rimossa</string>
@@ -678,5 +678,135 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_limit_refresh">(Azzeramento: {date})</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites_single">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt; invito in sospeso</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{amount}&lt;/font&gt; Inviti in sospeso</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_header">Ricerca attività</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_leaderboards">Classifiche</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_pve">PvE</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_pvp">PvP</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_expeditions_name">Spedizioni</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_expeditions_desc" comment="">Esplora luoghi pericolosi e dimenticati (con massimo 4 compagni di squadra) per sbloccare e trovare ricompense uniche che ti permetteranno di diventare più potente e annientare i tuoi nemici.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_mutations_name">Spedizioni mutate</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_mutations_desc" comment="">Con 3 nuovi livelli di difficoltà, potrai cimentarti di nuovo nelle spedizioni passate mettendoti alla prova con sfide inedite e pericolosissime. Tu e i tuoi compagni dovrete darvi parecchio da fare, ma se sopravviverete potrete godervi ricompense preziosissime.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_season_trials_name">Prove stagionali</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_season_trials_desc" comment="">Affronta sfide inedite e terrificanti con ogni nuova stagione.\n\nMinimo 6 giocatori\nSolo gruppi locali</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_name">Prove élite</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_desc" comment="">Affronta il colossale "Shah Neshen il Divoratore" con un massimo di 20 giocatori in questa Prova élite.\n\nMinimo 12 giocatori\nSolo gruppi locali</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_opr_desc" comment="">Totalizza 1000 punti prima di chiunque altro in questa frenetica esperienza PvP 20 contro 20. Conquista punti di controllo mentre raccogli risorse per erigere le tue difese e sbloccare vantaggi tattici per la tua squadra.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_pvp_arena_desc" comment="">Sfida altri giocatori in questa arena 3 vs 3 per ottenere speciali ricompense PvP.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Bonus giornaliero</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Esperienza più veloce</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_remaining_attempts">Tentativi rimanenti</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Tutte le difficoltà condivise</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description">Mette in coda il tuo gruppo per tutte le difficoltà (M1-M3) che avete in comune. Se venite abbinati in un livello di difficoltà più bassa e lo completate, riceverete un bonus trasporto. \n\n Limite giornaliero: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Azzeramento tra: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Mette in coda il tuo gruppo per tutte le M1 e M2 che avete in comune. Se si è abbinati in un livello di difficoltà più bassa e lo si completa, si riceverà un bonus trasporto. \n\n Limite giornaliero: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Azzeramento tra: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_progress_label">Consentire l'unione a partita in corso?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_random">Casuale</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_queue">Coda</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_expedition_name">Spedizione casuale</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_expedition_description" comment="">Ti mette in coda per tutti i contenuti di cui soddisfi i requisiti per formare rapidamente abbinamenti.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_expedition_rewards_label" comment="DO NOT TRANSLATE - UNUSED">Ricompense della spedizione casuale:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_mutation_name">Spedizione mutata casuale</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_mutation_description" comment="">Ti mette in coda per tutti i livelli di difficoltà Mutatore di cui soddisfi i requisiti per formare rapidamente abbinamenti.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_mutation_description_M1_M2_Only" comment="">Ti mette in coda per tutte le Spedizioni M1 e M2 di cui soddisfi i requisiti per formare rapidamente abbinamenti. </string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_mutation_rewards_label" comment="DO NOT TRANSLATE - UNUSED">Ricompense della spedizione mutata casuale:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_reward">{rewardValue} {rewardName}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_xp_reward_tooltip">{xpPercent}% PE del livello attuale.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_checked_tooltip">Contrassegna una casella per selezionare almeno un'attività dalla lista qui sopra.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_all_checked_tooltip">Tutte le attività disponibili sono state selezionate. Seleziona Casuale per metterti in coda per tutte le attività, così da non perderti i bonus giornalieri.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_tooltip">Al momento non puoi partecipare ad alcuna attività.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_for_group_tooltip">Al momento il tuo gruppo non può partecipare ad alcuna attività.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip">Ci sono {lobbyCount} gruppi che reclutano membri per quest'attività nella Ricerca gruppo. Seleziona "Visualizza lobby" nella schermata delle informazioni sulle attività per scoprire quali sono.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip_single">C'è 1 gruppo che recluta membri per questa attività nella Ricerca gruppo. Seleziona "Visualizza lobby" nella schermata delle informazioni sulle attività per visualizzarle.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level">Il tuo livello di mutazione:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group" comment="">Fai clic qui per l'opzione ENTRA CON GRUPPO</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group_M1_M2_Only" comment="">Fai clic qui per unirti a M3 usando ENTRA CON GRUPPO</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_available_rewards">Ricompense disponibili</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_dungeon_mode_regular">Normale</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_dungeon_mode_mutated">Mutata</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_inacive_mutation_tooltip">&lt;font color={nameColor}&gt;{name}&lt;/font&gt; al momento non è mutata.\n\n&lt;font color={activeLabelColor}&gt;Spedizioni mutate attive&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_active_mutation_tooltip">\n\n&lt;img src="{iconPath}" scale="4" yOffset="12"&gt;&lt;/img&gt;&lt;font color={nameColor}&gt;{name}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_prgress_status">Unione a partita in corso: &lt;font color={statusColor}&gt;{status}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_prgress_status_enabled">Attivata</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_prgress_status_disabled">Disattivata</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_prgress_tooltip_enabled">&lt;font color={statusColor}&gt;Attivata:&lt;/font&gt; Potresti unirti a giocatori che stanno già prendendo parte a un'attività.\n\nL'opzione "Unione a partita in corso" può essere disattivata prima di cercare nuove attività.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_prgress_tooltip_disabled">&lt;font color={statusColor}&gt;Disattivata:&lt;/font&gt; Non ti unirai a giocatori che stanno già prendendo parte a un'attività.\n\nL'opzione "Unione a partita in corso" può essere abilitata prima di cercare nuove attività.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_label">Ricerca:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_activities">Ricerca: &lt;font color={activitiesColor}&gt;{activitiesText}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_random_expedition">Spedizione casuale</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_expedition">1 spedizione</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_expeditions">{numActivites} spedizioni</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_random_mutation">Spedizione mutata casuale</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_mutation">1 spedizione mutata</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_mutations">{numActivites} spedizioni mutate</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_outpost_rush">Carica all'avamposto</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_3v3arenas">Arene 3 vs 3</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_selection_in_progress_label">Selezione ruolo in corso</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_bonus_reached">Limite bonus di ruolo: {count}/{dailyLimit}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_selection_in_progress">Selezione ruolo in corso - {playersLockedInText}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_selection_players_locked_in">&lt;font color={numberColor}&gt; &lt;img src="LyShineUI/Images/icons/chat/channelgroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; {numLockedIn}&lt;/font&gt; / {numInGroup}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_deserter_penalty_label">Sotto penalità disertore</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_deserter_tooltip">Hai la &lt;font color={penaltyColor}&gt;penalità disertore&lt;/font&gt;.\n\nL'hai ricevuta perché hai lasciato un gruppo tra mondi nei primi 10 minuti. Finché la penalità è attiva, non puoi metterti in coda per questa modalità.\n\nTuttavia, puoi comunque creare dei gruppi per goderti i contenuti usando il pulsante &lt;font face="lyshineui/fonts/nimbus_bold.font" &gt;Entra con gruppo&lt;/font&gt; all'Ingresso del sotterraneo.\n\nSe vuoi evitare di incappare in questa penalità in futuro, prova a completare i contenuti con il tuo gruppo prima di abbandonare o usa la nuova funzionalità &lt;font face="lyshineui/fonts/nimbus_bold.font" &gt;Vota per abbandonare&lt;/font&gt; nelle Impostazioni del gruppo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_queue_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché hai già effettuato l'iscrizione a: {matchname}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_role_select_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché hai già effettuato l'iscrizione a: {matchname} I membri del gruppo stanno selezionando i ruoli.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_war_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché hai già effettuato l'iscrizione a una guerra che inizierà entro un'ora.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_at_limit">Hai raggiunto il limite per questo tipo di attività.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_at_limit">Uno o più membri del tuo gruppo hanno raggiunto il proprio limite per questo tipo di attività.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_premade_group_dungeon_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché sei nella coda di una spedizione o di una Prova élite.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_finder_lobby_tooltip">Non puoi richiedere di unirti a una coda di matchmaking mentre sei in una lobby.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_invite_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché al momento hai un invito in sospeso.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_event_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché al momento stai partecipando a un evento.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_member_in_event_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché uno o più membri del tuo gruppo hanno effettuato l'iscrizione a un altro evento.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_too_many_items_tooltip">Non puoi chiedere di unirti a una coda di matchmaking perché hai troppi oggetti unici nell'inventario. Rimuovi {numItemsToRemove} oggetto/i dall'inventario.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_raid_group_tooltip">Non puoi richiedere di unirti a una coda di matchmaking mentre sei in un gruppo da incursione.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_no_azoth_staff">Per metterti in coda per questa modalità di gioco, devi equipaggiare un bastone di Azoth.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_no_azoth_staff_simple">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Bastone di Azoth non equipaggiato&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_full_tooltip">Non puoi richiedere di unirti a una coda di matchmaking mentre il tuo gruppo è al completo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ineligible_unhandled_tooltip">Non puoi richiedere di unirti a una coda di matchmaking in questo momento.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_M3s_disabled_tooltip">Le mutazioni élite (M3) sono disponibili solo per gruppi locali.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_cancel_queue">Abbandona coda</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_select_role">Seleziona ruolo</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_decline">Rifiuta</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_azoth_staff">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Bastone di Azoth equipaggiato&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_level">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Raggiungi il livello {minLevel}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_mutation">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Completa {name}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_size">&lt;img src="LyShineUI/Images/icons/chat/channelgroup" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; {minPlayers} - {maxPlayers} giocatori</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score_range">&lt;img src="LyShineUI/Images/Icons/Misc/icon_gearscore" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; {minGearScore} - {maxGearScore}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score_mutation">M{difficulty} {gearScore}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_click_here_join_group">Fai clic qui per entrare in M3 con il gruppo</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score">{gearScore}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_deserter_penalty">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Al momento sotto penalità del disertore: impossibile unirsi a questa coda di matchmaking.&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_ineligible">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Almeno un membro del tuo gruppo non soddisfa questi requisiti o al momento è sotto penalità del disertore.&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_too_big">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Il tuo gruppo è troppo numeroso.&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_level_requirement_not_met">Non soddisfi i requisiti di livello per questa spedizione.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_gearscore_requirement_not_met">Non soddisfi i requisiti di punteggio attrezzatura per questa spedizione.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_title">Abbandona coda</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_expedition_desc">Vuoi davvero abbandonare la coda della/e spedizione/i?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_mutation_desc">Vuoi davvero abbandonare la coda della/e spedizione/i mutata/e?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_enter_dungeon">Stai tentando di accedere a questa spedizione con il tuo gruppo attuale. Vuoi davvero abbandonare la coda di matchmaking per entrare?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_backfilling_group">Completamento gruppo</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_title">Ingresso nella coda di matchmaking...</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_info">Selezione dei ruoli necessaria</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_accept">Seleziona ruolo</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_canceled">Coda annullata</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_selecting_roles">Selezione dei ruoli: &lt;font color={numberColor}&gt;{numLockedIn}&lt;/font&gt; / {numInGroup}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_disabled">Hai già impostato un ruolo. Fai clic su "Cambia ruolo" per modificarlo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_requirement_damage">&lt;font color={color}&gt;Qualsiasi arma&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_requirement_tank">&lt;font color={weaponColor}&gt;Qualsiasi arma&lt;/font&gt; &lt;font color={color}&gt; con una &lt;/font&gt; &lt;font color={gemColor}&gt;gemma di corniola&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_requirement_healer">&lt;font color={weaponColor}&gt;Liv. {masteryLevel} Bastone della vita&lt;/font&gt; &lt;font color={color}&gt; e &lt;/font&gt; &lt;font color={focusColor}&gt;{focusLevel} {focusText}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_damage">- Infliggi più danni possibili\n- Uccidi i nemici prima che riescano a sopraffarti</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_damage">- Schioppo, arco, bastone infuocato, ascia grande, accetta, guanto di ghiaccio, moschetto, stocco, lancia, guanto del Vuoto\n- Investi in abilità e attributi incentrati sul provocare danni considerevoli\n- Attacchi su area d'effetto</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_healer">- Mantieni vivi i tuoi compagni con cure e riduzioni dei danni\n- Rimuovi i depotenziamenti dannosi dagli alleati</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_healer">- Bastone della vita, guanto del Vuoto, mazzafrusto\n- Investi nella statistica Concentrazione</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_tank">- Assorbi i danni\n- Provoca i nemici</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">- Spada e scudo, ascia grande, martello da guerra\n- Armatura pesante\n- Gemme di corniola\n- Controllo di gruppo (stordimento, radicamento, schiacciamento)</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_title">Conferma il rifiuto</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_message">Vuoi davvero rifiutare i controlli preliminari? Tu o il tuo gruppo sarete rimossi dalla coda e dovrete mettervi in coda nuovamente.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Vuoi davvero andartene? Si verrà teletrasportati fuori dalla spedizione e non si potrà più rientrare.\n\n&lt;font color={penaltyColor}&gt;Se abbandoni durante i primi 10 minuti della spedizione, riceverai una penalità di abbandono (20 minuti).&lt;/font&gt;\n\nPer evitare la penalità di abbandono, utilizza l'opzione "Votare per uscire" nelle Impostazioni del gruppo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc_no_penalty">Vuoi davvero abbandonare? Il tuo personaggio verrà teletrasportato fuori dalla spedizione e non potrai unirti nuovamente.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_expedition_activity_disabled">Al momento, il matchmaking delle spedizioni è disattivato. Riprova più tardi.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_mutation_activity_disabled">Al momento, il matchmaking delle spedizioni mutate è disattivato. Riprova più tardi.</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_dungeon_activity">Spedizione/i</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_mutation_activity">Spedizione/i mutata/e</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">Non è possibile effettuare il matchmaking in M3 Usa "Entra con gruppo" in alto.</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_queue_hud_already_accepted_match_tooltip">Non puoi lasciare la coda dopo che un invito a una partita è stato accettato.</string>
 </resources>
 

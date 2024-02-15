@@ -1,7 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="ui_locationHudHeader" comment="header above event/location objectives on HUD while esc menu is open" speaker="UI">Miejsce</string>
-	<string key="ui_pinnedHudHeader" comment="header above manually pinned objectives on HUD while esc menu is open" speaker="UI">Przypięto</string>
-	<string key="ui_nearbyHudHeader" comment="header above auto-added nearby objectives on HUD while esc menu is open" speaker="UI">W pobliżu</string>
+	<string key="ui_locationHudHeader" speaker="UI" comment="header above event/location objectives on HUD while esc menu is open">Miejsce</string>
+	<string key="ui_pinnedHudHeader" speaker="UI" comment="header above manually pinned objectives on HUD while esc menu is open">Przypięto</string>
+	<string key="ui_nearbyHudHeader" speaker="UI" comment="header above auto-added nearby objectives on HUD while esc menu is open">W pobliżu</string>
 	<string key="journal_chapter_count" speaker="UI">Liczba odnalezionych rozdziałów:</string>
 	<string key="journal_chapter_title" speaker="UI">ROZDZIAŁ</string>
 	<string key="journal_chapters_completed" speaker="UI">Ukończone\nrozdziały</string>
@@ -67,7 +67,7 @@
 	<string key="objective_difficulty_label" speaker="UI">Poziom trudności:</string>
 	<string key="ui_viewinmap" speaker="UI">Mapa</string>
 	<string key="objective_empty" speaker="UI">Nie osiągnięto celu</string>
-	<string key="objective_equip" speaker="UI">Ekwipuje przedmiot {itemName}</string>
+	<string key="objective_equip" speaker="UI">Ekwipuj: {itemName}</string>
 	<string key="objective_experience" speaker="UI">PD</string>
 	<string key="objective_failed" speaker="UI">Nie udało się osiągnąć celu</string>
 	<string key="objective_gather_herbs" speaker="UI">Zbierz przedmioty: {itemName} w kolorze niebieskim z terenów przybrzeżnych</string>
@@ -158,10 +158,10 @@
 	<string key="objective_get_msq_message" speaker="UI">Aktualnie nie masz żadnych aktywnych zadań wątku głównego.\nPoszukaj tej ikony na mapie, by sprawdzić, czy kolejne zadanie wątku głównego jest dostępne.</string>
 	<string key="M_procurer_craft_workorder_items" speaker="UI">Misja – wytwarzanie</string>
 	<string key="objective_challenge" speaker="UI">Wyzwanie</string>
-	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Zadanie: "{title}"</string>
-	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">"{title}" – nagrody</string>
-	<string key="objective_rewards_completion" comment="Rewards label when completing a quest" speaker="UI">Nagrody za ukończenie</string>
-	<string key="objective_rewards_proposal" comment="Rewards label when accepting a quest" speaker="UI">Ukończ zadanie, aby otrzymać</string>
+	<string key="objective_name_template" speaker="UI" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title.">Zadanie: "{title}"</string>
+	<string key="objective_name_and_rewards_template" speaker="UI" comment="Shows above rewards on the conversation screen. {title} is the quest title">"{title}" – nagrody</string>
+	<string key="objective_rewards_completion" speaker="UI" comment="Rewards label when completing a quest">Nagrody za ukończenie</string>
+	<string key="objective_rewards_proposal" speaker="UI" comment="Rewards label when accepting a quest">Ukończ zadanie, aby otrzymać</string>
 	<string key="objective_objective" speaker="UI">Cel</string>
 	<string key="objective_objectives" speaker="UI">Cele</string>
 	<string key="objectives_sort" speaker="UI">Sortuj według:</string>
@@ -201,11 +201,11 @@
 	<string key="objective_recipepinned" speaker="UI">Schemat przypięty</string>
 	<string key="objective_recipes" speaker="UI">Schematy</string>
 	<string key="objective_recipes_desc" speaker="UI">Dodaj na dowolnym stanowisku do wytwarzania</string>
-	<string key="objective_recipetemplate" comment="How recipe names show in the HUD. Use {title} for the item name" speaker="UI">Receptura: {title}</string>
+	<string key="objective_recipetemplate" speaker="UI" comment="How recipe names show in the HUD. Use {title} for the item name">Receptura: {title}</string>
 	<string key="objective_recipe_abandontitle">Porzuć schemat</string>
 	<string key="objective_recipe_abandonbody">Czy na pewno chcesz porzucić obecny schemat?</string>
-	<string key="objective_artifacts" rel_version="Feature_Artifacts" speaker="UI">Artefakty</string>
-	<string key="objective_artifacts_desc" rel_version="Feature_Artifacts" speaker="UI">Pozyskiwane z aktywnych przedmiotów artefaktowych.</string>
+	<string key="objective_artifacts" speaker="UI" rel_version="Feature_Artifacts">Artefakty</string>
+	<string key="objective_artifacts_desc" speaker="UI" rel_version="Feature_Artifacts">Pozyskiwane z aktywnych przedmiotów artefaktowych.</string>
 	<string key="objective_subtitle_locationwithcolor" speaker="UI">&lt;font color={color}&gt;{territoryName}&lt;/font&gt;</string>
 	<string key="objective_subtitle_locationanddifficulty" speaker="UI">{territory} – {difficulty}</string>
 	<string key="objective_recommendedgroup" speaker="UI">Grupa {group}</string>
@@ -246,12 +246,12 @@
 	<string key="objective_reset" speaker="UI">Zresetuj</string>
 	<string key="objective_resetpopup_body" speaker="UI">Czy na pewno chcesz zresetować aktualną misję?\nResetując, stracisz wszystkie postępy.</string>
 	<string key="ui_turn_in_to_npc" speaker="UI">Przynieś obiekt tutaj</string>
-	<string key="objective_gatherberrycorruption" speaker="UI" quest_id="s_corruption_resistance">Zdobądź przedmiot: {itemName}</string>
-	<string key="objective_gatherwatercorruption" speaker="UI" quest_id="s_corruption_resistance">Zdobądź przedmiot: {itemName}</string>
-	<string key="objective_story_craft_tincturecorruptionT2" speaker="UI" quest_id="s_corruption_resistance">Wytwórz przedmiot: {itemName} w swoim obozie</string>
-	<string key="objective_story_gather_flint" speaker="UI" quest_id="S_campandtools" location="Beach">Znajdź w ziemi surowiec: {itemName}</string>
-	<string key="objective_story_gather_wood" speaker="UI" quest_id="S_campandtools" location="Beach">Zbierz: {itemName} z pobliskiego krzaka</string>
-	<string key="objective_story_craft_flintknife" speaker="UI" quest_id="S_campandtools" location="Beach">Wytwórz przedmiot: {itemName} w obozie strażnika</string>
+	<string key="objective_gatherberrycorruption" speaker="UI">Zdobądź przedmiot: {itemName}</string>
+	<string key="objective_gatherwatercorruption" speaker="UI">Zdobądź przedmiot: {itemName}</string>
+	<string key="objective_story_craft_tincturecorruptionT2" speaker="UI">Wytwórz przedmiot: {itemName} w swoim obozie</string>
+	<string key="objective_story_gather_flint" speaker="UI">Znajdź w ziemi surowiec: {itemName}</string>
+	<string key="objective_story_gather_wood" speaker="UI">Zbierz: {itemName} z pobliskiego krzaka</string>
+	<string key="objective_story_craft_flintknife" speaker="UI">Wytwórz przedmiot: {itemName} w obozie strażnika</string>
 	<string key="objective_story_task_search_containers_1" speaker="UI">Przeszukaj skrzynię w pobliżu: {POITags}</string>
 	<string key="objective_story_task_preciouscargo_01" speaker="UI">Zbadaj: {POITags}</string>
 	<string key="objective_mission_task_patrol_windsward" speaker="UI">Patrol</string>
@@ -259,10 +259,10 @@
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Utrzymaj: {POITags} przez {timeRemaining}</string>
 	<string key="objective_mission_task_control_point" speaker="UI">Przejmij punkt kontrolny frakcji w: {TerritoryID} dla maruderów</string>
 	<string key="task_choose_faction" speaker="UI">Wybierz frakcję: {destinationName}</string>
-	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Ukończ zadanie</string>
+	<string key="complete_available_prompt_DEFAULT" speaker="UI - Button" comment="male">Ukończ zadanie</string>
 	<string key="prompt_DEFAULT" speaker="UI - Button">Zaakceptuj zadanie</string>
-	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Quest  Description" quest_id="S_getoffbeach">Zbadaj budowlę wyglądającą na strażnicę.</string>
-	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title" quest_id="S_getoffbeach">Nikt inny nie ocalał</string>
+	<string key="desc_getoffbeach" speaker="UI - Journal - Quest  Description" comment="male">Zbadaj budowlę wyglądającą na strażnicę.</string>
+	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title">Nikt inny nie ocalał</string>
 	<string key="task_getoffbeach_openmap">Otwórz mapę</string>
 	<string key="have_berries">Zjedz jagody</string>
 	<string key="objective_mission_kill_generic_at_POI">Pokonaj: {targetName} w: {POITags}</string>
@@ -330,6 +330,15 @@
 	<string key="objective_timetrial_timeout_teleport_prompt_title" speaker="UI">&lt;font color={color}&gt;Próba czasowa zakończona niepowodzeniem&lt;/font&gt;</string>
 	<string key="objective_timetrial_timeout_teleport_prompt_description" speaker="UI">Czy chcesz się teleportować na start i spróbować ponownie?</string>
 	<string key="objective_multiple_active_races" speaker="UI">Jednocześnie aktywny może być tylko jeden wyścig</string>
+	<string key="objective_encounter_stage1">Faza 1:</string>
+	<string key="objective_encounter_stage2">Faza 2:</string>
+	<string key="objective_encounter_stage3">Faza 3:</string>
+	<string key="objective_encounter_stage4">Faza 4:</string>
+	<string key="objective_encounter_stage5">Faza 5:</string>
+	<string key="objective_encounter_stage6">Faza 6:</string>
+	<string key="objective_encounter_stage7">Faza 7:</string>
+	<string key="objective_encounter_stage8">Faza 8:</string>
+	<string key="objective_encounter_stage9">Faza 9:</string>
 	<string key="objective_artifact_equip_to_view" rel_version="Feature_Artifacts">Dodaj artefakty do wyposażenia, by zobaczyć cele.</string>
 	<string key="objective_artifact_max_reminder" rel_version="Feature_Artifacts">Zbyt wiele aktywnych celów artefaktów. Porzuć jeden z nich, by rozpocząć nowy.</string>
 	<string key="objective_artifact_equip_reminder" rel_version="Feature_Artifacts">Po wyposażeniu:</string>
@@ -375,8 +384,8 @@
 	<string key="Objective_Artifact_Set1_Ring2" rel_version="Feature_Artifacts_Set2">Artefakt: Megamózg</string>
 	<string key="Objective_Artifact_Set1_Amulet2" rel_version="Feature_Expansion_1">Artefakt: Ankh</string>
 	<string key="Objective_Kill_Dungeon_DepthBoss" rel_version="Feature_Expansion_1">Pokonaj: {targetName} podczas ekspedycji do Głębin</string>
-	<string key="Objective_Kill_in_FL" rel_version="Feature_Expansion_1">Pokonaj wrogów ({targetName}) w Dziczy Elizejskiej</string>
-	<string key="Objective_Kill_Corvid" rel_version="Feature_Expansion_1">Pokonaj kruki w Dziczy Elizejskiej</string>
+	<string key="Objective_Kill_in_FL" rel_version="Feature_Expansion_1">Pokonaj wrogów ({targetName}) w Niebiańskiej Dziczy</string>
+	<string key="Objective_Kill_Corvid" rel_version="Feature_Expansion_1">Pokonaj kruki w Niebiańskiej Dziczy</string>
 	<string key="Objective_Kill_Depths" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w Głębinach</string>
 	<string key="Objective_Kill_Genesis" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w Ogrodzie Genezy</string>
 	<string key="Objective_Kill_Dynasty" rel_version="Feature_Expansion_1">Pokonaj: {targetName} w Stoczni Dynastii</string>
@@ -391,14 +400,47 @@
 	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Pokonaj wrogów: {targetName} na arenie</string>
 	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Pokonaj wrogów: {targetName}</string>
 	<string key="Objective_CraftArtifact" rel_version="Feature_Expansion_1">Ulepsz ten przedmiot w piecu do obróbki gipsu</string>
-	<string key="objective_encounter_stage2">Faza 2:</string>
-	<string key="objective_encounter_stage3">Faza 3:</string>
-	<string key="objective_encounter_stage9">Faza 9:</string>
-	<string key="objective_encounter_stage5">Faza 5:</string>
-	<string key="objective_encounter_stage1">Faza 1:</string>
-	<string key="objective_encounter_stage7">Faza 7:</string>
-	<string key="objective_encounter_stage6">Faza 6:</string>
-	<string key="objective_encounter_stage8">Faza 8:</string>
-	<string key="objective_encounter_stage4">Faza 4:</string>
+	<string key="LNY_tribute_table" rel_version="Event_Lunar_NewYear_Temp">Danina dla smoka</string>
+	<string key="LNY_tribute_table_description" rel_version="Event_Lunar_NewYear_Temp">Zdobądź pamiątki rodzinne od skażonych, przyrządź tradycyjne danie, a następnie złóż je w daninie, by zyskać błogosławieństwo smoka. To wydarzenie ma różne lokalizacje w Czarnej Łusce.</string>
+	<string key="Objective_lny_tribute_wave_00_title" rel_version="Event_Lunar_NewYear_Temp">Zdobądź pamiątki rodzinne</string>
+	<string key="Objective_lny_tribute_wave_00_desc" rel_version="Event_Lunar_NewYear_Temp">Zdobądź przedmioty od skażonych</string>
+	<string key="Objective_lny_tribute_heirloom_01_title" rel_version="Event_Lunar_NewYear_Temp">Skomunikuj się ze smokiem</string>
+	<string key="Objective_lny_tribute_heirloom_01_desc" rel_version="Event_Lunar_NewYear_Temp">Zdobądź stuletnie wino i umieść je na stoliku</string>
+	<string key="Objective_lny_tribute_heirloom_02_title" rel_version="Event_Lunar_NewYear_Temp">Skomunikuj się ze smokiem</string>
+	<string key="Objective_lny_tribute_heirloom_02_desc" rel_version="Event_Lunar_NewYear_Temp">Zdobądź jadeitową zieloną herbatę i umieść ją na stoliku</string>
+	<string key="Objective_lny_tribute_heirloom_03_title" rel_version="Event_Lunar_NewYear_Temp">Skomunikuj się ze smokiem</string>
+	<string key="Objective_lny_tribute_heirloom_03_desc" rel_version="Event_Lunar_NewYear_Temp">Zdobądź pradawny zwój i umieść go na stoliku</string>
+	<string key="Objective_lny_tribute_wave_03_title" rel_version="Event_Lunar_NewYear_Temp">Skomunikuj się ze smokiem</string>
+	<string key="Objective_lny_tribute_wave_03_desc" rel_version="Event_Lunar_NewYear_Temp">Przyrządź kwitnącą rybę i umieść ją na ołtarzu</string>
+	<string key="Objective_lny_tribute_wave_04_title" rel_version="Event_Lunar_NewYear_Temp">Ukończ rytuał</string>
+	<string key="Objective_lny_tribute_wave_04_desc" rel_version="Event_Lunar_NewYear_Temp">Podejdź do erupcji energii</string>
+	<string key="Objective_lny_tribute_wave_04B_desc" rel_version="Event_Lunar_NewYear_Temp">Przyjmij błogosławieństwo smoka</string>
+	<string key="Objective_lny_tribute_wave_05_title" rel_version="Event_Lunar_NewYear_Temp">Niegodni</string>
+	<string key="Objective_lny_tribute_wave_05_desc" rel_version="Event_Lunar_NewYear_Temp">Pokonaj rabusiów z dynastii</string>
+	<string key="Objective_lny_tribute_wave_06A_title" rel_version="Event_Lunar_NewYear_Temp">Niegodni</string>
+	<string key="Objective_lny_tribute_wave_06A_desc" rel_version="Event_Lunar_NewYear_Temp">Pokonaj ciężkozbrojnego z dynastii</string>
+	<string key="Objective_lny_tribute_wave_06B_title" rel_version="Event_Lunar_NewYear_Temp">Niegodni</string>
+	<string key="Objective_lny_tribute_wave_06B_desc" rel_version="Event_Lunar_NewYear_Temp">Pokonaj muszkieterów z dynastii</string>
+	<string key="Objective_lny_tribute_wave_07A_title" rel_version="Event_Lunar_NewYear_Temp">Niegodni</string>
+	<string key="Objective_lny_tribute_wave_07A_desc" rel_version="Event_Lunar_NewYear_Temp">Pokonaj Ying, dziewczę z dynastii</string>
+	<string key="Objective_lny_tribute_wave_07B_title" rel_version="Event_Lunar_NewYear_Temp">Niegodni</string>
+	<string key="Objective_lny_tribute_wave_07B_desc" rel_version="Event_Lunar_NewYear_Temp">Pokonaj skażone tygrysy</string>
+	<string key="Objective_lny_tribute_get" rel_version="Event_Lunar_NewYear_Temp">Zdobądź pamiątki rodzinne dynastii</string>
+	<string key="Objective_lny_tribute_get_heirloom_01" rel_version="Event_Lunar_NewYear_Temp">Znajdź i zabierz stuletnie wino</string>
+	<string key="Objective_lny_tribute_get_heirloom_02" rel_version="Event_Lunar_NewYear_Temp">Znajdź i zabierz jadeitową zieloną herbatę</string>
+	<string key="Objective_lny_tribute_get_heirloom_03" rel_version="Event_Lunar_NewYear_Temp">Znajdź i zabierz pradawny zwój</string>
+	<string key="Objective_lny_tribute_fish" rel_version="Event_Lunar_NewYear_Temp">Przygotuj daninę</string>
+	<string key="Objective_lny_tribute_get_fish" rel_version="Event_Lunar_NewYear_Temp">Przyrządź kwitnącą rybę w woku, który znajduje się w pobliskim wozie z żywnością</string>
+	<string key="Objective_lny_tribute_place" rel_version="Event_Lunar_NewYear_Temp">Rozpocznij rytuał</string>
+	<string key="Objective_lny_tribute_place_heirloom_01" rel_version="Event_Lunar_NewYear_Temp">Umieść stuletnie wino na ołtarzu</string>
+	<string key="Objective_lny_tribute_place_heirloom_02" rel_version="Event_Lunar_NewYear_Temp">Umieść jadeitową zieloną herbatę na ołtarzu</string>
+	<string key="Objective_lny_tribute_place_heirloom_03" rel_version="Event_Lunar_NewYear_Temp">Umieść pradawny zwój na ołtarzu</string>
+	<string key="Objective_lny_tribute_place_fish" rel_version="Event_Lunar_NewYear_Temp">Umieść kwitnącą rybę i skomunikuj się ze smokiem</string>
+	<string key="Objective_lny_tribute_wave_3_1_desc" rel_version="Event_Lunar_NewYear_Temp">Pokonaj siły skażonych z dynastii</string>
+	<string key="Objective_lny_tribute_wave_3_2_desc" rel_version="Event_Lunar_NewYear_Temp">Przetrwaj atak skażonych</string>
+	<string key="Objective_lny_tribute_wave_3_3_desc" rel_version="Event_Lunar_NewYear_Temp">Pokonaj ciężkozbrojnego i muszkieterów z dynastii</string>
+	<string key="Objective_lny_tribute_wave_3_4_desc" rel_version="Event_Lunar_NewYear_Temp">Pokonaj Ying i jej zwierzęta</string>
+	<string key="Objective_lny_tribute_reward" rel_version="Event_Lunar_NewYear_Temp">Ukończ rytuał</string>
+	<string key="Objective_lny_tribute_reward_break_core" rel_version="Event_Lunar_NewYear_Temp">Zniszcz skażony rdzeń i przyjmij błogosławieństwo smoka</string>
 </resources>
 

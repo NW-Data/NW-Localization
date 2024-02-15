@@ -578,9 +578,9 @@
 	<string key="ui_okay">Está bien</string>
 	<string key="ui_on">SÍ</string>
 	<string key="ui_online">En línea</string>
-	<string key="ui_online_inopr">APR multimundo</string>
+	<string key="ui_online_inopr" comment="HighPri">Modo entre mundos</string>
 	<string key="ui_onlineactivity">Actividad en línea</string>
-	<string key="ui_in_cross_world_opr">APR multimundo</string>
+	<string key="ui_in_cross_world_opr" comment="HighPri">Modo entre mundos</string>
 	<string key="ui_opendoor">Abrir puerta</string>
 	<string key="ui_openjournal">Abrir diario</string>
 	<string key="ui_openmap">Abrir mapa</string>
@@ -1070,6 +1070,7 @@
 	<string key="ui_killfeed_tradeskill_val">+ {amount}</string>
 	<string key="ui_navmenu_friends">AMIGOS</string>
 	<string key="ui_navmenu_modes">Modos</string>
+	<string key="ui_navmenu_activities" rel_version="Feature_PUG_Finder">Actividades</string>
 	<string key="ui_navmenu_guild">Compañía</string>
 	<string key="ui_navmenu_map">Mapa</string>
 	<string key="ui_navmenu_journal">Diario</string>
@@ -1107,8 +1108,8 @@
 	<string key="ui_quitdesktoppopup_message">¿Confirmas que quieres salir al escritorio?</string>
 	<string key="ui_quitmainmenupopup_message">¿Confirmas que quieres salir al menú principal?</string>
 	<string key="ui_quitpopup_incombat_message" comment="Player is still in a combat situation and tries to log-out">Si sales luego de un combate reciente,\ntu cuerpo continuará durante &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt; en el mundo.\n\n¿Quieres continuar?</string>
-	<string key="ui_quitpopup_criminal_message">Si sales mientras eres un criminal,\ntu cuerpo continuará durante [{timeremaining}] en el mundo.\n\n¿Quieres continuar?</string>
-	<string key="ui_quitpopup_murderer_message">Si sales mientras eres un asesino,\ntu cuerpo continuará durante [{timeremaining}] en el mundo.\n\n¿Quieres continuar?</string>
+	<string key="ui_quitpopup_criminal_message">Si sales mientras eres un criminal,\ntu cuerpo continuará durante &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt; en el mundo.\n\n¿Quieres continuar?</string>
+	<string key="ui_quitpopup_murderer_message">Si sales mientras eres un asesino,\ntu cuerpo continuará durante &lt;font color="#ffd45f"&gt;[{timeremaining}]&lt;/font&gt; en el mundo.\n\n¿Quieres continuar?</string>
 	<string key="ui_crime_notification_title">ACCIÓN CRIMINAL</string>
 	<string key="ui_crime_assault">ASALTANTE</string>
 	<string key="ui_crime_vandalism">VÁNDALO</string>
@@ -1142,6 +1143,7 @@
 	<string key="ui_constitution">Constitución</string>
 	<string key="ui_respec">Reasignar</string>
 	<string key="ui_respec_attributes">Reembolsar todos los puntos de atributo</string>
+	<string key="ui_cannot_respec_attributes_during_combat">No se puede realizar una reasignación de atributos mientras estás en combate</string>
 	<string key="ui_respec_mastery">Reembolsar todos los puntos de dominio</string>
 	<string key="ui_base">Base</string>
 	<string key="ui_health">Salud</string>
@@ -1546,7 +1548,7 @@
 	<string key="ui_deathrecap_new_personal_best">¡Nueva marca personal!</string>
 	<string key="ui_deathrecap_respawn_ready">Listo</string>
 	<string key="ui_deathrecap_respawn_overloaded">Este lugar está demasiado lleno como para poder renacer aquí.</string>
-	<string key="ui_deathrecap_respawn_out_of_range">Tienes que estar a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; del campamento o menos.</string>
+	<string key="ui_deathrecap_respawn_out_of_range">Tienes que estar a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; del campamento o menos para reaparecer.</string>
 	<string key="ui_deathrecap_respawn_out_of_range_with_cooldown">Puedes reaparecer en &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{time}&lt;/font&gt; a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{distance}&lt;/font&gt; del campamento o menos.</string>
 	<string key="ui_deathrecap_survived_for">Sobrevivió por</string>
 	<string key="ui_deathrecap_respawn_points">Puntos de renacimiento</string>
@@ -1723,7 +1725,7 @@
 	<string key="ui_tooltip_tertiaryAttack">Ataque terciario</string>
 	<string key="ui_tooltip_stability">Estabilidad</string>
 	<string key="ui_tooltip_blockingstability">Estabilidad de bloqueo</string>
-	<string key="ui_tooltip_broken">Roto (bonif. desactivadas)</string>
+	<string key="ui_tooltip_broken">Roto (bonificaciones desactivadas)</string>
 	<string key="ui_tooltip_absorption">Absorción</string>
 	<string key="ui_tooltip_armorrating">Armadura</string>
 	<string key="ui_tooltip_resistances">Resistencias</string>
@@ -1745,7 +1747,7 @@
 	<string key="ui_twitch_prime_members">Twitch Prime</string>
 	<string key="ui_remote_house_payment_need_coin">No se puede pagar el mantenimiento; no hay dinero suficiente.</string>
 	<string key="ui_remote_house_payment_unavailable">No se puede pagar el mantenimiento en este momento. Vuelve a intentarlo.</string>
-	<string key="ui_available_entitlements">&lt;font color="#979081"&gt;{num} diseños disponibles&lt;/font&gt;</string>
+	<string key="ui_available_entitlements">&lt;font color="#979081"&gt;{num} pieles disponibles&lt;/font&gt;</string>
 	<string key="ui_entitlements_new_items">Objetos nuevos.</string>
 	<string key="ui_entitlements">Derechos</string>
 	<string key="ui_war_declare_fail_notInAGuild">No se puede declarar la guerra si no estás en una compañía.</string>
@@ -2026,10 +2028,10 @@
 	<string key="ui_pending_afk_disconnect_description">Has sido detectado como inactivo y serás expulsado automáticamente del juego. Si todavía estás jugando, mueve tu personaje.</string>
 	<string key="ui_pending_freeweekend_session_ending_title">La sesión gratuita finalizará pronto</string>
 	<string key="ui_pending_freeweekend_session_ending_desc">Si este mundo tiene una cola, cuando se acabe el tiempo, regresarás al menú principal. De lo contrario, la sesión durará {time} más.</string>
-	<string key="ui_structure_name_too_long">Nombre de estructura muy largo. Vuelve a intentarlo.</string>
-	<string key="ui_structure_name_invalid_characters">El nombre de la estructura contiene caracteres no válidos. Vuelve a intentarlo.</string>
-	<string key="ui_structure_name_profanity">El nombre de la estructura contiene lenguaje inadecuado. Vuelve a intentarlo.</string>
-	<string key="ui_structure_name_empty">El nombre de la estructura está vacío. Vuelve a intentarlo.</string>
+	<string key="ui_structure_name_too_long">Nombre de estructura muy largo. Inténtalo de nuevo.</string>
+	<string key="ui_structure_name_invalid_characters">El nombre de la estructura contiene caracteres no válidos. Inténtalo de nuevo.</string>
+	<string key="ui_structure_name_profanity">El nombre de la estructura contiene lenguaje inadecuado. Inténtalo de nuevo.</string>
+	<string key="ui_structure_name_empty">El nombre de la estructura está vacío. Inténtalo de nuevo.</string>
 	<string key="ui_switch_on" comment="It was suggested to translate this as YES, if needed, as this is in a small switch area.">ACTIVADO</string>
 	<string key="ui_switch_off" comment="It was suggested to translate this as NO, if needed, as this is in a small switch area.">DESACTIVADO</string>
 	<string key="ui_searchCompany">BUSCAR COMPAÑÍA</string>
@@ -2871,6 +2873,5 @@
 	<string key="ui_sort_by_price_high">Ordenar por precio: Del más alto al más bajo</string>
 	<string key="ui_requirements">Requisitos</string>
 	<string key="ui_external_rewards">Recompensas externas</string>
-	<string key="ui_cannot_respec_attributes_during_combat">No se puede realizar una reasignación de atributos mientras estás en combate</string>
 </resources>
 

@@ -19,21 +19,32 @@
 	<string key="ui_dungeon_screen_header_solo">Prueba de alma</string>
 	<string key="ui_dungeon_screen_header_raidtrial">Prueba de élite</string>
 	<string key="ui_dungeon_screen_header_seasontrial" rel_version="Season_2_Perm">Prueba de temporada</string>
-	<string key="ui_dungeon_requirements">&lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Nivel recomendado: {level} &lt;img src="LyShineUI/Images/icons/misc/icon_character" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Número mínimo de jugadores: {players}</string>
+	<string key="ui_dungeon_screen_subheader_localgroup">Grupo local</string>
+	<string key="ui_dungeon_screen_subheader_matchmaking" rel_version="Feature_PUG_Finder">Emparejamiento</string>
+	<string key="ui_dungeon_requirements">Recomendado: &lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {level} &lt;img src="LyShineUI/Images/icons/misc/icon_character" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; Número mínimo de jugadores: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize">Número mínimo de jugadores: {players}</string>
-	<string key="ui_dungeon_requirements_groupsize_range">{minPlayers} - {maxPlayers} jugadores (actualmente: {currentPlayers})</string>
+	<string key="ui_dungeon_requirements_groupsize_range">Número mínimo de jugadores: {minPlayers} - {maxPlayers} jugadores (actualmente: {currentPlayers})</string>
 	<string key="ui_dungeon_requirements_groupsize_single">Cantidad máx. de jugadores: 1</string>
-	<string key="ui_dungeon_requirements_gearscore">Nivel recomendado: {level}</string>
+	<string key="ui_dungeon_requirements_gearscore">Recomendado: &lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {level}</string>
+	<string key="ui_dungeon_requirements_matchmaking_gearscore" rel_version="Feature_Group_Finder">+{gearscore}</string>
+	<string key="ui_dungeon_requirements_matchmaking_level" rel_version="Feature_Group_Finder">{level}</string>
+	<string key="ui_dungeon_requirements_level_plus">+{level}</string>
+	<string key="ui_dungeon_requirements_gearscore_plus">+{gearscore}</string>
+	<string key="ui_dungeon_requirements_recommended_gearscore">{gearscoreLower}-{gearscoreUpper}</string>
+	<string key="ui_dungeon_requirements_recommended">Recomendado:</string>
+	<string key="ui_dungeon_requirements_matchmaking_staff" rel_version="Feature_Group_Finder">Bastón de azoth</string>
 	<string key="ui_flyout_recommended_groupsize">Jugadores recomendados: {players}</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Tu grupo debe tener al menos el siguiente objeto: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_solo">Debes tener al menos el siguiente objeto: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Debes tener al menos el siguiente objeto: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Debes tener al menos el siguiente objeto: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_reward_level">La calidad general del botín aumenta a medida que aumenten los niveles de dificultad.\n\nLos objetos que encuentres pueden diferir de los de la lista, según su puntuación del equipo.</string>
+	<string key="ui_dungeon_reward_title_regular">Recompensas de expediciones</string>
+	<string key="ui_dungeon_reward_title_mutation">Recompensas mutadoras</string>
 	<string key="ui_dungeon_level_requirement">Nivel requerido: {level}</string>
 	<string key="ui_dungeon_elapsed_time">Tiempo transcurrido:</string>
 	<string key="ui_dungeon_estimated_time_remaining">Tiempo de espera estimado:</string>
-	<string key="ui_dungeon_activate">Entrar</string>
+	<string key="ui_dungeon_activate">Entrar con grupo</string>
 	<string key="ui_dungeon_activate_solo">Entrar</string>
 	<string key="ui_dungeon_activate_raidtrial">Entrar</string>
 	<string key="ui_dungeon_activate_seasontrial" rel_version="Season_2_Perm">Entrar</string>
@@ -127,14 +138,16 @@
 	<string key="dungeon_completed_solo">Prueba de alma completada</string>
 	<string key="dungeon_completed_raidtrial">Prueba de élite completada</string>
 	<string key="dungeon_completed_seasontrial" rel_version="Season_2_Perm">Prueba de temporada completada</string>
-	<string key="ui_dungeon_find_group" rel_version="Feature_Group_Finder">Buscar grupo</string>
+	<string key="ui_dungeon_find_group" rel_version="Feature_Group_Finder">Ver salas</string>
+	<string key="ui_dungeon_local_group_tooltip" comment="HighPri">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Grupo local&lt;/font&gt;\n\nInvestiga salas para unirte a grupos o invita a amigos y miembros de la compañía para conquistar cualquier desafío de Aeternum.\n\nLos grupos locales no son compatibles con el emparejamiento entre mundos.</string>
+	<string key="ui_dungeon_matchmaking_tooltip" rel_version="Feature_PUG_Finder">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Emparejamiento&lt;/font&gt;\n\nEntra a la cola entre mundos para que se te empareje con jugadores de tu región. Los grupos se rellenarán automáticamente en caso de ser necesario.\n\nTodos los jugadores DEBEN cumplir los requisitos para acceder al contenido.</string>
 	<string key="ui_dungeon_manage_group" rel_version="Feature_Group_Finder">Admin. sala de espera</string>
 	<string key="ui_dungeon_view_group" rel_version="Feature_Group_Finder">Ver mi sala de espera</string>
 	<string key="ui_dungeon_opened_pvpwarning_title">Abandona JcJ para entrar</string>
-	<string key="ui_dungeon_enter_pvpwarning_info">Al entrar en una expedición, &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonarás todas las misiones JcJ&lt;/font&gt;. ¿Quieres continuar?</string>
-	<string key="ui_dungeon_enter_pvpwarning_info_solo">Al entrar en una prueba de alma, &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonarás todas las misiones PvP&lt;/font&gt;. ¿Continuar?</string>
-	<string key="ui_dungeon_enter_pvpwarning_info_raidtrial">Al entrar en una prueba de élite, &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonarás todas las misiones PvP&lt;/font&gt;. ¿Continuar?</string>
-	<string key="ui_dungeon_enter_pvpwarning_info_seasontrial" rel_version="Season_2_Perm">Al entrar en una prueba de temporada, &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonarás todas las misiones PvP&lt;/font&gt;. ¿Continuar?</string>
+	<string key="ui_dungeon_enter_pvpwarning_info">Al entrar en una expedición, &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonarás todas las misiones JcJ&lt;/font&gt;. ¿Quieres continuar?</string>
+	<string key="ui_dungeon_enter_pvpwarning_info_solo">Al entrar en una prueba de alma, &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonarás todas las misiones PvP&lt;/font&gt;. ¿Continuar?</string>
+	<string key="ui_dungeon_enter_pvpwarning_info_raidtrial">Al entrar en una prueba de élite, &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonarás todas las misiones PvP&lt;/font&gt;. ¿Continuar?</string>
+	<string key="ui_dungeon_enter_pvpwarning_info_seasontrial" rel_version="Season_2_Perm">Al entrar en una prueba de temporada, &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abandonarás todas las misiones PvP&lt;/font&gt;. ¿Continuar?</string>
 	<string key="ui_dungeon_full_header">La expedición se encuentra llena. Únete a la cola para entrar en la expedición.</string>
 	<string key="ui_dungeon_full_header_solo">La prueba de alma está llena. Únete a la cola para entrar en la prueba de alma.</string>
 	<string key="ui_dungeon_full_header_raidtrial">La prueba de élite está llena. Únete a la cola para entrar en la prueba de élite.</string>
@@ -163,13 +176,13 @@
 	<string key="ui_dungeon_remaining_tooltip_seasontrial" rel_version="Season_2_Perm">Puedes entrar hasta en {amount} pruebas de temporada al día.</string>
 	<string key="ui_dungeon_mutation_remaining_label" rel_version="Feature_Dungeon_Mutators">Expediciones mutadas restantes</string>
 	<string key="ui_dungeon_mutation_remaining_tooltip" rel_version="Feature_Dungeon_Mutators">Puedes entrar a un máximo de {amount} expediciones mutadas por semana.</string>
-	<string key="ui_dungeon_mutation_flyout_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutación semanal&lt;/font&gt;\nLas mutaciones elementales, las promociones y las maldiciones se asignan aleatoriamente cada semana para las expediciones mutadas.\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutación&lt;/font&gt;\nLucha con mutaciones elementales\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Promoción&lt;/font&gt;\nPromociones de élite para enemigos\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maldiciones&lt;/font&gt;\nEfectos de la expedición</string>
+	<string key="ui_dungeon_mutation_flyout_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutación semanal&lt;/font&gt;\nLas mutaciones elementales, las promociones y las maldiciones se asignan aleatoriamente cada semana para las expediciones mutadas.\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutación&lt;/font&gt;\nLucha con mutaciones elementales\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Promoción&lt;/font&gt;\nPromociones de élite para enemigos\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maldiciones&lt;/font&gt;\nEfectos de la expedición</string>
 	<string key="ui_dungeon_mutation_elemental" rel_version="Feature_Dungeon_Mutators">Mutación</string>
 	<string key="ui_dungeon_mutation_promotion" rel_version="Feature_Dungeon_Mutators">Promoción</string>
 	<string key="ui_dungeon_mutation_curse" rel_version="Feature_Dungeon_Mutators">Maldición</string>
-	<string key="ui_dungeon_mutation_elemental_description" rel_version="Feature_Dungeon_Mutators">Los &lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;enemigos&lt;/font&gt; pueden tener los siguientes &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;beneficios:&lt;/font&gt;</string>
-	<string key="ui_dungeon_mutation_promotion_description" rel_version="Feature_Dungeon_Mutators">Los &lt;font color="#ff9393" face="lyshineui/fonts/Nimbus_Bold.font"&gt;enemigos&lt;/font&gt; pueden tener las siguientes &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;potenciaciones:&lt;/font&gt;</string>
-	<string key="ui_dungeon_mutation_curse_description" rel_version="Feature_Dungeon_Mutators">Los &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;jugadores&lt;/font&gt; reciben las siguientes &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;despotenciaciones:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutation_elemental_description" rel_version="Feature_Dungeon_Mutators">Los &lt;font color="#ff7171" face="lyshineui/fonts/Nimbus_Bold.font"&gt;enemigos&lt;/font&gt; pueden tener los siguientes &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;beneficios:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutation_promotion_description" rel_version="Feature_Dungeon_Mutators">Los &lt;font color="#ff7171" face="lyshineui/fonts/Nimbus_Bold.font"&gt;enemigos&lt;/font&gt; pueden tener las siguientes &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;potenciaciones:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutation_curse_description" rel_version="Feature_Dungeon_Mutators">Los &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;jugadores&lt;/font&gt; reciben las siguientes &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;despotenciaciones:&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_expiration_text" rel_version="Feature_Dungeon_Mutators">Cambios en:</string>
 	<string key="ui_dungeon_mutator_recommended_gearscore" rel_version="Feature_Dungeon_Mutators">Puntuación del equipo mínima recomendada: {score} - {gearScaling}</string>
 	<string key="ui_dungeon_mutator_gearscaling_low" rel_version="Feature_Dungeon_Mutators">Escala baja de puntuación de equipo</string>
@@ -177,16 +190,20 @@
 	<string key="ui_dungeon_mutator_gearscaling_high" rel_version="Feature_Dungeon_Mutators">Escala alta de puntuación de equipo</string>
 	<string key="ui_dungeon_mutator_codex" rel_version="Feature_Dungeon_Mutators">Códice</string>
 	<string key="ui_dungeon_mutator_difficulty_default" rel_version="Feature_Dungeon_Mutators">Regular</string>
-	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; (Intermedio)</string>
-	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;2&lt;/font&gt; (Difícil)</string>
-	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;3&lt;/font&gt; (Élite)</string>
-	<string key="ui_dungeon_mutator_difficulty_4" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;4&lt;/font&gt; (Intermedio)</string>
-	<string key="ui_dungeon_mutator_difficulty_5" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;5&lt;/font&gt; (Intermedio)</string>
-	<string key="ui_dungeon_mutator_difficulty_6" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;6&lt;/font&gt; (Difícil)</string>
-	<string key="ui_dungeon_mutator_difficulty_7" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;7&lt;/font&gt; (Difícil)</string>
-	<string key="ui_dungeon_mutator_difficulty_8" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;8&lt;/font&gt; (Difícil)</string>
-	<string key="ui_dungeon_mutator_difficulty_9" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;9&lt;/font&gt; (Élite)</string>
-	<string key="ui_dungeon_mutator_difficulty_10" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;10&lt;/font&gt; (Élite)</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_1" rel_version="Feature_Dungeon_Mutators">M1</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_2" rel_version="Feature_Dungeon_Mutators">M2</string>
+	<string key="ui_dungeon_mutator_difficulty_desc_3" rel_version="Feature_Dungeon_Mutators">M3</string>
+	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M1&lt;/font&gt; (intermedio)</string>
+	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M2&lt;/font&gt; (difícil)</string>
+	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M3&lt;/font&gt; (élite)</string>
+	<string key="ui_dungeon_mutator_difficulty_3_M1_M2_Only_NoM3MM" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M3&lt;/font&gt; (élite) solo grupos locales</string>
+	<string key="ui_dungeon_mutator_difficulty_4" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M4&lt;/font&gt; (intermedio)</string>
+	<string key="ui_dungeon_mutator_difficulty_5" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M5&lt;/font&gt; (intermedio)</string>
+	<string key="ui_dungeon_mutator_difficulty_6" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M6&lt;/font&gt; (difícil)</string>
+	<string key="ui_dungeon_mutator_difficulty_7" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M7&lt;/font&gt; (difícil)</string>
+	<string key="ui_dungeon_mutator_difficulty_8" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M8&lt;/font&gt; (difícil)</string>
+	<string key="ui_dungeon_mutator_difficulty_9" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M9&lt;/font&gt; (élite)</string>
+	<string key="ui_dungeon_mutator_difficulty_10" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M10&lt;/font&gt; (élite)</string>
 	<string key="ui_dungeon_mutator_string" rel_version="Feature_Dungeon_Mutators">Mutación semanal</string>
 	<string key="ui_dungeon_mutator_multiplier_description" rel_version="Feature_Dungeon_Mutators">Multiplica la &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;puntuación total&lt;/font&gt; por el &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;número de requisitos&lt;/font&gt; cumplidos que aparecen más abajo.</string>
 	<string key="ui_dungeon_mutator_clear_time" rel_version="Feature_Dungeon_Mutators">Tiempo hasta completar:</string>
@@ -239,14 +256,14 @@
 	<string key="ui_dungeon_mutator_appended_difficulty_bold" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Dificultad {difficulty}&lt;/font&gt;</string>
 	<string key="ui_dungeon_next_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Completa esta expedición con &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;el rango {rank}&lt;/font&gt; para desbloquear la &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;siguiente dificultad&lt;/font&gt;.</string>
 	<string key="ui_dungeon_mutator_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Completa esta expedición para desbloquear la &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;siguiente dificultad&lt;/font&gt;.</string>
-	<string key="ui_dungeon_mutator_active" rel_version="Feature_Dungeon_Mutators">&lt;font color="#00ffa8"&gt;Activo &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
-	<string key="ui_dungeon_mutator_inactive" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ff9393"&gt;Inactivo &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_active" rel_version="Feature_Dungeon_Mutators">&lt;font color="#00ffb4"&gt;Activo &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_inactive" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ff7171"&gt;Inactivo &lt;img src="LyShineUI/Images/icons/misc/icon_question_orange" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; &lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_rotation_notice" rel_version="Feature_Dungeon_Mutators">Cada semana se selecciona al azar una expedición para mutar. Solo podrás jugar con dificultades elevadas en la expedición seleccionada.</string>
-	<string key="ui_dungeon_mutation_rewards_description" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Los objetos&lt;/font&gt; tienen la posibilidad de soltarse con estos &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;beneficios:&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutation_rewards_description" rel_version="Feature_Dungeon_Mutators">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Los objetos&lt;/font&gt; tienen la posibilidad de soltarse con estos &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;beneficios:&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_standard_reward_count" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count}&lt;/font&gt; Recompensas de expediciones</string>
 	<string key="ui_dungeon_mutator_difficulty_reward_count" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{count}&lt;/font&gt; Recompensas de dificultad</string>
 	<string key="ui_dungeon_mutator_special_reward_tooltip" rel_version="Feature_Dungeon_Mutators">Los fragmentos umbríos se otorgan en base a tu rango al completar la expedición.\n\nDesbloquea la siguiente dificultad de expedición con el rango Plata o superior.</string>
-	<string key="ui_dungeon_mutator_hud_points_shorthand" rel_version="Feature_Dungeon_Mutators">&lt;font color="#aaaaaa" &gt;puntos&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_hud_points_shorthand" rel_version="Feature_Dungeon_Mutators">&lt;font color="#b2aea1" &gt;puntos&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_difficulty_not_unlocked" rel_version="Feature_Dungeon_Mutators">Esta dificultad aún no se ha desbloqueado.</string>
 	<string key="ui_dungeon_mutator_level_not_met" rel_version="Feature_Dungeon_Mutators">No tienes el nivel necesario para esta expedición.</string>
 	<string key="Mut_Disease_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Los enemigos provocan una enfermedad acumulativa al golpear, lo que reduce la sanación recibida en un {[Type_StatusEffectData.Mut_Disease_1.HealMod * -100]} % por acumulación.</string>
@@ -350,9 +367,9 @@
 	<string key="ui_dungeon_possible_rewards_header" rel_version="Feature_Dungeon_Mutators">Recompensas disponibles</string>
 	<string key="ui_dungeon_no_possible_rewards" rel_version="Feature_Dungeon_Mutators">Sin recompensas disponibles</string>
 	<string key="ui_dungeon_orb_explanation" rel_version="Feature_Dungeon_Mutators">Una recompensa única. Los orbes de ajuste de expedición mutada también están disponibles en la Tienda de la facción.</string>
-	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntuación del equipo recomendada&lt;/font&gt;\n\nLos cálculos del combate se ven afectados por la diferencia entre tu puntuación del equipo promedio y la puntuación del equipo recomendada.\n\nUna puntuación del equipo &lt;font color="#ff9393"&gt;inferior&lt;/font&gt; a la puntuación recomendada hace que &lt;font color="#ebe3d6"&gt;inflijas menos daño&lt;/font&gt; y que &lt;font color="#ebe3d6"&gt;recibas más daño&lt;/font&gt; de los enemigos en la expedición.</string>
-	<string key="ui_dungeon_gearscore_recommendation_tooltip_raidtrial" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntuación del equipo recomendada&lt;/font&gt;\n\nLos cálculos del combate se ven afectados por la diferencia entre tu puntuación del equipo promedio y la puntuación del equipo recomendada.\n\nUna puntuación del equipo &lt;font color="#ff9393"&gt;inferior&lt;/font&gt; a la puntuación recomendada hace que &lt;font color="#ebe3d6"&gt;inflijas menos daño&lt;/font&gt; y que &lt;font color="#ebe3d6"&gt;recibas más daño&lt;/font&gt; de los enemigos en la prueba de élite.</string>
-	<string key="ui_dungeon_gearscore_recommendation_tooltip_seasontrial" rel_version="Season_2_Perm">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntuación del equipo recomendada&lt;/font&gt;\n\nLos cálculos del combate se ven afectados por la diferencia entre tu puntuación del equipo promedio y la puntuación del equipo recomendada.\n\nUna puntuación del equipo &lt;font color="#ff9393"&gt;inferior&lt;/font&gt; a la puntuación recomendada hace que &lt;font color="#ebe3d6"&gt;inflijas menos daño&lt;/font&gt; y que &lt;font color="#ebe3d6"&gt;recibas más daño&lt;/font&gt; de los enemigos en la prueba de temporada.</string>
+	<string key="ui_dungeon_gearscore_recommendation_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntuación del equipo recomendada&lt;/font&gt;\n\nLos cálculos del combate se ven afectados por la diferencia entre tu puntuación del equipo promedio y la puntuación del equipo recomendada.\n\nUna puntuación del equipo &lt;font color="#ff7171"&gt;inferior&lt;/font&gt; a la puntuación recomendada hace que &lt;font color="#ebe3d6"&gt;inflijas menos daño&lt;/font&gt; y que &lt;font color="#ebe3d6"&gt;recibas más daño&lt;/font&gt; de los enemigos en la expedición.</string>
+	<string key="ui_dungeon_gearscore_recommendation_tooltip_raidtrial" rel_version="Feature_Dungeon_Mutators">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntuación del equipo recomendada&lt;/font&gt;\n\nLos cálculos del combate se ven afectados por la diferencia entre tu puntuación del equipo promedio y la puntuación del equipo recomendada.\n\nUna puntuación del equipo &lt;font color="#ff7171"&gt;inferior&lt;/font&gt; a la puntuación recomendada hace que &lt;font color="#ebe3d6"&gt;inflijas menos daño&lt;/font&gt; y que &lt;font color="#ebe3d6"&gt;recibas más daño&lt;/font&gt; de los enemigos en la prueba de élite.</string>
+	<string key="ui_dungeon_gearscore_recommendation_tooltip_seasontrial" rel_version="Season_2_Perm">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Puntuación del equipo recomendada&lt;/font&gt;\n\nLos cálculos del combate se ven afectados por la diferencia entre tu puntuación del equipo promedio y la puntuación del equipo recomendada.\n\nUna puntuación del equipo &lt;font color="#ff7171"&gt;inferior&lt;/font&gt; a la puntuación recomendada hace que &lt;font color="#ebe3d6"&gt;inflijas menos daño&lt;/font&gt; y que &lt;font color="#ebe3d6"&gt;recibas más daño&lt;/font&gt; de los enemigos en la prueba de temporada.</string>
 	<string key="ui_dungeon_gearscore_underlevel_warning" rel_version="Feature_Dungeon_Mutators">&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;ADVERTENCIA:&lt;/font&gt; Su puntuación del equipo promedio es demasiado baja para tener un buen desempeño en esta Expedición.</string>
 	<string key="ui_dungeon_gearscore_underlevel_warning_raidtrial" rel_version="Feature_Dungeon_Mutators">&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;AVISO:&lt;/font&gt; Tu puntuación del equipo promedio es demasiado baja para tener un buen desempeño en esta prueba de élite.</string>
 	<string key="ui_dungeon_gearscore_underlevel_warning_seasontrial" rel_version="Season_2_Perm">&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;AVISO:&lt;/font&gt; Su puntuación del equipo promedio es demasiado baja para tener un buen desempeño en esta prueba de temporada.</string>

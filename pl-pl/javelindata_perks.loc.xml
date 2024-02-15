@@ -1180,7 +1180,7 @@
 	<string key="PerkID_Ability_Bow_PenetratingShot_Name">Odświeżający przeszywający strzał</string>
 	<string key="PerkID_Ability_Bow_PenetratingShot_Description">Zabójstwa przeszywającym strzałem skracają czas odnowienia tej umiejętności o {[PerksAbilityTable.GlobalPerk_Ability_Bow_PenetratingShot.CooldownTimer * -100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Ability_Bow_SplinterShot_Name">Nasączająca mocą wybuchowa strzała</string>
-	<string key="PerkID_Ability_Bow_SplinterShot_Description">Trafienie celu wybuchową strzałą zapewnia nasączenie mocą zwiększające zadawane obrażenia o {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.DMGStandard * 100 * {perkMultiplier}]}% na {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.BaseDuration]} s lub do następnego ataku.</string>
+	<string key="PerkID_Ability_Bow_SplinterShot_Description">Explosive Arrow hits grant Empower, increasing damage by {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.DMGStandard * 100 * {perkMultiplier}]}% for {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.BaseDuration]}s or until the next hit.</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Name">Ostre tondo</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Description">+{[PerksAbilityTable.GlobalPerk_Ability_Rapier_Tondo.CritChance * 100 * {perkMultiplier}]}% do szansy na trafienie krytyczne celów będących pod wpływem krwawienia wywołanego przez tondo. Gdy broń używa tego profitu, tondo zadaje także {[Type_StatusEffectData.Status_Perk_TondoWeaken.DMGStandard * -100]}% osłabienia na {[Type_StatusEffectData.Status_Perk_TondoWeaken.BaseDuration]} s. </string>
 	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Name">Zabójczy popis</string>
@@ -1655,7 +1655,7 @@
 	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Name" rel_version="MorePerksV1">Krytyczna zaraza</string>
 	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Description" rel_version="MorePerksV1">Trafienie krytyczne celu na {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.BaseDuration]} s nałoży na niego chorobę zmniejszającą jego skuteczność leczenia o {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealMod * -100 * {perkMultiplier}]}% i leczenia innych o {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealScalingValueMultiplier * -100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Name" rel_version="MorePerksV1">Zaraźliwe ciosy</string>
-	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Description" rel_version="MorePerksV1">Gdy trafisz cel atakiem ciężkim, na {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.BaseDuration]} s nałożysz na niego chorobę zmniejszającą jego skuteczność leczenia o {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Description" rel_version="MorePerksV1">Trafienie celu atakiem ciężkim na {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.BaseDuration]} s nałoży na niego chorobę zmniejszającą jego skuteczność leczenia o {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100 * {perkMultiplier}]}% i leczenia innych o {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealScalingValueMultiplier * -100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Weapon_DmgAgainstGrit_Name" rel_version="MorePerksV1">Zniechęcająca kontra</string>
 	<string key="PerkID_Weapon_DmgAgainstGrit_Description" rel_version="MorePerksV1">+{[PerksAbilityTable.Global_Weapon_DmgAgainstGrit.BaseDamage * 100 * {perkMultiplier}]}% do obrażeń przeciwko celom z aktywną determinacją.</string>
 	<string key="PerkID_Weapon_DmgWithGrit_Name" rel_version="MorePerksV1">Zniechęcające ciosy</string>
@@ -2601,7 +2601,7 @@
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Negatywna energia</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">Twoje ataki dystansowe wywołują dezintegrację przez {[Type_StatusEffectData.VoidGauntlet_Disintegrate.BaseDuration]} s dla obydwu broni (czas odnowienia: {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_VoidGauntlet.ActivationCooldown]} s). Jeśli twoja zręczność jest wyższa, bazowe skalowanie broni będzie powiązane ze zręcznością.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Zarażony czar</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Atakowanie celów obiema broniami nakłada efekt zatrucia i zmniejsza skuteczność otrzymywanego leczenia i leczenia innych o {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealthModifierDamageBased * -100]}% na efekt przez {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.BaseDuration]} s (kumuluje się do {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.StackMax]} razy).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Atakowanie celów obiema broniami nakłada efekt zatrucia i zmniejsza skuteczność otrzymywanego leczenia o {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealthModifierDamageBased * -100]}% i leczenia innych o  {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealScalingValueMultiplier * -100]}% na efekt przez {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.BaseDuration]}s (kumuluje się do {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.StackMax]} razy,  {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_Blunderbuss.ActivationCooldown]}s odnowienia aktywacji).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Zaraza</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">{[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_BlunderbussPerk.BaseDamage * 100]}% obrażeń przeciwko zatrutym i chorym celom.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Wyważone ostrze</string>
@@ -2642,7 +2642,7 @@
 	<string key="PerkID_Artifact_Set1_MediumLegs_SecondaryName">Wszechstronność</string>
 	<string key="PerkID_Artifact_Set1_MediumLegs_Desc">+10 pkt do wszystkich cech.</string>
 	<string key="PerkID_Artifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Pęd</string>
-	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">Wydłuża bazowy czas trwania działającego na ciebie przyspieszenia o {[Type_StatusEffectData.Status_Perk_Artifact_Set1_MediumFeetHasteDuration.EffectDurationMods_Tooltip * 100]}%.</string>
+	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">Wydłuża bazowy czas trwania działającego na ciebie przyspieszenia o {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_MediumFeet.StatusEffectDurationReduction * 100]}%.</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Name">Doskonałość</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Desc">+{[AffixStatDataTable.Affix_Artifact_Set1_LightHead.MaxManaMod * 100]}% do maksymalnego poziomu many.</string>
 	<string key="PerkID_Artifact_Set1_LightChest_Name">Nieważkość</string>

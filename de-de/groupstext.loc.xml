@@ -11,7 +11,7 @@
 	<string key="ui_receivedgroupinvite_hide" comment="">Ausblenden</string>
 	<string key="ui_togglepvpblocked_title" comment="">PvP-Markierungswarnung</string>
 	<string key="ui_togglepvpblocked_pvpinactive" rel_version="Feature_Alt_Character_Protection" comment="">Du kannst deine PvP-Flagge zurzeit nicht aktivieren, weil du PvP-inaktiv bist. Wechsel zu PvP-aktiv möglich in: {timeRemainingShorthand}.\nWenn du deinen PvP-aktiven Charakter kürzlich gelöscht hast, warte bitte 15 Minuten und logge dich erneut ein, um zu PvP-aktiv zu wechseln.</string>
-	<string key="ui_togglepvpblocked_pvpinactive_canswitch" rel_version="Feature_Alt_Character_Protection" comment="">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Dieser Charakter ist derzeit NICHT PvP-aktiv.&lt;/font&gt;\n\nMöchtest du diesen Charakter auf PvP-aktiv umschalten?\n\nDadurch wird dein aktuell PvP-aktiver Charakter aus allen Kriegsspielerlisten entfernt, alle aktiven PvP-Missionen scheitern, und es beginnt eine Abklingzeit, die du abwarten musst, bevor du deinen PvP-aktiven Charakter erneut wechseln kannst.</string>
+	<string key="ui_togglepvpblocked_pvpinactive_canswitch" rel_version="Feature_Alt_Character_Protection" comment="">&lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Dieser Charakter ist derzeit NICHT PvP-aktiv.&lt;/font&gt;\n\nMöchtest du diesen Charakter auf PvP-aktiv umschalten?\n\nDadurch wird dein aktuell PvP-aktiver Charakter aus allen Kriegsspielerlisten entfernt, alle aktiven PvP-Missionen scheitern und du kannst deinen PvP-aktiven Charakter erst nach Ablauf der Abklingzeit erneut wechseln.</string>
 	<string key="ui_togglepvpblocked_ingroup" comment="">PvP- und PvE-Spieler können nicht in einer Gruppe platziert werden. Wenn du deine PvP-Markierung änderst, wirst du aus der Gruppe rausgeworfen.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
 	<string key="ui_togglepvpblocked_pendinginvites" comment="">Wenn du deine PvP-Markierung änderst, werden deine sämtlichen ausstehenden Gruppeneinladungen abgelehnt.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
 	<string rel_version="Feature_Group_Finder" key="ui_togglepvpblocked_ingroupfindergroup" comment="">PvP- und PvE-Spieler können nicht in der gleichen Lobby sein. Wenn du deine PvP-Markierung änderst, wirst du aus der Lobby entfernt.\n\nWillst du deine PvP-Markierung wirklich ändern?</string>
@@ -19,7 +19,7 @@
 	<string key="ui_receivedwargroupinvitetitle" comment="">Schließe dich dem Krieg an!</string>
 	<string key="ui_receivedwargroupinvitemessage" comment="">Du wurdest eingeladen, dich von {startTime} bis {endTime} dem Krieg beim Gebiet {territoryName} anzuschließen. Nimm an, um zum Schlachtfeld teleportiert zu werden.</string>
 	<string key="ui_receivedinvasiongroupinvitetitle" comment="">Wehre die Invasion ab!</string>
-	<string key="ui_receivedinvasiongroupinvitemessage" comment="">Du wurdest eingeladen, von {startTime} bis {endTime} bei der Verteidigung gegen die Invasion im Gebiet {territoryName} mitzuwirken. Nimm an, um zum Schlachtfeld teleportiert zu werden.</string>
+	<string key="ui_receivedinvasiongroupinvitemessage" comment="">Du wurdest eingeladen, die Invasion von {startTime} – {endTime} abzuwehren (Gebiet: {territoryName}). Nimm an, um zum Schlachtfeld teleportiert zu werden.</string>
 	<string key="ui_group_invite_failed" comment="">Gruppeneinladung fehlgeschlagen.</string>
 	<string key="ui_groupinvitesentmessage" comment="">Gruppeneinladung wurde an &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; geschickt.</string>
 	<string key="ui_groupinviteacceptsentmessage" comment="">Gruppeneinladung von &lt;font color="#ffffff"&gt;{playerName}&lt;/font&gt; angenommen.</string>
@@ -220,6 +220,25 @@
 	<string key="ui_raid_kick_confirmation_no">Abbrechen</string>
 	<string key="ui_raid_ban_confirmation_title">{player} sperren</string>
 	<string key="ui_raid_ban_confirmation_message">Möchtest du &lt;font color="#ffd45f" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{player}&lt;/font&gt; wirklich rauswerfen und sperren?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_error_too_frequent" comment="">Die letzte Abstimmung ist noch nicht lange genug her. Versuche es später erneut.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_error_already_voted" comment="">Du hast bereits abgestimmt.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_vote_decline_vote">Bleiben</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_vote_accept_vote">Aufgeben</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_vote_to_abandon">Expedition verlassen</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_vote_to_abandon_cast_vote">Für "Verlassen" stimmen</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_initiator" comment="">Du hast eine Abstimmung über das Verlassen des aktuellen Spielmodus gestartet.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_title" comment="">Abstimmung über Verlassen des Spielmodus</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_text" comment="">&lt;font color={color}&gt;{fromPlayerName}&lt;/font&gt; hat eine Abstimmung über das Verlassen des aktuellen Spielmodus als Gruppe gestartet. Bist du einverstanden?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_successful">"Verlassen" hat die meisten Stimmen erhalten. Expedition schließt in: {timeToClose} Sekunden ...</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_successful_last_second">"Verlassen" hat die meisten Stimmen erhalten. Expedition schließt in: {timeToClose} Sekunde ...</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_fail">"Verlassen" hat nicht genug Stimmen erhalten.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_timed_out">Zeitüberschreitung bei der Abstimmung übers Verlassen.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_in_progress">Abstimmung übers Verlassen findet bereits statt.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_not_available">Die Abstimmung über das Verlassen ist nur verfügbar, wenn deine Gruppe über die Spielsuche gebildet wurde. Du kannst diese Expedition ohne Deserteursstrafe verlassen.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_active">Es kann keine Abstimmung über das Verlassen der Expedition gestartet werden, weil bereits eine andere Abstimmung aktiv ist.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_on_cooldown">Während der Abklingzeit kann keine Abstimmung über das Verlassen der Expedition gestartet werden.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_dungeon_complete">Nach dem Abschluss der Expedition kann keine Abstimmung über das Verlassen gestartet werden.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_tooltip">Starte eine Abstimmung über das Verlassen der Expedition als Gruppe. Verlassen nach Abstimmung zieht keine Deserteursstrafe nach sich. \n\nUm die Abstimmung zu gewinnen, ist eine Stimmenmehrheit erforderlich.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid">Zu Raubzug einladen</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid_groupprioritysubtext">Eingeladene Spieler kommen zuerst in die Gruppe {groupIndex}.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetopveraid_tooltip" comment="">Lade Spieler zu einem PvE-Raubzug ein.\n\n- Du kannst Spieler außerhalb deiner Fraktion einladen, die ebenfalls nicht für PvP markiert sind.\n- Du kannst keine PvP- und PvE-Spieler in einem Raubzug mischen.</string>
@@ -295,5 +314,6 @@
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups">Andere Gruppen im HUD ausblenden</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups_tooltip">Die anderen Untergruppen werden im Raubzug-HUD ausgeblendet und nur deine eigene Gruppe wird angezeigt.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_kick">Aus Raubzug werfen</string>
+	<string key="ui_cannotjoingroup_at_this_time">Du kannst aktuell keiner anderen Gruppe beitreten.</string>
 </resources>
 

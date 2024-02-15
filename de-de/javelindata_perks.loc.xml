@@ -1180,7 +1180,7 @@
 	<string key="PerkID_Ability_Bow_PenetratingShot_Name">Erfrischender Durchdringender Schuss</string>
 	<string key="PerkID_Ability_Bow_PenetratingShot_Description">Tötungen mit "Durchdringender Schuss" verringern seine Abklingzeit um {[PerksAbilityTable.GlobalPerk_Ability_Bow_PenetratingShot.CooldownTimer * -100 * {perkMultiplier}]} %.</string>
 	<string key="PerkID_Ability_Bow_SplinterShot_Name">Ermächtigender Explosivpfeil</string>
-	<string key="PerkID_Ability_Bow_SplinterShot_Description">Treffer von "Explosivpfeil" gewähren "Ermächtigung", was den Schaden für {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.BaseDuration]} Sek. bis zum nächsten Angriff um {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.DMGStandard * 100 * {perkMultiplier}]} % erhöht.</string>
+	<string key="PerkID_Ability_Bow_SplinterShot_Description">Explosive Arrow hits grant Empower, increasing damage by {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.DMGStandard * 100 * {perkMultiplier}]}% for {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.BaseDuration]}s or until the next hit.</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Name">Eifriger Tondo</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Description">+{[PerksAbilityTable.GlobalPerk_Ability_Rapier_Tondo.CritChance * 100 * {perkMultiplier}]} % Chance auf kritische Treffer bei Zielen, die von "Tondos Blutung"-Effekt betroffen sind. Wirkt der Effekt auf einer Waffe, verursacht Tondo auch für {[Type_StatusEffectData.Status_Perk_TondoWeaken.BaseDuration]} Sek. {[Type_StatusEffectData.Status_Perk_TondoWeaken.DMGStandard * -100]} % Schwächen. </string>
 	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Name">Tödlicher Schwung</string>
@@ -2601,7 +2601,7 @@
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Negative Energie</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">Deine Fernkampfangriffe verursachen für {[Type_StatusEffectData.VoidGauntlet_Disintegrate.BaseDuration]} Sek. mit beiden Waffen "Zerfall". ({[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_VoidGauntlet.ActivationCooldown]} Sek. Abklingzeit) Und wenn dein Geschickattribut höher ist, wird deine Grundwaffenskalierung durch Geschick ersetzt.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Verfaulte Verzauberung</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Angriffe beider Waffen belegen das Ziel mit einem Stapel Vergiftung und verringern gewirkte und erhaltene Heilung für {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.BaseDuration]} Sek. um {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealthModifierDamageBased * -100]} % pro Stapel (max. {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.StackMax]} Stapel).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Angriffe beider Waffen gegen Ziele verursachen einen Stapel Gift und verringern die eingehende Heilung um {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealthModifierDamageBased * -100]}% und die ausgehende um {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealScalingValueMultiplier * -100]}% pro Stapel für {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.BaseDuration]}s (max {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.StackMax]} Stapel, {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_Blunderbuss.ActivationCooldown]}s Aktivierungsabklingzeit).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Plage</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">+{[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_BlunderbussPerk.BaseDamage * 100]} % Schaden gegen vergiftete und kranke Ziele.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Ausgewogene Klinge</string>
@@ -2642,7 +2642,7 @@
 	<string key="PerkID_Artifact_Set1_MediumLegs_SecondaryName">Meister aller Klassen</string>
 	<string key="PerkID_Artifact_Set1_MediumLegs_Desc">+10 auf alle Attribute.</string>
 	<string key="PerkID_Artifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Flitzebogen</string>
-	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">Die Grunddauer von Eile bei dir wird um {[Type_StatusEffectData.Status_Perk_Artifact_Set1_MediumFeetHasteDuration.EffectDurationMods_Tooltip * 100]} % verlängert.</string>
+	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">Die Grunddauer von Eile bei dir wird um {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_MediumFeet.StatusEffectDurationReduction * 100]} % verlängert.</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Name">Brillanz</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Desc">+{[AffixStatDataTable.Affix_Artifact_Set1_LightHead.MaxManaMod * 100]} % max. Mana.</string>
 	<string key="PerkID_Artifact_Set1_LightChest_Name">Schwerelos</string>

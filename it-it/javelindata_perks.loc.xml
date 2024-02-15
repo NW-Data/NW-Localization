@@ -1180,7 +1180,7 @@
 	<string key="PerkID_Ability_Bow_PenetratingShot_Name">Tiro penetrante ricaricante</string>
 	<string key="PerkID_Ability_Bow_PenetratingShot_Description">Ogni uccisione con Tiro penetrante riduce il suo tempo di ricarica di un {[PerksAbilityTable.GlobalPerk_Ability_Bow_PenetratingShot.CooldownTimer * -100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Ability_Bow_SplinterShot_Name">Freccia esplosiva potenziante</string>
-	<string key="PerkID_Ability_Bow_SplinterShot_Description">I colpi della Freccia esplosiva andati a segno conferiscono Potenziamento, che aumenta i danni di un {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.DMGStandard * 100 * {perkMultiplier}]}% per {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.BaseDuration]} secondi o fino all'attacco successivo.</string>
+	<string key="PerkID_Ability_Bow_SplinterShot_Description">Explosive Arrow hits grant Empower, increasing damage by {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.DMGStandard * 100 * {perkMultiplier}]}% for {[Type_StatusEffectData.Status_Perk_Bow_SplinterShot_Empower.BaseDuration]}s or until the next hit.</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Name">Tondo incisivo</string>
 	<string key="PerkID_Ability_Rapier_Tondo_Description">+{[PerksAbilityTable.GlobalPerk_Ability_Rapier_Tondo.CritChance * 100 * {perkMultiplier}]}% di probabilità di colpo critico contro bersagli con Sanguinamento di Tondo. Se questo vantaggio è applicato a un'arma, Tondo indebolisce di un {[Type_StatusEffectData.Status_Perk_TondoWeaken.DMGStandard * -100]}% per {[Type_StatusEffectData.Status_Perk_TondoWeaken.BaseDuration]} s. </string>
 	<string key="PerkID_Ability_Rapier_FlourishAndFinish_Name">Svolazzo letale</string>
@@ -1655,7 +1655,7 @@
 	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Name" rel_version="MorePerksV1">Critici piagati</string>
 	<string key="PerkID_Weapon_Disease_OnLowHP_Crit_Description" rel_version="MorePerksV1">I colpi critici contro i bersagli infliggono Malattia per {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.BaseDuration]} s, riducendo l'efficacia delle cure sul bersaglio di un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealScalingValueMultiplier * -100 * {perkMultiplier}]}% e le cure prodotte di un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnCrit.HealScalingValueMultiplier * -100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Name" rel_version="MorePerksV1">Colpi piagati</string>
-	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Description" rel_version="MorePerksV1">Gli attacchi pesanti infliggono Malattia per {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.BaseDuration]} s, riducendo l'efficacia delle cure sul bersaglio di un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealMod * -100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Weapon_Disease_OnLowHP_Heavy_Description" rel_version="MorePerksV1">Gli attacchi pesanti infliggono Malattia per {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.BaseDuration]} s, riducendo l'efficacia delle cure sul bersaglio di un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealScalingValueMultiplier * -100 * {perkMultiplier}]}% e le cure prodotte di un {[Type_StatusEffectData.Status_Perk_Weapon_DiseaseOnHeavy.HealScalingValueMultiplier * -100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Weapon_DmgAgainstGrit_Name" rel_version="MorePerksV1">Contrattacco ostacolante</string>
 	<string key="PerkID_Weapon_DmgAgainstGrit_Description" rel_version="MorePerksV1">+{[PerksAbilityTable.Global_Weapon_DmgAgainstGrit.BaseDamage * 100 * {perkMultiplier}]}% di danni contro bersagli con Grinta attiva.</string>
 	<string key="PerkID_Weapon_DmgWithGrit_Name" rel_version="MorePerksV1">Colpi ostacolanti</string>
@@ -2601,7 +2601,7 @@
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Energia negativa</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">I tuoi attacchi a distanza infliggono Disintegrazione per {[Type_StatusEffectData.VoidGauntlet_Disintegrate.BaseDuration]} s su entrambe le armi (tempo di ricarica di {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_VoidGauntlet.ActivationCooldown]} s). Se il tuo attributo destrezza è più alto, sostituisce la tua arma di base commisurandola alla destrezza.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Incantesimo logorato</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Attaccare un bersaglio con entrambe le armi infligge un accumulo di veleno e riduce l'efficacia delle cure prodotte e ricevute di un {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealthModifierDamageBased * -100]}% per accumulo per {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.BaseDuration]} s (massimo {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.StackMax]} accumuli).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Gli attacchi di entrambe le armi contro i bersagli infliggono un accumulo di veleno e una diminuzione della guarigione in entrata del {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealthModifierDamageBased * -100]}% e in uscita del {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.HealScalingValueMultiplier * -100]}% per accumulo per {[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.BaseDuration]}s ({[Type_StatusEffectData.Status_Perk_Artifact_Set1_BlunderbussPerk.StackMax]} accumuli massimi, cooldown di attivazione di {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_Blunderbuss.ActivationCooldown]}s).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Parassita</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">{[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_BlunderbussPerk.BaseDamage * 100]}% di danni contro bersagli avvelenati e malati.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Lama bilanciata</string>
@@ -2642,7 +2642,7 @@
 	<string key="PerkID_Artifact_Set1_MediumLegs_SecondaryName">Completo</string>
 	<string key="PerkID_Artifact_Set1_MediumLegs_Desc">+10 a tutti gli attributi.</string>
 	<string key="PerkID_Artifact_Set1_MediumFeet_Name" rel_version="Feature_Artifacts_Set2">Rapido</string>
-	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">La durata base di Fretta su di te aumenta di un {[Type_StatusEffectData.Status_Perk_Artifact_Set1_MediumFeetHasteDuration.EffectDurationMods_Tooltip * 100]}%.</string>
+	<string key="PerkID_Artifact_Set1_MediumFeet_Desc" rel_version="Feature_Artifacts_Set2">La durata base di Fretta su di te aumenta di un {[ArtifactsAbilityTable.GlobalPerk_Artifact_Set1_MediumFeet.StatusEffectDurationReduction * 100]}%.</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Name">Brillantezza</string>
 	<string key="PerkID_Artifact_Set1_LightHead_Desc">+{[AffixStatDataTable.Affix_Artifact_Set1_LightHead.MaxManaMod * 100]}% di mana massimo.</string>
 	<string key="PerkID_Artifact_Set1_LightChest_Name">Senza peso</string>

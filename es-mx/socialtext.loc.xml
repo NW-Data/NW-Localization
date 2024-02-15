@@ -448,7 +448,7 @@
 	<string key="group_member_cannot_join_expedition">{playerName} no cumple los requisitos para entrar en esta expedición.</string>
 	<string key="self_cannot_join_expedition">No puedes unirte a la expedición</string>
 	<string key="required_level_warning">Se requiere el nivel {level}</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Buscar grupo</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Ver salas</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Mi sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crear sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pvp_lobby">Sala de espera de PvP</string>
@@ -565,7 +565,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Trabuco, Arco, Bastón ígneo, Gran hacha, Hachuela, Manopla de hielo, Mosquete, Espada ropera, Lanza, Manopla de vacío</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_name">Sanador</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_description">Los sanadores se encargan de mantener al grupo con vida utilizando potenciaciones de salud y mitigación, como el fortalecimiento. También pueden encargarse de eliminar las despotenciaciones dañinas de los aliados, como el sangrado o el veneno. Los sanadores deben invertir en la estadística de concentración para maximizar la efectividad de su sanación.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastón vital, Manopla de vacío</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_healer_recommended">Bastón vital, Manopla de vacío, Mangual</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupcreated">Sala de espera creada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupupdated">Sala de espera actualizada</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_groupremoved">Sala de espera eliminada</string>
@@ -678,5 +678,135 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_limit_refresh">(Se restablece el {date})</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites_single">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;1&lt;/font&gt; invitación pendiente</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_pending_invites">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;{amount}&lt;/font&gt; invitaciones pendientes</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_header">Buscador de actividad</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_leaderboards">Clasificación</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_pve">PvE</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_pvp">PvP</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_expeditions_name">Expediciones</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_expeditions_desc" comment="">Explora sitios olvidados hace mucho tiempo (con hasta 4 compañeros de equipo) para desbloquear y encontrar recompensas únicas para hacerte más fuerte y aplastar a tus enemigos.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_mutations_name">Expediciones mutadas</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_mutations_desc" comment="">Con hasta 3 niveles de dificultad nuevos, vuelve a realizar expediciones pasadas con desafíos nuevos y peligrosos. Tendrás que trabajar en equipo, pero, si logras sobrevivir, conseguirás las recompensas más valiosas.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_season_trials_name">Pruebas de temporada</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_season_trials_desc" comment="">Enfréntate a un desafío nuevo y temible en cada temporada nueva.\n\nMínimo: 6 jugadores\nSolo grupos locales</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_name">Pruebas de élite</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_desc" comment="">Enfréntate al colosal "Shah Neshen, el devorador" con hasta 20 jugadores en esta prueba de élite.\n\nMínimo: 12 jugadores\nSolo grupos locales</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_opr_desc" comment="">Sé la primera persona en obtener 1000 puntos en esta vertiginosa experiencia PvP de 20v20. Captura puntos de control mientras recolectas recursos para construir defensas y desbloquear beneficios tácticos para tu equipo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_pvp_arena_desc" comment="">Enfréntate a otros jugadores en esta arena de 3v3 para obtener recompensas de PvP especiales.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Bonificación diaria</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Experiencia intensa</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_remaining_attempts">Intentos restantes</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Todas las dificultades compartidas</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description">Pone a tu grupo en la cola de todas las dificultades (M1-M3) que tienen en común. Recibirás una bonificación de traspaso si se te empareja en una dificultad inferior y la completas. \n\n Límite diario: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se restablece en: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Pone a tu grupo en la cola de todas las M1 y M2 disponibles que tienen en común. Recibirás una bonificación de traspaso si se te empareja en una dificultad inferior y la completas. \n\n Límite diario: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se restablece en: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_progress_label">¿Quieres permitir la unión en curso?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_random">Aleatorio</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_queue">Entrar en la cola</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_expedition_name">Expedición aleatoria</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_expedition_description" comment="">Te pone en la cola de todo el contenido en el que cumples los requisitos para crear partidas rápido.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_expedition_rewards_label" comment="DO NOT TRANSLATE - UNUSED">Recompensas de expedición aleatoria:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_mutation_name">Mutación aleatoria</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_mutation_description" comment="">Te pone en la cola de todas las dificultades mutadoras en las que cumplas los requisitos para crear partidas rápido.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_mutation_description_M1_M2_Only" comment="">Te pone en la cola de todas las expediciones M1 y M2 en las que cumples los requisitos para crear partidas rápido. </string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_mutation_rewards_label" comment="DO NOT TRANSLATE - UNUSED">Recompensas de mutación aleatoria:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_reward">{rewardValue} {rewardName}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_random_xp_reward_tooltip">{xpPercent} % de EXP de nivel actual.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_checked_tooltip">Marca cualquier casilla para seleccionar al menos una actividad de la lista anterior.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_all_checked_tooltip">Todas las actividades disponibles están seleccionadas. Selecciona "Aleatorio" para entrar en la cola de todas las actividades y así no te pierdas las bonificaciones diarias.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_tooltip">En este momento no cumples los requisitos para ninguna actividad.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_none_available_for_group_tooltip">En este momento tu grupo no cumple los requisitos para ninguna actividad.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip">Hay {lobbyCount} grupos buscando reclutas para esta actividad en el buscador de grupos. Selecciona "Ver salas de espera" en la pantalla de información de actividades para buscarlas.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip_single">Hay un grupo buscando reclutas para esta actividad en el buscador de grupos. Selecciona "Ver salas de espera" en la pantalla de información de actividades para buscarlas.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level">Tu nivel de mutación:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group" comment="">Haz clic aquí para la opción de ENTRAR CON GRUPO</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group_M1_M2_Only" comment="">Haz clic aquí para unirte a M3 con ENTRAR CON GRUPO</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_available_rewards">Recompensas disponibles</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_dungeon_mode_regular">Regular</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_dungeon_mode_mutated">Mutado</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_inacive_mutation_tooltip">&lt;font color={nameColor}&gt;{name}&lt;/font&gt; no tiene una mutación en este momento.\n\n&lt;font color={activeLabelColor}&gt;Expediciones mutadas activas&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_active_mutation_tooltip">\n\n&lt;img src="{iconPath}" scale="4" yOffset="12"&gt;&lt;/img&gt;&lt;font color={nameColor}&gt;{name}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_prgress_status">Unirse en curso: &lt;font color={statusColor}&gt;{status}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_prgress_status_enabled">Habilitado</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_prgress_status_disabled">Deshabilitado</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_prgress_tooltip_enabled">&lt;font color={statusColor}&gt;Habilitado:&lt;/font&gt; Te unirás a un grupo que puede que ya esté en la actividad.\n\nPuedes deshabilitar la opción de Unirse en curso antes de buscar actividades.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_prgress_tooltip_disabled">&lt;font color={statusColor}&gt;Deshabilitado:&lt;/font&gt; No te unirás a un grupo que ya esté en la actividad.\n\nPuedes habilitar la opción de Unirse en curso antes de buscar actividades.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_label">Buscando</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_activities">Buscando &lt;font color={activitiesColor}&gt;{activitiesText}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_random_expedition">Expedición aleatoria</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_expedition">1 expedición</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_expeditions">{numActivites} expediciones</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_random_mutation">Expedición mutada aleatoria</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_mutation">1 expedición mutada</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_mutations">{numActivites} expediciones mutadas</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_outpost_rush">Avance a un puesto de avanzada</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_searching_for_3v3arenas">Arenas de 3v3</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_selection_in_progress_label">Selección de rol en progreso</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_bonus_reached">Límite de bonificación por rol: {count}/{dailyLimit}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_selection_in_progress">Selección de rol en progreso: {playersLockedInText}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_selection_players_locked_in">&lt;font color={numberColor}&gt; &lt;img src="LyShineUI/Images/icons/chat/channelgroup" scale="1.5" yOffset="5.5"&gt;&lt;/img&gt; {numLockedIn}&lt;/font&gt; / {numInGroup}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_deserter_penalty_label">Bajo penalización del desertor</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_deserter_tooltip">Tienes la &lt;font color={penaltyColor}&gt;penalización de desertor&lt;/font&gt;.\n\nSe te aplicó porque abandonaste un grupo entre mundos dentro de los primeros 10 minutos. Mientras tengas esta penalización, no podrás hacer cola en este modo.\n\nSin embargo, igual podrás crear grupos ya conformados para disfrutar del contenido al usar el botón &lt;font face="lyshineui/fonts/nimbus_bold.font" &gt;Entrar con grupo&lt;/font&gt; en la entrada de la mazmorra.\n\nSi quieres evitar recibir esta penalización en el futuro, intenta completar el contenido con el grupo antes de irte o usa la nueva función &lt;font face="lyshineui/fonts/nimbus_bold.font" &gt;Votar para abandonar&lt;/font&gt; de la configuración de grupo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_queue_tooltip">No puedes solicitar unirte a una cola de emparejamiento porque actualmente te has registrado en {matchname}.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_role_select_tooltip">No puedes solicitar unirte a una cola de emparejamiento porque actualmente te has registrado en {matchname}. Los miembros del grupo están eligiendo los roles.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_war_tooltip">No puedes solicitar unirte a una cola de emparejamiento porque ya te has registrado en una guerra que empieza en una hora.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_at_limit">Alcanzaste tu límite para este tipo de actividad.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_at_limit">Uno o más miembros del grupo han alcanzado su límite para este tipo de actividad.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_premade_group_dungeon_tooltip">No puedes solicitar unirte a una cola de emparejamiento porque ya estás en cola para una expedición o una prueba de élite.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_finder_lobby_tooltip">No puedes solicitar unirte a una cola de emparejamiento mientras estás en una sala de espera.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_invite_tooltip">No puedes solicitar unirte a una cola de emparejamiento porque actualmente tienes una invitación pendiente.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_in_event_tooltip">No puedes solicitar unirte a una cola de emparejamiento porque actualmente estás en un evento.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_member_in_event_tooltip">No puedes solicitar unirte a una cola de emparejamiento porque uno o más miembros del grupo se han registrado en otro evento.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_too_many_items_tooltip">No puedes solicitar unirte a una cola de emparejamiento porque tienes demasiados objetos únicos en tu inventario. Reduce tu inventario eliminando {numItemsToRemove} objeto(s).</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_raid_group_tooltip">No puedes solicitar unirte a una cola de emparejamiento mientras estás en un grupo de incursión.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_no_azoth_staff">Debes equiparte un bastón de azoth para entrar en la cola para este modo de juego.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_no_azoth_staff_simple">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Bastón de azoth no equipado&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_full_tooltip">No puedes solicitar unirte a una cola de emparejamiento mientras tu grupo está lleno.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ineligible_unhandled_tooltip">No puedes solicitar unirte a una cola de emparejamiento en este momento.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_M3s_disabled_tooltip">Las mutaciones de élite (M3) solo están disponibles para los grupos locales.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_cancel_queue">Abandonar la cola</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_select_role">Seleccionar rol</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_decline">Rechazar</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_azoth_staff">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Bastón de azoth equipado&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_level">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Alcanzar nivel {minLevel}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_mutation">&lt;img src="{icon}" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Completar {name}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_size">&lt;img src="LyShineUI/Images/icons/chat/channelgroup" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; {minPlayers} - {maxPlayers} jugadores</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score_range">&lt;img src="LyShineUI/Images/Icons/Misc/icon_gearscore" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; {minGearScore} - {maxGearScore}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score_mutation">M{difficulty} {gearScore}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_click_here_join_group">Haz clic aquí para la opción de entrar a M3 con grupo</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_gear_score">{gearScore}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_deserter_penalty">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Actualmente estás bajo la penalización del desertor y no puedes unirte a esta cola de emparejamiento.&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_ineligible">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Al menos un miembro de tu grupo no cumple estos requisitos o está bajo una penalización del desertor.&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_requirement_group_too_big">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Tu grupo es demasiado grande.&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_level_requirement_not_met">No tienes el nivel necesario para esta expedición.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_gearscore_requirement_not_met">No tienes la puntuación del equipo necesaria para esta expedición.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_title">Abandonar la cola</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_expedition_desc">¿Confirmas que quieres salir de la cola de la(s) expedición(es)?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_mutation_desc">¿Confirmas que quieres salir de la cola de la(s) expedición(es) mutada(s)?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_cancel_queue_enter_dungeon">Estás intentando entrar en esta expedición con tu grupo actual. ¿Confirmas que quieres salir de la cola de emparejamiento para entrar?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_backfilling_group">Rellenando grupo</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_title">Uniéndote a la cola de emparejamiento</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_info">Requiere una selección de rol</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_started_accept">Seleccionar rol</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_canceled">Cola cancelada</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_selecting_roles">Seleccionando rol: &lt;font color={numberColor}&gt;{numLockedIn}&lt;/font&gt; / {numInGroup}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_disabled">Ya has aceptado un rol. Haz clic en Cambiar de rol para cambiarlo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_requirement_damage">&lt;font color={color}&gt;Cualquier arma&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_requirement_tank">&lt;font color={weaponColor}&gt;Cualquier arma&lt;/font&gt; &lt;font color={color}&gt; con una &lt;/font&gt; &lt;font color={gemColor}&gt;gema cornalina&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_requirement_healer">&lt;font color={weaponColor}&gt; Bastón vital de nv. {masteryLevel} &lt;/font&gt; &lt;font color={color}&gt; y&lt;/font&gt; &lt;font color={focusColor}&gt;{focusLevel} {focusText}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_damage">- Inflige la mayor cantidad de daño posible\n- Elimina enemigos antes de que te sobrepasen</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_damage">- Trabuco, Arco, Bastón ígneo, Gran hacha, Hachuela, Manopla de hielo, Mosquete, Espada ropera, Lanza, Manopla de vacío\n- Invierte en habilidades y atributos que se centren en ataques que causen mucho daño\n- Ataques con área de efecto</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_healer">- Mantén a tu equipo con vida mediante curaciones y mitigaciones\n- Elimina las despotenciaciones dañinas de tus aliados</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_healer">- Bastón vital, Manopla de vacío, Mangual\n- Invierte en la estadística de concentración</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_tank">- Absorbe daño\n- Intimida a enemigos</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">Espada y escudo, gran hacha, martillo de guerra\n- Armadura pesada\n- Gemas cornalinas\n- Control de multitudes (aturdimiento, atrapamiento, aplastamiento)</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_title">Confirmar rechazo</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_message">¿Confirmas que quieres rechazar la comprobación de preparación? Tú o tu grupo abandonarán la cola y deberán volver a entrar.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">¿Confirmas que quieres salir? Te teletransportarás fuera de la expedición y no podrás volver a unirte.\n\n&lt;font color={penaltyColor}&gt;A abandonar aplicará la penalización del desertor (20 minutos) si fue se usó en los primeros 10 minutos de la expedición.&lt;/font&gt;\n\nPara garantizar que no recibirías la penalización del desertor, usa la  función Votar para abandonar de la configuración de grupo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc_no_penalty">¿Confirmas que quieres salir? Te teletransportarás fuera de la expedición y no podrás volver a unirte.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_expedition_activity_disabled">El emparejamiento de expediciones está deshabilitada en este momento. Vuelve a intentarlo más tarde.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_mutation_activity_disabled">El emparejamiento de expediciones mutadas está deshabilitada en este momento. Vuelve a intentarlo más tarde.</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_dungeon_activity">Expedición(es)</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_mutation_activity">Expedición(es) mutada(s)</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">No se puede emparejar con M3. Usa Entrar con grupo más arriba.</string>
+	<string rel_version="Feature_PUG_Finder" key="matchmaking_queue_hud_already_accepted_match_tooltip">No puedes salir de la cola cuando ya aceptaste una invitación de emparejamiento.</string>
 </resources>
 
