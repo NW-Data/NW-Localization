@@ -4,6 +4,7 @@
 	<string key="ui_audio">Áudio</string>
 	<string key="ui_controlsettings">Configurações de Controle</string>
 	<string key="ui_gameplay">Jogabilidade</string>
+	<string key="ui_general">Geral</string>
 	<string key="ui_graphicssettings">Configurações Gráficas</string>
 	<string key="ui_legalnotice">Avisos Legais</string>
 	<string key="ui_legalnotice_desc">Visualize os Avisos Legais em uma janela do navegador.</string>
@@ -20,6 +21,8 @@
 	<string key="ui_section_gameplay">Jogabilidade</string>
 	<string key="ui_section_hud">HUD</string>
 	<string key="ui_section_healing">Cura</string>
+	<string key="ui_section_camera_target_lock" rel_version="Feature_Controller">Alvo Travado Inimigo</string>
+	<string key="ui_section_target_lock" rel_version="Feature_Controller">Alvo Travado</string>
 	<string key="ui_section_notifications">Notificações</string>
 	<string key="ui_section_preferences">Preferências</string>
 	<string key="ui_section_volume">Volume</string>
@@ -31,12 +34,68 @@
 	<string key="ui_section_graphics">Gráficos</string>
 	<string key="ui_section_advgraphics">Gráficos Avançados</string>
 	<string key="ui_section_group">Mais Opções</string>
+	<string key="ui_section_controller" rel_version="Feature_Controller">Controle</string>
+	<string key="ui_controlleroptions" rel_version="Feature_Controller">Opções de Controle</string>
+	<string key="ui_section_controllercamera" rel_version="Feature_Controller">Câmera por Controle</string>
+	<string key="ui_controllercameraoptions" rel_version="Feature_Controller">Opções de Câmera por Controle</string>
 	<string key="ui_voicechatsettings">Chat de Voz</string>
 	<string key="ui_openvoicechatsettings">Abrir Configurações do Chat de Voz</string>
-	<string key="ui_invertlook">Inverter Câmera [Mouse/Teclado]</string>
-	<string key="ui_invertlook_desc">Define se deseja inverter o eixo vertical ao usar teclado e mouse.</string>
-	<string key="ui_looksensitivity">Sensibilidade da Câmera [Mouse/Teclado]</string>
-	<string key="ui_looksensitivity_desc">Define a velocidade de movimento da câmera ao usar teclado e mouse.</string>
+	<string key="ui_invertlook">Inverter Câmera (Teclado e Mouse)</string>
+	<string key="ui_invertlook_desc">Defina se deseja inverter o eixo vertical.</string>
+	<string key="ui_looksensitivity">Sensibilidade da Câmera (Teclado e Mouse)</string>
+	<string key="ui_looksensitivity_desc">Ajuste a velocidade de movimento da câmera.</string>
+	<string key="ui_leftdeadzone" rel_version="Feature_Controller">Zona Morta do Controlador Esquerdo</string>
+	<string key="ui_leftdeadzone_desc" rel_version="Feature_Controller">Defina o tamanho da zona morta para o controlador esquerdo.</string>
+	<string key="ui_rightdeadzone" rel_version="Feature_Controller">Zona Morta do Controlador Direito</string>
+	<string key="ui_rightdeadzone_desc" rel_version="Feature_Controller">Defina o tamanho da zona morta para o controlador direito.</string>
+	<string key="ui_joysticksensitivityhorizontal" rel_version="Feature_Controller">Sensibilidade Horizontal</string>
+	<string key="ui_joysticksensitivityhorizontal_desc" rel_version="Feature_Controller">Ajuste a velocidade horizontal da câmera.</string>
+	<string key="ui_joysticksensitivityvertical" rel_version="Feature_Controller">Sensibilidade Vertical</string>
+	<string key="ui_joysticksensitivityvertical_desc" rel_version="Feature_Controller">Ajuste a velocidade vertical da câmera.</string>
+	<string key="ui_joysticksensitivityhorizontalADS" rel_version="Feature_Controller">Sensibilidade Horizontal da Mira Focada</string>
+	<string key="ui_joysticksensitivityhorizontalADS_desc" rel_version="Feature_Controller">Ajuste a velocidade horizontal da câmera ao usar a mira focada.</string>
+	<string key="ui_joysticksensitivityverticalADS" rel_version="Feature_Controller">Sensibilidade Vertical da Mira Focada</string>
+	<string key="ui_joysticksensitivityverticalADS_desc" rel_version="Feature_Controller">Ajuste a velocidade vertical da câmera ao usar a mira focada.</string>
+	<string key="ui_joysticksensitivityhorizontalTurret" rel_version="Feature_Controller">Sensibilidade Horizontal da Torreta</string>
+	<string key="ui_joysticksensitivityhorizontalTurret_desc" rel_version="Feature_Controller">Ajuste a velocidade horizontal da câmera ao usar uma torreta.</string>
+	<string key="ui_joysticksensitivityverticalTurret" rel_version="Feature_Controller">Sensibilidade Vertical da Torreta</string>
+	<string key="ui_joysticksensitivityverticalTurret_desc" rel_version="Feature_Controller">Defina a velocidade vertical da câmera ao usar uma torreta.</string>
+	<string key="ui_joystickyaxisinvert" rel_version="Feature_Controller">Inverter Eixo Vertical</string>
+	<string key="ui_joystickyaxisinvert_desc" rel_version="Feature_Controller">Defina se deseja inverter o eixo vertical nas entradas da câmera.</string>
+	<string key="ui_joystickedgeboost" rel_version="Feature_Controller">Multiplicador de Aumento de Limite</string>
+	<string key="ui_joystickedgeboost_desc" rel_version="Feature_Controller">Defina a velocidade de giro quando o controlador atingir o limite do movimento.</string>
+	<string key="ui_joystickcurve" rel_version="Feature_Controller">Curva do Controlador da Câmera</string>
+	<string key="ui_joystickcurve_desc" rel_version="Feature_Controller">Defina a taxa de giro da câmera.</string>
+	<string key="ui_aim_assist" rel_version="Feature_Controller">Assistência de Mira</string>
+	<string key="ui_aim_assist_desc" rel_version="Feature_Controller">Defina se deseja ativar a assistência de mira para ataques com projéteis.</string>
+	<string key="ui_aim_friction_sensitivity" rel_version="Feature_Controller">Fricção da Mira</string>
+	<string key="ui_aim_friction_sensitivity_desc" rel_version="Feature_Controller">Defina a intensidade de fricção aplicada ao mirar perto de um alvo.</string>
+	<string key="ui_virtualcursorsensitivity" rel_version="Feature_Controller">Sensibilidade do Cursor Virtual</string>
+	<string key="ui_virtualcursorsensitivity_desc" rel_version="Feature_Controller">Defina a velocidade de movimento do cursor virtual.</string>
+	<string key="ui_virtualcursorhoverfadeout" rel_version="Feature_Controller">Cursor Virtual Desaparece ao Passar o Mouse</string>
+	<string key="ui_virtualcursorhoverfadeout_desc" rel_version="Feature_Controller">O cursor virtual desaparece ao passar o mouse sobre os elementos interativos da interface do usuário.</string>
+	<string key="ui_menu_vibration" rel_version="Feature_Controller">Vibração do Menu</string>
+	<string key="ui_menu_vibration_desc" rel_version="Feature_Controller">Defina se o controlador deve vibrar ao passar o mouse sobre os elementos interativos da interface do usuário.</string>
+	<string key="ui_virtualcursordeadzonemultiplier" rel_version="Feature_Controller">Multiplicador de Zona Morta do Cursor Virtual</string>
+	<string key="ui_virtualcursordeadzonemultiplier_desc" rel_version="Feature_Controller">Defina o multiplicador aplicado às configurações da zona morta ao usar o cursor virtual.</string>
+	<string key="ui_magnetism_enabled" rel_version="Feature_Controller">Magnetismo do Cursor Virtual</string>
+	<string key="ui_magnetism_enabled_desc" rel_version="Feature_Controller">Defina se deseja desacelerar o cursor virtual enquanto ele estiver próximo a elementos interativos da interface do usuário.</string>
+	<string key="ui_magnetism_range_absolute" rel_version="Feature_Controller">Alcance de Magnetismo Absoluto</string>
+	<string key="ui_magnetism_range_absolute_desc" rel_version="Feature_Controller">Defina o alcance do magnetismo do cursor virtual.</string>
+	<string key="ui_magnetism_speed" rel_version="Feature_Controller">Força Magnética</string>
+	<string key="ui_magnetism_speed_desc" rel_version="Feature_Controller">Defina a força magnética do cursor virtual.</string>
+	<string key="ui_magnetism_forcetapers" rel_version="Feature_Controller">Redutor de Força Magnética</string>
+	<string key="ui_magnetism_forcetapers_desc" rel_version="Feature_Controller">A força magnética é mais forte quando o cursor virtual está próximo ao centro da tela.</string>
+	<string key="ui_magnetism_forceislinear" rel_version="Feature_Controller">Força Magnética Linear</string>
+	<string key="ui_magnetism_forceislinear_desc" rel_version="Feature_Controller">A força magnética do cursor virtual é linear.</string>
+	<string key="ui_friction_enabled" rel_version="Feature_Controller">Fricção do Cursor Virtual</string>
+	<string key="ui_friction_enabled_desc" rel_version="Feature_Controller">Defina se deseja tornar o cursor virtual mais pesado ao passar o mouse sobre elementos interativos da interface do usuário.</string>
+	<string key="ui_friction_speed" rel_version="Feature_Controller">Força de Fricção</string>
+	<string key="ui_friction_speed_desc" rel_version="Feature_Controller">Defina a força do atrito do cursor virtual.</string>
+	<string key="ui_map_pan_speed" rel_version="Feature_Controller">Velocidade Panorâmica do Mapa</string>
+	<string key="ui_map_pan_speed_desc" rel_version="Feature_Controller">Defina a velocidade de movimentação horizontal do mapa.</string>
+	<string key="ui_map_zoom_speed" rel_version="Feature_Controller">Velocidade de Zoom do Mapa</string>
+	<string key="ui_map_zoom_speed_desc" rel_version="Feature_Controller">Defina a velocidade de aplicação de zoom no mapa.</string>
 	<string key="ui_window_mode">Modo de Janela</string>
 	<string key="ui_window_mode_desc">Define o modo de exibição da janela.</string>
 	<string key="ui_fullscreen">Tela Cheia</string>
@@ -73,7 +132,9 @@
 	<string key="ui_graphics_emote_fx">Exibir Efeitos de Gestos</string>
 	<string key="ui_graphics_emote_fx_description">Define se deseja exibir os efeitos dos gestos de outros jogadores.</string>
 	<string key="ui_options_keybindings">Teclas de Atalho</string>
+	<string key="ui_options_kbm_controls">Teclado e Mouse</string>
 	<string key="ui_options_gameplay">Jogo</string>
+	<string key="ui_options_controller" rel_version="Feature_Controller">Controle</string>
 	<string key="ui_options_visuals">Vídeo</string>
 	<string key="ui_options_preferences">Preferências</string>
 	<string key="ui_options_audio">Áudio</string>
@@ -87,7 +148,7 @@
 	<string key="ui_chat_message_gameplay_opacity_desc">Define a opacidade das mensagens do chat.</string>
 	<string key="ui_chat_enable_close_after_send_desc">Define se deseja fechar o chat após enviar uma mensagem.</string>
 	<string key="ui_chat_enable_always_show_time_options_desc">Define se deseja exibir a hora da mensagem do chat.</string>
-	<string key="ui_chat_enable_alerts_desc">Define se deseja exibir alertas quando o chat estiver fechado.</string>
+	<string key="ui_chat_enable_alerts_desc">Defina se deseja exibir alertas enquanto o chat estiver fechado.</string>
 	<string key="ui_chat_enable_color_messages_options_desc">Define a mensagem do chat para a cor do canal.</string>
 	<string key="ui_streamermode_ui">Ocultar banners de notificação de rede social.</string>
 	<string key="ui_streamermode_ui_desc">Define se deseja ocultar banners grandes para convites de Amigos, Grupos e Companhia (Os banners de convite de Negociação e Duelo permanecem visíveis).</string>
@@ -209,6 +270,11 @@
 	<string key="ui_subtitles_backing_opacity_desc">Define a opacidade do recuo da legenda (zero significa desabilitado).</string>
 	<string key="ui_subtitles_sample_speaker">Falante</string>
 	<string key="ui_subtitles_sample" speaker="@ui_subtitles_sample_speaker">Este é um exemplo de legenda.</string>
+	<string key="ui_dialogue_autoprogress">Progresso Automático do Diálogo</string>
+	<string key="ui_dialogue_autoprogress_desc">Selecione automaticamente a primeira opção nas conversas.</string>
+	<string key="ui_dialogue_autoprogress_pause">Pausa nas solicitações</string>
+	<string key="ui_dialogue_autoprogress_never">Nunca</string>
+	<string key="ui_dialogue_autoprogress_always">Sempre.</string>
 	<string key="ui_metaachievementpopups">Notificações de Conquista</string>
 	<string key="ui_metaachievementpopups_desc">Define se deseja exibir notificações do HUD quando uma conquista é concluída.</string>
 	<string key="ui_enable_territory_notifications">Notificações do Território</string>
@@ -245,27 +311,36 @@
 	<string key="ui_diegeticPinOpacity_desc">Define a transparência dos sinalizadores da Ajuda de Jornada no jogo.</string>
 	<string key="ui_section_map">Mapa</string>
 	<string key="ui_options_map">Zoom Automático</string>
-	<string key="ui_options_map_desc">Define se deseja aumentar o zoom automaticamente ao abrir o Mapa em um Assentamento ou Posto Avançado.</string>
+	<string key="ui_options_map_desc">Defina se deseja aumentar o zoom automaticamente ao abrir o Mapa em um Assentamento ou Posto Avançado.</string>
 	<string key="ui_options_textSize_regular">Regular</string>
 	<string key="ui_options_textSize_bigger">Maior</string>
 	<string key="ui_cameraShake">Vibração da Câmera</string>
 	<string key="ui_cameraShake_desc">Define se a vibração da câmera está habilitada, ela pode ser desorientadora para alguns jogadores.</string>
-	<string key="ui_strafeCamera">Movimento Livre [Mouse/Teclado]</string>
-	<string key="ui_strafeCamera_desc">O personagem se voltará à direção do movimento executado ao usar mouse e teclado.</string>
+	<string key="ui_strafeCamera">Movimento Livre (Teclado e Mouse)</string>
+	<string key="ui_strafeCamera_desc">Defina se deseja virar o personagem na direção de entrada de movimento.</string>
+	<string key="ui_strafeCamera_gamepad" rel_version="Feature_Controller">Movimento Livre (Controle)</string>
+	<string key="ui_strafeCamera_gamepad_desc" rel_version="Feature_Controller">Defina se deseja virar o personagem na direção de entrada de movimento.</string>
+	<string key="ui_ping_modifier" rel_version="Feature_Controller">Modificador de Silvo</string>
+	<string key="ui_modifiedCurve" rel_version="Feature_Controller">Zoom da Câmera Inclinada</string>
+	<string key="ui_modifiedCurve_desc" rel_version="Feature_Controller">Defina se deseja diminuir o zoom da câmera ao olhar para baixo e aumentar o zoom ao olhar para cima.</string>
+	<string key="ui_verticalNoiseSuppression" rel_version="Feature_Controller">Movimento Vertical Reduzido da Câmera</string>
+	<string key="ui_verticalNoiseSuppression_desc" rel_version="Feature_Controller">Defina se deseja reduzir a movimentação da câmera ao pular.</string>
 	<string key="ui_alwaysShowReticle">Sempre Exibir Retícula</string>
-	<string key="ui_alwaysShowReticle_desc">Define se a retícula fica visível mesmo quando sua arma está guardada.</string>
-	<string key="ui_toggleblockads">Alternar Mirar e Bloquear</string>
-	<string key="ui_toggleblockads_desc">Defina se deseja alternar o recurso Mirar e Bloquear assim que o botão é pressionado, em vez de mantê-lo pressionado.</string>
+	<string key="ui_alwaysShowReticle_desc">Defina se o retículo fica visível mesmo quando sua arma está guardada.</string>
+	<string key="ui_toggleblockads">Tocar para Mirar e Bloquear</string>
+	<string key="ui_toggleblockads_desc">Defina se deseja ativar Mirar e Bloquear tocando em suas entradas em vez de segurar.</string>
 	<string key="ui_enable_ally_team_color_tinting">Coloração da Equipe Aliada</string>
 	<string key="ui_enable_enemy_team_color_tinting">Coloração da Equipe Inimiga</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Define se deseja habilitar a coloração da equipe para aliados nos modos de jogo.</string>
 	<string key="ui_enable_enemy_team_color_tinting_desc">Define se deseja habilitar a coloração da equipe para inimigos nos modos de jogo.</string>
 	<string key="ui_reticleDefaultColor">Cor Padrão da Retícula</string>
 	<string key="ui_reticleDefaultColor_desc">Define a cor padrão da retícula.</string>
+	<string key="ui_reticleLockColor" rel_version="Feature_Controller">Cor do Retículo da Assistência de Mira (Controle)</string>
+	<string key="ui_reticleLockColor_desc" rel_version="Feature_Controller">Defina a cor do retículo enquanto a assistência de mira estiver ativa.</string>
 	<string key="ui_show_pvp_xp">Exibir EXP PvP</string>
 	<string key="ui_show_pvp_xp_desc">Define se a EXP PvP será exibida.</string>
 	<string key="ui_showInspectHint">Exibir Dica de Atalho das Ações Sociais</string>
-	<string key="ui_showInspectHint_desc">Define se a dica de ações sociais será exibida ao olhar para um jogador próximo.</string>
+	<string key="ui_showInspectHint_desc">Defina se a dica de ações sociais será exibida ao olhar para um jogador próximo.</string>
 	<string key="ui_restore_defaults">Restaurar Padrões</string>
 	<string key="ui_restore_defaults_desc">Restaura essas opções para suas configurações padrão.</string>
 	<string key="ui_restore_defaults_prompt">Tem certeza que deseja restaurar essas opções para a configuração padrão?</string>
@@ -289,37 +364,62 @@
 	<string key="ui_speechtotext_desc">Chat de voz com conversão de voz para texto.</string>
 	<string key="ui_spell_alignment_vfx">Indicadores de Feitiço Inimigo</string>
 	<string key="ui_spell_alignment_vfx_desc">Define se deseja adicionar indicadores aos efeitos visuais das áreas de efeito persistentes do jogador inimigo.</string>
+	<string key="ui_shift_modifier_toggle" rel_version="Feature_Controller">Tocar para Habilitar o Modificador de Troca</string>
+	<string key="ui_shift_modifier_toggle_desc" rel_version="Feature_Controller">Defina se deseja ativar os modificadores de troca do controlador ao tocar em suas entradas.</string>
+	<string key="ui_rumble" rel_version="Feature_Controller">Vibração</string>
+	<string key="ui_rumble_desc" rel_version="Feature_Controller">Define se as vibrações do controle estão habilitadas</string>
+	<string key="ui_rumble_sensitivity" rel_version="Feature_Controller">Sensibilidade de Vibração</string>
+	<string key="ui_rumble_sensitivity_desc" rel_version="Feature_Controller">Define a sensibilidade da vibração do controle</string>
+	<string key="ui_attack_facing_camera_kbam_toggle" rel_version="Feature_Controller">Direção da Câmera para Ataques Corpo a Corpo (Teclado e Mouse)</string>
+	<string key="ui_attack_facing_camera_kbam_toggle_desc" rel_version="Feature_Controller">Defina se os ataques corpo a corpo são direcionados usando a direção da câmera em vez da direção de entrada/personagem ao usar o controle.</string>
+	<string key="ui_attack_facing_camera_gamepad_toggle" rel_version="Feature_Controller">Direção da Câmera para Ataques Corpo a Corpo (Controle)</string>
+	<string key="ui_attack_facing_camera_gamepad_toggle_desc" rel_version="Feature_Controller">Defina se os ataques corpo a corpo são direcionados usando a direção da câmera em vez da direção de entrada/personagem ao usar o controle.</string>
 	<string key="ui_enable_hudShowVitalsValues">Exibir Valores Vitais</string>
 	<string key="ui_enable_hudShowVitalsValues_decstription">Define se deseja exibir o valor de saúde e de outras informações vitais em suas respectivas barras</string>
 	<string key="ui_enable_hudAlwaysFade">Exibição Contextual</string>
-	<string key="ui_enable_hudAlwaysFade_description">Define se os elementos do HUD serão exibidos ou ocultos de acordo com a situação.</string>
+	<string key="ui_enable_hudAlwaysFade_description">Defina se os elementos do HUD serão exibidos ou ocultos de acordo com a situação.</string>
 	<string key="ui_enable_hudShowAllWeapons">Exibir Todos os Espaços de Arma</string>
-	<string key="ui_enable_hudShowAllWeapons_description">Define se todos os espaços de armas serão exibidos no HUD.</string>
+	<string key="ui_enable_hudShowAllWeapons_description">Defina se todos os espaços de armas serão exibidos no HUD.</string>
 	<string key="ui_bandwidthmode">Modo de Largura de Banda</string>
-	<string key="ui_bandwidthmode_desc">Define o Modo de Largura de Banda a ser usado ao receber dados do servidor (valores baixos podem afetar a qualidade).</string>
+	<string key="ui_bandwidthmode_desc">Defina o Modo de Largura de Banda ao receber dados do servidor (valores baixos podem afetar a qualidade).</string>
 	<string key="ui_analyticsenabled">Dados de Telemetria do Cliente</string>
-	<string key="ui_analyticsenabled_desc">Define se deseja enviar determinados dados de telemetria do cliente relacionados à sua experiência de jogo e configurações para a equipe do New World (se estiver enfrentando problemas de rede enquanto joga, desabilitar esta configuração pode ajudar).</string>
+	<string key="ui_analyticsenabled_desc">Defina se deseja enviar determinados dados de telemetria do cliente relacionados à sua experiência de jogo e configurações para a equipe do New World (se estiver enfrentando problemas de rede enquanto joga, desabilitar esta configuração poderá ajudar).</string>
 	<string key="ui_leaderboardenabled" rel_version="Feature_Leaderboards">Participe das Tabelas de Classificação</string>
 	<string key="ui_leaderboardenabled_desc" rel_version="Feature_Leaderboards">Define se deseja exibir as tabelas de classificação do nome do seu personagem e habilitar as recompensas da tabela de classificação.</string>
 	<string key="ui_enable_targeted_healing">Cura Direcionada</string>
 	<string key="ui_enable_targeted_healing_description">Define se deseja habilitar o sistema de cura direcionada.</string>
 	<string key="ui_enable_camera_lock_friendlies">Travar Câmera em Aliados</string>
-	<string key="ui_enable_camera_lock_friendlies_description">Define se deseja habilitar o sistema de cura direcionada em alvos aliados.</string>
+	<string key="ui_enable_camera_lock_friendlies_description">Defina se deseja habilitar o sistema de cura direcionada em alvos aliados.</string>
 	<string key="ui_enable_camera_lock_target_follow">Câmera Segue Alvo Travado</string>
-	<string key="ui_enable_camera_lock_target_follow_description">Define se a câmera deve seguir o alvo travado (desative para que a câmera se mova livremente enquanto o alvo estiver travado).</string>
+	<string key="ui_enable_camera_lock_target_follow_description">Defina se a câmera segue o alvo travado.</string>
 	<string key="ui_enable_camera_lock_retarget">Alternar com Mira da Câmera</string>
-	<string key="ui_enable_camera_lock_retarget_description">Define se deseja habilitar a troca entre alvos selecionados com a mira da câmera (só funciona se a opção “Câmera Segue Alvo Travado” estiver habilitada).</string>
+	<string key="ui_enable_camera_lock_retarget_description">Defina se deseja habilitar a troca entre alvos selecionados com a mira da câmera (só funciona se a opção “Câmera Segue Alvo Travado” estiver habilitada).</string>
 	<string key="ui_enable_camera_lock_sticky_lock">Trava Adesiva</string>
 	<string key="ui_enable_camera_lock_sticky_lock_description">Define se deseja habilitar o alvo permanecer selecionado após realizar a cura.</string>
+	<string key="ui_enable_camera_lock_swap_toggle" rel_version="Feature_Controller">Trocar Entrada de Alvo Travado Inimigo e Aliado com Bastão Vital</string>
+	<string key="ui_enable_camera_lock_swap_toggle_description" rel_version="Feature_Controller">Defina se deseja trocar as vinculações para alvo travado inimigo e aliado ao usar o Bastão Vital.</string>
 	<string key="ui_enable_camera_lock_group_mode">Modo de Grupo</string>
-	<string key="ui_enable_camera_lock_group_mode_description">Habilita o modo de grupo, que alterna somente entre os membros do grupo ou do assalto usando a roda do mouse (sem funcionalidade durante um assalto com a opção “Alvejar via Grupos e Teclas de Atalho em Assaltos” habilitada).</string>
+	<string key="ui_enable_camera_lock_group_mode_description">Defina se deseja alternar apenas entre membros do grupo ou do assalto enquanto mira com um Bastão Vital (é desativado se a opção “Alvejar via Teclas de Atalho em Assaltos (Teclado e Mouse)” estiver habilitada).</string>
 	<string key="ui_enable_target_mygroup_only_in_raid">Apenas Grupo em Assalto</string>
-	<string key="ui_enable_target_mygroup_only_in_raid_description">Limite os aliados alvejáveis aos cinco membros do seu grupo imediato durante um Assalto com o Modo de Grupo habilitado (sem funcionalidade durante um assalto com a opção “Alvejar via Grupos e Teclas de Atalho em Assaltos” habilitada).</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Alvejar via Grupos e Teclas de Atalho em Assaltos</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Habilita a mira de assalto, que alterna entre os grupos de assalto usando a roda do mouse e alveja os membros por meio de teclas de atalho (é necessário definir teclas para “Mirar no Membro do Grupo” a fim de selecionar alvos dentro de um grupo; somente membros do assalto podem ser alvejados com a opção habilitada).</string>
+	<string key="ui_enable_target_mygroup_only_in_raid_description">Limite os aliados alvejáveis aos membros do seu grupo imediato durante um Assalto com o Modo de Grupo habilitado (sem funcionalidade durante um assalto com a opção “Alvejar via Grupos e Teclas de Atalho em Assaltos” habilitada).</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Alvejar via Teclas de Atalho em Assaltos (Teclado e Mouse)</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Defina se deseja percorrer grupos de ataque com as combinações de teclas “Alternar Alvo Para Cima/Baixo” e direcionar os membros do ataque com as combinações de teclas “Mirar no Membro do Grupo”.</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud">Mostrar Dicas de Teclas de Atalho em Assalto</string>
-	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Define se deseja exibir dicas de teclas de atalho para cada membro do grupo selecionado quando “Alvejar via Grupos e Teclas de Atalho em Assaltos” estiver habilitado.</string>
+	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Defina se deseja exibir dicas de teclas de atalho para cada membro do grupo selecionado quando a opção “Alvejar via Grupos e Teclas de Atalho em Assaltos” estiver habilitada.</string>
+	<string key="ui_toggle_enemy_target_lock" rel_version="Feature_Controller">Alternar Alvo Travado Inimigo</string>
+	<string key="ui_toggle_ally_target_lock" rel_version="Feature_Controller">Alternar Alvo Travado Aliado</string>
 	<string key="ui_toggle_target_lock">Alternar Alvo Travado</string>
+	<string key="ui_ally_target_lock_modifier" rel_version="Feature_Controller">Modificador de Alvo Travado Aliado</string>
+	<string key="ui_enable_camera_target_lock" rel_version="Feature_Controller">Alvo Travado Inimigo</string>
+	<string key="ui_enable_camera_target_lock_desc" rel_version="Feature_Controller">Define se deseja habilitar o sistema de mira em inimigos</string>
+	<string key="ui_camera_lock_target_switch_interpolation_speed" rel_version="Feature_Controller">Velocidade de Interpolação da Troca de Alvo</string>
+	<string key="ui_camera_lock_target_switch_interpolation_speed_desc" rel_version="Feature_Controller">Defina a velocidade com que a câmera se move para um alvo diferente.</string>
+	<string key="ui_enable_camera_lock_target_auto_switch" rel_version="Feature_Controller">Troca Automática de Alvos</string>
+	<string key="ui_enable_camera_lock_target_auto_switch_desc" rel_version="Feature_Controller">Define se deseja mudar automaticamente para o próximo alvo após o primeiro alvo ser eliminado (só muda se o novo alvo estiver mirando em você)</string>
+	<string key="ui_enable_camera_lock_auto_break_with_hold" rel_version="Feature_Controller">Desativar Automaticamente o Alvo Travado ao Segurar</string>
+	<string key="ui_enable_camera_lock_auto_break_with_hold_desc" rel_version="Feature_Controller">Defina se deseja desativar automaticamente o alvo travado após segurar o comando por certo tempo.</string>
+	<string key="ui_camera_lock_auto_break_with_hold_ticks" rel_version="Feature_Controller">Duração de Desativar Automaticamente o Alvo Travado ao Segurar</string>
+	<string key="ui_camera_lock_auto_break_with_hold_ticks_desc" rel_version="Feature_Controller">Defina a quantidade de tempo em décimos de segundo necessária para segurar o comando de alvo travado se a opção Desativar Automaticamente o Alvo Travado ao Segurar estiver ativada.</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_title">Teclas de atalho não vinculadas</string>
 	<string key="ui_raid_member_hotkeys_unbound_error_message">Acesse Teclas de Atalho e vincule todos os comandos de Mirar no Membro do Grupo do Bastão Vital para ativar este recurso.</string>
 	<string key="ui_gena_escape" rel_version="Feature_GameEntryNarrationAssistance">Fuja</string>
@@ -335,7 +435,7 @@
 	<string key="ui_genaprompt_cocscreen" rel_version="Feature_GameEntryNarrationAssistance">Código de Conduta. Você concorda em proteger a comunidade, jogar limpo e respeitar uns aos outros. Pressione {frontEndContinue} para aceitar.</string>
 	<string key="ui_genaprompt_titlescreen" rel_version="Feature_GameEntryNarrationAssistance">Tela de Título do New World. Pressione {frontEndContinue} para continuar.</string>
 	<string key="ui_genaprompt_newsscreen" rel_version="Feature_GameEntryNarrationAssistance">Notícias de New World. Pressione {frontEndContinue} para continuar.</string>
-	<string key="ui_genaprompt_waitingpopup" rel_version="Feature_GameEntryNarrationAssistance">Aguardando início de sessão. Aguarde.</string>
+	<string key="ui_genaprompt_waitingpopup" rel_version="Feature_GameEntryNarrationAssistance">Entrando. Aguarde.</string>
 	<string key="ui_genaprompt_loadingscreen" rel_version="Feature_GameEntryNarrationAssistance">Carregando. Aguarde.</string>
 	<string key="ui_genaprompt_characterselect" rel_version="Feature_GameEntryNarrationAssistance">Tela de Seleção de Personagem. Pressione {frontEndContinue} para selecionar {characterName}. Pressione {toggleMenuComponent} para voltar.</string>
 	<string key="ui_genaprompt_worldselect" rel_version="Feature_GameEntryNarrationAssistance">Tela de Seleção de Mundo. Pressione {frontEndContinue} para selecionar {world} em {worldset}. Pressione {toggleMenuComponent} para voltar.</string>
@@ -355,6 +455,16 @@
 	<string key="ui_genaprompt_popupyesno" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Pressione {toggleMenuComponent} para Não. Pressione {frontEndContinue} para Sim.</string>
 	<string key="ui_genaprompt_popupok" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Pressione {frontEndContinue} para fechar.</string>
 	<string key="ui_genaprompt_popupokcancel" rel_version="Feature_GameEntryNarrationAssistance">{title}. {message} Pressione {frontEndContinue} para confirmar. Pressione {toggleMenuComponent} para cancelar.</string>
+	<string key="ui_controllerRemap" rel_version="Feature_Controller">Controle</string>
+	<string key="ui_remapPopup_message" rel_version="Feature_Controller">Você está prestes a revincular:\n&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionRemap} &lt;/font&gt;\n\nPressione o(s) botão(ões) para vincular:</string>
+	<string key="ui_consumable" rel_version="Feature_Controller">Consumíveis</string>
+	<string key="ui_remapPopup_rebindConflict" rel_version="Feature_Controller">já está vinculado a outra ação. Se você aceitar esta vinculação,\na outra ação será apagada.\n&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;Deseja mesmo vincular esta ação? &lt;/font&gt;</string>
+	<string key="ui_keybind_confirm" rel_version="Feature_Controller">Confirmar Vinculação</string>
+	<string key="ui_keybind_doubleMapping" rel_version="Feature_Controller">{tapBinding}\n{holdBinding}</string>
+	<string key="ui_keybind_isBound" rel_version="Feature_Controller">está vinculado no momento</string>
+	<string key="ui_keybind_isBoundCombo" rel_version="Feature_Controller">está vinculado no momento\n(combinação de botões aceita)</string>
+	<string key="ui_keybind_newBinding" rel_version="Feature_Controller">&lt;font color={color} face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;é a nova vinculação&lt;/font&gt; </string>
+	<string key="ui_keybind_invalidInput" rel_version="Feature_Controller"> &lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;é uma entrada inválida&lt;/font&gt; </string>
 	<string key="ui_loadouts" rel_version="Feature_Gear_Set_Storage">Conjunto de Equipamento</string>
 	<string key="ui_showloadouts" rel_version="Feature_Gear_Set_Storage">Exibir Conjuntos de Equipamento</string>
 	<string key="ui_hideloadouts" rel_version="Feature_Gear_Set_Storage">Ocultar Conjunto de Equipamento</string>
