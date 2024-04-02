@@ -143,12 +143,12 @@
 	<string key="ui_affliction_bleeding_tooltip">Se sua resistência a ferimentos se esgotar, você ficará ferido e recuperará vigor numa frequência muito menor.</string>
 	<string key="ui_affliction_burn">resistência a queimaduras</string>
 	<string key="ui_affliction_curse">resistência a corrupção</string>
-	<string key="ui_affliction_curse_tooltip">Se sua resistência a corrupção se esgotar, você ficará corrompido e sofrerá dano igual a {[-0.150000 * -100]}% de sua saúde base instantaneamente.</string>
+	<string key="ui_affliction_curse_tooltip">Se sua resistência a corrupção se esgotar, você ficará corrompido e sofrerá dano igual a {[Type_StatusEffectData.Curse.HealthModifierPercent * -100]}% de sua saúde base instantaneamente.</string>
 	<string key="ui_affliction_disease">resistência a enfermidades</string>
 	<string key="ui_affliction_disease_tooltip">Test1</string>
 	<string key="ui_affliction_drunk">resistência a embriaguez</string>
 	<string key="ui_affliction_frostbite">resistência a congelamento</string>
-	<string key="ui_affliction_frostbite_tooltip">Se sua resistência a congelamento se esgotar, você ficará congelado e não poderá correr nem se esquivar por {[10.000000]} segundos.</string>
+	<string key="ui_affliction_frostbite_tooltip">Se sua resistência a congelamento se esgotar, você ficará congelado e não poderá correr nem se esquivar por {[Afflictions.AfflictionFrostBite.AfflictedDrainTime]} segundos.</string>
 	<string key="ui_affliction_injury">resistência a lesões</string>
 	<string key="ui_affliction_insane">resistência a insanidade</string>
 	<string key="ui_affliction_inspired">inspiração</string>
@@ -162,7 +162,7 @@
 	<string key="ui_affliction_spores_tooltip">Se você ficar sem resistência a esporos, ficará encharcado de esporos e receberá 25% a mais de dano de todas as fontes.</string>
 	<string key="ui_affliction_spores">resistência a esporos</string>
 	<string key="ui_affliction_blight">resistência a mácula</string>
-	<string key="ui_affliction_blight_tooltip">Se sua resistência a mácula se esgotar, você ficará maculado e causará {[-0.500000 * 100]}% a menos de dano, receberá {[-0.750000 * 100]}% a menos de cura e perderá {[-0.013900 * -100]}% de sua saúde base a cada {[2.500000]} segundos durante {[180.000000]} segundos.</string>
+	<string key="ui_affliction_blight_tooltip">Se sua resistência a mácula se esgotar, você ficará maculado e causará {[Type_StatusEffectData.Blight.DMGStandard * 100]}% a menos de dano, receberá {[Type_StatusEffectData.Blight.HealMod * 100]}% a menos de cura e perderá {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]}% de sua saúde base a cada {[Type_StatusEffectData.Blight.TickRate]} segundos durante {[Afflictions.AfflictionBlight.AfflictedDrainTime]} segundos.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">resistência a combustível</string>
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">No final deste temporizador, o jogador com a saúde mais baixa é afetado por Combustível.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">resistência a contragolpe</string>
@@ -173,7 +173,7 @@
 	<string key="ui_afflicted_bleeding_tooltip">Quando se está ferido, o vigor regenera numa frequência muito menor.</string>
 	<string key="ui_afflicted_burn">queimando</string>
 	<string key="ui_afflicted_curse">corrompido</string>
-	<string key="ui_afflicted_curse_tooltip">Quando estiver corrompido, você perderá {[-0.150000 * 100]}% de saúde base instantaneamente.</string>
+	<string key="ui_afflicted_curse_tooltip">Quando estiver corrompido, você perderá {[Type_StatusEffectData.Curse.HealthModifierPercent * 100]}% de saúde base instantaneamente.</string>
 	<string key="ui_afflicted_disease">enfermo</string>
 	<string key="ui_afflicted_disease_tooltip">Test2</string>
 	<string key="ui_afflicted_drunk">bêbado</string>
@@ -192,7 +192,7 @@
 	<string key="ui_afflicted_spores">encharcado de esporos</string>
 	<string key="ui_afflicted_spores_tooltip">Enquanto está encharcado de esporos, você sofre 25% de dano aumentado de todas as origens.</string>
 	<string key="ui_afflicted_blight">maculado</string>
-	<string key="ui_afflicted_blight_tooltip">Quando estiver maculado, você causará {[-0.500000 * 100]}% a menos de dano, receberá {[-0.750000 * 100]}% a menos de cura e perderá {[-0.013900 * 100]}% de sua saúde base a cada {[2.500000]} segundos.</string>
+	<string key="ui_afflicted_blight_tooltip">Quando estiver maculado, você causará {[Type_StatusEffectData.Blight.DMGStandard * 100]}% a menos de dano, receberá {[Type_StatusEffectData.Blight.HealMod * 100]}% a menos de cura e perderá {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]}% de sua saúde base a cada {[Type_StatusEffectData.Blight.TickRate]} segundos.</string>
 	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">combustão</string>
 	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Quando este temporizador expira, o jogador com a menor porcentagem de saúde torna-se Combustível.</string>
 	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">maldição</string>

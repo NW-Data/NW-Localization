@@ -143,12 +143,12 @@
 	<string key="ui_affliction_bleeding_tooltip">Se esaurisci la resistenza al sanguinamento, sanguinerai e rigenererai energia molto più lentamente.</string>
 	<string key="ui_affliction_burn">resistenza alle ustioni</string>
 	<string key="ui_affliction_curse">resistenza alla corruzione</string>
-	<string key="ui_affliction_curse_tooltip">Se esaurisci la resistenza alla corruzione, diventerai corrotto e riceverai immediatamente danni pari a un {[-0.150000 * -100]}% della salute di base.</string>
+	<string key="ui_affliction_curse_tooltip">Se esaurisci la resistenza alla corruzione, diventerai corrotto e riceverai immediatamente danni pari a un {[Type_StatusEffectData.Curse.HealthModifierPercent * -100]}% della salute di base.</string>
 	<string key="ui_affliction_disease">resistenza alle malattie</string>
 	<string key="ui_affliction_disease_tooltip">Test1</string>
 	<string key="ui_affliction_drunk">resistenza alle sbornie</string>
 	<string key="ui_affliction_frostbite">resistenza all'assideramento</string>
-	<string key="ui_affliction_frostbite_tooltip">Se esaurisci la resistenza all'assideramento, rimarrai assiderato e non sarai in grado di correre o schivare per {[10.000000]} secondi.</string>
+	<string key="ui_affliction_frostbite_tooltip">Se esaurisci la resistenza all'assideramento, rimarrai assiderato e non sarai in grado di correre o schivare per {[Afflictions.AfflictionFrostBite.AfflictedDrainTime]} secondi.</string>
 	<string key="ui_affliction_injury">resistenza alle lesioni</string>
 	<string key="ui_affliction_insane">resistenza alla follia</string>
 	<string key="ui_affliction_inspired">ispira</string>
@@ -162,7 +162,7 @@
 	<string key="ui_affliction_spores_tooltip">Se esaurisci la resistenza alle spore, sarai intriso di spore e subirai il 25% di danni in più da tutte le fonti.</string>
 	<string key="ui_affliction_spores">resistenza alle spore</string>
 	<string key="ui_affliction_blight">resistenza al logoramento</string>
-	<string key="ui_affliction_blight_tooltip">Se esaurisci la resistenza al logoramento, diventerai logorato e infliggerai danni ridotti di un {[-0.500000 * 100]}%, riceverai guarigione ridotta di un {[-0.750000 * 100]}% e perderai un {[-0.013900 * -100]}% della salute di base ogni {[2.500000]} secondi per {[180.000000]} secondi.</string>
+	<string key="ui_affliction_blight_tooltip">Se esaurisci la resistenza al logoramento, diventerai logorato e infliggerai danni ridotti di un {[Type_StatusEffectData.Blight.DMGStandard * 100]}%, riceverai guarigione ridotta di un {[Type_StatusEffectData.Blight.HealMod * 100]}% e perderai un {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]}% della salute di base ogni {[Type_StatusEffectData.Blight.TickRate]} secondi per {[Afflictions.AfflictionBlight.AfflictedDrainTime]} secondi.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">resistenza combustibile</string>
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Allo scadere del tempo, il giocatore con la quantità minore di salute diventa Combustibile.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">resistenza di ritorno</string>
@@ -173,7 +173,7 @@
 	<string key="ui_afflicted_bleeding_tooltip">Quando sanguini, rigeneri energia molto più lentamente.</string>
 	<string key="ui_afflicted_burn">rovente</string>
 	<string key="ui_afflicted_curse">corrotto</string>
-	<string key="ui_afflicted_curse_tooltip">Mentre sei corrotto, perdi immediatamente un {[-0.150000 * 100]}% della salute di base.</string>
+	<string key="ui_afflicted_curse_tooltip">Mentre sei corrotto, perdi immediatamente un {[Type_StatusEffectData.Curse.HealthModifierPercent * 100]}% della salute di base.</string>
 	<string key="ui_afflicted_disease">malato</string>
 	<string key="ui_afflicted_disease_tooltip">Test2</string>
 	<string key="ui_afflicted_drunk">ubriaco</string>
@@ -192,7 +192,7 @@
 	<string key="ui_afflicted_spores">intriso di spore</string>
 	<string key="ui_afflicted_spores_tooltip">Mentre sei intriso di spore subisci il 25% di danni in più da tutte le fonti.</string>
 	<string key="ui_afflicted_blight">logorato</string>
-	<string key="ui_afflicted_blight_tooltip">Mentre sei logorato, infliggi danni ridotti di un {[-0.500000 * 100]}%, ricevi guarigione ridotta di un {[-0.750000 * 100]}% e perdi un {[-0.013900 * 100]}% della salute di base ogni {[2.500000]} secondi.</string>
+	<string key="ui_afflicted_blight_tooltip">Mentre sei logorato, infliggi danni ridotti di un {[Type_StatusEffectData.Blight.DMGStandard * 100]}%, ricevi guarigione ridotta di un {[Type_StatusEffectData.Blight.HealMod * 100]}% e perdi un {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]}% della salute di base ogni {[Type_StatusEffectData.Blight.TickRate]} secondi.</string>
 	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">combustione</string>
 	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Allo scadere del tempo, il giocatore con la percentuale minore di salute diventa Combustibile.</string>
 	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">maledetto</string>

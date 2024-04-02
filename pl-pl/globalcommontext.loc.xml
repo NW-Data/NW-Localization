@@ -143,12 +143,12 @@
 	<string key="ui_affliction_bleeding_tooltip">Gdy odporność na zranienie wyczerpie się, postać zostanie zraniona i będzie znacznie wolniej odzyskiwać wytrzymałość.</string>
 	<string key="ui_affliction_burn">odporność na oparzenia</string>
 	<string key="ui_affliction_curse">odporność na skażenie</string>
-	<string key="ui_affliction_curse_tooltip">Jeśli stracisz odporność na skażenie, dopadnie cię skażenie i natychmiast otrzymasz obrażenia równe {[-0.150000 * -100]}% zdrowia podstawowego.</string>
+	<string key="ui_affliction_curse_tooltip">Jeśli stracisz odporność na skażenie, dopadnie cię skażenie i natychmiast otrzymasz obrażenia równe {[Type_StatusEffectData.Curse.HealthModifierPercent * -100]}% zdrowia podstawowego.</string>
 	<string key="ui_affliction_disease">odporność na choroby</string>
 	<string key="ui_affliction_disease_tooltip">Test1</string>
 	<string key="ui_affliction_drunk">odporność na upojenie</string>
 	<string key="ui_affliction_frostbite">odporność na odmrożenia</string>
-	<string key="ui_affliction_frostbite_tooltip">Jeśli stracisz odporność na odmrożenie, dopadnie cię odmrożenie, które nie pozwoli ci biegać ani wykonywać uników przez {[10.000000]} s.</string>
+	<string key="ui_affliction_frostbite_tooltip">Jeśli stracisz odporność na odmrożenie, dopadnie cię odmrożenie, które nie pozwoli ci biegać ani wykonywać uników przez {[Afflictions.AfflictionFrostBite.AfflictedDrainTime]} s.</string>
 	<string key="ui_affliction_injury">odporność na rany</string>
 	<string key="ui_affliction_insane">odporność na szaleństwo</string>
 	<string key="ui_affliction_inspired">inspiracja</string>
@@ -162,7 +162,7 @@
 	<string key="ui_affliction_spores_tooltip">Gdy stracisz odporność na zarodniki, oblepią cię i będziesz otrzymywać o 25% więcej obrażeń każdego rodzaju.</string>
 	<string key="ui_affliction_spores">odporność na zarodniki</string>
 	<string key="ui_affliction_blight">odporność na zarazę</string>
-	<string key="ui_affliction_blight_tooltip">Jeśli stracisz odporność na zarazę, dopadnie cię zaraza i będziesz zadawać o {[-0.500000 * 100]}% mniej obrażeń, otrzymywać o {[-0.750000 * 100]}% mniej zdrowia podczas leczenia i tracić {[-0.013900 * -100]}% zdrowia podstawowego co {[2.500000]} s przez {[180.000000]} s.</string>
+	<string key="ui_affliction_blight_tooltip">Jeśli stracisz odporność na zarazę, dopadnie cię zaraza i będziesz zadawać o {[Type_StatusEffectData.Blight.DMGStandard * 100]}% mniej obrażeń, otrzymywać o {[Type_StatusEffectData.Blight.HealMod * 100]}% mniej zdrowia podczas leczenia i tracić {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]}% zdrowia podstawowego co {[Type_StatusEffectData.Blight.TickRate]} s przez {[Afflictions.AfflictionBlight.AfflictedDrainTime]} s.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">wybuchowa odporność</string>
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Po upływie czasu na gracza z najniższym zdrowiem zostanie nałożony efekt wybuchowości.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">odporność na rykoszet</string>
@@ -173,7 +173,7 @@
 	<string key="ui_afflicted_bleeding_tooltip">Zraniona postać znacznie wolniej odzyskuje wytrzymałość.</string>
 	<string key="ui_afflicted_burn">oparzenie</string>
 	<string key="ui_afflicted_curse">skażenie</string>
-	<string key="ui_afflicted_curse_tooltip">Gdy dopadnie cię skażenie, natychmiast stracisz {[-0.150000 * 100]}% zdrowia podstawowego.</string>
+	<string key="ui_afflicted_curse_tooltip">Gdy dopadnie cię skażenie, natychmiast stracisz {[Type_StatusEffectData.Curse.HealthModifierPercent * 100]}% zdrowia podstawowego.</string>
 	<string key="ui_afflicted_disease">choroba</string>
 	<string key="ui_afflicted_disease_tooltip">Test2</string>
 	<string key="ui_afflicted_drunk">upojenie</string>
@@ -192,7 +192,7 @@
 	<string key="ui_afflicted_spores">oblepienie zarodnikami</string>
 	<string key="ui_afflicted_spores_tooltip">Gdy oblepią cię zarodniki, będziesz otrzymywać 25% więcej obrażeń każdego rodzaju.</string>
 	<string key="ui_afflicted_blight">zaraza</string>
-	<string key="ui_afflicted_blight_tooltip">Gdy dopadnie cię zaraza, będziesz zadawać o {[-0.500000 * 100]}% mniej obrażeń, otrzymywać o {[-0.750000 * 100]}% mniej zdrowia podczas leczenia i tracić {[-0.013900 * 100]}% zdrowia podstawowego co {[2.500000]} s.</string>
+	<string key="ui_afflicted_blight_tooltip">Gdy dopadnie cię zaraza, będziesz zadawać o {[Type_StatusEffectData.Blight.DMGStandard * 100]}% mniej obrażeń, otrzymywać o {[Type_StatusEffectData.Blight.HealMod * 100]}% mniej zdrowia podczas leczenia i tracić {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]}% zdrowia podstawowego co {[Type_StatusEffectData.Blight.TickRate]} s.</string>
 	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">wybuchowość</string>
 	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Po upływie czasu gracz z najmniejszą procentowo ilością zdrowia staje się wybuchowy.</string>
 	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">klątwa</string>

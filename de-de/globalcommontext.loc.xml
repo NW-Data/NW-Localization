@@ -143,12 +143,12 @@
 	<string key="ui_affliction_bleeding_tooltip">Wenn du keine Verwundungsresistenz mehr hast, wirst du verwundet und deine Ausdauer erholt sich deutlich langsamer.</string>
 	<string key="ui_affliction_burn">Verbrennungsresistenz</string>
 	<string key="ui_affliction_curse">Verderbnisresistenz</string>
-	<string key="ui_affliction_curse_tooltip">Wenn du keine Verderbnisresistenz mehr hast, wird dir Verderbnis zugefügt und du nimmst sofort Schaden in Höhe von {[-0.150000 * -100]} % deines Gesundheitsgrundwerts.</string>
+	<string key="ui_affliction_curse_tooltip">Wenn du keine Verderbnisresistenz mehr hast, wird dir Verderbnis zugefügt und du nimmst sofort Schaden in Höhe von {[Type_StatusEffectData.Curse.HealthModifierPercent * -100]} % deines Gesundheitsgrundwerts.</string>
 	<string key="ui_affliction_disease">Krankheitsresistenz</string>
 	<string key="ui_affliction_disease_tooltip">Test1</string>
 	<string key="ui_affliction_drunk">Trunkenheitsresistenz</string>
 	<string key="ui_affliction_frostbite">Erfrierungsresistenz</string>
-	<string key="ui_affliction_frostbite_tooltip">Wenn du keine Erfrierungsresistenz mehr hast, erleidest du eine Erfrierung und kannst {[10.000000]} Sekunden lang nicht mehr rennen oder ausweichen.</string>
+	<string key="ui_affliction_frostbite_tooltip">Wenn du keine Erfrierungsresistenz mehr hast, erleidest du eine Erfrierung und kannst {[Afflictions.AfflictionFrostBite.AfflictedDrainTime]} Sekunden lang nicht mehr rennen oder ausweichen.</string>
 	<string key="ui_affliction_injury">Verletzungsresistenz</string>
 	<string key="ui_affliction_insane">Wahnresistenz</string>
 	<string key="ui_affliction_inspired">Inspiration</string>
@@ -162,7 +162,7 @@
 	<string key="ui_affliction_spores_tooltip">Wenn du die Sporenresistenz verlierst, wirst du von Sporen durchdrungen und erleidest 25 % mehr Schaden durch alle Schadensquellen.</string>
 	<string key="ui_affliction_spores">Sporenresistenz</string>
 	<string key="ui_affliction_blight">Fäulnisresistenz</string>
-	<string key="ui_affliction_blight_tooltip">Wenn du keine Fäulnisresistenz mehr hast, wirst du zum Verfaulten, fügst {[-0.500000 * 100]} % weniger Schaden zu, heilst um {[-0.750000 * 100]} % weniger und verlierst alle {[2.500000]} Sekunden {[-0.013900 * -100]} % von deinem Gesundheitsgrundwert für {[180.000000]} Sekunden insgesamt.</string>
+	<string key="ui_affliction_blight_tooltip">Wenn du keine Fäulnisresistenz mehr hast, wirst du zum Verfaulten, fügst {[Type_StatusEffectData.Blight.DMGStandard * 100]} % weniger Schaden zu, heilst um {[Type_StatusEffectData.Blight.HealMod * 100]} % weniger und verlierst alle {[Type_StatusEffectData.Blight.TickRate]} Sekunden {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % von deinem Gesundheitsgrundwert für {[Afflictions.AfflictionBlight.AfflictedDrainTime]} Sekunden insgesamt.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">Entzündlichkeit-Resistenz</string>
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Am Ende des Timers wird der Spieler mit der niedrigsten Gesundheit "Entzündlich".</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">Rückstoßresistenz</string>
@@ -173,7 +173,7 @@
 	<string key="ui_afflicted_bleeding_tooltip">Wenn du verwundet bist, erholt sich deine Ausdauer deutlich langsamer.</string>
 	<string key="ui_afflicted_burn">brennend</string>
 	<string key="ui_afflicted_curse">verderbt</string>
-	<string key="ui_afflicted_curse_tooltip">Wenn du verderbt wirst, verlierst du sofort {[-0.150000 * 100]} % deines Gesundheitsgrundwerts.</string>
+	<string key="ui_afflicted_curse_tooltip">Wenn du verderbt wirst, verlierst du sofort {[Type_StatusEffectData.Curse.HealthModifierPercent * 100]} % deines Gesundheitsgrundwerts.</string>
 	<string key="ui_afflicted_disease">krank</string>
 	<string key="ui_afflicted_disease_tooltip">Test2</string>
 	<string key="ui_afflicted_drunk">betrunken</string>
@@ -192,7 +192,7 @@
 	<string key="ui_afflicted_spores">Von Sporen durchdrungen</string>
 	<string key="ui_afflicted_spores_tooltip">Während du von Sporen durchdrungen bist, erleidest du 25 % mehr Schaden durch alle Schadensquellen.</string>
 	<string key="ui_afflicted_blight">verfaulter</string>
-	<string key="ui_afflicted_blight_tooltip">Wenn du zum Verfaulten wirst, fügst du {[-0.500000 * 100]} % weniger Schaden zu, heilst um {[-0.750000 * 100]} % weniger und verlierst alle {[2.500000]} Sekunden {[-0.013900 * 100]} % von deinem Gesundheitsgrundwert.</string>
+	<string key="ui_afflicted_blight_tooltip">Wenn du zum Verfaulten wirst, fügst du {[Type_StatusEffectData.Blight.DMGStandard * 100]} % weniger Schaden zu, heilst um {[Type_StatusEffectData.Blight.HealMod * 100]} % weniger und verlierst alle {[Type_StatusEffectData.Blight.TickRate]} Sekunden {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % von deinem Gesundheitsgrundwert.</string>
 	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">Entzündlich</string>
 	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Wenn dieser Timer abläuft, wird der Spieler mit der geringsten Gesundheit "Entzündlich".</string>
 	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">Verflucht</string>
