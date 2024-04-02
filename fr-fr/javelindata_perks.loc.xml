@@ -1164,7 +1164,7 @@
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Cyclone aspirant</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">Les coups de Cyclone vous soignent à hauteur de {[0.100000 * 100 * {perkMultiplier}]} % des dégâts de l'arme ({[3.000000]} cibles maximum).</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Perforation fortificatrice</string>
-	<string key="PerkID_Ability_Spear_Perforate_Description">Les coups de Perforation vous octroient un cumul de fortification, augmentant de {[0.010000 * 100 * {perkMultiplier}]} % votre armure pendant {[6.000000]} s.</string>
+	<string key="PerkID_Ability_Spear_Perforate_Description">Les coups de Perforation vous octroient un cumul de fortification, augmentant de {[0.010000 * 100 * {perkMultiplier}]} % votre armure pendant {[6.000000]} s (cumulable {[3.000000]} fois).</string>
 	<string key="PerkID_Ability_Spear_Skewer_Name">Pique affaiblissante</string>
 	<string key="PerkID_Ability_Spear_Skewer_Description">Embrocher la cible applique affaiblissement, réduisant de {[-0.030000 * -100 * {perkMultiplier}]} % les dégâts de la cible pendant {[8.000000]} s.</string>
 	<string key="PerkID_Ability_Spear_VaultKick_Name">Coup de pied franc</string>
@@ -1220,7 +1220,7 @@
 	<string key="PerkID_Ability_Sword_ReverseStab_Name">Estoc inversé contagieux</string>
 	<string key="PerkID_Ability_Sword_ReverseStab_Description">Toucher une cible transfère {[2.000000]} de vos affaiblissements actifs à la cible. Estoc inversé inflige +{[0.050000 * 100 * {perkMultiplier}]} % de dégâts.</string>
 	<string key="PerkID_Ability_Sword_WhirlingBlade_Name">Lame virevoltée fortifiante</string>
-	<string key="PerkID_Ability_Sword_WhirlingBlade_Description">Lorsque 3 ennemis ou plus sont dans son rayon d'action en effectuant une attaque Lame virevoltée, vous obtenez {[0.100000 * 100] * {perkMultiplier}]} % des dégâts de base.</string>
+	<string key="PerkID_Ability_Sword_WhirlingBlade_Description">Lorsque {[2.000000]} ennemis ou plus sont dans son rayon d'action en effectuant une attaque Lame virevoltée, vous obtenez {[0.045000 * 100] * {perkMultiplier}]} % des dégâts de base pour chaque cible à proximité ({[5.000000]} cibles maximum).</string>
 	<string key="PerkID_Ability_Sword_LeapingStrike_Name">Saut d'estoc fortifiant</string>
 	<string key="PerkID_Ability_Sword_LeapingStrike_Description">Les attaques à l'épée infligent +{[0.030000 * 100 * {perkMultiplier}]} % de dégâts aux cibles ralenties par Châtiment indigne, l'amélioration de Saut d'estoc.</string>
 	<string key="PerkID_Ability_Shield_ShieldBash_Name">Volée de bouclier réductrice</string>
@@ -1886,7 +1886,7 @@
 	<string key="PerkID_RuneglassGem_ThreatSub_Void_Name" rel_version="Territory_Brimstone_Sands">Calme abyssal</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Void_Description" rel_version="Territory_Brimstone_Sands">Vous générez {[-0.080000 * -100 * {perkMultiplier}]} % de menace en moins et infligez {[0.015000 * 100]} % de dégâts supplémentaires aux ennemis provoqués. Vos attaques de néant infligent +{[0.020000 * 100]} % de dégâts.</string>
 	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Name" rel_version="Territory_Brimstone_Sands">Provocation punitive</string>
-	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Description" rel_version="Territory_Brimstone_Sands">Génère {[3.000000 * 100 * {perkMultiplier}]} % de menace en plus. Vos attaques de corps à corps infligent +{[0.000000 * 100]} % de dégâts.</string>
+	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Description" rel_version="Territory_Brimstone_Sands">Génère {[3.000000 * 100 * {perkMultiplier}]} % de menace en plus. Vos attaques de corps à corps infligent +{[0.020000 * 100]} % de dégâts.</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Melee_Name" rel_version="Territory_Brimstone_Sands">Calme punitif</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Melee_Description" rel_version="Territory_Brimstone_Sands">Vous générez {[-0.080000 * -100 * {perkMultiplier}]} % de menace en moins et infligez {[0.015000 * 100]} % de dégâts supplémentaires aux ennemis provoqués. Vos attaques de corps à corps infligent +{[0.010000 * 100]} % de dégâts.</string>
 	<string key="PerkID_RuneglassGem_ThreatAdd_Ranged_Name" rel_version="Territory_Brimstone_Sands">Provocation visée</string>
@@ -2604,13 +2604,13 @@
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Énergie négative</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">Vos attaques à distance appliquent Désintégration pendant {[8.000000]} s avec les deux armes ({[1.000000]} s de temps de recharge). Les dégâts de votre arme se basent sur la dextérité si elle est supérieure.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Enchantement vicié</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Les attaques des deux armes contre les cibles leur infligent un cumul de poison et une réduction de l'efficacité de soins reçus de {[-0.025000 * -100]} % par cumul et des soins prodigués de {[-0.025000 * -100]} % par cumul pendant {[3.000000]} s (cumulable {[3.000000]} fois).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Les attaques des deux armes contre les cibles leur infligent un cumul de poison et une réduction de l'efficacité de soins reçus de {[-0.050000 * -100]} % par cumul et des soins prodigués de {[-0.025000 * -100]} % par cumul pendant {[3.000000]} s (cumulable {[3.000000]} fois, {[1.000000]} s de temps de recharge pour l'activation).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Peste</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">{[0.080000 * 100]} % de dégâts contre les cibles empoisonnées et malades.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Lame équilibrée</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Desc">Posture d'attaque : +{[0.020000 * 100]} % de renforcement par attaque pendant {[5.000000]} s (cumulable {[10.000000]} fois).\nPosture défensive : +{[0.020000 * 100]} % de fortification pendant {[5.000000]} s lorsque vous subissez des dégâts (cumulable {[10.000000]} fois).</string>
 	<string key="PerkID_Artifact_Set1_Amulet1_Name">Regard étourdissant</string>
-	<string key="PerkID_Artifact_Set1_Amulet1_Desc">Active les gemmes de provocation et génère {[3.000000 * 100]} % de menace en plus. Étourdit {[1.000000]} s plus longtemps, mais les dégâts de base sont réduits de {[-0.100000 * -100]} %.</string>
+	<string key="PerkID_Artifact_Set1_Amulet1_Desc">Les provocations sont actives. Génère {[3.000000 * 100]} % de menace en plus. Étourdit {[1.000000]} s plus longtemps, mais les dégâts de base sont réduits de {[-0.100000 * -100]} %.</string>
 	<string key="PerkID_Artifact_Set1_Amulet2_Name">Centre de l'attention</string>
 	<string key="PerkID_Artifact_Set1_Amulet2_Desc">Les consommables, le vol de vie et les soins prodigués sont {[-0.250000 * -100]} % moins efficaces mais tous les autres soins sont {[0.250000 * 100]} % plus performants.</string>
 	<string key="PerkID_Artifact_Set1_Ring1_Name">Harmonie de la goule</string>
@@ -2685,10 +2685,10 @@
 	<string key="PerkID_Artifact_Set2_Greataxe_Name" rel_version="Feature_Artifacts_S5">Lancée</string>
 	<string key="PerkID_Artifact_Set2_Greataxe_Desc" rel_version="Feature_Artifacts_S5">Les attaques réussies vous octroient 3 % de vitesse de déplacement supplémentaire pendant 3 s (valable pour les deux armes et cumulable 10 fois). </string>
 	<string key="PerkID_Artifact_Set2_GreataxePerk_Name" rel_version="Feature_Artifacts_S5">Tourbillon infini</string>
-	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Tourbillon permet d'effectuer 10 rotations supplémentaires.</string>
+	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Tourbillon continue à tourner sans avoir à toucher de cible et peut tourner jusqu'à 12 fois.</string>
 	<string key="PerkID_Artifact_Set2_Spear_Name" rel_version="Feature_Artifacts_S5">Pointe de poison</string>
-	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Les attaques lourdes avec n'importe quelle arme empoisonnent la cible, lui infligeant {[-0.200000 * -100]} % des dégâts de l'arme pendant {[5.000000]} s.</string>
-	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Résurrection du phénix</string>
-	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Lorsque vous subissez des dégâts mortels, vous évitez la mort et devenez invulnérable pendant 2 s (180 s de temps de recharge).</string>
+	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Les attaques lourdes au corps à corps avec n'importe quelle arme empoisonnent la cible, lui infligeant {[-0.200000 * -100]} % des dégâts de l'arme pendant {[5.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Vengeance du phénix</string>
+	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Lorsque vous subissez des dégâts mortels, vous évitez la mort et récupérez {[1.000000 * 100]} % de votre santé max. Vengeance vous afflige alors, réduisant votre santé de {[-2.000000 * -100]} %. Vous subissez des dégâts équivalents à {[-0.100000 * -200]} % de votre santé max par seconde jusqu'à ce que vous mouriez ou fassiez une victime ({[180.000000]} s de temps de recharge).</string>
 </resources>
 

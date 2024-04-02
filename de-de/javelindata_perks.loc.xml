@@ -1164,7 +1164,7 @@
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Aussaugender Zyklon</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">"Zyklon" heilt dich für {[0.100000 * 100 * {perkMultiplier}]} % des Waffenschadens (max. {[3.000000]} Ziele).</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Verstärkendes Durchlöchern</string>
-	<string key="PerkID_Ability_Spear_Perforate_Description">"Durchlöchern"-Treffer erhalten einen Stapel Verstärkung, der deine Rüstung für {[6.000000]} Sek. um {[0.010000 * 100 * {perkMultiplier}]} % erhöht.</string>
+	<string key="PerkID_Ability_Spear_Perforate_Description">"Durchlöchern"-Treffer erhalten einen Stapel Verstärkung, der deine Rüstung {[6.000000]} Sek. lang um {[0.010000 * 100 * {perkMultiplier}]} % erhöht. (Max. {[3.000000]} Stapel).</string>
 	<string key="PerkID_Ability_Spear_Skewer_Name">Schwächendes Aufspießen</string>
 	<string key="PerkID_Ability_Spear_Skewer_Description">"Aufspießen" fügt den Status "Geschwächt" zu, wodurch der Schaden des Ziels für {[8.000000]} Sek. um {[-0.030000 * -100 * {perkMultiplier}]} % sinkt.</string>
 	<string key="PerkID_Ability_Spear_VaultKick_Name">Eifriger Sprungtritt</string>
@@ -1220,7 +1220,7 @@
 	<string key="PerkID_Ability_Sword_ReverseStab_Name">Ansteckender Rückenstich</string>
 	<string key="PerkID_Ability_Sword_ReverseStab_Description">Ein Treffer an einem Ziel überträgt {[2.000000]} aktive Schwächungen von dir auf das Ziel. "Rückenstich" verursacht +{[0.050000 * 100 * {perkMultiplier}]} % Schaden.</string>
 	<string key="PerkID_Ability_Sword_WhirlingBlade_Name">Ermächtigende Wirbelklinge</string>
-	<string key="PerkID_Ability_Sword_WhirlingBlade_Description">Wenn sich 3 oder mehr Feinde im Radius befinden, während du einen Angriff mit "Wirbelklinge" ausführst, erhältst du {[0.100000 * 100] * {perkMultiplier}]} % Basisschaden.</string>
+	<string key="PerkID_Ability_Sword_WhirlingBlade_Description">Wenn sich mind. {[2.000000]} Feinde im Radius befinden, während du einen Angriff mit "Wirbelklinge" ausführst, erhältst du {[0.045000 * 100] * {perkMultiplier}]} % Basisschaden für jedes Ziel in der Nähe (max. {[5.000000]} Ziele).</string>
 	<string key="PerkID_Ability_Sword_LeapingStrike_Name">Ermächtigender Sprungschlag</string>
 	<string key="PerkID_Ability_Sword_LeapingStrike_Description">An Zielen, die mit der "Sprungschlag"-Aufrüstung "Feige Bestrafung" verlangsamt wurden, verursachst du mit Schwertangriffen +{[0.030000 * 100 * {perkMultiplier}]} % Schaden.</string>
 	<string key="PerkID_Ability_Shield_ShieldBash_Name">Schwächender Schildschmetterer</string>
@@ -1886,7 +1886,7 @@
 	<string key="PerkID_RuneglassGem_ThreatSub_Void_Name" rel_version="Territory_Brimstone_Sands">Höllenberuhigung</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Void_Description" rel_version="Territory_Brimstone_Sands">Du erzeugst {[-0.080000 * -100 * {perkMultiplier}]} % weniger Bedrohung und verursachst bei provozierten Gegnern {[0.015000 * 100]} % mehr Schaden. Deine Unheilsangriffe verursachen +{[0.020000 * 100]} % Schaden.</string>
 	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Name" rel_version="Territory_Brimstone_Sands">Strafende Provokation</string>
-	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Description" rel_version="Territory_Brimstone_Sands">Du verursachst {[3.000000 * 100 * {perkMultiplier}]} % mehr Bedrohung. Deine Nahkampfangriffe verursachen +{[0.000000 * 100]} % Schaden.</string>
+	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Description" rel_version="Territory_Brimstone_Sands">Du verursachst {[3.000000 * 100 * {perkMultiplier}]} % mehr Bedrohung. Deine Nahkampfangriffe verursachen +{[0.020000 * 100]} % Schaden.</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Melee_Name" rel_version="Territory_Brimstone_Sands">Strafende Beruhigung</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Melee_Description" rel_version="Territory_Brimstone_Sands">Du erzeugst {[-0.080000 * -100 * {perkMultiplier}]} % weniger Bedrohung und verursachst bei provozierten Gegnern {[0.015000 * 100]} % mehr Schaden. Deine Nahkampfangriffe verursachen +{[0.010000 * 100]} % Schaden.</string>
 	<string key="PerkID_RuneglassGem_ThreatAdd_Ranged_Name" rel_version="Territory_Brimstone_Sands">Gezielte Provokation</string>
@@ -2604,13 +2604,13 @@
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Negative Energie</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">Deine Fernkampfangriffe verursachen für {[8.000000]} Sek. mit beiden Waffen "Zerfall". ({[1.000000]} Sek. Abklingzeit) Und wenn dein Geschickattribut höher ist, wird deine Grundwaffenskalierung durch Geschick ersetzt.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Verfaulte Verzauberung</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Angriffe beider Waffen belegen das Ziel mit einem Stapel Vergiftung und verringern für {[3.000000]} Sek. die erhaltene Heilung um {[-0.050000 * -100]} % pro Stapel und gewirkte Heilung um {[-0.025000 * -100]} % pro Stapel (max. {[3.000000]} Stapel).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Angriffe beider Waffen belegen das Ziel mit einem Stapel Gift und verringern für {[3.000000]} Sek. die erhaltene Heilung um {[-0.050000 * -100]} % pro Stapel und gewirkte Heilung um {[-0.025000 * -100]} % pro Stapel (max. {[3.000000]} Stapel, {[1.000000]} Sek. Aktivierungsabklingzeit).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Plage</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">+{[0.080000 * 100]} % Schaden gegen vergiftete und kranke Ziele.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Ausgewogene Klinge</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Desc">Angriffshaltung: Für {[5.000000]} Sek. +{[0.020000 * 100]} % Ermächtigung pro Angriff (max. {[10.000000]} Stapel).\nVerteidigungshaltung: Für {[5.000000]} Sek. +{[0.020000 * 100]} % Verstärkung nach einem Treffer (max. {[10.000000]} Stapel).</string>
 	<string key="PerkID_Artifact_Set1_Amulet1_Name">Betäubender Blick</string>
-	<string key="PerkID_Artifact_Set1_Amulet1_Desc">Aktiviere Provokationsedelsteine, um {[3.000000 * 100]} % mehr Bedrohung zu generieren. Betäubungen halten {[1.000000]} Sek. länger an, aber dein Basisschaden wird um {[-0.100000 * -100]} % verringert.</string>
+	<string key="PerkID_Artifact_Set1_Amulet1_Desc">Provokation ist aktiv. Du verursachst {[3.000000 * 100]} % mehr Bedrohung. Betäubungen halten {[1.000000]} Sek. länger an, aber dein Basisschaden wird um {[-0.100000 * -100]} % verringert.</string>
 	<string key="PerkID_Artifact_Set1_Amulet2_Name">Mittelpunkt der Aufmerksamkeit</string>
 	<string key="PerkID_Artifact_Set1_Amulet2_Desc">Geleistete Heilung und Heilung durch Verbrauchsgegenstände und Lebensraub sind um {[-0.250000 * -100]} % schwächer. Jegliche andere Heilung ist um {[0.250000 * 100]} % stärker.</string>
 	<string key="PerkID_Artifact_Set1_Ring1_Name">Ghulische Harmonie</string>
@@ -2685,10 +2685,10 @@
 	<string key="PerkID_Artifact_Set2_Greataxe_Name" rel_version="Feature_Artifacts_S5">Dynamik</string>
 	<string key="PerkID_Artifact_Set2_Greataxe_Desc" rel_version="Feature_Artifacts_S5">Erfolgreiche Angriffe erhöhen das Bewegungstempo 3 Sek. lang um 3 %. (Gilt für beide Waffen und ist bis zu 10-mal stapelbar). </string>
 	<string key="PerkID_Artifact_Set2_GreataxePerk_Name" rel_version="Feature_Artifacts_S5">Endlosdrehung</string>
-	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Wirbelwind wirbelt weitere 10 Male.</string>
+	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Wirbelwind muss keine Ziele mehr treffen, um sich weiterzudrehen, und kann bis zu 12-mal wirbeln.</string>
 	<string key="PerkID_Artifact_Set2_Spear_Name" rel_version="Feature_Artifacts_S5">Vergiftet</string>
-	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Schwere Angriffe mit beiden Waffen verursachen Vergiftung, die {[5.000000]} Sek. lang {[-0.200000 * -100]} % Waffenschaden verursacht.</string>
-	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Phönix aus der Asche</string>
-	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Du überlebst einen tödlichen Treffer und bist danach 2 Sek. lang unverwundbar (Abklingzeit: 180).</string>
+	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Schwere Nahkampfangriffe mit einer Waffe verursachen Vergiftung, die {[5.000000]} Sek. lang {[-0.200000 * -100]} % Waffenschaden verursacht.</string>
+	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Rache des Phönix’</string>
+	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Du überlebst einen tödlichen Treffer und erhältst {[1.000000 * 100]} % deiner max. Gesundheit zurück. Danach erleidest du "Rache", wodurch Heilung um {[-2.000000 * -100]} % sinkt und du jede Sekunde Schaden in Höhe von {[-0.100000 * -200]} % deiner max. Gesundheit erleidest, bis du stirbst oder erfolgreich einen Gegner tötest ({[180.000000]} Sek. Abklingzeit).</string>
 </resources>
 

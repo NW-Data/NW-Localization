@@ -224,19 +224,19 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_error_already_voted" comment="">Ya has votado.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_vote_decline_vote">Quedarse</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_vote_accept_vote">Salir</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_vote_to_abandon">Salir de la expedición</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_vote_to_abandon">Abandonar actividad</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_vote_to_abandon_cast_vote">Votar para salir</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_initiator" comment="">Has iniciado una votación para salir del modo de juego actual.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_title" comment="">Votación para salir del modo de juego</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_text" comment="">&lt;font color={color}&gt;{fromPlayerName}&lt;/font&gt; ha iniciado una votación para salir del modo de juego actual y marcharse en grupo. ¿Estás de acuerdo?</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_successful">La votación para salir ha tenido éxito. La expedición se cerrará en {timeToClose} segundos...</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_successful_last_second">La votación para salir ha tenido éxito. La expedición se cerrará en {timeToClose} segundo...</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_initiator" comment="">Has iniciado una votación para salir de la actividad actual.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_title" comment="">Votación para abandonar la actividad</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_text" comment="">&lt;font color={color}&gt;{fromPlayerName}&lt;/font&gt; ha iniciado una votación para abandonar la actividad actual y salir en grupo. ¿Estás de acuerdo?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_successful">La votación para salir ha tenido éxito. La actividad se cerrará en {timeToClose} segundos…</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_successful_last_second">La votación para salir ha tenido éxito. La actividad se cerrará en {timeToClose} segundo…</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_fail">No se han conseguido votos suficientes para salir.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_timed_out">La votación para salir ha caducado.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_in_progress">Votación para salir en curso</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_active">No puedes iniciar una votación para salir de la expedición si ya hay una votación en curso.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_on_cooldown">No puedes iniciar una votación para salir de la expedición hasta que pase el tiempo de recarga.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_tooltip">Inicia una votación para salir de la expedición en grupo sin sufrir una penalización del desertor. \n\nNecesitas una mayoría para ganar la votación.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_active">Ya hay una votación para abandonar esta actividad en curso. Puedes volver a intentarlo cuando acabe.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_on_cooldown">No puedes iniciar una votación para abandonar la actividad hasta que pase el tiempo de recarga.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_tooltip">Inicia una votación para salir de esta expedición como grupo y evitar la penalización del desertor.\n\nLa penalización (20 minutos) se aplica al abandonar en los primeros 10 minutos de la expedición.\n\nNecesitas una mayoría para ganar la votación.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid">Invitar a la incursión</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid_groupprioritysubtext">El grupo {groupIndex} se llenará primero con los jugadores invitados.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetopveraid_tooltip" comment="">Invitar a una incursión JcE\n\n. Puedes invitar a jugadores que no pertenezcan a tu facción y que tampoco estén activados para JcJ.\n- No puede haber jugadores de JcJ y JcE en una misma incursión.</string>
@@ -312,5 +312,9 @@
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups">Ocultar otros grupos en el HUD</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups_tooltip">Oculta el resto de subgrupos en el HUD de la incursión y muestra solo tu grupo</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_kick">Expulsar de la incursión</string>
+	<string key="ui_abandon_vote_not_available">La votación para abandonar no está disponible para grupos preconfigurados. Puedes salir de esta actividad sin penalizaciones.</string>
+	<string key="ui_cannotjoingroup_at_this_time">No puedes unirte a un grupo distinto en este momento.</string>
+	<string key="ui_cannot_start_abandon_dungeon_complete">No puedes iniciar una votación para abandonar la actividad tras completarla.</string>
+	<string key="ui_invitenolongervalid">La invitación ya no es válida</string>
 </resources>
 

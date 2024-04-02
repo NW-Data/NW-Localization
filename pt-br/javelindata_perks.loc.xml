@@ -1164,7 +1164,7 @@
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Ciclone Extrator</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">Acertos do Ciclone curam você em {[0.100000 * 100 * {perkMultiplier}]}% do dano de arma (máx. de {[3.000000]} alvos).</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Perfuração Reforçada</string>
-	<string key="PerkID_Ability_Spear_Perforate_Description">Acertos de Perfurar ganham um acúmulo de Reforço, aumentando a armadura em {[0.010000 * 100 * {perkMultiplier}]}% durante {[6.000000]} s.</string>
+	<string key="PerkID_Ability_Spear_Perforate_Description">Acertos de Perfurar ganham um acúmulo de Reforço, aumentando a armadura em {[0.010000 * 100 * {perkMultiplier}]}% durante {[6.000000]} s (máx. de {[3.000000]} acúmulos).</string>
 	<string key="PerkID_Ability_Spear_Skewer_Name">Espeto Enfraquecedor</string>
 	<string key="PerkID_Ability_Spear_Skewer_Description">Acertos de Espetar aplicam Enfraquecido, reduzindo o dano do alvo em {[-0.030000 * -100 * {perkMultiplier}]}% por {[8.000000]} s.</string>
 	<string key="PerkID_Ability_Spear_VaultKick_Name">Saltar e Chutar Ávido</string>
@@ -1220,7 +1220,7 @@
 	<string key="PerkID_Ability_Sword_ReverseStab_Name">Punhalada Reversa Contagiosa</string>
 	<string key="PerkID_Ability_Sword_ReverseStab_Description">Acertar um alvo transfere {[2.000000]} debuffs ativos de você para o alvo. Punhalada Reversa causa +{[0.050000 * 100 * {perkMultiplier}]}% de dano.</string>
 	<string key="PerkID_Ability_Sword_WhirlingBlade_Name">Lâmina Giratória Fortalecida</string>
-	<string key="PerkID_Ability_Sword_WhirlingBlade_Description">Quando 3 ou mais inimigos estiverem dentro de seu raio enquanto executa um ataque de Lâmina Giratória, ganhe {[0.100000 * 100] * {perkMultiplier}]}% de dano base.</string>
+	<string key="PerkID_Ability_Sword_WhirlingBlade_Description">Se {[2.000000]} ou mais inimigos estiverem dentro de seu raio de ação enquanto se executa um ataque de Lâmina Giratória, ganhe {[0.045000 * 100] * {perkMultiplier}]}% de dano base por cada alvo próximo (máx. de {[5.000000]} alvos).</string>
 	<string key="PerkID_Ability_Sword_LeapingStrike_Name">Golpe com Salto Fortalecido</string>
 	<string key="PerkID_Ability_Sword_LeapingStrike_Description">Ataques com a espada causam +{[0.030000 * 100 * {perkMultiplier}]}% de dano a alvos desacelerados pelo aprimoramento Punição Covarde do Golpe com Salto.</string>
 	<string key="PerkID_Ability_Shield_ShieldBash_Name">Pancada com Escudo Diminificante</string>
@@ -1886,7 +1886,7 @@
 	<string key="PerkID_RuneglassGem_ThreatSub_Void_Name" rel_version="Territory_Brimstone_Sands">Pacificação Abissal</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Void_Description" rel_version="Territory_Brimstone_Sands">Gera {[-0.080000 * -100 * {perkMultiplier}]}% a menos de ameaça e causa mais {[0.015000 * 100]}% de dano a inimigos provocados. Seus ataques Imateriais causam +{[0.020000 * 100]}% de dano.</string>
 	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Name" rel_version="Territory_Brimstone_Sands">Provocação de Punição</string>
-	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Description" rel_version="Territory_Brimstone_Sands">Gera mais {[3.000000 * 100 * {perkMultiplier}]}% de ameaça. Seus ataques corpo a corpo causam +{[0.000000 * 100]}% de dano.</string>
+	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Description" rel_version="Territory_Brimstone_Sands">Gera mais {[3.000000 * 100 * {perkMultiplier}]}% de ameaça. Seus ataques corpo a corpo causam +{[0.020000 * 100]}% de dano.</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Melee_Name" rel_version="Territory_Brimstone_Sands">Pacificação de Punição</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Melee_Description" rel_version="Territory_Brimstone_Sands">Gera {[-0.080000 * -100 * {perkMultiplier}]}% a menos de ameaça e causa {[0.015000 * 100]}% mais dano a inimigos provocados. Seus ataques corpo a corpo causam +{[0.010000 * 100]}% de dano.</string>
 	<string key="PerkID_RuneglassGem_ThreatAdd_Ranged_Name" rel_version="Territory_Brimstone_Sands">Provocação de Avistamento</string>
@@ -2604,13 +2604,13 @@
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Energia Negativa</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">Seus ataques a distância causam Desintegração por {[8.000000]} s em ambas as armas (tempo de recarga de {[1.000000]} s). Se o seu atributo de destreza for maior, substitui a escala base da sua arma por destreza.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Feitiço Maculado</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Ataques de ambas as armas contra alvos infligem um acúmulo de veneno e uma diminuição na cura recebida em {[-0.050000 * -100]}% e na cura causada em {[-0.025000 * -100]}% por acúmulo por {[3.000000]} s (máx. de {[3.000000]} acúmulos).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Ataques de ambas as armas contra alvos infligem um acúmulo de veneno e uma diminuição na cura recebida em {[-0.050000 * -100]}% e na cura causada em {[-0.025000 * -100]}% por acúmulo por {[3.000000]} s (máx. de {[3.000000]} acúmulos e tempo de recarga de ativação de{[1.000000]} s).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Praga</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">{[0.080000 * 100]}% de dano contra alvos envenenados e doentes.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Lâmina Equilibrada</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Desc">Posição de Ataque: +{[0.020000 * 100]}% de Energizado por ataque por {[5.000000]} s (máx. de {[10.000000]} acúmulos)\nPosição de Defesa: +{[0.020000 * 100]}% de Reforço ao ser atingido por {[5.000000]} s (máx. de {[10.000000]} acúmulos)</string>
 	<string key="PerkID_Artifact_Set1_Amulet1_Name">Olhar Impressionante</string>
-	<string key="PerkID_Artifact_Set1_Amulet1_Desc">Ativa Gemas de Provocação e gera mais {[3.000000 * 100]}% de ameaça. Atordoamentos duram {[1.000000]} s a mais, mas o dano base é diminuído em {[-0.100000 * -100]}%.</string>
+	<string key="PerkID_Artifact_Set1_Amulet1_Desc">As Provocações ficam ativas. Gera mais {[3.000000 * 100]}% de ameaça. Atordoamentos duram {[1.000000]} s a mais, mas o dano base é diminuído em {[-0.100000 * -100]}%.</string>
 	<string key="PerkID_Artifact_Set1_Amulet2_Name">Centro das Atenções</string>
 	<string key="PerkID_Artifact_Set1_Amulet2_Desc">Consumíveis, roubo de vida e curas causadas são reduzidos em {[-0.250000 * -100]}%, mas todos os outros tipos de cura são aumentados em {[0.250000 * 100]}%.</string>
 	<string key="PerkID_Artifact_Set1_Ring1_Name">Harmonia do Demônio</string>
@@ -2685,10 +2685,10 @@
 	<string key="PerkID_Artifact_Set2_Greataxe_Name" rel_version="Feature_Artifacts_S5">Impulso</string>
 	<string key="PerkID_Artifact_Set2_Greataxe_Desc" rel_version="Feature_Artifacts_S5">Ataques bem-sucedidos ganham 3% de velocidade de movimento por 3 s. (Funciona em ambas as armas e acumula 10 vezes.) </string>
 	<string key="PerkID_Artifact_Set2_GreataxePerk_Name" rel_version="Feature_Artifacts_S5">Giro Eterno</string>
-	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Redemoinho gira mais 10 vezes.</string>
+	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Redemoinho não precisa mais atingir alvos para continuar girando, e pode girar até 12 vezes.</string>
 	<string key="PerkID_Artifact_Set2_Spear_Name" rel_version="Feature_Artifacts_S5">Tombado por Veneno</string>
-	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Ataques pesados com qualquer uma das armas aplicam envenenamento, causando {[-0.200000 * -100]}% do dano de arma por {[5.000000]} s.</string>
-	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Ressurgimento da Fênix</string>
-	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Ao receber dano letal, evite a morte e torne-se invulnerável por 2 s (tempo de recarga de 180 s).</string>
+	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Ataques corpo a corpo pesados com qualquer uma das armas aplicam envenenamento, causando {[-0.200000 * -100]}% do dano de arma por {[5.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Vingança da Fênix</string>
+	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Ao receber dano letal, você escapa da morte e recupera {[1.000000 * 100]}% de sua saúde máxima. Então sofre o efeito de Vingança, reduzindo a cura em {[-2.000000 * -100]}% e recebendo dano igual a {[-0.100000 * -200]}% de sua saúde máxima a cada segundo até você morrer ou ser abatido. (tempo de recarga de {[180.000000]}s).</string>
 </resources>
 

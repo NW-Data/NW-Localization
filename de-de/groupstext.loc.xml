@@ -220,23 +220,23 @@
 	<string key="ui_raid_kick_confirmation_no">Abbrechen</string>
 	<string key="ui_raid_ban_confirmation_title">{player} sperren</string>
 	<string key="ui_raid_ban_confirmation_message">Möchtest du &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{player}&lt;/font&gt; wirklich rauswerfen und sperren?</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_error_too_frequent" comment="">Die letzte Abstimmung war erst vor Kurzem. Versuche es später erneut.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_error_too_frequent" comment="">Die letzte Abstimmung ist noch nicht lange genug her. Versuche es später erneut.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_error_already_voted" comment="">Du hast bereits abgestimmt.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_vote_decline_vote">Bleiben</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_vote_accept_vote">Verlassen</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_vote_to_abandon">Expedition verlassen</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_vote_to_abandon">Aktivität verlassen</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_vote_to_abandon_cast_vote">Für "Verlassen" stimmen</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_initiator" comment="">Du hast eine Abstimmung über das Verlassen des aktuellen Spielmodus gestartet.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_title" comment="">Abstimmung über Verlassen des Spielmodus</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_text" comment="">&lt;font color={color}&gt;{fromPlayerName}&lt;/font&gt; hat eine Abstimmung über das Verlassen des aktuellen Spielmodus als Gruppe gestartet. Bist du einverstanden?</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_successful">"Verlassen" hat die meisten Stimmen erhalten. Expedition schließt in: {timeToClose} Sekunden ...</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_successful_last_second">"Verlassen" hat die meisten Stimmen erhalten. Expedition schließt in: {timeToClose} Sekunde ...</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_initiator" comment="">Du hast eine Abstimmung über das Verlassen der Aktivität gestartet.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_title" comment="">Abstimmung über das Verlassen der Aktivität</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_started_text" comment="">&lt;font color={color}&gt;{fromPlayerName}&lt;/font&gt; hat eine Abstimmung über das Verlassen der Aktivität als Gruppe gestartet. Bist du einverstanden?</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_successful">"Verlassen" hat die meisten Stimmen erhalten. Aktivität schließt in: {timeToClose} Sekunden ...</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_successful_last_second">"Verlassen" hat die meisten Stimmen erhalten. Aktivität schließt in: {timeToClose} Sekunde ...</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_fail">"Verlassen" hat nicht genug Stimmen erhalten.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_timed_out">Zeitüberschreitung bei der Abstimmung übers Verlassen.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_in_progress">Abstimmung übers Verlassen findet bereits statt.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_active">Es kann keine Abstimmung über das Verlassen der Expedition gestartet werden, weil bereits eine andere Abstimmung aktiv ist.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_on_cooldown">Während der Abklingzeit kann keine Abstimmung über das Verlassen der Expedition gestartet werden.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_tooltip">Starte eine Abstimmung über das Verlassen der Expedition als Gruppe. Verlassen nach Abstimmung zieht keine Deserteursstrafe nach sich. \n\nUm die Abstimmung zu gewinnen, ist eine Stimmenmehrheit erforderlich.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_active">Es läuft bereits eine Abstimmung über das Verlassen dieser Aktivität. Du kannst es erneut versuchen, sobald sie abgeschlossen ist.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_on_cooldown">Während der Abklingzeit kann keine Abstimmung über das Verlassen der Aktivität gestartet werden.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_tooltip">Löst eine Abstimmung aus, um diese Expedition als Gruppe zu verlassen und die Deserteurstrafe zu vermeiden.\n\nDie Strafe (20 Minuten) wird verhängt, wenn "Verlassen" in den ersten 10 Minuten der Expedition genutzt wird.\n\nUm die Abstimmung zu gewinnen, ist eine Stimmenmehrheit erforderlich.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid">Zu Raubzug einladen</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid_groupprioritysubtext">Eingeladene Spieler kommen zuerst in die Gruppe {groupIndex}.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetopveraid_tooltip" comment="">Lade Spieler zu einem PvE-Raubzug ein.\n\n- Du kannst Spieler außerhalb deiner Fraktion einladen, die ebenfalls nicht für PvP markiert sind.\n- Du kannst keine PvP- und PvE-Spieler in einem Raubzug mischen.</string>
@@ -312,5 +312,9 @@
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups">Andere Gruppen im HUD ausblenden</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups_tooltip">Die anderen Untergruppen werden im Raubzug-HUD ausgeblendet und nur deine eigene Gruppe wird angezeigt.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_kick">Aus Raubzug werfen</string>
+	<string key="ui_abandon_vote_not_available">Abstimmung über das Verlassen ist für vorgefertigte Gruppen nicht verfügbar. Du kannst diese Aktivität ohne Deserteursstrafe verlassen.</string>
+	<string key="ui_cannotjoingroup_at_this_time">Du kannst aktuell keiner anderen Gruppe beitreten.</string>
+	<string key="ui_cannot_start_abandon_dungeon_complete">Nach dem Abschluss der Aktivität kann keine Abstimmung über das Verlassen gestartet werden.</string>
+	<string key="ui_invitenolongervalid">Einladung ist abgelaufen</string>
 </resources>
 

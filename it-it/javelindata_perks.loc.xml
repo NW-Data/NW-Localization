@@ -1164,7 +1164,7 @@
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Ciclone assorbi-vita</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">I colpi di Ciclone ti curano di un {[0.100000 * 100 * {perkMultiplier}]}% dei danni da arma. (Massimo {[3.000000]} bersagli.)</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Perforazione fortificante</string>
-	<string key="PerkID_Ability_Spear_Perforate_Description">I colpi di Perforazione conferiscono un accumulo di Fortificazione, aumentando la tua armatura di un {[0.010000 * 100 * {perkMultiplier}]}% per {[6.000000]} s.</string>
+	<string key="PerkID_Ability_Spear_Perforate_Description">I colpi di Perforazione conferiscono un accumulo di Fortificazione, aumentando la tua armatura di un {[0.010000 * 100 * {perkMultiplier}]}% per {[6.000000]} s (massimo {[3.000000]} accumuli).</string>
 	<string key="PerkID_Ability_Spear_Skewer_Name">Infilzatore indebolente</string>
 	<string key="PerkID_Ability_Spear_Skewer_Description">I colpi di Infilzatore applicano Indebolito, che riduce i danni del bersaglio di un {[-0.030000 * -100 * {perkMultiplier}]}% per {[8.000000]} s.</string>
 	<string key="PerkID_Ability_Spear_VaultKick_Name">Calcio scavalcante incisivo</string>
@@ -1220,7 +1220,7 @@
 	<string key="PerkID_Ability_Sword_ReverseStab_Name">Affondo all'indietro contagioso</string>
 	<string key="PerkID_Ability_Sword_ReverseStab_Description">Colpire un bersaglio trasferisce {[2.000000]} depotenziamenti attivi da te al bersaglio. Affondo all'indietro infligge +{[0.050000 * 100 * {perkMultiplier}]}% di danni.</string>
 	<string key="PerkID_Ability_Sword_WhirlingBlade_Name">Lama rotante potenziante</string>
-	<string key="PerkID_Ability_Sword_WhirlingBlade_Description">Danni base aumentati di un {[0.100000 * 100] * {perkMultiplier}]}% durante l'esecuzione di un attacco con Lama rotante se sono presenti 3 o più nemici nel raggio d'azione dell'attacco.</string>
+	<string key="PerkID_Ability_Sword_WhirlingBlade_Description">Danni base aumentati di un {[0.045000 * 100] * {perkMultiplier}]}% per ogni bersaglio vicino (massimo {[5.000000]} bersagli) durante l'esecuzione di un attacco con Lama rotante se sono presenti {[2.000000]} o più nemici nel raggio d'azione dell'attacco.</string>
 	<string key="PerkID_Ability_Sword_LeapingStrike_Name">Colpo con salto potenziante</string>
 	<string key="PerkID_Ability_Sword_LeapingStrike_Description">Gli attacchi con la spada infliggono +{[0.030000 * 100 * {perkMultiplier}]}% di danni ai bersagli rallentati dal miglioramento Punizione codarda di Colpo con salto.</string>
 	<string key="PerkID_Ability_Shield_ShieldBash_Name">Colpo di scudo riducente</string>
@@ -1886,7 +1886,7 @@
 	<string key="PerkID_RuneglassGem_ThreatSub_Void_Name" rel_version="Territory_Brimstone_Sands">Calma abissale</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Void_Description" rel_version="Territory_Brimstone_Sands">Sviluppi un {[-0.080000 * -100 * {perkMultiplier}]}% di minaccia in meno e infliggi un {[0.015000 * 100]}% di danni in più ai nemici provocati. I tuoi attacchi di Vuoto infliggono +{[0.020000 * 100]}% di danni.</string>
 	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Name" rel_version="Territory_Brimstone_Sands">Provocazione devastante</string>
-	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Description" rel_version="Territory_Brimstone_Sands">Sviluppi un {[3.000000 * 100 * {perkMultiplier}]}% di minaccia in più. I tuoi attacchi in mischia infliggono +{[0.000000 * 100]}% di danni.</string>
+	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Description" rel_version="Territory_Brimstone_Sands">Sviluppi un {[3.000000 * 100 * {perkMultiplier}]}% di minaccia in più. I tuoi attacchi in mischia infliggono +{[0.020000 * 100]}% di danni.</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Melee_Name" rel_version="Territory_Brimstone_Sands">Calma devastante</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Melee_Description" rel_version="Territory_Brimstone_Sands">Sviluppi un {[-0.080000 * -100 * {perkMultiplier}]}% di minaccia in meno e infliggi un {[0.015000 * 100]}% di danni in più ai nemici provocati. I tuoi attacchi in mischia infliggono +{[0.010000 * 100]}% di danni.</string>
 	<string key="PerkID_RuneglassGem_ThreatAdd_Ranged_Name" rel_version="Territory_Brimstone_Sands">Provocazione a vista</string>
@@ -2604,13 +2604,13 @@
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Energia negativa</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">I tuoi attacchi a distanza infliggono Disintegrazione per {[8.000000]} s su entrambe le armi (tempo di ricarica di {[1.000000]} s). Se il tuo attributo destrezza è più alto, sostituisce la tua arma di base commisurandola alla destrezza.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Incantesimo logorato</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Attaccare un bersaglio con entrambe le armi infligge un accumulo di veleno e riduce l'efficacia delle cure ricevute di un {[-0.050000 * -100]}% e di quelle prodotte di un {[-0.025000 * -100]}% per accumulo per {[3.000000]} s (massimo {[3.000000]} accumuli).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Gli attacchi di entrambe le armi contro i bersagli infliggono un accumulo di veleno e una diminuzione della guarigione in entrata del {[-0.050000 * -100]}% e in uscita del {[-0.025000 * -100]}% per accumulo per {[3.000000]}s ({[3.000000]} accumuli massimi, cooldown di attivazione di {[1.000000]}s).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Parassita</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">{[0.080000 * 100]}% di danni contro bersagli avvelenati e malati.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Lama bilanciata</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Desc">Posizione di attacco: +{[0.020000 * 100]}% di Potenziamento per attacco per {[5.000000]} s (massimo {[10.000000]} accumuli).\nPosizione di difesa: +{[0.020000 * 100]}% di Fortificazione per colpo per {[5.000000]} s (massimo {[10.000000]} accumuli).</string>
 	<string key="PerkID_Artifact_Set1_Amulet1_Name">Sguardo stordente</string>
-	<string key="PerkID_Artifact_Set1_Amulet1_Desc">Attiva gemme della provocazione e genera un {[3.000000 * 100]}% di minaccia in più. Gli stordimenti durano {[1.000000]} s in più, ma i danni base diminuiscono di un {[-0.100000 * -100]}%.</string>
+	<string key="PerkID_Artifact_Set1_Amulet1_Desc">Le provocazioni sono attive. Sviluppi un {[3.000000 * 100]}% di minaccia in più. Gli stordimenti durano {[1.000000]} s in più, ma i danni base diminuiscono di un {[-0.100000 * -100]}%.</string>
 	<string key="PerkID_Artifact_Set1_Amulet2_Name">Centro dell'attenzione</string>
 	<string key="PerkID_Artifact_Set1_Amulet2_Desc">I consumabili il Furto di vita e le cure prodotte sono più deboli di un {[-0.250000 * -100]}%, ma tutte le altre cure sono più forti di un {[0.250000 * 100]}%.</string>
 	<string key="PerkID_Artifact_Set1_Ring1_Name">Armonia del demone</string>
@@ -2685,10 +2685,10 @@
 	<string key="PerkID_Artifact_Set2_Greataxe_Name" rel_version="Feature_Artifacts_S5">Impeto</string>
 	<string key="PerkID_Artifact_Set2_Greataxe_Desc" rel_version="Feature_Artifacts_S5">Gli attacchi riusciti aumentano del 3% la velocità di movimento per 3 secondi (funziona su entrambe le armi e si accumula 10 volte). </string>
 	<string key="PerkID_Artifact_Set2_GreataxePerk_Name" rel_version="Feature_Artifacts_S5">Rotazione infinita</string>
-	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Mulinello turbina 10 volte in più</string>
+	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Mulinello continua a turbinare anche senza colpire i bersagli e può ruotare fino a 12 volte.</string>
 	<string key="PerkID_Artifact_Set2_Spear_Name" rel_version="Feature_Artifacts_S5">Punta avvelenata</string>
-	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Gli attacchi pesanti con entrambe le armi causano Veleno infliggendo un {[-0.200000 * -100]}% dei danni da arma per {[5.000000]} s.</string>
-	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Rinascita della Fenice</string>
-	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Quando subisci danni letali, eviti la morte e diventi invulnerabile per 2 secondi (tempo di ricarica di 180 s).</string>
+	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Gli attacchi in mischia pesanti con entrambe le armi causano Veleno infliggendo un {[-0.200000 * -100]}% dei danni da arma per {[5.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Vendetta della fenice</string>
+	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Quando subisci danni letali, eviti la morte e recuperi un {[1.000000 * 100]}% della tua salute massima. Poi ricevi Vendetta, riducendo la guarigione di un {[-2.000000 * -100]}% e subendo danni pari a un {[-0.100000 * -200]}% della tua salute massima ogni secondo fin quando muori oppure ottieni un'uccisione (tempo di ricarica di {[180.000000]} s).</string>
 </resources>
 

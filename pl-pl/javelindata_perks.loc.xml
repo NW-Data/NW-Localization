@@ -1164,7 +1164,7 @@
 	<string key="PerkID_Ability_Spear_Cyclone_Name">Wysysający cyklon</string>
 	<string key="PerkID_Ability_Spear_Cyclone_Description">Trafienia cyklonem przywracają zdrowie w wysokości {[0.100000 * 100 * {perkMultiplier}]}% obrażeń od broni (maks. liczba celów: {[3.000000]}).</string>
 	<string key="PerkID_Ability_Spear_Perforate_Name">Umacniające podziurawienie</string>
-	<string key="PerkID_Ability_Spear_Perforate_Description">Trafienie podziurawieniem zapewnia umocnienie zwiększające pancerz o {[0.010000 * 100 * {perkMultiplier}]}% na {[6.000000]} s.</string>
+	<string key="PerkID_Ability_Spear_Perforate_Description">Trafienie podziurawieniem zapewnia umocnienie zwiększające pancerz o {[0.010000 * 100 * {perkMultiplier}]}% na {[6.000000]} s (kumuluje się do {[3.000000]} razy).</string>
 	<string key="PerkID_Ability_Spear_Skewer_Name">Osłabiający szpikulec</string>
 	<string key="PerkID_Ability_Spear_Skewer_Description">Trafienie szpikulcem nakłada na cel osłabienie zmniejszające zadawane przez niego obrażenia o {[-0.030000 * -100 * {perkMultiplier}]}% na {[8.000000]} s.</string>
 	<string key="PerkID_Ability_Spear_VaultKick_Name">Ostre kopnięcie z wyskoku</string>
@@ -1220,7 +1220,7 @@
 	<string key="PerkID_Ability_Sword_ReverseStab_Name">Zaraźliwe odwrócone pchnięcie</string>
 	<string key="PerkID_Ability_Sword_ReverseStab_Description">Trafienie celu przenosi aktywne negatywne efekty ({[2.000000]}) z postaci gracza na cel. +{[0.050000 * 100 * {perkMultiplier}]}% do obrażeń zadawanych odwróconym pchnięciem.</string>
 	<string key="PerkID_Ability_Sword_WhirlingBlade_Name">Wzmacniające wirujące ostrze</string>
-	<string key="PerkID_Ability_Sword_WhirlingBlade_Description">Zwiększa obrażenia podstawowe o {[0.100000 * 100] * {perkMultiplier}]}% podczas używania wirującego ostrza, jeśli w zasięgu ataku znajduje się 3 lub więcej wrogów.</string>
+	<string key="PerkID_Ability_Sword_WhirlingBlade_Description">Zwiększa obrażenia podstawowe o {[0.045000 * 100] * {perkMultiplier}]}% podczas używania wirującego ostrza, jeśli w zasięgu ataku znajduje się {[2.000000]} lub więcej wrogów (maks. {[5.000000]} celów).</string>
 	<string key="PerkID_Ability_Sword_LeapingStrike_Name">Wzmacniający doskok i cios</string>
 	<string key="PerkID_Ability_Sword_LeapingStrike_Description">Cele spowolnione karą za tchórzostwo (będącą ulepszeniem doskoku i ciosu) otrzymują +{[0.030000 * 100 * {perkMultiplier}]}% obrażeń od ataków mieczem.</string>
 	<string key="PerkID_Ability_Shield_ShieldBash_Name">Pomniejszające rąbnięcie tarczą</string>
@@ -1886,7 +1886,7 @@
 	<string key="PerkID_RuneglassGem_ThreatSub_Void_Name" rel_version="Territory_Brimstone_Sands">Otchłanny spokój</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Void_Description" rel_version="Territory_Brimstone_Sands">Generujesz o {[-0.080000 * -100 * {perkMultiplier}]}% mniej zagrożenia i zadajesz o {[0.015000 * 100]}% więcej obrażeń sprowokowanym wrogom. Twoje ataki bazujące na próżni zadają +{[0.020000 * 100]}% obrażeń.</string>
 	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Name" rel_version="Territory_Brimstone_Sands">Karząca prowokacja</string>
-	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Description" rel_version="Territory_Brimstone_Sands">Zwiększa generowanie zagrożenia o {[3.000000 * 100 * {perkMultiplier}]}%. Twoje ataki wręcz zadają +{[0.000000 * 100]}% obrażeń.</string>
+	<string key="PerkID_RuneglassGem_ThreatAdd_Melee_Description" rel_version="Territory_Brimstone_Sands">Zwiększa generowanie zagrożenia o {[3.000000 * 100 * {perkMultiplier}]}%. Twoje ataki wręcz zadają +{[0.020000 * 100]}% obrażeń.</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Melee_Name" rel_version="Territory_Brimstone_Sands">Karzący spokój</string>
 	<string key="PerkID_RuneglassGem_ThreatSub_Melee_Description" rel_version="Territory_Brimstone_Sands">Generujesz o {[-0.080000 * -100 * {perkMultiplier}]}% mniej zagrożenia i zadajesz o {[0.015000 * 100]}% więcej obrażeń sprowokowanym wrogom. Twoje ataki wręcz zadają +{[0.010000 * 100]}% obrażeń.</string>
 	<string key="PerkID_RuneglassGem_ThreatAdd_Ranged_Name" rel_version="Territory_Brimstone_Sands">Dalekosiężna prowokacja</string>
@@ -2604,13 +2604,13 @@
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Negatywna energia</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">Twoje ataki dystansowe wywołują dezintegrację przez {[8.000000]} s dla obydwu broni (czas odnowienia: {[1.000000]} s). Jeśli twoja zręczność jest wyższa, bazowe skalowanie broni będzie powiązane ze zręcznością.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Zarażony czar</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Atakowanie celów obiema broniami nakłada efekt zatrucia i zmniejsza skuteczność otrzymywanego leczenia o {[-0.050000 * -100]}% i leczenia innych o {[-0.025000 * -100]}% na efekt przez {[3.000000]} s (kumuluje się do {[3.000000]} razy).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Atakowanie celów obiema broniami nakłada efekt zatrucia i zmniejsza skuteczność otrzymywanego leczenia o {[-0.050000 * -100]}% i leczenia innych o  {[-0.025000 * -100]}% na efekt przez {[3.000000]}s (kumuluje się do {[3.000000]} razy,  {[1.000000]}s odnowienia aktywacji).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Zaraza</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">{[0.080000 * 100]}% obrażeń przeciwko zatrutym i chorym celom.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Wyważone ostrze</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Desc">Postawa ofensywna: +{[0.020000 * 100]}% nasączenia mocą na atak przez {[5.000000]} s (kumuluje się do {[10.000000]} razy)\nPostawa defensywna: +{[0.020000 * 100]}% umocnienia po otrzymaniu trafienia przez {[5.000000]} s (kumuluje się do {[10.000000]} razy).</string>
 	<string key="PerkID_Artifact_Set1_Amulet1_Name">Ogłuszające spojrzenie</string>
-	<string key="PerkID_Artifact_Set1_Amulet1_Desc">Aktywuje klejnoty prowokacji i zwiększa generowanie zagrożenia o {[3.000000 * 100]}%. Ogłuszenia trwają o {[1.000000]} s dłużej, ale obrażenia podstawowe są zmniejszone o {[-0.100000 * -100]}%.</string>
+	<string key="PerkID_Artifact_Set1_Amulet1_Desc">Aktywuje prowokację. Zwiększa generowanie zagrożenia o {[3.000000 * 100]}%. Ogłuszenia trwają o {[1.000000]} s dłużej, ale obrażenia podstawowe są zmniejszone o {[-0.100000 * -100]}%.</string>
 	<string key="PerkID_Artifact_Set1_Amulet2_Name">Centrum uwagi</string>
 	<string key="PerkID_Artifact_Set1_Amulet2_Desc">Przedmioty użytkowe, kradzież życia i leczenie innych są o {[-0.250000 * -100]}% słabsze, ale leczenie ze wszelkich innych źródeł jest o {[0.250000 * 100]}% silniejsze.</string>
 	<string key="PerkID_Artifact_Set1_Ring1_Name">Harmonia ghula</string>
@@ -2685,10 +2685,10 @@
 	<string key="PerkID_Artifact_Set2_Greataxe_Name" rel_version="Feature_Artifacts_S5">Rozpęd</string>
 	<string key="PerkID_Artifact_Set2_Greataxe_Desc" rel_version="Feature_Artifacts_S5">Trafienia celu zwiększają szybkość ruchu o 3% na 3 s. (Działa na obie bronie, kumuluje się do 10 razy). </string>
 	<string key="PerkID_Artifact_Set2_GreataxePerk_Name" rel_version="Feature_Artifacts_S5">Niekończący się piruet</string>
-	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Wir zyskuje 10 dodatkowych obrotów</string>
+	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Wir nie musi już trafiać w cele, by mógł być kontynuowany. Można wykonać do 12 obrotów.</string>
 	<string key="PerkID_Artifact_Set2_Spear_Name" rel_version="Feature_Artifacts_S5">Zatruta końcówka</string>
-	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Ataki ciężkie wyprowadzane dowolną bronią wywołują zatrucie zadające {[-0.200000 * -100]}% obrażeń od broni przez {[5.000000]} s.</string>
-	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Jak feniks z popiołów</string>
-	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Gdy otrzymasz śmiertelne obrażenia, unikniesz śmierci i zyskasz nietykalność na 2 s (czas odnowienia: 180 s).</string>
+	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Ciężkie ataki wręcz wyprowadzane dowolną bronią wywołują zatrucie zadające {[-0.200000 * -100]}% obrażeń od broni przez {[5.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Zemsta feniksa</string>
+	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Gdy otrzymasz śmiertelne obrażenia, unikniesz śmierci i odzyskasz {[1.000000 * 100]}% maksymalnego zdrowia. Następnie zostanie na ciebie nałożona zemsta, zmniejszając leczenie o {[-2.000000 * -100]}% i nakładając obrażenia równe {[-0.100000 * -200]}% maksymalnego zdrowia co sekundę, aż zginiesz lub zabijesz przeciwnika (czas odnowienia: {[180.000000]} s).</string>
 </resources>
 
