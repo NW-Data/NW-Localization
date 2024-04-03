@@ -143,12 +143,12 @@
 	<string key="ui_affliction_bleeding_tooltip">Si te quedas sin resistencia a las heridas, pasarás a estar herido y recuperarás la vitalidad mucho más lentamente.</string>
 	<string key="ui_affliction_burn">resistencia a la quemadura</string>
 	<string key="ui_affliction_curse">resistencia a la corrupción</string>
-	<string key="ui_affliction_curse_tooltip">Si te quedas sin resistencia a la corrupción, pasarás a estar corrupto y recibirás al instante una cantidad de daño igual al {[Type_StatusEffectData.Curse.HealthModifierPercent * -100]} % de tu salud base.</string>
+	<string key="ui_affliction_curse_tooltip">Si te quedas sin resistencia a la corrupción, pasarás a estar corrupto y recibirás al instante una cantidad de daño igual al {[-0.150000 * -100]} % de tu salud base.</string>
 	<string key="ui_affliction_disease">resistencia a la enfermedad</string>
 	<string key="ui_affliction_disease_tooltip">Test1</string>
 	<string key="ui_affliction_drunk">resistencia a la borrachera</string>
 	<string key="ui_affliction_frostbite">resistencia a la congelación</string>
-	<string key="ui_affliction_frostbite_tooltip">Si te quedas sin resistencia a la congelación, pasarás a estar congelado y no podrás ni correr ni esquivar durante {[Afflictions.AfflictionFrostBite.AfflictedDrainTime]} segundos.</string>
+	<string key="ui_affliction_frostbite_tooltip">Si te quedas sin resistencia a la congelación, pasarás a estar congelado y no podrás ni correr ni esquivar durante {[10.000000]} segundos.</string>
 	<string key="ui_affliction_injury">resistencia a la herida</string>
 	<string key="ui_affliction_insane">resistencia a la locura</string>
 	<string key="ui_affliction_inspired">inspirar</string>
@@ -162,7 +162,7 @@
 	<string key="ui_affliction_spores_tooltip">Si te quedas sin resistencia a las esporas, quedarás cubierto de esporas y recibirás un 25 % más de daño de todas las fuentes.</string>
 	<string key="ui_affliction_spores">resistencia a las esporas</string>
 	<string key="ui_affliction_blight">resistencia a la plaga</string>
-	<string key="ui_affliction_blight_tooltip">Si te quedas sin resistencia a la plaga, sucumbirás a la infección e infligirás un {[Type_StatusEffectData.Blight.DMGStandard * 100]} % menos de daño, te curarás un {[Type_StatusEffectData.Blight.HealMod * 100]} % menos y perderás un {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % de tu salud base cada {[Type_StatusEffectData.Blight.TickRate]} segundos durante {[Afflictions.AfflictionBlight.AfflictedDrainTime]} segundos.</string>
+	<string key="ui_affliction_blight_tooltip">Si te quedas sin resistencia a la plaga, sucumbirás a la infección e infligirás un {[-0.500000 * 100]} % menos de daño, te curarás un {[-0.750000 * 100]} % menos y perderás un {[-0.013900 * -100]} % de tu salud base cada {[2.500000]} segundos durante {[180.000000]} segundos.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">resistencia a combustible</string>
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Al finalizar el contador, el jugador con la salud más baja se ve afectado por Combustible.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">resistencia a retroceso</string>
@@ -173,7 +173,7 @@
 	<string key="ui_afflicted_bleeding_tooltip">Mientras estés herido, recuperarás la vitalidad mucho más lentamente.</string>
 	<string key="ui_afflicted_burn">quemado</string>
 	<string key="ui_afflicted_curse">corrupto</string>
-	<string key="ui_afflicted_curse_tooltip">Si sucumbes a los efectos de la corrupción, perderás al instante un {[Type_StatusEffectData.Curse.HealthModifierPercent * 100]} % de tu salud base.</string>
+	<string key="ui_afflicted_curse_tooltip">Si sucumbes a los efectos de la corrupción, perderás al instante un {[-0.150000 * 100]} % de tu salud base.</string>
 	<string key="ui_afflicted_disease">enfermo</string>
 	<string key="ui_afflicted_disease_tooltip">Test2</string>
 	<string key="ui_afflicted_drunk">borracho</string>
@@ -192,7 +192,7 @@
 	<string key="ui_afflicted_spores">cubierto de esporas</string>
 	<string key="ui_afflicted_spores_tooltip">Mientras estés cubierto de esporas, recibirás un 25 % más de daño de todas las fuentes.</string>
 	<string key="ui_afflicted_blight">infecto</string>
-	<string key="ui_afflicted_blight_tooltip">Mientras sufras los efectos de la plaga, infligirás un {[Type_StatusEffectData.Blight.DMGStandard * 100]} % menos de daño, te curarás un {[Type_StatusEffectData.Blight.HealMod * 100]} % menos y perderás un {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % de tu salud base cada {[Type_StatusEffectData.Blight.TickRate]} segundos.</string>
+	<string key="ui_afflicted_blight_tooltip">Mientras sufras los efectos de la plaga, infligirás un {[-0.500000 * 100]} % menos de daño, te curarás un {[-0.750000 * 100]} % menos y perderás un {[-0.013900 * 100]} % de tu salud base cada {[2.500000]} segundos.</string>
 	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">combustión</string>
 	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Cuando el contador expire, el jugador con el menor porcentaje de salud se convertirá en combustible.</string>
 	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">maldito</string>
