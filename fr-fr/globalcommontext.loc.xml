@@ -143,12 +143,12 @@
 	<string key="ui_affliction_bleeding_tooltip">Si votre résistance aux blessures est épuisée, vous souffrirez de blessures et votre vitalité remontera bien plus lentement.</string>
 	<string key="ui_affliction_burn">résistance aux brûlures</string>
 	<string key="ui_affliction_curse">résistance aux altérations</string>
-	<string key="ui_affliction_curse_tooltip">Si votre résistance aux altérations est épuisée, vous serez altéré et perdrez instantanément {[Type_StatusEffectData.Curse.HealthModifierPercent * -100]} % de votre santé de base.</string>
+	<string key="ui_affliction_curse_tooltip">Si votre résistance aux altérations est épuisée, vous serez altéré et perdrez instantanément {[-0.150000 * -100]} % de votre santé de base.</string>
 	<string key="ui_affliction_disease">résistance aux maladies</string>
 	<string key="ui_affliction_disease_tooltip">Test1</string>
 	<string key="ui_affliction_drunk">résistance à l'ivresse</string>
 	<string key="ui_affliction_frostbite">résistance aux engelures</string>
-	<string key="ui_affliction_frostbite_tooltip">Si votre résistance aux engelures est épuisée, vous subirez des engelures et ne pourrez pas courir ou esquiver pendant {[Afflictions.AfflictionFrostBite.AfflictedDrainTime]} secondes.</string>
+	<string key="ui_affliction_frostbite_tooltip">Si votre résistance aux engelures est épuisée, vous subirez des engelures et ne pourrez pas courir ou esquiver pendant {[10.000000]} secondes.</string>
 	<string key="ui_affliction_injury">résistance aux lésions</string>
 	<string key="ui_affliction_insane">résistance à la folie</string>
 	<string key="ui_affliction_inspired">stimulation</string>
@@ -162,7 +162,7 @@
 	<string key="ui_affliction_spores_tooltip">Si vous manquez de résistance aux spores, votre corps sera recouvert de spores et vous subirez 25 % de dégâts de tout type en plus.</string>
 	<string key="ui_affliction_spores">Résistance aux spores</string>
 	<string key="ui_affliction_blight">résistance au dépérissement</string>
-	<string key="ui_affliction_blight_tooltip">Si votre résistance au dépérissement est épuisée, vous serez vicié et infligerez {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de dégâts en moins, guérirez {[Type_StatusEffectData.Blight.HealMod * 100]} % moins et perdrez {[Type_StatusEffectData.Blight.HealthModifierPercent * -100]} % de votre santé de base toutes les {[Type_StatusEffectData.Blight.TickRate]} secondes pendant {[Afflictions.AfflictionBlight.AfflictedDrainTime]} secondes.</string>
+	<string key="ui_affliction_blight_tooltip">Si votre résistance au dépérissement est épuisée, vous serez vicié et infligerez {[-0.500000 * 100]} % de dégâts en moins, guérirez {[-0.750000 * 100]} % moins et perdrez {[-0.013900 * -100]} % de votre santé de base toutes les {[2.500000]} secondes pendant {[180.000000]} secondes.</string>
 	<string key="ui_affliction_mutcurse3" rel_version="Feature_Dungeon_Mutators">résistance combustible</string>
 	<string key="ui_affliction_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Lorsque le décompte prend fin, le joueur dont la santé est la plus faible est affecté par Combustible.</string>
 	<string key="ui_affliction_mutcurse4" rel_version="Feature_Dungeon_Mutators">résistance vengeresse</string>
@@ -173,7 +173,7 @@
 	<string key="ui_afflicted_bleeding_tooltip">En cas de blessures, votre vitalité remonte bien plus lentement.</string>
 	<string key="ui_afflicted_burn">brûlure</string>
 	<string key="ui_afflicted_curse">altération</string>
-	<string key="ui_afflicted_curse_tooltip">Lorsque vous êtes altéré, vous perdez instantanément {[Type_StatusEffectData.Curse.HealthModifierPercent * 100]} % de votre santé de base.</string>
+	<string key="ui_afflicted_curse_tooltip">Lorsque vous êtes altéré, vous perdez instantanément {[-0.150000 * 100]} % de votre santé de base.</string>
 	<string key="ui_afflicted_disease">malade</string>
 	<string key="ui_afflicted_disease_tooltip">Test2</string>
 	<string key="ui_afflicted_drunk">ivresse</string>
@@ -192,7 +192,7 @@
 	<string key="ui_afflicted_spores">Recouvert de spores</string>
 	<string key="ui_afflicted_spores_tooltip">Lorsque votre corps est recouvert de spores, vous subissez 25 % de dégâts de tout type en plus.</string>
 	<string key="ui_afflicted_blight">dépérissement</string>
-	<string key="ui_afflicted_blight_tooltip">Lorsque vous êtes vicié, vous infligez {[Type_StatusEffectData.Blight.DMGStandard * 100]} % de dégâts en moins, guérissez {[Type_StatusEffectData.Blight.HealMod * 100]} % moins et perdez {[Type_StatusEffectData.Blight.HealthModifierPercent * 100]} % de votre santé de base toutes les {[Type_StatusEffectData.Blight.TickRate]} secondes.</string>
+	<string key="ui_afflicted_blight_tooltip">Lorsque vous êtes vicié, vous infligez {[-0.500000 * 100]} % de dégâts en moins, guérissez {[-0.750000 * 100]} % moins et perdez {[-0.013900 * 100]} % de votre santé de base toutes les {[2.500000]} secondes.</string>
 	<string key="ui_afflicted_mutcurse3" rel_version="Feature_Dungeon_Mutators">combustion</string>
 	<string key="ui_afflicted_mutcurse3_tooltip" rel_version="Feature_Dungeon_Mutators">Une fois le délai écoulé, le joueur dont le pourcentage de santé est le plus bas devient inflammable.</string>
 	<string key="ui_afflicted_mutcurse4" rel_version="Feature_Dungeon_Mutators">malédiction</string>

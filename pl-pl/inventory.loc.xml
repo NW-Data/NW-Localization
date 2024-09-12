@@ -68,13 +68,13 @@
 	<string key="inv_equipLoadSlow">Ciężkie</string>
 	<string key="inv_equipLoadOverburdened">Nadmiar ekwipunku</string>
 	<string key="inv_equipLoadTooltip">Łączna waga noszonego pancerza i tarczy określa ciężar twojego wyposażenia. W zależności od ciężaru wyposażenia różnią się uniki i inne efekty.</string>
-	<string key="inv_equipLoadFastTooltip">• Obrażenia podstawowe: +{[Type_EncumbranceData.Player.EquipLoadDamageMultFast * 100]}% \n• Leczenie innych: +30% \n• Stabilność blokowania: -15% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: +10% \n• W ramach uniku wykonujesz szybki przewrót. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Fast.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Light.BaseDuration]} s. W tym czasie nie możesz również biegać. \n• [PvP] Otrzymywane obrażenia krytyczne: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Light.CritDamageReduction * 100]}%	
+	<string key="inv_equipLoadFastTooltip">• Obrażenia podstawowe: +{[0.150000 * 100]}% \n• Leczenie innych: +30% \n• Stabilność blokowania: -10% \n• W ramach uniku wykonujesz szybki przewrót. \n• Koszt uniku: {[50.000000]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[1.000000]} s. W tym czasie nie możesz również biegać. \n• [PvP] Otrzymywane obrażenia krytyczne: -{[0.150000 * 100]}%	
 	</string>
-	<string key="inv_equipLoadNormalTooltip">• W ramach uniku wykonujesz szybki odskok. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Medium.BaseDuration]} s. W tym czasie nie możesz również biegać. \n• [PvP] Otrzymywane obrażenia krytyczne: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Medium.CritDamageReduction * 100]}%
+	<string key="inv_equipLoadNormalTooltip">• W ramach uniku wykonujesz szybki odskok. \n• Koszt uniku: {[50.000000]} pkt wytrzymałości \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -10% \n• Otrzymanie ciosu wręcz sprawia, że zasięg uniku ulega zmniejszeniu o 20% na {[0.750000]} s. W tym czasie nie możesz również biegać. \n• [PvP] Otrzymywane obrażenia krytyczne: -{[0.200000 * 100]}%
 	</string>
-	<string key="inv_equipLoadSlowTooltip">• Obrażenia podstawowe: -{[Type_EncumbranceData.Player.EquipLoadDamageMultSlow * -100]}% \n• Leczenie innych: -30% \n• Stabilność blokowania: +15% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -20% \n• Możesz wykonać powolny zwód. \n• Koszt uniku: {[StaminaCosts_Player.Dodge_Roll_Slow.StaminaCost]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że nie możesz biegać przez {[StatusEffects_Common.Sprint_Delay_Combat_Timer_Heavy.BaseDuration]} s.\n• [PvP] Otrzymywane obrażenia krytyczne: -{[GlobalAbilityTable.EquipLoad_CritDmgReduction_Heavy.CritDamageReduction * 100]}%
+	<string key="inv_equipLoadSlowTooltip">• Obrażenia podstawowe: -{[-0.150000 * -100]}% \n• Leczenie innych: -30% \n• Stabilność blokowania: +10% \n• Czas trwania efektów obezwładniających nakładanych na ciebie: -20% \n• Możesz wykonać powolny zwód. \n• Koszt uniku: {[55.000000]} pkt wytrzymałości \n• Otrzymanie ciosu wręcz sprawia, że nie możesz biegać przez {[0.500000]} s. \n• [PvP] Otrzymywane obrażenia krytyczne: -{[0.250000 * 100]}%
 	</string>
-	<string key="inv_equipLoadOverburdenedTooltip">Po przekroczeniu maksymalnego ciężaru wyposażenia nie możesz wykonywać uników, biegać i używać umiejętności. Odłóż część przedmiotów.</string>
+	<string key="inv_equipLoadOverburdenedTooltip">Po przekroczeniu maksymalnego ciężaru wyposażenia nie możesz wykonywać uników, biegać i używać zdolności. Odłóż część przedmiotów.</string>
 	<string key="inv_equipLoadEncumberedTooltip">Jeśli limit ciężaru twojego ekwipunku zostanie przekroczony, ulegniesz przeciążeniu – stan ten ogranicza twoje ruchy i czynności. Ponadto blokowanie zużywa więcej wytrzymałości.</string>
 	<string key="inv_equipLoadOverburdened_Tooltip" comment="This tooltip is for the status effect icon near vitals">Waga przenoszonych przez ciebie przedmiotów przekracza maksymalny ciężar wyposażenia. Nie możesz biegać ani wykonywać uników i otrzymujesz karę do szybkości regeneracji wytrzymałości. Odłóż część przedmiotów.</string>
 	<string key="inv_equipLoadFastNotification">Twoje aktualne wyposażenie jest lekkie</string>
@@ -117,7 +117,7 @@
 	<string key="salvage_notification_pefectly_salvaged">Idealny odzysk!</string>
 	<string key="salvage_notification_pefectly_salvaged_item">&lt;font color={color}&gt;{itemName}&lt;/font&gt; x {quantity}</string>
 	<string key="fc_campingtitle">Biwakowanie</string>
-	<string key="fc_campingInstructions">Podstawowe stanowisko rzemieślnicze i punkt odrodzenia.</string>
+	<string key="fc_campingInstructions">Podstawowe stanowisko do wytwarzania i punkt odrodzenia.</string>
 	<string key="fc_campingSiteLvl1">Obozowisko poziomu I</string>
 	<string key="fc_campingSiteLvl2">Obozowisko poziomu II</string>
 	<string key="fc_campingSiteLvl3">Obozowisko poziomu III</string>
@@ -166,9 +166,9 @@
 	<string key="ui_sort">Sortuj</string>
 	<string key="ui_sort_weight">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ebe3d6"&gt;wagi:&lt;/font&gt;&lt;/font&gt; ciężkie – lekkie</string>
 	<string key="ui_sort_weight_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ebe3d6"&gt;wagi:&lt;/font&gt;&lt;/font&gt; Niska – wysoka</string>
-	<string key="ui_sort_tier">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ebe3d6"&gt;klasy:&lt;/font&gt;&lt;/font&gt; wysokie – niskie</string>
+	<string key="ui_sort_tier">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ebe3d6"&gt;klasy:&lt;/font&gt;&lt;/font&gt; wysoka – niska</string>
 	<string key="ui_sort_tier_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ebe3d6"&gt;klasy:&lt;/font&gt;&lt;/font&gt; Niska – wysoka</string>
-	<string key="ui_sort_gearscore">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ebe3d6"&gt;liczby pkt wyposażenia:&lt;/font&gt;&lt;/font&gt; wysokie – niskie</string>
+	<string key="ui_sort_gearscore">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ebe3d6"&gt;liczby pkt wyposażenia:&lt;/font&gt;&lt;/font&gt; wysoka – niska</string>
 	<string key="ui_sort_gearscore_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ebe3d6"&gt;liczby pkt wyposażenia:&lt;/font&gt;&lt;/font&gt; Niska – wysoka</string>
 	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ebe3d6"&gt;czasu nabycia&lt;/font&gt;&lt;/font&gt; najnowsze – najstarsze</string>
 	<string key="ui_sort_chrono_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Sortuj według &lt;font color="#ebe3d6"&gt;czasu nabycia:&lt;/font&gt;&lt;/font&gt; Najstarsze – najnowsze</string>
