@@ -7,7 +7,7 @@
 	<string key="ui_mount_attachment2_slot_tooltip_unlocked" rel_version="Feature_Mounts">Les objets d'accessoire de monture placés ici apparaîtront à l'arrière de la monture, à droite.</string>
 	<string key="ui_mount_buff1_tooltip" rel_version="Feature_Mounts">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Emplacement de chaussures&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Vous pouvez y placer des objets d'amélioration de vitalité liés à la monture.&lt;/font&gt;</string>
 	<string key="ui_mount_buff1_slot_tooltip_unlocked" rel_version="Feature_Mounts">Les objets d'amélioration de monture offrent à votre monture des avantages uniques.</string>
-	<string key="ui_mount_buff2_tooltip" rel_version="Feature_Mounts">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Emplacement de bride&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Vous pouvez notamment y placer des objets d'amélioration d'effet de statut liés à la monture.&lt;/font&gt;</string>
+	<string key="ui_mount_buff2_tooltip" rel_version="Feature_Mounts">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Emplacement d'extension de bride&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Vous pouvez notamment y placer des objets d'amélioration d'effet de statut liés à la monture.&lt;/font&gt;</string>
 	<string key="ui_mount_trail_vfx" rel_version="Feature_Mounts">Effets spéciaux – Traces de monture</string>
 	<string key="ui_mount_summon_vfx" rel_version="Feature_Mounts">Effets spéciaux – Invocation de monture</string>
 	<string key="ui_mount_summon_started" rel_version="Feature_Mounts">Invocation...</string>
@@ -56,6 +56,8 @@
 	<string key="ui_mount_summon_failed_deep_water_interrupt" rel_version="Feature_Mounts">En eau profonde</string>
 	<string key="ui_mount_summon_failed_mount_disabled" rel_version="Feature_Mounts">Monture temporairement désactivée. Veuillez réessayer plus tard.</string>
 	<string key="ui_mount_summon_failed_mount_disabled_interrupt" rel_version="Feature_Mounts">Monture temporairement désactivée</string>
+	<string key="ui_mount_summon_failed_swimming" rel_version="Feature_Swim">Invocation impossible en nageant</string>
+	<string key="ui_mount_summon_failed_swimming_interrupt" rel_version="Feature_Swim">Nage en cours</string>
 	<string key="ui_mount_delayed_dismount_area_warning" rel_version="Feature_Mounts">Entrée dans une zone interdite aux montures : Vous mettrez pied à terre dans {time}</string>
 	<string key="ui_mount_delayed_dismount_timer_text" rel_version="Feature_Mounts">Pied à terre...</string>
 	<string key="ui_mount_delayed_dismount_area_cancelled" rel_version="Feature_Mounts">Sortie d'une zone interdite aux montures</string>
@@ -74,9 +76,11 @@
 	<string key="ui_mount_type_horse" rel_version="Feature_Mounts">Cheval</string>
 	<string key="ui_mount_type_sabretooth" rel_version="Feature_Mounts">Lion</string>
 	<string key="ui_mount_type_direwolf" rel_version="Feature_Mounts">Loup sinistre</string>
+	<string key="ui_mount_type_bear" rel_version="Feature_Mounts_Bear">Ours</string>
 	<string key="ui_mounts_default_horse_name" rel_version="Feature_Mounts">Cheval_par défaut</string>
 	<string key="ui_mounts_default_sabretooth_name" rel_version="Feature_Mounts">Dents-de-sabre_par défaut</string>
 	<string key="ui_mounts_default_direwolf" rel_version="Feature_Mounts">Loup sinistre_par défaut</string>
+	<string key="ui_mounts_default_bear" rel_version="Feature_Mounts_Bear">Ours_par défaut</string>
 	<string key="ui_mounts_horse_entitlement_test_name" rel_version="Feature_Mounts">Cheval_Autorisation_Test</string>
 	<string key="ui_mounts_sabretooth_achievement_test_name" rel_version="Feature_Mounts">Dents-de-sabre_Exploit_Test</string>
 	<string key="ui_mounts_test_name" rel_version="Feature_Mounts">Test monture</string>
@@ -133,9 +137,11 @@
 	<string key="ui_mounts_lion_description_4" rel_version="Feature_Mounts">On raconte que le lion blanc est le messager d'une puissance supérieure.</string>
 	<string key="ui_mounts_lion_description_5" rel_version="Feature_Mounts">Les lions noirs annoncent la fin d'une ère et le début d'une nouvelle.</string>
 	<string key="ui_mounts_lion_description_6" rel_version="Feature_Mounts">Espèce rare, cette bête majestueuse vient en aide à ceux dont le cœur reste sauvage.</string>
+	<string key="ui_mounts_bear_description" rel_version="Feature_Mounts_Bear">Humphrey est un animal aussi gros et puissant qu'il est grincheux. Il surprotège ceux qu'il aime.</string>
 	<string key="ui_mounts_unlock_horse_message" rel_version="Feature_Mounts">Boutique de chevaux</string>
 	<string key="ui_mounts_unlock_wolf_message" rel_version="Feature_Mounts">Boutique de loups sinistres</string>
 	<string key="ui_mounts_unlock_lion_message" rel_version="Feature_Mounts">Boutique de lions</string>
+	<string key="ui_mounts_unlock_bear_message" rel_version="Feature_Mounts_Bear">Boutique d'ours</string>
 	<string key="ui_mounts_unlock_tradeskill_message" rel_version="Feature_Mounts">Compétence d'équitation</string>
 	<string key="ui_mounts_unlock_worlddrop_message" rel_version="Feature_Mounts">Apparition dans le monde</string>
 	<string key="ui_mounts_unlock_mutator_message" rel_version="Feature_Mounts">Expédition mutante</string>
@@ -161,33 +167,50 @@
 	<string key="ui_mounts_MTX_1_horse_name" rel_version="Feature_Mounts">Grégorius le Puissant</string>
 	<string key="ui_mounts_MTX_1_wolf_name" rel_version="Feature_Mounts">Ira</string>
 	<string key="ui_mounts_MTX_1_lion_name" rel_version="Feature_Mounts">Argus</string>
+	<string key="ui_mounts_MTX_1_bear_name" rel_version="Feature_Mounts_Bear">Écrabouilleur altéré</string>
+	<string key="ui_mounts_bear_description_1" rel_version="Feature_Mounts_Bear">L'écrabouilleur altéré constitue une menace tous azimuts. Grand, rapide et dur comme le fer. Une véritable force de la nature.</string>
 	<string key="ui_mounts_MTX_2_horse_name" rel_version="Feature_Mounts">Solomon</string>
 	<string key="ui_mounts_MTX_2_wolf_name" rel_version="Feature_Mounts">Amani</string>
 	<string key="ui_mounts_MTX_2_lion_name" rel_version="Feature_Mounts">Evania</string>
+	<string key="ui_mounts_MTX_2_bear_name" rel_version="Feature_Mounts_Bear">Titan</string>
 	<string key="ui_mounts_MTX_3_horse_name" rel_version="Feature_Mounts">Atlas</string>
 	<string key="ui_mounts_MTX_3_wolf_name" rel_version="Feature_Mounts">Charaka</string>
 	<string key="ui_mounts_MTX_3_lion_name" rel_version="Feature_Mounts">Beatrix</string>
+	<string key="ui_mounts_MTX_3_bear_name" rel_version="Feature_Mounts_Bear">Colosse</string>
 	<string key="ui_mounts_MTX_4_horse_name" rel_version="Feature_Mounts">Neige</string>
 	<string key="ui_mounts_MTX_4_wolf_name" rel_version="Feature_Mounts">Blanca</string>
 	<string key="ui_mounts_MTX_4_lion_name" rel_version="Feature_Mounts">Albus</string>
 	<string key="ui_mounts_MTX_5_horse_name" rel_version="Feature_Mounts">Minuit</string>
 	<string key="ui_mounts_MTX_5_wolf_name" rel_version="Feature_Mounts">Blake</string>
 	<string key="ui_mounts_MTX_5_lion_name" rel_version="Feature_Mounts">Kumba</string>
+	<string key="ui_mounts_MTX_5_bear_name" rel_version="Feature_Mounts_Bear">Humphrey</string>
 	<string key="ui_mounts_MTX_6_horse_name" rel_version="Feature_Mounts">Spectre</string>
 	<string key="ui_mounts_MTX_6_wolf_name" rel_version="Feature_Mounts">Iridiana</string>
 	<string key="ui_mounts_MTX_6_lion_name" rel_version="Feature_Mounts">Ngan</string>
+	<string key="ui_mounts_MTX_6_bear_name" rel_version="Feature_Mounts_Bear">Renboga</string>
 	<string key="ui_mounts_MTX_7_horse_name" rel_version="Season_4_Perm">Félix</string>
 	<string key="ui_mounts_MTX_7_wolf_name" rel_version="Season_4_Perm">Charbon</string>
 	<string key="ui_mounts_MTX_7_lion_name" rel_version="Season_4_Perm">Alacer</string>
+	<string key="ui_mounts_MTX_7_bear_name" rel_version="Feature_Mounts_Bear">Goliath</string>
 	<string key="ui_mounts_MTX_8_horse_name" rel_version="Season_5_Perm">Daemonicus</string>
 	<string key="ui_mounts_MTX_8_wolf_name" rel_version="Season_5_Perm">Malum</string>
 	<string key="ui_mounts_MTX_8_lion_name" rel_version="Season_5_Perm">Sicarius</string>
-	<string key="ui_mounts_horse_description_7" rel_version="Season_4_Perm">Felix arbore fièrement son casque à cornes. Cela augmente sa puissance et sa majesté.</string>
-	<string key="ui_mounts_wolf_description_7" rel_version="Season_4_Perm">La prestance furtive de Smokey lui vaut beaucoup d'éloges. Les ennemis ne le voient pas venir.</string>
+	<string key="ui_mounts_MTX_8_bear_name" rel_version="Feature_Mounts_Bear">Morti</string>
+	<string key="ui_mounts_MTX_10_wolf_name" rel_version="Feature_Mounts_Bear">Traqueur d'Azoth</string>
+	<string key="ui_mounts_horse_description_7" rel_version="Season_4_Perm">Félix arbore fièrement son casque à cornes. Cela augmente sa puissance et sa majesté.</string>
+	<string key="ui_mounts_wolf_description_7" rel_version="Season_4_Perm">La prestance furtive de Charbon lui vaut beaucoup d'éloges. Les ennemis ne le voient pas venir.</string>
 	<string key="ui_mounts_lion_description_7" rel_version="Season_4_Perm">L'énergie débordante d'Alacer défie les lois de la nature. Le sommeil, c'est pour les faibles.</string>
 	<string key="ui_mounts_horse_description_8" rel_version="Season_5_Perm">On raconte que Daemonicus est né d'un rituel des ombres. Vrai ou pas, sa vigueur est incontestée.</string>
 	<string key="ui_mounts_wolf_description_8" rel_version="Season_5_Perm">Chevaucher Malum instille la peur dans le cœur de vos adversaires comme de vos alliés.</string>
 	<string key="ui_mounts_lion_description_8" rel_version="Season_5_Perm">Bien que Sicarius soit étonnamment froid au toucher, un feu couve dans son ventre.</string>
+	<string key="ui_mounts_bear_description_2" rel_version="Feature_Mounts_Bear">La taille de Titan gâche l'effet de surprise. Ils l'entendent arriver et, quand cela arrive, ils s'enfuient.</string>
+	<string key="ui_mounts_bear_description_7" rel_version="Feature_Mounts_Bear">Goliath est aussi fidèle à ses amis qu'à son estomac. Sa bienveillance lui permet de prendre soin des deux.</string>
+	<string key="ui_mounts_bear_description_8" rel_version="Feature_Mounts_Bear">Il existerait une ruse pour faire céder Morti, mais ceux qui s'y sont essayés ne sont plus là pour en témoigner.</string>
+	<string key="ui_mounts_bear_description_5" rel_version="Feature_Mounts_Bear">Le pelage d'Humphrey l'aide à se camoufler la nuit. Prenez garde, c'est peut-être la dernière chose que vous verrez.</string>
+	<string key="ui_mounts_bear_description_6" rel_version="Feature_Mounts_Bear">Renboga a peut-être l'air d'une bête de foire, mais croyez-moi, son tempérament n'a rien de drôle.</string>
+	<string key="ui_mounts_bear_description_3" rel_version="Feature_Mounts_Bear">Malgré son nom, Colosse reste un être doux et placide. La plupart du temps.</string>
+	<string key="ui_mounts_lion_description_9" rel_version="Feature_Mounts_Bear">Description de Valkyrie.</string>
+	<string key="ui_mounts_wolf_description_10" rel_version="Feature_Mounts_Bear">Le traqueur d'Azoth est un chef de meute rusé. Son intrépidité, sa ruse et sa volonté de fer lui ont permis de se hisser au sommet.</string>
 	<string key="ui_mounts_horse_name_1" rel_version="Feature_Mounts">Grégorius le Puissant</string>
 	<string key="ui_mounts_horse_name_1a" rel_version="Feature_Mounts">Grégorius le Puissant (GRATUIT)</string>
 	<string key="ui_mount_horse_name_2" rel_version="Feature_Mounts">Ombrelune</string>
@@ -201,11 +224,12 @@
 	<string key="ui_mount_horse_name_10" rel_version="Feature_Mounts">Cannelle</string>
 	<string key="ui_mount_horse_name_11" rel_version="Feature_Mounts">Vinicius</string>
 	<string key="ui_mounts_horse_name_test" comment="DO NOT TRANSLATE" rel_version="Feature_Mounts">TestHorse</string>
-	<string key="ui_mounts_keybind_toggle" rel_version="Feature_Mounts">Invoquer/Renvoyer monture</string>
+	<string key="ui_mounts_keybind_toggle" rel_version="Feature_Mounts">Invoquer / renvoyer monture</string>
 	<string key="ui_mounts_keybind_summon" rel_version="Feature_Mounts">Invoquer monture</string>
+	<string key="ui_mounts_keybind_dismiss" rel_version="Feature_Mounts">Renvoyer monture</string>
 	<string key="ui_mounts_keybind_dash" rel_version="Feature_Mounts">Galop</string>
 	<string key="ui_mounts_keybind_jump" rel_version="Feature_Mounts">Saut</string>
-	<string key="ui_mounts_keybind_stop_reverse" rel_version="Feature_Controller">Alterner Arrêt/Marche arrière</string>
+	<string key="ui_mounts_keybind_stop_reverse" rel_version="Feature_Controller">Arrêter / reculer</string>
 	<string key="ui_section_mounts" rel_version="Feature_Mounts">Montures</string>
 	<string key="ui_mount_auto_road_follow" rel_version="Feature_Mounts">Suivi des routes des montures</string>
 	<string key="ui_mount_auto_road_follow_desc" rel_version="Feature_Mounts">Pour suivre automatiquement les chemins en selle et en course auto.</string>
@@ -222,7 +246,7 @@
 	<string key="ui_mount_selection_screen_unlock_level_markup" rel_version="Feature_Mounts">Atteignez le &lt;font color={color}&gt;niveau {level}&lt;/font&gt; et terminez &lt;font color={color}&gt;« {questName} »&lt;/font&gt; pour déverrouiller les montures.</string>
 	<string key="ui_mount_expansion_header" rel_version="Feature_Mounts">Extension :</string>
 	<string key="ui_mount_expansion_not_owned" rel_version="Feature_Mounts">Achetez Le réveil de la Terre enragée pour accéder aux montures.</string>
-	<string key="ui_mount_expansion_owned_requirements_not_met" rel_version="Feature_Mounts">Atteignez le niveau 25 et terminez « Mon royaume pour un cheval ».</string>
+	<string key="ui_mount_expansion_owned_requirements_not_met" rel_version="Feature_Mounts">Atteignez le niveau 20 et terminez « Mon royaume pour un cheval ».</string>
 	<string key="ui_mount_no_mount_equipped" rel_version="Feature_Mounts">Aucune monture équipée</string>
 	<string key="ui_mount_previewing" rel_version="Feature_Mounts">Aperçu</string>
 	<string key="ui_mount_map_icon_description" rel_version="Feature_Mounts">Achetez des montures pour explorer Aeternum.</string>

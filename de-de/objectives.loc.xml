@@ -96,6 +96,7 @@
 	<string key="objective_mountquest_desc" speaker="UI">Reittierziele</string>
 	<string key="objective_epicequipment" speaker="UI">Epische Ausrüstung</string>
 	<string key="objective_epicequipment_desc" speaker="UI">Epische Ausrüstungsaufgaben</string>
+	<string key="objective_quest" speaker="UI">Aufgabe</string>
 	<string key="objective_kill" speaker="UI">Töte {enemy}.</string>
 	<string key="objective_kill_p" speaker="UI">Töte {amountCount}x {enemy}.</string>
 	<string key="objective_location" speaker="UI">Ort</string>
@@ -117,7 +118,7 @@
 	<string key="objective_mission_task_desc_return_to_giver_cm" speaker="UI">Abschluss an der Stadtprojektübersicht ({destinationName})</string>
 	<string key="objective_mission_task_desc_return_to_giver" speaker="UI">Abschluss beim Fraktionsvertreter ({destinationName})</string>
 	<string key="objective_mission_task_desc_return_to_any_giver" speaker="UI">Bei einem beliebigen Fraktionsvertreter abschließen</string>
-	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Kehre zum Abschließen zum Missionsgeber zurück. </string>
+	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Kehre zum Abschließen zum Missionsgeber zurück.</string>
 	<string key="objective_mission_task_explore_POITag" speaker="UI">Erkunde: {POITags}</string>
 	<string key="objective_mission_task_explore_the_POITag" speaker="UI">Erkunde: {POITags}</string>
 	<string key="objective_mission_task_goto_Map_Location" speaker="UI">Untersuche das auf der Karte markierte Schiffswrack</string>
@@ -158,7 +159,7 @@
 	<string key="objective_get_msq_message" speaker="UI">Du hast derzeit keine aktive Haupthandlungsaufgaben.\nSuche auf der Karte nach diesem Symbol, um herauszufinden, ob die nächste Haupthandlungsaufgabe verfügbar ist.</string>
 	<string key="M_procurer_craft_workorder_items" speaker="UI">Herstellungsmission</string>
 	<string key="objective_challenge" speaker="UI">Herausforderung</string>
-	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Aufgabe: {title}</string>
+	<string key="objective_name_template" comment="Obsolete - Used to show above rewards on the conversation screen. {title} is the quest title." speaker="UI">Aufgabe: "{title}"</string>
 	<string key="objective_name_and_rewards_template" comment="Shows above rewards on the conversation screen. {title} is the quest title" speaker="UI">"{title}" – Belohnungen</string>
 	<string key="objective_rewards_completion" comment="Rewards label when completing a quest" speaker="UI">Belohnungen für Abschluss</string>
 	<string key="objective_rewards_proposal" comment="Rewards label when accepting a quest" speaker="UI">Schließe die Aufgabe ab, um Folgendes zu erhalten:</string>
@@ -210,6 +211,7 @@
 	<string key="objective_subtitle_locationanddifficulty" speaker="UI">{territory} - {difficulty}</string>
 	<string key="objective_recommendedgroup" speaker="UI">Gruppe {group}</string>
 	<string key="objective_recommendedplayers" speaker="UI">{amount} Spieler</string>
+	<string key="objective_recommendedlevelshort" speaker="UI">Stufe {level}</string>
 	<string key="objective_recommendedlevel" speaker="UI">Stufe {level}</string>
 	<string key="objective_recommendedlevellong" speaker="UI">Empfohlene Stufe: {level}</string>
 	<string key="objective_recommendedlevelwithcolor" speaker="UI">&lt;font color={color}&gt;Stufe {level}&lt;/font&gt;</string>
@@ -221,12 +223,13 @@
 	<string key="objective_requiresitem" speaker="UI">Erfordert {itemName} Rang {tier}</string>
 	<string key="objective_reward" speaker="UI">Belohnung</string>
 	<string key="objective_rewards" speaker="UI">Belohnungen</string>
+	<string key="objective_rewards_caps" speaker="UI">BELOHNUNGEN</string>
 	<string key="objective_activebonuses" speaker="UI">Aktive Boni</string>
 	<string key="objective_norewards" speaker="UI">An der Schlacht teilnehmen, um Belohnungen zu erhalten</string>
 	<string key="objective_salvage" speaker="UI">Zerlege Folgendes: {itemName}.</string>
 	<string key="objective_started" speaker="UI">Ziel begonnen</string>
-	<string key="objective_daily_reward_one" speaker="UI" rel_version="Event_February_Perm">Enthält &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; tägliche Belohnung</string>
-	<string key="objective_daily_reward_multiple" speaker="UI" rel_version="Feature_Seasons_Rewards">Enthält &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; tägliche Belohnungen</string>
+	<string key="objective_daily_reward_one" speaker="UI" rel_version="Event_February_Perm">Enthält &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;1&lt;/font&gt; tägliche Belohnung</string>
+	<string key="objective_daily_reward_multiple" speaker="UI" rel_version="Feature_Seasons_Rewards">Enthält &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; tägliche Belohnungen</string>
 	<string key="objective_task_pvp" speaker="UI">PvP-Mission</string>
 	<string key="objective_task_survive" speaker="UI">Überlebe – Mission scheitert bei Tod</string>
 	<string key="objective_story_task_getoffthebeach" speaker="UI">Finde den Außenposten</string>
@@ -259,10 +262,10 @@
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Halte {POITags} für {timeRemaining}</string>
 	<string key="objective_mission_task_control_point" speaker="UI">Erobere am folgenden Ort einen Fraktionskontrollpunkt für die Marodeure: {TerritoryID}.</string>
 	<string key="task_choose_faction" speaker="UI">Wähle eine Fraktion (via {destinationName})</string>
-	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Aufgabe abschließen</string>
-	<string key="prompt_DEFAULT" speaker="UI - Button">Nimm folgende Aufgabe an:</string>
-	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Quest  Description">Untersuche den Ort, der so etwas wie ein Wachturm zu sein scheint.</string>
-	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title">Einziger Überlebender</string>
+	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI – Taste">Aufgabe abschließen</string>
+	<string key="prompt_DEFAULT" speaker="UI – Taste">Nimm folgende Aufgabe an:</string>
+	<string key="desc_getoffbeach" comment="male" speaker="UI – Tagebuch – Aufgabenbeschreibung">Untersuche den Ort, der so etwas wie ein Wachturm zu sein scheint.</string>
+	<string key="title_getoffbeach" speaker="UI – Tagebuch – Aufgabentitel">Einziger Überlebender</string>
 	<string key="task_getoffbeach_openmap">Öffne die Karte</string>
 	<string key="have_berries">Suche Beeren</string>
 	<string key="objective_mission_kill_generic_at_POI">Besiege: {targetName} (Gebiet: {POITags})</string>
@@ -284,6 +287,7 @@
 	<string key="objective_mission_kill_generic_at_POI_C">Töte: {targetName} (Gebiet: {POITags})</string>
 	<string key="objective_mission_loot_chests_generic_at_POI_C">Suche in Truhen nach: {itemName} (Gebiet: {POITags})</string>
 	<string key="objective_mission_poach_bushes_at_POI">Sammle Folgendes von Büschen in {POITags}: {itemName}</string>
+	<string key="objective_capture_fort">Erobere gegnerische Forts.</string>
 	<string key="dynamic_poi_mission_collect">Suche in Truhen nach geografischen Dokumenten</string>
 	<string key="dynamic_poi_mission_kill_category" speaker="UI">Erschlage {targetName} Gegner</string>
 	<string key="dynamic_poi_mission_kill_named" speaker="UI">Finde und erschlage {targetName}</string>
@@ -297,6 +301,7 @@
 	<string key="objective_mission_task_PVP_kill_and_acquire_X_items_anywhere">Besiege gegnerische Fraktionsmitglieder und sammle: {itemName}</string>
 	<string key="objective_mission_kill_generic">Besiege: {targetName}</string>
 	<string key="objective_mission_loot_chests_generic">Durchsuche Truhen nach: {itemName}.</string>
+	<string key="objective_mission_doubloon_generic">Suche nach Truhen, um verfluchte Dublonen zu finden.</string>
 	<string key="objective_mission_hunt_generic">Jage: {targetName}</string>
 	<string key="objective_mission_loot_chests_at_Warcamp">Suche in Truhen nach: {itemName} (Gebiet: Kriegslager in {TerritoryID})</string>
 	<string key="objective_mission_kill_with_weapon">Besiege {targetName} mit: {WeaponClassId}</string>
@@ -310,7 +315,7 @@
 	<string key="objective_mission_kill_with_musket">Besiege {targetName} mit der Muskete</string>
 	<string key="objective_mission_kill_with_firestaff">Besiege {targetName} mit dem Feuerstab</string>
 	<string key="objective_mission_kill_with_lifestaff">Besiege {targetName} mit dem Lebensstab</string>
-	<string key="objective_mission_kill_with_icegauntlet">Besiege {targetName} mit den Eisstulpen</string>
+	<string key="objective_mission_kill_with_icegauntlet">Besiege {targetName} mit der Eisstulpe</string>
 	<string key="objective_mission_task_control_point_S">Erobere am folgenden Ort einen Fraktionskontrollpunkt für das Syndikat: {TerritoryID}.</string>
 	<string key="objective_mission_task_control_point_C">Erobere am folgenden Ort einen Fraktionskontrollpunkt für das Bündnis: {TerritoryID}.</string>
 	<string key="objective_mission_faction_corruption_breach" rel_version="Quest_FM_BreachMissions">Verschließe einen Verderbnisausbruch</string>
@@ -343,7 +348,7 @@
 	<string key="objective_artifact_max_reminder" rel_version="Feature_Artifacts">Zu viele Artefaktziele gleichzeitig. Gib ein bestehendes auf, um ein neues in Angriff zu nehmen.</string>
 	<string key="objective_artifact_equip_reminder" rel_version="Feature_Artifacts">Wenn ausgerüstet:</string>
 	<string key="Objective_Artifact_PerkTasks" rel_version="Feature_Expansion_1">Jede Aufgabe schaltet einen Effekt frei.</string>
-	<string key="Objective_Artifact_Desc" rel_version="Feature_Expansion_1">Schließe die folgenden Aufgaben ab, um dieses Artefakt zu verbessern.</string>
+	<string key="Objective_Artifact_Desc" rel_version="Feature_Expansion_1">Schließe Folgendes ab:</string>
 	<string key="Objective_Artifact_Set1_HeavyHead" rel_version="Feature_Expansion_1">Artefakt: Unbeugsam</string>
 	<string key="Objective_Artifact_Set1_HeavyChest" rel_version="Feature_Expansion_1">Artefakt: Unheil-Dunkelpanzer</string>
 	<string key="Objective_Artifact_Set1_HeavyHands" rel_version="Feature_Expansion_1">Artefakt: Magnetstulpen</string>
@@ -385,6 +390,9 @@
 	<string key="Objective_Artifact_Set1_Amulet2" rel_version="Feature_Expansion_1">Artefakt: Ankh</string>
 	<string key="Objective_Kill_Dungeon_DepthBoss" rel_version="Feature_Expansion_1">Besiege {targetName} (Untiefen-Expedition).</string>
 	<string key="Objective_Kill_in_FL" rel_version="Feature_Expansion_1">Besiege {targetName}-Gegner in der Himmelswildnis.</string>
+	<string key="Objective_Kill_in_Edengrove" rel_version="Feature_Expansion_1">Besiege {targetName}-Gegner in Edenhain.</string>
+	<string key="Objective_Kill_in_CK" rel_version="Feature_Artifacts_S6">Besiege {targetName}-Gegner am Entermesserriff.</string>
+	<string key="Objective_Kill_in_Reekwater" rel_version="Feature_Expansion_1">Besiege {targetName}-Gegner in Brackwasser.</string>
 	<string key="Objective_Kill_Corvid" rel_version="Feature_Expansion_1">Besiege Raben-Gegner in der Himmelswildnis.</string>
 	<string key="Objective_Kill_Depths" rel_version="Feature_Expansion_1">Besiege: {targetName} (Die Untiefen)</string>
 	<string key="Objective_Kill_Genesis" rel_version="Feature_Expansion_1">Besiege: {targetName} (Garten des Ursprungs)</string>
@@ -394,22 +402,37 @@
 	<string key="Objective_Kill_Lazarus" rel_version="Feature_Expansion_1">Besiege: {targetName} (Lazarus-Instrumentarium)</string>
 	<string key="Objective_Kill_Ennead" rel_version="Feature_Expansion_1">Besiege: {targetName} (Enneade)</string>
 	<string key="Objective_Kill_Starstone" rel_version="Feature_Expansion_1">Besiege: {targetName} (Sternensteingrabhügel)</string>
-	<string key="Objective_Kill_Empyean" rel_version="Feature_Expansion_1">Besiege: {targetName}-Gegner in der Empyreum-Schmiede</string>
+	<string key="Objective_Kill_Empyean" rel_version="Feature_Expansion_1">Besiege {targetName}-Gegner in der Empyreum-Schmiede.</string>
+	<string key="Objective_Kill_Named_Empyean" rel_version="Feature_Expansion_1">Besiege {targetName} in der Empyreum-Schmiede.</string>
 	<string key="Objective_Kill_GlacialTarn" rel_version="Feature_Artifacts_Set2">Besiege {targetName}-Gegner im Gletschersee.</string>
+	<string key="Objective_Kill_SavageDivide" rel_version="Feature_Artifacts_Set2">Besiege {targetName}-Gegner in der Wilden Spalte.</string>
+	<string key="Objective_Kill_Sandworm" rel_version="Feature_Artifacts_Set2">Besiege Shah-Neshen in der Prüfung des Verzehrers.</string>
 	<string key="Objective_Kill_OPR" rel_version="Feature_Expansion_1">Besiege: {targetName}-Gegner in Außenpostensturm</string>
 	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Besiege: {targetName}-Gegner in Arena</string>
 	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Besiege folgende Gegner: {targetName}</string>
-	<string key="Objective_Kill_Hatchery" rel_version="Feature_Expansion_1">Besiege Hadish Azar, den Hüter der Flamme, in der Brutstätten.</string>
-	<string key="Objective_Kill_Runeforge" rel_version="Feature_Expansion_1">Besiege den Eiswächter der Ahnen in der Winter-Runenschmiede.</string>
-	<string key="Objective_CraftArtifact" rel_version="Feature_Expansion_1">Werte den Gegenstand am Gips-Ofen auf.</string>
+	<string key="Objective_Kill_Hatchery" rel_version="Feature_Expansion_1">Besiege Hadish Azar, den Hüter der Flamme, in der Brutstätten-Eliteprüfung.</string>
+	<string key="Objective_Kill_Runeforge" rel_version="Feature_Expansion_1">Besiege den Eiswächter der Ahnen in der Winter-Runenschmieden-Eliteprüfung.</string>
+	<string key="Objective_Kill_in_POI" rel_version="Feature_Expansion_1">Töte Gegner an folgendem Ort: {POITags}.</string>
+	<string key="Objective_Kill_Forged" rel_version="Feature_Expansion_1">Besiege geschmiedete Varangianer.</string>
+	<string key="Objective_Kill_in_CK_Raid" rel_version="Feature_Artifacts_S6">Besiege {targetName} im Gorgonennest.</string>
+	<string key="Objective_CraftArtifact" rel_version="Feature_Expansion_1">Aufrüstung am Gips-Ofen</string>
+	<string key="Objective_Artifact_Set2_HeavyChest" rel_version="Feature_Artifacts_S6">Artefakt: Überlebenden-Mantel</string>
 	<string key="Objective_Artifact_Set2_HeavyHands" rel_version="Feature_Artifacts_S5">Artefakt: Gillis Schwerkraftstulpen</string>
 	<string key="Objective_Artifact_Set2_HeavyLegs" rel_version="Feature_Artifacts_S5">Artefakt: Eisenherz</string>
 	<string key="Objective_Artifact_Set2_MediumChest" rel_version="Feature_Artifacts_S5">Artefakt: Zorn der Natur</string>
+	<string key="Objective_Artifact_Set2_MediumHands" rel_version="Feature_Artifacts_S6">Artefakt: Gespenstische Berührung</string>
+	<string key="Objective_Artifact_Set2_MediumLegs" rel_version="Feature_Artifacts_S6">Artefakt: Azoth-Leiter</string>
+	<string key="Objective_Artifact_Set2_LightHead" rel_version="Feature_Artifacts_S6">Artefakt: Kapuze der Macht</string>
 	<string key="Objective_Artifact_Set2_LightFeet" rel_version="Feature_Artifacts_S5">Artefakt: Stiefel des Glaubens</string>
 	<string key="Objective_Artifact_Set2_1hThrowingAxe" rel_version="Feature_Artifacts_S5">Artefakt: Sünde</string>
+	<string key="Objective_Artifact_Set2_2hWarhammer" rel_version="Feature_Artifacts_S6">Artefakt: Trsna</string>
 	<string key="Objective_Artifact_Set2_2hGreatAxe" rel_version="Feature_Artifacts_S5">Artefakt: Zorn des Sturmwinds</string>
 	<string key="Objective_Artifact_Set2_2hSpear" rel_version="Feature_Artifacts_S5">Artefakt: Gift</string>
+	<string key="Objective_Artifact_Set2_2hGreatSword" rel_version="Feature_Artifacts_S6">Artefakt: Anmut</string>
+	<string key="Objective_Artifact_Set2_1hFlail" rel_version="Feature_Artifacts_S6">Artefakt: Stein der Macht</string>
+	<string key="Objective_Artifact_Set2_Ring1" rel_version="Feature_Artifacts_S6">Artefakt: Elementarband</string>
 	<string key="Objective_Artifact_Set2_Amulet1" rel_version="Feature_Artifacts_S5">Artefakt: Phönix</string>
+	<string key="99F_Enc_Liang_Objective_Title_description" rel_version="Quest_MSQ3_Ebonscale">Der Prinz von Ebenmaß wurde zum Schutz des Volkes und von Liang selbst in den Holztempel eingeschlossen.</string>
 	<string key="99F_Enc_Liang_Objective_Title_Phase0" rel_version="Quest_MSQ3_Ebonscale">Rette den gequälten Prinzen</string>
 	<string key="99F_Enc_Liang_Objective_Phase0" rel_version="Quest_MSQ3_Ebonscale">Gehe zu Liang.</string>
 	<string key="99F_Enc_Liang_Objective_Title_Phase1" rel_version="Quest_MSQ3_Ebonscale">Rette den gequälten Prinzen</string>
@@ -419,20 +442,13 @@
 	<string key="99F_Enc_Liang_Objective_Title_Phase3" rel_version="Quest_MSQ3_Ebonscale">Rette den gequälten Prinzen</string>
 	<string key="99F_Enc_Liang_Objective_Phase3" rel_version="Quest_MSQ3_Ebonscale">Behänge Liang noch mit 8 weiteren Talismanen, um ihn bewegungsunfähig zu machen.</string>
 	<string key="99F_Enc_Liang_Objective_Title_Phase4" rel_version="Quest_MSQ3_Ebonscale">Rette den gequälten Prinzen</string>
-	<string key="99F_Enc_Liang_Objective_Phase4" rel_version="Quest_MSQ3_Ebonscale">Befreie Liangs Seele mit deinem Azoth-Stab und gehe dann nach draußen.</string>
+	<string key="99F_Enc_Liang_Objective_Phase4" rel_version="Quest_MSQ3_Ebonscale">Befreie Liangs Seele mit deinem Azoth-Stab.</string>
 	<string key="objective_weekly_description" speaker="UI">Wöchentliche Aufgabe</string>
 	<string key="objective_daily_description" speaker="UI">Tägliche Aufgabe</string>
 	<string key="objective_hourly_description" speaker="UI">Stündliche Aufgabe</string>
 	<string key="objective_minutely_description" speaker="UI">Minütliche Aufgabe</string>
-	<string key="Objective_Kill_in_Edengrove">Besiege {targetName}-Gegner in Edenhain.</string>
-	<string key="99F_Enc_Liang_Objective_Title_description">Der Prinz von Ebenmaß wurde zum Schutz des Volkes und von Liang selbst in den Holztempel eingeschlossen.</string>
-	<string key="Objective_Kill_SavageDivide">Besiege {targetName}-Gegner in der Wilden Spalte.</string>
-	<string key="Objective_Kill_in_Reekwater">Besiege {targetName}-Gegner in Brackwasser.</string>
-	<string key="Objective_Kill_Sandworm">Besiege Shah-Neshen in der Prüfung des Verzehrers.</string>
-	<string key="objective_capture_fort">Erobere gegnerische Forts.</string>
-	<string key="Objective_Kill_in_POI">Töte Gegner an folgendem Ort: {POITags}.</string>
-	<string key="Objective_Kill_Forged">Besiege geschmiedete Varangianer.</string>
-	<string key="objective_quest">Aufgabe</string>
-	<string key="Objective_Kill_Named_Empyean">Besiege {targetName} in der Empyreum-Schmiede.</string>
+	<string key="objective_cooldown_tooltip" speaker="UI">Wenn du diese Aufgabe abgeschlossen hast, musst du bis {date} warten, um sie erneut annehmen zu können.</string>
+	<string key="objective_cooldown_availablein" speaker="UI">Verfügbar in </string>
+	<string key="objective_complete_the_raid" speaker="UI">Schließe den Raubzug ab</string>
 </resources>
 

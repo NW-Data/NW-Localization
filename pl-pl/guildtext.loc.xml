@@ -130,10 +130,10 @@
 	<string key="ui_treasury_tooltip_withdrawal_nopermissons">Nie masz pozwolenia na dokonywanie wypłat.</string>
 	<string key="ui_treasury_tooltip_withdrawal_overlimit">Osiągnięto dzienny limit.</string>
 	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">Nie masz pozwolenia na zmianę dziennego limitu wypłat.</string>
-	<string key="ui_treasury_notification_depositsuccess">Do skarbca kompanii wpłacono &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage}.</string>
+	<string key="ui_treasury_notification_depositsuccess">Do skarbca kompanii wpłacono &lt;font color={colorHex} face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_depositcappedtreasurymax">Wpłata do skarbca nie powiodła się (przekroczono maks. kwotę w skarbcu).</string>
 	<string key="ui_treasury_notification_depositcappedplayerfunds">Wpłata do skarbca nie powiodła się (za mało osobistych środków).</string>
-	<string key="ui_treasury_notification_withdrawalsuccess">Ze skarbca kompanii wypłacono &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage}.</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">Ze skarbca kompanii wypłacono &lt;font color={colorHex} face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; {coinImage}.</string>
 	<string key="ui_treasury_notification_withdrawalcappedfunds"> Wypłata ze skarbca nie powiodła się (za mało środków w skarbcu).</string>
 	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Wypłata ze skarbca nie powiodła się (przekroczono dzienny limit).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">Dzienny limit wypłat wynosi &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
@@ -232,6 +232,7 @@
 	<string key="ui_governorexpire_deleted_THEY">Zarządca twojej kompanii odszedł lub usunął swoją postać. Członek kompanii ze stopniem konsula może stać się zarządcą.</string>
 	<string key="ui_governorseat_vacant">Obecnie nie ma zarządcy</string>
 	<string key="ui_governorseat_overthrowable">Zarządca może zostać obalony przez konsulów</string>
+	<string key="ui_no_governor">Brak zarządcy</string>
 	<string key="ui_becomegovernor">Zostań zarządcą</string>
 	<string key="ui_becomegovernor_SHE">Zostań zarządczynią</string>
 	<string key="ui_becomegovernor_THEY">Zostań osobą zarządzającą</string>
@@ -268,6 +269,7 @@
 	<string key="ui_permission_war_raid_manage">Zarządzanie grupami armii i rekrutacją: {allowed}</string>
 	<string key="ui_permission_build_defensive_structures">Budowa i zamiana w forcie kompanii: {allowed}</string>
 	<string key="ui_playeralreadyinguildmessage">{playerName} jest już członkiem twojej kompanii.</string>
+	<string key="ui_companyinviteeblockedmessage">Nie możesz wysyłać zaproszeń zablokowanym graczom.</string>
 	<string key="ui_playerguild">Kompania gracza {LocalPlayerName}</string>
 	<string key="ui_promote">Awansuj</string>
 	<string key="ui_promote_transfer_owner">Przekaż prawo własności</string>
@@ -329,11 +331,11 @@
 	<string key="ui_wardeclarationpopup_title">Wypowiedzenie wojny</string>
 	<string key="ui_wardeclarationpopup_target">kontra {guildName}</string>
 	<string key="ui_wardeclarationpopup_message">Podczas wojny atakująca kompania próbuje przejąć terytorium broniącej się kompanii, zajmując jej fort w trakcie okresu oblężenia.</string>
-	<string key="ui_wardeclarationpopup_declarebutton">Wypowiedz wojnę! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_declarebutton">Wypowiedz wojnę! {coinImage} {cost}</string>
 	<string key="ui_wardeclarationpopup_mywallet" comment="When presented to the user, the name for currency is always Coin">Monety</string>
 	<string key="ui_wardeclarationpopup_extendtitle">Kontratak</string>
 	<string key="ui_wardeclarationpopup_extendmessage" comment="This will have a time below it for how long the war will last after the extension">Czy na pewno chcesz wypowiedzieć wojnę kompanii {guildName}?\nObie kompanie będą mogły się atakować bez oznaczenia jako przestępcy przez:</string>
-	<string key="ui_wardeclarationpopup_extendbutton">Kontratakuj! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_extendbutton">Kontratakuj! {coinImage} {cost}</string>
 	<string key="ui_wardeclarationpopup_nopermission">\nGracze twojego stopnia ({rank}) nie mają pozwolenia na wypowiadanie wojny i przeprowadzanie kontrataku.</string>
 	<string key="ui_wardeclarationpopup_permission">\nPozwolenia w twojej kompanii umożliwiają ci wypowiadanie wojen i przeprowadzanie kontrataków.</string>
 	<string key="ui_wardeclarationpopup_noterritorytext">Ta kompania nie ma terytoriów, o które można walczyć.</string>
@@ -369,7 +371,7 @@
 	<string key="ui_wardeclaration_unsuccessful_notification_text">Wybrano wypowiedzenie wojny innej kompanii. Twoje środki wróciły do portfela kompanii.</string>
 	<string key="ui_wardeclaration_successful_notification_title">Wypowiedzenie wojny zaakceptowane</string>
 	<string key="ui_wardeclaration_successful_notification_text">Nadchodząca wojna została zaplanowana. Udaj się do tablicy wojennej terytorium, by zapisać się i zarządzać armią.</string>
-	<string key="ui_territory_upkeep_due">Masz zaległe opłaty za terytorium kompanii (dotyczy: {name})!</string>
+	<string key="ui_territory_upkeep_due">Należy uiścić opłatę za utrzymanie terytorium: {name}</string>
 	<string key="ui_warframe_range_prewar">Przygotowania</string>
 	<string key="ui_warframe_range_currentwar">Trwająca wojna</string>
 	<string key="ui_warframe_range_war">Wojna</string>
@@ -457,6 +459,7 @@
 	<string key="ui_trade_failure_no_withdrawal">Nie masz pozwolenia na zabieranie przedmiotów z tej konstrukcji.</string>
 	<string key="ui_trade_failure_no_deposit">Nie masz pozwolenia na chowanie przedmiotów w tej konstrukcji.</string>
 	<string key="ui_trade_failure_not_enough_space">Przedmiotu nie da się przenieść z powodu ograniczeń dotyczących maksymalnej wagi lub liczby unikalnych przedmiotów.</string>
+	<string key="ui_trade_failure_not_in_ffa_state">Przedmiotu nie da się przekazać, ponieważ gracz nie znajduje się w trybie każdy na każdego.</string>
 	<string key="ui_trade_failure_global_storage_not_enough_currency">Masz za mało środków, by uiścić opłatę za wycofanie przedmiotów przechowywanych w odległych lokalizacjach.</string>
 	<string key="ui_trade_failure_global_storage_wrong_faction">Aby można było wycofać przedmioty, oba terytoria muszą należeć do twojej frakcji, a opłata za utrzymanie terytorium musi być uiszczona.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Możesz zdeponować przedmioty w składziku znajdującym się tylko w twojej bieżącej lokalizacji.</string>
@@ -640,7 +643,7 @@
 	<string key="ui_signup_warinprogress_tooltip">Nie możesz się zapisać do wojny lub inwazji, która już się rozpoczęła.</string>
 	<string key="ui_signup_not_available">Zapis niedostępny</string>
 	<string key="ui_signup_level_requirement">By móc się zapisać, wymagany jest &lt;/font&gt; &lt;font color="#ff7171"&gt;{level} poz. gracza.</string>
-	<string key="ui_signup_count">Zapisani gracze: &lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;&lt;/font&gt;</string>
+	<string key="ui_signup_count">Zapisani gracze: &lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt;&lt;/font&gt;</string>
 	<string key="ui_signup_instruction_title_1">Czekaj</string>
 	<string key="ui_signup_instruction_title_2">Bądź online</string>
 	<string key="ui_signup_instruction_title_3">Oczekiwanie</string>
@@ -677,7 +680,7 @@
 	<string key="ui_war_schedule_adjustment_message">{warType} na terytorium: {territoryName} – {scheduleAdjustmentType}.</string>
 	<string key="ui_war_schedule_adjustment_cancelled">odwołano</string>
 	<string key="ui_war_schedule_adjustment_rescheduled">przełożono</string>
-	<string key="ui_war_camp_tier">Klasa &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_tier">Klasa &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{value}&lt;/font&gt;</string>
 	<string key="ui_war_camp_weapons_tier">Klasa broni oblężniczej</string>
 </resources>
 

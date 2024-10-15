@@ -1,13 +1,13 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="inv_DroppedItems">Objets lâchés</string>
-	<string key="inv_Dropped">Lâché(e)</string>
+	<string key="inv_Dropped">Objets</string>
 	<string key="inv_Storage">Rangement</string>
 	<string key="inv_itemDamaged">{num} objet(s) gravement endommagé(s) Des réparations sont nécessaires.</string>
 	<string key="inv_itemBroken">{num} objet(s) brisé(s)</string>
 	<string key="inv_broken">BRISÉ</string>
 	<string key="inv_unequip">Déséquip.</string>
 	<string key="inv_dropTargetMessage">Lâcher objets</string>
-	<string key="inv_discard_life_warning">Les autres joueurs ne peuvent pas voir ou prendre des objets lâchés. Les objets disparaîtront définitivement au bout de 3 minutes.</string>
+	<string key="inv_discard_life_warning">Les objets lâchés ci-dessous seront détruits après 3 minutes. Il n'y a que vous qui puissiez voir ou prendre ces objets.</string>
 	<string key="inv_encumbered">Encombrement</string>
 	<string key="inv_unencumbered">Pas d'encombrement</string>
 	<string key="inv_slotsfull">Limite d'objets atteinte</string>
@@ -26,6 +26,7 @@
 	<string key="inv_pvparenas">Arènes JcJ</string>
 	<string key="inv_runes" rel_version="Feature_Heartgems">Runes</string>
 	<string key="inv_mountitem" rel_version="Feature_Mounts">Montures</string>
+	<string key="inv_patternitem" rel_version="Feature_Patterns">Plans</string>
 	<string key="inv_crafting_modifiers">Mods</string>
 	<string key="inv_repair_kit_count">{count} nécessaire(s) de réparation</string>
 	<string key="inv_repair_kits">Nécessaires de réparation</string>
@@ -112,8 +113,8 @@
 	<string key="salvage_notification_obtained_5_plus">Obtenu : {entry1}, {entry2}, {entry3}, {entry4} et {numRemaining} de plus.</string>
 	<string key="salvage_notification_item_reward">&lt;img src="{icon}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; &lt;font color={color}&gt;{quantity} {itemName}&lt;/font&gt;</string>
 	<string key="salvage_notification_repair_parts_reward">&lt;img src="lyshineui/images/icons/items/resource/repairpartst1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;&lt;font color={color}&gt; {quantity} pièces de réparation&lt;/font&gt;</string>
-	<string key="salvage_notification_coin_reward">&lt;font color={color}&gt;{quantity} &lt;/font&gt;&lt;img src="lyshineui/images/Icon_Crown" xPadding="0" scale="1.3" yOffset="2"&gt;&lt;/img&gt;</string>
-	<string key="salvage_notification_azoth_reward">&lt;font color={color}&gt;{quantity} &lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.3" yOffset="0"&gt;&lt;/img&gt;</string>
+	<string key="salvage_notification_coin_reward">&lt;img src="lyshineui/images/Icon_Crown" xPadding="0" scale="1.3" yOffset="2"&gt;&lt;/img&gt; &lt;font color={color}&gt;{quantity} &lt;/font&gt;</string>
+	<string key="salvage_notification_azoth_reward">&lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.3" yOffset="0"&gt;&lt;/img&gt; &lt;font color={color}&gt;{quantity} &lt;/font&gt;</string>
 	<string key="salvage_notification_pefectly_salvaged">Recyclage parfait !</string>
 	<string key="salvage_notification_pefectly_salvaged_item">&lt;font color={color}&gt;{itemName}&lt;/font&gt; x {quantity}</string>
 	<string key="fc_campingtitle">Bivouac</string>
@@ -160,15 +161,15 @@
 	<string key="ui_dropall_in_trade">Impossible de lâcher des objets lors des échanges.</string>
 	<string key="ui_transfer_all_filtered">Impossible de déplacer tous les objets de cette section tant qu'un filtre est appliqué.</string>
 	<string key="ui_storeall">Tout déplacer dans l'abri de rangement.</string>
-	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;UTILISATION DU FILTRE&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrer par&lt;/font&gt;\n• Nom d'objet (par ex. : Épée -Hache)\n• Atouts/Gemmes (par ex. : [Protection] -[Chance])\n• Score d'équipement minimum (par ex. : 100)\n• Palier minimum (par ex : I)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Exemples&lt;/font&gt;\n• Épée 200\n• Hache I\n• Piolet -fer\n• Mousquet [Électrifié]</string>
+	<string key="ui_filterDescription">&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COMMENT CHERCHER&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Transformation&lt;/font&gt;\n• Inclut : Épée\n• Exclut : Hache\n• Atouts/Gemmes : [Protection]\n• Score d'équipement minimum : 100\n• Palier minimum : I\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Avancé&lt;/font&gt;\n• Épée 200\n• Hache I\n• Piolet -fer\n• Mousquet [Électrifié]</string>
 	<string key="ui_filterText">Chercher</string>
 	<string key="ui_filterHeader">Filtrer objet</string>
 	<string key="ui_sort">Trier</string>
 	<string key="ui_sort_weight">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;poids :&lt;/font&gt;&lt;/font&gt; Lourd - Léger</string>
 	<string key="ui_sort_weight_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;poids :&lt;/font&gt;&lt;/font&gt; Léger - Lourd</string>
-	<string key="ui_sort_tier">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;palier :&lt;/font&gt;&lt;/font&gt; Élevé- bas</string>
+	<string key="ui_sort_tier">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;palier :&lt;/font&gt;&lt;/font&gt; Élevé - Bas</string>
 	<string key="ui_sort_tier_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;palier :&lt;/font&gt;&lt;/font&gt; Bas - Élevé</string>
-	<string key="ui_sort_gearscore">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;score d'équipement :&lt;/font&gt;&lt;/font&gt; Élevé - bas</string>
+	<string key="ui_sort_gearscore">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;score d'équipement :&lt;/font&gt;&lt;/font&gt; Élevé - Bas</string>
 	<string key="ui_sort_gearscore_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;score d'équipement :&lt;/font&gt;&lt;/font&gt; Bas - Élevé</string>
 	<string key="ui_sort_chrono">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;ordre chronologique :&lt;/font&gt;&lt;/font&gt; Plus récent - Plus ancien</string>
 	<string key="ui_sort_chrono_asc">&lt;font face="lyshineui/fonts/Nimbus_semibold.font"&gt;Trier par &lt;font color="#ebe3d6"&gt;ordre chronologique :&lt;/font&gt;&lt;/font&gt; Plus ancien - Plus récent</string>
@@ -204,11 +205,11 @@
 	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">ENS. D'ÉQUIPEMENT</string>
 	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">ENSEMBLES D'ÉQUIPEMENT</string>
 	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Les objets dans les ensembles d'équipement ne font pas partie de votre inventaire et ne sont pas pris en compte dans votre poids d'inventaire ou de rangement.</string>
-	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Ajouter à l'ensemble d'équipement</string>
-	<string key="loadout_addfrom_command" rel_version="Feature_Gear_Set_Storage">Ajouter de l'ensemble d'équipement</string>
-	<string key="loadout_addtoall_command" rel_version="Feature_Gear_Set_Storage">Ajouter à tous les ensembles d'équipement</string>
-	<string key="loadout_removefrom_command" rel_version="Feature_Gear_Set_Storage">Retirer de l'ensemble d'équipement</string>
-	<string key="loadout_removefromall_command" rel_version="Feature_Gear_Set_Storage">Retirer de tous les ensembles d'équipement</string>
+	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Ajouter à</string>
+	<string key="loadout_addfrom_command" rel_version="Feature_Gear_Set_Storage">Ajouter depuis</string>
+	<string key="loadout_addtoall_command" rel_version="Feature_Gear_Set_Storage">Ajouter à tous</string>
+	<string key="loadout_removefrom_command" rel_version="Feature_Gear_Set_Storage">Retirer</string>
+	<string key="loadout_removefromall_command" rel_version="Feature_Gear_Set_Storage">Retirer de tous</string>
 	<string key="loadout_store_callout" rel_version="Feature_Gear_Set_Storage">Déverrouiller des ens. d'équipement suppl.</string>
 	<string key="loadout_toggle_show_hint" rel_version="Feature_Gear_Set_Storage">Afficher les ensembles d'équipement</string>
 	<string key="loadout_toggle_hide_hint" rel_version="Feature_Gear_Set_Storage">Cacher les ensembles d'équipement</string>
@@ -220,6 +221,7 @@
 	<string key="loadout_importall_title" rel_version="Feature_Gear_Set_Storage">Tout importer</string>
 	<string key="loadout_importall_message" rel_version="Feature_Gear_Set_Storage">Voulez-vous vraiment ajouter tous les objets équipés à cet ensemble d'équipement ?</string>
 	<string key="loadout_locked_message" rel_version="Feature_Gear_Set_Storage">Se déverrouille au niveau {level}</string>
+	<string key="loadout_wheel_locked_message" rel_version="Feature_Gear_Set_Storage">La roue d'ensembles d'équipement est déverrouillée au niveau {level}.</string>
 	<string key="loadout_currently_equipped" rel_version="Feature_Gear_Set_Storage">Ensemble d'équipement : {loadoutName}</string>
 	<string key="loadout_error" rel_version="Feature_Gear_Set_Storage">Erreur d'ensemble d'équipement</string>
 	<string key="loadout_notification_equip_success" rel_version="Feature_Gear_Set_Storage">{loadoutName} : équipé</string>

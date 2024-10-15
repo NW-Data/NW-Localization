@@ -1,10 +1,11 @@
 <resources>
 	<string key="ui_receivedgroupinvitetitle_pvp" comment="">Invitación de grupo de PvP</string>
 	<string key="ui_receivedgroupinvitetitle_pve" comment="">Invitación de grupo</string>
-	<string key="ui_receivedgroupinvitemessage_pvp" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a unirte a un grupo de PvP.\n¿Quieres aceptar la invitación?</string>
-	<string key="ui_receivedgroupinvitemessage_pve" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a unirte a un grupo de PvE.\n¿Quieres aceptar la invitación?</string>
+	<string key="ui_receivedgroupinvitemessage_pvp" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a unirte a un grupo de PvP.</string>
+	<string key="ui_receivedgroupinvitemessage_pve" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a un grupo de PvE.</string>
 	<string key="ui_receivedgroupinvitemessage_pvp_wrong_flag" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a unirte a un grupo de PvP.\nDebes habilitar la marca de PvP en un santuario para aceptar esta invitación.</string>
 	<string key="ui_receivedgroupinvitemessage_pve_wrong_flag" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a unirte a un grupo de PvE.\nDebes inhabilitar la marca de PvP en un santuario para aceptar esta invitación.</string>
+	<string key="ui_receivedgroupinvitemessage_ffa" rel_version="Territory_CutlassKeys_Rework">No puedes aceptar invitaciones de grupo mientras estés en la zona de PvP todos contra todos.</string>
 	<string key="ui_acceptgroupinviteblocked_pvp" comment="">Habilita la marca de PvP en un santuario para aceptar esta invitación de grupo de PvP.</string>
 	<string key="ui_acceptgroupinviteblocked_pve" comment="">Inhabilita la marca de PvP en un santuario para aceptar esta invitación de grupo de PvE.</string>
 	<string key="ui_receivedgroupinvite_decline" comment="">Rechazar</string>
@@ -48,6 +49,7 @@
 	<string key="ui_numgroupinvites" comment="">({numInvites})</string>
 	<string key="ui_groupmemberdeathsdoor" comment="">En la puerta de la muerte</string>
 	<string key="ui_groupmemberdead" comment="">Muerto</string>
+	<string key="ui_add_to_group" comment="">Agregar al grupo</string>
 	<string key="ui_leavegroup" comment="">Salir del grupo</string>
 	<string key="ui_choose_role" comment="">Elegir rol</string>
 	<string key="ui_role_disabled_is_current_role">Este es tu rol actual.</string>
@@ -70,17 +72,41 @@
 	<string key="ui_cannotleavegroup_in_outpost_rush" comment="">No puedes dejar el grupo mientras estás en un avance a un puesto de avanzada.</string>
 	<string key="ui_cannotinvitein_pvp_wrong_faction" comment="">La facción debe ser la misma para el grupo de PvP.</string>
 	<string key="ui_cannotinvitein_player_in_cw_instance" comment="">No puedes invitar a nadie mientras están entre mundos.</string>
+	<string key="ui_cannotinvitein_player_ffa" rel_version="Territory_CutlassKeys_Rework">No puedes invitar a nadie mientras esté en la zona de PvP todos contra todos.</string>
+	<string key="ui_cannotinvitein_player_ffa_self" rel_version="Territory_CutlassKeys_Rework">No puedes invitar a nadie mientras estés en la zona de PvP todos contra todos.</string>
 	<string key="ui_cannotleavegroup_in_arena" comment="">No puedes abandonar el grupo mientras estás en una arena.</string>
 	<string key="ui_cannotleavegroup_in_war" comment="">No puedes dejar el grupo mientras estás en una guerra.</string>
 	<string key="ui_cannotleavegroup_in_invasion" comment="">No puedes abandonar el grupo mientras estás en una invasión.</string>
 	<string key="ui_cannotleavegroup_in_dungeon" comment="">No puedes dejar el grupo mientras estás en una expedición.</string>
 	<string key="ui_cannotjoingroup_in_arena" comment="">No puedes unirte a otro grupo mientras estás en una arena.</string>
 	<string key="ui_cannotjoingroup_in_dungeon" comment="">No puedes unirte a un grupo distinto mientras estás en una expedición.</string>
+	<string key="ui_cannotjoingroup_at_this_time" comment="">No puedes unirte a un grupo distinto en este momento.</string>
 	<string key="ui_pvp_group" comment="">Grupo de PvP</string>
 	<string key="ui_groupedalreadyerrormessage" comment="">&lt;font color="#ebe3d6"&gt;{playerName}&lt;/font&gt; ya está en un grupo.</string>
 	<string key="ui_groupalreadyinvitederrortitle" comment="">Ya enviaste la invitación</string>
 	<string key="ui_groupalreadyinvitederrormessage" comment="">Ya invitaste a &lt;font color="#ebe3d6"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_groupnotavailableerrormessage" comment="">El grupo de {playerName} ya no está disponible.</string>
+	<string key="ui_groupgameinviteunabletojoin" comment="This is the generic for any non-specific case">No puedes unirte a {playerName} desde la invitación al juego.</string>
+	<string key="ui_gameinviteerror_failedtogetreplication" comment="">No puedes unirte desde la invitación al juego. Error al obtener datos de replicación.</string>
+	<string key="ui_gameinviteerror_bypassdisabled" comment="">No puedes unirte desde la invitación al juego. Esta función está desactivada.</string>
+	<string key="ui_gameinviteerror_invalidinviter" comment="">No puedes unirte desde la invitación al juego. No se encontró la persona que te invitó.</string>
+	<string key="ui_gameinviteerror_invalidinvitedata" comment="">La invitación al juego no es válida. No puedes unirte.</string>
+	<string key="ui_gameinviteerror_pendinggroupinvite" comment="">No puedes unirte a {playerName} desde la invitación al juego. Tienes una invitación de grupo pendiente.</string>
+	<string key="ui_gameinviteerror_joinedothergroup" comment="">No puedes unirte a {playerName} desde la invitación al juego. Se unió a otro grupo.</string>
+	<string key="ui_gameinviteerror_timedout" comment="">No puedes unirte a {playerName} desde la invitación al juego. Se agotó el tiempo de la invitación de grupo.</string>
+	<string key="ui_gameinviteerror_playerdisconnected" comment="">No puedes unirte desde la invitación al juego. {playerName} se desconectó.</string>
+	<string key="ui_gameinviteerror_groupfull" comment="">No puedes unirte desde la invitación al juego. El grupo de {playerName} ya está lleno.</string>
+	<string key="ui_gameinviteerror_withdrawn" comment="">No puedes unirte desde la invitación al juego. La invitación fue retirada.</string>
+	<string key="ui_gameinviteerror_inmatchmaking" comment="">No puedes unirte desde la invitación al juego. {playerName} ahora está en el emparejamiento.</string>
+	<string key="ui_gameinviteerror_inftue" comment="">No puedes unirte desde la invitación al juego. {playerName} está jugando el tutorial.</string>
+	<string key="ui_gameinviteerror_ingamemode" comment="">No puedes unirte desde la invitación al juego. {playerName} ahora está en un modo de juego que no acepta invitaciones.</string>
+	<string key="ui_gameinviteerror_inwar" comment="">No puedes unirte desde la invitación al juego. {playerName} ahora está luchando en una guerra.</string>
+	<string key="ui_gameinviteerror_inffa" comment="">No puedes unirte desde la invitación al juego. {playerName} ahora está en PvP todos contra todos.</string>
+	<string key="ui_gameinviteerror_inraid" comment="">No puedes unirte desde la invitación al juego. {playerName} ahora está en un grupo de incursión.</string>
+	<string key="ui_gameinviteerror_streamermodeblock" comment="">No puedes unirte desde la invitación al juego. {playerName} está en modo "No molestar".</string>
+	<string key="ui_gameinviteerror_invalidfaction" comment="">No puedes unirte desde la invitación al juego. Debes estar en la misma facción.</string>
+	<string key="ui_gameinviteerror_iscrossworld" comment="">No puedes unirte desde la invitación al juego. {playerName} está en el modo entre mundos.</string>
+	<string key="ui_gameinvite_errordecoding" comment="">Ocurrió un error al procesar la invitación al juego.</string>
 	<string key="ui_groupmaxinviteserrormessage" comment="">No se puede invitar a {playerName}; alcanzaste tu número máximo de invitaciones.</string>
 	<string key="ui_groupfromplayerofflineerrormessage" comment="">Invitación de grupo eliminada: {playerName} se desconectó.</string>
 	<string key="ui_groupinvitetoplayerofflineerrormessage" comment="">No se pudo invitar al grupo: {playerName} se desconectó.</string>
@@ -90,6 +116,9 @@
 	<string key="ui_groupinvitefailedgroupfullmessage" comment="">Error de invitación de grupo: el grupo de {playerName} ahora está lleno.</string>
 	<string key="ui_groupinvitefailederrormessage" comment="">No se pudo responder a la invitación del grupo de {playerName}.</string>
 	<string key="ui_groupinvitefailedraid" comment="">No se ha respondido a la invitación</string>
+	<string key="ui_groupjoinfailedgamemode">No se puede unir al grupo mientras el grupo está en una actividad.</string>
+	<string key="ui_groupjoinfailedpendinggroupinvite">Error al unirse al grupo debido a una invitación de grupo pendiente.</string>
+	<string key="ui_groupjoinfailedmatchmaking">Error al unirse al grupo debido al emparejamiento.</string>
 	<string key="ui_acceptinvitepopuptitle" comment="">¿Quieres unirte a un nuevo grupo?</string>
 	<string key="ui_acceptinvitepopupmessage" comment="">¿Confirmas que quieres salir del grupo y unirte a uno nuevo?</string>
 	<string key="ui_insamegrouperrormessage" comment="">{playerName} ya está en tu grupo.</string>
@@ -100,6 +129,7 @@
 	<string key="ui_groupinvitetimedouterrormessage" comment="">Se agotó el tiempo de la invitación de grupo de {playerName}.</string>
 	<string key="ui_groupinvitetimedoutraid" comment="">La invitación de grupo ha caducado.</string>
 	<string key="ui_invitetogroup" comment="">Invitar al grupo</string>
+	<string key="ui_invitenolongervalid" comment="">La invitación ya no es válida.</string>
 	<string key="ui_votekick" comment="">Votar para expulsar</string>
 	<string key="ui_votekick_tooltip" comment="">Inicia una votación para expulsar a este jugador de tu grupo. \nSolo puedes iniciar una votación cada {cooldown}.</string>
 	<string key="ui_votekick_disabled_inevent" comment="">No puedes votar para expulsar durante este evento.</string>
@@ -149,7 +179,7 @@
 	<string key="ui_ping_type_Loot" comment="">Botín aquí</string>
 	<string key="ui_ping_type_Repair" comment="">Reparación aquí</string>
 	<string key="ui_ping_type_NeedHealing" comment="">Se necesita sanación</string>
-	<string key="ui_ping_type_NeedHelp" comment="">Se necesita ayuda</string>
+	<string key="ui_ping_type_NeedHelp" comment="">Ayuda</string>
 	<string key="ui_ping_type_NeedRevive" comment="">Se necesita reanimación</string>
 	<string key="ui_ping_type_chat_Danger" comment="">{playerName} marcó Peligro aquí</string>
 	<string key="ui_ping_type_chat_Move" comment="">{playerName} marcó Movimiento aquí</string>
@@ -199,13 +229,15 @@
 	<string key="ui_raid_not_signedup_remote_description" comment="">No te has registrado para esta guerra. ¡Dirígete a un tablero de guerra para registrarte!</string>
 	<string key="ui_raid_not_signedup_description" comment="">No te registraste para esta guerra. ¡Regístrate para la guerra ahora!</string>
 	<string key="ui_invasion_standby_description" comment="">Conéctate a las {time} del {date}. Los jugadores se seleccionarán aleatoriamente a esa hora.</string>
-	<string key="ui_empty_roster_instruction" comment="">Arrastra a los jugadores aquí\ndesde la lista de espera de la derecha.</string>
+	<string key="ui_empty_roster_instruction" comment="">Agrega jugadores aquí\ndesde la lista de espera.</string>
+	<string key="ui_empty_roster_instruction_controller" comment="">Agrega jugadores a la lista de espera.</string>
+	<string key="ui_raid_move_mode_instructions" comment="">Selecciona el destino para {playerName}.</string>
 	<string key="ui_backfill_tooltip" comment="">La compañía puede decidir cómo rellenar los lugares vacíos cuando los jugadores seleccionados se retiran antes de que finalice la guerra.</string>
 	<string key="ui_backfill_auto_tooltip" comment="">Rellenar automáticamente con los jugadores de la lista de espera en función de la hora de registro.</string>
 	<string key="ui_backfill_manual_tooltip" comment="">Seleccionar manualmente a los jugadores de la lista de espera para cubrir los lugares libres.</string>
-	<string key="ui_raid_count" comment="">&lt;font color="#ebe3d6"&gt;{number}&lt;/font&gt; / {total}</string>
+	<string key="ui_raid_count" comment="">&lt;font color="#ebe3d6"&gt;{number}&lt;/font&gt;/{total}</string>
 	<string key="ui_raid_count_with_mercenaries" comment="">Mercenarios: &lt;font color="#ebe3d6"&gt;{nonCompanyNumber}&lt;/font&gt;/{nonCompanyTotal} Total: &lt;font color="#ebe3d6"&gt;{number}&lt;/font&gt;/{total}</string>
-	<string key="ui_invasion_count" comment="">&lt;font color="#ebe3d6"&gt;{number}&lt;/font&gt; / {total}</string>
+	<string key="ui_invasion_count" comment="">&lt;font color="#ebe3d6"&gt;{number}&lt;/font&gt;/{total}</string>
 	<string key="ui_promote_disabled_max_tooltip" comment="">No se puede ascender más a este jugador.</string>
 	<string key="ui_demote_disabled_min_tooltip" comment="">No se puede degradar más a este jugador.</string>
 	<string key="ui_remove_army" comment="">Eliminar del ejército</string>
@@ -234,8 +266,10 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_fail">La votación para abandonar no consiguió la cantidad necesaria de votos</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_timed_out">Se agotó el tiempo de la votación para abandonar</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_in_progress">Ya hay una votación para abandonar en progreso</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_not_available">El voto para abandonar una actividad no está disponible para grupos ya conformados. Puedes abandonar esta actividad sin sufrir una penalización.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_active">Ya hay en curso una votación para abandonar esta actividad. Puedes volver a intentar cuando se haya completado.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_on_cooldown">No puedes iniciar una votación para abandonar la actividad durante el tiempo de reutilización</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_dungeon_complete">No puedes iniciar una votación para abandonar después de que se completó la actividad.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_tooltip">Activa una votación para abandonar esta expedición como grupo sin sufrir una penalización de desertor.\n\nLa penalización (20 minutos) se aplica cuando se abandona una expedición dentro de los primeros 10 minutos.\n\nNecesitas la mayoría de votos para que la votación tenga éxito.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid">Invitar a la incursión</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid_groupprioritysubtext">Los jugadores invitados llenarán el grupo {groupIndex} primero.</string>
@@ -273,8 +307,8 @@
 	<string rel_version="Feature_Raid_Groups" key="ui_raidinvitesentmessage">Se envió la invitación a la incursión a &lt;font color="#ebe3d6"&gt;{playerName}&lt;/font&gt;.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitetitle_pvp">Invitación a incursión de PvP</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitetitle_pve">Invitación a incursión</string>
-	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pvp">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a unirte a una incursión de PvP.\n¿Quieres aceptar la invitación?</string>
-	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pve">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a unirte a una incursión de PvE.\n¿Quieres aceptar la invitación?</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pvp">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a una incursión de PvP.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pve">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a una incursión de PvE.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pvp_wrong_flag">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a unirte a un incursión de PvP.\nDebes habilitar la marca de PvP en un santuario para aceptar esta invitación.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pve_wrong_flag">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a unirte a una incursión de PvE.\nDebes inhabilitar la marca de PvP en un santuario para aceptar esta invitación.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_acceptraidinviteblocked_pvp">Habilita la marca de PvP en un santuario para aceptar esta invitación de incursión de PvP</string>
@@ -312,9 +346,5 @@
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups">Ocultar otros grupos en el HUD</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups_tooltip">Oculta otros subgrupos en el HUD de la incursión y solo muestra tu propio grupo.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_kick">Expulsar de la incursión</string>
-	<string key="ui_abandon_vote_not_available">El voto para abandonar una actividad no está disponible para grupos ya conformados. Puedes abandonar esta actividad sin sufrir una penalización.</string>
-	<string key="ui_cannotjoingroup_at_this_time">No puedes unirte a un grupo distinto en este momento.</string>
-	<string key="ui_cannot_start_abandon_dungeon_complete">No puedes iniciar una votación para abandonar después de que se completó la actividad.</string>
-	<string key="ui_invitenolongervalid">La invitación ya no es válida.</string>
 </resources>
 

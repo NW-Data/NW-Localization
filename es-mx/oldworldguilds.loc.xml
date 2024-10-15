@@ -39,6 +39,9 @@
 	<string key="owg_desc_merchantt1">Viaja a &lt;font color="#b2aea1"&gt;{destinationName}&lt;/font&gt; y entrega el objeto &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt;.</string>
 	<string key="owg_desc_procurementt1">Adquiere &lt;font color="#b2aea1"&gt;{itemAmount} {itemName}&lt;/font&gt;.</string>
 	<string key="owg_detailed_rewardtype_standing">&lt;img src="lyshineui/images/icons/objectives/reward_territorystanding" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ebe3d6"&gt; {amount} &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Medium.font"&gt;de posición del territorio&lt;/font&gt;</string>
+	<string key="owg_detailed_rewardtype_standing_short">&lt;img src="lyshineui/images/icons/objectives/reward_territorystanding" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ebe3d6"&gt; {amount}&lt;/font&gt;</string>
+	<string key="owg_rewardtype_currency_short">&lt;img src="lyshineui/images/icons/objectives/reward_coin" xPadding="0" scale="1.8" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ebe3d6" &gt; {amount}&lt;/font&gt;</string>
+	<string key="owg_rewardtype_experience_short">&lt;img src="lyshineui/images/icons/misc/icon_xp" xPadding="0" scale="1.9" yOffset="5"&gt;&lt;/img&gt; &lt;font color="#ebe3d6" &gt; {amount}&lt;/font&gt;</string>
 	<string key="owg_drop_item_notification">Objeto de misión dejado</string>
 	<string key="owg_drop_item_title">Aparición de un objeto de misión</string>
 	<string key="owg_drop_item_warning">Si dejas caer o almacenas este objeto, se destruirá.</string>
@@ -49,7 +52,7 @@
 	<string key="owg_faction_select_title_incompany" rel_version="Feature_Unfactioned_Company_Members">¡Advertencia! ¡Tu compañía tiene una facción diferente!</string>
 	<string key="owg_faction_select_warning">Esta decisión no puede revertirse.</string>
 	<string key="owg_faction_select_yes">Sí, quiero sumarme a la facción {faction}</string>
-	<string key="owg_faction_select_confirm">Solo podrás unirte a una compañía con jugadores de la misma facción. Si está activada para JcJ, solo podrás formar grupo con jugadores de la misma facción. Antes de unirte, puede que quieras comprobar dos veces qué facciones han elegido tus amigos en New World.\n\nTu elección no será permanente: puedes cambiar de facción desde la pantalla Bio una vez. Después, podrás cambiarla cada &lt;font color="#edc63e"&gt;60 días&lt;/font&gt;.</string>
+	<string key="owg_faction_select_confirm">Solo podrás unirte a una compañía con jugadores de la misma facción. Si está activada para PvP, solo podrás formar grupo con jugadores de la misma facción. Antes de unirte, puede que quieras comprobar dos veces qué facciones han elegido tus amigos en New World: Aeternum.\n\nTu elección no será permanente: puedes cambiar de facción desde la pantalla Bio una vez. Después, podrás cambiarla cada &lt;font color="#edc63e"&gt;30 días&lt;/font&gt;.</string>
 	<string key="owg_factionwarinfo_desc_1">Súmate a 1 de las 3 facciones en guerra para aumentar tu experiencia en Aeternum. Para recibir poderosas recompensas, compite contra las demás facciones y altera la influencia en cada territorio.</string>
 	<string key="owg_factionwarinfo_desc_2">Para combatir contra otros jugadores, debes pertenecer a una facción. Luego, activa la marca de PvP cuando estés en el interior de un asentamiento. Una vez que hayas activado la marca, podrás dañar a jugadores de facciones opuestas que también la hayan activado. (Verás la cimera en sus placas de identificación).</string>
 	<string key="owg_factionwarinfo_desc_3">En breve: Cuando completas las misiones que te ordena el representante de tu facción dentro de un asentamiento, ganas puntos de influencia en la facción para ese territorio. La influencia en la facción es el medio para proteger los territorios o declararle la guerra a un enemigo.</string>
@@ -143,7 +146,7 @@
 	<string key="owg_rank_bounty_4" xsi:nil="true"/>
 	<string key="owg_rank_bounty_5" xsi:nil="true"/>
 	<string key="owg_rank_explorer_1">Iniciado</string>
-	<string key="owg_rank_explorer_2">Caballero templario</string>
+	<string key="owg_rank_explorer_2">Templario</string>
 	<string key="owg_rank_explorer_3">Excubitor</string>
 	<string key="owg_rank_explorer_4">Iluminado</string>
 	<string key="owg_rank_explorer_5">Mediador</string>
@@ -154,7 +157,7 @@
 	<string key="owg_rank_merchant_4">Cabalista</string>
 	<string key="owg_rank_merchant_5">Alquimista</string>
 	<string key="owg_rank_merchant_6" rel_version="FactionShop_V3">Magus</string>
-	<string key="owg_rank_number">Rango &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{rank}&lt;/font&gt;.</string>
+	<string key="owg_rank_number">Rango &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{rank}&lt;/font&gt;.</string>
 	<string key="owg_rank_procurer_1">Soldado</string>
 	<string key="owg_rank_procurer_2">Gladiador</string>
 	<string key="owg_rank_procurer_3">Destructor</string>
@@ -257,7 +260,7 @@
 	<string key="owg_pvp_cannotacceptmission_unknown">No puedes aceptar una &lt;font color="#b2aea1"&gt;misión PVP&lt;/font&gt; en este momento.</string>
 	<string key="owg_tooltip_warning">Solo puedes tener una misión activa a la vez.</string>
 	<string key="owg_unlock_previous_rank">Rango {rankName} desbloqueado</string>
-	<string key="owg_unlock_rank">D E S B L O Q U E A R &lt;font face="lyshineui/fonts/CaslonAnt.font" color={azothTextColor}&gt; {azoth}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.2" yOffset="0"&gt;&lt;/img&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font" color={coinTextColor}&gt; {coin}&lt;/font&gt;&lt;img src="lyshineui/images/icons/objectives/reward_coin" xPadding="0" scale="1.2" yOffset="4"&gt;&lt;/img&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font" color={influenceTextColor}&gt; {token}&lt;/font&gt;&lt;img src="{icon}" xPadding="0" scale="1.4" yOffset="7"&gt;&lt;/img&gt;</string>
+	<string key="owg_unlock_rank">D E S B L O Q U E A R &lt;font face="lyshineui/fonts/Pica_Regular.font" color={azothTextColor}&gt; &lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.2" yOffset="0"&gt; {azoth}&lt;/img&gt;&lt;font face="lyshineui/fonts/Pica_Regular.font" color={coinTextColor}&gt; &lt;/font&gt;&lt;img src="lyshineui/images/icons/objectives/reward_coin" xPadding="0" scale="1.2" yOffset="4"&gt; {coin}&lt;/img&gt;&lt;font face="lyshineui/fonts/Pica_Regular.font" color={influenceTextColor}&gt; &lt;/font&gt;&lt;img src="{icon}" xPadding="0" scale="1.4" yOffset="7"&gt;&lt;/img&gt; {token}</string>
 	<string key="owg_currency">Tokens de facción</string>
 	<string key="owg_influence_to_rank">{influence} para {rankName}</string>
 	<string key="owg_company">Compañía</string>
@@ -410,10 +413,10 @@
 	<string key="FactionMission_PRESERVE_desc">Bendice a {POITags} con la luz de la chispa.</string>
 	<string key="FactionMission_M_EXPEDITIONRAID_desc_singular">Adéntrate en {POITags} en nombre de los saqueadores y derrota a los &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#b2aea1"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONRAID_title">Asaltar a {POITags}</string>
-	<string key="FactionMission_EXPEDITIONRAID_desc">Adéntrate en {POITags} en nombre del sindicato y derrota a todos los ejemplares de &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; necesarios. \n\n &lt;font color="#b2aea1"&gt;(Expedición)&lt;/font&gt;</string>
-	<string key="FactionMission_EXPEDITIONRAID_desc_singular">Adéntrate en {POITags} en nombre del sindicato y derrota a los &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#b2aea1"&gt;(Expedición)&lt;/font&gt;</string>
+	<string key="FactionMission_EXPEDITIONRAID_desc">Adéntrate en {POITags} en nombre de los saqueadores y derrota a todos los ejemplares de &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt; necesarios. \n\n &lt;font color="#b2aea1"&gt;(Expedición)&lt;/font&gt;</string>
+	<string key="FactionMission_EXPEDITIONRAID_desc_singular">Adéntrate en {POITags} en nombre de los saqueadores y derrota a los &lt;font color="#b2aea1"&gt;{enemyName}&lt;/font&gt;. \n\n &lt;font color="#b2aea1"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_EXPEDITIONLOOT_title">Saquea {POITags}</string>
-	<string key="FactionMission_EXPEDITIONLOOT_desc">Adéntrate en {POITags} en nombre del sindicato y recoge todas las unidades de &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt; que haya allí. \n\n&lt;font color="#b2aea1"&gt;(Expedición)&lt;/font&gt;</string>
+	<string key="FactionMission_EXPEDITIONLOOT_desc">Adéntrate en {POITags} en nombre de los saqueadores y recoge todas las unidades de &lt;font color="#b2aea1"&gt;{itemName}&lt;/font&gt; que haya allí. \n\n&lt;font color="#b2aea1"&gt;(Expedición)&lt;/font&gt;</string>
 	<string key="FactionMission_INTERCEPT_title">Dominar (JcJ)</string>
 	<string key="FactionMission_INTERCEPT_desc">Derrota a miembros del &lt;font color="#b2aea1"&gt;sindicato&lt;/font&gt; o del &lt;font color="#b2aea1"&gt;pacto&lt;/font&gt; por la gloria de los saqueadores.\n\n (Esta misión mantiene tu progreso incluso si mueres)</string>
 	<string key="FactionMission_S_INTERCEPT_title">Erradicar (JcJ)</string>
@@ -560,11 +563,13 @@
 	<string key="ui_cant_switch_faction_sanctuary">Debes estar en un santuario para cambiar de facción.</string>
 	<string key="ui_cant_switch_faction_war">No puedes cambiar de facción si te registraste para una guerra.</string>
 	<string key="ui_cant_switch_faction_intro">No le has demostrado a esta facción que estás a la altura. Habla con un representante de la facción para unirte.</string>
-	<string key="ui_cant_switch_faction_incompany" rel_version="Feature_Unfactioned_Company_Members">Actualmente estás en una compañía asociada con una facción diferente. Si continúas, serás expulsado de esa compañía.\n\nSolo podrás unirte a una compañía aliada con tu facción. Si tienes la marca activada para PvP, solo podrás formar grupo con jugadores de la misma facción. Antes de unirte, comprueba qué facciones han elegido tus amigos.\n\nTu elección no será permanente: puedes cambiar de facción desde la pantalla Bio una vez. Después, podrás cambiarla cada &lt;font color="#edc63e"&gt;60 días&lt;/font&gt;.</string>
+	<string key="ui_cant_switch_faction_incompany" rel_version="Feature_Unfactioned_Company_Members">Actualmente estás en una compañía asociada con una facción diferente. Si continúas, serás expulsado de esa compañía.\n\nSolo podrás unirte a una compañía aliada con tu facción. Si tienes la marca activada para PvP, solo podrás formar grupo con jugadores de la misma facción. Antes de unirte, comprueba qué facciones han elegido tus amigos.\n\nTu elección no será permanente: puedes cambiar de facción desde la pantalla Bio una vez. Después, podrás cambiarla cada &lt;font color="#edc63e"&gt;30 días&lt;/font&gt;.</string>
 	<string key="ui_join">Unirse</string>
-	<string key="ui_faction_join_restrictions">Puedes cambiar la facción una vez cada 60 días y solo podrás unirte a una compañía aliada con tu facción.</string>
+	<string key="ui_faction_join_restrictions">Puedes cambiar la facción una vez cada 30 días y solo podrás unirte a una compañía aliada con tu facción.</string>
 	<string key="no_upcoming_conflicts_all" rel_version="Feature_Influence_V2">No hay ningún conflicto inminente programado.</string>
 	<string key="pvp_mission_disabled_no_conflict" rel_version="Feature_Influence_V2">Las misiones PvP estarán disponibles cuando comience una guerra, invasión o carrera programada.</string>
+	<string key="pvp_mission_none_available" rel_version="Feature_Influence_V2">No hay misiones PvP disponibles en este momento. Consulta de nuevo más tarde.</string>
+	<string key="pvp_mission_disabled" rel_version="Feature_Influence_V2">Las misiones PvP no están disponibles en este lugar.</string>
 	<string key="influence_race_scheduled_title" rel_version="Feature_Influence_V2">CARRERA DE INFLUENCIA PROGRAMADA</string>
 	<string key="influence_race_schedule_info" rel_version="Feature_Influence_V2">Hay una carrera de influencia programada en {territoryName} el\n{date}, de {startTime} a {endTime}.</string>
 	<string key="influence_race_scheduled_multiple" rel_version="Feature_Influence_V2">Se han programado carreras de influencia en los siguientes territorios:\n{territoryNameList}</string>

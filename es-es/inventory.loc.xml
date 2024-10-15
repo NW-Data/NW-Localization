@@ -1,13 +1,13 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="inv_DroppedItems">Objetos soltados</string>
-	<string key="inv_Dropped">Soltado</string>
+	<string key="inv_Dropped">Objetos</string>
 	<string key="inv_Storage">Almacenamiento</string>
 	<string key="inv_itemDamaged">Objetos con daños importantes: {num}. Deberías hacer una reparación pronto.</string>
 	<string key="inv_itemBroken">Objetos rotos: {num}.</string>
 	<string key="inv_broken">ROTO</string>
 	<string key="inv_unequip">Desequipar</string>
 	<string key="inv_dropTargetMessage">Soltar objetos</string>
-	<string key="inv_discard_life_warning">Los demás jugadores no podrán ver ni coger los objetos que sueltes. Los objetos desaparecerán de forma permanente pasados 3 minutos.</string>
+	<string key="inv_discard_life_warning">Los objetos soltados abajo se destruirán en 3 minutos. Solo tú puedes ver o coger estos objetos.</string>
 	<string key="inv_encumbered">Carga excesiva</string>
 	<string key="inv_unencumbered">Sin carga excesiva</string>
 	<string key="inv_slotsfull">Límite de objetos alcanzado</string>
@@ -26,7 +26,8 @@
 	<string key="inv_pvparenas">Arenas JcJ</string>
 	<string key="inv_runes" rel_version="Feature_Heartgems">Runas</string>
 	<string key="inv_mountitem" rel_version="Feature_Mounts">Monturas</string>
-	<string key="inv_crafting_modifiers">Fabricación</string>
+	<string key="inv_patternitem" rel_version="Feature_Patterns">Patrones</string>
+	<string key="inv_crafting_modifiers">Modificadores de fabricación</string>
 	<string key="inv_repair_kit_count">Kit de reparación: {count}</string>
 	<string key="inv_repair_kits">Kits de reparación</string>
 	<string key="inv_baits">Pesca</string>
@@ -68,7 +69,7 @@
 	<string key="inv_equipLoadSlow">Pesado</string>
 	<string key="inv_equipLoadOverburdened">Exceso de equipamiento.</string>
 	<string key="inv_equipLoadTooltip">El peso combinado de la armadura y el escudo que llevas equipados determina tu carga de equipo. Cada carga de equipo ofrece una capacidad de esquivar diferente y otros efectos.</string>
-	<string key="inv_equipLoadFastTooltip">• Daño base: +{[0.150000 * 100]} % \n• Curación a objetivos: +30 % \n• Estabilidad de bloqueo: -10 % \n• Ruedas rápidamente para esquivar. \n• Coste de vitalidad de esquivar: {[50.000000]} \n• Durante {[1.000000]} s después de recibir un golpe cuerpo a cuerpo, la distancia de esquivar se reduce en un 20 % y no puedes correr. \n• Daño crítico de JcJ recibido: -{[0.150000 * 100]} %	
+	<string key="inv_equipLoadFastTooltip">• Daño base: +{[0.150000 * 100]} % \n• Curación a objetivos: +30 %\n• Estabilidad de bloqueo: -10 % \n• Ruedas rápidamente para esquivar. \n• Coste de vitalidad de esquivar: {[50.000000]} \n• Durante {[1.000000]} s después de recibir un golpe cuerpo a cuerpo, la distancia de esquivar se reduce en un 20 % y no puedes correr. \n• Daño crítico de JcJ recibido: -{[0.150000 * 100]} %	
 	</string>
 	<string key="inv_equipLoadNormalTooltip">• Saltas rápidamente para esquivar. \n• Coste de vitalidad de esquivar: {[50.000000]} \n• Duración del control de multitudes recibido: -10 % \n• Durante {[0.750000]} s después de recibir un golpe cuerpo a cuerpo, la distancia de esquivar se reduce en un 20 % y no puedes correr. \n• Daño crítico de JcJ recibido: -{[0.200000 * 100]} %
 	</string>
@@ -112,8 +113,8 @@
 	<string key="salvage_notification_obtained_5_plus">Has obtenido {entry1}, {entry2}, {entry3}, {entry4} y {numRemaining} más.</string>
 	<string key="salvage_notification_item_reward">&lt;img src="{icon}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; &lt;font color={color}&gt;{quantity} {itemName}&lt;/font&gt;</string>
 	<string key="salvage_notification_repair_parts_reward">&lt;img src="lyshineui/images/icons/items/resource/repairpartst1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;&lt;font color={color}&gt; {quantity} piezas de reparación&lt;/font&gt;</string>
-	<string key="salvage_notification_coin_reward">&lt;font color={color}&gt;{quantity} &lt;/font&gt;&lt;img src="lyshineui/images/Icon_Crown" xPadding="0" scale="1.3" yOffset="2"&gt;&lt;/img&gt;</string>
-	<string key="salvage_notification_azoth_reward">&lt;font color={color}&gt;{quantity} &lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.3" yOffset="0"&gt;&lt;/img&gt;</string>
+	<string key="salvage_notification_coin_reward">&lt;img src="lyshineui/images/Icon_Crown" xPadding="0" scale="1.3" yOffset="2"&gt;&lt;/img&gt; &lt;font color={color}&gt;{quantity} &lt;/font&gt;</string>
+	<string key="salvage_notification_azoth_reward">&lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.3" yOffset="0"&gt;&lt;/img&gt; &lt;font color={color}&gt;{quantity} &lt;/font&gt;</string>
 	<string key="salvage_notification_pefectly_salvaged">¡Aprovechado a la perfección!</string>
 	<string key="salvage_notification_pefectly_salvaged_item">&lt;font color={color}&gt;{itemName}&lt;/font&gt; x{quantity}</string>
 	<string key="fc_campingtitle">Campamento</string>
@@ -160,7 +161,7 @@
 	<string key="ui_dropall_in_trade">No puedes soltar objetos al comerciar.</string>
 	<string key="ui_transfer_all_filtered">No se pueden mover todos los objetos de la sección mientras estén filtrados.</string>
 	<string key="ui_storeall">Guardar todo en el cobertizo de almacenamiento.</string>
-	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO FILTRAR OBJETOS&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtrar por&lt;/font&gt;\n• Nombre del objeto (p. ej.: espada -hacha)\n• Ventajas/Gemas (p. ej.: [Protección] - [Suerte])\n• Puntuación mínima de equipo (p. ej.: 100)\n• Clase mínima (p. ej.: C1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Ejemplos&lt;/font&gt;\n• Espada 200\n• Hacha C1\n• Pico - Hierro\n• Mosquete [Electrificado]</string>
+	<string key="ui_filterDescription">&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO BUSCAR&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Refinar&lt;/font&gt;\n• Incluye: Espada\n• No incluye: -Hacha\n• Ventajas o gemas: [Protección]\n• Puntuación mínima de equipo: 100\n• Clase mínima: C1\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Avanzado&lt;/font&gt;\n• Espada -200\n• -Hacha -C1\n• Pico - Hierro\n• Mosquete [Electrificado]</string>
 	<string key="ui_filterText">Buscar</string>
 	<string key="ui_filterHeader">Filtrar objetos</string>
 	<string key="ui_sort">Ordenar</string>
@@ -204,11 +205,11 @@
 	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">CONJ. DE EQUIPO</string>
 	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">CONJUNTOS DE EQUIPO</string>
 	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Los objetos de conjuntos de equipo no forman parte del inventario y no afectan a su peso ni al del almacenamiento.</string>
-	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Enviar al conjunto de equipo</string>
-	<string key="loadout_addfrom_command" rel_version="Feature_Gear_Set_Storage">Sacar del conjunto de equipo</string>
-	<string key="loadout_addtoall_command" rel_version="Feature_Gear_Set_Storage">Añadir a todos los conjuntos de equipo</string>
-	<string key="loadout_removefrom_command" rel_version="Feature_Gear_Set_Storage">Eliminar del conjunto de equipo</string>
-	<string key="loadout_removefromall_command" rel_version="Feature_Gear_Set_Storage">Eliminar de todos los conjuntos de equipo</string>
+	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Añadir a</string>
+	<string key="loadout_addfrom_command" rel_version="Feature_Gear_Set_Storage">Añadir de</string>
+	<string key="loadout_addtoall_command" rel_version="Feature_Gear_Set_Storage">Añadir a todo</string>
+	<string key="loadout_removefrom_command" rel_version="Feature_Gear_Set_Storage">Eliminar</string>
+	<string key="loadout_removefromall_command" rel_version="Feature_Gear_Set_Storage">Eliminar de todo</string>
 	<string key="loadout_store_callout" rel_version="Feature_Gear_Set_Storage">Desbloquear conjuntos de equipo adicional</string>
 	<string key="loadout_toggle_show_hint" rel_version="Feature_Gear_Set_Storage">Mostrar conjuntos de equipo</string>
 	<string key="loadout_toggle_hide_hint" rel_version="Feature_Gear_Set_Storage">Ocultar conjuntos de equipo</string>
@@ -220,6 +221,7 @@
 	<string key="loadout_importall_title" rel_version="Feature_Gear_Set_Storage">Importar todo</string>
 	<string key="loadout_importall_message" rel_version="Feature_Gear_Set_Storage">¿Seguro que quieres añadir todos los objetos equipados a este conjunto de equipo?</string>
 	<string key="loadout_locked_message" rel_version="Feature_Gear_Set_Storage">Se desbloquea en el nivel {level}</string>
+	<string key="loadout_wheel_locked_message" rel_version="Feature_Gear_Set_Storage">La rueda de conjuntos de equipo se desbloquea en el nivel {level}.</string>
 	<string key="loadout_currently_equipped" rel_version="Feature_Gear_Set_Storage">Conjunto de equipo: {loadoutName}</string>
 	<string key="loadout_error" rel_version="Feature_Gear_Set_Storage">Error en el conjunto de equipo</string>
 	<string key="loadout_notification_equip_success" rel_version="Feature_Gear_Set_Storage">Se ha equipado {loadoutName}</string>

@@ -1,6 +1,7 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="PotionHeal_DisplayName">Poción de curación</string>
 	<string key="PotionMana_DisplayName">Poción de maná</string>
+	<string key="Campfire_Desc">Recuperas salud con el tiempo al descansar en el campamento.</string>
 	<string key="MinorPotionRegen_DisplayName">Regeneración ligera de salud</string>
 	<string key="MinorPotionRegen_Tooltip">Proporciona una cantidad pequeña de salud y maná con el paso del tiempo.</string>
 	<string key="MinorPotionEndurance_DisplayName">Regeneración ligera de vitalidad</string>
@@ -69,6 +70,8 @@
 	<string key="PotionBoostVoidAbsT4_Tooltip">Aumenta la absorción del vacío en un {[0.120000 * 100]} %.</string>
 	<string key="PotionBoostVoidAbsT5_Tooltip">Aumenta la absorción del vacío en un {[0.150000 * 100]} %.</string>
 	<string key="eating_DisplayName">Recuperación de salud básica</string>
+	<string key="AI_Season_02_Malek_Sandstorm_DisplayName" rel_version="Season_2_Perm">Tormenta de arena</string>
+	<string key="AI_Season_02_Malek_Sandstorm_Tooltip" rel_version="Season_2_Perm">La ira de las arenas arrecia y te hiere.</string>
 	<string key="drinking_DisplayName">Bebiendo</string>
 	<string key="feasting_DisplayName">Comiendo</string>
 	<string key="ResetAI_DisplayName">Retirada</string>
@@ -76,7 +79,7 @@
 	<string key="PvP_Arena_PreRound_DisplayName" rel_version="Feature_PVP_Arenas">Preparación</string>
 	<string key="PvP_Arena_PreRound_Description" rel_version="Feature_PVP_Arenas">Te estás preparando para el próximo combate. Estás temporalmente silenciado y tus tiempos de recarga se han reiniciado.</string>
 	<string key="PVP_Arena_ScalingHealingDebuff_DisplayName" rel_version="Feature_PVP_Arenas">Curación reducida</string>
-	<string key="PVP_Arena_ScalingHealingDebuff_Tooltip" rel_version="Feature_PVP_Arenas">La curación que recibes de hechizos y consumibles se reduce en un {[-0.100000 * 100]} % por cada acumulación de este estado negativo.</string>
+	<string key="PVP_Arena_ScalingHealingDebuff_Tooltip" rel_version="Feature_PVP_Arenas">Toda la curación recibida se reduce en un {[-0.060000 * -100]} %, y la curación otorgada en un {[-0.03 * -100]} % por cada acumulación de este estado negativo.</string>
 	<string key="MinorFoodMagicAbsorption_DisplayName">Absorción arcana menor</string>
 	<string key="MinorFoodMagicAbsorption_Tooltip">Aumenta la absorción arcana en 2,0</string>
 	<string key="MinorFoodFireAbsorption_DisplayName">Absorción ligera de fuego</string>
@@ -411,11 +414,11 @@
 	<string key="Mut_Disease_2_DisplayName" rel_version="Feature_Dungeon_Mutators">Enfermedad</string>
 	<string key="Mut_Disease_2_Tooltip" rel_version="Feature_Dungeon_Mutators">Reduce un {[-0.050000 * -100]} % la curación recibida. Se acumula {[20.000000]} veces.</string>
 	<string key="Mut_StaminaDamage_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Quebrador I</string>
-	<string key="Mut_StaminaDamage_1_BlockBreak_Bleed_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Sangrado roto</string>
-	<string key="Mut_StaminaDamage_1_BlockBreak_Bleed_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Recibes como sangrado un {[-0.050000 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos.</string>
+	<string key="Mut_StaminaDamage_1_BlockBreak_Bleed_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Sangrado quebrado</string>
+	<string key="Mut_StaminaDamage_1_BlockBreak_Bleed_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Recibes como sangrado un {[-0.05 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos.</string>
 	<string key="Mut_StaminaDamage_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Quebrador II</string>
-	<string key="Mut_StaminaDamage_2_BlockBreak_Bleed_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Sangrado roto</string>
-	<string key="Mut_StaminaDamage_2_BlockBreak_Bleed_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Recibes como sangrado un {[-0.080000 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos.</string>
+	<string key="Mut_StaminaDamage_2_BlockBreak_Bleed_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Sangrado quebrado</string>
+	<string key="Mut_StaminaDamage_2_BlockBreak_Bleed_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Recibes como sangrado un {[-0.08 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos.</string>
 	<string key="Mut_ManaDamage_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Cazador de magos I</string>
 	<string key="Mut_ManaDamage_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Cazador de magos II</string>
 	<string key="Mut_ManaThorns_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Cazador de magos I</string>
@@ -434,16 +437,16 @@
 	<string key="Mut_Fir_Resist_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Resistente al fuego II</string>
 	<string key="Mut_Fir_Burn_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Ardiente I</string>
 	<string key="Mut_Fir_Burn_1_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Quemadura chamusquina I</string>
-	<string key="Mut_Fir_Burn_1_Effect_ToolTip" rel_version="Feature_Dungeon_Mutators">Las quemaduras te causan un {[-0.040000 * -100]} % de daño base de fuego cada {[1.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="Mut_Fir_Burn_1_Effect_ToolTip" rel_version="Feature_Dungeon_Mutators">Las quemaduras te causan un {[-0.04 * -100]} % de daño base de fuego cada {[1.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="Mut_Fir_Burn_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Ardiente II</string>
 	<string key="Mut_Fir_Burn_2_Effect_DisplayName" rel_version="Feature_Dungeon_Mutators">Quemadura chamusquina II</string>
-	<string key="Mut_Fir_Burn_2_Effect_ToolTip" rel_version="Feature_Dungeon_Mutators">Las quemaduras te causan un {[-0.080000 * -100]} % de daño base de fuego cada {[1.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="Mut_Fir_Burn_2_Effect_ToolTip" rel_version="Feature_Dungeon_Mutators">Las quemaduras te causan un {[-0.08 * -100]} % de daño base de fuego cada {[1.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="Mut_Fir_AOE_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Inflamado II</string>
 	<string key="Mut_Fir_AOE_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Quemadura inflamada I</string>
-	<string key="Mut_Fir_AOE_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Las quemaduras te causan un {[-0.200000 * -100]} % de daño base de fuego cada {[1.000000]} segundos.</string>
+	<string key="Mut_Fir_AOE_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Las quemaduras te causan un {[-0.2 * -100]} % de daño base de fuego cada {[1.000000]} segundos.</string>
 	<string key="Mut_Fir_AOE_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Inflamado I</string>
 	<string key="Mut_Fir_AOE_2_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Quemadura inflamada II</string>
-	<string key="Mut_Fir_AOE_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Las quemaduras te causan un {[-0.400000 * -100]} % de daño base de fuego cada {[1.000000]} segundos.</string>
+	<string key="Mut_Fir_AOE_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Las quemaduras te causan un {[-0.4 * -100]} % de daño base de fuego cada {[1.000000]} segundos.</string>
 	<string key="Mut_Fir_Death_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Explosivo</string>
 	<string key="Mut_Voi_Damage_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Abisal</string>
 	<string key="Mut_Voi_Resist_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Resistencia al vacío I</string>
@@ -458,8 +461,8 @@
 	<string key="Mut_Voi_Leech_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Olvido II</string>
 	<string key="Mut_Voi_Leech_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Chupavidas del olvido I</string>
 	<string key="Mut_Voi_Leech_2_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators">Chupavidas del olvido II</string>
-	<string key="Mut_Voi_Leech_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Recibes un {[-0.200000 * -100]} % de daño de vacío y el conjurador se cura un {[0.900000 * 100]} % de daño base infligido durante {[3.000000]} segundos.</string>
-	<string key="Mut_Voi_Leech_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Recibes un {[-0.300000 * -100]} % de daño de vacío y el conjurador se cura un {[1.200000 * 100]} % de daño base infligido durante {[3.000000]} segundos.</string>
+	<string key="Mut_Voi_Leech_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Recibes un {[-0.2 * -100]} % de daño de vacío y el conjurador se cura un {[0.900000 * 100]} % de daño base infligido durante {[3.000000]} segundos.</string>
+	<string key="Mut_Voi_Leech_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators">Recibes un {[-0.3 * -100]} % de daño de vacío y el conjurador se cura un {[1.200000 * 100]} % de daño base infligido durante {[3.000000]} segundos.</string>
 	<string key="Mut_Voi_Leech_1_Heal_DisplayName" rel_version="Feature_Dungeon_Mutators">Chupavidas del olvido I</string>
 	<string key="Mut_Voi_Leech_2_Heal_DisplayName" rel_version="Feature_Dungeon_Mutators">Chupavidas del olvido II</string>
 	<string key="Mut_Voi_Death_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators">Rampante</string>
@@ -469,16 +472,16 @@
 	<string key="Mut_Nat_Resist_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Resistente a la naturaleza II</string>
 	<string key="Mut_Nat_Pools_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Tóxico I</string>
 	<string key="Mut_Nat_Pools_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Veneno I</string>
-	<string key="Mut_Nat_Pools_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Sufre un {[-0.050000 * -100]} % de daño de naturaleza cada {[1.000000]} segundos.</string>
+	<string key="Mut_Nat_Pools_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Sufre un {[-0.05 * -100]} % de daño de naturaleza cada {[1.000000]} segundos.</string>
 	<string key="Mut_Nat_Pools_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Tóxico II</string>
 	<string key="Mut_Nat_Pools_2_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Veneno II</string>
-	<string key="Mut_Nat_Pools_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Sufre un {[-0.100000 * -100]} % de daño de naturaleza cada {[1.000000]} segundos.</string>
+	<string key="Mut_Nat_Pools_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Sufre un {[-0.1 * -100]} % de daño de naturaleza cada {[1.000000]} segundos.</string>
 	<string key="Mut_Nat_Crawler_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Tóxico I</string>
 	<string key="Mut_Nat_Crawler_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Toxina I</string>
-	<string key="Mut_Nat_Crawler_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Sufre un {[-0.200000 * -100]} % de daño de naturaleza cada {[1.000000]} segundos.</string>
+	<string key="Mut_Nat_Crawler_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Sufre un {[-0.2 * -100]} % de daño de naturaleza cada {[1.000000]} segundos.</string>
 	<string key="Mut_Nat_Crawler_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Tóxico II</string>
 	<string key="Mut_Nat_Crawler_2_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Toxina II</string>
-	<string key="Mut_Nat_Crawler_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Sufre un {[-0.400000 * -100]} % de daño de naturaleza cada {[1.000000]} segundos.</string>
+	<string key="Mut_Nat_Crawler_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt2">Sufre un {[-0.4 * -100]} % de daño de naturaleza cada {[1.000000]} segundos.</string>
 	<string key="Mut_Nat_Thorns_1_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Zarza I</string>
 	<string key="Mut_Nat_Thorns_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Zarza II</string>
 	<string key="Mut_Nat_Death_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt2">Abono</string>
@@ -498,8 +501,8 @@
 	<string key="Mut_Ice_CloseZone_2_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Escalofrío II</string>
 	<string key="Mut_Ice_CloseZone_1_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Frío cortante I</string>
 	<string key="Mut_Ice_CloseZone_2_Damage_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Frío cortante II</string>
-	<string key="Mut_Ice_CloseZone_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt3">Sufre un {[0.000000 * -100]} % de daño de hielo cada {[1.000000]} segundos.</string>
-	<string key="Mut_Ice_CloseZone_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt3">Sufre un {[0.000000 * -100]} % de daño de hielo cada {[1.000000]} segundos.</string>
+	<string key="Mut_Ice_CloseZone_1_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt3">Sufre un {[ * -100]} % de daño de hielo cada {[1.000000]} segundos.</string>
+	<string key="Mut_Ice_CloseZone_2_Damage_ToolTip" rel_version="Feature_Dungeon_Mutators_pt3">Sufre un {[ * -100]} % de daño de hielo cada {[1.000000]} segundos.</string>
 	<string key="Mut_Ice_Death_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Glacial</string>
 	<string key="Mut_Ice_DeathFreeze_Buff_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Glacial</string>
 	<string key="Mut_Ice_DeathFreeze_Slow_DisplayName" rel_version="Feature_Dungeon_Mutators_pt3">Ralentización gélida</string>
@@ -602,7 +605,7 @@
 	<string key="GhostDoom_DisplayName">Aturdimiento detenido</string>
 	<string key="GhostDoom_Description">Aturde durante {[2.500000]} segundos.</string>
 	<string key="GhostBurn_DisplayName">Quemadura</string>
-	<string key="GhostBurn_Description">Inflige un {[-0.050000 * -100]} % de daño de fuego cada {[0.500000]} segundos durante {[3.000000]} segundos. Se acumula {[5.000000]} veces.</string>
+	<string key="GhostBurn_Description">Inflige un {[-0.05 * -100]} % de daño de fuego cada {[0.500000]} segundos durante {[3.000000]} segundos. Se acumula {[5.000000]} veces.</string>
 	<string key="GhostShock_DisplayName">Descarga</string>
 	<string key="GhostShock_Description">Consume {[-20.000000 * -1]} de vitalidad cada {[0.250000]} segundos y reduce la regeneración de vitalidad un {[-0.300000 * -100]} % durante {[5.000000]} segundos. Se acumula {[3.000000]} veces.</string>
 	<string key="Waterlogged_DisplayName">Empapado</string>
@@ -610,20 +613,20 @@
 	<string key="BruteStun_DisplayName">Golpeado</string>
 	<string key="BruteStun_Description">Aturde durante {[3.000000]} segundos. Se elimina con el daño.</string>
 	<string key="UndeadBurn_DisplayName">Quemadura de alma ardiente</string>
-	<string key="UndeadBurn_Description">Inflige un {[-0.110000 * -100]} % de daño base de fuego cada {[0.500000]} segundos durante {[1.500000]}.</string>
+	<string key="UndeadBurn_Description">Inflige un {[-0.11 * -100]} % de daño base de fuego cada {[0.500000]} segundos durante {[1.500000]}.</string>
 	<string key="UndeadHunter_Burn_DisplayName">Quemadura de alma ardiente</string>
-	<string key="UndeadHunter_Burn_Description">Inflige un {[-0.050000 * -100]} % de daño base de fuego cada {[0.500000]} segundos durante {[3.000000]} segundos.</string>
+	<string key="UndeadHunter_Burn_Description">Inflige un {[-0.05 * -100]} % de daño base de fuego cada {[0.500000]} segundos durante {[3.000000]} segundos.</string>
 	<string key="BruteBlast_DisplayName">Quemadura explosiva</string>
-	<string key="BruteBlast_Description">Inflige un {[-0.100000 * -100]} % de daño base de fuego cada {[1.000000]} segundos durante {[5.000000]}.</string>
+	<string key="BruteBlast_Description">Inflige un {[-0.1 * -100]} % de daño base de fuego cada {[1.000000]} segundos durante {[5.000000]}.</string>
 	<string key="UndeadBrute_Consume_DisplayName">Estómago lleno</string>
 	<string key="UndeadBrute_Consume_Description">Aumenta el daño base en {[0.350000]} durante {[10.000000]} segundos.</string>
 	<string key="Legion_Inspire_Buff" rel_version="Territory_Brimstone_Sands">Inspirado</string>
 	<string key="Legion_HeroOfLegion_Buff" rel_version="Territory_Brimstone_Sands">Héroe de la legión</string>
 	<string key="Legion_HeroOfLegion_Crassus_Buff" rel_version="Territory_Brimstone_Sands">Héroes de la legión</string>
 	<string key="LegionBurn_DisplayName" rel_version="Territory_Brimstone_Sands">Quemadura</string>
-	<string key="LegionBurn_Description" rel_version="Territory_Brimstone_Sands">Inflige un {[-0.075000 * -100]} % de daño base de fuego cada {[2.000000]} segundos durante {[10.000000]} segundos. Se acumula {[1.000000]} veces.</string>
+	<string key="LegionBurn_Description" rel_version="Territory_Brimstone_Sands">Inflige un {[-7.4999999999999997E-2 * -100]} % de daño base de fuego cada {[2.000000]} segundos durante {[10.000000]} segundos. Se acumula {[1.000000]} veces.</string>
 	<string key="LegionBurn_Crassus_DisplayName" rel_version="Territory_Brimstone_Sands">Quemadura</string>
-	<string key="LegionBurn_Crassus_Description" rel_version="Territory_Brimstone_Sands">Inflige un {[-0.075000 * -100]} % de daño base de fuego cada {[2.000000]} segundos durante {[10.000000]} segundos. Se acumula {[1.000000]} veces.</string>
+	<string key="LegionBurn_Crassus_Description" rel_version="Territory_Brimstone_Sands">Inflige un {[-7.4999999999999997E-2 * -100]} % de daño base de fuego cada {[2.000000]} segundos durante {[10.000000]} segundos. Se acumula {[1.000000]} veces.</string>
 	<string key="Legion_Crassus_TouchOfCorruption_DisplayName">Roce corrupto</string>
 	<string key="Legion_Crassus_TouchOfCorruption_Tooltip">Reduce la velocidad de movimiento en un {[-0.500000 * -100]} % y sufres Corrupción cada {[0.500000]} segundo durante {[20.000000]} segundos.</string>
 	<string key="WitheredMinionFrenzy_DisplayName">Arrebato</string>
@@ -666,16 +669,20 @@
 	<string key="AI_Fleeting_Buff_DisplayName" rel_version="Quest_MSQ2_WeaversFen">Fugacidad</string>
 	<string key="AI_HercyneRat_Disease_DisplayName" rel_version="Territory_FirstLight">Enfermedad</string>
 	<string key="AI_HercyneRat_Disease_Tooltip" rel_version="Territory_FirstLight">Reduce un {[-0.040000 * -100]} % la curación recibida. Se acumula {[2.000000]} veces.</string>
+	<string key="AI_SpiderBite_DisplayName" rel_version="Raid_CutlassKeys_00">Herida necrosante</string>
+	<string key="AI_SpiderBite_Tooltip" rel_version="Raid_CutlassKeys_00">El veneno te causa un {[-0.04 * -100]} % de daño de naturaleza cada {[1.000000]} segundos durante {[5.000000]} segundos.</string>
+	<string key="AI_SpiderVenom_DisplayName" rel_version="Raid_CutlassKeys_00">Veneno corrosivo</string>
+	<string key="AI_SpiderVenom_Tooltip" rel_version="Raid_CutlassKeys_00">La armadura es un {[-0.200000 * -100]} % menos efectiva.</string>
 	<string key="AI_PoisonOnHit_Buff_DisplayName">Venenoso</string>
 	<string key="AI_PoisonOnHit_Damage_DisplayName">Veneno</string>
-	<string key="AI_PoisonOnHit_Damage_Tooltip">El veneno te causa un {[-0.050000 * -100]} % de daño de naturaleza cada {[1.000000]} segundos durante {[20.000000]} segundos.</string>
+	<string key="AI_PoisonOnHit_Damage_Tooltip">El veneno te causa un {[-0.05 * -100]} % de daño de naturaleza cada {[1.000000]} segundos durante {[20.000000]} segundos.</string>
 	<string key="AI_HealAuraOnHit_Buff_DisplayName">Exaltado</string>
 	<string key="AI_Corruption_Pool_Buff_DisplayName">Profanación</string>
 	<string key="AI_Staggered_Telegraph_DisplayName">Vacilando</string>
 	<string key="AI_Enable_Stagger">Vacilación activada</string>
 	<string key="AI_Empress_DamageReduction_DisplayName">Protección</string>
 	<string key="AI_Empress_DragonBurn_DisplayName">Quemadura</string>
-	<string key="AI_Empress_DragonBurn_Tooltip">Inflige un {[-0.050000 * -100]} % de daño de fuego cada {[0.500000]} segundos durante {[3.000000]} segundos. Se acumula {[5.000000]} veces.</string>
+	<string key="AI_Empress_DragonBurn_Tooltip">Inflige un {[-0.05 * -100]} % de daño de fuego cada {[0.500000]} segundos durante {[3.000000]} segundos. Se acumula {[5.000000]} veces.</string>
 	<string key="AI_Torso_Boss_ArenaShrink_DisplayName">Lastre arcano</string>
 	<string key="AI_Torso_Boss_ArenaShrink_Tooltip">Te abruma la energía arcana, que te silencia y causa daño con el tiempo.</string>
 	<string key="AI_Torso_Boss_Stun_Player_DisplayName">Sobrecarga arcana</string>
@@ -695,12 +702,15 @@
 	<string key="AI_Ice_Torso_Boss_Ice_Ground_DisplayName" rel_version="Expedition_GreatCleave_00">Tierra helada</string>
 	<string key="AI_Ice_Torso_Boss_Ice_Ground_Tooltip" rel_version="Expedition_GreatCleave_00">Inflige daño y reduce la velocidad de movimiento.</string>
 	<string key="AI_Hercyne_Bleed_DisplayName" rel_version="Territory_FirstLight">Sangrado</string>
-	<string key="AI_Hercyne_Bleed_Tooltip" rel_version="Territory_FirstLight">Al sangrar, recibes un {[-0.025000 * -100]} % de daño base y un {[-0.007500 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos durante {[16.000000]} segundos. Se acumula {[4.000000]} veces.</string>
+	<string key="AI_Hercyne_Bleed_Tooltip" rel_version="Territory_FirstLight">Al sangrar, recibes un {[-2.5000000000000001E-2 * -100]} % de daño base y un {[-7.4999999999999997E-3 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos durante {[16.000000]} segundos. Se acumula {[4.000000]} veces.</string>
 	<string key="AI_HercyneBoar_Thorn_Ally_DisplayName" rel_version="Territory_FirstLight">Piel espinosa</string>
 	<string key="AI_HercyneBoar_AlphaThorns_DisplayName" rel_version="Territory_FirstLight">Piel espinosa</string>
 	<string key="AI_HercyneBoar_ReturnDmg_DisplayName" rel_version="Territory_FirstLight">Daño devuelto</string>
 	<string key="AI_HercyneBoar_ReturnDmg_Tooltip" rel_version="Territory_FirstLight">La piel espinosa te devuelve daño.</string>
 	<string key="AI_HercyneCorvid_AlphaEmpower_DisplayName" rel_version="Territory_FirstLight">Fortalecimiento alfa</string>
+	<string key="AI_HercyneWolf_AlphaBleed_DisplayName" rel_version="Raid_CutlassKeys_00">Sangrado alfa</string>
+	<string key="AI_HercyneWolf_Frenzy_DisplayName" rel_version="Raid_CutlassKeys_00">Frenesí sangriento</string>
+	<string key="AI_Hercyne_Wolf_FrenzyBuff_DisplayName" rel_version="Raid_CutlassKeys_00">Potenciador de frenesí</string>
 	<string key="AI_HercyneReindeer_Briar_Root_DisplayName" rel_version="Territory_FirstLight">Enmarañado</string>
 	<string key="AI_HercyneReindeer_Briar_Root_Tooltip" rel_version="Territory_FirstLight">Te han enmarañado. Destruye las raíces para liberarte.</string>
 	<string key="AI_BrotherUmberto_HealthDebuff_DisplayName" rel_version="Quest_MSQ2_Brightwood">Robo de alma</string>
@@ -713,41 +723,43 @@
 	<string key="AI_Yonas_Stun_4sec_DisplayName" rel_version="Quest_MSQ2_Edengrove">Aturdimiento</string>
 	<string key="AI_Yonas_Stun_4sec_Tooltip" rel_version="Quest_MSQ2_Edengrove">Aturdimiento</string>
 	<string key="AI_Bleed_9_DisplayName">Sangrado</string>
-	<string key="AI_Bleed_9_Tooltip">Al sangrar, recibes un {[-0.050000 * -100]} % de daño base y un {[-0.015000 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_Bleed_9_Tooltip">Al sangrar, recibes un {[-0.05 * -100]} % de daño base y un {[-1.4999999999999999E-2 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_IceDragon_Bleed_9_DisplayName" rel_version="Season_4_Temp">Sangrado gélido</string>
+	<string key="AI_IceDragon_Bleed_9_Tooltip" rel_version="Season_4_Temp">Al sangrar, recibes un {[-0.05 * -100]} % de daño base y un {[-1.4999999999999999E-2 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="AI_Burn_9_DisplayName">Quemado</string>
-	<string key="AI_Burn_9_Tooltip">Las quemaduras te causan un {[-0.075000 * -100]} % de daño base de fuego cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_Burn_9_Tooltip">Las quemaduras te causan un {[-7.4999999999999997E-2 * -100]} % de daño base de fuego cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="AI_Thorpe_Burn_DisplayName">Quemadura sombría</string>
-	<string key="AI_Thorpe_Burn_Tooltip">Las quemaduras te causan un {[-0.030000 * -100]} % de daño de fuego a la salud base cada {[0.650000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_Thorpe_Burn_Tooltip">Las quemaduras te causan un {[-0.03 * -100]} % de daño de fuego a la salud base cada {[0.650000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="AI_Thorpe_FTUE_Burn_DisplayName">Quemadura</string>
-	<string key="AI_Thorpe_FTUE_Burn_Tooltip">Las quemaduras te causan un {[-0.030000 * -100]} % de daño base y un {[0.000000 * -100]} % de daño de fuego a la salud base cada {[0.650000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_Thorpe_FTUE_Burn_Tooltip">Las quemaduras te causan un {[-0.03 * -100]} % de daño base y un {[ * -100]} % de daño de fuego a la salud base cada {[0.650000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="AI_Evil_Knight_Fire_Champion_HeatingUp" rel_version="Expedition_GreatCleave_01">Entrando en calor</string>
 	<string key="AI_Evil_Knight_Fire_Champion_HeatingUp_Tooltip" rel_version="Expedition_GreatCleave_01">El comandante está tan lleno de ira que parece a punto de explotar.</string>
 	<string key="AI_Evil_Knight_Fire_Champion_Overheat_DisplayName" rel_version="Expedition_GreatCleave_01">Tórrido</string>
-	<string key="AI_Evil_Knight_Fire_Champion_Overheat_Tooltip" rel_version="Expedition_GreatCleave_01">Los ataques del comandante te abrasan y explotan a las 10 acumulaciones. Además, las quemaduras te causan un {[-0.012500 * -100]} % de daño base de fuego cada {[1.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_Evil_Knight_Fire_Champion_Overheat_Tooltip" rel_version="Expedition_GreatCleave_01">Los ataques del comandante te abrasan y explotan a las 10 acumulaciones. Además, las quemaduras te causan un {[-1.2500000000000001E-2 * -100]} % de daño base de fuego cada {[1.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="AI_Evil_Knight_Fire_Champion_DangerTick_DisplayName" rel_version="Expedition_GreatCleave_01">Marea de lava</string>
-	<string key="AI_Evil_Knight_Fire_Champion_DangerTick_Tooltip" rel_version="Expedition_GreatCleave_01">Las quemaduras te causan un {[-0.300000 * -100]} % de daño de fuego a la salud base cada {[Type_StatusEffectDataAI_Evil_Knight_Fire_Champion_DangerTick.TickRate]} segundos durante {[1.000000]} segundos.</string>
+	<string key="AI_Evil_Knight_Fire_Champion_DangerTick_Tooltip" rel_version="Expedition_GreatCleave_01">Las quemaduras te causan un {[-0.3 * -100]} % de daño de fuego a la salud base cada {[Type_StatusEffectDataAI_Evil_Knight_Fire_Champion_DangerTick.TickRate]} segundos durante {[1.000000]} segundos.</string>
 	<string key="AI_Evil_Knight_Ice_Mace_Slow_4sec_DisplayName" rel_version="Season_4_Perm">Lentitud</string>
 	<string key="AI_Evil_Knight_Ice_Mace_Slow_4sec_Tooltip" rel_version="Season_4_Perm">Reduce la velocidad de movimiento en un {[-0.200000 * -100]} % durante {[4.000000]} segundos.</string>
 	<string key="AI_Evil_Knight_Mine_Burn_DisplayName">Quemado</string>
-	<string key="AI_Evil_Knight_Mine_Burn_Tooltip">Las quemaduras te causan un {[-0.050000 * -100]} % de daño base de fuego por acumulación cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_Evil_Knight_Mine_Burn_Tooltip">Las quemaduras te causan un {[-0.05 * -100]} % de daño base de fuego por acumulación cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="AI_Season_04_IceGuardian_AncientChill_DisplayName" rel_version="Season_4_Trial">Rasca antigua</string>
 	<string key="AI_Season_04_IceGuardian_AncientChill_Tooltip" rel_version="Season_4_Trial">Ser la principal amenaza del jefe hace que el frío se te meta en los huesos. Reduce un {[-0.075000 * -100]} % la regeneración de vitalidad, aumenta el daño recibido en un {[-0.050000 * 100]} % y el daño infligido en un {[0.100000 * 100]} % por acumulación durante {[60.000000]} segundos.</string>
 	<string key="AI_Season_04_IceGuardian_DeepFreeze_DisplayName" rel_version="Season_4_Trial">Congelación grave</string>
 	<string key="AI_Season_04_IceGuardian_DeepFreeze_Tooltip" rel_version="Season_4_Trial">Congelación persistente tras la helada. Reduce un {[-1.000000 * -100]} % la regeneración de maná durante {[60.000000]} segundos.</string>
 	<string key="AI_Season_04_IceGuardian_Entomb_Root_DisplayName" rel_version="Season_4_Trial">Tumba helada</string>
-	<string key="AI_Season_04_IceGuardian_Entomb_Root_Tooltip" rel_version="Season_4_Trial">Congelado en un bloque de hielo. No puedes moverte ni atacar y recibes un {[-0.200000 * -100]} % de daño de hielo a la salud base cada {[1.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_Season_04_IceGuardian_Entomb_Root_Tooltip" rel_version="Season_4_Trial">Congelado en un bloque de hielo. No puedes moverte ni atacar y recibes un {[-0.2 * -100]} % de daño de hielo a la salud base cada {[1.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="AI_Season_04_IceGuardian_FrostNova_Root_DisplayName" rel_version="Season_4_Trial">Suelas congeladas</string>
 	<string key="AI_Season_04_IceGuardian_FrostNova_Root_Tooltip" rel_version="Season_4_Trial">Las suelas de tus zapatos están congeladas y pegadas al suelo. No puedes moverte durante {[3.000000]} segundos.</string>
 	<string key="AI_Season_04_IceGuardian_RuneFireDamageBuff_DisplayName" rel_version="Season_4_Trial">Fortalecimiento de runa ígnea</string>
 	<string key="AI_Season_04_IceGuardian_RuneFireDamageBuff_Tooltip" rel_version="Season_4_Trial">Rebosas fortalecimiento ígneo. Infliges un {[2.000000 * 100]} % más de daño de fuego por acumulación durante {[10.000000]} segundos.</string>
 	<string key="AI_Season_04_IceGuardian_Hypothermia_DisplayName" rel_version="Season_4_Trial">Hipotermia</string>
-	<string key="AI_Season_04_IceGuardian_Hypothermia_Tooltip" rel_version="Season_4_Trial">Recibes un {[-0.010000 * -100]} % de daño a la salud base cada {[1.000000]} segundos. Además, te ralentiza un {[-0.050000 * -100]} % y aumenta un {[0.050000 * 100]} % tu debilidad al hielo por acumulación.</string>
+	<string key="AI_Season_04_IceGuardian_Hypothermia_Tooltip" rel_version="Season_4_Trial">Recibes un {[-0.01 * -100]} % de daño a la salud base cada {[1.000000]} segundos. Además, te ralentiza un {[-0.050000 * -100]} % y aumenta un {[0.050000 * 100]} % tu debilidad al hielo por acumulación.</string>
 	<string key="AI_Season_04_IceGuardian_Hypothermia_Solo_DisplayName" rel_version="Season_4_Trial">Hipotermia</string>
-	<string key="AI_Season_04_IceGuardian_Hypothermia_Solo_Tooltip" rel_version="Season_4_Trial">Recibes un {[-0.010000 * -100]} % de daño a la salud base cada {[1.000000]} segundos. Además, te ralentiza un {[-0.050000 * -100]} % y aumenta un {[0.050000 * 100]} % tu debilidad al hielo por acumulación.</string>
+	<string key="AI_Season_04_IceGuardian_Hypothermia_Solo_Tooltip" rel_version="Season_4_Trial">Recibes un {[-0.01 * -100]} % de daño a la salud base cada {[1.000000]} segundos. Además, te ralentiza un {[-0.050000 * -100]} % y aumenta un {[0.050000 * 100]} % tu debilidad al hielo por acumulación.</string>
 	<string key="AI_Season_04_IceGuardian_AncientFlameBearer_DisplayName" rel_version="Season_4_Trial">Portador de la llama antigua</string>
 	<string key="AI_Season_04_IceGuardian_AncientFlameBearer_Tooltip" rel_version="Season_4_Trial">Portas la llama antigua, que otorga protección contra Hipotermia en la zona circundante.</string>
 	<string key="AI_Season_04_IceGuardian_AncientFlame_DisplayName" rel_version="Season_4_Trial">Llama antigua</string>
-	<string key="AI_Season_04_IceGuardian_AncientFlame_Tooltip" rel_version="Season_4_Trial">Elimina y protege de acumulaciones de Hipotermia a la par que recibes un {[0.250000 * 100]} % menos de hielo por acumulación.</string>
+	<string key="AI_Season_04_IceGuardian_AncientFlame_Tooltip" rel_version="Season_4_Trial">Elimina y protege de acumulaciones de Hipotermia a la par que recibes un {[0.300000 * 100]} % menos de hielo por acumulación.</string>
 	<string key="AI_Season_04_IceGuardian_AncientFlameLingering_DisplayName" rel_version="Season_4_Trial">Llama antigua persistente</string>
 	<string key="AI_Season_04_IceGuardian_AncientFlameLingering_Tooltip" rel_version="Season_4_Trial">Los restos de calor que persisten. Protege brevemente de acumulaciones de Hipotermia a la par que recibes un {[0.100000 * 100]} % menos de hielo por acumulación.</string>
 	<string key="AI_Season_04_IceGuardian_AncientFlameCooldown_DisplayName" rel_version="Season_4_Trial">Agotamiento del portador de la llama antigua</string>
@@ -761,9 +773,9 @@
 	<string key="AI_Season_04_IceGuardian_AncientFlameCooldown_Solo_DisplayName" rel_version="Season_4_Trial">Agotamiento del portador de la llama antigua</string>
 	<string key="AI_Season_04_IceGuardian_AncientFlameCooldown_Solo_Tooltip" rel_version="Season_4_Trial">Cuidado con portar la llama antigua. No puedes volver a portar la llama durante {[30.000000]} segundos.</string>
 	<string key="AI_Poison_55_DisplayName">Envenenado</string>
-	<string key="AI_Poison_55_Tooltip">El veneno te causa un {[-0.040000 * -100]} % de daño base y un {[-0.020000 * -100]} % de daño de naturaleza a la salud base cada {[2.000000]} segundos durante {[20.000000]} segundos.</string>
+	<string key="AI_Poison_55_Tooltip">El veneno te causa un {[-0.04 * -100]} % de daño base y un {[-0.02 * -100]} % de daño de naturaleza a la salud base cada {[2.000000]} segundos durante {[20.000000]} segundos.</string>
 	<string key="AI_Poison_Pool_DisplayName">Envenenado</string>
-	<string key="AI_Poison_Pool_Tooltip">El veneno te causa un {[-0.045000 * -100]} % de daño base y un {[-0.025000 * -100]} % de daño de naturaleza a la salud base cada {[2.000000]} segundos.</string>
+	<string key="AI_Poison_Pool_Tooltip">El veneno te causa un {[-4.4999999999999998E-2 * -100]} % de daño base y un {[-2.5000000000000001E-2 * -100]} % de daño de naturaleza a la salud base cada {[2.000000]} segundos.</string>
 	<string key="AI_Root_4sec_DisplayName">Enraizado</string>
 	<string key="AI_Root_4sec_Tooltip">No puedes moverte durante {[4.000000]} segundos.</string>
 	<string key="AI_Snare_6sec_DisplayName">Atrapado</string>
@@ -781,7 +793,7 @@
 	<string key="AI_Stun_6sec_DisplayName">Aturdimiento</string>
 	<string key="AI_Stun_10sec_Tooltip">Aturde durante {[10.000000]} segundos.</string>
 	<string key="AI_Stun_10sec_DisplayName">Aturdimiento</string>
-	<string key="AI_SulfurBurn_Tooltip">Recibes un {[-0.020000 * -100]} % de daño de fuego por segundo y un {[-0.100000 * -100]} % más de daño de todas las fuentes durante {[10.000000]} segundos.</string>
+	<string key="AI_SulfurBurn_Tooltip">Recibes un {[-0.02 * -100]} % de daño de fuego por segundo y un {[-0.100000 * -100]} % más de daño de todas las fuentes durante {[10.000000]} segundos.</string>
 	<string key="AI_SulfurBurn_DisplayName">Quemadura de sulfuro</string>
 	<string key="AI_Stun_6sec_Tooltip">Recibes un {[-0.200000 * -100]} % más de daño de todas las fuentes durante {[15.000000]} segundos.</string>
 	<string key="AI_Rend_DisplayName">Desgarro</string>
@@ -801,14 +813,15 @@
 	<string key="AI_DryadSiren_Erosion_Debuff_DisplayName" rel_version="Expedition_CutlassKeys_00">Erosión</string>
 	<string key="AI_DryadSiren_Erosion_Debuff_Tooltip" rel_version="Expedition_CutlassKeys_00">Recibes un {[-0.050000 * -100]} % más de daño de todas las fuentes durante {[30.000000]} segundos.</string>
 	<string key="AI_Disease_GraveDigger_DisplayName">Extracción de alma</string>
-	<string key="AI_Disease_GraveDigger_Tooltip">Inflige un {[0.000000 * -100]} % de daño a la salud base y cura al enterrador un {[0.005000 * 100]} % de su salud base cada {[1.000000]} segundos.</string>
+	<string key="AI_Disease_GraveDigger_Tooltip">Inflige un {[ * -100]} % de daño a la salud base y cura al enterrador un {[5.0000000000000001E-3 * 100]} % de su salud base cada {[1.000000]} segundos.</string>
 	<string key="AI_Naga_AncientGuardian_Vuln_DisplayName">Desgarro arcano</string>
 	<string key="AI_Naga_AncientGuardian_Vuln_Tooltip">Recibes un {[-0.200000 * -100]} % más de daño arcano por acumulación durante {[300.000000]} segundos.</string>
 	<string key="AI_Naga_AncientGuardian_Bomb_StatusEffect_DisplayName">Explosión arcana</string>
 	<string key="AI_Naga_AncientGuardian_Bomb_StatusEffect_Tooltip">La naga te recarga con una cantidad inestable de energía arcana. Tras {[3.000000]} segundos, descargas la energía arcana y generas un orbe explosivo.</string>
 	<string key="AI_Naga_Corrupted_CorruptionCore_DisplayName" rel_version="Expedition_ShatterMtn_00">Alma corrupta</string>
-	<string key="AI_Naga_Corrupted_CorruptionCore_Tooltip" rel_version="Expedition_ShatterMtn_00">Tu alma queda debilitada y hace que pierdas el {[-0.025000 * -100]} % de tu salud por segundo por acumulación. No se puede eliminar este efecto.</string>
+	<string key="AI_Naga_Corrupted_CorruptionCore_Tooltip" rel_version="Expedition_ShatterMtn_00">Tu alma queda debilitada y hace que pierdas el {[-2.5000000000000001E-2 * -100]} % de tu salud por segundo por acumulación. No se puede eliminar este efecto.</string>
 	<string key="AI_Naga_AncientGuardian_Might_StatusEffect_DisplayName">Poder antiguo</string>
+	<string key="AI_Naga_AncientGuardian_Defense_StatusEffect_DisplayName">Defensa antigua</string>
 	<string key="AI_Naga_AncientGuardian_Arcana_StatusEffect_DisplayName">Artes arcanas antiguas</string>
 	<string key="AI_CorruptedPriest_DoomRend_DisplayName">Desgarro de corrupción</string>
 	<string key="AI_CorruptedPriest_DoomRend_Tooltip">Recibes un {[0.500000 * 100]} % más de daño de corrupción por acumulación durante {[10.000000]} segundos.</string>
@@ -832,17 +845,21 @@
 	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_DisplayName" rel_version="Event_WinterConvergence_Perm">Debilitamiento</string>
 	<string key="AI_IceDryad_Frostfang_Debuff_Weaken_Tooltip" rel_version="Event_WinterConvergence_Perm">Durante {[10.000000]} segundos, infliges menos daño con la mayoría de tipos de daño.</string>
 	<string key="AI_DPTank_SandDevil_Bleed_Cyclone_DisplayName" rel_version="Territory_Brimstone_Sands">Demonio de arena</string>
-	<string key="AI_DPTank_SandDevil_Bleed_Cyclone_Tooltip" rel_version="Territory_Brimstone_Sands">Recibes como sangrado un {[-0.010000 * -100]} % de daño físico a la salud base cada {[5.000000]} segundos durante {[30.000000]} segundos.</string>
+	<string key="AI_DPTank_SandDevil_Bleed_Cyclone_Tooltip" rel_version="Territory_Brimstone_Sands">Recibes como sangrado un {[-0.01 * -100]} % de daño físico a la salud base cada {[5.000000]} segundos durante {[30.000000]} segundos.</string>
+	<string key="AI_DPTank_SandDevil_Rend_Cyclone_DisplayName" rel_version="Territory_Brimstone_Sands">Desgarro</string>
+	<string key="AI_DPTank_SandDevil_Rend_Cyclone_Tooltip" rel_version="Territory_Brimstone_Sands">Recibes un {[-0.400000 * -100]} % más de daño de todas las fuentes durante {[20.000000]} segundos.</string>
 	<string key="AI_DPTank_WorldSplitter_Bleed_Axe_DisplayName" rel_version="Territory_Brimstone_Sands">Tormenta de arena</string>
-	<string key="AI_DPTank_WorldSplitter_Bleed_Axe_Tooltip" rel_version="Territory_Brimstone_Sands">Recibes como sangrado un {[-0.050000 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_DPTank_WorldSplitter_Bleed_Axe_Tooltip" rel_version="Territory_Brimstone_Sands">Recibes como sangrado un {[-0.05 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="AI_DPTank_SandDevil_Bleed_Axe_DisplayName" rel_version="Territory_Brimstone_Sands">Arenas sangrantes</string>
-	<string key="AI_DPTank_SandDevil_Bleed_Axe_Tooltip" rel_version="Territory_Brimstone_Sands">Recibes como sangrado un {[-0.010000 * -100]} % de daño físico a la salud base cada {[4.000000]} segundos durante {[20.000000]} segundos.</string>
+	<string key="AI_DPTank_SandDevil_Bleed_Axe_Tooltip" rel_version="Territory_Brimstone_Sands">Recibes como sangrado un {[-0.01 * -100]} % de daño físico a la salud base cada {[4.000000]} segundos durante {[20.000000]} segundos.</string>
 	<string key="AI_DPTank_Fortify_Limited_DisplayName" rel_version="Territory_Brimstone_Sands">Fortificación</string>
 	<string key="AI_DPTank_Fortify_Limited_Tooltip" rel_version="Territory_Brimstone_Sands">Aumento de la absorción del daño de tipos específicos durante {[5.000000 * 100]} segundos.</string>
 	<string key="AI_DPTank_Empower_Unlimited_DisplayName" rel_version="Territory_Brimstone_Sands">Fortalecimiento</string>
 	<string key="AI_DPTank_Empower_Unlimited_Tooltip" rel_version="Territory_Brimstone_Sands">Daño aumentado de tipos específicos durante {[20.000000 * 100]} segundos.</string>
 	<string key="AI_Empower_DisplayName" rel_version="Territory_Brimstone_Sands">Fortalecimiento</string>
 	<string key="AI_Empower_Tooltip" rel_version="Territory_Brimstone_Sands">Daño aumentado de tipos específicos durante {[-1.000000 * 100]} segundos.</string>
+	<string key="DEBUG_DMGBuff_10_DisplayName">Potenciador de daño de depuración</string>
+	<string key="DEBUG_DMGBuff_10_Description">Aumenta el daño infligido y reduce el daño recibido en un 10 % por acumulación.</string>
 	<string key="AI_Fulgoris_Gas_DisplayName" rel_version="Quest_MSQ2_WeaversFen">Gas infecto</string>
 	<string key="AI_Fulgoris_Gas_Tooltip" rel_version="Quest_MSQ2_WeaversFen">Recibes daño y el efecto infecto.</string>
 	<string key="AI_SandElementalHeavy_AoESlow_T2_DisplayName" rel_version="Territory_Brimstone_Sands">Atrapado</string>
@@ -856,15 +873,21 @@
 	<string key="AI_AdmiralBrute_Blackpowder_DisplayName" rel_version="Expedition_CutlassKeys_00">Pólvora negra</string>
 	<string key="AI_AdmiralBrute_Blackpowder_Tooltip" rel_version="Expedition_CutlassKeys_00">La pólvora negra te cubre por completo. ¡Recibir daño de fuego de un enemigo prenderá la pólvora e infligirá Quemadura!</string>
 	<string key="AI_AdmiralBrute_Blackpowder_Burn_DisplayName" rel_version="Expedition_CutlassKeys_00">Quemadura de pólvora negra</string>
-	<string key="AI_AdmiralBrute_Blackpowder_Burn_Tooltip" rel_version="Expedition_CutlassKeys_00">Las quemaduras te causan un {[-0.050000 * -100]} % de daño de fuego a la salud base cada {[1.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_AdmiralBrute_Blackpowder_Burn_Tooltip" rel_version="Expedition_CutlassKeys_00">Las quemaduras te causan un {[-0.05 * -100]} % de daño de fuego a la salud base cada {[1.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="AI_AdmiralBrute_CannonRain_Targeted_DOT_DisplayName" rel_version="Expedition_CutlassKeys_00">Quemadura de cañón</string>
-	<string key="AI_AdmiralBrute_CannonRain_Targeted_DOT_Tooltip" rel_version="Expedition_CutlassKeys_00">Las quemaduras te causan un {[-0.075000 * -100]} % de daño base de fuego cada {[1.000000]} segundos.</string>
+	<string key="AI_AdmiralBrute_CannonRain_Targeted_DOT_Tooltip" rel_version="Expedition_CutlassKeys_00">Las quemaduras te causan un {[-7.4999999999999997E-2 * -100]} % de daño base de fuego cada {[1.000000]} segundos.</string>
 	<string key="AI_FireNaga_Flamethrower_DoT_DisplayName" rel_version="Expedition_GreatCleave_01">Quemazón</string>
-	<string key="AI_FireNaga_Flamethrower_DoT_Tooltip" rel_version="Expedition_GreatCleave_01">Las quemaduras te causan un {[-0.030000 * -100]} % de la salud máxima de daño de fuego cada {[0.300000]} segundos durante {[3.000000]} segundos.</string>
+	<string key="AI_FireNaga_Flamethrower_DoT_Tooltip" rel_version="Expedition_GreatCleave_01">Las quemaduras te causan un {[-0.03 * -100]} % de la salud máxima de daño de fuego cada {[0.300000]} segundos durante {[3.000000]} segundos.</string>
 	<string key="AI_FireNaga_LavaPool_DoT_DisplayName" rel_version="Expedition_GreatCleave_01">Lava ardiente</string>
-	<string key="AI_FireNaga_LavaPool_DoT_Tooltip" rel_version="Expedition_GreatCleave_01">Las quemaduras te causan un {[-0.040000 * -100]} % de la salud máxima de daño de fuego cada {[0.100000]} s.</string>
+	<string key="AI_FireNaga_LavaPool_DoT_Tooltip" rel_version="Expedition_GreatCleave_01">Las quemaduras te causan un {[-0.04 * -100]} % de la salud máxima de daño de fuego cada {[0.100000]} s.</string>
+	<string key="AI_Elephant_H_Goth_DoT_SE_DisplayName" rel_version="Raid_CutlassKeys_00">Veneno</string>
+	<string key="AI_Elephant_H_Goth_DoT_SE_Tooltip" rel_version="Raid_CutlassKeys_00">Inflige un {[-0.04 * -100]} % de daño de naturaleza a la salud base cada {[1.000000]} segundos dentro del área de efecto.</string>
+	<string key="AI_Gorilla_H_Disease_DisplayName" rel_version="Raid_CutlassKeys_00">Enfermedad</string>
+	<string key="AI_Gorilla_H_Disease_Tooltip" rel_version="Raid_CutlassKeys_00">Reduce un {[-0.150000 * -100]} % la curación recibida. Se acumula {[3.000000]} veces.</string>
+	<string key="AI_MegaFlora_FrostBite_DisplayName" rel_version="Territory_FirstLight">Congelación</string>
+	<string key="AI_MegaFlora_FrostBite_Tooltip" rel_version="Territory_FirstLight">Si la magia de hielo antigua te congela, no puedes correr, saltar ni esquivar.</string>
 	<string key="AI_IceGolem_Bleed_DisplayName" rel_version="Expedition_GreatCleave_00">Sangrado</string>
-	<string key="AI_IceGolem_Bleed_Tooltip" rel_version="Expedition_GreatCleave_00">Recibes como sangrado un {[-0.030000 * -100]} % de daño físico a la salud base cada {[1.000000]} segundos durante {[8.000000]} segundos. Se acumula {[4.000000]} veces.</string>
+	<string key="AI_IceGolem_Bleed_Tooltip" rel_version="Expedition_GreatCleave_00">Recibes como sangrado un {[-0.03 * -100]} % de daño físico a la salud base cada {[1.000000]} segundos durante {[8.000000]} segundos. Se acumula {[4.000000]} veces.</string>
 	<string key="AI_IceGolem_Exhaust_DisplayName" rel_version="Expedition_GreatCleave_00">Extenuación</string>
 	<string key="AI_IceGolem_Exhaust_ToolTip" rel_version="Expedition_GreatCleave_00">Reduce la regeneración de vitalidad en un {[-0.190000 * -100]} %.</string>
 	<string key="AI_IceGolem_Slow_DisplayName" rel_version="Expedition_GreatCleave_00">Lentitud</string>
@@ -872,13 +895,13 @@
 	<string key="AI_IceGolem_Slow_FrostBreath_DisplayName" rel_version="Expedition_GreatCleave_00">Lentitud</string>
 	<string key="AI_IceGolem_Slow_FrostBreath_Tooltip" rel_version="Expedition_GreatCleave_00">Reduce la velocidad de movimiento en un {[-0.400000 * -100]} % durante {[6.000000]} segundos. Se acumula {[1.000000]} veces.</string>
 	<string key="AI_IceGolem_Hypothermia_DisplayName" rel_version="Expedition_GreatCleave_00">Hipotermia</string>
-	<string key="AI_IceGolem_Hypothermia_Tooltip" rel_version="Expedition_GreatCleave_00">Infliges un {[-0.040000 * -100]} % de daño de hielo a la salud base cada {[2.000000]} segundos. Se acumula {[10.000000]} veces.</string>
+	<string key="AI_IceGolem_Hypothermia_Tooltip" rel_version="Expedition_GreatCleave_00">Infliges un {[-0.04 * -100]} % de daño de hielo a la salud base cada {[2.000000]} segundos. Se acumula {[10.000000]} veces.</string>
 	<string key="AI_AncientGuardian_Bowman_Frosty_Rapid_Shot_DisplayName" rel_version="Season_4_Perm">Nube de hielo</string>
 	<string key="AI_AncientGuardian_Bowman_Frosty_Rapid_Shot_Tooltip" rel_version="Season_4_Perm">Reduce la velocidad de movimiento en un {[-0.500000 * -100]} %.</string>
 	<string key="AI_MotherwellElk_SE_Slow_DisplayName" rel_version="Quest_MSQ2_Edengrove">Lentitud</string>
 	<string key="AI_MotherwellElk_SE_Slow_Tooltip" rel_version="Quest_MSQ2_Edengrove">Reduce la velocidad de movimiento en un {[-0.200000 * -100]} % durante {[3.000000]} segundos. Se acumula {[2.000000]} veces.</string>
 	<string key="AI_MotherwellElk_SE_Bleed_DisplayName" rel_version="Quest_MSQ2_Edengrove">Sangrado</string>
-	<string key="AI_MotherwellElk_SE_Bleed_Tooltip" rel_version="Quest_MSQ2_Edengrove">Recibes como sangrado un {[-0.030000 * -100]} % de daño físico a la salud base cada {[3.000000]} segundos durante {[15.000000]} segundos.</string>
+	<string key="AI_MotherwellElk_SE_Bleed_Tooltip" rel_version="Quest_MSQ2_Edengrove">Recibes como sangrado un {[-0.03 * -100]} % de daño físico a la salud base cada {[3.000000]} segundos durante {[15.000000]} segundos.</string>
 	<string key="AI_MotherwellElk_SE_Rend_DisplayName" rel_version="Quest_MSQ2_Edengrove">Desgarro</string>
 	<string key="AI_MotherwellElk_SE_Rend_Tooltip" rel_version="Quest_MSQ2_Edengrove">Aumenta el daño recibido en un {[-0.190000 * -100]} % durante {[15.000000]} segundos. Se acumula {[3.000000]} veces.</string>
 	<string key="AI_MotherwellElk_SE_Exhaust_DisplayName" rel_version="Quest_MSQ2_Edengrove">Extenuación</string>
@@ -888,9 +911,9 @@
 	<string key="Sandworm_Acid_Resistance_DisplayName" rel_version="Trial_Brimstone_Sandworm">Cazatormentas</string>
 	<string key="Sandworm_Acid_Resistance_Tooltip" rel_version="Trial_Brimstone_Sandworm">Vuelve muy resistente al daño de asedio. Tus ataques cuerpo a cuerpo aplican Desgarro y aumenta un {[-0.020000 * -100]} % el daño a los objetivos durante {[3.500000]} segundos. Se acumula hasta {[25.000000]} veces.</string>
 	<string key="Sandworm_Acid_Pool_DisplayName" rel_version="Trial_Brimstone_Sandworm">Charco de ácido</string>
-	<string key="Sandworm_Acid_Pool_Tooltip" rel_version="Trial_Brimstone_Sandworm">Recibes un {[-0.040000 * -100]} % de tu salud máxima como daño por ácido y sufres aflicción de ácido cada {[0.500000]} segundos.</string>
+	<string key="Sandworm_Acid_Pool_Tooltip" rel_version="Trial_Brimstone_Sandworm">Recibes un {[-0.04 * -100]} % de tu salud máxima como daño por ácido y sufres aflicción de ácido cada {[0.500000]} segundos.</string>
 	<string key="Sandworm_Devour_Area_Denial_DisplayName" rel_version="Trial_Brimstone_Sandworm">Zumos digestivos</string>
-	<string key="Sandworm_Devour_Area_Denial_Tooltip" rel_version="Trial_Brimstone_Sandworm">Recibes un {[-0.025000 * -100]} % de tu salud máxima como daño por ácido y sufres aflicción de ácido cada {[0.500000]} segundos.</string>
+	<string key="Sandworm_Devour_Area_Denial_Tooltip" rel_version="Trial_Brimstone_Sandworm">Recibes un {[-2.5000000000000001E-2 * -100]} % de tu salud máxima como daño por ácido y sufres aflicción de ácido cada {[0.500000]} segundos.</string>
 	<string key="Sandworm_ElenetalJuggernaut_Invulnerability_DisplayName" rel_version="Trial_Brimstone_Sandworm">Escudado</string>
 	<string key="Sandworm_ElenetalJuggernaut_Invulnerability_Tooltip" rel_version="Trial_Brimstone_Sandworm">Inmune al daño.</string>
 	<string key="Sandworm_Invulnerability_DisplayName" rel_version="Trial_Brimstone_Sandworm">Escudado</string>
@@ -898,11 +921,11 @@
 	<string key="Sandworm_Storm_Chaser_Debuff_DisplayName" rel_version="Trial_Brimstone_Sandworm">Desgarro cazatormentas</string>
 	<string key="Sandworm_Storm_Chaser_Debuff_Tooltip" rel_version="Trial_Brimstone_Sandworm">Aumenta el daño recibido en un {[-0.020000 * 100]} % durante {[{[3.500000]} segundos. Se acumula hasta {[25.000000]} veces.</string>
 	<string key="Sandworm_Acid_Storm_DisplayName" rel_version="Trial_Brimstone_Sandworm">Tormenta ácida</string>
-	<string key="Sandworm_Acid_Storm_Tooltip" rel_version="Trial_Brimstone_Sandworm">Recibes un {[-0.015000 * -100]} % de tu salud máxima como daño por ácido y sufres aflicción de ácido cada {[1.000000]} segundos.</string>
+	<string key="Sandworm_Acid_Storm_Tooltip" rel_version="Trial_Brimstone_Sandworm">Recibes un {[-1.4999999999999999E-2 * -100]} % de tu salud máxima como daño por ácido y sufres aflicción de ácido cada {[1.000000]} segundos.</string>
 	<string key="Sandworm_Acid_Spew_DisplayName" rel_version="Trial_Brimstone_Sandworm">Vómito ácido</string>
-	<string key="Sandworm_Acid_Spew_Tooltip" rel_version="Trial_Brimstone_Sandworm">Recibes un {[-0.250000 * -100]} % de tu salud máxima como daño por ácido y sufres aflicción de ácido cada {[1.000000]} segundos.</string>
+	<string key="Sandworm_Acid_Spew_Tooltip" rel_version="Trial_Brimstone_Sandworm">Recibes un {[-0.25 * -100]} % de tu salud máxima como daño por ácido y sufres aflicción de ácido cada {[1.000000]} segundos.</string>
 	<string key="AI_ArmoredDragon_Bleed_DisplayName" rel_version="Territory_FirstLight">Esquirlas de aliento metálico</string>
-	<string key="AI_ArmoredDragon_Bleed_Tooltip" rel_version="Territory_FirstLight">Recibes como sangrado un {[-0.005000 * -100]} % de daño físico a la salud base cada {[0.500000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_ArmoredDragon_Bleed_Tooltip" rel_version="Territory_FirstLight">Recibes como sangrado un {[-5.0000000000000001E-3 * -100]} % de daño físico a la salud base cada {[0.500000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="Mammoth_Lightning_Shock_DisplayName" rel_version="Territory_FirstLight">Descarga electrizante</string>
 	<string key="Mammoth_Lightning_Shock_Tooltip" rel_version="Territory_FirstLight">Consume {[-30.000000 * -1]} de vitalidad cada {[1.000000]} segundos y reduce la regeneración de vitalidad un {[-0.250000 * -100]} % durante {[2.000000]} segundos. Se acumula {[3.000000]} veces.</string>
 	<string key="AI_Gorilla_Boss_Attune_Fire_DisplayName" rel_version="Territory_FirstLight">Afinidad de nodo ígneo</string>
@@ -926,7 +949,7 @@
 	<string key="AI_Gorilla_Boss_DamageVuln_DisplayName" rel_version="Territory_FirstLight">Retroceso de nodo elemental</string>
 	<string key="AI_Gorilla_Boss_DamageVuln_Description" rel_version="Territory_FirstLight">Kurok está desorientado y recibe {[-0.500000 * -100]} de daño adicional. La duración depende de las acumulaciones de Fortalecimiento de nodo al activarse el retroceso.</string>
 	<string key="AI_Gorilla_Boss_Burn_DisplayName" rel_version="Territory_FirstLight">Llamas de Kurok</string>
-	<string key="AI_Gorilla_Boss_Burn_Description" rel_version="Territory_FirstLight">Kurok quema para infligir un {[-0.050000 * -100]} % de su daño como daño de fuego durante {[5.000000]} segundos. Se acumula hasta {[3.000000]} veces.</string>
+	<string key="AI_Gorilla_Boss_Burn_Description" rel_version="Territory_FirstLight">Kurok quema para infligir un {[-0.05 * -100]} % de su daño como daño de fuego durante {[5.000000]} segundos. Se acumula hasta {[3.000000]} veces.</string>
 	<string key="AI_Gorilla_Boss_Chill_DisplayName" rel_version="Territory_FirstLight">Escarcha de Kurok</string>
 	<string key="AI_Gorilla_Boss_Chill_Description" rel_version="Territory_FirstLight">Ralentiza un {[-0.030000 * -100]} % durante {[6.000000 * 100]} segundos. Se acumula hasta {[10.000000]} veces.</string>
 	<string key="godModeThirst_DisplayName">Modo Dios</string>
@@ -940,6 +963,8 @@
 	<string key="bleeding_DisplayName">Heridas</string>
 	<string key="injury_DisplayName">Lesión</string>
 	<string key="ShipwreckedShock_DisplayName">Electrificado</string>
+	<string key="Fatigue_DisplayName">Fatiga</string>
+	<string key="Fatigue_Description">Nadar en mar abierto te agota la energía.</string>
 	<string key="poison_DisplayName">Quemadura de ácido</string>
 	<string key="disease_DisplayName">Enfermedad</string>
 	<string key="frostbite_DisplayName">Congelación</string>
@@ -1339,45 +1364,47 @@
 	<string key="WeaponCoatingEffect_DisplayName">Revestimiento de arma</string>
 	<string key="WeaponCoatingEffect_Description">Estado del revestimiento de tu arma activa.</string>
 	<string key="WeaponCoatingEffect_T2_Beasts_DisplayName">Revestimiento de arma contra bestias común</string>
-	<string key="WeaponCoatingEffect_T2_Beasts_Description">Al tener esta arma activa, infliges un {[Beast=.09 * 100]} % más de daño a las bestias.</string>
+	<string key="WeaponCoatingEffect_T2_Beasts_Description">Inflige un {[Beast=.09 * 100]} % más de daño a bestias.</string>
 	<string key="WeaponCoatingEffect_T2_Ancient_DisplayName">Revestimiento de arma contra antiguos común</string>
-	<string key="WeaponCoatingEffect_T2_Ancient_Description">Al tener esta arma activa, infliges un {[Ancient=.09 * 100]} % más de daño a antiguos.</string>
+	<string key="WeaponCoatingEffect_T2_Ancient_Description">Inflige un {[Ancient=.09 * 100]} % más de daño a antiguos.</string>
 	<string key="WeaponCoatingEffect_T2_Lost_DisplayName">Revestimiento de arma contra perdidos común</string>
-	<string key="WeaponCoatingEffect_T2_Lost_Description">Al tener esta arma activa, infliges un {[Lost=.09 * 100]} % más de daño a perdidos.</string>
+	<string key="WeaponCoatingEffect_T2_Lost_Description">Inflige un {[Lost=.09 * 100]} % más de daño a perdidos.</string>
 	<string key="WeaponCoatingEffect_T2_Corrupted_DisplayName">Revestimiento de arma contra corruptos común</string>
-	<string key="WeaponCoatingEffect_T2_Corrupted_Description">Al tener esta arma activa, infliges un {[Corrupted=.09 * 100]} % más de daño a corruptos.</string>
+	<string key="WeaponCoatingEffect_T2_Corrupted_Description">Inflige un {[Corrupted=.09 * 100]} % más de daño a corruptos.</string>
 	<string key="WeaponCoatingEffect_T2_AngryEarth_DisplayName">Revestimiento de arma contra tierramarga común</string>
-	<string key="WeaponCoatingEffect_T2_AngryEarth_Description">Al tener esta arma activa, infliges un {[AngryEarth=.09 * 100]} % más de daño a tierramarga.</string>
+	<string key="WeaponCoatingEffect_T2_AngryEarth_Description">Inflige un {[AngryEarth=.09 * 100]} % más de daño a tierramarga.</string>
 	<string key="WeaponCoatingEffect_T3_Beasts_DisplayName">Revestimiento de arma contra bestias fuerte</string>
-	<string key="WeaponCoatingEffect_T3_Beasts_Description">Al tener esta arma activa, infliges un {[Beast=.11 * 100]} % más de daño a las bestias.</string>
+	<string key="WeaponCoatingEffect_T3_Beasts_Description">Inflige un {[Beast=.11 * 100]} % más de daño a bestias.</string>
 	<string key="WeaponCoatingEffect_T3_Ancient_DisplayName">Revestimiento de arma contra antiguos fuerte</string>
-	<string key="WeaponCoatingEffect_T3_Ancient_Description">Al tener esta arma activa, infliges un {[Ancient=.11 * 100]} % más de daño a antiguos.</string>
+	<string key="WeaponCoatingEffect_T3_Ancient_Description">Inflige un {[Ancient=.11 * 100]} % más de daño a antiguos.</string>
 	<string key="WeaponCoatingEffect_T3_Lost_DisplayName">Revestimiento de arma contra perdidos fuerte</string>
-	<string key="WeaponCoatingEffect_T3_Lost_Description">Al tener esta arma activa, infliges un {[Lost=.11 * 100]} % más de daño a perdidos.</string>
+	<string key="WeaponCoatingEffect_T3_Lost_Description">Inflige un {[Lost=.11 * 100]} % más de daño a perdidos.</string>
 	<string key="WeaponCoatingEffect_T3_Corrupted_DisplayName">Revestimiento de arma contra corruptos fuerte</string>
-	<string key="WeaponCoatingEffect_T3_Corrupted_Description">Al tener esta arma activa, infliges un {[Corrupted=.11 * 100]} % más de daño a corruptos.</string>
+	<string key="WeaponCoatingEffect_T3_Corrupted_Description">Inflige un {[Corrupted=.11 * 100]} % más de daño a corruptos.</string>
 	<string key="WeaponCoatingEffect_T3_AngryEarth_DisplayName">Revestimiento de arma contra tierramarga fuerte</string>
-	<string key="WeaponCoatingEffect_T3_AngryEarth_Description">Al tener esta arma activa, infliges un {[AngryEarth=.11 * 100]} % más de daño a tierramarga.</string>
+	<string key="WeaponCoatingEffect_T3_AngryEarth_Description">Inflige un {[AngryEarth=.11 * 100]} % más de daño a tierramarga.</string>
 	<string key="WeaponCoatingEffect_T4_Beasts_DisplayName">Revestimiento de arma contra bestias potente</string>
-	<string key="WeaponCoatingEffect_T4_Beasts_Description">Al tener esta arma activa, infliges un {[Beast=.13 * 100]} % más de daño a las bestias.</string>
+	<string key="WeaponCoatingEffect_T4_Beasts_Description">Inflige un {[Beast=.13 * 100]} % más de daño a bestias.</string>
 	<string key="WeaponCoatingEffect_T4_Ancient_DisplayName">Revestimiento de arma contra antiguos potente</string>
-	<string key="WeaponCoatingEffect_T4_Ancient_Description">Al tener esta arma activa, infliges un {[Ancient=.13 * 100]} % más de daño a antiguos.</string>
+	<string key="WeaponCoatingEffect_T4_Ancient_Description">Inflige un {[Ancient=.13 * 100]} % más de daño a antiguos.</string>
 	<string key="WeaponCoatingEffect_T4_Lost_DisplayName">Revestimiento de arma contra perdidos potente</string>
-	<string key="WeaponCoatingEffect_T4_Lost_Description">Al tener esta arma activa, infliges un {[Lost=.13 * 100]} % más de daño a perdidos.</string>
+	<string key="WeaponCoatingEffect_T4_Lost_Description">Inflige un {[Lost=.13 * 100]} % más de daño a perdidos.</string>
 	<string key="WeaponCoatingEffect_T4_Corrupted_DisplayName">Revestimiento de arma contra corruptos potente</string>
-	<string key="WeaponCoatingEffect_T4_Corrupted_Description">Al tener esta arma activa, infliges un {[Corrupted=.13 * 100]} % más de daño a corruptos.</string>
+	<string key="WeaponCoatingEffect_T4_Corrupted_Description">Inflige un {[Corrupted=.13 * 100]} % más de daño a corruptos.</string>
 	<string key="WeaponCoatingEffect_T4_AngryEarth_DisplayName">Revestimiento de arma contra tierramarga potente</string>
-	<string key="WeaponCoatingEffect_T4_AngryEarth_Description">Al tener esta arma activa, infliges un {[AngryEarth=.13 * 100]} % más de daño a tierramarga.</string>
+	<string key="WeaponCoatingEffect_T4_AngryEarth_Description">Inflige un {[AngryEarth=.13 * 100]} % más de daño a tierramarga.</string>
 	<string key="WeaponCoatingEffect_T5_Beasts_DisplayName">Revestimiento de arma contra bestias imbuido</string>
-	<string key="WeaponCoatingEffect_T5_Beasts_Description">Al tener esta arma activa, infliges un {[Beast=.15 * 100]} % más de daño a las bestias.</string>
+	<string key="WeaponCoatingEffect_T5_Beasts_Description">Inflige un {[Beast=.15 * 100]} % más de daño a bestias.</string>
 	<string key="WeaponCoatingEffect_T5_Ancient_DisplayName">Revestimiento de arma contra antiguos imbuido</string>
-	<string key="WeaponCoatingEffect_T5_Ancient_Description">Al tener esta arma activa, infliges un {[Ancient=.15 * 100]} % más de daño a antiguos.</string>
+	<string key="WeaponCoatingEffect_T5_Ancient_Description">Inflige un {[Ancient=.15 * 100]} % más de daño a antiguos.</string>
 	<string key="WeaponCoatingEffect_T5_Lost_DisplayName">Revestimiento de arma contra perdidos imbuido</string>
-	<string key="WeaponCoatingEffect_T5_Lost_Description">Al tener esta arma activa, infliges un {[Lost=.15 * 100]} % más de daño a perdidos.</string>
+	<string key="WeaponCoatingEffect_T5_Lost_Description">Inflige un {[Lost=.15 * 100]} % más de daño a perdidos.</string>
 	<string key="WeaponCoatingEffect_T5_Corrupted_DisplayName">Revestimiento de arma contra corruptos imbuido</string>
-	<string key="WeaponCoatingEffect_T5_Corrupted_Description">Al tener esta arma activa, infliges un {[Corrupted=.15 * 100]} % más de daño a corruptos.</string>
+	<string key="WeaponCoatingEffect_T5_Corrupted_Description">Inflige un {[Corrupted=.15 * 100]} % más de daño a corruptos.</string>
 	<string key="WeaponCoatingEffect_T5_AngryEarth_DisplayName">Revestimiento de arma contra tierramarga imbuido</string>
-	<string key="WeaponCoatingEffect_T5_AngryEarth_Description">Al tener esta arma activa, infliges un {[AngryEarth=.15 * 100]} % más de daño a tierramarga.</string>
+	<string key="WeaponCoatingEffect_T5_AngryEarth_Description">Inflige un {[AngryEarth=.15 * 100]} % más de daño a tierramarga.</string>
+	<string key="Season_01_Event_DamageBoostEffect_DisplayName">Bendición de la llama</string>
+	<string key="Season_01_Event_DamageBoostEffect_Description">La llama arde en ti y aumenta tu daño contra engendros de espíritu del bosque tejezarzas en un {[Season_01_Event=10.0 * 100]} %.</string>
 	<string key="Status_Spear_Skewer_Bleed_DisplayName">Brocheta</string>
 	<string key="Status_Spear_Skewer_Bleed_Description">Aplica un {[-0.200000 * -100]} % de sangrado cada {[1.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="Status_Spear_Skewer_Bleed_Upgrade_Description">Aplica un {[-0.200000 * -100]} % de sangrado cada {[1.000000]} segundos durante {[15.000000]} segundos.</string>
@@ -1448,6 +1475,10 @@
 	<string key="Status_StaticCharge_Description">Si te golpea un enemigo con Lanzavirotes y 3 acumulaciones activas, suelta una descarga estática y recibes daño adicional.</string>
 	<string key="Status_StaticDischarge">Descarga estática</string>
 	<string key="Status_StaticDischarge_Description">Inflige un {[-0.800000 * -100]} % de daño del arma del atacante.</string>
+	<string key="Status_Artifact_LifeStaff_StackTracker_DisplayName" rel_version="Feature_Artifacts_Set2">Amplificador ligero</string>
+	<string key="Status_Artifact_LifeStaff_StackTracker_Description" rel_version="Feature_Artifacts_Set2">Si tienes {[3.000000]} acumulaciones de este efecto y un ataque pesado atraviesa a un aliado, lo refuerza.</string>
+	<string key="Status_Artifact_LifeStaff_Reinforced_DisplayName" rel_version="Feature_Artifacts_Set2">Reforzado</string>
+	<string key="Status_Artifact_LifeStaff_Reinforced_Description" rel_version="Feature_Artifacts_Set2">Ganas reducción de daño durante {[1.000000]} golpes mientras esté activo.</string>
 	<string key="BlockBreakerDebuffPerk_DisplayName">Extenuación</string>
 	<string key="BlockSpeedPerk1_Description">Tu velocidad de movimiento aumenta en {[0.500000 * 100]}</string>
 	<string key="BlockSpeedPerk2_Description">Tu velocidad de movimiento aumenta en {[0.250000 * 100]}</string>
@@ -1463,9 +1494,11 @@
 	<string key="Status_Haste">Celeridad</string>
 	<string key="Status_Slow">Lentitud</string>
 	<string key="Status_Exhaust">Extenuación</string>
+	<string key="Status_Energized">Energizado</string>
 	<string key="Status_Rend">Desgarro</string>
 	<string key="Status_Weaken">Debilitamiento</string>
 	<string key="Status_Stun">Aturdimiento</string>
+	<string key="Status_Stamina">Vitalidad</string>
 	<string key="Status_Root">Inmovilidad</string>
 	<string key="Status_Poison">Veneno</string>
 	<string key="Status_Bleed">Sangrado</string>
@@ -1482,24 +1515,36 @@
 	<string key="Status_Reinforced">Reforzado</string>
 	<string key="Status_Blessed">Bendición</string>
 	<string key="Status_Empower_Description">Tienes un potenciador de aumento de daño activo.</string>
+	<string key="Status_Invulnerability_Description">Eres inmune al daño.</string>
 	<string key="Status_Fortify_Description">Tienes un potenciador de armadura activo.</string>
 	<string key="Status_Haste_Description">Tu velocidad de movimiento se encuentra aumentada.</string>
 	<string key="Status_Slow_Description">Tu velocidad de movimiento se encuentra reducida.</string>
 	<string key="Status_Exhaust_Description">Tu velocidad de regeneración de vitalidad se encuentra reducida.</string>
+	<string key="Status_Energized_Description">Aumenta tu velocidad de regeneración de vitalidad.</string>
 	<string key="Status_Rend_Description">Tienes una reducción de la armadura activa.</string>
 	<string key="Status_Weaken_Description">Tienes un estado negativo de reducción de daño activo.</string>
 	<string key="Status_Stun_Description">Tus movimientos, ataques y habilidades están desactivados.</string>
 	<string key="Status_Root_Description">Tu movimiento se encuentra desactivado.</string>
+	<string key="Status_Heal_Description">Te curas.</string>
 	<string key="Status_Poison_Description">Tienes un efecto activo de daño por veneno con el paso del tiempo.</string>
 	<string key="Status_Bleed_Description">Tienes un efecto activo de daño por sangrado con el paso del tiempo.</string>
 	<string key="Status_Burn_Description">Tienes un efecto activo de daño de fuego con el paso del tiempo.</string>
+	<string key="Status_Disease_Description">La curación te afecta menos.</string>
 	<string key="Status_Reinforced_description">Ganas reducción de daño en un número limitado de golpes mientras esté activo.</string>
 	<string key="Status_HealingReceived_Description">La eficiencia de la curación sobre uno mismo y de otras fuentes aumenta.</string>
 	<string key="Status_HealOverTimeNonCombat_Description">Recuperas salud cada segundo.</string>
-	<string key="Status_Heal_Description">Tus efectos de curación duran más tiempo.</string>
+	<string key="Status_Heal_Description_Description">Tus efectos de curación duran más tiempo.</string>
 	<string key="Status_LifeSteal_Description">Te curas el daño que hagas mientras este efecto siga activo.</string>
 	<string key="Status_Blessed_Description">Aumenta la curación a objetivos mientras este efecto esté activo.</string>
 	<string key="Status_GemPerk_Retaliate_Description">Bonificación de daño por la ventaja de gema Vengaza.</string>
+	<string key="Status_CritChanceReduction">Reducción de probabilidad de crítico</string>
+	<string key="Status_CritChanceReduction_Description">Tu probabilidad de crítico se reduce mientras este efecto siga activo.</string>
+	<string key="Status_CritChanceIncrease">Aumento de probabilidad de crítico</string>
+	<string key="Status_CritChanceIncrease_Description">Aumenta tu probabilidad de golpe crítico mientras este efecto siga activo.</string>
+	<string key="Status_SlowPotencyReduction">Sin obstáculos</string>
+	<string key="Status_SlowPotencyReduction_Description">La potencia de las ralentizaciones que tengas se reduce mientras este efecto sigue activo.</string>
+	<string key="Status_SlowPotencyReduction_AfterDodgeTimer">Obstaculizado</string>
+	<string key="Status_SlowPotencyReduction_AfterDodgeTimer_Description">La potencia de tus ralentizaciones no se reduce por la ventaja Sin obstáculos mientras este efecto siga activo.</string>
 	<string key="Status_PoisonDiseaseCombo_Description">Tienes un efecto activo de enfermedad y daño por veneno con el paso del tiempo. La curación a objetivos también se reduce.</string>
 	<string key="Status_Upgrade_Bow_EvasiveShot_Haste_description">Aumenta la velocidad de movimiento en un {[0.150000 * 100]} %.</string>
 	<string key="Status_Passive_Bow_Skirmish_HasteOnSwap_description">Aumenta la velocidad de movimiento en un {[0.100000 * 100]} %.</string>
@@ -1528,6 +1573,8 @@
 	<string key="Status_Passive_Greataxe_Mauler_StamVsLowHp_Timer_description">Cuando pasa, se puede volver a activar Resolución de fiera.</string>
 	<string key="Hatchet_Berserk_DisplayName">Furia</string>
 	<string key="Hatchet_Berserk_Description">El modo Furia dura {[12.000000]} segundos.</string>
+	<string key="Status_Berserk_Uninterruptible">Furia ininterrumpida</string>
+	<string key="Status_Berserk_Uninterruptible_Description">Mientras esté activo, te hace ininterrumpible ante derribos y vacilaciones.</string>
 	<string key="Hatchet_Purge_DisplayName">Purga</string>
 	<string key="Hatchet_Purge_Description">Otorga inmunidad a la mayoría de los estados negativos durante {[5.000000]} segundos.</string>
 	<string key="Hatchet_FrenziedPurge_DisplayName">Purga frenética</string>
@@ -1576,9 +1623,9 @@
 	<string key="Status_PowerShot_Empower_Description">Infliges un {[0.100000 * 100]} % más de daño durante {[5.000000]} segundos.</string>
 	<string key="Musket_StoppingPower_Slow_Description">Reduce la velocidad de movimiento en un {[-0.100000 * -100]} %.</string>
 	<string key="PowderBurn_DoT_DisplayName">Quemadura</string>
-	<string key="PowderBurn_DoT_Description">Inflige un {[-0.200000 * -100]} % de daño de arma convertido en fuego cada {[1.000000]} segundo durante {[9.000000]} segundos.</string>
+	<string key="PowderBurn_DoT_Description">Inflige un {[-0.150000 * -100]} % de daño de arma convertido en fuego cada {[1.000000]} segundo durante {[7.000000]} segundos.</string>
 	<string key="PowderBurn_DoT_Extend_DisplayName">Quemadura</string>
-	<string key="PowderBurn_DoT_Extend_Description">Inflige un {[-0.200000 * -100]} % de daño de arma convertido cada {[1.000000]} segundo durante {[13.000000]} segundos.</string>
+	<string key="PowderBurn_DoT_Extend_Description">Inflige un {[-0.150000 * -100]} % de daño de arma convertido cada {[1.000000]} segundo durante {[13.000000]} segundos.</string>
 	<string key="Status_DodgeHaste_Description">Aumenta la velocidad de movimiento en un {[0.100000 * 100]} % tras esquivar.</string>
 	<string key="Status_NearbyEnemyHaste_Description">Aumenta la velocidad de movimiento al caminar/desplazarse lateralmente en un {[0.100000 * 100]} % cuando estás cerca de un enemigo.</string>
 	<string key="Status_EmpowerHeadshot_Description">Tus ataques infligen un {[0.100000 * 100]} % más de daño.</string>
@@ -1603,7 +1650,7 @@
 	<string key="Status_VoidGauntlet_EssenceRupture_Empower_Description" rel_version="Weapon_Void_Gauntlet">Aumenta el daño en un {[0.100000 * 100]} %.</string>
 	<string key="Status_VoidGauntlet_NullChamber_Empower_Description" rel_version="Weapon_Void_Gauntlet">Aumenta el daño en un {[0.150000 * 100]} %.</string>
 	<string key="Status_VoidGauntlet_NullChamber_Weaken_Description" rel_version="Weapon_Void_Gauntlet">Reduce tu daño en un {[-0.050000 * -100]} %.</string>
-	<string key="Status_VoidGauntlet_Scream_Fortify_Description" rel_version="Weapon_Void_Gauntlet">Aumenta tu armadura en un {[0.100000 * 100]} %.</string>
+	<string key="Status_VoidGauntlet_Scream_Fortify_Description" rel_version="Weapon_Void_Gauntlet">Aumenta tu armadura en un {[0.100000 * 100]} % por acumulación.</string>
 	<string key="Status_Perk_VoidGauntlet_Scream_Disease_Description" rel_version="Weapon_Void_Gauntlet">La curación recibida se reduce en un {[-0.100000 * -100 {perkMultiplier}]} % y la curación otorgada en un {[-0.050000 * -100 * {perkMultiplier}]} %.</string>
 	<string key="Status_VoidGauntlet_DecayingOrb_Heal_Description" rel_version="Weapon_Void_Gauntlet">Cura un {[0.200000 * 100]} % de daño de arma cada segundo.</string>
 	<string key="Status_VoidGauntlet_DecayingOrb_SlowVsDebuff_Description" rel_version="Weapon_Void_Gauntlet">Reduce la velocidad de movimiento en un {[-0.300000 * -100]} %.</string>
@@ -1686,16 +1733,18 @@
 	<string key="Dungeon_CursedTreasure_Description" rel_version="Expedition_CutlassKeys_00">El tesoro maldito restringe tu velocidad de movimiento y sufrirás daños de forma regular.</string>
 	<string key="Dungeon_SirenOffering_DisplayName" rel_version="Expedition_CutlassKeys_00">Ofrenda de Nereida</string>
 	<string key="Dungeon_SirenOffering_Description" rel_version="Expedition_CutlassKeys_00">Lleva esta ofrenda a uno de los manantiales vacíos cercanos.</string>
+	<string key="Dungeon_FirstLight01_OrbGateKey_DisplayName">Orbe antiguo</string>
+	<string key="Dungeon_FirstLight01_OrbGateKey_Description">Un orbe antiguo que sirve de llave para abrir una puerta.</string>
 	<string key="AI_AnubianGuardian_BruteBoss_DivineAnguish_DamageBuff_DisplayName" rel_version="Territory_Brimstone_Sands">Angustia divina de guardianes antiguos</string>
 	<string key="AI_AnubianGuardian_BruteBoss_DivineRage_DamageBuff_DisplayName" rel_version="Territory_Brimstone_Sands">Ira divina de guardianes antiguos</string>
 	<string key="AI_AnubianGuardian_HorusBoss_DivineAnguish_DamageBuff_DisplayName" rel_version="Territory_Brimstone_Sands">Angustia divina de guardianes antiguos</string>
 	<string key="AI_AnubianGuardian_HorusBoss_DivineRage_DamageBuff_DisplayName" rel_version="Territory_Brimstone_Sands">Ira divina de guardianes antiguos</string>
 	<string key="AI_Anubian_Sunspots_Burn_DisplayName" rel_version="Territory_Brimstone_Sands">Quemadura solar antigua</string>
-	<string key="AI_Anubian_Sunspots_Burn_Description" rel_version="Territory_Brimstone_Sands">Inflige un {[-0.100000 * -100]} % de daño base de fuego cada {[1.000000]} segundos.</string>
+	<string key="AI_Anubian_Sunspots_Burn_Description" rel_version="Territory_Brimstone_Sands">Inflige un {[-0.1 * -100]} % de daño base de fuego cada {[1.000000]} segundos.</string>
 	<string key="AI_Anubian_Burn_9_DisplayName" rel_version="Territory_Brimstone_Sands">Quemadura solar antigua</string>
-	<string key="AI_Anubian_Burn_9_Tooltip" rel_version="Territory_Brimstone_Sands">Inflige un {[-0.025000 * -100]} % de daño base de fuego cada {[2.000000]} segundos.</string>
+	<string key="AI_Anubian_Burn_9_Tooltip" rel_version="Territory_Brimstone_Sands">Inflige un {[-2.5000000000000001E-2 * -100]} % de daño base de fuego cada {[2.000000]} segundos.</string>
 	<string key="AI_Anubian_Boss_Burn_9_DisplayName" rel_version="Territory_Brimstone_Sands">Quemadura solar antigua</string>
-	<string key="AI_Anubian_Boss_Burn_9_Tooltip" rel_version="Territory_Brimstone_Sands">Inflige un {[-0.040000 * -100]} % de daño base de fuego cada {[2.000000]} segundos.</string>
+	<string key="AI_Anubian_Boss_Burn_9_Tooltip" rel_version="Territory_Brimstone_Sands">Inflige un {[-0.04 * -100]} % de daño base de fuego cada {[2.000000]} segundos.</string>
 	<string key="Immune_To_Damage">Inmune</string>
 	<string key="Attack_Dodged">Esquivado</string>
 	<string key="Attack_Evaded">Evadido</string>
@@ -1712,8 +1761,10 @@
 	<string key="MeteorShowerDamage_DisplayName">Lluvia de meteoritos</string>
 	<string key="MeteorShowerDamage_Description">Recibes daños periódicos de una lluvia de meteoritos.</string>
 	<string key="Doomfist_Exhaust_T5_Description" rel_version="Territory_Brimstone_Sands">Reduce un {[-0.500000 * -100]} % la regeneración de vitalidad durante {[20.000000]} segundos.</string>
+	<string key="CorruptedLegion_Cyclops_Root_UnhallowedGrounds_DisplayName" rel_version="Territory_Brimstone_Sands">Enraizado</string>
+	<string key="CorruptedLegion_Cyclops_Rend_BloodShot_DisplayName" rel_version="Territory_Brimstone_Sands">Desgarro</string>
 	<string key="CorruptedLegion_Cyclops_Rend_BloodShot_Tooltip" rel_version="Territory_Brimstone_Sands">Recibes un {[-0.200000 * -100]} % más de daño de todas las fuentes durante {[15.000000]} segundos y te inflige una marca.</string>
-	<string key="ArcticBreath_Tooltip" rel_version="Event_WinterConvergence_Perm">Sufres un {[-0.010000 * -100]} % de daño cada {[0.500000]} segundos y tu velocidad se reduce un {[-0.500000 * -100]} % durante {[6.000000]} segundos.</string>
+	<string key="ArcticBreath_Tooltip" rel_version="Event_WinterConvergence_Perm">Sufres un {[-0.01 * -100]} % de daño cada {[0.500000]} segundos y tu velocidad se reduce un {[-0.500000 * -100]} % durante {[6.000000]} segundos.</string>
 	<string key="ArcticBreath_DisplayName" rel_version="Event_WinterConvergence_Perm">Hálito del Ártico</string>
 	<string key="Status_Timer_FireAttunement_Description" rel_version="Feature_Dungeon_Mutators">Cuando termina, puedes volver a utilizar la ventaja de Afinidad piroquinética.</string>
 	<string key="Status_Timer_IceAttunement_Description" rel_version="Feature_Dungeon_Mutators">Cuando termina, puedes volver a utilizar la ventaja de Afinidad helada.</string>
@@ -1746,16 +1797,17 @@
 	<string key="AI_Evil_Knight_Flamekeeper_Combustible_DisplayName" rel_version="Season_1_Perm">Combustible</string>
 	<string key="AI_Evil_Knight_Flamekeeper_Combustible_Tooltip" rel_version="Season_1_Perm">Ganas una acumulación de combustible por cada fragmento ardiente que apagues. Al llegar a 10 acumulaciones, se producirá una combustión.</string>
 	<string key="AI_Evil_Knight_Flamekeeper_Burn_DisplayName">Fuego del Guardián de las llamas</string>
-	<string key="AI_Evil_Knight_Flamekeeper_Burn_Tooltip">Las quemaduras te causan un {[-0.025000 * -100]} % de daño base de fuego cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_Evil_Knight_Flamekeeper_Burn_Tooltip">Las quemaduras te causan un {[-2.5000000000000001E-2 * -100]} % de daño base de fuego cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="AI_Evil_Knight_Gruntmaster_LavaBurn_DisplayName">Quemadura de lava</string>
-	<string key="AI_Evil_Knight_Gruntmaster_LavaBurn_Tooltip">Las quemaduras te causan un {[-0.035000 * -100]} % de daño base de fuego cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
+	<string key="AI_Evil_Knight_Gruntmaster_LavaBurn_Tooltip">Las quemaduras te causan un {[-3.5000000000000003E-2 * -100]} % de daño base de fuego cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
 	<string key="AI_Evil_Knight_IceNova_DisplayName" rel_version="Season_4_Perm">Congelación glacial</string>
+	<string key="AI_Evil_Knight_IceNova_Description" rel_version="Season_4_Perm">No puedes moverte durante {[3.000000]} segundos.</string>
 	<string key="RoadTravel_SprintBoost">Velocidad en los caminos</string>
 	<string key="RoadTravel_SprintBoost_Description">Tu velocidad en carrera aumenta en un {[0.150000 * 100]} % al correr por caminos.</string>
 	<string key="OutOfCombat_PassiveRegen_Name">Regeneración pacífica</string>
 	<string key="OutOfCombat_PassiveRegen_Description">Una regeneración pasiva que, además de otorgar curación con el tiempo y una mayor tasa de regeneración de maná, aumenta la curación pasiva por alimentos mientras estés fuera de combate.</string>
-	<string key="Status_Weapon_DiseaseOnCrit_Description" rel_version="MorePerksV1">Reduce la eficiencia de curación recibida del objetivo y de curación otorgada mientras esté activo.</string>
-	<string key="Status_Weapon_DiseaseOnHeavy_Description" rel_version="MorePerksV1">Reduce la eficiencia de curación recibida del objetivo y de curación otorgada mientras esté activo.</string>
+	<string key="Status_Weapon_DiseaseOnCrit_Description" rel_version="MorePerksV1">Reduce la eficiencia de la curación recibida del objetivo y de la curación otorgada mientras esté activo.</string>
+	<string key="Status_Weapon_DiseaseOnHeavy_Description" rel_version="MorePerksV1">Reduce la eficiencia de la curación recibida del objetivo y de la curación otorgada mientras esté activo.</string>
 	<string key="Status_Weapon_ChargedHeavyRend_Description" rel_version="MorePerksV1">Reduce tu armadura mientras esté activo.</string>
 	<string key="Status_Timer_ChargedHeavyRend_Description" rel_version="MorePerksV1">Cuando termina, puedes volver a utilizar la ventaja Desgarro agudo.</string>
 	<string key="Wispy_Wasp_Swarm_Tick_DisplayName">Sangrado</string>
@@ -1937,17 +1989,17 @@
 	<string key="Status_TinctureAcidT5_Tooltip">Consigues 20 de resistencia al ácido.</string>
 	<string key="GruntFrenzy_DisplayName">Frenético</string>
 	<string key="WeaponCoatingEffect_T5_Aeternian_DisplayName" rel_version="Season_1_Perm">Revestimiento de arma contra humanos imbuido</string>
-	<string key="WeaponCoatingEffect_T5_Aeternian_Description" rel_version="Season_1_Perm">Solo JcE: Al tener esta arma activa, infliges un {[human=.15 * 100]} % más de daño a humanos.</string>
+	<string key="WeaponCoatingEffect_T5_Aeternian_Description" rel_version="Season_1_Perm">Solo JcE: infliges un {[human=.15 * 100]} % más de daño a humanos.</string>
 	<string key="WeaponCoatingEffect_T4_Aeternian_DisplayName" rel_version="Season_1_Perm">Revestimiento de arma contra humanos potente</string>
-	<string key="WeaponCoatingEffect_T4_Aeternian_Description" rel_version="Season_1_Perm">Solo JcE: Al tener esta arma activa, infliges un {[human=.13 * 100]} % más de daño a humanos.</string>
+	<string key="WeaponCoatingEffect_T4_Aeternian_Description" rel_version="Season_1_Perm">Solo JcE: infliges un {[human=.13 * 100]} % más de daño a humanos.</string>
 	<string key="WeaponCoatingEffect_T3_Aeternian_DisplayName" rel_version="Season_1_Perm">Revestimiento de arma contra humanos fuerte</string>
-	<string key="WeaponCoatingEffect_T3_Aeternian_Description" rel_version="Season_1_Perm">Solo JcE: Al tener esta arma activa, infliges un {[human=.11 * 100]} % más de daño a humanos.</string>
+	<string key="WeaponCoatingEffect_T3_Aeternian_Description" rel_version="Season_1_Perm">Solo JcE: infliges un {[human=.11 * 100]} % más de daño a humanos.</string>
 	<string key="WeaponCoatingEffect_T2_Aeternian_DisplayName" rel_version="Season_1_Perm">Revestimiento de arma contra humanos común</string>
-	<string key="WeaponCoatingEffect_T2_Aeternian_Description" rel_version="Season_1_Perm">Solo JcE: Al tener esta arma activa, infliges un {[human=.09 * 100]} % más de daño a humanos.</string>
+	<string key="WeaponCoatingEffect_T2_Aeternian_Description" rel_version="Season_1_Perm">Solo JcE: infliges un {[human=.09 * 100]} % más de daño a humanos.</string>
 	<string key="AI_ExplosiveSprout_FireExplosion_DisplayName" rel_version="Territory_FirstLight">Quemadura</string>
-	<string key="AI_ExplosiveSprout_FireExplosion_Tooltip" rel_version="Territory_FirstLight">Inflige un {[-0.100000 * -100]} % de daño base de fuego cada {[1.000000]} segundos.</string>
+	<string key="AI_ExplosiveSprout_FireExplosion_Tooltip" rel_version="Territory_FirstLight">Inflige un {[-0.1 * -100]} % de daño base de fuego cada {[1.000000]} segundos.</string>
 	<string key="AI_ExplosiveSprout_PoisonExplosion_DisplayName" rel_version="Territory_FirstLight">Envenenado</string>
-	<string key="AI_ExplosiveSprout_PoisonExplosion_Tooltip" rel_version="Territory_FirstLight">Inflige un {[-0.040000 * -100]} % de daño base de naturaleza cada {[2.000000]} segundos.</string>
+	<string key="AI_ExplosiveSprout_PoisonExplosion_Tooltip" rel_version="Territory_FirstLight">Inflige un {[-0.04 * -100]} % de daño base de naturaleza cada {[2.000000]} segundos.</string>
 	<string key="AI_Evil_Knight_Ice_Arrow_Root_2sec_DisplayName" rel_version="Season_4_Perm">Talón helado</string>
 	<string key="AI_Evil_Knight_Ice_Arrow_Root_2sec_Tooltip" rel_version="Season_4_Perm">La congelación te impide moverte durante {[3.000000]} segundos.</string>
 	<string key="AI_Evil_Knight_SeasonsBeatings_DisplayName" rel_version="Season_4_Perm">Relajado</string>
@@ -1960,11 +2012,11 @@
 	<string key="AI_Medusa_Gaze_DisplayName" rel_version="Territory_FirstLight">Mirada de la gorgona</string>
 	<string key="AI_Medusa_Gaze_Tooltip" rel_version="Territory_FirstLight">Reduce la velocidad de movimiento en un {[-0.150000 * -100]} % durante {[15.000000]} segundos.</string>
 	<string key="AI_Medusa_Petrification_DisplayName" rel_version="Territory_FirstLight">Petrificación</string>
-	<string key="AI_Medusa_Petrification_Tooltip" rel_version="Territory_FirstLight">Daña un {[-0.500000 * -100]} % de salud y reduce la velocidad de movimiento en un {[-0.500000 * -100]} % durante {[8.000000]} segundos.</string>
+	<string key="AI_Medusa_Petrification_Tooltip" rel_version="Territory_FirstLight">Daña un {[-0.5 * -100]} % de salud y reduce la velocidad de movimiento en un {[-0.500000 * -100]} % durante {[8.000000]} segundos.</string>
 	<string key="AI_Medusa_Poison_DisplayName" rel_version="Territory_FirstLight">Emponzoñado</string>
-	<string key="AI_Medusa_Poison_Tooltip" rel_version="Territory_FirstLight">Daña un {[-0.025000 * -100]} % de salud.</string>
+	<string key="AI_Medusa_Poison_Tooltip" rel_version="Territory_FirstLight">Daña un {[-2.5000000000000001E-2 * -100]} % de salud.</string>
 	<string key="AI_Medusa_Poison_Pool_DisplayName" rel_version="Territory_FirstLight">Veneno de Medusa</string>
-	<string key="AI_Medusa_Poison_Pool_Tooltip" rel_version="Territory_FirstLight">Daña un {[-0.030000 * -100]} % de salud.</string>
+	<string key="AI_Medusa_Poison_Pool_Tooltip" rel_version="Territory_FirstLight">Daña un {[-0.03 * -100]} % de salud.</string>
 	<string key="PotionBoostIceAbsT3_DisplayName" rel_version="IceAbsorbPot">Absorción de hielo I</string>
 	<string key="PotionBoostIceAbsT4_DisplayName" rel_version="IceAbsorbPot">Absorción de hielo II</string>
 	<string key="PotionBoostIceAbsT5_DisplayName" rel_version="IceAbsorbPot">Absorción de hielo III</string>
@@ -2061,6 +2113,31 @@
 	<string key="SE_MeshChange_Anubian_Horus_MasterName" rel_version="Event_Halloween2023_Perm">Atuendo de Horus anubino</string>
 	<string key="SE_MeshChange_Lost_Monarch_Description" rel_version="Event_Halloween2023_Perm">Visita cestas de dulces llevando este disfraz para conseguir chucherías.</string>
 	<string key="SE_MeshChange_Lost_Monarch_MasterName" rel_version="Event_Halloween2023_Perm">Atuendo de monarca perdido</string>
+	<string key="AI_Typhon_HercyneBuff_Fortify_DisplayName" rel_version="Raid_CutlassKeys_00">Aura de fortificación</string>
+	<string key="AI_Typhon_BlightedBlood_DisplayName" rel_version="Raid_CutlassKeys_00">Sangre infecta</string>
+	<string key="AI_Typhon_BlightedBlood_Tooltip" rel_version="Raid_CutlassKeys_00">Recibes como sangrado un {[-0.02 * -100]} % de daño físico a la salud base cada {[1.000000]} segundos y sufres un {[-0.150000 * -100]} % más de daño de todas las fuentes durante {[15.000000]} segundos. Se acumula {[25.000000]} veces.</string>
+	<string key="AI_TyphonAdd_Empowering_DisplayName" rel_version="Raid_CutlassKeys_00">Carne empoderadora</string>
+	<string key="AI_TyphonAdd_Lifesteal_DisplayName" rel_version="Raid_CutlassKeys_00">Carne regeneradora</string>
+	<string key="AI_Typhon_HungryHowl_Stun_DisplayName" rel_version="Raid_CutlassKeys_00">Grilletes espinosos</string>
+	<string key="AI_Typhon_HungryHowl_Stun_Tooltip" rel_version="Raid_CutlassKeys_00">Escóndete donde puedas si no quieres que Tifón acabe contigo.</string>
+	<string key="AI_Typhon_ThornPrison_RootForever_DisplayName" rel_version="Raid_CutlassKeys_00">Confinamiento doloroso</string>
+	<string key="AI_Typhon_ThornPrison_RootForever_Tooltip" rel_version="Raid_CutlassKeys_00">Se te confina en una celda de espinas. Recibes un {[-0.05 * -100]} % de daño base de naturaleza cada {[0.500000]} segundos. Será mejor que encuentres una forma de salir pronto.</string>
+	<string key="AI_Hercyne_Broodmother_CorrosiveGunk_DisplayName" rel_version="Raid_CutlassKeys_00">Pringue corrosiva</string>
+	<string key="AI_Hercyne_Broodmother_CorrosiveGunk_Tooltip" rel_version="Raid_CutlassKeys_00">Cubierto de pringue. Recibes un {[-3.5000000000000003E-2 * -100]} % de daño base de naturaleza cada {[1.000000]} segundos.</string>
+	<string key="AI_Hercyne_Broodmother_CorrosiveGunk_EggGrowth_DisplayName" rel_version="Raid_CutlassKeys_00">Crecimiento corrosivo</string>
+	<string key="AI_Hercyne_Broodmother_CorrosiveGunk_EggGrowth_Tooltip" rel_version="Raid_CutlassKeys_00">Cubierto de pringue. Ayuda al huevo a eclosionar antes.</string>
+	<string key="AI_Hercyne_Broodmother_Sleepy_DisplayName" rel_version="Raid_CutlassKeys_00">Somnolencia</string>
+	<string key="AI_Hercyne_Broodmother_Sleepy_Tooltip" rel_version="Raid_CutlassKeys_00">Se te cierran los ojos a causa del polen y te duermes tras 10 acumulaciones.</string>
+	<string key="AI_Hercyne_Broodmother_Asleep_DisplayName" rel_version="Raid_CutlassKeys_00">Sueño</string>
+	<string key="AI_Hercyne_Broodmother_Asleep_Tooltip" rel_version="Raid_CutlassKeys_00">Te duermes durante {[60.000000]} segundos salvo que te salpique agua purificadora. Recibes un {[-0.05 * -100]} % de daño base de naturaleza cada {[1.000000]} segundos.</string>
+	<string key="AI_Hercyne_Broodmother_PoisonedRoot_DisplayName" rel_version="Raid_CutlassKeys_00">Espinas lacerantes</string>
+	<string key="AI_Hercyne_Broodmother_PoisonedRoot_Tooltip" rel_version="Raid_CutlassKeys_00">Las espinas te cortan. Recibes un {[-2.5000000000000001E-2 * -100]} % de daño base y un {[-2.5000000000000001E-2 * -100]} % de daño físico a la salud base cada {[1.000000]} segundos.</string>
+	<string key="AI_Hercyne_Broodmother_MushroomInfection_Dormant_DisplayName" rel_version="Raid_CutlassKeys_00">Infección fúngica inactiva</string>
+	<string key="AI_Hercyne_Broodmother_MushroomInfection_Dormant_Tooltip" rel_version="Raid_CutlassKeys_00">Te infectas con las esporas. La infección se activará a las {[10.000000]} acumulaciones, salvo que se purifique con agua. Recibes un {[-5.0000000000000001E-3 * -100]} % de daño base de naturaleza cada {[2.000000]} segundos.</string>
+	<string key="AI_Hercyne_Broodmother_MushroomInfection_Active_DisplayName" rel_version="Raid_CutlassKeys_00">Infección fúngica activa</string>
+	<string key="AI_Hercyne_Broodmother_MushroomInfection_Active_Tooltip" rel_version="Raid_CutlassKeys_00">Infección contagiosa. La infección se puede purificar con agua. Recibes una pequeña cantidad de daño de naturaleza cada {[0.330000]} segundos.</string>
+	<string key="AI_Hercyne_Broodmother_PlayerEggResistance_DisplayName" rel_version="Raid_CutlassKeys_00">Resistencia de cascarón</string>
+	<string key="AI_Hercyne_Broodmother_PlayerEggResistance_Tooltip" rel_version="Raid_CutlassKeys_00">Pierdes parte de la resistencia a la pringue de los huevos. La pringue corrosiva desaparece lentamente y dura menos.</string>
 	<string key="Dungeon_CrossWorldPugGroup_DisplayName" rel_version="Feature_PUG_Finder">Nuevos amigos</string>
 	<string key="Dungeon_CrossWorldPugGroup_Description" rel_version="Feature_PUG_Finder">Los grupos JcE emparejados en mundo múltiple reciben:\n\n+{[0.150000 *100]} % de salud\n+{[0.150000 *100]} % de daño\n+{[0.15 *100]} % de curación a objetivos.</string>
 	<string key="Mammoth_Boss_IceStorm_Slow_Tooltip" rel_version="Territory_FirstLight">Reduce la velocidad de movimiento en un {[-0.050000 * -100]} % por acumulación.</string>
@@ -2070,13 +2147,67 @@
 	<string key="Status_Artifact_Set2_AmuletTimer_Desc">Cuando pasa, se puede volver a activar Fénix.</string>
 	<string key="Status_Immunity_Name">Inmunidad</string>
 	<string key="Status_Immunity_Desc">Mientras este estado esté activo, no podrás morir.</string>
-	<string key="AI_IceDragon_Bleed_9_DisplayName">Sangrado gélido</string>
-	<string key="AI_IceDragon_Bleed_9_Tooltip">Al sangrar, recibes un {[-0.050000 * -100]} % de daño base y un {[-0.015000 * -100]} % de daño físico a la salud base cada {[2.000000]} segundos durante {[10.000000]} segundos.</string>
-	<string key="DEBUG_DMGBuff_10_Description">Aumenta el daño infligido y reduce el daño recibido en un 10 % por acumulación.</string>
-	<string key="DEBUG_DMGBuff_10_DisplayName">Potenciador de daño de depuración</string>
-	<string key="Status_Phoenix_Burn_Desc">Venganza del fénix te quitará la vida si no matas a algún objetivo.</string>
+	<string key="AI_Taunt_Immunity_DisplayName">Imperturbable</string>
 	<string key="Status_Phoenix_Name">Invulnerabilidad del fénix</string>
 	<string key="Status_Phoenix_Desc">Mientras este estado esté activo, no podrás morir.</string>
 	<string key="Status_Phoenix_Burn_Name">Venganza del fénix</string>
+	<string key="Status_Phoenix_Burn_Desc">Venganza del fénix te quitará la vida si no matas a algún objetivo.</string>
+	<string key="IceMagic_Artifact_Freeze_DisplayName">Quemadura helada</string>
+	<string key="IceMagic_Artifact_Freeze_Description">Te ralentiza y recibes daño con el tiempo mientras este efecto siga activo.</string>
+	<string key="Raid_CutlassKeys00_MushroomInfection_Dormant_Name" rel_version="Raid_CutlassKeys_00">Infección fúngica inactiva</string>
+	<string key="Raid_CutlassKeys00_MushroomInfection_Dormant_Desc" rel_version="Raid_CutlassKeys_00">Te infectas con las esporas. La infección se activará a las {[20.000000]} acumulaciones, salvo que se purifique con agua. Recibes un {[-0.005000 * -100]} % de daño cada {[3.000000]} segundos.</string>
+	<string key="Raid_CutlassKeys00_MushroomInfection_Active_Name" rel_version="Raid_CutlassKeys_00">Infección fúngica activa</string>
+	<string key="Raid_CutlassKeys00_MushroomInfection_Active_Desc" rel_version="Raid_CutlassKeys_00">Infección contagiosa. La infección se puede purificar con agua. Recibes un {[-0.030000 * -100]} % de daño cada {[1.000000]} segundos.</string>
+	<string key="Raid_CutlassKeys00_CleansingWater_DisplayName" rel_version="Raid_CutlassKeys_00">Agua purificadora</string>
+	<string key="Raid_CutlassKeys00_CleansingWater_Desc" rel_version="Raid_CutlassKeys_00">Agua purificadora cura todas las infecciones fúngicas.</string>
+	<string key="Raid_CutlassKeys00_SpikeWall_DisplayName" rel_version="Raid_CutlassKeys_00">Púa espinosa</string>
+	<string key="Raid_CutlassKeys00_SpikeWall_Desc" rel_version="Raid_CutlassKeys_00">Púa espinosa inflige daño periódico con el tiempo.</string>
+	<string key="AI_Echidna_Vine_Root_DisplayName" rel_version="Raid_CutlassKeys_00">Enraizado</string>
+	<string key="AI_Echidna_Vine_Root_Tooltip" rel_version="Raid_CutlassKeys_00">No puedes moverte hasta que se destruya el misil de obsidiana.</string>
+	<string key="AI_Echidna_Missile_Debuff_DisplayName" rel_version="Raid_CutlassKeys_00">Debilidad de obsidiana</string>
+	<string key="AI_Echidna_Missile_Debuff_Tooltip" rel_version="Raid_CutlassKeys_00">Recibes un {[-0.400000 * -100]} % más de daño de todas las fuentes mientras estés cerca de un cristal de obsidiana.</string>
+	<string key="AI_Echidna_Ground_Debuff_DisplayName" rel_version="Raid_CutlassKeys_00">Amenaza detectada</string>
+	<string key="AI_Echidna_Ground_Debuff_Tooltip" rel_version="Raid_CutlassKeys_00">Equidna puede sentir tu presencia por el suelo y concentra su armadura de roca en absorber tus ataques.</string>
+	<string key="AI_Echidna_Ground_Debuff_Low_DisplayName" rel_version="Raid_CutlassKeys_00">Amenaza aún detectada</string>
+	<string key="AI_Echidna_Ground_Debuff_Low_Tooltip" rel_version="Raid_CutlassKeys_00">Equidna aún puede sentir tu presencia por el suelo y concentra principalmente su armadura de roca en absorber tus ataques.</string>
+	<string key="AI_Echidna_Ground_Debuff_Mid_DisplayName" rel_version="Raid_CutlassKeys_00">Amenaza apenas detectada</string>
+	<string key="AI_Echidna_Ground_Debuff_Mid_Tooltip" rel_version="Raid_CutlassKeys_00">Equidna apenas siente tu presencia a esta altura y le cuesta concentrar su armadura de roca en absorber tus ataques.</string>
+	<string key="AI_Echidna_PillarTop_Buff_DisplayName" rel_version="Raid_CutlassKeys_00">A salvo</string>
+	<string key="AI_Echidna_PillarTop_Buff_Tooltip" rel_version="Raid_CutlassKeys_00">Infliges daño y daño de vitalidad adicionales a esta altura.</string>
+	<string key="AI_Echidna_Stagger_Buff_DisplayName" rel_version="Raid_CutlassKeys_00">¡Está expuesta!</string>
+	<string key="AI_Echidna_Stagger_Buff_Tooltip" rel_version="Raid_CutlassKeys_00">Infliges daño adicional al atacar a Equidna por la espalda desde este ángulo.</string>
+	<string key="AI_EchidnaRend_20s_DisplayName" rel_version="Raid_CutlassKeys_00">Desgarro</string>
+	<string key="AI_EchidnaRend_20s_Tooltip" rel_version="Raid_CutlassKeys_00">Recibes un {[-0.100000 * -100]} % más de daño de todas las fuentes durante {[20.000000]} segundos.</string>
+	<string key="Status_PotionRecharge_Name">Reabastecimiento</string>
+	<string key="Status_PotionRecharge_Desc">Recarga tu siguiente poción de salud al instante</string>
+	<string key="Dungeon_Medusa_Statue_Gaze_Root_DisplayName" rel_version="Raid_CutlassKeys_00">Petrificación</string>
+	<string key="Dungeon_Medusa_Statue_Gaze_Root_Description" rel_version="Raid_CutlassKeys_00">Daña un {[-0.200000 * -100]} % de salud y reduce la velocidad de movimiento en un {[-1.000000 * -100]} % durante {[8.000000]} segundos.</string>
+	<string key="AI_Corrupted_FirstMate_AnchorSlam_AOE_Enemy_DisplayName" rel_version="ConsoleLaunch">Pozo de corrupción</string>
+	<string key="AI_Corrupted_FirstMate_AnchorSlam_AOE_Enemy_Tooltip" rel_version="ConsoleLaunch">Sufres un {[-0.05 * -100]} % de daño de corrupción cada {[1.000000]} segundos.</string>
+	<string key="AI_Corrupted_FirstMate_AnchorSlam_AOE_Friendly_DisplayName" rel_version="ConsoleLaunch">Corrupción fortalecedora</string>
+	<string key="AI_Corrupted_FirstMate_AnchorToss_Slow_DisplayName" rel_version="ConsoleLaunch">Corrupción fijadora</string>
+	<string key="AI_Corrupted_FirstMate_AnchorToss_Slow_Tooltip" rel_version="ConsoleLaunch">Sufres un {[-0.05 * -100]} % de daño de corrupción cada {[2.000000]} segundos y reduce tu velocidad de movimiento en un {[-0.400000 * -100]} %.</string>
+	<string key="AI_Corrupted_FirstMate_BlockBroken_SelfDebuff_1_DisplayName" rel_version="ConsoleLaunch">Defensa astillada</string>
+	<string key="AI_Corrupted_FirstMate_BlockBroken_SelfDebuff_2_DisplayName" rel_version="ConsoleLaunch">Defensa astillada</string>
+	<string key="AI_Corrupted_FirstMate_BlockBroken_SelfDebuff_3_DisplayName" rel_version="ConsoleLaunch">Defensa astillada</string>
+	<string key="AI_Torso_Boss_Arcane_Slicer_StatusEffect_DisplayName" rel_version="ConsoleLaunch">Imbuición arcana</string>
+	<string key="AI_Torso_Boss_Arcane_Slicer_StatusEffect_Tooltip" rel_version="ConsoleLaunch">Un rebanador arcano aparece en tu posición después de {[8.000000]} segundos.</string>
+	<string key="AI_Torso_Boss_Minion_Sentry_OnDeath_StatusEffect_DisplayName" rel_version="ConsoleLaunch">Reacción arcana</string>
+	<string key="AI_Torso_Boss_Minion_Sentry_OnDeath_Orb_StatusEffect_DisplayName" rel_version="ConsoleLaunch">Reacción arcana</string>
+	<string key="AI_Torso_Boss_Attack_Rend_DisplayName" rel_version="ConsoleLaunch">Mano de los antiguos</string>
+	<string key="AI_Torso_Boss_Attack_Rend_Tooltip" rel_version="ConsoleLaunch">Recibes un {[-0.100000 * -100]} % más de daño de todas las fuentes por acumulación durante {[20.000000]} segundos.</string>
+	<string key="AI_Torso_Boss_Laser_Rend_DisplayName" rel_version="ConsoleLaunch">Ojo de los antiguos</string>
+	<string key="AI_Torso_Boss_Laser_Rend_Tooltip" rel_version="ConsoleLaunch">Recibes un {[-0.200000 * -100]} % más de daño arcano por acumulación durante {[15.000000]} segundos.</string>
+	<string key="CommonBlank"/>
+	<string key="Status_Flail_Slam_Lifesteal_Tracker_Description"/>
+	<string key="Status_Flail_Slam_Lifesteal_Tracker_Displayname">Contador </string>
+	<string key="Status_Flail_BlockingHit_DurStack_Description"/>
+	<string key="Status_Flail_BlockingHit_DurStack_DisplayName">Contador </string>
+	<string key="AI_Silence_6sec_DisplayName" rel_version="ConsoleLaunch">Silencio</string>
+	<string key="AI_Silence_6sec_Tooltip" rel_version="ConsoleLaunch">No puedes usar habilidades durante {[6.000000]} segundos.</string>
+	<string key="Root_Forever_DisplayName" rel_version="ConsoleLaunch">Enraizado</string>
+	<string key="Root_Forever_Tooltip" rel_version="ConsoleLaunch">Te han atrapado y no puedes moverte.</string>
+	<string key="AI_Mordred_ChargeStun_1sec_DisplayName" rel_version="ConsoleLaunch">Aturdimiento</string>
+	<string key="AI_Mordred_ChargeStun_1sec_Tooltip" rel_version="ConsoleLaunch">Sufres aturdimiento durante {[1.000000]} segundos.</string>
 </resources>
 

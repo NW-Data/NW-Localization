@@ -18,13 +18,20 @@
 	<string key="mm_serverdown">Mundo en mantenimiento</string>
 	<string key="mm_serveristransfer">Transfiriendo</string>
 	<string key="mm_serverdisabled">Mundo inhabilitado</string>
+	<string key="mm_characters_serverunavailable">Mundo no disponible</string>
+	<string key="mm_noactiveworldsinregion_tooltip">No hay mundos activos en tu región.</string>
+	<string key="mm_noactiveworldsinregion_characterselectbutton_tooltip">No hay mundos activos en tu región. Vuelve a intentarlo más tarde.</string>
 	<string key="mm_defaultworldname">New World</string>
 	<string key="mm_defaultworlddesc">Sin descripción</string>
 	<string key="mm_defaultworldmotd">Sin MotD</string>
 	<string key="mm_defaultclustername">Sin región</string>
+	<string key="mm_annoucements">Anuncios</string>
+	<string key="mm_new_world_news">Noticias</string>
 	<string key="ui_banned">Prohibido</string>
 	<string key="mm_loginerrortitle">Error de inicio de sesión</string>
 	<string key="mm_connectionfailed">Error de conexión</string>
+	<string key="mm_connectionfailed_tlsWrongVersionError">Tu SO no está configurado para permitir conexiones seguras con TLS 1.2</string>
+	<string key="mm_OmniAuthError">Error de conexión.\nRevisa tu conexión a internet y vuelve a intentarlo.</string>
 	<string key="mm_error_code">Código de error:</string>
 	<string key="mm_waitingtotransfer" rel_version="Feature_MTX">Esperando para transferir a\n{worldName}</string>
 	<string key="mm_transferworldname" rel_version="Feature_MTX">Transferir a {regionName}</string>
@@ -105,19 +112,29 @@
 	<string key="mm_loginservices_CharacterNotFlaggedForRename">Acceso denegado: El personaje no se puede renombrar.</string>
 	<string key="mm_loginservices_NotEligibleForFTUE">Inicio de sesión denegado: FTUE ya se completó.</string>
 	<string key="mm_loginservices_InternalError">Fallo en el inicio de sesión, inténtalo de nuevo más tarde.</string>
+	<string key="mm_loginservices_UnknownError">Error en el inicio de sesión: {error}. Vuelve a intentarlo más tarde.</string>
+	<string key="mm_loginservices_P5">Error interno. No se pudo realizar la solicitud de información del canal.</string>
 	<string key="mm_loginservices_InternalServerErrorException">Fallo en el servidor de inicio de sesión, inténtalo de nuevo más tarde.</string>
 	<string key="mm_loginservices_InternalFailureException">Fallo en el servidor de inicio de sesión, inténtalo de nuevo más tarde.</string>
 	<string key="mm_loginservices_CredentialsError">Credenciales no válidas para inicio de sesión.</string>
+	<string key="mm_loginservices_ChannelServiceError">Error al conectarse a los servicios del canal. Vuelve a intentarlo más tarde.</string>
+	<string key="mm_loginservices_ChannelServiceProductId">ID de producto:</string>
+	<string key="mm_loginservices_ChannelServiceAppName">Nombre de la app:</string>
+	<string key="mm_loginservices_ChannelServiceBranchName">Nombre de la rama:</string>
+	<string key="mm_loginservices_ChannelServiceCrossplay">Juego entre plataformas:</string>
 	<string key="mm_loginservices_NameLengthError">Longitud de nombre no válida.</string>
 	<string key="mm_loginservices_NameNotAvailableError">Este nombre está en uso.</string>
+	<string key="mm_loginservices_ALREADY_EXISTS">Otra persona ya eligió el nombre de tu personaje. Elige otro nombre.</string>
 	<string key="mm_loginservices_NameValidationError">Este nombre contiene caracteres no válidos.</string>
 	<string key="mm_loginservices_NameUsingBadWordsError">Este nombre no se puede usar.</string>
 	<string key="mm_loginservices_UnavailableError">El inicio de sesión no está disponible.</string>
 	<string key="mm_loginservices_InputValidationError">Solicitud de inicio de sesión no válida.</string>
 	<string key="mm_loginservices_UnableToConnectError">No se ha podido conectar con el servicio de inicio de sesión. Espera. Reconectando…</string>
 	<string key="mm_loginservices_TooManyRequestsException">El servidor de inicio de sesión está demasiado ocupado, inténtalo de nuevo más tarde.</string>
-	<string key="mm_loginservices_NoConnection">El servicio de inicio de sesión no está disponible en este momento. Es posible que tengas problemas de conexión a internet. Espera. Reconectando…</string>
+	<string key="mm_loginservices_NoConnection">El servicio de inicio de sesión no está disponible en este momento. Es posible que tengas problemas de conexión a internet.</string>
+	<string key="mm_loginservices_NoConnectionLandingScreen">El servicio de inicio de sesión no está disponible en este momento. Es posible que tengas problemas de conexión a internet. Espera. Reconectando…</string>
 	<string key="mm_loginservices_SteamAuthRequired">Error de autenticación de Steam.\nCierra el juego, reinicia Steam e inténtalo de nuevo.</string>
+	<string key="mm_loginservices_GameUpdateAvailable">No puedes iniciar sesión porque hay un nuevo parche disponible. Instálalo y vuelve a intentarlo.</string>
 	<string key="mm_loginservices_NO_GATEWAY">La configuración de inicio de sesión no es válida.</string>
 	<string key="mm_loginservices_location_DEFAULT000">Estás en espera para el mundo abierto...</string>
 	<string key="mm_loginservices_location_FTUE000">Estás en espera como jugador nuevo...</string>
@@ -135,7 +152,7 @@
 	<string key="mm_invalidname_minlength">Este nombre es demasiado corto.</string>
 	<string key="mm_invalidname_maxlength">Este nombre es demasiado largo.</string>
 	<string key="mm_invalidname_duplicate">Este nombre está en uso.</string>
-	<string key="mm_invalidname_corrupt">Este nombre contiene caracteres no válidos.</string>
+	<string key="mm_invalidname_corrupt">Este nombre contiene caracteres no válidos o demasiados números.</string>
 	<string key="mm_invalidname_badwords">Este nombre no se puede usar.</string>
 	<string key="mm_invalidname_multiplespaces">Este nombre contiene muchos espacios consecutivos.</string>
 	<string key="mm_rename_throttled">Nombramiento interrumpido, vuelve a intentarlo más tarde.</string>
@@ -150,15 +167,18 @@
 	<string key="mm_csdkerr_registration_failed">No se pudo conectar al servidor.</string>
 	<string key="mm_csdkerr_registration_unmarshal_error">Error de datos del servidor. Busca un parche.</string>
 	<string key="mm_csdkerr_disconnect">Se desconectó inesperadamente del servidor. Reconectando…</string>
-	<string key="mm_csdkerr_replicate_timeout">Se agotó el tiempo de espera de la sincronización de estados.</string>
+	<string key="mm_csdkerr_replicate_timeout">Se agotó el tiempo de espera de la sincronización de estados. Revisa la configuración de tu red y asegúrate de tener suficiente ancho de banda para jugar.</string>
 	<string key="mm_csdkerr_registration_failed_retry">Error al establecer conexión con el servidor</string>
-	<string key="mm_connerr_rep_registration_timeout">No se ha podido establecer conexión con el servidor Comprueba que tienes acceso a internet y vuelve a intentarlo.</string>
-	<string key="mm_connerr_game_timeout">Se acabó el tiempo de espera para que inicie el juego en el servidor.</string>
-	<string key="mm_connerr_spawn_point_timeout">Se agotó el tiempo de espera del punto de regeneración.</string>
-	<string key="mm_connerr_aoi_timeout">Se acabó el tiempo de espera para que el servidor describa el mundo.</string>
-	<string key="mm_connerr_player_timeout">Se acabó el tiempo de espera para que el servidor genere al jugador.</string>
-	<string key="mm_connerr_ingame_timeout">Se perdió la conexión con el servidor de forma inesperada. Reconectando…</string>
+	<string key="mm_connerr_rep_registration_timeout">No se ha podido establecer conexión con el servidor Revisa tu acceso a internet y la configuración de tu red para asegurarte de tener suficiente ancho de banda para jugar. Luego vuelve a intentarlo.</string>
+	<string key="mm_connerr_game_timeout">Se acabó el tiempo de espera para que inicie el juego en el servidor. Revisa la configuración de tu red para asegurarte de tener suficiente ancho de banda para jugar.</string>
+	<string key="mm_connerr_spawn_point_timeout">Se agotó el tiempo de espera del punto de regeneración. Revisa la configuración de tu red para asegurarte de tener suficiente ancho de banda para jugar.</string>
+	<string key="mm_connerr_aoi_timeout">Se acabó el tiempo de espera para que el servidor describa el mundo. Revisa la configuración de tu red para asegurarte de tener suficiente ancho de banda para jugar.</string>
+	<string key="mm_connerr_player_timeout">Se acabó el tiempo de espera para que el servidor genere al jugador. Revisa la configuración de tu red para asegurarte de tener suficiente ancho de banda para jugar.</string>
+	<string key="mm_connerr_ingame_timeout">Se perdió la conexión con el servidor de forma inesperada. Revisa la configuración de tu red para asegurarte de tener suficiente ancho de banda para jugar. Reconectando…</string>
 	<string key="mm_connerr_createcharacter_timeout">Se acabó el tiempo de espera para crear al personaje.</string>
+	<string key="mm_connwarn_title">Advertencia de conexión de red</string>
+	<string key="mm_connwarn_unstable_network">La red es inestable, lo que causa pérdida de paquetes significativa, probablemente debido a capacidad de ancho de banda reducida. Esto afecta el juego y podría provocar desconexiones. Revisa la configuración de tu red para asegurarte de tener suficiente ancho de banda para jugar.</string>
+	<string key="mm_rejected_Join_Match">No puedes unirte a la partida</string>
 	<string key="mm_rejected_Pending">El servidor no está listo: El arranque aún está pendiente.</string>
 	<string key="mm_rejected_No_Player_Slice">Error del servidor: Faltan recursos en el servidor.</string>
 	<string key="mm_rejected_No_Spawn_Points">El servidor no está listo: No hay puntos de aparición disponibles.</string>
@@ -207,6 +227,12 @@
 	<string key="mm_rejected_Client_Kicked_CSLockout">Tu cuenta está bloqueada. Comunícate con atención al cliente para más información.</string>
 	<string key="mm_rejected_Client_Kicked_BannedCommerce">Problema con el pago</string>
 	<string key="mm_rejected_Client_Kicked_Embargoed_Country">No es posible brindarte acceso desde tu ubicación actual.</string>
+	<string key="mm_ag_id_account_suspended_title">Cuenta suspendida</string>
+	<string key="mm_ag_id_account_suspended_body">Se aplicaron cambios a tu cuenta de ID de Amazon Games que requieren que se reinicie el juego.</string>
+	<string key="mm_ag_id_account_deleted_title">Cuenta eliminada</string>
+	<string key="mm_ag_id_account_deleted_body">Se aplicaron cambios a tu cuenta de ID de Amazon Games que requieren que se reinicie el juego.</string>
+	<string key="mm_rejected_Client_Kicked_Partial_Ban">Recibiste una suspensión parcial.</string>
+	<string key="mm_rejected_Client_Kicked_Partial_Ban_Muted">Se te silenció.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Fuiste expulsado del juego.</string>
 	<string key="mm_rejected_Client_Expansion2023_Ownership">Tu personaje está bloqueado. &lt;font color="#506AD0"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Comprar expansión.&lt;/a&gt;&lt;/font&gt;</string>
 	<string key="mm_authresult_Authorized">Éxito</string>
@@ -226,16 +252,42 @@
 	<string key="mm_authresult_Denied_LoginTokenCapabilitiesInvalid">Las capacidades enumeradas del cliente son inválidas.</string>
 	<string key="mm_authresult_Denied_LoginTicketInvalid">El ticket de inicio de sesión caducó o no es válido. Inténtalo de nuevo.</string>
 	<string key="mm_authresult_Denied_LoginTokenWrongHost">Has sido dirigido al servidor incorrecto. Inténtalo nuevamente.</string>
-	<string key="mm_authresult_Denied_EasyAntiCheatFailure">Error de configuración de EAC Ingresa al sitio de la comunidad de New World para obtener más información: https://forums.newworld.com</string>
+	<string key="mm_authresult_Denied_EasyAntiCheatFailure">Error de configuración de EAC Ingresa al sitio de la comunidad de New World: Aeternum para obtener más información: https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_InvalidSetup">La configuración de autenticación no es válida.</string>
+	<string key="mm_authresult_Error_PlayerUnderAgeLimit">El jugador es menor del límite de edad.</string>
+	<string key="mm_authresult_Error_PlayerAgeNotSupportedByGame_windows">En este momento, no es posible jugar este juego con una cuenta de menor de Steam.</string>
+	<string key="mm_authresult_Error_PlayerAgeNotSupportedByGame_prospero">En este momento, no es posible jugar este juego con una cuenta de menor de PlayStation™.</string>
+	<string key="mm_authresult_Error_PlayerAgeNotSupportedByGame_scarlett">En este momento, no es posible jugar este juego con una cuenta de menor de Xbox.</string>
+	<string key="mm_authresult_Error_LinkedAgsAccountRequired_windows">Para continuar, debes vincular tu cuenta de Steam con tu ID de Amazon Games. Visita id.amazongames.com/register/parental-consent-needed.</string>
+	<string key="mm_authresult_Error_LinkedAgsAccountRequired_prospero">Para continuar, debes vincular tu cuenta de PlayStation™ con tu ID de Amazon Games. Visita id.amazongames.com/register/parental-consent-needed.</string>
+	<string key="mm_authresult_Error_LinkedAgsAccountRequired_scarlett">Para continuar, debes vincular tu cuenta de Xbox con tu ID de Amazon Games. Visita id.amazongames.com/register/parental-consent-needed.</string>
+	<string key="mm_authresult_Error_ChildPlatformAccountWithoutAgsAccount_windows">Para continuar, debes vincular tu cuenta de Steam con tu ID de Amazon Games. Visita id.amazongames.com/register/parental-consent-needed.</string>
+	<string key="mm_authresult_Error_ChildPlatformAccountWithoutAgsAccount_prospero">Para continuar, debes vincular tu cuenta de PlayStation™ con tu ID de Amazon Games. Visita id.amazongames.com/register/parental-consent-needed.</string>
+	<string key="mm_authresult_Error_ChildPlatformAccountWithoutAgsAccount_scarlett">Para continuar, debes vincular tu cuenta de Xbox con tu ID de Amazon Games. Visita id.amazongames.com/register/parental-consent-needed.</string>
+	<string key="mm_authresult_Error_ChildAgsAccountMissingParentalConsent">Este ID de Amazon Games debe tener consentimiento parental para jugar el juego. Visita id.amazongames.com/parental-consent para obtener más información.</string>
+	<string key="mm_authresult_Error_AgsAccountSuspended">El ID de tu cuenta de Amazon Games está suspendido y no puede jugar ningún juego publicado por Amazon Games debido a {suspensionReason}. Consulta nuestro Código de conducta.\nSi consideras que la suspensión se aplicó por error, puedes apelar en id.amazongames.com/appeal.</string>
+	<string key="mm_authresult_Error_SessionMergeRequired">Se requiere unir las sesiones.</string>
 	<string key="mm_authresult_Error_Jwt_Persona">Respuesta no válida de los servicios de inicio de sesión al obtener las credenciales.</string>
-	<string key="mm_authresult_Error_Persona">No se pudo realizar la autenticación.</string>
-	<string key="mm_authresult_Error_Persona_Assume_Role">No se pudieron obtener las credenciales.\nVuelve a intentarlo o comunícate con la comunidad de New World para obtener más información, https://forums.newworld.com</string>
+	<string key="mm_authresult_Error_Persona">No se pudo realizar la autenticación. No se pudo crear la sesión. Vuelve a intentarlo.</string>
+	<string key="mm_authresult_Error_Persona_Assume_Role">No se pudieron obtener las credenciales.\nVuelve a intentarlo o comunícate con la comunidad de New World: Aeternum para obtener más información, https://forums.newworld.com</string>
 	<string key="mm_authresult_Error_Steam">No se pudo realizar la autenticación con Steam.</string>
 	<string key="mm_authresult_Denied_DatasheetVersionCheckFailed">Falta de coincidencia con la versión de la hoja de datos.</string>
 	<string key="mm_authresult_Http_Error_Response">No se pudo autenticar tu cliente. Inténtalo de nuevo más tarde.</string>
 	<string key="mm_authresult_Http_Error_Response_Code">Respuesta no válida durante la autenticación. Inténtalo de nuevo más tarde.</string>
+	<string key="mm_authresult_Error_Np">No se pudo realizar la autenticación con PlayStation™Network.</string>
+	<string key="mm_authresult_Error_Np_GetIdToken">No se pudo realizar la autenticación con PlayStation™Network.\nNo se pudo obtener el token de ID.\nVuelve a intentarlo.</string>
+	<string key="mm_authresult_Error_Np_GetAuthCode">No se pudo realizar la autenticación con PlayStation™Network.\nNo se pudo obtener el token de ID.\nVuelve a intentarlo.</string>
+	<string key="mm_authresult_Error_Np_UserSignIn">No se pudo realizar la autenticación con PlayStation™Network.\nVerifica que hayas iniciado sesión en PSN.</string>
+	<string key="mm_authresult_Denied_AuthTokenCredientialsInvalid">El token de autorización que se intentó usar es inválido. Inténtalo de nuevo.</string>
+	<string key="mm_authresult_Denied_AuthTokenInvalid">El token de autorización que se intentó usar es inválido. Inténtalo de nuevo.</string>
+	<string key="mm_authresult_Denied_AuthTokenPlatformIdInvalid">El token de autorización que se intentó usar es inválido. Inténtalo de nuevo.</string>
+	<string key="mm_authresult_Denied_AuthTokenAPIFailure">Falló la autenticación de la plataforma. Vuelve a intentarlo más tarde.</string>
+	<string key="mm_authresult_Denied_AuthTokenAPIFailureRetryable">\nFalló la autenticación de la plataforma.\nReintentando…\n</string>
+	<string key="mm_authresult_Denied_AuthTokenPlatformConfigIssueDetected">\nFalló la autenticación de la plataforma. \nSe detectó un error de configuración.</string>
 	<string key="mm_http_NoResponse">No se pudo realizar la solicitud de HTTP; no hubo respuesta.</string>
+	<string key="mm_authresult_Error_Xbox">No se pudo realizar la autenticación con Xbox Network.</string>
+	<string key="mm_authresult_Error_Xbox_GetAuthToken">No se pudo realizar la autenticación con Xbox Network.\nNo se pudo obtener el token de autorización.\nVuelve a intentarlo.</string>
+	<string key="mm_authresult_Error_Xbox_GetUser">No se pudo realizar la autenticación con Xbox Network.\nNo se pudo obtener el usuario de Xbox.\nVuelve a intentarlo.</string>
 	<string key="mm_queuesoon">Tiempo estimado: &lt;1 minuto\nPosición en cola: {rank}\n{status}</string>
 	<string key="mm_queuewithestimate">Tiempo estimado: {time}\nPosición en la lista de espera: {rank}\n{status}</string>
 	<string key="mm_queuewithcappedestimate">Tiempo estimado: &gt;{time}\nPosición en cola: {rank}\n{status}</string>
@@ -250,6 +302,7 @@
 	<string key="mm_waitingforspawnpoint_message">Buscando la capacidad, espera un momento…</string>
 	<string key="mm_world_set_character_limit">Solo puedes tener 1 personaje en un conjunto de mundos.</string>
 	<string key="mm_world_character_limit">Solo puedes tener {characterLimit} personaje(s) en este mundo.</string>
+	<string key="mm_press_any_button">Presiona cualquier botón</string>
 	<string key="confirm_buy_unequippable">No se puede equipar</string>
 	<string key="confirm_buy_unequippable_body">Actualmente no puedes equipar este objeto. ¿Continuar?</string>
 	<string key="lt_1_title">Solicitud</string>
@@ -268,7 +321,7 @@
 	<string key="lt_6_text2">Si deseas romper la guardia de un oponente, pulsa &lt;font color="#edc63e"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt; F &lt;/font&gt;&lt;/font&gt; para un ataque de rotura.</string>
 	<string key="lt_7_title">Construcción de estructuras</string>
 	<string key="lt_7_text">Puedes colocar un plano de estructura y pedir su construcción.\nPara completar un plano de estructura, añade recursos conforme los vayas encontrando.</string>
-	<string key="ui_chat_placeholder">Ingresa el mensaje de chat. @mention a una persona reciente</string>
+	<string key="ui_chat_placeholder">Ingresa el mensaje</string>
 	<string key="loadingScreen_ingame_scenic01">CARGANDO</string>
 	<string key="loadingScreen_ingame_scenic02">CARGANDO</string>
 	<string key="loadingScreen_ingame_scenic03">CARGANDO</string>
@@ -306,6 +359,9 @@
 	<string key="ui_cantDropMissionItem">No puedes soltar objetos de misión</string>
 	<string key="ui_cantDropLockedItem">No se pueden soltar objetos bloqueados</string>
 	<string key="ui_cantDropGameModeItem">Los objetos del modo de juego solo se pierden al morir</string>
+	<string key="ui_cantDropCursedItem" rel_version="Territory_CutlassKeys_Rework">No se pueden soltar objetos malditos</string>
+	<string key="ui_destroyCursedItem" rel_version="Territory_CutlassKeys_Rework">Destruir objeto maldito</string>
+	<string key="ui_destroyCursedItemDrop" rel_version="Territory_CutlassKeys_Rework">Se destruirán todos los objetos malditos.\n¿Quieres continuar?</string>
 	<string key="ui_navmenu_progression">PERSONAJE</string>
 	<string key="ui_bio">Biografía</string>
 	<string key="ui_attributes">Atributos</string>
@@ -320,7 +376,7 @@
 	<string key="ui_pvp_track_completions" comment="The number of times they have completed the track. Like a level" rel_version="PvP_Rewards_Track">Pistas completadas</string>
 	<string key="ui_pvp_track_purchasehint" rel_version="PvP_Rewards_Track">Elige &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={itemColor}&gt;1 objeto por punto de control&lt;/font&gt; para comprar con sal de azoth.&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;.</string>
 	<string key="ui_pvp_track_openemblems" rel_version="PvP_Rewards_Track">Recompensas</string>
-	<string key="ui_pvp_track_checkpoint" rel_version="PvP_Rewards_Track">Punto de control &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{index}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_checkpoint" rel_version="PvP_Rewards_Track">Punto de control {index}</string>
 	<string key="ui_pvp_track_pvpprogress" rel_version="PvP_Rewards_Track">&lt;font face="lyshineui/fonts/Nimbus_Bold.font" color={colorProgress}&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_warsmall_white" scale="1.5" yOffset="4"&gt;&lt;/img&gt; &lt;font color={colorCheckpoint} face="lyshineui/fonts/Nimbus_regular.font"&gt; para punto de control {index}&lt;/font&gt;</string>
 	<string key="ui_pvp_currency_amount" rel_version="PvP_Rewards_Track">{amount}&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_insufficient_azoth_salt" rel_version="PvP_Rewards_Track">Sal de azoth insuficiente</string>
@@ -335,18 +391,19 @@
 	<string key="ui_pvp_track_tut_title2" rel_version="PvP_Rewards_Track">EXP de PVP</string>
 	<string key="ui_pvp_track_tut_title3" rel_version="PvP_Rewards_Track">Sal de azoth</string>
 	<string key="ui_pvp_track_tut_title4" rel_version="PvP_Rewards_Track">Recompensas</string>
-	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">La pista de recompensas de PvP contiene recompensas específicas de PvP por hacer actividades de PvP en el juego. Esta pista se puede completar y repetir para obtener una variedad de recompensas diferentes. Las recompensas de mayor prestigio estarán disponibles a medida que se completen más pistas.</string>
+	<string key="ui_pvp_track_tut_desc1" rel_version="PvP_Rewards_Track">La pista de recompensas de PvP contiene recompensas específicas de PvP por unirse a una facción y participar en actividades de PvP en el juego. Esta pista se puede completar y repetir para obtener una variedad de recompensas diferentes. Las recompensas de mayor prestigio estarán disponibles a medida que se completen más pistas.</string>
 	<string key="ui_pvp_track_tut_desc2" rel_version="PvP_Rewards_Track">Progresa en la pista derrotando a otros jugadores y por medio de misiones de PvP, guerras, avances a un puesto de avanzada, capturas de fuertes y arenas de 3v3.</string>
 	<string key="ui_pvp_track_tut_desc3" rel_version="PvP_Rewards_Track">La sal de azoth es la moneda que te permite obtener recompensas de la pista de PvP. Puedes obtener sal de azoth por medio de guerras, avances de puesto de avanzada, arenas de 3v3, misiones de PvP, eliminaciones en el PvP del mundo abierto y EXP cuando estés marcado para PvP.</string>
 	<string key="ui_pvp_track_tut_desc4" rel_version="PvP_Rewards_Track">Elige entre recompensas únicas como armaduras y armas de prestigio, gestos, monedas y consumibles.</string>
 	<string key="ui_pvp_track_leveltext" rel_version="PvP_Rewards_Track">Pistas completadas: &lt;font color="#ebe3d6" &gt;{level}&lt;/font&gt;</string>
-	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Pistas completadas: &lt;font face="lyshineui/fonts/CaslonAnt.font" color="#ebe3d6"&gt;{level}&lt;/font&gt;</string>
+	<string key="ui_pvp_track_leveltext_header" rel_version="PvP_Rewards_Track">Pistas completadas: &lt;font face="lyshineui/fonts/Pica_Regular.font" color="#ebe3d6"&gt;{level}&lt;/font&gt;</string>
 	<string key="ui_pvp_track_current_balance" rel_version="PvP_Rewards_Track">Saldo actual</string>
 	<string key="ui_pvp_track_addtopool" rel_version="PvP_Rewards_Track">+ a la reserva de recompensas</string>
 	<string key="ui_pvp_track_rankup_confirmation" rel_version="PvP_Rewards_Track">Recibirás una bonificación por cada punto de control que tenga una recompensa sin reclamar, y podrás pasar tu sal de azoth a una nueva pista con recompensas nuevas.</string>
 	<string key="ui_pvp_track_rankup_stagesummary" rel_version="PvP_Rewards_Track">\n&lt;font color={colorBonus}&gt;Bonificación del punto de control: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#ebe3d6"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_rankup_bonussalt" rel_version="PvP_Rewards_Track">&lt;font color={colorBonus}&gt; Bonificación por la finalización de la pista: &lt;/font&gt; &lt;font face="lyshineui/fonts/Nimbus_Bold.font" color="#ebe3d6"&gt;{amount}&lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azoth_salt" scale="1.5" yOffset="3"&gt;&lt;/img&gt;</string>
 	<string key="ui_pvp_track_bannertext" rel_version="PvP_Rewards_Track">Pista de PvP completada</string>
+	<string key="ui_pvp_track_bannerrewards_0" rel_version="PvPRewardsTrack_Update">La reserva de recompensas incluye lo siguiente: \nPuntuación del equipo mínima de 650\n+Equipo básico\n+Equipo de prestigio\n+Materia oscura\n+Emoticonos exclusivos\n+Paquetes de pociones de reclutamiento</string>
 	<string key="ui_pvp_track_bannerrewards_1" rel_version="PvPRewardsTrack_Update">La reserva de recompensas incluye lo siguiente: \nPuntuación del equipo mínima de 660 \n+Equipo con nombre \n+Equipo de prestigio mejorado \n+Abalorios de prestigio \n+Modificadores de fabricación \n+Pigmentos de facción</string>
 	<string key="ui_pvp_track_bannerrewards_2" rel_version="PvPRewardsTrack_Update">La reserva de recompensas incluye lo siguiente: \nPuntuación del equipo mínima de 670 \n+Artefactos \n+Abalorios con nombre \n+Armas de depredador \n+Armadura superior \n+Modificadores de fabricación de PvP</string>
 	<string key="ui_pvp_track_bannerrewards_3" rel_version="PvPRewardsTrack_Update">La reserva de recompensas incluye lo siguiente: \nPuntuación del equipo mínima de 675</string>
@@ -358,9 +415,9 @@
 	<string key="ui_pvp_track_reward" rel_version="PvP_Rewards_Track">Recompensa</string>
 	<string key="ui_leaderboards_update_time" rel_version="Feature_Leaderboards">Se actualiza en {time}</string>
 	<string key="ui_leaderboards_skills_tab" rel_version="Feature_Leaderboards">Clasificación</string>
-	<string key="ui_leaderboards_reward_title" rel_version="Feature_Leaderboards">{rotationType} &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}: {startDate} - {endDate}&lt;/font&gt;</string>
+	<string key="ui_leaderboards_reward_title" rel_version="Feature_Leaderboards">{rotationType} &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}: {startDate} - {endDate}&lt;/font&gt;</string>
 	<string key="ui_leaderboards_reward_location_title" rel_version="Feature_Leaderboards">{location}</string>
-	<string key="ui_leaderboards_reward_location_difficulty_title" rel_version="Feature_Leaderboards">{location}, &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
+	<string key="ui_leaderboards_reward_location_difficulty_title" rel_version="Feature_Leaderboards">{location}, &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_leaderboards_reward_category_title" rel_version="Feature_Leaderboards">{category}</string>
 	<string key="ui_leaderboards_skip_all" rel_version="Feature_Leaderboards">Omitir todo</string>
 	<string key="ui_leaderboards_claim" rel_version="Feature_Leaderboards">Reclamar</string>
@@ -395,14 +452,14 @@
 	<string key="ui_leaderboard_top_number" rel_version="Feature_Leaderboards">MEJOR\n{number}</string>
 	<string key="ui_leaderboard_ladder_number" rel_version="Feature_Leaderboards">{number}</string>
 	<string key="ui_leaderboard_rewards" rel_version="Feature_Leaderboards">Recompensas</string>
-	<string key="ui_leaderboard_rewards_week_count" rel_version="Feature_Leaderboards">Semana &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;</string>
-	<string key="ui_leaderboard_rewards_month_count" rel_version="Feature_Leaderboards">Mes &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;</string>
-	<string key="ui_leaderboard_rewards_season_count" rel_version="Feature_Leaderboards">Temporada &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;</string>
-	<string key="ui_leaderboard_rewards_quarter_count" rel_version="Feature_Leaderboards">Trimestre &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;</string>
-	<string key="ui_leaderboard_rewards_this_week_count" rel_version="Feature_Leaderboards">Semana &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt; (actual)</string>
-	<string key="ui_leaderboard_rewards_this_month_count" rel_version="Feature_Leaderboards">Mes &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt; (actual)</string>
-	<string key="ui_leaderboard_rewards_this_season_count" rel_version="Feature_Leaderboards">Temporada &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt; (actual)</string>
-	<string key="ui_leaderboard_rewards_this_quarter_count" rel_version="Feature_Leaderboards">Trimestre &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt; (actual)</string>
+	<string key="ui_leaderboard_rewards_week_count" rel_version="Feature_Leaderboards">Semana &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt;</string>
+	<string key="ui_leaderboard_rewards_month_count" rel_version="Feature_Leaderboards">Mes &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt;</string>
+	<string key="ui_leaderboard_rewards_season_count" rel_version="Feature_Leaderboards">Temporada &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt;</string>
+	<string key="ui_leaderboard_rewards_quarter_count" rel_version="Feature_Leaderboards">Trimestre &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt;</string>
+	<string key="ui_leaderboard_rewards_this_week_count" rel_version="Feature_Leaderboards">Semana &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt; (actual)</string>
+	<string key="ui_leaderboard_rewards_this_month_count" rel_version="Feature_Leaderboards">Mes &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt; (actual)</string>
+	<string key="ui_leaderboard_rewards_this_season_count" rel_version="Feature_Leaderboards">Temporada &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt; (actual)</string>
+	<string key="ui_leaderboard_rewards_this_quarter_count" rel_version="Feature_Leaderboards">Trimestre &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt; (actual)</string>
 	<string key="ui_leaderboard_rewards_this_week_count_plain" rel_version="Feature_Leaderboards">Semana {number} (actual)</string>
 	<string key="ui_leaderboard_rewards_this_month_count_plain" rel_version="Feature_Leaderboards">Mes {number} (actual)</string>
 	<string key="ui_leaderboard_rewards_this_season_count_plain" rel_version="Feature_Leaderboards">Temporada {number} (actual)</string>
@@ -421,8 +478,8 @@
 	<string key="ui_leaderboard_rewards_daysgoverned" rel_version="Feature_Leaderboards">Días gobernados</string>
 	<string key="ui_leaderboard_rewards_gotome" rel_version="Feature_Leaderboards">Ir a Yo</string>
 	<string key="ui_leaderboard_rewards_gototop" rel_version="Feature_Leaderboards">Ir a Mejores</string>
-	<string key="ui_leaderboard_notification_title_single" rel_version="Feature_Leaderboards">&lt;font face="lyshineui/fonts/CaslonAnt.font" color={color}&gt;1&lt;/font&gt; clasificación recompensada</string>
-	<string key="ui_leaderboard_notification_title" rel_version="Feature_Leaderboards">&lt;font face="lyshineui/fonts/CaslonAnt.font" color={color}&gt;{amount}&lt;/font&gt; clasificaciones recompensadas</string>
+	<string key="ui_leaderboard_notification_title_single" rel_version="Feature_Leaderboards">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={color}&gt;1&lt;/font&gt; clasificación recompensada</string>
+	<string key="ui_leaderboard_notification_title" rel_version="Feature_Leaderboards">&lt;font face="lyshineui/fonts/Pica_Regular.font" color={color}&gt;{amount}&lt;/font&gt; clasificaciones recompensadas</string>
 	<string key="ui_leaderboard_notification_accept_single" rel_version="Feature_Leaderboards">Ver recompensa</string>
 	<string key="ui_leaderboard_notification_accept" rel_version="Feature_Leaderboards">Ver recompensas</string>
 	<string key="ui_leaderboard_notification_period_ended_single" comment="Period such as Month, Week, Season" rel_version="Feature_Leaderboards">{period} terminó</string>
@@ -578,7 +635,7 @@
 	<string key="inv_salvage_tertiary_songpage" rel_version="Feature_MusicalPerformances">Página de la canción {songName}</string>
 	<string key="minspec_warning_requirements_title">Aviso sobre los requisitos mínimos</string>
 	<string key="minspec_failed_requirements_title">La computadora no cumple con las especificaciones mínimas</string>
-	<string key="minspec_failed_requirements">Esta computadora no cumple con una o más de las especificaciones mínimas requeridas para ejecutar New World correctamente.</string>
+	<string key="minspec_failed_requirements">Esta computadora no cumple con una o más de las especificaciones mínimas requeridas para ejecutar New World: Aeternum correctamente.</string>
 	<string key="minspec_failed_requirements_log_written_to">El registro de fallas se ingresó en</string>
 	<string key="minspec_minimum_needed">Mínimo necesario:</string>
 	<string key="minspec_have">Instalado:</string>
@@ -591,7 +648,7 @@
 	<string key="minspec_processor">Procesador:</string>
 	<string key="minspec_storage">Almacenamiento:</string>
 	<string key="minspec_os">Sistema operativo:</string>
-	<string key="minspec_os_win7_warning">Advertencia: Tienes instalado Windows 7. New World funciona mejor en Windows 10 o una versión posterior. Puede que no tengas la mejor experiencia.</string>
+	<string key="minspec_os_win7_warning">Advertencia: Tienes instalado Windows 7. New World: Aeternum funciona mejor en Windows 10 o una versión posterior. Puede que no tengas la mejor experiencia.</string>
 	<string key="minspec_fail_try_again">Consulta el registro de fallas para determinar con precisión cuál de los requisitos mínimos está en falla.</string>
 	<string key="ui_rename_character">Cambiar nombre del personaje</string>
 	<string key="ui_rename">Renombrar</string>
@@ -599,6 +656,12 @@
 	<string key="ui_rename_report_description">El nombre de tu personaje se ha identificado como inapropiado. Cuando vuelvas a iniciar sesión, se te pedirá que lo cambies.</string>
 	<string key="ui_rename_required">Tienes que cambiarle el nombre a &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;{name}&lt;/font&gt;.</string>
 	<string key="ui_rename_required_ban">Cuando se levante tu prohibición, tendrás que cambiarle el nombre a tu personaje.</string>
+	<string key="ui_rename_required_tooltip">El nombre de este personaje ya fue elegido por otro jugador. Se debe renombrar a este personaje para poder jugar.</string>
+	<string key="ui_rename_required_violation">Este nombre de personaje infringe el Código de conducta de New World: Aeternum. Se debe renombrar al personaje para poder jugar.</string>
+	<string key="ui_transfer_reqired_tooltip">Este personaje debe seleccionar un mundo antes de jugar.</string>
+	<string key="ui_character_will_become_latent_warning">Este personaje debe iniciar sesión en {time} o se le pedirá que seleccione un mundo disponible para jugar.</string>
+	<string key="ui_character_name_will_become_latent_warning">El nombre de este personaje estará disponible para todos los jugadores en {time}. Ingresa a un mundo como este personaje para mantener el nombre.</string>
+	<string key="ui_character_name_is_latent">El nombre de este personaje ahora está disponible para todos los jugadores. Ingresa a un mundo como este personaje para mantener el nombre.</string>
 	<string key="mm_newworldlinktext">Ir a newworld.com</string>
 	<string key="url_newworldsite" comment="once pre-orders are open, we'll need to switch to http://newworld.com/game-selection/index.html">https://newworld.com/es/index.html</string>
 	<string key="ui_tradeskill_level_arcana">Nivel de arcano</string>
@@ -619,11 +682,18 @@
 	<string key="ui_dying_disabled_war">No puedes teñir objetos mientras estás en guerra.</string>
 	<string key="ui_dying_disabled_outpost_rush">No puedes teñir objetos durante Avance a puesto de avanzada.</string>
 	<string key="ui_cannot_place_camp_in_war">NO PUEDES ESTABLECER UN CAMPAMENTO MIENTRAS ESTÁS EN GUERRA</string>
-	<string key="backtrace_optIn">%s encontró un error irrecuperable. Lamentamos el inconveniente.\n\nSe creó un archivo de depuración del fallo en:\n%s\n\nSi quieres enviar este archivo a Amazon, nos ayudarás a mejorar la experiencia de New World. Este informe se considera información confidencial.\n\n¿Quieres enviar el informe de fallos?</string>
+	<string key="backtrace_optIn">%s encontró un error irrecuperable. Lamentamos el inconveniente.\n\nSe creó un archivo de depuración del fallo en:\n%s\n\nSi quieres enviar este archivo a Amazon, nos ayudarás a mejorar la experiencia de New World: Aeternum. Este informe se considera información confidencial.\n\n¿Quieres enviar el informe de fallos?</string>
 	<string key="backtrace_optIn_NeverShowAgainA">¿Volver a preguntar si se producen fallos futuros?\n\nSi eliges NO, nunca enviaremos informes de fallos futuros de manera predeterminada (ni te volveremos a preguntar).</string>
 	<string key="backtrace_optIn_NeverShowAgainB">¿Volver a preguntar si se producen fallos futuros?\n\nSi eliges NO, seguiremos enviando informes de fallos futuros sin preguntarte.</string>
+	<string key="backtrace_system_dialog_title">Informe de error de carga</string>
+	<string key="backtrace_system_dialog_yes">Sí</string>
+	<string key="backtrace_system_dialog_no">No</string>
+	<string key="backtrace_system_dialog_help">Ayuda</string>
+	<string key="backtrace_system_dialog_optIn">¡Ups! El juego falló inesperadamente la última vez que se ejecutó.\n\nSe creó un archivo de depuración de fallas.\n\nEnvía este archivo para que podamos investigar el motivo del problema. Tu informe de error se usará en conformidad con el Aviso de privacidad de Amazon (accede con el botón "Ayuda" a continuación).\n\n¿Quieres enviar el informe de error?</string>
+	<string key="backtrace_system_dialog_future_crashes_optIn">¿Volver a preguntar si se producen fallos futuros?\n\nSi eliges NO, seguiremos enviando informes de fallos futuros sin preguntarte.</string>
+	<string key="backtrace_system_dialog_future_crashes_optOut">¿Volver a preguntar si se producen fallos futuros?\n\nSi eliges NO, nunca enviaremos informes de fallos futuros de manera predeterminada (ni te volveremos a preguntar).</string>
 	<string key="ui_region_character_count">&lt;font color="#ebe3d6"&gt;{numCharacter}&lt;/font&gt;/{maxCharacter}</string>
-	<string key="ui_milliseconds_markup">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{time}&lt;/font&gt; ms</string>
+	<string key="ui_milliseconds_markup">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{time}&lt;/font&gt; ms</string>
 	<string key="ui_region_character_tooltip">&lt;font color="#aeab9d"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Límite de personajes por región&lt;/font&gt;&lt;/font&gt;\n\nTienes &lt;font color="#ebe3d6"&gt;{numCharacter}&lt;/font&gt; personajes en esta región. El máximo es {maxCharacter}.</string>
 	<string key="mm_us_west" comment="US means United States">Zona oeste de EE. UU.</string>
 	<string key="mm_us_east" comment="US means United States">Zona este de EE. UU.</string>
@@ -644,9 +714,9 @@
 	<string key="error_loading_assets_message">Hubo un error al cargar recursos del juego. Revisa tu instalación.</string>
 	<string key="ui_musician" rel_version="Feature_MusicalPerformances">Artista musical</string>
 	<string key="ui_fw_thanksforplaying" rel_version="Feature_FreeWeekend">¡Gracias por jugar!</string>
-	<string key="ui_fw_expired_popup_body" rel_version="Feature_FreeWeekend">Tu sesión gratuita terminó debido a la lista de espera de jugadores que quieren entrar a este mundo. Regresa a la lista de espera para volver a unirte a este mundo. Los jugadores que pagan tienen prioridad en la lista de espera.\n\nSuscríbete al boletín de New World para enterarte de las últimas ofertas y noticias de Aeternum.</string>
+	<string key="ui_fw_expired_popup_body" rel_version="Feature_FreeWeekend">Tu sesión gratuita terminó debido a la lista de espera de jugadores que quieren entrar a este mundo. Regresa a la lista de espera para volver a unirte a este mundo. Los jugadores que pagan tienen prioridad en la lista de espera.\n\nSuscríbete al boletín de New World: Aeternum para enterarte de las últimas ofertas y noticias de Aeternum.</string>
 	<string key="ui_fw_seeyounexttime" rel_version="Feature_FreeWeekend">¡Nos vemos la próxima!</string>
-	<string key="ui_fw_rtmm_body" rel_version="Feature_FreeWeekend">¡Gracias por unirte a este fin de semana gratuito de New World!\n\nSuscríbete al boletín de New World para enterarte de las últimas ofertas y noticias de Aeternum.</string>
+	<string key="ui_fw_rtmm_body" rel_version="Feature_FreeWeekend">¡Gracias por unirte a este fin de semana gratuito de New World: Aeternum!\n\nSuscríbete al boletín de New World: Aeternum para enterarte de las últimas ofertas y noticias de Aeternum.</string>
 	<string key="ui_fw_newsletter" rel_version="Feature_FreeWeekend">Boletín</string>
 	<string key="ui_fw_survey" rel_version="Feature_FreeWeekend">Inspección</string>
 	<string key="ui_season_track_reward" rel_version="Feature_Seasons_Rewards">Recompensas sin reclamar</string>
@@ -654,6 +724,17 @@
 	<string key="error_cross_world_maintenance_message">Se te movió al mundo abierto porque el servidor está en mantenimiento.</string>
 	<string key="tradeskill_skillcap_info">Nivel máximo de habilidad de oficio: {maxRank}</string>
 	<string key="tradeskill_skillcap_tooltip">Compra {expansionName} para aumentar el nivel máximo de habilidad de oficio a {maxRank}.</string>
-	<string key="ui_pvp_track_bannerrewards_0">La reserva de recompensas incluye lo siguiente: \nPuntuación del equipo mínima de 650\n+Equipo básico\n+Equipo de prestigio\n+Materia oscura\n+Emoticonos exclusivos\n+Paquetes de pociones de reclutamiento</string>
+	<string key="ui_crossplay_popup_prompt_title" rel_version="Feature_Crossplay">JUEGO ENTRE PLATAFORMAS</string>
+	<string key="ui_crossplay_popup_prompt_message" rel_version="Feature_Crossplay">Tu consola está configurada con la función de juego entre plataformas desactivada.\n\nCambia la configuración de tu consola para disfrutar de lo siguiente:\n\nActividades entre mundos\nMás opciones de servidor y menos tiempo de espera\nEncuentros con jugadores y amigos de otras plataformas</string>
+	<string key="ui_gena_onoff">Alternar narración</string>
+	<string key="ui_entered_crossplay_world_notification" rel_version="Feature_Crossplay">Ingresaste a un mundo con juego entre plataformas</string>
+	<string key="ui_scan_qr_code">Escanear código QR</string>
+	<string key="ui_scan_qr_code_instructions">Escanea el código QR con la cámara de tu dispositivo.</string>
+	<string key="ui_scan_qr_code_help_label">Asistencia de New World: Aeternum</string>
+	<string key="ui_scan_qr_code_newsletter_label">Boletín</string>
+	<string key="ui_scan_qr_code_appeal_a_ban_label">Asistencia de New World: Aeternum</string>
+	<string key="ui_scan_qr_code_news_tile">New World: Noticias de Aeternum</string>
+	<string key="ui_low_flex_mem_title">Advertencia</string>
+	<string key="ui_low_flex_mem">Baja memoria de núcleo</string>
 </resources>
 

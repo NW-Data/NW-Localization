@@ -1,5 +1,5 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<string key="ui_go_to_store" rel_version="Feature_MTX">Tienda de New World</string>
+	<string key="ui_go_to_store" rel_version="Feature_MTX">Tienda de New World: Aetérnum</string>
 	<string key="ui_browse_shop" rel_version="Feature_MTX">Explorar la tienda</string>
 	<string key="product_purchased" rel_version="Feature_MTX">Comprado</string>
 	<string key="marketing_new" rel_version="Feature_MTX">¡Nuevo!</string>
@@ -37,7 +37,6 @@
 	<string key="ui_discount_off_bold">{number} %&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;desc.&lt;/font&gt;</string>
 	<string key="ui_marks_of_fortune" rel_version="Feature_MTX">Marcas de fortuna</string>
 	<string key="ui_entitlement_balance" rel_version="Feature_MTX">Saldo actual: {balance}</string>
-	<string key="ui_dye_number" rel_version="Feature_MTX">Tinte n.º {rewardId}</string>
 	<string key="ui_unlock_bundle" rel_version="Feature_MTX">Desbloquear lote</string>
 	<string key="ui_purchase" rel_version="Feature_MTX">Comprar</string>
 	<string key="ui_purchase_bundle" rel_version="Feature_MTX">Comprar lote</string>
@@ -48,7 +47,6 @@
 	<string key="reward_type_itemskin" rel_version="Feature_MTX">Diseño</string>
 	<string key="ui_apply_skin" rel_version="Feature_MTX">Aplicar diseño</string>
 	<string key="ui_apply_skins" rel_version="Feature_MTX">Aplicar diseños</string>
-	<string key="reward_type_itemdye" rel_version="Feature_MTX">Tinte</string>
 	<string key="reward_type_statuseffect" rel_version="Feature_Seasons_Consumable_Tokens">Potenciador</string>
 	<string key="exceeds_max_balance" rel_version="Feature_Seasons_Consumable_Tokens">La compra supera el límite de {cap}</string>
 	<string key="reward_type_armorskin" rel_version="Feature_MTX">Diseño de prendas</string>
@@ -69,10 +67,10 @@
 	<string key="reward_type_transmog" rel_version="Season_2_Perm">Blasón de transformación</string>
 	<string key="entitlement_included" rel_version="Feature_MTX">Incluido</string>
 	<string key="ui_account_bound" rel_version="Feature_MTX">Todos los objetos están vinculados a la cuenta (no son intercambiables) y no son reembolsables.</string>
-	<string key="ui_account_bound_tooltip" rel_version="Feature_MTX">Todos los objetos están vinculados a la cuenta (puedes usarlos con todos tus personajes) y no se pueden descartar, intercambiar ni vender en el puesto comercial. Además, los objetos no son reembolsables.\n\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font" &gt;Objetos consumibles: &lt;/font&gt; el uso de estos objetos está limitado y al usar uno en un personaje específico se reduce la cantidad de unidades para toda la cuenta. Por ejemplo, si tienes cinco tintes y utilizas uno en un personaje, solo te quedarán cuatro, incluso aunque inicies sesión con otro personaje en la misma cuenta.</string>
+	<string key="ui_account_bound_marks" rel_version="Feature_MTX">Las marcas de fortuna están vinculadas a la cuenta (no son intercambiables) y no son reembolsables.</string>
 	<string key="store_confirm_purchase_item_cost" rel_version="Feature_MTX">¿Desbloquear &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{itemName}&lt;/font&gt; por &lt;img src="lyshineui/images/mtx/icon_mtx_currency" xPadding="2" scale="1.8" yOffset="5"&gt;&lt;/img&gt;&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{cost}&lt;/font&gt;?</string>
 	<string key="store_confirm_purchase_balance" rel_version="Feature_MTX">Nuevo saldo: &lt;img src="lyshineui/images/mtx/icon_mtx_currency" xPadding="2" scale="1.8" yOffset="5"&gt;&lt;/img&gt;&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{amount}&lt;/font&gt;</string>
-	<string key="ui_unlock_for" rel_version="Feature_MTX">Desbloquear por &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.5" yOffset="10"&gt;&lt;/img&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt;</string>
+	<string key="ui_unlock_for" rel_version="Feature_MTX">Desbloquear por &lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="2.5" yOffset="10"&gt;&lt;/img&gt;&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt;</string>
 	<string key="ui_unlock_with_icon" rel_version="Feature_MTX">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_purchase" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Desbloquear</string>
 	<string key="ui_bundle_with_icon" rel_version="Feature_MTX">&lt;img src="lyshineui/images/icons/tooltip/icon_tooltip_bundle" scale="1.75" yOffset="3.5"&gt;&lt;/img&gt; Lote de contenido descargable</string>
 	<string key="ui_currency_price_big" rel_version="Feature_MTX">&lt;img src="lyshineui/images/mtx/icon_mtx_currency" scale="1.8" yOffset="7"&gt;&lt;/img&gt; {number}</string>
@@ -104,11 +102,12 @@
 	<string key="ui_transfer_requirement_makegood" rel_version="Feature_Make_Good">No puedes tener compensaciones sin reclamar.</string>
 	<string key="ui_transfer_no_transfer_tooltip" rel_version="Feature_MTX">Actualmente no se pueden transferir personajes desde este mundo.</string>
 	<string key="ui_transfer_no_transfer_tooltip_freshstart" rel_version="Feature_MTX">No se pueden transferir personajes desde los mundos desde cero.</string>
+	<string key="ui_transfer_waiting_on_world_info" rel_version="Feature_MTX">Esperando datos del mundo...</string>
+	<string key="ui_transfer_from_fresh_start_world_warning_description" rel_version="Feature_FreshStart">Estás transfiriendo a un mundo que no es desde cero. Ya no podrás transferir a un mundo desde cero. ¿Quieres continuar?</string>
 	<string key="ui_item_restrictions" rel_version="Feature_MTX">Más detalles</string>
 	<string key="ui_item_restrictions_item_skins" rel_version="Feature_MTX">Para que los &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;diseños&lt;/font&gt; sean visibles, es necesario tener equipado el objeto base.</string>
 	<string key="ui_item_restrictions_crests" rel_version="Feature_MTX">Los &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;blasones de compañía&lt;/font&gt; solo se pueden usar si eres el gobernador (creador) de una compañía.</string>
 	<string key="ui_item_restrictions_housing_items" rel_version="Feature_MTX">Los &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;objetos para casas&lt;/font&gt; solo pueden usarse cuando se hayan desbloqueado las casas y tengas una.\n\nEn una casa puedes exponer en cualquier momento un número limitado de &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;objetos de iluminación y animados&lt;/font&gt;.</string>
-	<string key="ui_item_restrictions_dyes" rel_version="Feature_MTX">Los &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;tintes&lt;/font&gt; solo pueden aplicarse a la armadura. Si se intercambia o se vende la armadura, el tinte se eliminará y no se devolverá.</string>
 	<string key="ui_item_restrictions_camp_skins" rel_version="Feature_Camp_Skins">Los &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;diseños de campamento&lt;/font&gt; requieren haber desbloqueado los campamentos.</string>
 	<string key="ui_non_returnable" rel_version="Feature_MTX">El objeto no se reembolsa.</string>
 	<string key="ui_order_history_dec" rel_version="Feature_MTX">Muestra los 10 objetos desbloqueados más recientemente en la tienda.</string>
@@ -116,12 +115,10 @@
 	<string key="ui_collapse_bundle" rel_version="Feature_MTX">Lote (selecciona para reducir)</string>
 	<string key="ui_type_none" rel_version="Feature_MTX">Datos de ningún tipo</string>
 	<string key="ui_mtx_unavailable" rel_version="Feature_MTX">Producto no disponible</string>
-	<string key="ui_mtx_dye_description_default" rel_version="Feature_MTX">Se usa para teñir ropa y armaduras.</string>
 	<string key="ui_bundle_tooltip" rel_version="Feature_MTX">Este producto es un lote.</string>
 	<string key="reward_type_tooltip_emote" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;GESTOS&lt;/font&gt;: Usa un gesto en el menú de gestos. Pulsa [{hintText}] para abrir el menú de gestos.</string>
 	<string key="reward_type_tooltip_itemskin" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;DISEÑOS DE OBJETO&lt;/font&gt;: Aplica un diseño seleccionando la armadura, las herramientas y las armas equipadas, y después seleccionando «Cambiar diseño».</string>
 	<string key="reward_type_tooltip_campskin" rel_version="Feature_Camp_Skins">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;DISEÑOS DEL CAMPAMENTO&lt;/font&gt;: Cambia el diseño seleccionando «Cambiar diseño» en el campamento.</string>
-	<string key="reward_type_tooltip_itemdye" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TINTES&lt;/font&gt;: Utiliza un tinte seleccionando una armadura equipada y después seleccionando «Tinte».</string>
 	<string key="reward_type_tooltip_token" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;POTENCIADORES&lt;/font&gt;: Usa un potenciador desde el menú de amplificadores de tu inventario.</string>
 	<string key="reward_type_tooltip_permit" rel_version="Feature_Seasons_Consumable_Tokens">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;PERMISOS DE GESTOS&lt;/font&gt;&lt;/font&gt;: Usa un permiso de gesto desde el menú de amplificadores de tu inventario.</string>
 	<string key="reward_type_tooltip_guildcrest" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;BLASONES&lt;/font&gt;: Aplica blasones en la pantalla de la compañía.</string>
@@ -136,11 +133,10 @@
 	<string key="reward_type_tooltip_transmog" rel_version="Season_2_Perm">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;BLASÓN DE TRANSFORMACIÓN&lt;/font&gt;: Usa este blasón para desbloquear apariencias en el estilomante.</string>
 	<string key="reward_type_tooltip_mount" rel_version="Feature_Mounts">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;MONTURAS&lt;/font&gt;: Usa una montura para viajar más rápido y subir el nivel de monta.</string>
 	<string key="reward_type_tooltip_mountattachment" rel_version="Feature_Mounts">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;DISEÑOS DE ACCESORIOS DE MONTURA&lt;/font&gt;: Usa accesorios de montura para decorar los costados de tu montura.</string>
-	<string key="reward_type_tooltip_itemmountdye" rel_version="Feature_Mounts">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TINTE PARA ARMADURA DE MONTURA&lt;/font&gt;: Usa el tinte para armadura de montura para teñir partes de la armadura y la ropa de tu montura.</string>
 	<string key="ui_crest_disclaimer" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Aviso:&lt;/font&gt; Los blasones de compañía solo se pueden usar si eres el gobernador (creador) de la compañía.</string>
 	<string key="ui_disabled_default_title" rel_version="Feature_MTX">Contenido no disponible</string>
 	<string key="ui_disabled_default_description" rel_version="Feature_MTX">Este contenido no está disponible actualmente.</string>
-	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Compra New World para acceder a la tienda.</string>
+	<string key="ui_disabled_freeplayer_description" rel_version="Feature_MTX">Compra New World: Aetérnum para acceder a la tienda.</string>
 	<string key="ui_preview_emote">Vista previa de gesto</string>
 	<string key="ui_preview_skin">Vista previa de diseño</string>
 	<string key="ui_preview_cooldown">Tiempo de recarga de vista previa: {timeRemaining}</string>
@@ -198,41 +194,28 @@
 	<string key="store_requires_expansion_multiple_icon">&lt;img src="lyshineui/images/icons/misc/icon_exclamation" xPadding="0" scale="2" yOffset="5"&gt;&lt;/img&gt; {quantity} objetos de este lote necesitan {expansionName}</string>
 	<string key="store_requires_expansion_warning">No podrás usar {quantity} de los objetos de este lote hasta que compres {expansionName}</string>
 	<string key="store_requires_expansion_confirm">Comprar de todas formas</string>
-	<string key="smolderingscarlet_dye_name" rel_version="Dye_SmolderingScarlet">Escarlata ardiente</string>
 	<string key="runic_jackal_name" rel_version="Apparel_RunicJackal">Chacal rúnico</string>
 	<string key="crescent_fang_name" rel_version="Weapon_CrescentFang">Colmillo creciente</string>
 	<string key="arm_flex_name" rel_version="New_World_Launch">Flexión de brazo</string>
-	<string key="sublimebone_dye_name" rel_version="MTX_October_Skins">Hueso sublime</string>
-	<string key="greengrass_dye_name" rel_version="Entitlements_December">Verde hierba</string>
 	<string key="Icon_Crest_Pack_Merriment_name" rel_version="New_World_Launch">Paquete de blasones jubilosos</string>
 	<string key="EntitlementSkin_Medium_Angel_name" rel_version="AngelsDemonsWeapons">Égida de la Providencia</string>
 	<string key="EntitlementSkin_AnglesDemon_WarHammer_name" rel_version="AngelsDemonsWeapons">Ira del destructor</string>
 	<string key="galaxy_rabbit_name" rel_version="New_World_Launch">Liebre celestial</string>
 	<string key="eyesonyou_name" rel_version="New_World_Launch">Te estoy mirando</string>
-	<string key="rouge_dye_name" rel_version="Entitlements_December">Rouge</string>
-	<string key="hiddenstream_dye_name" rel_version="Entitlements_November">Arroyo oculto</string>
 	<string key="Icon_Crest_Pack_Smugglers_name" rel_version="New_World_Launch">Paquete de blasones de contrabandistas</string>
-	<string key="butterflywing_dye_name" rel_version="Entitlements_February_2022">Ala de mariposa</string>
-	<string key="smolderingscarlet_dye_description" rel_version="Dye_SmolderingScarlet">Paquete de tintes consumibles</string>
 	<string key="runic_jackal_description" rel_version="Apparel_RunicJackal">«Algunos cuernos sirven para beber; otros, para llevarlos puestos. Es necesario tener ambos».</string>
 	<string key="crescent_fang_description" rel_version="Weapon_CrescentFang">«Con una mordedura tan temible como la de la serpiente del mundo».</string>
 	<string key="arm_flex_description" rel_version="New_World_Launch">«Exhibe tu fuerza».</string>
-	<string key="sublimebone_dye_description" rel_version="MTX_October_Skins">Paquete de tintes consumibles</string>
-	<string key="greengrass_dye_description" rel_version="Entitlements_December">Paquete de tintes consumibles</string>
 	<string key="Icon_Crest_Pack_Merriment_description" rel_version="New_World_Launch">«¡Un brindis por tus valerosos compañeros!».</string>
 	<string key="EntitlementSkin_Medium_Angel_description" rel_version="AngelsDemonsWeapons">«Erradica el mal con una furia y una luz de carácter divino».</string>
 	<string key="EntitlementSkin_AnglesDemon_WarHammer_description" rel_version="AngelsDemonsWeapons">«Siembras una venganza maldita a tu paso».</string>
 	<string key="galaxy_rabbit_description" rel_version="New_World_Launch">«La inmensidad del universo es sobrecogedora y reside en el pelaje de este conejo. Si lo acaricias, puede que la sientas».</string>
 	<string key="eyesonyou_description" rel_version="New_World_Launch">«Vigilancia eterna».</string>
-	<string key="rouge_dye_description" rel_version="Entitlements_December">Paquete de tintes consumibles</string>
-	<string key="hiddenstream_dye_description" rel_version="Entitlements_November">Paquete de tintes consumibles</string>
 	<string key="Icon_Crest_Pack_Smugglers_description" rel_version="New_World_Launch">«La oscuridad envuelve las más lucrativas de nuestras empresas».</string>
-	<string key="butterflywing_dye_description" rel_version="Entitlements_February_2022">Paquete de tintes consumibles</string>
 	<string key="ui_store_unavailable">Lo sentimos, pero la tienda está inactiva por mantenimiento en este momento. Inténtalo de nuevo más adelante.</string>
+	<string key="ui_store_unavailable_at_deaths_door">La tienda no está disponible mientras estés a las puertas de la muerte.</string>
 	<string key="fenrirsfury_name" rel_version="New_World_Launch">Furia de Fenrir</string>
 	<string key="fenrirsfury_description" rel_version="New_World_Launch">«Un merecido homenaje a la bestia masacradora».</string>
-	<string key="ageless_bronze_dye_name" rel_version="Entitlements_January_2022">Bronce intemporal</string>
-	<string key="ageless_bronze_description" rel_version="Entitlements_January_2022">Paquete de tintes consumibles</string>
 	<string key="EntitlementSkin_Light_Demon_name" rel_version="AngelsDemonsWeapons">Carcasa de cambión</string>
 	<string key="twitch_pirate_itemskin_name" rel_version="Apparel_Pirate">Aventurero</string>
 	<string key="EntitlementSkin_Heavy_Angel_name" rel_version="AngelsDemonsWeapons">Guardián justo</string>
@@ -247,34 +230,6 @@
 	<string key="Icon_Crest_Pack_RobinHood_name" rel_version="New_World_Launch">Paquete de blasones de Robin Hood</string>
 	<string key="Icon_Crest_Pack_Thespain_name" rel_version="Apparel_Thespian">Paquete de blasones de actor</string>
 	<string key="Icon_Crest_Pack_WeaponMaster_name" rel_version="New_World_Launch">Paquete de blasones de maestro de armas</string>
-	<string key="primeblue_dye_name" rel_version="Dyes_Launch">Azul Prime Gaming</string>
-	<string key="gold_dye_name" rel_version="Dye_Gold">Oro lustroso</string>
-	<string key="amazonorange_dye_name" rel_version="Dyes_Launch">Naranja Amazon</string>
-	<string key="twitchpurple_dye_name" rel_version="Entitlements_November">Violeta Twitch</string>
-	<string key="shipgray_dye_name" rel_version="Entitlements_November">Gris naval</string>
-	<string key="softcoal_dye_name" rel_version="Entitlements_February_2022">Carbón suave</string>
-	<string key="blemishedpearl_dye_name" rel_version="Entitlements_February_2022">Perla impura</string>
-	<string key="sandalwood_dye_name" rel_version="Entitlements_January_2022">Sándalo</string>
-	<string key="bleached_cofee_dye_name" rel_version="Dyes_Launch">Café descolorido</string>
-	<string key="blood_dye_name" rel_version="MTX_October_Skins">Sangre</string>
-	<string key="viola_dye_name" rel_version="Dyes_Launch">Viola</string>
-	<string key="burntsienna_dye_name" rel_version="MTX_October_Skins">Siena quemado</string>
-	<string key="silt_dye_name" rel_version="Entitlements_November">Cieno</string>
-	<string key="blond_dye_name" rel_version="Entitlements_February_2022">Rubio</string>
-	<string key="sushigreen_dye_name" rel_version="Entitlements_February_2022">Verde sushi</string>
-	<string key="keylime_dye_name" rel_version="Entitlements_November">Verde lima</string>
-	<string key="forestgreen_dye_name" rel_version="Dyes_Launch">Verde bosque</string>
-	<string key="mantis_dye_name" rel_version="Entitlements_January_2022">Mantis</string>
-	<string key="angelicsatin_dye_name" rel_version="Entitlements_December">Satén celestial</string>
-	<string key="tradewind_dye_name" rel_version="Dyes_Launch">Vientos alisios</string>
-	<string key="bluedsteel_dye_name" rel_version="MTX_October_Skins">Acero azulado</string>
-	<string key="supremesaphire_dye_name" rel_version="Entitlements_January_2022">Zafiro supremo</string>
-	<string key="fiercecobalt_dye_name" rel_version="Entitlements_December">Cobalto intenso</string>
-	<string key="springgrape_dye_name" rel_version="MTX_October_Skins">Uva primaveral</string>
-	<string key="tranquilblossom_dye_name" rel_version="Entitlements_January_2022">Flor apacible</string>
-	<string key="deepvelvet_dye_name" rel_version="Entitlements_November">Terciopelo intenso</string>
-	<string key="crushedberry_dye_name" rel_version="Entitlements_December">Frutos del bosque</string>
-	<string key="lavender_dye_name" rel_version="Dyes_Launch">Lavanda</string>
 	<string key="twitch_robinhood_emote_blowkiss_name" rel_version="New_World_Launch">Lanzar un beso</string>
 	<string key="coin_toss_name" rel_version="New_World_Launch">Moneda al aire</string>
 	<string key="applause_name" rel_version="New_World_Launch">Aplauso cortés</string>
@@ -289,7 +244,6 @@
 	<string key="EntitlementSkin_AnglesDemon_LifeStaff_name" rel_version="AngelsDemonsWeapons">Restauración armónica</string>
 	<string key="howl_at_dawn_name" rel_version="Weapon_HowlAtDawn">Aullido al alba</string>
 	<string key="twin_wolves_name" rel_version="Weapon_TwinWolves">Lobos gemelos</string>
-	<string key="silver_dye_name" rel_version="Entitlements_November">Plata nítido</string>
 	<string key="Bundle_Starter_name" rel_version="Bundle_Starter">Lote de inicio</string>
 	<string key="Bundle_Weapon_Runic_name" rel_version="Bundle_Weapon_Runic">Lote de diseños de armas rúnicas</string>
 	<string key="Bundle_Armor_Runic_name" rel_version="Bundle_Apparel_Runic">Lote de diseños de prendas rúnicas</string>
@@ -311,33 +265,6 @@
 	<string key="Icon_Crest_Pack_RobinHood_description" rel_version="New_World_Launch">«El bosque pertenece a tus alegres bandoleros».</string>
 	<string key="Icon_Crest_Pack_Thespain_description" rel_version="Apparel_Thespian">Blasones de actor</string>
 	<string key="Icon_Crest_Pack_WeaponMaster_description" rel_version="New_World_Launch">«¿Espada o arco, hacha o mosquete? El veterano sobrevive; el maestro florece».</string>
-	<string key="primeblue_dye_description" rel_version="New_World_Launch">Paquete de tintes consumibles</string>
-	<string key="gold_dye_description" rel_version="Dye_Gold">Paquete de tintes consumibles</string>
-	<string key="amazonorange_dye_description" rel_version="New_World_Launch">Paquete de tintes consumibles</string>
-	<string key="twitchpurple_dye_description" rel_version="Apparel_Thespian">Paquete de tintes consumibles</string>
-	<string key="softcoal_dye_description" rel_version="Entitlements_February_2022">Paquete de tintes consumibles</string>
-	<string key="blemishedpearl_dye_description" rel_version="Entitlements_February_2022">Paquete de tintes consumibles</string>
-	<string key="sandalwood_dye_description" rel_version="Entitlements_January_2022">Paquete de tintes consumibles</string>
-	<string key="bleached_cofee_dye_description" rel_version="Dyes_Launch">Paquete de tintes consumibles</string>
-	<string key="blood_dye_description" rel_version="MTX_October_Skins">Paquete de tintes consumibles</string>
-	<string key="viola_dye_description" rel_version="Dyes_Launch">Paquete de tintes consumibles</string>
-	<string key="burntsienna_dye_description" rel_version="MTX_October_Skins">Paquete de tintes consumibles</string>
-	<string key="silt_dye_description" rel_version="Entitlements_November">Paquete de tintes consumibles</string>
-	<string key="blond_dye_description" rel_version="Entitlements_February_2022">Paquete de tintes consumibles</string>
-	<string key="sushigreen_dye_description" rel_version="Entitlements_February_2022">Paquete de tintes consumibles</string>
-	<string key="keylime_dye_description" rel_version="Entitlements_November">Paquete de tintes consumibles</string>
-	<string key="forestgreen_dye_description" rel_version="Dyes_Launch">Paquete de tintes consumibles</string>
-	<string key="mantis_dye_description" rel_version="Entitlements_January_2022">Paquete de tintes consumibles</string>
-	<string key="angelicsatin_dye_description" rel_version="Entitlements_December">Paquete de tintes consumibles</string>
-	<string key="tradewind_dye_description" rel_version="Dyes_Launch">Paquete de tintes consumibles</string>
-	<string key="bluedsteel_dye_description" rel_version="MTX_October_Skins">Paquete de tintes consumibles</string>
-	<string key="supremesaphire_dye_description" rel_version="Entitlements_January_2022">Paquete de tintes consumibles</string>
-	<string key="fiercecobalt_dye_description" rel_version="Entitlements_December">Paquete de tintes consumibles</string>
-	<string key="springgrape_dye_description" rel_version="MTX_October_Skins">Paquete de tintes consumibles</string>
-	<string key="tranquilblossom_dye_description" rel_version="Entitlements_January_2022">Paquete de tintes consumibles</string>
-	<string key="deepvelvet_dye_description" rel_version="Entitlements_November">Paquete de tintes consumibles</string>
-	<string key="crushedberry_dye_description" rel_version="Entitlements_December">Paquete de tintes consumibles</string>
-	<string key="lavender_dye_description" rel_version="Dyes_Launch">Paquete de tintes consumibles</string>
 	<string key="twitch_robinhood_emote_blowkiss_description" rel_version="New_World_Launch">«Un gesto de amor cortés».</string>
 	<string key="coin_toss_description" rel_version="New_World_Launch">«A cara o cruz».</string>
 	<string key="applause_description" rel_version="New_World_Launch">«¡Buen trabajo!».</string>
@@ -352,7 +279,6 @@
 	<string key="EntitlementSkin_AnglesDemon_LifeStaff_description" rel_version="AngelsDemonsWeapons">«Un báculo imbuido con fuerzas restauradoras primordiales».</string>
 	<string key="howl_at_dawn_description" rel_version="Weapon_HowlAtDawn">«Un grito en la hora de las brujas».</string>
 	<string key="twin_wolves_description" rel_version="Weapon_TwinWolves">«Su aullido se acerca cada vez más».</string>
-	<string key="silver_dye_description" rel_version="Entitlements_November">Paquete de tintes consumibles</string>
 	<string key="Bundle_Starter_description" rel_version="Bundle_Starter">«Un conjunto de elementos esenciales que te ayudarán a sobrevivir con estilo en Aetérnum».</string>
 	<string key="Bundle_Weapon_Runic_description" rel_version="Bundle_Weapon_Runic">«Armas grabadas con las runas místicas de una temible cultura guerrera».</string>
 	<string key="Bundle_Armor_Runic_description" rel_version="Bundle_Apparel_Runic">«Cuando aparecen los saqueadores en la costa, tanto las almas buenas como las malas tiemblan de miedo».</string>
@@ -476,7 +402,10 @@
 	<string key="ui_character_region_transfer" rel_version="Feature_Server_Transfer">Transferencia de personaje a otra región</string>
 	<string key="server_transfer_description" rel_version="Feature_Server_Transfer">Te permite transferir este personaje a otro mundo o región.</string>
 	<string key="server_transfer_description_region_disabled" rel_version="Feature_Server_Transfer">Te permite transferir este personaje a otro mundo dentro de la región actual.</string>
-	<string key="server_transfer_extra_detail" rel_version="Feature_Server_Transfer">En tu cuenta puedes tener {count} transferencia(s) de mundo o región gratis. Una vez que la utilices con un personaje, ya no estará disponible para los demás.</string>
+	<string key="server_transfer_extra_detail_paid_on_free_world" rel_version="Feature_Server_Transfer">Dispones de una transferencia de mundo gratuita por tener una cuenta de pago en un mundo gratis.</string>
+	<string key="server_transfer_extra_detail_free_transfer" rel_version="Feature_Server_Transfer">La transferencia gratuita está activa actualmente para este mundo.</string>
+	<string key="server_transfer_extra_detail_full_world" rel_version="Feature_Server_Transfer">La transferencia gratuita está activa actualmente para este mundo porque está lleno.</string>
+	<string key="server_transfer_extra_detail_transfer_credit" rel_version="Feature_Server_Transfer">En tu cuenta puedes tener {count} transferencia(s) de mundo o región gratis. Una vez que la utilices con un personaje, ya no estará disponible para los demás.</string>
 	<string key="server_transfer_names" rel_version="Feature_Server_Transfer">Transfiriendo a &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; a: &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{ServerName}&lt;/font&gt;</string>
 	<string key="server_transfer_requirements" rel_version="Feature_Server_Transfer">REQUISITOS</string>
 	<string key="server_transfer_not_transfer" rel_version="Feature_Server_Transfer">QUÉ NO SE TRANSFIERE</string>
@@ -504,6 +433,7 @@
 	<string key="server_transfer_unavailable_transfer_world_full" rel_version="Feature_Server_Transfer">La lista de transferencia de esta región está llena, inténtalo de nuevo en unas horas.</string>
 	<string key="server_transfer_unavailable_target_region_characters_slots_full" rel_version="Feature_Server_Transfer">Todas las ranuras de personaje de esta región están llenas. Tienes que borrar o transferir un personaje existente en esta región para poder transferir otro.</string>
 	<string key="server_transfer_unavailable_freshstart" rel_version="Feature_FreshStart">Solo se pueden crear personajes nuevos en este mundo desde cero. No se pueden transferir personajes a este mundo desde cero.</string>
+	<string key="server_transfer_unavailable_freshstartv2" rel_version="Feature_FreshStart">Se pueden transferir personajes de mundos desde cero a este.</string>
 	<string key="server_transfer_unavailable_bfnw" rel_version="Feature_BFNW">Solo pueden crear personajes en este mundo los jugadores que participen en La llamada de lo salvaje.</string>
 	<string key="server_transfer_more_details" rel_version="Feature_Server_Transfer">Para ver más detalles, consulta</string>
 	<string key="server_transfer_transfer_faq" rel_version="Feature_Server_Transfer">Preguntas frecuentes sobre la transferencia entre regiones</string>
@@ -536,6 +466,7 @@
 	<string key="server_transfer_failed" rel_version="Feature_Server_Transfer">Error de solicitud de transferencia de mundo</string>
 	<string key="server_transfer_disabled" rel_version="Feature_Server_Transfer">Las transferencias de mundos están desactivadas.</string>
 	<string key="server_transfer_region_disabled" rel_version="Feature_Server_Transfer">Las transferencias de regiones están desactivadas en este momento</string>
+	<string key="server_transfer_region_instruction" rel_version="Feature_Server_Transfer">Al transferirte a otra región, tu personaje aparecerá en un mundo aleatorio de la misma. Luego, podrás transferir al personaje gratis a cualquier mundo de esa región desde esta página de la tienda.</string>
 	<string key="rename_extra_detail" rel_version="MTX_October_Skins">En tu cuenta dispones de un cambio de nombre gratis. Una vez que lo utilices con un personaje, ya no estará disponible para los demás.</string>
 	<string key="Housing_Happy_Pumpkin_description" rel_version="MTX_October_Skins">«El incorregible sinvergüenza estaba felizmente condenado y condenadamente feliz. ¡Tú también sonreirías si hubieras engañado al mismísimo diablo!»</string>
 	<string key="Housing_Happy_Pumpkin_name" rel_version="MTX_October_Skins">Calabaza risueña de Jack el Buscalíos</string>
@@ -581,12 +512,12 @@
 	<string key="Emote_ChestPound_description" rel_version="Emote_ChestPound">«Un alarde de dominio».</string>
 	<string key="Emote_Impatient_description" rel_version="Emote_Impatient">«No puedo esperar eternamente... Miento, sí que puedo».</string>
 	<string key="Emote_Cry_description" rel_version="Emote_Cry">«Riega las plantas con tus lágrimas».</string>
-	<string key="Apparel_WarSpecial_name" rel_version="Apparel_War_Special">Guerrero macabro </string>
+	<string key="Apparel_WarSpecial_name" rel_version="Apparel_War_Special">Guerrero macabro</string>
 	<string key="Apparel_ClassicRPGWizard_name" rel_version="Apparel_RPG_Wizard">Galas de hechicero</string>
 	<string key="Apparel_ClassicRPGBard_name" rel_version="Apparel_RPG_Bard">Galas del armonizador</string>
-	<string key="Apparel_ClassicRPGRogue_name" rel_version="Apparel_RPG_Rogue">Charlatán encapuchado </string>
+	<string key="Apparel_ClassicRPGRogue_name" rel_version="Apparel_RPG_Rogue">Charlatán encapuchado</string>
 	<string key="Apparel_RoyalCourt_Crown_name" rel_version="Apparel_Helmet_Crown">Corona de la potestad</string>
-	<string key="Apparel_RoyalCourt_Tiara_name" rel_version="Apparel_Helmet_Tiara">Tiara de la potestad </string>
+	<string key="Apparel_RoyalCourt_Tiara_name" rel_version="Apparel_Helmet_Tiara">Tiara de la potestad</string>
 	<string key="Apparel_WarSpecial_description" rel_version="Apparel_War_Special">«El uniforme reluciente de la mismísima Muerte, quien, según los rumores, acecha en cada campo de batalla de Aetérnum, maldiciendo las resurrecciones de la isla».</string>
 	<string key="Apparel_ClassicRPGWizard_description" rel_version="Apparel_RPG_Wizard">«El atuendo bordado de quienes buscan dominar las fuerzas arcanas de Aetérnum».</string>
 	<string key="Apparel_ClassicRPGBard_description" rel_version="Apparel_RPG_Bard">«Quien lleva esta prenda pone el mismo empeño en sus canciones que en su apariencia, justo como le gusta».</string>
@@ -641,19 +572,18 @@
 	<string key="Apparel_Abyssal_name" rel_version="Apparel_Abyssal_Costume">Armadura de influjo abismal</string>
 	<string key="Apparel_Vogue_name" rel_version="Apparel_Vogue">Moda cortesana</string>
 	<string key="Apparel_AutumnKing_name" rel_version="Apparel_AutumnKing">Lord otoñal</string>
-	<string key="Bundle_Tool_Winter21_description" rel_version="MTX_Tool_Skins_Winter"> «Recolectar recursos en lo más crudo del invierno puede ser un empeño funesto y fatídico. ¿Por qué no calentar el corazón con brillo y oropel?».</string>
+	<string key="Bundle_Tool_Winter21_description" rel_version="MTX_Tool_Skins_Winter">«Recolectar recursos en lo más crudo del invierno puede ser un empeño funesto y fatídico. ¿Por qué no calentar el corazón con brillo y oropel?».</string>
 	<string key="Apparel_Abyssal_description" rel_version="Apparel_Abyssal_Costume">«Bebe del poder del vacío».</string>
 	<string key="Apparel_Vogue_description" rel_version="Apparel_Vogue">«El verdadero arte nunca es comprendido en su tiempo».</string>
 	<string key="Apparel_AutumnKing_description" rel_version="Apparel_AutumnKing">«El ciclo de la vida continúa».</string>
 	<string key="Bundle_WarSpecial_Promo_name" rel_version="Bundle_Promo_BlackFriday">Lote del guerrero macabro</string>
-	<string key="Bundle_WarSpecial_Promo_description" rel_version="Bundle_Promo_BlackFriday">«Viste el uniforme reluciente de la mismísima Muerte, quien, según los rumores, acecha en cada campo de batalla de Aetérnum. Añádele un tinte gris oscuro para quitarle aún más luz al mundo».</string>
 	<string key="Bundle_Vogue_Promo_name" rel_version="Bundle_Promo_DecHoliday">Lote de moda cortesana</string>
 	<string key="Bundle_Vogue_Promo_description" rel_version="Bundle_Promo_DecHoliday">«El verdadero arte nunca es comprendido en su tiempo. Acicálate adecuadamente».</string>
 	<string key="Emote_Shiver_name" rel_version="Emote_Shiver">Escalofrío</string>
-	<string key="Emote_Shiver_description" rel_version="Emote_Shiver">«¡Si tengo tanto frío ahora, imagina cómo estaríamos en el Invierno Eterno!».</string>
+	<string key="Emote_Shiver_description" rel_version="Emote_Shiver">«¡Si la isla está fresquibiris ahora, imagina cómo estaríamos en el Invierno Eterno!».</string>
 	<string key="Emote_LegKickDance_name" rel_version="Emote_Leg_Kick_Dance">Baile de la patada</string>
 	<string key="Emote_BellyLaugh_name" rel_version="Emote_BellyLaugh">Carcajada</string>
-	<string key="Emote_LegKickDance_description" rel_version="Emote_Leg_Kick_Dance">«Un baile tradicional».</string>
+	<string key="Emote_LegKickDance_description" rel_version="Emote_Leg_Kick_Dance">«Ra, Ra, Rasputín…».</string>
 	<string key="Emote_BellyLaugh_description" rel_version="Emote_BellyLaugh">«¡Una sonora carcajada!».</string>
 	<string key="Bundle_Decor_Winter21_name" rel_version="Housing_Winter_MTX_Pack_2021">Lote de decoración de la Convergencia Invernal</string>
 	<string key="Pet_RednoseDeer_name" rel_version="Housing_Winter_MTX_Pack_2021">Reno festivo</string>
@@ -691,7 +621,7 @@
 	<string key="Emote_Autograph_name" rel_version="Emote_Autograph">Autógrafo</string>
 	<string key="Emote_SnowAngel_name" rel_version="Emote_SnowAngel">Ángel de nieve</string>
 	<string key="Emote_Pushups_description" rel_version="Emote_Pushups">«¿Acaso le gusta levantar pesas?».</string>
-	<string key="Emote_Autograph_description" rel_version="Emote_Autograph">«Garabatea tu autógrafo. Seguro que tus fans están desesperados por tenerlo».</string>
+	<string key="Emote_Autograph_description" rel_version="Emote_Autograph">«El número uno en la batalla y en tu corazón».</string>
 	<string key="Emote_SnowAngel_description" rel_version="Emote_SnowAngel">«En Aetérnum, los ángeles son un bien escaso. Haz más. Pero procura no congelarte».</string>
 	<string key="url_twitchdrop">https://www.newworld.com/es-es/twitch-drops</string>
 	<string key="url_primegaming">https://gaming.amazon.com/loot/newworld</string>
@@ -705,7 +635,6 @@
 	<string key="Marks_Of_Fortune_120000_name" rel_version="Marks_Sku_99">Bote de marcas</string>
 	<string key="Marks_Of_Fortune_120000_description" rel_version="Marks_Sku_99">Paquete de moneda con marcas de fortuna</string>
 	<string key="Bundle_FestiveDeer_Promo_name" rel_version="Housing_Winter_MTX_Pack_2021">Lote de reno festivo</string>
-	<string key="Bundle_FestiveDeer_Promo_description" rel_version="Housing_Winter_MTX_Pack_2021">«Un reno con bufanda para mantenerse abrigado contra la amenaza del Invierno Eterno». Y, además, algunos tintes para añadir colores festivos a tus atuendos».</string>
 	<string key="reward_type_campskin" rel_version="Feature_Camp_Skins">Diseño del campamento</string>
 	<string key="Bundle_PR_Megapack_Runic_name" rel_version="Bundle_MegaPack_Runic">Superlote rúnico</string>
 	<string key="Bundle_PR_Megapack_AngelsDemons_name" rel_version="Bundle_MegaPack_AngelsDemons">Superlote de ángeles y demonios</string>
@@ -740,7 +669,6 @@
 	<string key="reward_type_Apparelskin" rel_version="New_World_Launch">Diseño de prendas</string>
 	<string key="reward_type_Weaponskin_Spear" rel_version="New_World_Launch">Diseño de lanza</string>
 	<string key="reward_type_house_pet" rel_version="New_World_Launch">Mascota</string>
-	<string key="reward_type_itemdye_pack" rel_version="New_World_Launch">Paquete de tintes</string>
 	<string key="reward_type_guildcrest_pack" rel_version="New_World_Launch">Conjunto de blasones de compañía</string>
 	<string key="reward_type_Apparelskin_Set" rel_version="New_World_Launch">Conjunto de diseños de prendas</string>
 	<string key="reward_type_Toolskin_Set" rel_version="New_World_Launch">Conjunto de diseños de herramientas</string>
@@ -892,7 +820,7 @@
 	<string key="Bundle_Tool_EgyptianGods_description" rel_version="ToolSkins_Egyptian_MTX">«Unas reliquias excelentes para que reveles misterios de los antiguos».</string>
 	<string key="Apparel_SandDune_name" rel_version="Apparel_SandDune">Arenas abrasadoras</string>
 	<string key="Apparel_SandDune_description" rel_version="Apparel_SandDune">Expón tus ojos a los elementos, observa las dunas y traza el camino hacia la victoria.</string>
-	<string key="Bundle_SuperDeluxePack_name" rel_version="Weapon_Wicked_Bow_MTX">Paquete especial arenas del desierto</string>
+	<string key="Bundle_SuperDeluxePack_name" rel_version="Weapon_Wicked_Bow_MTX">Lote especial arenas del desierto</string>
 	<string key="Bundle_SuperDeluxePack_description" rel_version="Weapon_Wicked_Bow_MTX">Álzate con el poder del viento del desierto y libera las fuerzas de un mal antiguo. Este lote también incluye el título «Vanguardista del desierto».</string>
 	<string key="Bundle_Decor_Egyptian_name" rel_version="Housing_Egyptian_MTX_Pack_2022">Lote de decoración egipcio</string>
 	<string key="Bundle_Decor_Egyptian_description" rel_version="Housing_Egyptian_MTX_Pack_2022">Algunos tesoros deberían permanecer enterrados bajo las arenas del desierto.</string>
@@ -1097,7 +1025,6 @@
 	<string key="reward_type_mountattachment" rel_version="Feature_Mounts">Diseño de accesorio de montura</string>
 	<string key="reward_type_mounttrailvfx" rel_version="Feature_Mounts">Efectos de huellas de montura</string>
 	<string key="reward_type_mountsummonvfx" rel_version="Feature_Mounts">Efectos de invocación de montura</string>
-	<string key="reward_type_itemmountdye" rel_version="Feature_Mounts">Tinte para armadura de montura</string>
 	<string key="reward_type_emote_permit" rel_version="Feature_Premium_Emotes">Permiso de gesto</string>
 	<string key="Apparel_FrontierWasteland_Shawl_name" rel_version="Apparel_WastelandFrontier_1">Primigenio rural</string>
 	<string key="Apparel_FrontierWasteland_Gambeson_name" rel_version="Apparel_WastelandFrontier_2">Legionario longicornio</string>
@@ -1167,7 +1094,6 @@
 	<string key="Bundle_PR_Balance_DefenderOfHarmony_description" rel_version="Entitlements_Balance">Sin armonía, solo queda la discordia.</string>
 	<string key="Bundle_PR_JesterSmile_name" rel_version="Entitlements_Balance">Lote del donaire del bufón</string>
 	<string key="Bundle_PR_JesterSmile_description" rel_version="Entitlements_Balance">El ingenio del bufón puede ser letal. Dale una espada y no volverás a reírte.</string>
-	<string key="reward_type_MountDye" rel_version="Entitlements_Balance">Tinte para armadura de montura</string>
 	<string key="reward_type_TokenPack" rel_version="Feature_Transmog">Paquete de blasones</string>
 	<string key="Apparel_Balance_HeraldOfOrder_name" rel_version="Armor_Balance">Heraldo del orden</string>
 	<string key="Apparel_Balance_KeeperOfEquilibrium_name" rel_version="Armor_Balance">Guardián del equilibrio</string>
@@ -1202,12 +1128,6 @@
 	<string key="Bundle_PR_BF_AzothArcana_description" rel_version="Entitlements_Gothknight">Para los que sienten los hilos de la magia entretejidos en su propio ser.</string>
 	<string key="Bundle_PR_BF_HuntersInstinct_name" rel_version="Entitlements_Gothknight">Lote del instinto cazador</string>
 	<string key="Bundle_PR_BF_HuntersInstinct_description" rel_version="Entitlements_Gothknight">Tus dedos son tan sensibles con la cuerda de un arco como los de un bardo con su laúd. Sin embargo, tu oponente no escucha ninguna canción, solo el silbido de una flecha que vuela directa hacia su corazón.</string>
-	<string key="Dye_Black_name" rel_version="Entitlements_Gothknight">Negro espectral</string>
-	<string key="Dye_Black_description" rel_version="Entitlements_Gothknight">Paquete de tintes consumibles</string>
-	<string key="Dye_Red_name" rel_version="Entitlements_Gothknight">Rojo runa del alma</string>
-	<string key="Dye_Red_description" rel_version="Entitlements_Gothknight">Paquete de tintes consumibles</string>
-	<string key="Dye_White_name" rel_version="Entitlements_Gothknight">Blanco virtuoso</string>
-	<string key="Dye_White_description" rel_version="Entitlements_Gothknight">Paquete de tintes consumibles</string>
 	<string key="Apparel_Seance_TheEffigy_name" rel_version="Entitlements_Seance">La Efigie</string>
 	<string key="SeasonPass_Premium_Season_4_name" rel_version="Season_4_Perm">Pase prémium: temporada 4</string>
 	<string key="SeasonPass_HeadStart_Season_4_name" rel_version="Season_4_Perm">Ventaja inicial del pase prémium: temporada 4</string>
@@ -1217,8 +1137,116 @@
 	<string key="StoreItem_Bundle_PR_Reaper_Bundle2_description" rel_version="Entitlements_Reaper">Algún día, el Señor de la Nada será el Señor del Todo.</string>
 	<string key="StoreItem_Bundle_PR_Reaper_Bundle3_name" rel_version="Entitlements_Reaper">Lote de accesorios de montura Abrazo de la parca</string>
 	<string key="StoreItem_Bundle_PR_Reaper_Bundle3_description" rel_version="Entitlements_Reaper">El vacío ha consumido a tu corcel tanto como a ti.</string>
-	<string key="StoreItem_Bundle_PR_Battlemage_Bundle_name" rel_version="Entitlements_Battlemage">Paquete de hechicero acerado</string>
-	<string key="StoreItem_Bundle_PR_Battlemage_Bundle_description" rel_version="Entitlements_Battlemage">Un arcanista con mala baba. Y un repertorio mortal de conjuros.</string>
-	<string key="ui_store_unavailable_at_deaths_door">La tienda no está disponible mientras estés a las puertas de la muerte.</string>
+	<string key="StoreItem_Bundle_PR_Battlemage_Bundle_name" rel_version="Entitlements_BattleMage">Lote de hechicero acerado</string>
+	<string key="StoreItem_Bundle_PR_Battlemage_Bundle_description" rel_version="Entitlements_BattleMage">Un arcanista con mala baba. Y un repertorio mortal de conjuros.</string>
+	<string key="SeasonPass_Premium_Season_6_name" rel_version="Season_6_Perm">Pase prémium: temporada 6</string>
+	<string key="SeasonPass_HeadStart_Season_6_name" rel_version="Season_6_Perm">Ventaja inicial del pase prémium: temporada 6</string>
+	<string key="reward_type_Mount_Wolf" rel_version="Season_6_Perm">Montura (lobo)</string>
+	<string key="reward_type_Mount_Horse" rel_version="Season_6_Perm">Montura (caballo)</string>
+	<string key="reward_type_Mount_Lion" rel_version="Season_6_Perm">Montura (león)</string>
+	<string key="reward_type_Mount_Bear" rel_version="Feature_Mounts_Bear">Montura (oso)</string>
+	<string key="ui_dye_number" rel_version="Feature_MTX">Tinte n.º {rewardId}</string>
+	<string key="reward_type_itemdye" rel_version="Feature_MTX">Tinte</string>
+	<string key="ui_account_bound_tooltip" rel_version="Feature_MTX">Todos los objetos están vinculados a la cuenta (puedes usarlos con todos tus personajes) y no se pueden descartar, intercambiar ni vender en el puesto comercial. Además, los objetos no son reembolsables.\n\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font" &gt;Objetos consumibles: &lt;/font&gt; el uso de estos objetos está limitado y al usar uno en un personaje específico se reduce la cantidad de unidades para toda la cuenta. Por ejemplo, si tienes cinco tintes y utilizas uno en un personaje, solo te quedarán cuatro, incluso aunque inicies sesión con otro personaje en la misma cuenta.</string>
+	<string key="ui_item_restrictions_dyes" rel_version="Feature_MTX">Los &lt;font face="lyshineui/fonts/nimbus_bold_italic.font" &gt;tintes&lt;/font&gt; solo pueden aplicarse a la armadura. Si se intercambia o se vende la armadura, el tinte se eliminará y no se devolverá.</string>
+	<string key="ui_mtx_dye_description_default" rel_version="Feature_MTX">Se usa para teñir ropa y armaduras.</string>
+	<string key="reward_type_tooltip_itemdye" rel_version="Feature_MTX">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TINTES&lt;/font&gt;: Utiliza un tinte seleccionando una armadura equipada y después seleccionando «Tinte».</string>
+	<string key="reward_type_tooltip_itemmountdye" rel_version="Feature_Mounts">&lt;font face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;TINTE PARA ARMADURA DE MONTURA&lt;/font&gt;: Usa el tinte para armadura de montura para teñir partes de la armadura y la ropa de tu montura.</string>
+	<string key="smolderingscarlet_dye_description" rel_version="Dye_SmolderingScarlet">Paquete de tintes consumibles</string>
+	<string key="sublimebone_dye_description" rel_version="MTX_October_Skins">Paquete de tintes consumibles</string>
+	<string key="greengrass_dye_description" rel_version="Entitlements_December">Paquete de tintes consumibles</string>
+	<string key="rouge_dye_description" rel_version="Entitlements_December">Paquete de tintes consumibles</string>
+	<string key="hiddenstream_dye_description" rel_version="Entitlements_November">Paquete de tintes consumibles</string>
+	<string key="butterflywing_dye_description" rel_version="Entitlements_February_2022">Paquete de tintes consumibles</string>
+	<string key="ageless_bronze_description" rel_version="Entitlements_January_2022">Paquete de tintes consumibles</string>
+	<string key="primeblue_dye_description" rel_version="New_World_Launch">Paquete de tintes consumibles</string>
+	<string key="gold_dye_description" rel_version="Dye_Gold">Paquete de tintes consumibles</string>
+	<string key="amazonorange_dye_description" rel_version="New_World_Launch">Paquete de tintes consumibles</string>
+	<string key="twitchpurple_dye_description" rel_version="Apparel_Thespian">Paquete de tintes consumibles</string>
+	<string key="softcoal_dye_description" rel_version="Entitlements_February_2022">Paquete de tintes consumibles</string>
+	<string key="blemishedpearl_dye_description" rel_version="Entitlements_February_2022">Paquete de tintes consumibles</string>
+	<string key="sandalwood_dye_description" rel_version="Entitlements_January_2022">Paquete de tintes consumibles</string>
+	<string key="bleached_cofee_dye_description" rel_version="Dyes_Launch">Paquete de tintes consumibles</string>
+	<string key="blood_dye_description" rel_version="MTX_October_Skins">Paquete de tintes consumibles</string>
+	<string key="viola_dye_description" rel_version="Dyes_Launch">Paquete de tintes consumibles</string>
+	<string key="burntsienna_dye_description" rel_version="MTX_October_Skins">Paquete de tintes consumibles</string>
+	<string key="silt_dye_description" rel_version="Entitlements_November">Paquete de tintes consumibles</string>
+	<string key="blond_dye_description" rel_version="Entitlements_February_2022">Paquete de tintes consumibles</string>
+	<string key="sushigreen_dye_description" rel_version="Entitlements_February_2022">Paquete de tintes consumibles</string>
+	<string key="keylime_dye_description" rel_version="Entitlements_November">Paquete de tintes consumibles</string>
+	<string key="forestgreen_dye_description" rel_version="Dyes_Launch">Paquete de tintes consumibles</string>
+	<string key="mantis_dye_description" rel_version="Entitlements_January_2022">Paquete de tintes consumibles</string>
+	<string key="angelicsatin_dye_description" rel_version="Entitlements_December">Paquete de tintes consumibles</string>
+	<string key="tradewind_dye_description" rel_version="Dyes_Launch">Paquete de tintes consumibles</string>
+	<string key="bluedsteel_dye_description" rel_version="MTX_October_Skins">Paquete de tintes consumibles</string>
+	<string key="supremesaphire_dye_description" rel_version="Entitlements_January_2022">Paquete de tintes consumibles</string>
+	<string key="fiercecobalt_dye_description" rel_version="Entitlements_December">Paquete de tintes consumibles</string>
+	<string key="springgrape_dye_description" rel_version="MTX_October_Skins">Paquete de tintes consumibles</string>
+	<string key="tranquilblossom_dye_description" rel_version="Entitlements_January_2022">Paquete de tintes consumibles</string>
+	<string key="deepvelvet_dye_description" rel_version="Entitlements_November">Paquete de tintes consumibles</string>
+	<string key="crushedberry_dye_description" rel_version="Entitlements_December">Paquete de tintes consumibles</string>
+	<string key="lavender_dye_description" rel_version="Dyes_Launch">Paquete de tintes consumibles</string>
+	<string key="silver_dye_description" rel_version="Entitlements_November">Paquete de tintes consumibles</string>
+	<string key="Bundle_WarSpecial_Promo_description" rel_version="Bundle_Promo_BlackFriday">«Viste el uniforme reluciente de la mismísima Muerte, quien, según los rumores, acecha en cada campo de batalla de Aetérnum. Añádele un tinte gris oscuro para quitarle aún más luz al mundo».</string>
+	<string key="Bundle_FestiveDeer_Promo_description" rel_version="Housing_Winter_MTX_Pack_2021">«Un reno con bufanda para mantenerse abrigado contra la amenaza del Invierno Eterno. Y, además, algunos tintes para añadir colores festivos a tus atuendos».</string>
+	<string key="reward_type_itemdye_pack" rel_version="New_World_Launch">Paquete de tintes</string>
+	<string key="reward_type_itemmountdye" rel_version="Feature_Mounts">Tinte para armadura de montura</string>
+	<string key="reward_type_MountDye" rel_version="Entitlements_Balance">Tinte para armadura de montura</string>
+	<string key="Dye_Black_description" rel_version="Entitlements_Gothknight">Paquete de tintes consumibles</string>
+	<string key="Dye_Red_description" rel_version="Entitlements_Gothknight">Paquete de tintes consumibles</string>
+	<string key="Dye_White_description" rel_version="Entitlements_Gothknight">Paquete de tintes consumibles</string>
+	<string key="smolderingscarlet_dye_name" rel_version="Dye_SmolderingScarlet">Escarlata ardiente</string>
+	<string key="sublimebone_dye_name" rel_version="MTX_October_Skins">Hueso sublime</string>
+	<string key="greengrass_dye_name" rel_version="Entitlements_December">Verde hierba</string>
+	<string key="rouge_dye_name" rel_version="Entitlements_December">Rouge</string>
+	<string key="hiddenstream_dye_name" rel_version="Entitlements_November">Arroyo oculto</string>
+	<string key="butterflywing_dye_name" rel_version="Entitlements_February_2022">Ala de mariposa</string>
+	<string key="ageless_bronze_dye_name" rel_version="Entitlements_January_2022">Bronce intemporal</string>
+	<string key="primeblue_dye_name" rel_version="Dyes_Launch">Azul Prime Gaming</string>
+	<string key="gold_dye_name" rel_version="Dye_Gold">Oro lustroso</string>
+	<string key="amazonorange_dye_name" rel_version="Dyes_Launch">Naranja Amazon</string>
+	<string key="twitchpurple_dye_name" rel_version="Entitlements_November">Violeta Twitch</string>
+	<string key="shipgray_dye_name" rel_version="Entitlements_November">Gris naval</string>
+	<string key="softcoal_dye_name" rel_version="Entitlements_February_2022">Carbón suave</string>
+	<string key="blemishedpearl_dye_name" rel_version="Entitlements_February_2022">Perla impura</string>
+	<string key="sandalwood_dye_name" rel_version="Entitlements_January_2022">Sándalo</string>
+	<string key="bleached_cofee_dye_name" rel_version="Dyes_Launch">Café descolorido</string>
+	<string key="blood_dye_name" rel_version="MTX_October_Skins">Sangre</string>
+	<string key="viola_dye_name" rel_version="Dyes_Launch">Viola</string>
+	<string key="burntsienna_dye_name" rel_version="MTX_October_Skins">Siena quemado</string>
+	<string key="silt_dye_name" rel_version="Entitlements_November">Cieno</string>
+	<string key="blond_dye_name" rel_version="Entitlements_February_2022">Rubio</string>
+	<string key="sushigreen_dye_name" rel_version="Entitlements_February_2022">Verde sushi</string>
+	<string key="keylime_dye_name" rel_version="Entitlements_November">Verde lima</string>
+	<string key="forestgreen_dye_name" rel_version="Dyes_Launch">Verde bosque</string>
+	<string key="mantis_dye_name" rel_version="Entitlements_January_2022">Mantis</string>
+	<string key="angelicsatin_dye_name" rel_version="Entitlements_December">Satén celestial</string>
+	<string key="tradewind_dye_name" rel_version="Dyes_Launch">Vientos alisios</string>
+	<string key="bluedsteel_dye_name" rel_version="MTX_October_Skins">Acero azulado</string>
+	<string key="supremesaphire_dye_name" rel_version="Entitlements_January_2022">Zafiro supremo</string>
+	<string key="fiercecobalt_dye_name" rel_version="Entitlements_December">Cobalto intenso</string>
+	<string key="springgrape_dye_name" rel_version="MTX_October_Skins">Uva primaveral</string>
+	<string key="tranquilblossom_dye_name" rel_version="Entitlements_January_2022">Flor apacible</string>
+	<string key="deepvelvet_dye_name" rel_version="Entitlements_November">Terciopelo intenso</string>
+	<string key="crushedberry_dye_name" rel_version="Entitlements_December">Frutos del bosque</string>
+	<string key="lavender_dye_name" rel_version="Dyes_Launch">Lavanda</string>
+	<string key="silver_dye_name" rel_version="Entitlements_November">Plata nítido</string>
+	<string key="Dye_Black_name" rel_version="Entitlements_Gothknight">Negro espectral</string>
+	<string key="Dye_Red_name" rel_version="Entitlements_Gothknight">Rojo runa del alma</string>
+	<string key="Dye_White_name" rel_version="Entitlements_Gothknight">Blanco virtuoso</string>
+	<string key="DyeA060_MasterName" rel_version="ConsoleLaunch">Bosque refrescante</string>
+	<string key="DyeA061_MasterName" rel_version="ConsoleLaunch">Río ondulante</string>
+	<string key="DyeA062_MasterName" rel_version="ConsoleLaunch">Amanecer montañés</string>
+	<string key="smolderingscarlet_dye_x10_name" rel_version="Dye_SmolderingScarlet">Escarlata ardiente, paquete de 10</string>
+	<string key="gold_dye_x10_name" rel_version="Dye_Gold">Oro lustroso, paquete de 10</string>
+	<string key="silver_dye_x10_name" rel_version="Entitlements_November">Plata nítida, paquete de 10</string>
+	<string key="blond_dye_x10_name" rel_version="Entitlements_February_2022">Rubio, paquete de 10</string>
+	<string key="blood_dye_x10_name" rel_version="MTX_October_Skins">Sangre, paquete de 10</string>
+	<string key="supremesaphire_dye_x10_name" rel_version="Entitlements_January_2022">Zafiro supremo, paquete de 10</string>
+	<string key="forestgreen_dye_x10_name" rel_version="Dyes_Launch">Verde bosque, paquete de 10</string>
+	<string key="deepvelvet_dye_x10_name" rel_version="Entitlements_November">Terciopelo intenso, paquete de 10</string>
+	<string key="softcoal_dye_x10_name" rel_version="Entitlements_February_2022">Hulla, paquete de 10</string>
+	<string key="ageless_bronze_dye_x10_name" rel_version="Entitlements_January_2022">Bronce intemporal, paquete de 10</string>
+	<string key="MTX_Reaper_Vengeful_Set_Name" rel_version="Entitlements_Reaper">Enterrador vengativo</string>
 </resources>
 

@@ -1,13 +1,13 @@
 <resources xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<string key="inv_DroppedItems">Weggeworfene Gegenst.</string>
-	<string key="inv_Dropped">Weggeworfen</string>
+	<string key="inv_Dropped">Gegenstand</string>
 	<string key="inv_Storage">Aufbewahrung</string>
 	<string key="inv_itemDamaged">{num} Gegenstände sind stark beschädigt. Du solltest ihn schnell reparieren.</string>
 	<string key="inv_itemBroken">{num} Gegenstände sind zerbrochen.</string>
 	<string key="inv_broken">KAPUTT</string>
 	<string key="inv_unequip">Ablegen</string>
 	<string key="inv_dropTargetMessage">Gegenstände wegwerfen</string>
-	<string key="inv_discard_life_warning">Andere Spieler können weggeworfene Gegenstände weder sehen noch an sich nehmen. Nach drei Minuten verschwinden Gegenstände unwiderrufbar.</string>
+	<string key="inv_discard_life_warning">Gegenstände, die hier fallen gelassen werden, werden nach 3 Minuten zerstört. Nur du kannst diese Gegenstände sehen oder aufnehmen.</string>
 	<string key="inv_encumbered">Ausgelastet</string>
 	<string key="inv_unencumbered">Nicht ausgelastet</string>
 	<string key="inv_slotsfull">Gegenstandlimit erreicht</string>
@@ -26,6 +26,7 @@
 	<string key="inv_pvparenas">PvP-Arenen</string>
 	<string key="inv_runes" rel_version="Feature_Heartgems">Runen</string>
 	<string key="inv_mountitem" rel_version="Feature_Mounts">Reittiere</string>
+	<string key="inv_patternitem" rel_version="Feature_Patterns">Schemata</string>
 	<string key="inv_crafting_modifiers">Herstellungsmods</string>
 	<string key="inv_repair_kit_count">{count} Reparaturkiste</string>
 	<string key="inv_repair_kits">Reparaturkisten</string>
@@ -112,8 +113,8 @@
 	<string key="salvage_notification_obtained_5_plus">{entry1}, {entry2}, {entry3}, {entry4} sowie {numRemaining} weitere erhalten.</string>
 	<string key="salvage_notification_item_reward">&lt;img src="{icon}" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; &lt;font color={color}&gt;{quantity} {itemName}&lt;/font&gt;</string>
 	<string key="salvage_notification_repair_parts_reward">&lt;img src="lyshineui/images/icons/items/resource/repairpartst1" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt;&lt;font color={color}&gt; {quantity} Ersatzteile&lt;/font&gt;</string>
-	<string key="salvage_notification_coin_reward">&lt;font color={color}&gt;{quantity} &lt;/font&gt;&lt;img src="lyshineui/images/Icon_Crown" xPadding="0" scale="1.3" yOffset="2"&gt;&lt;/img&gt;</string>
-	<string key="salvage_notification_azoth_reward">&lt;font color={color}&gt;{quantity} &lt;/font&gt;&lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.3" yOffset="0"&gt;&lt;/img&gt;</string>
+	<string key="salvage_notification_coin_reward">&lt;img src="lyshineui/images/Icon_Crown" xPadding="0" scale="1.3" yOffset="2"&gt;&lt;/img&gt; &lt;font color={color}&gt;{quantity} &lt;/font&gt;</string>
+	<string key="salvage_notification_azoth_reward">&lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="0" scale="1.3" yOffset="0"&gt;&lt;/img&gt; &lt;font color={color}&gt;{quantity} &lt;/font&gt;</string>
 	<string key="salvage_notification_pefectly_salvaged">Perfekt zerlegt!</string>
 	<string key="salvage_notification_pefectly_salvaged_item">&lt;font color={color}&gt;{itemName}&lt;/font&gt; x {quantity}</string>
 	<string key="fc_campingtitle">Zeltlager</string>
@@ -160,7 +161,7 @@
 	<string key="ui_dropall_in_trade">Beim Handeln können keine Gegenstände abgelegt werden.</string>
 	<string key="ui_transfer_all_filtered">Es können nicht alle Gegenstände in diesen Abschnitt verschoben werden, solange Gegenstände gefiltert werden.</string>
 	<string key="ui_storeall">Alles in den Lagerschuppen räumen.</string>
-	<string key="ui_filterDescription">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;VERWENDUNG DES GEGENSTANDSFILTERS&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Filtern nach&lt;/font&gt;\n• Gegenstandsname (Bsp.: Schwert -Axt)\n• Effekte/Edelsteine (Bsp.: [Schutz] - [Glück])\n• Minimal-Rüstwert (Bsp.: 100)\n• Minimaler Rang (Bsp.: R1)\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Beispiele&lt;/font&gt;\n• Schwert 200\n• Axt R1\n• Hacke (Eisen)\n* Muskete [Elektrifiziert]</string>
+	<string key="ui_filterDescription">&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;WIE MAN SUCHT&lt;/font&gt;\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Veredeln&lt;/font&gt;\n• Eingeschlossen: Schwert\n• Ausgeschlossen: -Axt\n• Effekte/Edelstein: [Schutz]\n• Mindestrüstwert: 100\n• Mindestrang: R1\n\n&lt;font color={subheaderColor} face="lyshineui/fonts/Nimbus_semibold.font"&gt;Hoch entwickelt&lt;/font&gt;\n• Schwert -200\n• -Axt -R1\n• Hacke -(Eisen)\n• Muskete [Elektrifiziert]</string>
 	<string key="ui_filterText">Suchen</string>
 	<string key="ui_filterHeader">Gegenstand filtern</string>
 	<string key="ui_sort">Sortieren</string>
@@ -204,11 +205,11 @@
 	<string key="loadout_window_title" rel_version="Feature_Gear_Set_Storage">AUSRÜSTUNGSSETS</string>
 	<string key="loadout_storage_title" rel_version="Feature_Gear_Set_Storage">AUSRÜSTUNGSSETS</string>
 	<string key="loadout_storage_info" rel_version="Feature_Gear_Set_Storage">Gegenstände in Ausrüstungssets gehören nicht zu deinem Inventar und haben keinen Einfluss auf dein Inventargewicht.</string>
-	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Zu Ausrüstungsset hinzufügen</string>
-	<string key="loadout_addfrom_command" rel_version="Feature_Gear_Set_Storage">Aus Ausrüstungsset hinzufügen</string>
-	<string key="loadout_addtoall_command" rel_version="Feature_Gear_Set_Storage">Zu allen Ausrüstungssets hinzufügen</string>
-	<string key="loadout_removefrom_command" rel_version="Feature_Gear_Set_Storage">Aus Ausrüstungsset entfernen</string>
-	<string key="loadout_removefromall_command" rel_version="Feature_Gear_Set_Storage">Aus allen Ausrüstungssets entfernen</string>
+	<string key="loadout_addto_command" rel_version="Feature_Gear_Set_Storage">Hinzufügen zu</string>
+	<string key="loadout_addfrom_command" rel_version="Feature_Gear_Set_Storage">Hinzufügen aus</string>
+	<string key="loadout_addtoall_command" rel_version="Feature_Gear_Set_Storage">Zu allem hinzufügen</string>
+	<string key="loadout_removefrom_command" rel_version="Feature_Gear_Set_Storage">Entfernen</string>
+	<string key="loadout_removefromall_command" rel_version="Feature_Gear_Set_Storage">Von allem entfernen</string>
 	<string key="loadout_store_callout" rel_version="Feature_Gear_Set_Storage">Zusätzliche Ausrüstungssets freischalten</string>
 	<string key="loadout_toggle_show_hint" rel_version="Feature_Gear_Set_Storage">Ausrüstungssets anzeigen</string>
 	<string key="loadout_toggle_hide_hint" rel_version="Feature_Gear_Set_Storage">Ausrüstungssets ausblenden</string>
@@ -220,6 +221,7 @@
 	<string key="loadout_importall_title" rel_version="Feature_Gear_Set_Storage">Alle importieren</string>
 	<string key="loadout_importall_message" rel_version="Feature_Gear_Set_Storage">Möchtest du wirklich alle ausgerüsteten Gegenstände zu diesem Ausrüstungsset hinzufügen?</string>
 	<string key="loadout_locked_message" rel_version="Feature_Gear_Set_Storage">Wird freigeschaltet ab Stufe {level}</string>
+	<string key="loadout_wheel_locked_message" rel_version="Feature_Gear_Set_Storage">Das Ausrüstungssets-Rad wird freigeschaltet ab Stufe {level}</string>
 	<string key="loadout_currently_equipped" rel_version="Feature_Gear_Set_Storage">Ausrüstungsset: {loadoutName}</string>
 	<string key="loadout_error" rel_version="Feature_Gear_Set_Storage">Ausrüstungssetfehler</string>
 	<string key="loadout_notification_equip_success" rel_version="Feature_Gear_Set_Storage">{loadoutName} ausgerüstet</string>

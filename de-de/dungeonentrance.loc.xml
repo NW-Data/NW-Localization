@@ -9,14 +9,17 @@
 	<string key="ui_open_dungeon_menu_seasontrial" rel_version="Season_2_Perm">Öffnen</string>
 	<string key="join_group_in_dungeon">Betreten</string>
 	<string key="join_group_in_dungeon_solo">Betreten</string>
+	<string key="join_group_in_dungeon_dailysolotrial" rel_version="DailySoloTrials">Betreten</string>
 	<string key="join_group_in_dungeon_raidtrial">Betreten</string>
 	<string key="join_group_in_dungeon_seasontrial" rel_version="Season_2_Perm">Betreten</string>
 	<string key="ui_dungeon_leave">Verlassen</string>
 	<string key="ui_dungeon_leave_solo">Verlassen</string>
 	<string key="ui_dungeon_leave_raidtrial">Verlassen</string>
 	<string key="ui_dungeon_leave_seasontrial" rel_version="Season_2_Perm">Verlassen</string>
+	<string key="ui_dungeon_leave_dailysolotrial" rel_version="DailySoloTrials">Verlassen</string>
 	<string key="ui_dungeon_screen_header">Expedition</string>
 	<string key="ui_dungeon_screen_header_solo">Seelenprüfung</string>
+	<string key="ui_dungeon_screen_header_dailysolotrial" rel_version="DailySoloTrials">Tägliche Seelenprüfung</string>
 	<string key="ui_dungeon_screen_header_raidtrial">Eliteprüfung</string>
 	<string key="ui_dungeon_screen_header_seasontrial" rel_version="Season_2_Perm">Saisonprüfung</string>
 	<string key="ui_dungeon_screen_subheader_localgroup">Lokale Gruppe</string>
@@ -25,7 +28,8 @@
 	<string key="ui_dungeon_requirements_groupsize">Minimale Spielerzahl: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize_range">Minimale Spielerzahl: {minPlayers}–{maxPlayers} Spieler (Aktuell: {currentPlayers})</string>
 	<string key="ui_dungeon_requirements_groupsize_single">Maximale Spielerzahl: 1</string>
-	<string key="ui_dungeon_requirements_gearscore">Empfohlen: &lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {level}</string>
+	<string key="ui_dungeon_requirements_level_recommended">Empfohlene Stufe: {level}</string>
+	<string key="ui_dungeon_requirements_level_required">Erforderliche Stufe: {level}</string>
 	<string key="ui_dungeon_requirements_matchmaking_gearscore" rel_version="Feature_Group_Finder">{gearscore}+</string>
 	<string key="ui_dungeon_requirements_matchmaking_level" rel_version="Feature_Group_Finder">{level}</string>
 	<string key="ui_dungeon_requirements_level_plus">{level}+</string>
@@ -36,6 +40,7 @@
 	<string key="ui_flyout_recommended_groupsize">Empfohlene Spielerzahl: {players}</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Deine Gruppe benötigt mindestens: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_solo">Du benötigst mindestens: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
+	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Du benötigst mindestens: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Du benötigst mindestens: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Du benötigst mindestens: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_reward_level">Die Qualität der Gesamtbeute steigt mit dem Schwierigkeitsgrad.\n\nDer Rüstwert der erhaltenen Gegenstände kann von den hier aufgelisteten abweichen.</string>
@@ -46,26 +51,32 @@
 	<string key="ui_dungeon_estimated_time_remaining">Voraussichtliche Wartedauer:</string>
 	<string key="ui_dungeon_activate">Mit Gruppe betreten</string>
 	<string key="ui_dungeon_activate_solo">Betreten</string>
+	<string key="ui_dungeon_activate_dailysolotrial" rel_version="DailySoloTrials">Betreten</string>
 	<string key="ui_dungeon_activate_raidtrial">Betreten</string>
 	<string key="ui_dungeon_activate_seasontrial" rel_version="Season_2_Perm">Betreten</string>
 	<string key="ui_dungeon_leave_group">Gruppe verlassen</string>
 	<string key="ui_dungeon_leave_group_sufficient_members">Du wirst aus der Warteschlange geworfen, wenn du die Gruppe verlässt.\nBist du dir sicher?</string>
 	<string key="ui_dungeon_group_in_queue">Warten auf Expedition ...</string>
 	<string key="ui_dungeon_group_in_queue_solo">Warten auf Seelenprüfung …</string>
+	<string key="ui_dungeon_group_in_queue_dailysolotrial" rel_version="DailySoloTrials">Warten auf tägliche Seelenprüfung …</string>
 	<string key="ui_dungeon_group_in_queue_raidtrial">Warten auf Eliteprüfung …</string>
 	<string key="ui_dungeon_group_in_queue_seasontrial" rel_version="Season_2_Perm">Warten auf Saisonprüfung …</string>
 	<string key="ui_dungeon_group_proximity">Das Gruppenmitglied ist zu weit entfernt</string>
 	<string key="ui_dungeon_group_already_in_queue_dungeon">Deine Gruppe befindet sich bereits in der Warteschlange für eine andere Expedition. Erstelle eine neue Gruppe, um die Expedition zu betreten.</string>
 	<string key="ui_dungeon_group_already_in_queue_dungeon_solo">Deine Gruppe befindet sich bereits in der Warteschlange für eine andere Expedition. Erstelle eine neue Gruppe, um die Prüfung zu betreten.</string>
+	<string key="ui_dungeon_group_already_in_queue_dungeon_dailysolotrial" rel_version="DailySoloTrials">Deine Gruppe befindet sich bereits in der Warteschlange für eine andere Expedition. Erstelle eine neue Gruppe, um die Prüfung zu betreten.</string>
 	<string key="ui_dungeon_group_already_in_queue_dungeon_raidtrial">Deine Gruppe befindet sich bereits in der Warteschlange für eine andere Expedition. Erstelle eine neue Gruppe, um die Eliteprüfung zu betreten.</string>
 	<string key="ui_dungeon_group_already_in_queue_dungeon_seasontrial" rel_version="Season_2_Perm">Deine Gruppe befindet sich bereits in der Warteschlange für eine andere Expedition. Erstelle eine neue Gruppe, um die Saisonprüfung zu öffnen.</string>
 	<string key="ui_dungeon_group_in_active_dungeon">Deine Gruppe ist bereits einer aktiven Expedition oder Prüfung zugewiesen. Alle Gruppenmitglieder müssen die aktive Instanz verlassen, um diese Expedition zu betreten.</string>
 	<string key="ui_dungeon_group_in_active_dungeon_solo">Deine Gruppe ist bereits einer aktiven Expedition oder Prüfung zugewiesen. Alle Gruppenmitglieder müssen die aktive Instanz verlassen, um diese Seelenprüfung zu betreten.</string>
+	<string key="ui_dungeon_group_in_active_dungeon_dailysolotrial" rel_version="DailySoloTrials">Deine Gruppe ist bereits einer aktiven Expedition oder Prüfung zugewiesen. Alle Gruppenmitglieder müssen die aktive Instanz verlassen, um diese tägliche Seelenprüfung zu betreten.</string>
 	<string key="ui_dungeon_group_in_active_dungeon_raidtrial">Deine Gruppe ist bereits einer aktiven Expedition oder Prüfung zugewiesen. Alle Gruppenmitglieder müssen die aktive Instanz verlassen, um diese Eliteprüfung zu betreten.</string>
 	<string key="ui_dungeon_group_in_active_dungeon_seasontrial" rel_version="Season_2_Perm">Deine Gruppe ist bereits einer aktiven Expedition oder Prüfung zugewiesen. Alle Gruppenmitglieder müssen die aktive Instanz verlassen, um diese Saisonprüfung zu öffnen.</string>
 	<string key="ui_dungeon_group_dead">Gruppenmitglied ist tot.</string>
+	<string key="ui_dungeon_activity_entering">Betreten …</string>
 	<string key="ui_dungeon_activating">Expedition betreten ...</string>
 	<string key="ui_dungeon_activating_solo">Seelenprüfung betreten …</string>
+	<string key="ui_dungeon_activating_dailysolotrial" rel_version="DailySoloTrials">Tägliche Seelenprüfung betreten …</string>
 	<string key="ui_dungeon_activating_raidtrial">Eliteprüfung betreten …</string>
 	<string key="ui_dungeon_activating_seasontrial" rel_version="Season_2_Perm">Saisonprüfung betreten …</string>
 	<string key="ui_dungeon_not_enough_members">Nicht genug Gruppenmitglieder.</string>
@@ -92,6 +103,7 @@
 	<string key="ui_dungeon_disabled_seasontrial" rel_version="Season_2_Perm">Diese Saisonprüfung ist derzeit deaktiviert.</string>
 	<string key="ui_dungeon_activate_failure">Öffnen der Expedition fehlgeschlagen.</string>
 	<string key="ui_dungeon_activate_failure_solo">Öffnen der Seelenprüfung fehlgeschlagen.</string>
+	<string key="ui_dungeon_activate_failure_dailysolotrial" rel_version="DailySoloTrials">Öffnen der täglichen Seelenprüfung fehlgeschlagen.</string>
 	<string key="ui_dungeon_activate_failure_raidtrial">Öffnen der Eliteprüfung fehlgeschlagen.</string>
 	<string key="ui_dungeon_activate_failure_seasontrial" rel_version="Season_2_Perm">Öffnen der Saisonprüfung fehlgeschlagen.</string>
 	<string key="ui_dungeon_not_ready">Expedition nicht fertig.</string>
@@ -99,18 +111,22 @@
 	<string key="ui_dungeon_opened_title_solo">Seelenprüfung offen</string>
 	<string key="ui_dungeon_opened_title_raidtrial">Eliteprüfung offen</string>
 	<string key="ui_dungeon_opened_title_seasontrial" rel_version="Season_2_Perm">Saisonprüfung offen</string>
+	<string key="ui_dungeon_opened_title_dailysolotrial" rel_version="DailySoloTrials">Tägliche Seelenprüfung offen</string>
 	<string key="ui_dungeon_removed_from_queue">Du wurdest aus der Expeditionswarteschlange entfernt.</string>
 	<string key="ui_dungeon_removed_from_queue_solo">Du wurdest aus der Seelenprüfungswarteschlange entfernt.</string>
 	<string key="ui_dungeon_removed_from_queue_raidtrial">Du wurdest aus der Eliteprüfungswarteschlange entfernt.</string>
 	<string key="ui_dungeon_removed_from_queue_seasontrial" rel_version="Season_2_Perm">Du wurdest aus der Saisonprüfungswarteschlange entfernt.</string>
+	<string key="ui_dungeon_removed_from_queue_dailysolotrial" rel_version="DailySoloTrials">Du wurdest aus der täglichen Seelenprüfungswarteschlange entfernt.</string>
 	<string key="ui_dungeon_entry_expired">Expeditionszugang abgelaufen</string>
 	<string key="ui_dungeon_entry_expired_solo">Einzelprüfungszugang abgelaufen</string>
 	<string key="ui_dungeon_entry_expired_raidtrial">Eliteprüfungszugang abgelaufen</string>
 	<string key="ui_dungeon_entry_expired_seasontrial" rel_version="Season_2_Perm">Saisonprüfungszugang abgelaufen</string>
+	<string key="ui_dungeon_entry_expired_dailysolotrial" rel_version="DailySoloTrials">Tägliche-Seelenprüfungszugang abgelaufen</string>
 	<string key="ui_dungeon_closed">Expedition geschlossen</string>
 	<string key="ui_dungeon_closed_solo">Seelenprüfung geschlossen</string>
 	<string key="ui_dungeon_closed_raidtrial">Eliteprüfung geschlossen</string>
 	<string key="ui_dungeon_closed_seasontrial" rel_version="Season_2_Perm">Saisonprüfung geschlossen</string>
+	<string key="ui_dungeon_closed_dailysolotrial" rel_version="DailySoloTrials">Tägliche Seelenprüfung geschlossen</string>
 	<string key="ui_dungeon_required_item">{quantity} {item} (beim Beitritt verbraucht)</string>
 	<string key="ui_dungeon_required_item_started">{item}</string>
 	<string key="ui_dungeon_required_item_tooltip">{quantity} {item} erforderlich</string>
@@ -138,8 +154,9 @@
 	<string key="dungeon_completed_solo">Seelenprüfung abgeschlossen</string>
 	<string key="dungeon_completed_raidtrial">Eliteprüfung abgeschlossen</string>
 	<string key="dungeon_completed_seasontrial" rel_version="Season_2_Perm">Saisonprüfung abgeschlossen</string>
+	<string key="dungeon_completed_dailysolotrial" rel_version="DailySoloTrials">Täglich Seelenprüfung abgeschlossen</string>
 	<string key="ui_dungeon_find_group" rel_version="Feature_Group_Finder">Lobbys ansehen</string>
-	<string key="ui_dungeon_local_group_tooltip">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Lokale Gruppe&lt;/font&gt;\n\nSchau dir Lobbys an, um Gruppen beizutreten oder Freunde und Kompaniemitglieder einzuladen, es mit Aeternums Herausforderungen aufzunehmen.\n\nLokale Gruppen sind nicht in der weltübergreifenden Spielsuche verfügbar.</string>
+	<string key="ui_dungeon_local_group_tooltip">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Lokale Gruppe&lt;/font&gt;\n\nSchau dir Lobbys an, um Gruppen beizutreten, oder lade Freunde und Kompaniemitglieder ein, um eine eigene zu gründen.\n\nLokale Gruppen sind nicht in der weltübergreifenden Spielsuche verfügbar.</string>
 	<string key="ui_dungeon_matchmaking_tooltip" rel_version="Feature_PUG_Finder">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Spielsuche&lt;/font&gt;\n\nTritt unserer weltübergreifenden Warteschlange bei, um Spielern aus deiner Region zugewiesen zu werden. Gruppen werden bei Bedarf automatisch neu besetzt.\n\nAlle Spieler MÜSSEN die Voraussetzungen erfüllen, um den Inhalt spielen zu können.</string>
 	<string key="ui_dungeon_manage_group" rel_version="Feature_Group_Finder">Lobby verwalten</string>
 	<string key="ui_dungeon_view_group" rel_version="Feature_Group_Finder">Meine Lobby ansehen</string>
@@ -148,13 +165,16 @@
 	<string key="ui_dungeon_enter_pvpwarning_info_solo">Durch den Beitritt zu einer Seelenprüfung &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;werden sämtliche PvP-Missionen abgebrochen&lt;/font&gt;. Fortfahren?</string>
 	<string key="ui_dungeon_enter_pvpwarning_info_raidtrial">Durch den Beitritt zu einer Eliteprüfung &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;werden sämtliche PvP-Missionen abgebrochen&lt;/font&gt;. Fortfahren?</string>
 	<string key="ui_dungeon_enter_pvpwarning_info_seasontrial" rel_version="Season_2_Perm">Durch den Beitritt zu einer Saisonprüfung &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;werden sämtliche PvP-Missionen abgebrochen&lt;/font&gt;. Fortfahren?</string>
+	<string key="ui_dungeon_enter_pvpwarning_info_dailysolotrial" rel_version="DailySoloTrials">Durch den Beitritt zu einer täglichen Seelenprüfung &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;werden sämtliche PvP-Missionen abgebrochen&lt;/font&gt;. Fortfahren?</string>
 	<string key="ui_dungeon_full_header">Expedition derzeit voll. Tritt der Warteschlange bei, um die Expedition zu betreten.</string>
 	<string key="ui_dungeon_full_header_solo">Seelenprüfung derzeit voll. Tritt der Warteschlange bei, um die Seelenprüfung zu betreten.</string>
+	<string key="ui_dungeon_full_header_dailysolotrial" rel_version="DailySoloTrials">Tägliche Seelenprüfung derzeit voll. Tritt der Warteschlange bei, um die tägliche Seelenprüfung zu betreten.</string>
 	<string key="ui_dungeon_full_header_raidtrial">Eliteprüfung derzeit voll. Tritt der Warteschlange bei, um die Eliteprüfung zu betreten.</string>
 	<string key="ui_dungeon_full_header_seasontrial" rel_version="Season_2_Perm">Saisonprüfung derzeit voll. Tritt der Warteschlange bei, um die Saisonprüfung zu betreten.</string>
 	<string key="ui_dungeon_player_average_gear_score">&lt;font color="#c3b79f"&gt;Durchschnittlicher Rüstwert: &lt;/font&gt; &lt;font color="#ebe3d6"&gt;{gearscore}&lt;/font&gt;</string>
 	<string key="ui_dungeon_queued_blocked">Betreten</string>
 	<string key="ui_dungeon_queued_blocked_solo">Betreten</string>
+	<string key="ui_dungeon_queued_blocked_dailysolotrial" rel_version="DailySoloTrials">Betreten</string>
 	<string key="ui_dungeon_queued_blocked_raidtrial">Betreten</string>
 	<string key="ui_dungeon_queued_blocked_seasontrial" rel_version="Season_2_Perm">Betreten</string>
 	<string key="ui_dungeon_outpost_rush">Du befindest dich bereits in der Warteschlange für den Außenpostensturm.</string>
@@ -162,9 +182,11 @@
 	<string key="ui_dungeon_expiring_solo">Verlassen in</string>
 	<string key="ui_dungeon_expiring_raidtrial">Verlassen in</string>
 	<string key="ui_dungeon_expiring_seasontrial" rel_version="Season_2_Perm">Verlassen in</string>
-	<string key="ui_dungeon_cooldown">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{timeRemaining}&lt;/font&gt;</string>
+	<string key="ui_dungeon_expiring_dailysolotrial" rel_version="DailySoloTrials">Verlassen in</string>
+	<string key="ui_dungeon_cooldown">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{timeRemaining}&lt;/font&gt;</string>
 	<string key="ui_dungeon_cooldown_flyout">Du kannst diese Expedition in {timeRemaining} öffnen.</string>
 	<string key="ui_dungeon_cooldown_flyout_solo">Du kannst diese Seelenprüfung in {timeRemaining} öffnen.</string>
+	<string key="ui_dungeon_cooldown_flyout_dailysolotrial" rel_version="DailySoloTrials">Du kannst diese tägliche Seelenprüfung in {timeRemaining} öffnen.</string>
 	<string key="ui_dungeon_cooldown_flyout_raidtrial">Du kannst diese Eliteprüfung in {timeRemaining} öffnen.</string>
 	<string key="ui_dungeon_cooldown_flyout_seasontrial" rel_version="Season_2_Perm">Du kannst diese Saisonprüfung in {timeRemaining} öffnen.</string>
 	<string key="ui_dungeon_map_flyout_button">Ansehen</string>
@@ -176,6 +198,8 @@
 	<string key="ui_dungeon_remaining_tooltip_seasontrial" rel_version="Season_2_Perm">Du kannst an bis zu {amount} Saisonprüfungen pro Tag teilnehmen.</string>
 	<string key="ui_dungeon_mutation_remaining_label" rel_version="Feature_Dungeon_Mutators">Verbleibende mutierte Expeditionen</string>
 	<string key="ui_dungeon_mutation_remaining_tooltip" rel_version="Feature_Dungeon_Mutators">Du kannst an bis zu {amount} mutierten Expeditionen pro Woche teilnehmen.</string>
+	<string key="ui_dungeon_dailysolotrial_remaining_label" rel_version="DailySoloTrials">Verbleibende tägliche Durchläufe</string>
+	<string key="ui_dungeon_dailysolotrial_remaining_tooltip" rel_version="DailySoloTrials">Du kannst diese tägliche Seelenprüfung {amount}-mal pro Tag abschließen.</string>
 	<string key="ui_dungeon_mutation_flyout_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Wöchentliche Mutation&lt;/font&gt;\nElementarmutationen, Aufwertungen und Flüche für die Mutierten Expeditionen werden jede Woche zufällig bestimmt.\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutation&lt;/font&gt;\nKämpf dich durch Elementarmutationen\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Aufwertungen&lt;/font&gt;\nElite-Aufwertungen für Gegner\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Flüche&lt;/font&gt;\nEffekte auf die gesamte Expedition</string>
 	<string key="ui_dungeon_mutation_elemental" rel_version="Feature_Dungeon_Mutators">Mutation</string>
 	<string key="ui_dungeon_mutation_promotion" rel_version="Feature_Dungeon_Mutators">Aufwertung</string>
@@ -193,17 +217,17 @@
 	<string key="ui_dungeon_mutator_difficulty_desc_1" rel_version="Feature_Dungeon_Mutators">M1</string>
 	<string key="ui_dungeon_mutator_difficulty_desc_2" rel_version="Feature_Dungeon_Mutators">M2</string>
 	<string key="ui_dungeon_mutator_difficulty_desc_3" rel_version="Feature_Dungeon_Mutators">M3</string>
-	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M1&lt;/font&gt; (Fortgeschritten)</string>
-	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M2&lt;/font&gt; (Schwer)</string>
-	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M3&lt;/font&gt; (Elite)</string>
-	<string key="ui_dungeon_mutator_difficulty_3_M1_M2_Only_NoM3MM" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M3&lt;/font&gt; (Elite) Nur lokale Gruppen</string>
-	<string key="ui_dungeon_mutator_difficulty_4" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M4&lt;/font&gt; (Fortgeschritten)</string>
-	<string key="ui_dungeon_mutator_difficulty_5" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M5&lt;/font&gt; (Fortgeschritten)</string>
-	<string key="ui_dungeon_mutator_difficulty_6" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M6&lt;/font&gt; (Schwer)</string>
-	<string key="ui_dungeon_mutator_difficulty_7" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M7&lt;/font&gt; (Schwer)</string>
-	<string key="ui_dungeon_mutator_difficulty_8" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M8&lt;/font&gt; (Schwer)</string>
-	<string key="ui_dungeon_mutator_difficulty_9" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M9&lt;/font&gt; (Elite)</string>
-	<string key="ui_dungeon_mutator_difficulty_10" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M10&lt;/font&gt; (Elite)</string>
+	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M1&lt;/font&gt; (Fortgeschritten)</string>
+	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M2&lt;/font&gt; (Schwer)</string>
+	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M3&lt;/font&gt; (Elite)</string>
+	<string key="ui_dungeon_mutator_difficulty_3_M1_M2_Only_NoM3MM" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M3&lt;/font&gt; (Elite) Nur lokale Gruppen</string>
+	<string key="ui_dungeon_mutator_difficulty_4" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M4&lt;/font&gt; (Fortgeschritten)</string>
+	<string key="ui_dungeon_mutator_difficulty_5" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M5&lt;/font&gt; (Fortgeschritten)</string>
+	<string key="ui_dungeon_mutator_difficulty_6" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M6&lt;/font&gt; (Schwer)</string>
+	<string key="ui_dungeon_mutator_difficulty_7" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M7&lt;/font&gt; (Schwer)</string>
+	<string key="ui_dungeon_mutator_difficulty_8" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M8&lt;/font&gt; (Schwer)</string>
+	<string key="ui_dungeon_mutator_difficulty_9" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M9&lt;/font&gt; (Elite)</string>
+	<string key="ui_dungeon_mutator_difficulty_10" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M10&lt;/font&gt; (Elite)</string>
 	<string key="ui_dungeon_mutator_string" rel_version="Feature_Dungeon_Mutators">Wöchentliche Mutation</string>
 	<string key="ui_dungeon_mutator_multiplier_description" rel_version="Feature_Dungeon_Mutators">Multipliziert die &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Gesamtpunktzahl&lt;/font&gt; mit der &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Anzahl der erfüllten Voraussetzungen&lt;/font&gt;.</string>
 	<string key="ui_dungeon_mutator_clear_time" rel_version="Feature_Dungeon_Mutators">Abschlusszeit:</string>
@@ -252,7 +276,7 @@
 	<string key="ui_dungeon_mutator_difficulty_header_none" rel_version="Feature_Dungeon_Mutators">Normal</string>
 	<string key="ui_dungeon_mutator_difficulty_header_mutated" rel_version="Feature_Dungeon_Mutators">Mutiert</string>
 	<string key="ui_dungeon_mutator_difficulty_plain" rel_version="Feature_Dungeon_Mutators">Schwierigkeit&lt;/font&gt;</string>
-	<string key="ui_dungeon_mutator_appended_difficulty" rel_version="Feature_Dungeon_Mutators">Schwierigkeit: &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_appended_difficulty" rel_version="Feature_Dungeon_Mutators">Schwierigkeit: &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_appended_difficulty_bold" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Schwierigkeit: {difficulty}&lt;/font&gt;</string>
 	<string key="ui_dungeon_next_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Um die &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;nächste Schwierigkeit&lt;/font&gt; freizuschalten, musst du diese Expedition mit dem &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{rank} Rang&lt;/font&gt; abschließen.</string>
 	<string key="ui_dungeon_mutator_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Um den &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;nächsten Schwierigkeitsgrad&lt;/font&gt; freizuschalten, musst du diese Expedition abschließen.</string>
@@ -268,9 +292,9 @@
 	<string key="ui_dungeon_mutator_level_not_met" rel_version="Feature_Dungeon_Mutators">Du erfüllst die Mindeststufen-Voraussetzung für diese Expedition nicht.</string>
 	<string key="Mut_Disease_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner verursachen bei Treffern eine stapelbare Krankheit, die die gewirkte Heilung pro Stapel um {[-0.025000 * -100]} % verringert.</string>
 	<string key="Mut_Disease_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner verursachen bei Treffern eine stapelbare Krankheit, die die gewirkte Heilung pro Stapel um {[-0.025000 * -100]}/{[-0.050000 * -100]} % verringert.</string>
-	<string key="Mut_RotatingBeam_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner wirken durchdringende Strahlen, die bei Berührung {[-0.300000 * -100]} % Unheilsschaden verursachen.</string>
-	<string key="Mut_StaminaDamage_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner verlieren den um {[-0.250000 * -100]} % verringerten Ausdauerschaden in Expeditionen.\nGegner fügen um {[0.400000 * 100]} % erhöhten Ausdauerschaden zu.\nZusätzlich verursachen Gegner Blutung und Schaden in Höhe von {[-0.050000 * -100]} % des Gesundheitsgrundwerts, wenn sie deine Verteidigung durchbrechen.</string>
-	<string key="Mut_StaminaDamage_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner verlieren den um {[-0.250000 * -100]} % verringerten Ausdauerschaden in Expeditionen.\nGegner fügen um {[0.400000 * 100]}/{[0.750000 * 100]} % erhöhten Ausdauerschaden zu.\nZusätzlich verursachen Gegner Blutung und Schaden in Höhe von {[-0.050000 * -100]}/{[-0.080000 * -100]} % des Gesundheitsgrundwerts, wenn sie deine Verteidigung durchbrechen.</string>
+	<string key="Mut_RotatingBeam_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner wirken durchdringende Strahlen, die bei Berührung {[-0.3 * -100]} % Unheilsschaden verursachen.</string>
+	<string key="Mut_StaminaDamage_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner verlieren den um {[-0.250000 * -100]} % verringerten Ausdauerschaden in Expeditionen.\nGegner fügen um {[0.400000 * 100]} % erhöhten Ausdauerschaden zu.\nZusätzlich verursachen Gegner Blutung und Schaden in Höhe von {[-0.05 * -100]} % des Gesundheitsgrundwerts, wenn sie deine Verteidigung durchbrechen.</string>
+	<string key="Mut_StaminaDamage_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner verlieren den um {[-0.250000 * -100]} % verringerten Ausdauerschaden in Expeditionen.\nGegner fügen um {[0.400000 * 100]}/{[0.750000 * 100]} % erhöhten Ausdauerschaden zu.\nZusätzlich verursachen Gegner Blutung und Schaden in Höhe von {[-0.05 * -100]}/{[-0.08 * -100]} % des Gesundheitsgrundwerts, wenn sie deine Verteidigung durchbrechen.</string>
 	<string key="Mut_Enrage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner werden wild, wenn sie getroffen werden. Bei {[20.000000]} Wildheit werden sie erzürnt, verursachen um {[0.500000 * 100]} % erhöhten Schaden und werden um {[0.150000 * 100]} % größer.</string>
 	<string key="Mut_ManaThorns_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Bei einem Treffer entziehen Gegner {[-10.000000* -1]} Mana.</string>
 	<string key="Mut_ManaThorns_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Bei einem Treffer entziehen Gegner {[-10.000000* -1]}/{[-20.000000* -1]} Mana.</string>
@@ -281,10 +305,10 @@
 	<string key="Mut_Fir_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">{[0.500000 * 100]} % des von Gegnern verursachten Gesamtschadens wird in Feuerschaden umgewandelt.</string>
 	<string key="Mut_Fir_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner erhalten {[0.500000 * 100]} % Feuerabsorption.</string>
 	<string key="Mut_Fir_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner erhalten {[0.500000 * 100]}/{[0.750000 * 100]} % Feuerabsorption.</string>
-	<string key="Mut_Fir_Burn_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Bei einem Treffer applizieren Gegner Verbrennung, die über Zeit {[-0.040000 * -100]} % Feuerschaden verursacht.</string>
-	<string key="Mut_Fir_Burn_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Bei einem Treffer applizieren Gegner Verbrennung, die über Zeit {[-0.040000 * -100]}/{[-0.080000 * -100]} % Feuerschaden verursacht.</string>
-	<string key="Mut_Fir_AOE_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner wirken auf angreifende Spieler eine Verbrennungszone, die über Zeit {[-0.200000 * -100]} % Feuerschaden verursacht.</string>
-	<string key="Mut_Fir_AOE_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner wirken auf angreifende Spieler eine Verbrennungszone, die über Zeit {[-0.400000 * -100]} % Feuerschaden verursacht.</string>
+	<string key="Mut_Fir_Burn_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Bei einem Treffer applizieren Gegner Verbrennung, die über Zeit {[-0.04 * -100]} % Feuerschaden verursacht.</string>
+	<string key="Mut_Fir_Burn_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Bei einem Treffer applizieren Gegner Verbrennung, die über Zeit {[-0.04 * -100]}/{[-0.08 * -100]} % Feuerschaden verursacht.</string>
+	<string key="Mut_Fir_AOE_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner wirken auf angreifende Spieler eine Verbrennungszone, die über Zeit {[-0.2 * -100]} % Feuerschaden verursacht.</string>
+	<string key="Mut_Fir_AOE_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner wirken auf angreifende Spieler eine Verbrennungszone, die über Zeit {[-0.4 * -100]} % Feuerschaden verursacht.</string>
 	<string key="Mut_Fir_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Sterben Gegner, explodieren sie und verursachen in einem kleinen Bereich {[0.700000 * 100]} % Feuerschaden.</string>
 	<string key="Mut_Ice_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">{[0.500000 * 100]} % des von Gegnern verursachten Gesamtschadens wird in Eisschaden umgewandelt.</string>
 	<string key="Mut_Ice_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">Gegner erhalten {[0.500000 * 100]} % Eisabsorption.</string>
@@ -300,18 +324,18 @@
 	<string key="Mut_Nat_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">{[0.500000 * 100]} % des von Gegnern verursachten Gesamtschadens wird in Naturschaden umgewandelt.</string>
 	<string key="Mut_Nat_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner erhalten {[0.500000 * 100]} % Naturabsorption.</string>
 	<string key="Mut_Nat_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner erhalten {[0.500000 * 100]}/{[0.750000 * 100]} % Naturabsorption.</string>
-	<string key="Mut_Nat_Thorns_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Werden Gegner getroffen, verursachen sie {[-0.200000 * -100]} % Naturschaden.</string>
-	<string key="Mut_Nat_Thorns_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Werden Gegner getroffen, verursachen sie {[-0.200000 * -100]}/{[-0.400000 * -100]} % Naturschaden.</string>
-	<string key="Mut_Nat_Pools_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner wirken in regelmäßigen Abständen Giftzonen, die über Zeit {[-0.050000 * 100]} % Naturschaden verursachen.</string>
-	<string key="Mut_Nat_Pools_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner wirken in regelmäßigen Abständen Giftzonen, die über Zeit {[-0.050000 * 100]}/{[-0.100000 * 100]} % Naturschaden verursachen.</string>
-	<string key="Mut_Nat_Crawler_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner spawnen in regelmäßigen Abständen ein giftiges Wesen, das nach und nach {[-0.200000 * -100]} % Naturschaden verursacht und einen weit entfernten Gegner anvisiert. Erreicht es den Zielspieler, wirkt es einen Flächenzauber, der Spieler verwurzelt.</string>
-	<string key="Mut_Nat_Crawler_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner spawnen in regelmäßigen Abständen ein giftiges Wesen, das nach und nach {[-0.200000 * -100]}/{[-0.400000 * -100]} % Naturschaden verursacht und einen weit entfernten Gegner anvisiert. Erreicht es den Zielspieler, wirkt es einen Flächenzauber, der Spieler verwurzelt.</string>
-	<string key="Mut_Nat_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Sterben Gegner, hinterlassen sie eine Zone und heilen Gegner, die sich darin befinden, um {[0.030000 * 100]} % Gesundheit pro Sekunde.</string>
+	<string key="Mut_Nat_Thorns_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Werden Gegner getroffen, verursachen sie {[-0.2 * -100]} % Naturschaden.</string>
+	<string key="Mut_Nat_Thorns_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Werden Gegner getroffen, verursachen sie {[-0.2 * -100]}/{[-0.4 * -100]} % Naturschaden.</string>
+	<string key="Mut_Nat_Pools_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner wirken in regelmäßigen Abständen Giftzonen, die über Zeit {[-0.05 * 100]} % Naturschaden verursachen.</string>
+	<string key="Mut_Nat_Pools_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner wirken in regelmäßigen Abständen Giftzonen, die über Zeit {[-0.05 * 100]}/{[-0.1 * 100]} % Naturschaden verursachen.</string>
+	<string key="Mut_Nat_Crawler_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner spawnen in regelmäßigen Abständen ein giftiges Wesen, das nach und nach {[-0.2 * -100]} % Naturschaden verursacht und einen weit entfernten Gegner anvisiert. Erreicht es den Zielspieler, wirkt es einen Flächenzauber, der Spieler verwurzelt.</string>
+	<string key="Mut_Nat_Crawler_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Gegner spawnen in regelmäßigen Abständen ein giftiges Wesen, das nach und nach {[-0.2 * -100]}/{[-0.4 * -100]} % Naturschaden verursacht und einen weit entfernten Gegner anvisiert. Erreicht es den Zielspieler, wirkt es einen Flächenzauber, der Spieler verwurzelt.</string>
+	<string key="Mut_Nat_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Sterben Gegner, hinterlassen sie eine Zone und heilen Gegner, die sich darin befinden, um {[0.03 * 100]} % Gesundheit pro Sekunde.</string>
 	<string key="Mut_Voi_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">{[0.500000 * 100]} % des von Gegnern verursachten Gesamtschadens wird in Unheilsschaden umgewandelt.</string>
 	<string key="Mut_Voi_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner erhalten {[0.500000 * 100]} % Unheilsabsorption.</string>
 	<string key="Mut_Voi_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Gegner erhalten {[0.500000 * 100]}/{[0.750000 * 100]} % Unheilsabsorption.</string>
-	<string key="Mut_Voi_Leech_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Bei einem Treffer applizieren Gegner Sauger, verursachen {[-0.200000 * -100]} % Unheilsschaden und heilen den Gegner um {[0.900000 * 100]} % Schaden über Zeit.</string>
-	<string key="Mut_Voi_Leech_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Bei einem Treffer applizieren Gegner "Sauger", verursachen {[-0.200000 * -100]}/{[-0.300000 * -100]} % Unheilsschaden und heilen den Gegner um {[0.900000 * 100]}/{[1.200000 * 100]} % Schaden über Zeit.</string>
+	<string key="Mut_Voi_Leech_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Bei einem Treffer applizieren Gegner Sauger, verursachen {[-0.2 * -100]} % Unheilsschaden und heilen den Gegner um {[0.900000 * 100]} % Schaden über Zeit.</string>
+	<string key="Mut_Voi_Leech_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Bei einem Treffer applizieren Gegner "Sauger", verursachen {[-0.2 * -100]}/{[-0.3 * -100]} % Unheilsschaden und heilen den Gegner um {[0.900000 * 100]}/{[1.200000 * 100]} % Schaden über Zeit.</string>
 	<string key="Mut_Voi_Stacks_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Wenn du einen Gegner triffst, erhältst du einen Stapel Paranoia. Bei {[4.000000]} Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt, die in einem kleinen Bereich {[0.400000 * 100]} % Unheilsschaden verursacht.</string>
 	<string key="Mut_Voi_Stacks_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Wenn du einen Gegner triffst, erhältst du einen Stapel Paranoia. Bei {[4.000000]}/{[4.000000]} Stapeln wird an deinem Standort eine Unheilsexplosion erzeugt, die in einem kleinen Bereich {[0.400000 * 100]}/{[0.700000 * 100]} % Unheilsschaden verursacht.</string>
 	<string key="Mut_Voi_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Beim Tod wirken Gegner einen Zauber, der anderen Gegnern in dem Gebiet Unheilsermächtigung verleiht und deren Unheilsschaden um {[0.500000 * 100]} % erhöht.</string>
@@ -373,6 +397,7 @@
 	<string key="ui_dungeon_mutator_max_warning_raidtrial" rel_version="Feature_Dungeon_Mutators">Du hast das wöchentliche Limit für deine Teilnahme an mutierten Eliteprüfungen erreicht. &lt;font color="#ebe3d6"&gt;({amount} pro Woche)&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_max_warning_seasontrial" rel_version="Season_2_Perm">Du hast das wöchentliche Limit für deine Teilnahme an mutierten Saisonprüfungen erreicht. &lt;font color="#ebe3d6"&gt;({amount} pro Woche)&lt;/font&gt;</string>
 	<string key="ui_dungeon_max_warning">Du hast das tägliche Limit für deine Teilnahme an normalen Expeditionen erreicht. &lt;font color="#ebe3d6"&gt;({amount} pro Tag)&lt;/font&gt;</string>
+	<string key="ui_dungeon_max_warning_dailysolotrial" rel_version="DailySoloTrials">Du hast das tägliche Limit für deine Teilnahme an der täglichen Seelenprüfung erreicht. &lt;font color="#ebe3d6"&gt;({amount} pro Tag)&lt;/font&gt;</string>
 	<string key="ui_dungeon_max_warning_raidtrial">Du hast das tägliche Limit für deine Teilnahme an normalen Eliteprüfungen erreicht. &lt;font color="#ebe3d6"&gt;({amount} pro Tag)&lt;/font&gt;</string>
 	<string key="ui_dungeon_max_warning_seasontrial" rel_version="Season_2_Perm">Du hast das tägliche Limit für deine Teilnahme an normalen Saisonprüfungen erreicht. &lt;font color="#ebe3d6"&gt;({amount} pro Tag)&lt;/font&gt;</string>
 	<string key="ui_dungeon_limit_refresh_enter">Kann betreten werden am {date}</string>

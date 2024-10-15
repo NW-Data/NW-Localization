@@ -96,6 +96,7 @@
 	<string key="objective_mountquest_desc" speaker="UI">Objectifs de monture</string>
 	<string key="objective_epicequipment" speaker="UI">Équipement épique</string>
 	<string key="objective_epicequipment_desc" speaker="UI">Quêtes d'équipement épique</string>
+	<string key="objective_quest" speaker="UI">Quête</string>
 	<string key="objective_kill" speaker="UI">Tuer : {enemy}</string>
 	<string key="objective_kill_p" speaker="UI">Tuer : {enemy} x {amountCount}</string>
 	<string key="objective_location" speaker="UI">Lieu</string>
@@ -117,7 +118,7 @@
 	<string key="objective_mission_task_desc_return_to_giver_cm" speaker="UI">Terminer au tableau des projets urbains de : {destinationName}</string>
 	<string key="objective_mission_task_desc_return_to_giver" speaker="UI">Terminer auprès du représentant de faction de : {destinationName}</string>
 	<string key="objective_mission_task_desc_return_to_any_giver" speaker="UI">Terminer auprès de n'importe quel représentant de faction</string>
-	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Retourner à l'instigateur de la mission pour terminer </string>
+	<string key="objective_mission_task_desc_unknown_location" speaker="UI">Retourner à l'instigateur de la mission pour terminer</string>
 	<string key="objective_mission_task_explore_POITag" speaker="UI">Explorer : {POITags}</string>
 	<string key="objective_mission_task_explore_the_POITag" speaker="UI">Explorer : {POITags}</string>
 	<string key="objective_mission_task_goto_Map_Location" speaker="UI">Explorer l'épave indiquée sur la carte</string>
@@ -210,6 +211,7 @@
 	<string key="objective_subtitle_locationanddifficulty" speaker="UI">{territory} - {difficulty}</string>
 	<string key="objective_recommendedgroup" speaker="UI">Groupe {group}</string>
 	<string key="objective_recommendedplayers" speaker="UI">{amount} joueurs</string>
+	<string key="objective_recommendedlevelshort" speaker="UI">Niv. {level}</string>
 	<string key="objective_recommendedlevel" speaker="UI">Niveau {level}</string>
 	<string key="objective_recommendedlevellong" speaker="UI">Niveau {level} recommandé</string>
 	<string key="objective_recommendedlevelwithcolor" speaker="UI">&lt;font color={color}&gt;Niveau {level}&lt;/font&gt;</string>
@@ -221,12 +223,13 @@
 	<string key="objective_requiresitem" speaker="UI">Requis : {itemName} de palier {tier}</string>
 	<string key="objective_reward" speaker="UI">Récompense</string>
 	<string key="objective_rewards" speaker="UI">Récompenses</string>
+	<string key="objective_rewards_caps" speaker="UI">RÉCOMPENSES</string>
 	<string key="objective_activebonuses" speaker="UI">Bonus actifs</string>
 	<string key="objective_norewards" speaker="UI">Contribuer à la bataille pour gagner des récompenses</string>
 	<string key="objective_salvage" speaker="UI">Recycler : {itemName}</string>
 	<string key="objective_started" speaker="UI">Objectif démarré</string>
-	<string key="objective_daily_reward_one" speaker="UI" rel_version="Event_February_Perm">Contient &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;1&lt;/font&gt; récompense quotidienne</string>
-	<string key="objective_daily_reward_multiple" speaker="UI" rel_version="Feature_Seasons_Rewards">Contient &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; récompenses quotidiennes</string>
+	<string key="objective_daily_reward_one" speaker="UI" rel_version="Event_February_Perm">Contient &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;1&lt;/font&gt; récompense quotidienne</string>
+	<string key="objective_daily_reward_multiple" speaker="UI" rel_version="Feature_Seasons_Rewards">Contient &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; récompenses quotidiennes</string>
 	<string key="objective_task_pvp" speaker="UI">Mission JcJ</string>
 	<string key="objective_task_survive" speaker="UI">Survivre à la mission : La Mort en échec.</string>
 	<string key="objective_story_task_getoffthebeach" speaker="UI">Trouver l'avant-poste</string>
@@ -259,10 +262,10 @@
 	<string key="objective_mission_task_patrol_timer" speaker="UI">Tenir : {POITags} pendant {timeRemaining}</string>
 	<string key="objective_mission_task_control_point" speaker="UI">Capturer un point de contrôle de faction pour les Maraudeurs dans le territoire {TerritoryID}.</string>
 	<string key="task_choose_faction" speaker="UI">Choisir une faction avec : {destinationName}</string>
-	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Button">Terminer la quête</string>
-	<string key="prompt_DEFAULT" speaker="UI - Button">Accepter la quête</string>
-	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Quest  Description">Explorez ce qui ressemble à une tour de guet.</string>
-	<string key="title_getoffbeach" speaker="UI - Journal - Quest  Title">Seul survivant</string>
+	<string key="complete_available_prompt_DEFAULT" comment="male" speaker="UI - Bouton">Terminer la quête</string>
+	<string key="prompt_DEFAULT" speaker="UI - Bouton">Accepter la quête</string>
+	<string key="desc_getoffbeach" comment="male" speaker="UI - Journal - Description de la quête">Explorez ce qui ressemble à une tour de guet.</string>
+	<string key="title_getoffbeach" speaker="UI - Journal - Titre de la quête">Seul survivant</string>
 	<string key="task_getoffbeach_openmap">Ouvrir la carte</string>
 	<string key="have_berries">Manger des baies</string>
 	<string key="objective_mission_kill_generic_at_POI">Vaincre : {targetName} à : {POITags}</string>
@@ -284,6 +287,7 @@
 	<string key="objective_mission_kill_generic_at_POI_C">Éliminer : {targetName} à : {POITags}</string>
 	<string key="objective_mission_loot_chests_generic_at_POI_C">Fouiller les coffres pour trouver : {itemName} à : {POITags}</string>
 	<string key="objective_mission_poach_bushes_at_POI">Prélever : {itemName} sur des arbustes à : {POITags}</string>
+	<string key="objective_capture_fort">Prendre les forteresses ennemies</string>
 	<string key="dynamic_poi_mission_collect">Rechercher des documents géographiques dans les coffres</string>
 	<string key="dynamic_poi_mission_kill_category" speaker="UI">Éliminer les ennemis : {targetName}</string>
 	<string key="dynamic_poi_mission_kill_named" speaker="UI">Trouver et éliminer : {targetName}</string>
@@ -297,6 +301,7 @@
 	<string key="objective_mission_task_PVP_kill_and_acquire_X_items_anywhere">Éliminer les membres de la faction ennemie pour récupérer : {itemName}</string>
 	<string key="objective_mission_kill_generic">Vaincre : {targetName}</string>
 	<string key="objective_mission_loot_chests_generic">Fouiller les coffres pour trouver : {itemName}</string>
+	<string key="objective_mission_doubloon_generic">Chercher des coffres pour récupérer des doublons maudits</string>
 	<string key="objective_mission_hunt_generic">Chasser : {targetName}</string>
 	<string key="objective_mission_loot_chests_at_Warcamp">Fouiller les coffres pour trouver : {itemName} au camp de guerre : {TerritoryID}</string>
 	<string key="objective_mission_kill_with_weapon">Utiliser l'arme {WeaponClassId} et vaincre : {targetName}</string>
@@ -343,7 +348,7 @@
 	<string key="objective_artifact_max_reminder" rel_version="Feature_Artifacts">Trop d'objectifs d'artéfact en cours. Abandonnez-en un pour en démarrer un autre.</string>
 	<string key="objective_artifact_equip_reminder" rel_version="Feature_Artifacts">Quand équipé :</string>
 	<string key="Objective_Artifact_PerkTasks" rel_version="Feature_Expansion_1">Chaque tâche déverrouille un atout</string>
-	<string key="Objective_Artifact_Desc" rel_version="Feature_Expansion_1">Terminer les objectifs suivants pour améliorer cet artéfact</string>
+	<string key="Objective_Artifact_Desc" rel_version="Feature_Expansion_1">Terminer l'objet suivant :</string>
 	<string key="Objective_Artifact_Set1_HeavyHead" rel_version="Feature_Expansion_1">Artéfact : Inébranlable</string>
 	<string key="Objective_Artifact_Set1_HeavyChest" rel_version="Feature_Expansion_1">Artéfact : Plates sombres du néant</string>
 	<string key="Objective_Artifact_Set1_HeavyHands" rel_version="Feature_Expansion_1">Artéfact : Gantelets magnétiques</string>
@@ -385,6 +390,9 @@
 	<string key="Objective_Artifact_Set1_Amulet2" rel_version="Feature_Expansion_1">Artéfact : Ânkh</string>
 	<string key="Objective_Kill_Dungeon_DepthBoss" rel_version="Feature_Expansion_1">Vaincre dans l'expédition des Profondeurs : {targetName}</string>
 	<string key="Objective_Kill_in_FL" rel_version="Feature_Expansion_1">Vaincre dans les contrées sauvages élyséennes des ennemis : {targetName}</string>
+	<string key="Objective_Kill_in_Edengrove" rel_version="Feature_Expansion_1">Vaincre à Bois-Éden des ennemis : {targetName}</string>
+	<string key="Objective_Kill_in_CK" rel_version="Feature_Artifacts_S6">Vaincre dans les Îles des Lames des ennemis : {targetName}</string>
+	<string key="Objective_Kill_in_Reekwater" rel_version="Feature_Expansion_1">Vaincre à Eaux-Fétides des ennemis : {targetName}</string>
 	<string key="Objective_Kill_Corvid" rel_version="Feature_Expansion_1">Vaincre dans les contrées sauvages élyséennes des ennemis corvidés</string>
 	<string key="Objective_Kill_Depths" rel_version="Feature_Expansion_1">Vaincre {targetName} dans les Profondeurs</string>
 	<string key="Objective_Kill_Genesis" rel_version="Feature_Expansion_1">Vaincre {targetName} dans le Jardin de la Genèse</string>
@@ -394,22 +402,37 @@
 	<string key="Objective_Kill_Lazarus" rel_version="Feature_Expansion_1">Vaincre {targetName} dans l'Instrument de Lazarus</string>
 	<string key="Objective_Kill_Ennead" rel_version="Feature_Expansion_1">Vaincre {targetName} dans l'Ennéade</string>
 	<string key="Objective_Kill_Starstone" rel_version="Feature_Expansion_1">Vaincre {targetName} dans les carrières de pierre d'étoile</string>
-	<string key="Objective_Kill_Empyean" rel_version="Feature_Expansion_1">Vaincre {targetName} dans la forge empyréenne</string>
+	<string key="Objective_Kill_Empyean" rel_version="Feature_Expansion_1">Vaincre dans la forge empyréenne des ennemis : {targetName}</string>
+	<string key="Objective_Kill_Named_Empyean" rel_version="Feature_Expansion_1">Vaincre {targetName} dans la forge empyréenne</string>
 	<string key="Objective_Kill_GlacialTarn" rel_version="Feature_Artifacts_Set2">Vaincre {targetName} dans le lac de glace</string>
+	<string key="Objective_Kill_SavageDivide" rel_version="Feature_Artifacts_Set2">Vaincre dans le Fossé sauvage des ennemis : {targetName}</string>
+	<string key="Objective_Kill_Sandworm" rel_version="Feature_Artifacts_Set2">Vaincre Shah Neshen dans l'épreuve du Dévoreur</string>
 	<string key="Objective_Kill_OPR" rel_version="Feature_Expansion_1">Vaincre {targetName} en Déferlante</string>
 	<string key="Objective_Kill_Arena" rel_version="Feature_Expansion_1">Vaincre {targetName} en arène</string>
 	<string key="Objective_Kill_OpenWorld" rel_version="Feature_Expansion_1">Éliminer {targetName} ennemis</string>
-	<string key="Objective_Kill_Hatchery" rel_version="Feature_Expansion_1">Vaincre Hadish Azar, le gardien de la flamme, dans l'incubateur</string>
-	<string key="Objective_Kill_Runeforge" rel_version="Feature_Expansion_1">Vaincre le gardien de glace ancien dans la forge des runes de l'hiver</string>
-	<string key="Objective_CraftArtifact" rel_version="Feature_Expansion_1">Améliorer cet objet au four à gypses</string>
+	<string key="Objective_Kill_Hatchery" rel_version="Feature_Expansion_1">Vaincre Hadish Azar, le gardien de la flamme, dans l'épreuve d'élite de l'incubateur</string>
+	<string key="Objective_Kill_Runeforge" rel_version="Feature_Expansion_1">Vaincre le gardien de glace ancien dans l'épreuve d'élite de la forge des runes de l'hiver</string>
+	<string key="Objective_Kill_in_POI" rel_version="Feature_Expansion_1">Tuer des ennemis à : {POITags}</string>
+	<string key="Objective_Kill_Forged" rel_version="Feature_Expansion_1">Vaincre des Varègues forgés</string>
+	<string key="Objective_Kill_in_CK_Raid" rel_version="Feature_Artifacts_S6">Vaincre {targetName} dans la ruche de la gorgone</string>
+	<string key="Objective_CraftArtifact" rel_version="Feature_Expansion_1">Améliorer au four à gypses</string>
+	<string key="Objective_Artifact_Set2_HeavyChest" rel_version="Feature_Artifacts_S6">Artéfact : Manteau de survivant</string>
 	<string key="Objective_Artifact_Set2_HeavyHands" rel_version="Feature_Artifacts_S5">Artéfact : Gantelets de gravité de Gilli</string>
 	<string key="Objective_Artifact_Set2_HeavyLegs" rel_version="Feature_Artifacts_S5">Artéfact : Cœur de fer</string>
 	<string key="Objective_Artifact_Set2_MediumChest" rel_version="Feature_Artifacts_S5">Artéfact : Colère de la nature</string>
+	<string key="Objective_Artifact_Set2_MediumHands" rel_version="Feature_Artifacts_S6">Artéfact : Toucher fantomatique</string>
+	<string key="Objective_Artifact_Set2_MediumLegs" rel_version="Feature_Artifacts_S6">Artéfact : Conducteurs d'Azoth</string>
+	<string key="Objective_Artifact_Set2_LightHead" rel_version="Feature_Artifacts_S6">Artéfact : Capuchon de force</string>
 	<string key="Objective_Artifact_Set2_LightFeet" rel_version="Feature_Artifacts_S5">Artéfact : Bottes de principe</string>
 	<string key="Objective_Artifact_Set2_1hThrowingAxe" rel_version="Feature_Artifacts_S5">Artéfact : Le Péché</string>
+	<string key="Objective_Artifact_Set2_2hWarhammer" rel_version="Feature_Artifacts_S6">Artéfact : Trsna</string>
 	<string key="Objective_Artifact_Set2_2hGreatAxe" rel_version="Feature_Artifacts_S5">Artéfact : Fureur de la Tempête</string>
 	<string key="Objective_Artifact_Set2_2hSpear" rel_version="Feature_Artifacts_S5">Artéfact : Venin</string>
+	<string key="Objective_Artifact_Set2_2hGreatSword" rel_version="Feature_Artifacts_S6">Artéfact : Grâce</string>
+	<string key="Objective_Artifact_Set2_1hFlail" rel_version="Feature_Artifacts_S6">Artéfact : Pierre de pouvoir</string>
+	<string key="Objective_Artifact_Set2_Ring1" rel_version="Feature_Artifacts_S6">Artéfact : Anneau élémentaire</string>
 	<string key="Objective_Artifact_Set2_Amulet1" rel_version="Feature_Artifacts_S5">Artéfact : Phénix</string>
+	<string key="99F_Enc_Liang_Objective_Title_description" rel_version="Quest_MSQ3_Ebonscale">Le prince du bief de Nerécaille est scellé dans le sanctuaire du bois, pour le bien des habitants comme pour celui de Liang lui-même.</string>
 	<string key="99F_Enc_Liang_Objective_Title_Phase0" rel_version="Quest_MSQ3_Ebonscale">Sauver le prince tourmenté</string>
 	<string key="99F_Enc_Liang_Objective_Phase0" rel_version="Quest_MSQ3_Ebonscale">S'approcher de Liang</string>
 	<string key="99F_Enc_Liang_Objective_Title_Phase1" rel_version="Quest_MSQ3_Ebonscale">Sauver le prince tourmenté</string>
@@ -419,20 +442,13 @@
 	<string key="99F_Enc_Liang_Objective_Title_Phase3" rel_version="Quest_MSQ3_Ebonscale">Sauver le prince tourmenté</string>
 	<string key="99F_Enc_Liang_Objective_Phase3" rel_version="Quest_MSQ3_Ebonscale">Appliquer 8 talismans de plus pour immobiliser Liang</string>
 	<string key="99F_Enc_Liang_Objective_Title_Phase4" rel_version="Quest_MSQ3_Ebonscale">Sauver le prince tourmenté</string>
-	<string key="99F_Enc_Liang_Objective_Phase4" rel_version="Quest_MSQ3_Ebonscale">Utiliser le bâton d'Azoth pour libérer l'âme de Liang et retourner à l'extérieur</string>
+	<string key="99F_Enc_Liang_Objective_Phase4" rel_version="Quest_MSQ3_Ebonscale">Utiliser le bâton d'Azoth pour libérer l'âme de Liang</string>
 	<string key="objective_weekly_description" speaker="UI">Quête hebdomadaire</string>
 	<string key="objective_daily_description" speaker="UI">Quête quotidienne</string>
 	<string key="objective_hourly_description" speaker="UI">Quête horaire</string>
 	<string key="objective_minutely_description" speaker="UI">Quête - minute</string>
-	<string key="Objective_Kill_in_Edengrove">Vaincre à Bois-Éden des ennemis : {targetName}</string>
-	<string key="99F_Enc_Liang_Objective_Title_description">Le prince du bief de Nerécaille est scellé dans le sanctuaire du bois, pour le bien des habitants comme pour celui de Liang lui-même.</string>
-	<string key="Objective_Kill_SavageDivide">Vaincre dans le Fossé sauvage des ennemis : {targetName}</string>
-	<string key="Objective_Kill_in_Reekwater">Vaincre à Eaux-Fétides des ennemis : {targetName}</string>
-	<string key="Objective_Kill_Sandworm">Vaincre Shah Neshen dans l'épreuve du Dévoreur</string>
-	<string key="objective_capture_fort">Prendre les forteresses ennemies</string>
-	<string key="Objective_Kill_in_POI">Tuer des ennemis à : {POITags}</string>
-	<string key="Objective_Kill_Forged">Vaincre des Varègues forgés</string>
-	<string key="objective_quest">Quête</string>
-	<string key="Objective_Kill_Named_Empyean">Vaincre {targetName} dans la forge empyréenne</string>
+	<string key="objective_cooldown_tooltip" speaker="UI">Si vous terminez cette quête, vous devrez attendre le {date} pour l'accepter à nouveau.</string>
+	<string key="objective_cooldown_availablein" speaker="UI">Disponible dans</string>
+	<string key="objective_complete_the_raid" speaker="UI">Terminer le raid</string>
 </resources>
 
