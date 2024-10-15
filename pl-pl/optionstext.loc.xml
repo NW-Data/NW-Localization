@@ -133,6 +133,10 @@
 	<string key="ui_graphics_emote_fx_description">Ustaw, czy wyświetlać efekty gestów używanych przez innych graczy</string>
 	<string key="ui_graphics_render_mode">Tryb</string>
 	<string key="ui_graphics_render_mode_description">Ustaw, czy ważniejsza jest dla ciebie wydajność, czy jakość</string>
+	<string key="ui_graphics_temporalUpScaling_type">Skalowanie rozdzielczości</string>
+	<string key="ui_graphics_temporalUpScaling_type_description">Określa, czy skalowanie rozdzielczości ma być używane</string>
+	<string key="ui_graphics_temporalUpScaling_mode">Tryb</string>
+	<string key="ui_graphics_temporalUpScaling_mode_description">Określa poziom jakości skalowania rozdzielczości</string>
 	<string key="ui_options_keybindings">Konfiguracja klawiszy</string>
 	<string key="ui_options_kbm_controls">Klawiatura i mysz</string>
 	<string key="ui_options_gameplay">Gra</string>
@@ -200,6 +204,12 @@
 	<string key="ui_options_graphics_quality">Jakość</string>
 	<string key="ui_options_graphics_resolution2K">2K</string>
 	<string key="ui_options_graphics_resolution4K">4K</string>
+	<string key="ui_options_temporalUpscaling_off">Wył.</string>
+	<string key="ui_options_temporalUpscaling_FSR">FSR</string>
+	<string key="ui_options_temporalUpscaling_quality">Jakość</string>
+	<string key="ui_options_temporalUpscaling_balanced">Równowaga</string>
+	<string key="ui_options_temporalUpscaling_performance">Wydajność</string>
+	<string key="ui_options_temporalUpscaling_ultraperformance">Wysoka wydajność</string>
 	<string key="ui_options_requires_restart">Ta zmiana ustawień zostanie zastosowana przy następnym uruchomieniu gry</string>
 	<string key="ui_options_take_exit_survey">Wypełnij ankietę</string>
 	<string key="ui_options_take_exit_survey_desc">Przy wychodzeniu z gry wypełnij krótką ankietę.</string>
@@ -505,7 +515,8 @@
 	<string key="ui_genaprompt_brightnesssettings_ps" rel_version="Feature_GameEntryNarrationAssistance">Ustawienia jasności. Naciśnij przycisk kwadrat, aby kontynuować. Naciśnij przycisk kółko, aby wrócić.</string>
 	<string key="ui_genaprompt_brightnesssettings_xb" rel_version="Feature_GameEntryNarrationAssistance">Ustawienia jasności. Naciśnij X, aby kontynuować. Naciśnij B, aby wrócić.</string>
 	<string key="ui_genaprompt_introcutscene" rel_version="Feature_GameEntryNarrationAssistance">Wprowadzenie – przerywnik filmowy. Przytrzymaj {ui_cancel}, aby pominąć.</string>
-	<string key="ui_genaprompt_introcutscene_ps" rel_version="Feature_GameEntryNarrationAssistance">Wprowadzenie – przerywnik filmowy. Przytrzymaj krzyżyk, by pominąć.</string>
+	<string key="ui_genaprompt_introcutscene_pc_controller" rel_version="Feature_GameEntryNarrationAssistance">Wprowadzenie – przerywnik filmowy. Przytrzymaj {ui_nav_select}, aby pominąć.</string>
+	<string key="ui_genaprompt_introcutscene_ps" rel_version="Feature_GameEntryNarrationAssistance">Wprowadzenie – przerywnik filmowy. Przytrzymaj krzyżyk, aby pominąć.</string>
 	<string key="ui_genaprompt_introcutscene_xb" rel_version="Feature_GameEntryNarrationAssistance">Wprowadzenie – przerywnik filmowy. Przytrzymaj A, aby pominąć.</string>
 	<string key="ui_genaprompt_archetypes" rel_version="Feature_GameEntryNarrationAssistance">Pochodzenie postaci. Naciśnij {frontEndContinue}, by kontynuować. Naciśnij {ui_cancel}, by wrócić.</string>
 	<string key="ui_genaprompt_archetypes_ps" rel_version="Feature_GameEntryNarrationAssistance">Archetypy postaci. Naciśnij przycisk kwadrat, aby kontynuować. Naciśnij przycisk kółko, aby wrócić.</string>
@@ -574,8 +585,8 @@
 	<string key="ui_options_enable_crossplay" rel_version="Feature_Crossplay">Włącz rozgrywkę międzyplatformową</string>
 	<string key="ui_options_enable_crossplay_desc" rel_version="Feature_Crossplay">To ustawienie można zmienić w menu głównym.\nJeśli ustawienia nie można zmienić, włącz najpierw rozgrywkę międzyplatformową w ustawieniach konsoli.</string>
 	<string key="ui_options_enable_crossplay_comms" rel_version="Feature_Crossplay">Komunikacja międzyplatformowa</string>
-	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Przełącz tę funkcję, by włączyć lub wyłączyć czat tekstowy i głosowy z graczami na innych platformach.</string>
-	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Ta opcja jest dostępna tylko wtedy, gdy włączono opcję komunikacji na konsoli.\nPrzełącz tę funkcję, by włączyć lub wyłączyć czat tekstowy i głosowy z graczami na innych platformach.</string>
+	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Przełącz tę funkcję, by włączyć lub wyłączyć komunikację z graczami na innych platformach. Postacie utworzone przy jednym ustawieniu nie będą dostępne po zmianie tego ustawienia. Włącz rozgrywkę międzyplatformową ponownie, aby grać tymi postaciami.</string>
+	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Ta opcja jest dostępna tylko wtedy, gdy włączono opcję komunikacji na konsoli.\nPrzełącz tę funkcję, by włączyć lub wyłączyć czat tekstowy i głosowy z graczami na innych platformach. Postacie utworzone przy jednym ustawieniu nie będą dostępne po zmianie tego ustawienia.</string>
 	<string key="ui_options_crossplay_prompt_title" rel_version="Feature_Crossplay">Rozgrywka międzyplatformowa</string>
 	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">Czy na pewno chcesz włączyć rozgrywkę międzyplatformową?\nPowrócisz do menu głównego.</string>
 	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">Czy na pewno chcesz wyłączyć rozgrywkę międzyplatformową?\nPowrócisz do menu głównego.</string>

@@ -42,6 +42,12 @@
 	<string key="mm_loginservices_badrequest">Requête au service d'identification incorrecte.</string>
 	<string key="mm_loginservices_invalidticket">Ticket de connexion fourni incorrect. Veuillez réessayer.</string>
 	<string key="mm_loginservices_noticket">Aucun ticket de connexion reçu. Veuillez réessayer.</string>
+	<string key="mm_loginservices_failed_to_create_character">Impossible d'accéder à la création d'un nouveau personnage.</string>
+	<string key="mm_loginservices_character_list_failed">Impossible d'accéder à la liste des personnages.</string>
+	<string key="mm_loginservices_world_list_failed">Impossible d'accéder à la liste des mondes.</string>
+	<string key="mm_loginservices_no_worlds">Aucun monde actif n’est disponible.</string>
+	<string key="mm_loginservices_no_worlds_unknown">Aucun monde n’est actuellement disponible.</string>
+	<string key="mm_loginservices_not_authorized">Vous avez été déconnecté. Veuillez retourner au menu principal.</string>
 	<string key="mm_loginservices_expiredticket">Ticket de connexion expiré. Veuillez réessayer.</string>
 	<string key="mm_loginservices_badticket">Ticket de connexion invalide ou périmé. Veuillez réessayer.</string>
 	<string key="mm_loginservices_discardedticket">Ticket de connexion rejeté en raison d'une nouvelle tentative de connexion.</string>
@@ -177,7 +183,7 @@
 	<string key="mm_connerr_ingame_timeout">Perte de connexion au serveur inattendue. Veuillez vérifier vos paramètres de réseau pour vous assurer que vous disposez de suffisamment de bande passante pour jouer. Reconnexion...</string>
 	<string key="mm_connerr_createcharacter_timeout">Temps d'attente de création du personnage écoulé.</string>
 	<string key="mm_connwarn_title">Avertissement de connexion au réseau</string>
-	<string key="mm_connwarn_unstable_network">Un réseau instable entraîne des pertes de paquets significatives, peut-être en raison d'une bande passante réduite. Cela impacte la jouabilité et peut entraîner des déconnexions ! Veuillez vérifier vos paramètres de réseau pour vous assurer que vous disposez de suffisamment de bande passante pour jouer.</string>
+	<string key="mm_connwarn_unstable_network">Un réseau instable entraîne des pertes de paquets, peut-être en raison d'une bande passante réduite.  Cela impacte la jouabilité et peut entraîner des déconnexions ! Veuillez vérifier vos paramètres réseau pour vous assurer que vous disposez de suffisamment de bande passante pour jouer.</string>
 	<string key="mm_rejected_Join_Match">Impossible de rejoindre le match</string>
 	<string key="mm_rejected_Pending">Serveur pas prêt : Attente du démarrage.</string>
 	<string key="mm_rejected_No_Player_Slice">Erreur de serveur : Éléments manquants sur le serveur !</string>
@@ -663,7 +669,15 @@
 	<string key="ui_character_name_will_become_latent_warning">Ce nom de personnage sera disponible à tous les joueurs dans {time}. Entrez dans un monde avec ce personnage pour conserver son nom.</string>
 	<string key="ui_character_name_is_latent">Ce nom de personnage est désormais disponible pour tous les joueurs. Entrez dans un monde avec ce personnage pour conserver son nom.</string>
 	<string key="mm_newworldlinktext">Rendez-vous sur newworld.com</string>
-	<string key="url_newworldsite" comment="once pre-orders are open, we'll need to switch to http://newworld.com/game-selection/index.html">https://newworld.com/fr/index.html</string>
+	<string key="url_newworldsite_US" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://newworld.com/en-us</string>
+	<string key="url_newworldsite_GB" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://newworld.com/en-gb</string>
+	<string key="url_newworldsite_FR" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://newworld.com/fr-fr</string>
+	<string key="url_newworldsite_IT" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://newworld.com/it-it</string>
+	<string key="url_newworldsite_ES" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://newworld.com/es-es</string>
+	<string key="url_newworldsite_DE" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://newworld.com/de-de</string>
+	<string key="url_newworldsite_PL" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://newworld.com/pl-pl</string>
+	<string key="url_newworldsite_MX" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://newworld.com/es-mx</string>
+	<string key="url_newworldsite_BR" comment="This does not need to be translated. It will be the same in all languages so that we can use the right region regardless of language set.">https://newworld.com/pt-br</string>
 	<string key="ui_tradeskill_level_arcana">Niveau d'arts obscurs</string>
 	<string key="ui_tradeskill_level_armoring">Niveau de fabrication d'armures</string>
 	<string key="ui_tradeskill_level_blacksmithing">Niveau de fabrication d'armes</string>
@@ -733,7 +747,7 @@
 	<string key="ui_scan_qr_code_help_label">Assistance de New World : Aeternum</string>
 	<string key="ui_scan_qr_code_newsletter_label">Newsletter</string>
 	<string key="ui_scan_qr_code_appeal_a_ban_label">Assistance de New World : Aeternum</string>
-	<string key="ui_scan_qr_code_news_tile">Actualités de New World : Aeternum</string>
+	<string key="ui_scan_qr_code_news_tile">New World : Actualités d'Aeternum</string>
 	<string key="ui_low_flex_mem_title">Avertissement</string>
 	<string key="ui_low_flex_mem">Mémoire du noyau faible</string>
 </resources>

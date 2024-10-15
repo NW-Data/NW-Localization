@@ -133,6 +133,10 @@
 	<string key="ui_graphics_emote_fx_description">Pour afficher les effets des émotes des autres joueurs.</string>
 	<string key="ui_graphics_render_mode">Mode</string>
 	<string key="ui_graphics_render_mode_description">Pour privilégier la performance ou la qualité.</string>
+	<string key="ui_graphics_temporalUpScaling_type">Mise à l'échelle de la résolution</string>
+	<string key="ui_graphics_temporalUpScaling_type_description">Définit l’usage de la mise à l'échelle de la résolution.</string>
+	<string key="ui_graphics_temporalUpScaling_mode">Mode</string>
+	<string key="ui_graphics_temporalUpScaling_mode_description">Définit le niveau de la mise à l’échelle de la résolution.</string>
 	<string key="ui_options_keybindings">Raccourcis clavier</string>
 	<string key="ui_options_kbm_controls">Clavier et souris</string>
 	<string key="ui_options_gameplay">Jeu</string>
@@ -200,6 +204,12 @@
 	<string key="ui_options_graphics_quality">Qualité</string>
 	<string key="ui_options_graphics_resolution2K">2K</string>
 	<string key="ui_options_graphics_resolution4K">4K</string>
+	<string key="ui_options_temporalUpscaling_off">Non</string>
+	<string key="ui_options_temporalUpscaling_FSR">FSR</string>
+	<string key="ui_options_temporalUpscaling_quality">Qualité</string>
+	<string key="ui_options_temporalUpscaling_balanced">Équilibré</string>
+	<string key="ui_options_temporalUpscaling_performance">Performance</string>
+	<string key="ui_options_temporalUpscaling_ultraperformance">Ultra performance</string>
 	<string key="ui_options_requires_restart">Ce ou ces changements s'appliqueront au prochain démarrage du jeu.</string>
 	<string key="ui_options_take_exit_survey">Répondre au sondage en partant</string>
 	<string key="ui_options_take_exit_survey_desc">Répondre à un sondage rapide afin de donner votre ressenti en quittant le jeu.</string>
@@ -505,8 +515,9 @@
 	<string key="ui_genaprompt_brightnesssettings_ps" rel_version="Feature_GameEntryNarrationAssistance">Paramètres de luminosité. Appuyez sur la touche carré pour continuer. Appuyez sur la touche cercle pour revenir en arrière.</string>
 	<string key="ui_genaprompt_brightnesssettings_xb" rel_version="Feature_GameEntryNarrationAssistance">Paramètres de luminosité. Appuyez sur X pour continuer. Appuyez sur B pour revenir en arrière.</string>
 	<string key="ui_genaprompt_introcutscene" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Maintenir {ui_cancel} pour passer.</string>
-	<string key="ui_genaprompt_introcutscene_ps" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Appuyez sur la touche croix pour passer.</string>
-	<string key="ui_genaprompt_introcutscene_xb" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Appuyez sur A pour passer.</string>
+	<string key="ui_genaprompt_introcutscene_pc_controller" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Hold {ui_nav_select}, to skip.</string>
+	<string key="ui_genaprompt_introcutscene_ps" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Hold Cross, to skip.</string>
+	<string key="ui_genaprompt_introcutscene_xb" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Hold A, to skip.</string>
 	<string key="ui_genaprompt_archetypes" rel_version="Feature_GameEntryNarrationAssistance">Passé du personnage. Appuyez sur {frontEndContinue} pour continuer. Appuyez sur {ui_cancel} pour revenir en arrière.</string>
 	<string key="ui_genaprompt_archetypes_ps" rel_version="Feature_GameEntryNarrationAssistance">Archétypes du personnage. Appuyez sur la touche carré pour continuer. Appuyez sur la touche cercle pour revenir en arrière.</string>
 	<string key="ui_genaprompt_archetypes_xb" rel_version="Feature_GameEntryNarrationAssistance">Archétypes du personnage. Appuyez sur X pour continuer. Appuyez sur B pour revenir en arrière.</string>
@@ -574,8 +585,8 @@
 	<string key="ui_options_enable_crossplay" rel_version="Feature_Crossplay">Activer le jeu multiplateforme</string>
 	<string key="ui_options_enable_crossplay_desc" rel_version="Feature_Crossplay">Ce paramètre peut être modifié dans le menu principal.\nS'il n'est pas possible de le modifier, activez d'abord le mode multiplateforme dans les paramètres de votre console.</string>
 	<string key="ui_options_enable_crossplay_comms" rel_version="Feature_Crossplay">Communication multiplateforme</string>
-	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Cette option permet d'activer ou de désactiver le chat textuel et vocal avec les joueurs des autres plateformes.</string>
-	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Elle n'est accessible que si la communication est activée sur votre console.\nCette option permet d'activer ou de désactiver le chat textuel et vocal avec les joueurs des autres plateformes.</string>
+	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Cette option permet d'activer ou de désactiver la communication avec les joueurs des autres plateformes. Les personnages créés pour un décor ne seront pas disponibles si le décor change. Activez le mode multiplateforme pour jouer avec ces personnages.</string>
+	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Elle n'est accessible que si la communication est activée sur votre console.\nCette option permet d'activer ou de désactiver le chat textuel et vocal avec les joueurs des autres plateformes. Les personnages créés pour un décor ne seront pas disponibles si le décor change.</string>
 	<string key="ui_options_crossplay_prompt_title" rel_version="Feature_Crossplay">Multiplateforme</string>
 	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">Voulez-vous vraiment activer le mode multiplateforme ?\nCette action vous redirigera vers le menu principal.</string>
 	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">Voulez-vous vraiment désactiver le mode multiplateforme ?\nCette action vous redirigera vers le menu principal.</string>

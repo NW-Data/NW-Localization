@@ -133,6 +133,10 @@
 	<string key="ui_graphics_emote_fx_description">Muestra los efectos de los gestos de otros jugadores.</string>
 	<string key="ui_graphics_render_mode">Modo</string>
 	<string key="ui_graphics_render_mode_description">Favorece el rendimiento o la calidad.</string>
+	<string key="ui_graphics_temporalUpScaling_type">Escalado de resolución</string>
+	<string key="ui_graphics_temporalUpScaling_type_description">Elige si quieres usar el escalado de resolución.</string>
+	<string key="ui_graphics_temporalUpScaling_mode">Modo</string>
+	<string key="ui_graphics_temporalUpScaling_mode_description">Configura el nivel de calidad del escalado de resolución.</string>
 	<string key="ui_options_keybindings">Asignaciones de teclas</string>
 	<string key="ui_options_kbm_controls">Ratón y teclado</string>
 	<string key="ui_options_gameplay">Partida</string>
@@ -200,6 +204,12 @@
 	<string key="ui_options_graphics_quality">Calidad</string>
 	<string key="ui_options_graphics_resolution2K">2K</string>
 	<string key="ui_options_graphics_resolution4K">4K</string>
+	<string key="ui_options_temporalUpscaling_off">Desactivado</string>
+	<string key="ui_options_temporalUpscaling_FSR">FSR</string>
+	<string key="ui_options_temporalUpscaling_quality">Calidad</string>
+	<string key="ui_options_temporalUpscaling_balanced">Equilibrado</string>
+	<string key="ui_options_temporalUpscaling_performance">Rendimiento</string>
+	<string key="ui_options_temporalUpscaling_ultraperformance">Ultra rendimiento</string>
 	<string key="ui_options_requires_restart">Los cambios se aplicarán la próxima vez que se inicie el juego.</string>
 	<string key="ui_options_take_exit_survey">Hacer encuesta al salir</string>
 	<string key="ui_options_take_exit_survey_desc">Responde a una encuesta breve para compartir tu opinión cuando salgas del juego.</string>
@@ -505,6 +515,7 @@
 	<string key="ui_genaprompt_brightnesssettings_ps" rel_version="Feature_GameEntryNarrationAssistance">Ajustes de brillo. Pulsa Cuadrado para continuar. Pulsa Círculo para retroceder.</string>
 	<string key="ui_genaprompt_brightnesssettings_xb" rel_version="Feature_GameEntryNarrationAssistance">Ajustes de brillo. Pulsa X para continuar. Pulsa B para retroceder.</string>
 	<string key="ui_genaprompt_introcutscene" rel_version="Feature_GameEntryNarrationAssistance">Escena cinemática de introducción. Mantén pulsado {ui_cancel} para omitir.</string>
+	<string key="ui_genaprompt_introcutscene_pc_controller" rel_version="Feature_GameEntryNarrationAssistance">Escena cinemática de introducción. Mantén pulsado {ui_nav_select} para omitir.</string>
 	<string key="ui_genaprompt_introcutscene_ps" rel_version="Feature_GameEntryNarrationAssistance">Escena cinemática de introducción. Mantén pulsado X para omitir.</string>
 	<string key="ui_genaprompt_introcutscene_xb" rel_version="Feature_GameEntryNarrationAssistance">Escena cinemática de introducción. Mantén pulsado A para omitir.</string>
 	<string key="ui_genaprompt_archetypes" rel_version="Feature_GameEntryNarrationAssistance">Origen del personaje Pulsa {frontEndContinue} para continuar. Pulsa {ui_cancel} para retroceder.</string>
@@ -574,8 +585,8 @@
 	<string key="ui_options_enable_crossplay" rel_version="Feature_Crossplay">Activa el juego multiplataforma.</string>
 	<string key="ui_options_enable_crossplay_desc" rel_version="Feature_Crossplay">Este ajuste se puede cambiar en el menú principal.\n Si no puedes cambiarlo, activa el juego multiplataforma en tu consola.</string>
 	<string key="ui_options_enable_crossplay_comms" rel_version="Feature_Crossplay">Comunicación multiplataforma</string>
-	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Activa o desactiva el chat de texto y voz con jugadores de otras plataformas.</string>
-	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Solo se puede acceder a esta opción si la comunicación está activada en los ajustes de la consola.\n Activa o desactiva el chat de texto y voz con jugadores de otras plataformas.</string>
+	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Activa o desactiva esta función para permitir o no la comunicación con jugadores de otras plataformas. Los personajes creados en una configuración no estarán disponibles si esta se modifica. Activa o desactiva la función multiplataforma para jugar con estos personajes.</string>
+	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Solo se puede acceder a esta opción si la comunicación está activada en los ajustes de la consola.\n Activa o desactiva el chat de texto y voz con jugadores de otras plataformas. Los personajes creados en una configuración no estarán disponibles si esta se modifica.</string>
 	<string key="ui_options_crossplay_prompt_title" rel_version="Feature_Crossplay">Multiplataforma</string>
 	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">¿Seguro que quieres activar el juego multiplataforma?\n Regresarás al menú principal.</string>
 	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">¿Seguro que quieres desactivar el juego multiplataforma?\n Regresarás al menú principal.</string>

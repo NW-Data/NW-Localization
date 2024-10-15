@@ -133,6 +133,10 @@
 	<string key="ui_graphics_emote_fx_description">Define se deseja exibir os efeitos dos gestos de outros jogadores.</string>
 	<string key="ui_graphics_render_mode">Modo</string>
 	<string key="ui_graphics_render_mode_description">Define se deseja favorecer o desempenho ou a qualidade.</string>
+	<string key="ui_graphics_temporalUpScaling_type">Escala de resolução</string>
+	<string key="ui_graphics_temporalUpScaling_type_description">Define se deseja usar escala de resolução</string>
+	<string key="ui_graphics_temporalUpScaling_mode">Modo</string>
+	<string key="ui_graphics_temporalUpScaling_mode_description">Define o nível de qualidade da escala de resolução</string>
 	<string key="ui_options_keybindings">Teclas de Atalho</string>
 	<string key="ui_options_kbm_controls">Teclado e Mouse</string>
 	<string key="ui_options_gameplay">Jogo</string>
@@ -200,6 +204,12 @@
 	<string key="ui_options_graphics_quality">Qualidade</string>
 	<string key="ui_options_graphics_resolution2K">2K</string>
 	<string key="ui_options_graphics_resolution4K">4K</string>
+	<string key="ui_options_temporalUpscaling_off">Desativada</string>
+	<string key="ui_options_temporalUpscaling_FSR">FSR</string>
+	<string key="ui_options_temporalUpscaling_quality">Qualidade</string>
+	<string key="ui_options_temporalUpscaling_balanced">Equilibrada</string>
+	<string key="ui_options_temporalUpscaling_performance">Performance</string>
+	<string key="ui_options_temporalUpscaling_ultraperformance">Performance Ultra</string>
 	<string key="ui_options_requires_restart">Essa alteração das configurações entrará em vigor na próxima vez em que o jogo for iniciado</string>
 	<string key="ui_options_take_exit_survey">Realizar a Pesquisa ao Sair</string>
 	<string key="ui_options_take_exit_survey_desc">Realize uma breve pesquisa para oferecer feedback ao sair do jogo.</string>
@@ -426,11 +436,11 @@
 	<string key="ui_toggle_target_lock">Alternar Alvo Travado</string>
 	<string key="ui_ally_target_lock_modifier" rel_version="Feature_Controller">Modificador de Alvo Travado Aliado</string>
 	<string key="ui_enable_camera_target_lock" rel_version="Feature_Controller">Alvo Travado Inimigo</string>
-	<string key="ui_enable_camera_target_lock_desc" rel_version="Feature_Controller">Define se deseja habilitar o sistema de mira em inimigos</string>
+	<string key="ui_enable_camera_target_lock_desc" rel_version="Feature_Controller">Define se deseja habilitar o sistema de mira em inimigos.</string>
 	<string key="ui_camera_lock_target_switch_interpolation_speed" rel_version="Feature_Controller">Velocidade de Interpolação da Troca de Alvo</string>
 	<string key="ui_camera_lock_target_switch_interpolation_speed_desc" rel_version="Feature_Controller">Defina a velocidade com que a câmera se move para um alvo diferente.</string>
 	<string key="ui_enable_camera_lock_target_auto_switch" rel_version="Feature_Controller">Troca Automática de Alvos</string>
-	<string key="ui_enable_camera_lock_target_auto_switch_desc" rel_version="Feature_Controller">Define se deseja mudar automaticamente para o próximo alvo após o primeiro alvo ser eliminado (só muda se o novo alvo estiver mirando em você)</string>
+	<string key="ui_enable_camera_lock_target_auto_switch_desc" rel_version="Feature_Controller">Define se deseja mudar automaticamente para o próximo alvo após o primeiro alvo ser eliminado (só muda se o novo alvo estiver mirando em você).</string>
 	<string key="ui_enable_camera_lock_auto_break_with_hold" rel_version="Feature_Controller">Desativar Automaticamente o Alvo Travado ao Segurar</string>
 	<string key="ui_enable_camera_lock_auto_break_with_hold_desc" rel_version="Feature_Controller">Defina se deseja desativar automaticamente o alvo travado após segurar o comando por certo tempo.</string>
 	<string key="ui_camera_lock_auto_break_with_hold_ticks" rel_version="Feature_Controller">Duração de Desativar Automaticamente o Alvo Travado ao Segurar</string>
@@ -505,6 +515,7 @@
 	<string key="ui_genaprompt_brightnesssettings_ps" rel_version="Feature_GameEntryNarrationAssistance">Configurações de Brilho. Pressione Quadrado para continuar. Pressione Círculo para voltar.</string>
 	<string key="ui_genaprompt_brightnesssettings_xb" rel_version="Feature_GameEntryNarrationAssistance">Configurações de Brilho. Pressione X para continuar. Pressione B para voltar.</string>
 	<string key="ui_genaprompt_introcutscene" rel_version="Feature_GameEntryNarrationAssistance">Cena de Introdução. Mantenha {ui_cancel} pressionado para pular.</string>
+	<string key="ui_genaprompt_introcutscene_pc_controller" rel_version="Feature_GameEntryNarrationAssistance">Cena de Introdução. Mantenha {ui_nav_select} pressionado para pular.</string>
 	<string key="ui_genaprompt_introcutscene_ps" rel_version="Feature_GameEntryNarrationAssistance">Cena de Introdução. Mantenha o botão X pressionado para pular.</string>
 	<string key="ui_genaprompt_introcutscene_xb" rel_version="Feature_GameEntryNarrationAssistance">Cena de Introdução. Mantenha o botão A pressionado para pular.</string>
 	<string key="ui_genaprompt_archetypes" rel_version="Feature_GameEntryNarrationAssistance">História do personagem. Pressione {frontEndContinue} para continuar. Pressione {ui_cancel} para voltar.</string>
@@ -574,8 +585,8 @@
 	<string key="ui_options_enable_crossplay" rel_version="Feature_Crossplay">Habilitar Jogabilidade Multiplataforma</string>
 	<string key="ui_options_enable_crossplay_desc" rel_version="Feature_Crossplay">Esta opção pode ser alterada no Menu Principal.\nSe não for possível alterar a configuração, primeiro ative a Jogabilidade Cruzada por meio da configuração do console.</string>
 	<string key="ui_options_enable_crossplay_comms" rel_version="Feature_Crossplay">Comunicação Multiplataforma</string>
-	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Alterne esse recurso para ativar ou desativar o chat por texto e voz com jogadores em outras plataformas.</string>
-	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Essa opção só pode ser acessada quando as comunicações estão ativadas no console.\nAlterne esse recurso para ativar ou desativar o chat por texto e voz com jogadores em outras plataformas.</string>
+	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Alterne esse recurso para ativar ou desativar a comunicação com jogadores em outras plataformas. Personagens criados sob uma configuração ficarão indisponíveis quando a configuração for mudada. Alterne novamente a Jogabilidade Cruzada para jogar com esses personagens.</string>
+	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Essa opção só pode ser acessada quando as comunicações estão ativadas no console.\nAlterne esse recurso para ativar ou desativar o chat por texto e voz com jogadores em outras plataformas. Personagens criados sob uma configuração ficarão indisponíveis quando a configuração for mudada.</string>
 	<string key="ui_options_crossplay_prompt_title" rel_version="Feature_Crossplay">Jogabilidade Cruzada</string>
 	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">Tem certeza de que deseja ativar a jogabilidade cruzada?\nIsso fará com que você retorne ao Menu Principal.</string>
 	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">Tem certeza de que deseja desativar a jogabilidade cruzada?\nIsso fará com que você retorne ao Menu Principal.</string>
