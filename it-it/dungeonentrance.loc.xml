@@ -9,14 +9,17 @@
 	<string key="ui_open_dungeon_menu_seasontrial" rel_version="Season_2_Perm">Apri</string>
 	<string key="join_group_in_dungeon">Entra</string>
 	<string key="join_group_in_dungeon_solo">Entra</string>
+	<string key="join_group_in_dungeon_dailysolotrial" rel_version="DailySoloTrials">Entra</string>
 	<string key="join_group_in_dungeon_raidtrial">Entra</string>
 	<string key="join_group_in_dungeon_seasontrial" rel_version="Season_2_Perm">Entra</string>
 	<string key="ui_dungeon_leave">Abbandona</string>
 	<string key="ui_dungeon_leave_solo">Abbandona</string>
 	<string key="ui_dungeon_leave_raidtrial">Abbandona</string>
 	<string key="ui_dungeon_leave_seasontrial" rel_version="Season_2_Perm">Abbandona</string>
+	<string key="ui_dungeon_leave_dailysolotrial" rel_version="DailySoloTrials">Abbandona</string>
 	<string key="ui_dungeon_screen_header">Spedizione</string>
 	<string key="ui_dungeon_screen_header_solo">Prova dell'anima</string>
+	<string key="ui_dungeon_screen_header_dailysolotrial" rel_version="DailySoloTrials">Prova dell'anima giornaliera</string>
 	<string key="ui_dungeon_screen_header_raidtrial">Prova élite</string>
 	<string key="ui_dungeon_screen_header_seasontrial" rel_version="Season_2_Perm">Prova stagionale</string>
 	<string key="ui_dungeon_screen_subheader_localgroup">Gruppo locale</string>
@@ -25,7 +28,8 @@
 	<string key="ui_dungeon_requirements_groupsize">Numero minimo giocatori: {players}</string>
 	<string key="ui_dungeon_requirements_groupsize_range">Numero minimo giocatori: {minPlayers} - {maxPlayers} giocatori (attualmente: {currentPlayers})</string>
 	<string key="ui_dungeon_requirements_groupsize_single">Numero massimo di giocatori: 1</string>
-	<string key="ui_dungeon_requirements_gearscore">Consigliato: &lt;img src="LyShineUI/Images/icons/misc/icon_level_simple" scale="1.5" yOffset="2.5"&gt;&lt;/img&gt; {level}</string>
+	<string key="ui_dungeon_requirements_level_recommended">Livello consigliato: {level}</string>
+	<string key="ui_dungeon_requirements_level_required">Livello richiesto: {level}</string>
 	<string key="ui_dungeon_requirements_matchmaking_gearscore" rel_version="Feature_Group_Finder">{gearscore}+</string>
 	<string key="ui_dungeon_requirements_matchmaking_level" rel_version="Feature_Group_Finder">{level}</string>
 	<string key="ui_dungeon_requirements_level_plus">{level}+</string>
@@ -36,6 +40,7 @@
 	<string key="ui_flyout_recommended_groupsize">Giocatori consigliati: {players}</string>
 	<string key="ui_dungeon_requirements_equipment_warning">Il tuo gruppo deve avere almeno: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_solo">Devi avere almeno: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
+	<string key="ui_dungeon_requirements_equipment_warning_dailysolotrial" rel_version="DailySoloTrials">Devi avere almeno: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_raidtrial">Devi avere almeno: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_requirements_equipment_warning_seasontrial" rel_version="Season_2_Perm">Devi avere almeno: &lt;font color="#ebe3d6"&gt;{item}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_reward_level">La qualità complessiva del bottino aumenta con l'aumentare del livello di difficoltà.\n\nGli oggetti che trovi possono variare rispetto a quelli elencati in base al punteggio attrezzatura.</string>
@@ -46,26 +51,32 @@
 	<string key="ui_dungeon_estimated_time_remaining">Tempo di attesa previsto:</string>
 	<string key="ui_dungeon_activate">Entra con gruppo</string>
 	<string key="ui_dungeon_activate_solo">Entra</string>
+	<string key="ui_dungeon_activate_dailysolotrial" rel_version="DailySoloTrials">Entra</string>
 	<string key="ui_dungeon_activate_raidtrial">Entra</string>
 	<string key="ui_dungeon_activate_seasontrial" rel_version="Season_2_Perm">Entra</string>
 	<string key="ui_dungeon_leave_group">Abbandona gruppo</string>
 	<string key="ui_dungeon_leave_group_sufficient_members">Se lasci il gruppo, non sarai più in coda.\nVuoi procedere?</string>
 	<string key="ui_dungeon_group_in_queue">In attesa della Spedizione...</string>
 	<string key="ui_dungeon_group_in_queue_solo">In attesa della Prova dell'anima...</string>
+	<string key="ui_dungeon_group_in_queue_dailysolotrial" rel_version="DailySoloTrials">In attesa della Prova dell'anima giornaliera...</string>
 	<string key="ui_dungeon_group_in_queue_raidtrial">In attesa della Prova élite</string>
 	<string key="ui_dungeon_group_in_queue_seasontrial" rel_version="Season_2_Perm">In attesa della Prova stagionale...</string>
 	<string key="ui_dungeon_group_proximity">Membro del gruppo troppo lontano</string>
 	<string key="ui_dungeon_group_already_in_queue_dungeon">Il tuo gruppo è già in coda per un'altra Spedizione. Crea un nuovo gruppo per aprire questa Spedizione.</string>
 	<string key="ui_dungeon_group_already_in_queue_dungeon_solo">Il tuo gruppo è già in coda per un'altra Spedizione. Crea un nuovo gruppo per aprire questa Prova.</string>
+	<string key="ui_dungeon_group_already_in_queue_dungeon_dailysolotrial" rel_version="DailySoloTrials">Il tuo gruppo è già in coda per un'altra Spedizione. Crea un nuovo gruppo per aprire questa Prova.</string>
 	<string key="ui_dungeon_group_already_in_queue_dungeon_raidtrial">Il tuo gruppo è già in coda per un'altra Spedizione. Crea un nuovo gruppo per aprire questa Prova élite.</string>
 	<string key="ui_dungeon_group_already_in_queue_dungeon_seasontrial" rel_version="Season_2_Perm">Il tuo gruppo è già in coda per un'altra Spedizione. Crea un nuovo gruppo per aprire questa Prova stagionale.</string>
 	<string key="ui_dungeon_group_in_active_dungeon">Il tuo gruppo ha già una Spedizione o una Prova attiva. Tutti i membri del gruppo devono uscire dall'istanza attiva per aprire questa Spedizione.</string>
 	<string key="ui_dungeon_group_in_active_dungeon_solo">Il tuo gruppo ha già una Spedizione o una Prova attiva. Tutti i membri del gruppo devono uscire dall'istanza attiva per aprire questa Prova dell'anima.</string>
+	<string key="ui_dungeon_group_in_active_dungeon_dailysolotrial" rel_version="DailySoloTrials">Il tuo gruppo ha già una Spedizione o una Prova attiva. Tutti i membri del gruppo devono uscire dall'istanza attiva per aprire questa Prova dell'anima giornaliera.</string>
 	<string key="ui_dungeon_group_in_active_dungeon_raidtrial">Il tuo gruppo ha già una Spedizione o una Prova attiva. Tutti i membri del gruppo devono uscire dall'istanza attiva per aprire questa Prova élite.</string>
 	<string key="ui_dungeon_group_in_active_dungeon_seasontrial" rel_version="Season_2_Perm">Il tuo gruppo ha già una Spedizione o una Prova attiva. Tutti i membri del gruppo devono uscire dall'istanza attiva per aprire questa Prova stagionale.</string>
 	<string key="ui_dungeon_group_dead">Il membro del gruppo è morto.</string>
+	<string key="ui_dungeon_activity_entering">Accesso...</string>
 	<string key="ui_dungeon_activating">Accesso alla Spedizione...</string>
 	<string key="ui_dungeon_activating_solo">Accesso alla Prova dell'anima...</string>
+	<string key="ui_dungeon_activating_dailysolotrial" rel_version="DailySoloTrials">Accesso alla Prova dell'anima giornaliera...</string>
 	<string key="ui_dungeon_activating_raidtrial">Accesso alla Prova élite...</string>
 	<string key="ui_dungeon_activating_seasontrial" rel_version="Season_2_Perm">Accesso alla Prova stagionale...</string>
 	<string key="ui_dungeon_not_enough_members">Membri del gruppo insufficienti.</string>
@@ -92,6 +103,7 @@
 	<string key="ui_dungeon_disabled_seasontrial" rel_version="Season_2_Perm">Al momento questa Prova stagionale è disattivata.</string>
 	<string key="ui_dungeon_activate_failure">Impossibile avviare la Spedizione.</string>
 	<string key="ui_dungeon_activate_failure_solo">Impossibile avviare la Prova dell'anima.</string>
+	<string key="ui_dungeon_activate_failure_dailysolotrial" rel_version="DailySoloTrials">Impossibile avviare la Prova dell'anima giornaliera.</string>
 	<string key="ui_dungeon_activate_failure_raidtrial">Impossibile avviare la Prova élite.</string>
 	<string key="ui_dungeon_activate_failure_seasontrial" rel_version="Season_2_Perm">Impossibile avviare la Prova stagionale.</string>
 	<string key="ui_dungeon_not_ready">Spedizione non pronta.</string>
@@ -99,18 +111,22 @@
 	<string key="ui_dungeon_opened_title_solo">Prova dell'anima avviata</string>
 	<string key="ui_dungeon_opened_title_raidtrial">Prova élite avviata</string>
 	<string key="ui_dungeon_opened_title_seasontrial" rel_version="Season_2_Perm">Prova stagionale avviata</string>
+	<string key="ui_dungeon_opened_title_dailysolotrial" rel_version="DailySoloTrials">Prova dell'anima giornaliera avviata</string>
 	<string key="ui_dungeon_removed_from_queue">Non sei più nella coda di accesso alla Spedizione.</string>
 	<string key="ui_dungeon_removed_from_queue_solo">Non sei più nella coda di accesso alla Prova dell'anima.</string>
 	<string key="ui_dungeon_removed_from_queue_raidtrial">Non sei più nella coda di accesso alla Prova élite.</string>
 	<string key="ui_dungeon_removed_from_queue_seasontrial" rel_version="Season_2_Perm">Non sei più nella coda di accesso alla Prova stagionale.</string>
+	<string key="ui_dungeon_removed_from_queue_dailysolotrial" rel_version="DailySoloTrials">Non sei più nella coda di accesso alla Prova dell'anima giornaliera.</string>
 	<string key="ui_dungeon_entry_expired">Ingresso alla Spedizione scaduto</string>
 	<string key="ui_dungeon_entry_expired_solo">Ingresso alla Prova dell'anima scaduto</string>
 	<string key="ui_dungeon_entry_expired_raidtrial">Ingresso alla Prova élite scaduto</string>
 	<string key="ui_dungeon_entry_expired_seasontrial" rel_version="Season_2_Perm">Ingresso alla Prova stagionale scaduto</string>
+	<string key="ui_dungeon_entry_expired_dailysolotrial" rel_version="DailySoloTrials">Ingresso alla Prova dell'anima giornaliera scaduto</string>
 	<string key="ui_dungeon_closed">Spedizione chiusa</string>
 	<string key="ui_dungeon_closed_solo">Prova dell'anima chiusa</string>
 	<string key="ui_dungeon_closed_raidtrial">Prova élite chiusa</string>
 	<string key="ui_dungeon_closed_seasontrial" rel_version="Season_2_Perm">Prova stagionale chiusa</string>
+	<string key="ui_dungeon_closed_dailysolotrial" rel_version="DailySoloTrials">Prova dell'anima giornaliera chiusa</string>
 	<string key="ui_dungeon_required_item">{quantity} {item} (costo di partecipazione)</string>
 	<string key="ui_dungeon_required_item_started">{item}</string>
 	<string key="ui_dungeon_required_item_tooltip">Richiesto: {quantity} {item}</string>
@@ -127,9 +143,9 @@
 	<string key="dungeon_teleport_title">Preparati al teletrasporto</string>
 	<string key="dungeon_teleport_desc">Il tuo gruppo verrà teletrasportato nella Spedizione.</string>
 	<string key="dungeon_enter">Entra</string>
-	<string key="dungeon_enter_solo">Invio</string>
-	<string key="dungeon_enter_raidtrial">Invio</string>
-	<string key="dungeon_enter_seasontrial" rel_version="Season_2_Perm">Invio</string>
+	<string key="dungeon_enter_solo">Entra</string>
+	<string key="dungeon_enter_raidtrial">Entra</string>
+	<string key="dungeon_enter_seasontrial" rel_version="Season_2_Perm">Entra</string>
 	<string key="dungeon_flyout">Spedizione</string>
 	<string key="dungeon_success">Missione completata</string>
 	<string key="dungeon_fail">Missione fallita</string>
@@ -138,8 +154,9 @@
 	<string key="dungeon_completed_solo">Prova dell'anima completata</string>
 	<string key="dungeon_completed_raidtrial">Prova élite completata</string>
 	<string key="dungeon_completed_seasontrial" rel_version="Season_2_Perm">Prova stagionale completata</string>
+	<string key="dungeon_completed_dailysolotrial" rel_version="DailySoloTrials">Prova dell'anima giornaliera completata</string>
 	<string key="ui_dungeon_find_group" rel_version="Feature_Group_Finder">Visualizza lobby</string>
-	<string key="ui_dungeon_local_group_tooltip">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Gruppo locale&lt;/font&gt;\n\nDai un'occhiata alle lobby per unirti a un gruppo o per invitare amici e membri delle compagnie ad affrontare le sfide che Aeternum ha da offrire.\n\nI gruppi locali non supportano il matchmaking tra mondi diversi.</string>
+	<string key="ui_dungeon_local_group_tooltip">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Gruppo locale&lt;/font&gt;\n\nDai un'occhiata alle lobby per unirti a un gruppo o per invitare amici e membri delle compagnie a formarne uno.\n\nI gruppi locali non supportano il matchmaking tra mondi diversi.</string>
 	<string key="ui_dungeon_matchmaking_tooltip" rel_version="Feature_PUG_Finder">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Matchmaking&lt;/font&gt;\n\nAccedi alla nostra coda tra mondi per giocare insieme ad altri utenti della tua area geografica. Se necessario, i gruppi vengono completati automaticamente.\n\nPer poter accedere ai contenuti, tutti i giocatori DEVONO soddisfare i requisiti previsti.</string>
 	<string key="ui_dungeon_manage_group" rel_version="Feature_Group_Finder">Gestisci la mia lobby</string>
 	<string key="ui_dungeon_view_group" rel_version="Feature_Group_Finder">Visualizza la mia lobby</string>
@@ -148,13 +165,16 @@
 	<string key="ui_dungeon_enter_pvpwarning_info_solo">Entrando nella Prova dell'anima &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abbandonerai tutte le missioni PvP&lt;/font&gt;. Continuare?</string>
 	<string key="ui_dungeon_enter_pvpwarning_info_raidtrial">Entrando in una Prova élite &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abbandonerai tutte le missioni PvP&lt;/font&gt;. Continuare?</string>
 	<string key="ui_dungeon_enter_pvpwarning_info_seasontrial" rel_version="Season_2_Perm">Entrando in una Prova stagionale &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abbandonerai tutte le missioni PvP&lt;/font&gt;. Continuare?</string>
+	<string key="ui_dungeon_enter_pvpwarning_info_dailysolotrial" rel_version="DailySoloTrials">Entrando in una Prova dell'anima giornaliera &lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;abbandonerai tutte le missioni PvP&lt;/font&gt;. Continuare?</string>
 	<string key="ui_dungeon_full_header">Al momento la Spedizione è al completo. Unisciti alla coda per avviare la spedizione.</string>
 	<string key="ui_dungeon_full_header_solo">Al momento la Prova dell'anima è al completo. Unisciti alla coda per avviare la Prova dell'anima.</string>
+	<string key="ui_dungeon_full_header_dailysolotrial" rel_version="DailySoloTrials">Al momento la Prova dell'anima giornaliera è al completo. Unisciti alla coda per avviare la Prova dell'anima giornaliera.</string>
 	<string key="ui_dungeon_full_header_raidtrial">Al momento la Prova élite è al completo. Unisciti alla coda per avviare la Prova élite.</string>
 	<string key="ui_dungeon_full_header_seasontrial" rel_version="Season_2_Perm">Al momento la Prova stagionale è al completo. Unisciti alla coda per avviare la Prova stagionale.</string>
 	<string key="ui_dungeon_player_average_gear_score">&lt;font color="#c3b79f"&gt;Punteggio attrezzatura medio: &lt;/font&gt; &lt;font color="#ebe3d6"&gt;{gearscore}&lt;/font&gt;</string>
 	<string key="ui_dungeon_queued_blocked">Entra</string>
 	<string key="ui_dungeon_queued_blocked_solo">Entra</string>
+	<string key="ui_dungeon_queued_blocked_dailysolotrial" rel_version="DailySoloTrials">Entra</string>
 	<string key="ui_dungeon_queued_blocked_raidtrial">Entra</string>
 	<string key="ui_dungeon_queued_blocked_seasontrial" rel_version="Season_2_Perm">Entra</string>
 	<string key="ui_dungeon_outpost_rush">Sei già in una coda per la Carica all'avamposto.</string>
@@ -162,9 +182,11 @@
 	<string key="ui_dungeon_expiring_solo">Esci tra</string>
 	<string key="ui_dungeon_expiring_raidtrial">Esci tra</string>
 	<string key="ui_dungeon_expiring_seasontrial" rel_version="Season_2_Perm">Esci tra</string>
-	<string key="ui_dungeon_cooldown">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{timeRemaining}&lt;/font&gt;</string>
+	<string key="ui_dungeon_expiring_dailysolotrial" rel_version="DailySoloTrials">Esci tra</string>
+	<string key="ui_dungeon_cooldown">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{timeRemaining}&lt;/font&gt;</string>
 	<string key="ui_dungeon_cooldown_flyout">Puoi avviare questa Spedizione tra {timeRemaining}</string>
 	<string key="ui_dungeon_cooldown_flyout_solo">Puoi avviare questa Prova dell'anima tra {timeRemaining}</string>
+	<string key="ui_dungeon_cooldown_flyout_dailysolotrial" rel_version="DailySoloTrials">Puoi avviare questa Prova dell'anima giornaliera tra {timeRemaining}</string>
 	<string key="ui_dungeon_cooldown_flyout_raidtrial">Puoi avviare questa Prova élite tra {timeRemaining}</string>
 	<string key="ui_dungeon_cooldown_flyout_seasontrial" rel_version="Season_2_Perm">Puoi avviare questa Prova stagionale tra {timeRemaining}</string>
 	<string key="ui_dungeon_map_flyout_button">Visualizza Spedizione</string>
@@ -176,6 +198,8 @@
 	<string key="ui_dungeon_remaining_tooltip_seasontrial" rel_version="Season_2_Perm">Puoi partecipare a un massimo di {amount} Prove stagionali al giorno.</string>
 	<string key="ui_dungeon_mutation_remaining_label" rel_version="Feature_Dungeon_Mutators">Spedizioni mutate rimaste</string>
 	<string key="ui_dungeon_mutation_remaining_tooltip" rel_version="Feature_Dungeon_Mutators">Puoi partecipare a un massimo di {amount} spedizioni mutate a settimana.</string>
+	<string key="ui_dungeon_dailysolotrial_remaining_label" rel_version="DailySoloTrials">Sessione giornaliera rimasta</string>
+	<string key="ui_dungeon_dailysolotrial_remaining_tooltip" rel_version="DailySoloTrials">Puoi completare questa Prova dell'anima giornaliera {amount} volta al giorno.</string>
 	<string key="ui_dungeon_mutation_flyout_tooltip" rel_version="Feature_Dungeon_Mutators">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutazione settimanale&lt;/font&gt;\nMutazioni elementali, promozioni e maledizioni vengono selezionate casualmente ogni settimana per le Spedizioni mutate.\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Mutazione&lt;/font&gt;\nAffronta le mutazioni elementali\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Promozione&lt;/font&gt;\nPromozioni élite per i nemici\n\n&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Bold.font"&gt;Maledizioni&lt;/font&gt;\nEffetti in tutta la Spedizione</string>
 	<string key="ui_dungeon_mutation_elemental" rel_version="Feature_Dungeon_Mutators">Mutazione</string>
 	<string key="ui_dungeon_mutation_promotion" rel_version="Feature_Dungeon_Mutators">Promozione</string>
@@ -193,17 +217,17 @@
 	<string key="ui_dungeon_mutator_difficulty_desc_1" rel_version="Feature_Dungeon_Mutators">M1</string>
 	<string key="ui_dungeon_mutator_difficulty_desc_2" rel_version="Feature_Dungeon_Mutators">M2</string>
 	<string key="ui_dungeon_mutator_difficulty_desc_3" rel_version="Feature_Dungeon_Mutators">M3</string>
-	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M1&lt;/font&gt; (Intermedio)</string>
-	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M2&lt;/font&gt; (Difficile)</string>
-	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M3&lt;/font&gt; (Élite)</string>
-	<string key="ui_dungeon_mutator_difficulty_3_M1_M2_Only_NoM3MM" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M3&lt;/font&gt; (Elite) Solo gruppi locali</string>
-	<string key="ui_dungeon_mutator_difficulty_4" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M4&lt;/font&gt; (Intermedio)</string>
-	<string key="ui_dungeon_mutator_difficulty_5" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M5&lt;/font&gt; (Intermedio)</string>
-	<string key="ui_dungeon_mutator_difficulty_6" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M6&lt;/font&gt; (Difficile)</string>
-	<string key="ui_dungeon_mutator_difficulty_7" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M7&lt;/font&gt; (Difficile)</string>
-	<string key="ui_dungeon_mutator_difficulty_8" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M8&lt;/font&gt; (Difficile)</string>
-	<string key="ui_dungeon_mutator_difficulty_9" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M9&lt;/font&gt; (Élite)</string>
-	<string key="ui_dungeon_mutator_difficulty_10" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;M10&lt;/font&gt; (Élite)</string>
+	<string key="ui_dungeon_mutator_difficulty_1" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M1&lt;/font&gt; (Intermedio)</string>
+	<string key="ui_dungeon_mutator_difficulty_2" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M2&lt;/font&gt; (Difficile)</string>
+	<string key="ui_dungeon_mutator_difficulty_3" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M3&lt;/font&gt; (Élite)</string>
+	<string key="ui_dungeon_mutator_difficulty_3_M1_M2_Only_NoM3MM" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M3&lt;/font&gt; (Elite) Solo gruppi locali</string>
+	<string key="ui_dungeon_mutator_difficulty_4" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M4&lt;/font&gt; (Intermedio)</string>
+	<string key="ui_dungeon_mutator_difficulty_5" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M5&lt;/font&gt; (Intermedio)</string>
+	<string key="ui_dungeon_mutator_difficulty_6" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M6&lt;/font&gt; (Difficile)</string>
+	<string key="ui_dungeon_mutator_difficulty_7" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M7&lt;/font&gt; (Difficile)</string>
+	<string key="ui_dungeon_mutator_difficulty_8" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M8&lt;/font&gt; (Difficile)</string>
+	<string key="ui_dungeon_mutator_difficulty_9" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M9&lt;/font&gt; (Élite)</string>
+	<string key="ui_dungeon_mutator_difficulty_10" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;M10&lt;/font&gt; (Élite)</string>
 	<string key="ui_dungeon_mutator_string" rel_version="Feature_Dungeon_Mutators">Mutazione settimanale</string>
 	<string key="ui_dungeon_mutator_multiplier_description" rel_version="Feature_Dungeon_Mutators">Moltiplica il &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;punteggio totale&lt;/font&gt; per il &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;numero di requisiti&lt;/font&gt; che risultano soddisfatti qui sotto.</string>
 	<string key="ui_dungeon_mutator_clear_time" rel_version="Feature_Dungeon_Mutators">Tempo di completamento:</string>
@@ -252,7 +276,7 @@
 	<string key="ui_dungeon_mutator_difficulty_header_none" rel_version="Feature_Dungeon_Mutators">Normale</string>
 	<string key="ui_dungeon_mutator_difficulty_header_mutated" rel_version="Feature_Dungeon_Mutators">Mutato</string>
 	<string key="ui_dungeon_mutator_difficulty_plain" rel_version="Feature_Dungeon_Mutators">Difficoltà&lt;/font&gt;</string>
-	<string key="ui_dungeon_mutator_appended_difficulty" rel_version="Feature_Dungeon_Mutators">Difficoltà &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{difficulty}&lt;/font&gt;</string>
+	<string key="ui_dungeon_mutator_appended_difficulty" rel_version="Feature_Dungeon_Mutators">Difficoltà &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{difficulty}&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_appended_difficulty_bold" rel_version="Feature_Dungeon_Mutators">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;Difficoltà {difficulty}&lt;/font&gt;</string>
 	<string key="ui_dungeon_next_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Per sbloccare il &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;prossimo livello di difficoltà&lt;/font&gt;, devi completare questa Spedizione con il grado &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;{rank}&lt;/font&gt;.</string>
 	<string key="ui_dungeon_mutator_unlock_requirement" rel_version="Feature_Dungeon_Mutators">Per sbloccare il &lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;prossimo livello di difficoltà&lt;/font&gt;, devi completare questa Spedizione.</string>
@@ -268,9 +292,9 @@
 	<string key="ui_dungeon_mutator_level_not_met" rel_version="Feature_Dungeon_Mutators">Non soddisfi il requisito di livello per questa Spedizione.</string>
 	<string key="Mut_Disease_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano afflizione da malattia cumulabile quando colpiscono, riducendo le cure ricevute di un {[-0.025000 * -100]}% per accumulo.</string>
 	<string key="Mut_Disease_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano afflizione da malattia cumulabile quando colpiscono, riducendo le cure ricevute di un {[-0.025000 * -100]}/{[-0.050000 * -100]}% per accumulo.</string>
-	<string key="Mut_RotatingBeam_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici emettono raggi taglienti che infliggono un {[-0.300000 * -100]}% di danni da Vuoto di base al tocco.</string>
-	<string key="Mut_StaminaDamage_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici rinunciano a un {[-0.250000 * -100]}% di danni all'energia ridotti nelle spedizioni.\nI nemici infliggono un {[0.400000 * 100]}% di danni all'energia aggiuntivi.\nInoltre, quando spezzano la tua guardia applicano Sanguinamento, infliggendo danni pari a un {[-0.050000 * -100]}% della salute di base a ogni ticchettio.</string>
-	<string key="Mut_StaminaDamage_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici rinunciano a un {[-0.250000 * -100]}% di danni all'energia ridotti nelle spedizioni.\nI nemici infliggono un {[0.400000 * 100]}/{[0.750000 * 100]}% di danni all'energia aggiuntivi.\nInoltre, quando spezzano la tua guardia applicano Sanguinamento, infliggendo danni pari a un {[-0.050000 * -100]}/{[-0.080000 * -100]}% della salute di base a ogni ticchettio.</string>
+	<string key="Mut_RotatingBeam_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici emettono raggi taglienti che infliggono un {[-0.3 * -100]}% di danni da Vuoto di base al tocco.</string>
+	<string key="Mut_StaminaDamage_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici rinunciano a un {[-0.250000 * -100]}% di danni all'energia ridotti nelle spedizioni.\nI nemici infliggono un {[0.400000 * 100]}% di danni all'energia aggiuntivi.\nInoltre, quando spezzano la tua guardia applicano Sanguinamento, infliggendo danni pari a un {[-0.05 * -100]}% della salute di base a ogni ticchettio.</string>
+	<string key="Mut_StaminaDamage_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici rinunciano a un {[-0.250000 * -100]}% di danni all'energia ridotti nelle spedizioni.\nI nemici infliggono un {[0.400000 * 100]}/{[0.750000 * 100]}% di danni all'energia aggiuntivi.\nInoltre, quando spezzano la tua guardia applicano Sanguinamento, infliggendo danni pari a un {[-0.05 * -100]}/{[-0.08 * -100]}% della salute di base a ogni ticchettio.</string>
 	<string key="Mut_Enrage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici generano Furia quando vengono colpiti. Quando raggiungono {[20.000000]} accumuli di Furia diventano Infuriati, infliggendo un {[0.500000 * 100]}% di danni aggiuntivi e diventando un {[0.150000 * 100]}% più grandi.</string>
 	<string key="Mut_ManaThorns_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici assorbono {[-10.000000* -1]} mana quando vengono colpiti.</string>
 	<string key="Mut_ManaThorns_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici assorbono {[-10.000000* -1]}/{[-20.000000* -1]} mana quando vengono colpiti.</string>
@@ -281,10 +305,10 @@
 	<string key="Mut_Fir_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici infliggono un {[0.500000 * 100]}% dei danni totali come danni da fuoco.</string>
 	<string key="Mut_Fir_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici dispongono di un {[0.500000 * 100]}% di assorbimento del fuoco.</string>
 	<string key="Mut_Fir_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici dispongono di un {[0.500000 * 100]}/{[0.750000 * 100]}% di assorbimento del fuoco.</string>
-	<string key="Mut_Fir_Burn_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Bruciatura quando colpiscono, infliggendo un {[-0.040000 * -100]}% di danni da fuoco di base nel tempo.</string>
-	<string key="Mut_Fir_Burn_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Bruciatura quando colpiscono, infliggendo un {[-0.040000 * -100]}/{[-0.080000 * -100]}% di danni da fuoco di base nel tempo.</string>
-	<string key="Mut_Fir_AOE_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici attivano un'area di Bruciatura attorno ai giocatori che attaccano, infliggendo un {[-0.200000 * -100]}% di danni da fuoco di base nel tempo.</string>
-	<string key="Mut_Fir_AOE_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici attivano un'area di Bruciatura attorno ai giocatori che attaccano, infliggendo un {[-0.400000 * -100]}% di danni da fuoco di base nel tempo.</string>
+	<string key="Mut_Fir_Burn_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Bruciatura quando colpiscono, infliggendo un {[-0.04 * -100]}% di danni da fuoco di base nel tempo.</string>
+	<string key="Mut_Fir_Burn_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Bruciatura quando colpiscono, infliggendo un {[-0.04 * -100]}/{[-0.08 * -100]}% di danni da fuoco di base nel tempo.</string>
+	<string key="Mut_Fir_AOE_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici attivano un'area di Bruciatura attorno ai giocatori che attaccano, infliggendo un {[-0.2 * -100]}% di danni da fuoco di base nel tempo.</string>
+	<string key="Mut_Fir_AOE_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici attivano un'area di Bruciatura attorno ai giocatori che attaccano, infliggendo un {[-0.4 * -100]}% di danni da fuoco di base nel tempo.</string>
 	<string key="Mut_Fir_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici esplodono quando muoiono, infliggendo un {[0.700000 * 100]}% di danni da fuoco di base in una piccola area.</string>
 	<string key="Mut_Ice_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">I nemici infliggono un {[0.500000 * 100]}% dei danni totali come danni da ghiaccio.</string>
 	<string key="Mut_Ice_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt3">I nemici dispongono di un {[0.500000 * 100]}% di assorbimento del ghiaccio.</string>
@@ -300,18 +324,18 @@
 	<string key="Mut_Nat_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici infliggono un {[0.500000 * 100]}% dei danni totali come danni da natura.</string>
 	<string key="Mut_Nat_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici dispongono di un {[0.500000 * 100]}% di assorbimento della natura.</string>
 	<string key="Mut_Nat_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici dispongono di un {[0.500000 * 100]}/{[0.750000 * 100]}% di assorbimento della natura.</string>
-	<string key="Mut_Nat_Thorns_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici infliggono un {[-0.200000 * -100]}% di danni di base da natura quando vengono colpiti.</string>
-	<string key="Mut_Nat_Thorns_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici infliggono un {[-0.200000 * -100]}/{[-0.400000 * -100]}% di danni di base da natura quando vengono colpiti.</string>
-	<string key="Mut_Nat_Pools_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici generano periodicamente zone velenose che infliggono un {[-0.050000 * 100]}% di danni di base da natura nel tempo.</string>
-	<string key="Mut_Nat_Pools_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici generano periodicamente zone velenose che infliggono un {[-0.050000 * 100]}/{[-0.100000 * 100]}% di danni di base da natura nel tempo.</string>
-	<string key="Mut_Nat_Crawler_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici generano periodicamente un'entità velenosa che infligge un {[-0.200000 * -100]}% di danni di base da natura nel tempo e si aggancia a un obiettivo lontano. Una volta raggiunto il giocatore bersaglio, lancia un Radicamento ad area.</string>
-	<string key="Mut_Nat_Crawler_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici generano periodicamente un'entità velenosa che infligge un {[-0.200000 * -100]}/{[-0.400000 * -100]}% di danni di base da natura nel tempo e si aggancia a un obiettivo lontano. Una volta raggiunto il giocatore bersaglio, lancia un Radicamento ad area.</string>
-	<string key="Mut_Nat_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Quando muoiono, i nemici attivano un'area che cura i nemici al suo interno di un {[0.030000 * 100]}% di salute al secondo.</string>
+	<string key="Mut_Nat_Thorns_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici infliggono un {[-0.2 * -100]}% di danni di base da natura quando vengono colpiti.</string>
+	<string key="Mut_Nat_Thorns_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici infliggono un {[-0.2 * -100]}/{[-0.4 * -100]}% di danni di base da natura quando vengono colpiti.</string>
+	<string key="Mut_Nat_Pools_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici generano periodicamente zone velenose che infliggono un {[-0.05 * 100]}% di danni di base da natura nel tempo.</string>
+	<string key="Mut_Nat_Pools_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici generano periodicamente zone velenose che infliggono un {[-0.05 * 100]}/{[-0.1 * 100]}% di danni di base da natura nel tempo.</string>
+	<string key="Mut_Nat_Crawler_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici generano periodicamente un'entità velenosa che infligge un {[-0.2 * -100]}% di danni di base da natura nel tempo e si aggancia a un obiettivo lontano. Una volta raggiunto il giocatore bersaglio, lancia un Radicamento ad area.</string>
+	<string key="Mut_Nat_Crawler_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">I nemici generano periodicamente un'entità velenosa che infligge un {[-0.2 * -100]}/{[-0.4 * -100]}% di danni di base da natura nel tempo e si aggancia a un obiettivo lontano. Una volta raggiunto il giocatore bersaglio, lancia un Radicamento ad area.</string>
+	<string key="Mut_Nat_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators_pt2">Quando muoiono, i nemici attivano un'area che cura i nemici al suo interno di un {[0.03 * 100]}% di salute al secondo.</string>
 	<string key="Mut_Voi_Damage_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici infliggono un {[0.500000 * 100]}% dei danni totali come danni da Vuoto.</string>
 	<string key="Mut_Voi_Resist_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici dispongono di un {[0.500000 * 100]}% di assorbimento del Vuoto.</string>
 	<string key="Mut_Voi_Resist_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici dispongono di un {[0.500000 * 100]}/{[0.750000 * 100]}% di assorbimento del Vuoto.</string>
-	<string key="Mut_Voi_Leech_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Risucchiavita quando colpiscono, infliggendo un {[-0.200000 * -100]}% di danni da Vuoto di base e curando i nemici di un {[0.900000 * 100]}% dei danni inflitti nel tempo.</string>
-	<string key="Mut_Voi_Leech_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Risucchiavita quando colpiscono, infliggendo un {[-0.200000 * -100]}/{[-0.300000 * -100]}% di danni da Vuoto di base e curando i nemici di un {[0.900000 * 100]}/{[1.200000 * 100]}% dei danni inflitti nel tempo.</string>
+	<string key="Mut_Voi_Leech_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Risucchiavita quando colpiscono, infliggendo un {[-0.2 * -100]}% di danni da Vuoto di base e curando i nemici di un {[0.900000 * 100]}% dei danni inflitti nel tempo.</string>
+	<string key="Mut_Voi_Leech_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano Risucchiavita quando colpiscono, infliggendo un {[-0.2 * -100]}/{[-0.3 * -100]}% di danni da Vuoto di base e curando i nemici di un {[0.900000 * 100]}/{[1.200000 * 100]}% dei danni inflitti nel tempo.</string>
 	<string key="Mut_Voi_Stacks_1_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano accumuli di Paranoia quando vengono colpiti. Dopo {[4.000000]} accumuli, fa apparire una scarica di Vuoto nella tua posizione che infligge un {[0.400000 * 100]}% dei danni da Vuoto di base in una piccola area.</string>
 	<string key="Mut_Voi_Stacks_2_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">I nemici applicano accumuli di Paranoia quando vengono colpiti. Dopo {[4.000000]}/{[4.000000]} accumuli, fa apparire una scarica di Vuoto nella tua posizione che infligge un {[0.400000 * 100]}/{[0.700000 * 100]}% dei danni da Vuoto di base in una piccola area.</string>
 	<string key="Mut_Voi_Death_Buff_Tooltip" rel_version="Feature_Dungeon_Mutators">Quando muoiono, i nemici lanciano un incantesimo che conferisce un potenziamento del Vuoto agli altri nemici in zona, aumentandone i danni da Vuoto di un {[0.500000 * 100]}%.</string>
@@ -373,6 +397,7 @@
 	<string key="ui_dungeon_mutator_max_warning_raidtrial" rel_version="Feature_Dungeon_Mutators">Hai raggiunto il limite settimanale di partecipazioni alle Prove élite mutate. &lt;font color="#ebe3d6"&gt;({amount} a settimana)&lt;/font&gt;</string>
 	<string key="ui_dungeon_mutator_max_warning_seasontrial" rel_version="Season_2_Perm">Hai raggiunto il limite settimanale di partecipazioni alle Prove stagionali mutate. &lt;font color="#ebe3d6"&gt;({amount} a settimana)&lt;/font&gt;</string>
 	<string key="ui_dungeon_max_warning">Hai raggiunto il limite giornaliero di partecipazioni alle spedizioni normali. &lt;font color="#ebe3d6"&gt;({amount} al giorno)&lt;/font&gt;</string>
+	<string key="ui_dungeon_max_warning_dailysolotrial" rel_version="DailySoloTrials">Hai raggiunto il limite giornaliero di partecipazioni alle Prove dell'anima giornaliere. &lt;font color="#ebe3d6"&gt;({amount} al giorno)&lt;/font&gt;</string>
 	<string key="ui_dungeon_max_warning_raidtrial">Hai raggiunto il limite giornaliero di partecipazioni alle Prove élite normali. &lt;font color="#ebe3d6"&gt;({amount} al giorno)&lt;/font&gt;</string>
 	<string key="ui_dungeon_max_warning_seasontrial" rel_version="Season_2_Perm">Hai raggiunto il limite giornaliero di partecipazioni alle Prove stagionali normali. &lt;font color="#ebe3d6"&gt;({amount} al giorno)&lt;/font&gt;</string>
 	<string key="ui_dungeon_limit_refresh_enter">Partecipazione possibile: {date}</string>

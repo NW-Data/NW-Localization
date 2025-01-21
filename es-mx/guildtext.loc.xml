@@ -107,12 +107,12 @@
 	<string key="ui_guildsiegetab">Período de asedio</string>
 	<string key="ui_guildtreasurytab">Tesoro</string>
 	<string key="ui_guildtreasurytab_balance">{balance} {coinImage}</string>
-	<string key="ui_treasury_totalbalance">Equilibrio</string>
+	<string key="ui_treasury_totalbalance">Saldo</string>
 	<string key="ui_treasury_dailywithdrawallimit">Límite de extracción diario</string>
 	<string key="ui_treasury_dailywithdrawallimitsmall">Límite de extracción diario:</string>
 	<string key="ui_treasury_availablewithdrawallimit">Límite de extracción disponible</string>
 	<string key="ui_treasury_deposit">Depósito</string>
-	<string key="ui_treasury_withdraw">Retirarse</string>
+	<string key="ui_treasury_withdraw">Retirar</string>
 	<string key="ui_treasury_withdrawal">Extracción</string>
 	<string key="ui_treasury_changedailywithdrawallimit">Cambiar límite</string>
 	<string key="ui_treasury_recenttransactions">Transacciones recientes (en breve)</string>
@@ -130,10 +130,10 @@
 	<string key="ui_treasury_tooltip_withdrawal_nopermissons">No tienes permiso para hacer una extracción.</string>
 	<string key="ui_treasury_tooltip_withdrawal_overlimit">Alcanzaste el límite diario.</string>
 	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">No tienes permiso para cambiar el límite de extracción diario.</string>
-	<string key="ui_treasury_notification_depositsuccess">Se depositó &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} en el tesoro de la compañía.</string>
+	<string key="ui_treasury_notification_depositsuccess">Se depositó &lt;font color={colorHex} face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; {coinImage} en el tesoro de la compañía.</string>
 	<string key="ui_treasury_notification_depositcappedtreasurymax">No se pudo hacer el depósito en el tesoro (límite máximo del tesoro excedido).</string>
 	<string key="ui_treasury_notification_depositcappedplayerfunds">No se pudo hacer el depósito en el tesoro (fondos personales insuficientes).</string>
-	<string key="ui_treasury_notification_withdrawalsuccess">Se extrajo &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} del tesoro de la compañía.</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">Se extrajo &lt;font color={colorHex} face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; {coinImage} del tesoro de la compañía.</string>
 	<string key="ui_treasury_notification_withdrawalcappedfunds"> No se pudo hacer la extracción del tesoro (fondos del tesoro insuficientes).</string>
 	<string key="ui_treasury_notification_withdrawalcappeddailylimit">No se pudo hacer la extracción del tesoro (límite diario excedido).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">El límite de extracción diario se fijó en &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
@@ -232,6 +232,7 @@
 	<string key="ui_governorexpire_deleted_THEY">El gobernador de tu compañía se ha retirado o ha borrado su personaje. Un miembro con el rango de «cónsul» puede convertirse en gobernador.</string>
 	<string key="ui_governorseat_vacant">El puesto de gobernador está vacante.</string>
 	<string key="ui_governorseat_overthrowable">Los cónsules pueden derrocar el puesto de gobernador.</string>
+	<string key="ui_no_governor">No gobernador</string>
 	<string key="ui_becomegovernor">Conviértete en gobernador</string>
 	<string key="ui_becomegovernor_SHE">Conviértete en gobernadora</string>
 	<string key="ui_becomegovernor_THEY">Conviértete en gobernador</string>
@@ -250,7 +251,7 @@
 	<string key="ui_permission_move_structures">{allowed} mover estructuras de la compañía</string>
 	<string key="ui_permission_officer_chat_listen">{allowed} ver el chat del cónsul</string>
 	<string key="ui_permission_officer_chat_speak">{allowed} hablar en el chat del cónsul</string>
-	<string key="ui_permission_promote">{allowed} promover miembros hasta un rango inferior al rango actual.</string>
+	<string key="ui_permission_promote">{allowed} promover miembros hasta un rango inferior al rango actual</string>
 	<string key="ui_permission_seal_structures">{allowed} sellar puertas y contenedores de la compañía</string>
 	<string key="ui_permission_set_waywords">{allowed} definir palabras de forma</string>
 	<string key="ui_permission_setmotd" comment="MOTD stands for Message of the Day">{allowed} definir el mensaje del día</string>
@@ -268,6 +269,7 @@
 	<string key="ui_permission_war_raid_manage">{allowed} administrar grupos del ejército y registros</string>
 	<string key="ui_permission_build_defensive_structures">{allowed} construir y reemplazar en el fuerte de una compañía</string>
 	<string key="ui_playeralreadyinguildmessage">{playerName} ya es miembro de tu compañía.</string>
+	<string key="ui_companyinviteeblockedmessage">No puedes enviar invitaciones a jugadores bloqueados.</string>
 	<string key="ui_playerguild">Compañía de {LocalPlayerName}</string>
 	<string key="ui_promote">Promover</string>
 	<string key="ui_promote_transfer_owner">Transferir propiedad</string>
@@ -329,11 +331,11 @@
 	<string key="ui_wardeclarationpopup_title">Declaración de guerra</string>
 	<string key="ui_wardeclarationpopup_target">vs. {guildName}</string>
 	<string key="ui_wardeclarationpopup_message">Durante una guerra, la compañía atacante intenta conquistar el fuerte de la compañía defensora durante el periodo de asedio parar apoderarse de su territorio.</string>
-	<string key="ui_wardeclarationpopup_declarebutton">¡Declarar guerra! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_declarebutton">¡Declarar guerra! {coinImage} {cost}</string>
 	<string key="ui_wardeclarationpopup_mywallet" comment="When presented to the user, the name for currency is always Coin">Dinero</string>
 	<string key="ui_wardeclarationpopup_extendtitle">Contraatacar</string>
 	<string key="ui_wardeclarationpopup_extendmessage" comment="This will have a time below it for how long the war will last after the extension">¿Confirmas que deseas contraatacar a {guildName}?\nAmbas compañías podrán atacarse entre sí sin ser marcadas como criminales durante:</string>
-	<string key="ui_wardeclarationpopup_extendbutton">¡Contraataca! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_extendbutton">¡Contraatacar! {coinImage} {cost}</string>
 	<string key="ui_wardeclarationpopup_nopermission">\nTu rango ({rank}) no tiene permitido declarar la guerra ni contraatacar.</string>
 	<string key="ui_wardeclarationpopup_permission">\nLos permisos de tu compañía te permiten declaran la guerra y contraatacar.</string>
 	<string key="ui_wardeclarationpopup_noterritorytext">Tu compañía no tiene territorio para acabar la guerra.</string>
@@ -369,7 +371,7 @@
 	<string key="ui_wardeclaration_unsuccessful_notification_text">Se seleccionó la declaración de guerra de otra compañía. Tu dinero se reembolsó en la billetera de la compañía.</string>
 	<string key="ui_wardeclaration_successful_notification_title">Declaración de guerra aceptada</string>
 	<string key="ui_wardeclaration_successful_notification_text">Tu guerra inminente está programada. Dirígete al tablero de guerras del territorio para registrarte y administrar tu ejército.</string>
-	<string key="ui_territory_upkeep_due">¡Las tarifas de territorio de la compañía vencieron para {name}!</string>
+	<string key="ui_territory_upkeep_due">Mantenimiento pendiente para {name}</string>
 	<string key="ui_warframe_range_prewar">Preguerra</string>
 	<string key="ui_warframe_range_currentwar">Guerra actual</string>
 	<string key="ui_warframe_range_war">Guerra</string>
@@ -457,6 +459,7 @@
 	<string key="ui_trade_failure_no_withdrawal">No tienes permiso para retirar de esta estructura</string>
 	<string key="ui_trade_failure_no_deposit">No tienes permiso para depositar en esta estructura</string>
 	<string key="ui_trade_failure_not_enough_space">El objeto no se puede transferir a causa de las restricciones de objetos únicos y peso máximos.</string>
+	<string key="ui_trade_failure_not_in_ffa_state">El objeto no se puede transferir porque el jugador no está en el estado de todos contra todos.</string>
 	<string key="ui_trade_failure_global_storage_not_enough_currency">No tienes fondos suficientes para abonar el costo de retirada de objetos almacenados de forma remota.</string>
 	<string key="ui_trade_failure_global_storage_wrong_faction">La retirada requiere que ambos territorios estén en tu facción y estén al día con el mantenimiento.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Solo puedes depositar objetos en el almacén en tu ubicación actual.</string>
@@ -640,7 +643,7 @@
 	<string key="ui_signup_warinprogress_tooltip">No puedes registrarte a guerra o invasión que ya están en progreso.</string>
 	<string key="ui_signup_not_available">Registro no disponible</string>
 	<string key="ui_signup_level_requirement">&lt;font color="#ff7171"&gt;Se requiere un jugador de nivel {level}&lt;/font&gt; para el registro.</string>
-	<string key="ui_signup_count">&lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; Jugador(es) registrado(s)</string>
+	<string key="ui_signup_count">&lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; Jugador(es) registrado(s)</string>
 	<string key="ui_signup_instruction_title_1">Espera</string>
 	<string key="ui_signup_instruction_title_2">Conéctate</string>
 	<string key="ui_signup_instruction_title_3">En espera</string>
@@ -677,7 +680,7 @@
 	<string key="ui_war_schedule_adjustment_message">{warType} en {territoryName} se {scheduleAdjustmentType}.</string>
 	<string key="ui_war_schedule_adjustment_cancelled">canceló</string>
 	<string key="ui_war_schedule_adjustment_rescheduled">reprogramó</string>
-	<string key="ui_war_camp_tier">Nivel &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_tier">Nivel &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{value}&lt;/font&gt;</string>
 	<string key="ui_war_camp_weapons_tier">Nivel de arma de asedio</string>
 </resources>
 

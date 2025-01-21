@@ -38,8 +38,13 @@
 	<string key="ui_chat_name_trading_upper">COMERCIAR</string>
 	<string rel_version="Feature_Cross_World_Social" key="ui_chat_name_game_mode_match">Emparejar</string>
 	<string rel_version="Feature_Cross_World_Social" key="ui_chat_name_game_mode_match_upper">EMPAREJAR</string>
+	<string key="ui_chat_settings">Configuración de chat</string>
+	<string key="ui_chat_expand">Expandir</string>
+	<string key="ui_chat_collapse">Contraer</string>
 	<string key="ui_chat_to">PARA</string>
+	<string key="ui_chat_to_player">para {playerName}</string>
 	<string key="ui_chat_from">de</string>
+	<string key="ui_chat_no_group">No estás en un grupo.</string>
 	<string key="ui_chat_filter_global">Mostrar chat global</string>
 	<string key="ui_chat_voiceChat">Chat de voz</string>
 	<string key="ui_chat_GameMasterTag">Director de juego</string>
@@ -132,7 +137,7 @@
 	<string key="ui_p2ptrading_initiate_trade">Intercambio</string>
 	<string key="ui_p2ptrading_trade_notification_sent">Invitación de intercambio enviada</string>
 	<string key="ui_p2ptrading_invite_notification_title">Solicitud de intercambio</string>
-	<string key="ui_p2ptrading_invite_notification_text">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a realizar un intercambio.\n¿Quieres aceptar la invitación?</string>
+	<string key="ui_p2ptrading_invite_notification_text">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; te invitó a comerciar.</string>
 	<string key="ui_p2ptrading_failmessage_invalidname">{playerName} no es un nombre de jugador válido.</string>
 	<string key="ui_p2ptrading_failmessage_system_error">Falló la invitación de intercambio.</string>
 	<string key="ui_p2ptrading_failmessage_eligibility_failed">Ya no cumples los requisitos para aceptar esta invitación de intercambio.</string>
@@ -180,7 +185,7 @@
 	<string key="ui_p2ptrading_failmessage_atmaxcurrency">Uno o más jugadores excederán el límite de monedas.</string>
 	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_level">Tienes que llegar al nivel {level} para intercambiar objetos.</string>
 	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_probation">Tienes que tener una cuenta con una antigüedad de más de {time} para intercambiar objetos.</string>
-	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_free">Compra New World para intercambiar objetos.</string>
+	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_free">Compra New World: Aeternum para intercambiar objetos.</string>
 	<string key="ui_p2ptrading_failmessage_dont_meet_requirements_generic">No puedes intercambiar objetos.</string>
 	<string key="ui_p2ptrading_failmessage_tradeblockedcrossworld" rel_version="Feature_Cross_World_Social">Ambos participantes deben estar en su mundo de origen para realizar intercambios.</string>
 	<string key="ui_p2ptrading_failmessage_playersnotfromsameworld" rel_version="Feature_Cross_World_Social">Solo puedes realizar intercambios con jugadores de tu propio mundo.</string>
@@ -238,6 +243,8 @@
 	<string key="ui_noOnline_guild_body">Puedes buscar a un jugador por su nombre de jugador.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_noOnline_raid_header">No tienes amigos en línea para invitar a la incursión.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_noOnline_raid_body">Puedes buscar a un jugador por su nombre de jugador.</string>
+	<string key="ui_reporter_make_good_title">¡Gracias por enviar la denuncia!</string>
+	<string key="ui_reporter_make_good_body">Se tomaron medidas respecto del jugador o los jugadores que denunciaste recientemente. Gracias por contribuir a que New World: Aeternum siga siendo un juego limpio y justo.</string>
 	<string key="ui_report_player">Denunciar jugador</string>
 	<string key="ui_report">Denunciar</string>
 	<string key="ui_reply">Responder</string>
@@ -357,11 +364,27 @@
 	<string key="ui_notification_pvp_flagged">Marcado para PvP.</string>
 	<string key="ui_notification_pvp_disabled">La marca de PvP está desactivada.</string>
 	<string key="ui_notification_pvp_countdown">Tiempo de protección de PvP iniciado.</string>
-	<string key="ui_notification_pvp_flagging_title">Activando PvP.</string>
+	<string key="ui_notification_pvp_flagging_title">Activando para PvP</string>
 	<string key="ui_notification_pvp_flagging_message">Mientras estés marcado para PvP, podrás atacar a otros jugadores marcados para PvP, pero otros jugadores marcados pueden hacerte lo mismo a ti. Recibes un &lt;font color="#edc63e"&gt;10 % de EXP de bonificación&lt;/font&gt; cuando esté activado. \n\nCuando salgas del santuario, dispondrás de &lt;font color="#edc63e"&gt;30 segundos de protección&lt;/font&gt;.</string>
-	<string key="ui_notification_pvp_track_flagging_message">Mientras estés marcado para PvP, puedes atacar y ser atacado por otros jugadores marcados para PvP. &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Las muertes que provoques pueden darte sal de azoth y EXP de PvP.&lt;/font&gt; \nTambién recibes las siguientes bonificaciones: &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;+10 % de EXP, +3 % de suerte de la recolección y +1 % de suerte global&lt;/font&gt; al abrir cofres grandes y de élite. \n\nAl salir del santuario, tendrás &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;30 segundos de protección&lt;/font&gt;.</string>
+	<string key="ui_notification_pvp_track_flagging_message">Mientras estés marcado para PvP, puedes atacar y ser atacado por otros jugadores marcados para PvP. &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Las muertes que provoques pueden darte sal de azoth y EXP de PvP.&lt;/font&gt; \nTambién recibes las siguientes bonificaciones: &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;+10 % de EXP, +3 % de suerte de la recolección y +1 % de suerte global&lt;/font&gt; al abrir cofres grandes y de élite. \n\nCuando salgas del santuario, dispondrás de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{duration} de protección&lt;/font&gt;.</string>
 	<string key="ui_notification_pvp_checkpoint_unlocked">Punto de control desbloqueado</string>
 	<string key="ui_notification_pvp_reward_options">Ver opciones de recompensas</string>
+	<string key="ui_notification_ffa_flagging_message" rel_version="Territory_CutlassKeys_Rework">Al marcarte para todos contra todos, puedes atacar a todos los jugadores que también lo estén. \n\nCuando salgas de la zona todos contra todos, los &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;doblones y recursos malditos&lt;/font&gt; que tengas serán purificados.</string>
+	<string key="ui_notification_ffa_flagged" rel_version="Territory_CutlassKeys_Rework">Marcado para todos contra todos.</string>
+	<string key="ui_notification_ffa_flagged_left_group" rel_version="Territory_CutlassKeys_Rework">Marcado para todos contra todos: Salió del grupo</string>
+	<string key="ui_notification_ffa_flagged_left_raid" rel_version="Territory_CutlassKeys_Rework">Marcado para todos contra todos: Salió de la incursión</string>
+	<string key="ui_notification_ffa_flagged_left_queue" rel_version="Territory_CutlassKeys_Rework">Marcado para todos contra todos: Salió de la cola</string>
+	<string key="ui_notification_ffa_disabled" rel_version="Territory_CutlassKeys_Rework">Todos contra todos deshabilitado.</string>
+	<string key="ui_notification_ffa_leave_group_title" rel_version="Territory_CutlassKeys_Rework">Entrando a todos contra todos</string>
+	<string key="ui_notification_ffa_leave_group_text" rel_version="Territory_CutlassKeys_Rework">Saldrás de todos los grupos, incursiones o colas en las que estés</string>
+	<string key="ui_notification_ffa_dispersal_warning" rel_version="Territory_CutlassKeys_Rework">Demasiados jugadores cerca</string>
+	<string key="ui_notification_ffa_dispersal_notification" rel_version="Territory_CutlassKeys_Rework">Demasiada gente, teletransportándose</string>
+	<string key="ui_notification_ffa_dispersal_title" rel_version="Territory_CutlassKeys_Rework">Teletransportándose</string>
+	<string key="ui_notification_ffa_dispersal_desc" rel_version="Territory_CutlassKeys_Rework">Apartarse de otros jugadores</string>
+	<string key="ui_notification_ffa_exit_title" rel_version="Territory_CutlassKeys_Rework">Purificando maldición</string>
+	<string key="ui_notification_ffa_exit" rel_version="Territory_CutlassKeys_Rework">Deshabilitando todos contra todos y purificando los objetos malditos en tu inventario</string>
+	<string key="ui_notification_ffa_items_converted_title" rel_version="Territory_CutlassKeys_Rework">Purificación completada</string>
+	<string key="ui_notification_ffa_items_converted" rel_version="Territory_CutlassKeys_Rework">Se purificaron todos los objetos malditos de tu inventario.</string>
 	<string key="ui_pvp_rank_name_0">Reclutar</string>
 	<string key="ui_pvp_rank_name_1">Acero</string>
 	<string key="ui_pvp_rank_name_2">Bronce</string>
@@ -434,6 +457,7 @@
 	<string key="ui_request_unfriend_failed">No se pudo eliminar la amistad.</string>
 	<string key="ui_social">Social</string>
 	<string key="ui_social_friends">AMIGOS</string>
+	<string key="ui_social_group">Grupo</string>
 	<string key="ui_social_twitch">TWITCH</string>
 	<string key="ui_streamermode_enabled">El modo no molestar está activado.</string>
 	<string key="ui_streamermode_disabled">El modo no molestar está desactivado.</string>
@@ -448,6 +472,52 @@
 	<string key="group_member_cannot_join_expedition">{playerName} no cumple los requisitos para entrar en esta expedición.</string>
 	<string key="self_cannot_join_expedition">No puedes unirte a la expedición</string>
 	<string key="required_level_warning">Se requiere el nivel {level}</string>
+	<string rel_version="Feature_Shards" key="social_phasing_group_invite_change_shards_title">¿Quieres unirte al fragmento?</string>
+	<string rel_version="Feature_Shards" key="social_phasing_group_invite_change_shards_message">Tu colega está en otro fragmento y no será visible. ¿Quieres unirte al fragmento de tu colega {playerName}?\n\nAdvertencia: Cuando cambies de fragmento, perderás las bolsas de botín que no hayas reclamado.</string>
+	<string rel_version="Feature_Shards" key="ui_shards">Fragmentos</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_player_to_shard_pfh">Invitar a fragmento</string>
+	<string rel_version="Feature_Shards" key="social_phasing_join_shard_pfh">Unirse a fragmento</string>
+	<string rel_version="Feature_Shards" key="social_phasing_join_shard_popup">¿Quieres abandonar tu fragmento actual y unirte al de {playerName}?\n\nAdvertencia: Cuando cambies de fragmento, perderás las bolsas de botín que no hayas reclamado.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_player_invited_to_shard">Invitaste a {playerName} a tu fragmento.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_receive_invite_to_shard">{playerName} te invitó a unirte a su fragmento.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_receive_invite_to_shard_title">Invitación a fragmento</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_failed">La invitación a fragmento falló. Vuelve a intentarlo.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_eligibility_failed">No puedes cambiar de fragmento ahora.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_unknown_error">Ocurrió un error desconocido.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_canceled">La invitación a fragmento se canceló.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_player_blocked">El jugador está bloqueado. La invitación a fragmento falló.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_player_declined">Invitación a fragmento rechazada</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_fast_travel_failed">La invitación a fragmento falló porque el viaje rápido estaba en proceso.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_message_throttled">Se interrumpió el mensaje de invitación a fragmento. Vuelve a intentarlo.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_recipient_pvp_flagged">El jugador tiene una marca de PvP y no puede cambiar de fragmento.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_not_currently_in_a_shard">No estás en una zona fragmentada.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_remote_player_not_in_shard">Este personaje no está en un fragmento al que puedas unirte.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_different_sectors">Ya estás en la misma zona fragmentada que este jugador.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_in_same_shard">Ya estás en el mismo fragmento que este jugador.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_is_pvp_flagged">No puedes cambiar de fragmento mientras tienes una marca de PvP ni en combate.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_character_success">Invitación a fragmento aceptada.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_join_character_phase_success">Te uniste a un nuevo fragmento.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_join_character_phase_full">No puedes unirte a este fragmento porque está lleno.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_join_character_phase_failed">No puedes unirte a este fragmento ahora. Vuelve a intentarlo más tarde.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_sector_inaccessible">No puedes acceder a esta zona en este momento. Vuelve a intentarlo más tarde.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_sector_inaccessible_pvp">Esta zona podría estar llena para jugadores con marca de PvP. Prueba desactivar tu marca de PvP.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_in_different_shard">&lt;font face="lyshineui/fonts/nimbus_regular_italic.font" &gt;En otro fragmento&lt;/font&gt;</string>
+	<string rel_version="Feature_Shards" key="social_phasing_unable_duel_tooltip">No puedes batirte en duelo con un jugador que esté en otro fragmento.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_unable_join_phase_in_duel">No puedes unirte al fragmento de otro jugador si estás en un duelo.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_unable_join_phase_in_performance">No puedes unirte al fragmento de otro jugador si estás en una función musical.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_unable_join_phase_condemned">No es posible unirse al fragmento porque se está desactivando.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_unable_trade_tooltip">No puedes comerciar con un jugador que esté en otro fragmento.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_unable_music_tooltip">No puedes iniciar una función musical con un jugador que esté en otro fragmento.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_area_chat_limited">El chat de zona y de voz se limitan a los jugadores que estén en el mismo fragmento que tú.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_phase_condemned_message">Tu fragmento actual se eliminará en {timeUntilDestruct} minutos.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_phase_condemned_teleport_message">Cambiando de fragmento. Se te teletransportará en {timeUntilTeleport} segundos.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_failed_to_pvp_flag">El fragmento para PvP está lleno. Vuelve a intentarlo más tarde.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_sector_inaccessible_retry">Zona llena. Se volverá a intentar entrar en {timeUntilRetry} segundos.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_load_screen_title">Advertencia: Área llena</string>
+	<string rel_version="Feature_Shards" key="social_phasing_load_screen_message">El área está llena. ¿Quieres regresar al menú principal? Selecciona "No" para esperar a que se libere espacio.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_pvp_flag_warning_title">No estás en un fragmento habilitado para PvP</string>
+	<string rel_version="Feature_Shards" key="social_phasing_pvp_flag_warning_message">No estás en un fragmento habilitado para PvP. ¿Quieres marcarte para todos contra todos y pasar a un fragmento habilitado para PvP?</string>
+	<string rel_version="Feature_Shards" key="social_phasing_on_join_character_cooldown">Recargando para reutilización. Puedes unirte al fragmento de otro jugador en {cooldownTime} segundos.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_findtabtitle">Ver salas</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_managetabtitle">Mi sala de espera</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_creategroup">Crear sala de espera</string>
@@ -545,6 +615,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip_queue">No puedes solicitar unirte a una sala de espera mientras estás en la cola de un modo de juego.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in">Bloquear</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in_disabled_tooltip">Debes seleccionar un rol que no haya alcanzado el máximo permitido.</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in_disabled_min_not_met_tooltip">Otro rol aún no alcanzó el mínimo requerido. Selecciona otro rol.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_change_role">Cambiar de rol</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_decline">Rechazar</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_minimize">Minimizar</string>
@@ -559,7 +630,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_recommended_label">SE RECOMIENDA TENER:</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_name">Tanque</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_description">El rol del tanque en el grupo es absorber el daño y desviar la atención de los enemigos lejos de los aliados. Los tanques suelen llevar armadura pesada y tener gemas carnelianas equipadas para provocar a los enemigos. Suele tener algún tipo de control de multitudes (aturdimiento, atrapamiento, aplastamiento) para evitar que los enemigos lleguen a los aliados.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_recommended">Espada y escudo, gran hacha, martillo de guerra</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_recommended">Espada y escudo, Gran hacha, Martillo de guerra</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_name">Daño</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_description">La función de este rol es infligir la mayor cantidad de daño posible a la mayor cantidad de enemigos posible. Se encarga de matar a los enemigos antes de que puedan avasallar al grupo. Los encargados de infligir daño deben invertir en habilidades y atributos que se centren en ataques que causen mucho daño y en ataques con área de efecto.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_dps_recommended">Trabuco, Arco, Bastón ígneo, Gran hacha, Hachuela, Manopla de hielo, Mosquete, Espada ropera, Lanza, Manopla de vacío</string>
@@ -610,6 +681,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_outpost_rush_signup_fail">No puedes registrarte mientras estás en una sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail">No puedes entrar a la cola de la expedición mientras estás en una sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_dungeon_queue_signup_fail_solo">No puedes entrar a la cola de la prueba de alma mientras estás en una sala de espera.</string>
+	<string rel_version="DailySoloTrials" key="ui_groupfinder_dungeon_queue_signup_fail_dailysolotrial">No puedes entrar a la cola de la prueba de alma mientras estás en una sala de espera.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_group_full">Grupo lleno</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_open_expedition">Abrir expedición</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_queue_hud_min_players">Se requiere un mínimo de {amount} miembros para iniciar esta expedición.</string>
@@ -686,16 +758,28 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_expeditions_desc" comment="">Explora sitios olvidados hace mucho tiempo (con hasta 4 compañeros de equipo) para desbloquear y encontrar recompensas únicas para hacerte más fuerte y aplastar a tus enemigos.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_mutations_name">Expediciones mutadas</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_mutations_desc" comment="">Con hasta 3 niveles de dificultad nuevos, vuelve a realizar expediciones pasadas con desafíos nuevos y peligrosos. Tendrás que trabajar en equipo, pero, si logras sobrevivir, conseguirás las recompensas más valiosas.</string>
+	<string rel_version="Feature_PUG_Finder_Season_Trials" key="ui_pugfinder_activity_season_trials_name">Pruebas de temporada</string>
+	<string rel_version="Feature_PUG_Finder_Season_Trials" key="ui_pugfinder_activity_season_trials_subtext">Entrada a la prueba</string>
+	<string rel_version="Feature_PUG_Finder_Season_Trials" key="ui_pugfinder_activity_season_trials_description">Supera una prueba de temporada con un grupo de incursión de 10 jugadores.</string>
+	<string rel_version="Feature_PUG_Finder_Season_Trials" key="ui_pugfinder_activity_season_trials_desc" comment="">Enfréntate a un nuevo e implacable desafío en cada temporada.\n\nMínimo 6 jugadores\nSolo grupos locales</string>
+	<string rel_version="DailySoloTrials" key="ui_pugfinder_activity_solo_trials_name">Pruebas de alma</string>
+	<string rel_version="DailySoloTrials" key="ui_pugfinder_activity_solo_trials_random_name">Pruebas\nde alma</string>
+	<string rel_version="DailySoloTrials" key="ui_pugfinder_activity_solo_trials_subtext">Entrada a la prueba</string>
+	<string rel_version="DailySoloTrials" key="ui_pugfinder_activity_solo_trials_description">Vuelve a los momentos cruciales de la misión de la historia principal y recibe recompensas nuevas. Estas pruebas de alma se eligen diario y aumentan de dificultad para un mayor desafío.</string>
+	<string rel_version="DailySoloTrials" key="ui_pugfinder_activity_solo_trials_desc" comment="">Todos los días, tres pruebas de alma aleatorias aumentan de dificultad para ofrecer un mayor desafío y recompensas nuevas. Vuelve a los momentos cruciales de la historia, cobra venganza y obtén recompensas valiosas.</string>
+	<string rel_version="DailySoloTrials" key="ui_pugfinder_activity_solo_trials_trialscompleted">Pruebas completadas</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_name">Pruebas de élite</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_elite_trials_desc" comment="">Enfréntate al colosal "Shah Neshen, el devorador" con hasta 20 jugadores en esta prueba de élite.\n\nMínimo: 12 jugadores\nSolo grupos locales</string>
+	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_name">Incursiones</string>
+	<string rel_version="Raid_CutlassKeys_00" key="ui_pugfinder_activity_raids_desc" comment="">Persigue a Madre Criadora Medusa y detén sus planes de dominio sobre Aeternum con grupos de incursión de hasta 10 jugadores.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_opr_desc" comment="">Sé la primera persona en obtener 1000 puntos en esta vertiginosa experiencia PvP de 20v20. Captura puntos de control mientras recolectas recursos para construir defensas y desbloquear beneficios tácticos para tu equipo.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_activity_pvp_arena_desc" comment="">Enfréntate a otros jugadores en esta arena de 3v3 para obtener recompensas de PvP especiales.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Bonificación diaria</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Experiencia intensa</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_remaining_attempts">Intentos restantes</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Todas las dificultades compartidas</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Solo M1 y M2</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description">Pone a tu grupo en la cola de todas las dificultades (M1-M3) que tienen en común. Recibirás una bonificación de traspaso si se te empareja en una dificultad inferior y la completas. \n\n Límite diario: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se restablece en: {resetTime}</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Pone a tu grupo en la cola de todas las M1 y M2 disponibles que tienen en común. Recibirás una bonificación de traspaso si se te empareja en una dificultad inferior y la completas. \n\n Límite diario: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se restablece en: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Este botón te hace ingresar en la cola multiservidor para M1 + M2. Si desbloqueaste una dificultad mayor de la actual, recibirás una bonificación de traspaso al terminar la expedición.\n\nLímite diario: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se restablece el: {resetTime}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_progress_label">¿Quieres permitir la unión en curso?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_random">Aleatorio</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_queue">Entrar en la cola</string>
@@ -715,6 +799,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip">Hay {lobbyCount} grupos buscando reclutas para esta actividad en el buscador de grupos. Selecciona "Ver salas de espera" en la pantalla de información de actividades para buscarlas.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip_single">Hay un grupo buscando reclutas para esta actividad en el buscador de grupos. Selecciona "Ver salas de espera" en la pantalla de información de actividades para buscarlas.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level">Tu nivel de mutación:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_run_completed">Recorrido diario completado:</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group" comment="">Haz clic aquí para la opción de ENTRAR CON GRUPO</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group_M1_M2_Only" comment="">Haz clic aquí para unirte a M3 con ENTRAR CON GRUPO</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_available_rewards">Recompensas disponibles</string>
@@ -755,6 +840,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_member_in_event_tooltip">No puedes solicitar unirte a una cola de emparejamiento porque uno o más miembros del grupo se han registrado en otro evento.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_too_many_items_tooltip">No puedes solicitar unirte a una cola de emparejamiento porque tienes demasiados objetos únicos en tu inventario. Reduce tu inventario eliminando {numItemsToRemove} objeto(s).</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_raid_group_tooltip">No puedes solicitar unirte a una cola de emparejamiento mientras estás en un grupo de incursión.</string>
+	<string rel_version="Territory_CutlassKeys_Rework" key="ui_pugfinder_ffa_tooltip">No puedes solicitar unirte a una cola de emparejamiento mientras estás en todos contra todos PvP.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_no_azoth_staff">Debes equiparte un bastón de azoth para entrar en la cola para este modo de juego.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_no_azoth_staff_simple">&lt;img src="LyShineUI/Images/Icons/Misc/icon_exclamation" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; &lt;font color={color}&gt; Bastón de azoth no equipado&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_group_full_tooltip">No puedes solicitar unirte a una cola de emparejamiento mientras tu grupo está lleno.</string>
@@ -787,24 +873,29 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_select_canceled">Cola cancelada</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_selecting_roles">Seleccionando rol: &lt;font color={numberColor}&gt;{numLockedIn}&lt;/font&gt; / {numInGroup}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_disabled">Ya has aceptado un rol. Haz clic en Cambiar de rol para cambiarlo.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_requirement_damage">&lt;font color={color}&gt;Cualquier arma&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_requirement_none">&lt;font color={color}&gt;Cualquier arma&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_requirement_tank">&lt;font color={color}&gt;Requiere una &lt;/font&gt; &lt;font color={gemColor}&gt;gema de cornalina&lt;/font&gt; &lt;font color={color}&gt; o la &lt;/font&gt; &lt;font color={gemColor}&gt;habilidad de intimidación&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_requirement_healer">&lt;font color={weaponColor}&gt; Bastón vital de nv. {masteryLevel} &lt;/font&gt; &lt;font color={color}&gt; y&lt;/font&gt; &lt;font color={focusColor}&gt;{focusLevel} {focusText}&lt;/font&gt;</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_requirement_healer_mastery_only">&lt;font color={weaponColor}&gt; Bastón vital de nv. {masteryLevel}&lt;/font&gt;</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_damage">- Inflige la mayor cantidad de daño posible\n- Elimina enemigos antes de que te sobrepasen</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_damage">- Trabuco, Arco, Bastón ígneo, Gran hacha, Mandoble, Hachuela, Manopla de hielo, Mosquete, Espada ropera, Lanza, Manopla de vacío\n- Invierte en habilidades y atributos que se centren en ataques que causen mucho daño\n- Ataques con área de efecto</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_healer">- Mantén a tu equipo con vida mediante curaciones y mitigaciones\n- Elimina las despotenciaciones dañinas de tus aliados</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_healer">- Bastón vital, Manopla de vacío, Mangual\n- Invierte en la estadística de concentración</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_description_tank">- Absorbe daño\n- Intimida a enemigos</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">Espada y escudo, gran hacha, martillo de guerra\n- Armadura pesada\n- Gemas cornalinas\n- Control de multitudes (aturdimiento, atrapamiento, aplastamiento)</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">- Espada y escudo, Gran hacha, Martillo de guerra\n- Armadura pesada\n- Gemas de cornalina\n- Control de multitudes (aturdimiento, atrapamiento, aplastamiento)</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_title">Confirmar rechazo</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_message">¿Confirmas que quieres rechazar la comprobación de preparación? Tú o tu grupo abandonarán la cola y deberán volver a entrar.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">¿Confirmas que quieres salir? Te teletransportarás fuera de la expedición y no podrás volver a unirte.\n\n&lt;font color={penaltyColor}&gt;Se te aplicará una penalización de desertor (20 minutos) si abandonas la expedición dentro de los primeros 10 minutos.&lt;/font&gt;\n\nPara no recibir la penalización de desertor, usa la opción "Abandonar actividad" en el mapa o en la configuración de grupo.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc_no_penalty">¿Confirmas que quieres salir? Te teletransportarás fuera de la expedición y no podrás volver a unirte.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_expedition_activity_disabled">El emparejamiento de expediciones está deshabilitada en este momento. Vuelve a intentarlo más tarde.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_mutation_activity_disabled">El emparejamiento de expediciones mutadas está deshabilitada en este momento. Vuelve a intentarlo más tarde.</string>
+	<string rel_version="DailySoloTrials" key="ui_pugfinder_is_quest">Esto no cuenta para tu recorrido diario</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_dungeon_activity">Expedición(es)</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_mutation_activity">Expedición(es) mutada(s)</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_requirements_replacement_when_M3s_disabled">No se puede emparejar con M3. Usa Entrar con grupo más arriba.</string>
 	<string rel_version="Feature_PUG_Finder" key="matchmaking_queue_hud_already_accepted_match_tooltip">No puedes salir de la cola cuando ya aceptaste una invitación de emparejamiento.</string>
+	<string rel_version="Feature_Crossplay" key="ui_error_whisper_crossplay_communication_off">El usuario está en otra plataforma. Cambia los ajustes de comunicación multiplataforma para enviar un susurro</string>
+	<string key="ui_communication_restricted_by_platform">Comunicación restringida por la plataforma.</string>
+	<string key="ui_group_invites_restricted_gamemode">Invitaciones de grupo no están disponibles mientras estás en una actividad de emparejamiento.</string>
 </resources>
 

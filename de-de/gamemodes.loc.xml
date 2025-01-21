@@ -7,16 +7,21 @@
 	<string key="ui_queue_leave_group_confirm_message">Sinkt die Gruppengröße unter {minGroupSize} Mitglieder, wird die Gruppe aus der Warteschlange entfernt.\n\nBist du dir sicher?</string>
 	<string key="ui_queue_leave_notification_generic">Du wurdest aus der Warteschlange im Spielmodus entfernt.</string>
 	<string key="ui_queue_ready">F2 zum Betreten der Expedition</string>
+	<string key="ui_queue_generic_leave_title">Warteschlange verlassen</string>
+	<string key="ui_queue_generic_leave_desc">Möchtest du die aktuelle Warteschlange wirklich verlassen?</string>
 	<string key="ui_game_mode_matchmaking_failed">Bei der Spielsuche trat ein unbekannter Fehler auf.</string>
 	<string key="ui_game_mode_disabled">Der Spielmodus ist derzeit deaktiviert.</string>
 	<string key="ui_dungeon_enter_info">&lt;font color={color}&gt;Mindestens eine Person&lt;/font&gt; muss die Expedition betreten, damit sie offen bleibt. Jetzt hineinteleportieren?</string>
 	<string key="ui_dungeon_enter_info_solo">&lt;font color={color}&gt;Seelenprüfung ist bereit&lt;/font&gt; Jetzt hineinteleportieren?</string>
 	<string key="ui_dungeon_enter_info_raidtrial">&lt;font color={color}&gt;Mindestens eine Person&lt;/font&gt; muss die Eliteprüfung betreten, damit sie offen bleibt. Jetzt hineinteleportieren?</string>
 	<string key="ui_dungeon_enter_info_seasontrial" rel_version="Season_2_Trial">&lt;font color={color}&gt;Mindestens eine Person&lt;/font&gt; muss die Saisonprüfung betreten, damit sie offen bleibt. Jetzt hineinteleportieren?</string>
+	<string key="ui_dungeon_enter_info_dailysolotrial" rel_version="DailySoloTrials">&lt;font color={color}&gt;Tägliche Seelenprüfung ist bereit&lt;/font&gt;. Jetzt hineinteleportieren?</string>
 	<string key="ui_dungeon_enter_info_entered">Die Expedition ist jetzt geöffnet!\n&lt;font color={color}&gt;Jetzt hineinteleportieren?&lt;/font&gt;</string>
 	<string key="ui_dungeon_enter_info_entered_solo">&lt;font color={color}&gt;Seelenprüfung ist bereit&lt;/font&gt;. Jetzt hineinteleportieren?</string>
+	<string key="ui_dungeon_enter_info_entered_dailysolotrial" rel_version="DailySoloTrials">&lt;font color={color}&gt;Tägliche Seelenprüfung ist bereit&lt;/font&gt;. Jetzt hineinteleportieren?</string>
 	<string key="ui_dungeon_enter_info_entered_raidtrial">Die Eliteprüfung ist jetzt geöffnet!\n&lt;font color={color}&gt;Jetzt hineinteleportieren?&lt;/font&gt;</string>
 	<string key="ui_dungeon_enter_info_entered_seasontrial" rel_version="Season_2_Trial">Die Saisonprüfung ist jetzt geöffnet!\n&lt;font color={color}&gt;Jetzt hineinteleportieren?&lt;/font&gt;</string>
+	<string key="ui_dungeon_ffa_restriction" rel_version="Territory_CutlassKeys_Rework">Warteschlange ist in der Frei-für-alle PvP-Zone nicht verfügbar.\nBitte verlasse die Zone, um fortzufahren.</string>
 	<string key="ui_duel_player">Zum Duell herausfordern</string>
 	<string key="ui_duel_failmessage_invalidname">{playerName} ist kein gültiger Spielername.</string>
 	<string key="ui_duel_failmessage_outofrange">Du kannst dich nicht mit einem Spieler duellieren, der weiter als {distance} Meter entfernt ist.</string>
@@ -54,11 +59,11 @@
 	<string key="ui_duel_group_popup_yes_button">Gruppe</string>
 	<string key="ui_duel_group_popup_no_button">Spieler</string>
 	<string key="ui_duel_invite_notification_title">Duelleinladung</string>
-	<string key="ui_duel_invite_notification_text">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; fordert dich zu einem Duell heraus.\nNimmst du an?</string>
+	<string key="ui_duel_invite_notification_text">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; fordert dich zu einem Duell heraus.</string>
 	<string key="ui_duel_notification_invite_sent">Duelleinladung gesendet</string>
 	<string key="ui_duel_invite_group_notification_title">Gruppenduelleinladung</string>
-	<string key="ui_duel_invite_own_group_notification_text">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; fordert zu einem Gruppenduell heraus.\nNimmst du an?</string>
-	<string key="ui_duel_invite_other_group_notification_text">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; fordert dich zu einem Gruppenduell heraus.\nNimmst du an?</string>
+	<string key="ui_duel_invite_own_group_notification_text">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; fordert zu einem Gruppenduell heraus.</string>
+	<string key="ui_duel_invite_other_group_notification_text">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; fordert dich zu einem Gruppenduell heraus.</string>
 	<string key="ui_not_in_duel_notification_title">GEGNER NICHT IM DUELL</string>
 	<string key="ui_not_in_duel_notification_message">Außerhalb eines Duells kannst du keine Gegner angreifen.</string>
 	<string key="ui_duel_forfeit_title">Duell ausschlagen</string>
@@ -84,6 +89,7 @@
 	<string key="ui_duel_victory_message">Du hast das Duell gewonnen.</string>
 	<string key="ui_duel_defeat">Niederlage!</string>
 	<string key="ui_duel_defeat_message">Du hast das Duell verloren.</string>
+	<string key="ui_duel_left_message">Du hast das Duell verlassen.</string>
 	<string key="ui_duel_ended">Duell beendet</string>
 	<string key="ui_duel_resolution_draw">Patt</string>
 	<string key="ui_duel_resolution_draw_message">Das Duell wurde mit einem Patt beendet.</string>
@@ -93,7 +99,7 @@
 	<string key="ui_outpost_rush_invite_status">Akzeptiere, um dem Kampf beizutreten!</string>
 	<string key="ui_outpost_rush_signup_title">AUSSENPOSTENSTURM</string>
 	<string key="ui_outpost_rush_signup_desc">&lt;font color="#edc63e"&gt;Außenpostensturm&lt;/font&gt; ist ein Spiel, in dem Spieler in 2 Teams à 20 Spieler auf einer großen Insel mit drei Außenposten gegeneinander antreten. Die Teams müssen die Außenposten erobern und halten.</string>
-	<string key="ui_outpost_rush_signup_desc_gearscore">Die &lt;font color="#edc63e"&gt;Rüstwertskalierung&lt;/font&gt; erhöht den Rüstwert aller Ausrüstung mit einem Wert von unter 675 auf 675.</string>
+	<string key="ui_outpost_rush_signup_desc_gearscore">Die &lt;font color="#edc63e"&gt;Rüstwertskalierung&lt;/font&gt; erhöht den Rüstwert aller Ausrüstung mit einem Wert von unter 700 auf 700.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world">Außenpostensturm ist ein &lt;font color="#edc63e"&gt;weltübergreifender Spielmodus&lt;/font&gt; für 20x20.</string>
 	<string key="ui_outpost_rush_signup_desc_cross_world_tooltip">&lt;font color="#edc63e"&gt;Weltübergreifend&lt;/font&gt; bedeutet, dass du mit Spielern aus anderen Welten aus deiner Region zusammenspielst. Das kann helfen, die Wartezeit bis zum Finden eines Matches zu verkürzen.\n\nBeachte bitte:\n\n- Wenn du Spieler mit &lt;img src="lyshineui/images/icons/crossworld/icon_crossworld_identifier" xPadding="-1" scale="1.8" yOffset="2"&gt;&lt;/img&gt; neben ihrem Namen siehst, stammt dieser Spieler aus einer anderen Welt.\n\n- In einem weltübergreifenden Match sind bestimmte soziale Funktionen wie Handel, Einladungen usw. nicht aktiv.\n\n- Die Bestenliste "Siege im APS" ist ab sofort eine Bestenliste für die ganze Region.</string>
 	<string key="ui_outpost_rush_signup_goal1">Erobere und halte Außenposten, um Punkte zu erhalten.</string>
@@ -110,6 +116,7 @@
 	<string key="ui_outpost_rush_signup_failgroupinvite">Du hast eine ausstehende Einladung.</string>
 	<string key="ui_outpost_rush_signup_faillevel">Spielerstufe {levelRequirement} &lt;font color="#ff7171"&gt;ist erforderlich.&lt;/font&gt;</string>
 	<string key="ui_outpost_rush_signup_failwar">Du kannst dich nicht anmelden, weil du bereits für den bevorstehenden Krieg angemeldet bist, der in der nächsten Stunde beginnt.</string>
+	<string key="ui_outpost_rush_signup_failffa" rel_version="Territory_CutlassKeys_Rework">Solange du in der Frei-für-alle PvP-Zone bist, kannst du dich nicht eintragen.</string>
 	<string key="ui_outpost_rush_signup_failqueue">Du kannst dich nicht anmelden, weil du momentan schon für {matchname} angemeldet bist.</string>
 	<string key="ui_outpost_rush_signup_faildungeon">Du kannst dich nicht anmelden, weil du in einer Warteschlange für eine Expedition oder Eliteprüfung bist.</string>
 	<string key="ui_outpost_rush_signup_failevent">Du kannst dich nicht anmelden, weil du an einem Ereignis teilnimmst.</string>
@@ -202,12 +209,13 @@
 	<string key="ui_outpost_rush_summoning_circle">Beschwörungszirkel</string>
 	<string key="ui_outpost_rush_summoning_circle_desc">Setze an diesem Obelisken einen Beschwörungsstein ein, um für eine gewisse Zeit ein verbündetes Monster für dein Team zu rufen.</string>
 	<string key="ui_outpost_rush_portal">PORTAL</string>
-	<string key="ui_outpost_rush_portal_score">{current}/{total} &lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="-3" scale="1.4" yOffset="1"&gt;&lt;/img&gt;</string>
+	<string key="ui_outpost_rush_portal_score">&lt;img src="lyshineui/images/icons/misc/icon_azothCurrency" xPadding="-3" scale="1.4" yOffset="1"&gt;&lt;/img&gt; {current}/{total}</string>
 	<string key="ui_pinning_disabled_while_in_or">Das An-/Abheften von Zielen ist im Außenpostensturm deaktiviert.</string>
 	<string key="ui_pinning_disabled_expeditions">Das An-/Abheften ist für Expeditionsziele deaktiviert.</string>
 	<string key="ui_pinning_disabled_expeditions_solo">Das An-/Abheften ist für Seelenprüfungsziele deaktiviert.</string>
 	<string key="ui_pinning_disabled_expeditions_raidtrial">Das An-/Abheften ist für Eliteprüfungsziele deaktiviert.</string>
 	<string key="ui_pinning_disabled_expeditions_seasontrial" rel_version="Season_2_Trial">Das An-/Abheften ist für Saisonprüfungsziele deaktiviert.</string>
+	<string key="ui_pinning_disabled_expeditions_dailysolotrial" rel_version="DailySoloTrials">Das An-/Abheften ist für Seelenprüfungsziele deaktiviert.</string>
 	<string key="ui_or_commandpost_buff_on">Das Gebäude verleiht Teamboni.</string>
 	<string key="ui_or_commandpost_buff_off">Bauen, um Teamboni zu erhalten</string>
 	<string key="or_azoth_portal">Azoth-Portal</string>
@@ -259,6 +267,7 @@
 	<string key="ui_item_durability_dungeon_solo">Deine Ausrüstung wurde nach dem Tod nicht beschädigt.</string>
 	<string key="ui_item_durability_dungeon_raidtrial">Deine Ausrüstung wurde nach dem Tod nicht beschädigt.</string>
 	<string key="ui_item_durability_dungeon_seasontrial" rel_version="Season_2_Trial">Deine Ausrüstung wurde nach dem Tod nicht beschädigt.</string>
+	<string key="ui_item_durability_dungeon_dailysolotrial" rel_version="DailySoloTrials">Deine Ausrüstung wurde nach dem Tod nicht beschädigt.</string>
 	<string key="ui_item_durability_arena" rel_version="Feature_PVP_Arenas">Deine Ausrüstung wurde nach dem Tod nicht beschädigt.</string>
 	<string key="ui_item_durability_loss_pvp">Du wurdest von einem anderen Spieler getötet und deine Ausrüstung hat reduzierten Schaden genommen.</string>
 	<string key="ui_in_spectators_box">Im Zuschauerbereich</string>
@@ -300,12 +309,13 @@
 	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">Das PvP-Balancing ist für diese Waffe derzeit deaktiviert.</string>
 	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">Das PvP-Balancing ist für dieses Spielmodus derzeit deaktiviert.</string>
 	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">Das PvP-Balancing ist für die offene Welt derzeit deaktiviert.</string>
-	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">PvP-Basisschadens-Modifikatoren:\n • (Magie-/Fernkampfwerte sind global erhöht, werden aber für die Balance im PvP angepasst)</string>
+	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">PvP-Basisschadens-Modifikatoren:\n • Magie-/Fernkampfwerte sind global erhöht, werden aber für die Balance im PvP angepasst.</string>
 	<string key="ui_pvp_balance_global_base_damage" rel_version="Feature_PvP_PvE_Split">Global:</string>
 	<string key="ui_pvp_balance_affix_stats" rel_version="Feature_PvP_PvE_Split">Zusätzlicher Wert-Schadensmodifikator:</string>
 	<string key="ui_pvp_balance_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Fertigkeitsschaden-Bonus-Modifikator:</string>
 	<string key="ui_pvp_balance_healing_category" rel_version="Feature_PvP_PvE_Split">Heilungs-Modifikatoren:</string>
 	<string key="ui_pvp_balance_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Statuseffekt-Wirksamkeit:</string>
+	<string key="ui_pvp_balance_status_effect_durations" rel_version="Feature_PvP_PvE_Split">Statuseffektdauer:</string>
 	<string key="ui_gamemodeinvitedeclinesentmessage">Einladung zu &lt;font color="#ebe3d6"&gt;{gameModeName}&lt;/font&gt; abgelehnt.</string>
 	<string key="ui_gamemodeinvitedeclinesentmessage_withsource">Einladung zu &lt;font color="#ebe3d6"&gt;{gameModeName}&lt;/font&gt; von &lt;font color="#ebe3d6"&gt;{sourcePlayerName}&lt;/font&gt; abgelehnt.</string>
 </resources>

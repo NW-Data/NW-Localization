@@ -1,10 +1,11 @@
 <resources>
 	<string key="ui_receivedgroupinvitetitle_pvp" comment="">Invitation de groupe JcJ</string>
 	<string key="ui_receivedgroupinvitetitle_pve" comment="">Invitation de groupe</string>
-	<string key="ui_receivedgroupinvitemessage_pvp" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un groupe JcJ.\nVoulez-vous accepter ?</string>
-	<string key="ui_receivedgroupinvitemessage_pve" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un groupe JcE.\nVoulez-vous accepter ?</string>
+	<string key="ui_receivedgroupinvitemessage_pvp" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un groupe JcJ.</string>
+	<string key="ui_receivedgroupinvitemessage_pve" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un groupe JcE.</string>
 	<string key="ui_receivedgroupinvitemessage_pvp_wrong_flag" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un groupe JcJ.\nVous devez activer le JcJ à un sanctuaire pour accepter cette invitation.</string>
 	<string key="ui_receivedgroupinvitemessage_pve_wrong_flag" comment="">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un groupe JcE.\nVous devez désactiver le JcJ à un sanctuaire pour accepter cette invitation.</string>
+	<string key="ui_receivedgroupinvitemessage_ffa" rel_version="Territory_CutlassKeys_Rework">Impossible d'accepter une invitation de groupe dans une zone JcJ Chacun pour soi</string>
 	<string key="ui_acceptgroupinviteblocked_pvp" comment="">Activez le JcJ à un sanctuaire pour accepter cette invitation de groupe JcJ.</string>
 	<string key="ui_acceptgroupinviteblocked_pve" comment="">Désactivez le JcJ à un sanctuaire pour accepter cette invitation de groupe JcE.</string>
 	<string key="ui_receivedgroupinvite_decline" comment="">Refuser</string>
@@ -48,6 +49,7 @@
 	<string key="ui_numgroupinvites" comment="">({numInvites})</string>
 	<string key="ui_groupmemberdeathsdoor" comment="">Aux portes de la mort</string>
 	<string key="ui_groupmemberdead" comment="">Mort</string>
+	<string key="ui_add_to_group" comment="">Ajouter au groupe</string>
 	<string key="ui_leavegroup" comment="">Quitter le groupe</string>
 	<string key="ui_choose_role" comment="">Choisir rôle</string>
 	<string key="ui_role_disabled_is_current_role">Ceci est votre rôle actuel.</string>
@@ -70,17 +72,42 @@
 	<string key="ui_cannotleavegroup_in_outpost_rush" comment="">Vous ne pouvez pas quitter votre groupe en Déferlante.</string>
 	<string key="ui_cannotinvitein_pvp_wrong_faction" comment="">Doit être dans la même faction pour un groupe JcJ.</string>
 	<string key="ui_cannotinvitein_player_in_cw_instance" comment="">Vous ne pouvez pas inviter quelqu'un qui se trouve en intermondes.</string>
+	<string key="ui_cannotinvitein_player_ffa" rel_version="Territory_CutlassKeys_Rework">Vous ne pouvez pas inviter quelqu'un qui est en JcJ Chacun pour soi.</string>
+	<string key="ui_cannotinvitein_player_ffa_self" rel_version="Territory_CutlassKeys_Rework">Vous ne pouvez pas inviter quand vous êtes en JcJ Chacun pour soi.</string>
 	<string key="ui_cannotleavegroup_in_arena" comment="">Impossible de quitter votre groupe pendant un combat d'arène.</string>
 	<string key="ui_cannotleavegroup_in_war" comment="">Impossible de quitter votre groupe lorsque vous participez à une guerre.</string>
 	<string key="ui_cannotleavegroup_in_invasion" comment="">Impossible de quitter votre groupe pendant une invasion.</string>
 	<string key="ui_cannotleavegroup_in_dungeon" comment="">Impossible de quitter votre groupe pendant une expédition.</string>
 	<string key="ui_cannotjoingroup_in_arena" comment="">Impossible de rejoindre un autre groupe pendant un combat d'arène.</string>
 	<string key="ui_cannotjoingroup_in_dungeon" comment="">Impossible de rejoindre un autre groupe pendant une expédition.</string>
+	<string key="ui_cannotjoingroup_at_this_time" comment="">Impossible de rejoindre un autre groupe pour le moment.</string>
 	<string key="ui_pvp_group" comment="">Groupe JcJ</string>
 	<string key="ui_groupedalreadyerrormessage" comment="">&lt;font color="#ebe3d6"&gt;{playerName}&lt;/font&gt; est déjà dans un groupe.</string>
 	<string key="ui_groupalreadyinvitederrortitle" comment="">Invitation déjà envoyée</string>
 	<string key="ui_groupalreadyinvitederrormessage" comment="">Vous avez déjà invité &lt;font color="#ebe3d6"&gt;{playerName}&lt;/font&gt;.</string>
 	<string key="ui_groupnotavailableerrormessage" comment="">Vous ne pouvez plus accéder au groupe de {playerName}.</string>
+	<string key="ui_groupgameinviteunabletojoin" comment="This is the generic for any non-specific case">Impossible de rejoindre {playerName} à partir de l'invitation à la partie.</string>
+	<string key="ui_gameinviteerror_failedtogetreplication" comment="">Impossible de rejoindre à partir de l'invitation à la partie. Échec de la récupération des données de la copie.</string>
+	<string key="ui_gameinviteerror_bypassdisabled" comment="">Impossible de rejoindre à partir de l'invitation à la partie. Cette fonctionnalité est désactivée.</string>
+	<string key="ui_gameinviteerror_invalidinviter" comment="">Impossible de rejoindre à partir de l'invitation à la partie. La personne à l'origine de l'invitation est introuvable.</string>
+	<string key="ui_gameinviteerror_invalidinvitedata" comment="">Invitation à la partie invalide, impossible de rejoindre.</string>
+	<string key="ui_gameinviteerror_pendinggroupinvite" comment="">Impossible de rejoindre {playerName} à partir de l'invitation à la partie. Vous avez une invitation de groupe en attente.</string>
+	<string key="ui_gameinviteerror_joinedothergroup" comment="">Impossible de rejoindre {playerName} à partir de l'invitation à la partie. Autre groupe déjà rejoint.</string>
+	<string key="ui_gameinviteerror_timedout" comment="">Impossible de rejoindre {playerName} à partir de l'invitation à la partie. L'invitation de groupe a expiré.</string>
+	<string key="ui_gameinviteerror_playerdisconnected" comment="">Impossible de rejoindre à partir de l'invitation à la partie. {playerName} est hors ligne.</string>
+	<string key="ui_gameinviteerror_groupfull" comment="">Impossible de rejoindre à partir de l'invitation à la partie. Le groupe du joueur {playerName} est déjà au complet.</string>
+	<string key="ui_gameinviteerror_withdrawn" comment="">Impossible de rejoindre à partir de l'invitation à la partie. L'invitation a été annulée.</string>
+	<string key="ui_gameinviteerror_inmatchmaking" comment="">Impossible de rejoindre à partir de l'invitation à la partie. {playerName} est actuellement en matchmaking.</string>
+	<string key="ui_gameinviteerror_inftue" comment="">Impossible de rejoindre à partir de l'invitation à la partie. {playerName} joue au didacticiel.</string>
+	<string key="ui_gameinviteerror_ingamemode" comment="">Impossible de rejoindre à partir de l'invitation à la partie. {playerName} est actuellement dans un mode de jeu fermé aux invitations.</string>
+	<string key="ui_gameinviteerror_inwar" comment="">Impossible de rejoindre à partir de l'invitation à la partie. {playerName} est actuellement en guerre.</string>
+	<string key="ui_gameinviteerror_inffa" comment="">Impossible de rejoindre à partir de l'invitation à la partie. {playerName} est actuellement en JcJ Chacun pour soi.</string>
+	<string key="ui_gameinviteerror_inraid" comment="">Impossible de rejoindre à partir de l'invitation à la partie. {playerName} est actuellement dans un groupe de raid.</string>
+	<string key="ui_gameinviteerror_streamermodeblock" comment="">Impossible de rejoindre à partir de l'invitation à la partie. {playerName} est en mode « ne pas déranger ».</string>
+	<string key="ui_gameinviteerror_invalidfaction" comment="">Impossible de rejoindre à partir de l'invitation à la partie. Vous devez être dans la même faction.</string>
+	<string key="ui_gameinviteerror_iscrossworld" comment="">Impossible de rejoindre à partir de l'invitation à la partie. {playerName} est en mode intermondes.</string>
+	<string key="ui_gameinviteerror_crossplay" comment="">Impossible de rejoindre l’invitation à cause d’une incompatibilité des paramètres cross-plateforme.</string>
+	<string key="ui_gameinvite_errordecoding" comment="">Une erreur est survenue en traitant l'invitation à la partie.</string>
 	<string key="ui_groupmaxinviteserrormessage" comment="">Impossible d'inviter {playerName}. Vous avez atteint le nombre maximal d'invitations.</string>
 	<string key="ui_groupfromplayerofflineerrormessage" comment="">Invitation de groupe annulée : {playerName} n'est plus en ligne.</string>
 	<string key="ui_groupinvitetoplayerofflineerrormessage" comment="">Échec de l'invitation de groupe : {playerName} n'est plus en ligne.</string>
@@ -90,6 +117,9 @@
 	<string key="ui_groupinvitefailedgroupfullmessage" comment="">Échec de l'invitation de groupe : le groupe de {playerName} est déjà au complet.</string>
 	<string key="ui_groupinvitefailederrormessage" comment="">Échec de la réponse à l'invitation du groupe de : {playerName}</string>
 	<string key="ui_groupinvitefailedraid" comment="">Pas de réponse à l'invitation</string>
+	<string key="ui_groupjoinfailedgamemode">Impossible de rejoindre un groupe pendant que le groupe est dans une activité.</string>
+	<string key="ui_groupjoinfailedpendinggroupinvite">Impossible de rejoindre le groupe à cause d'une invitation de groupe en attente.</string>
+	<string key="ui_groupjoinfailedmatchmaking">Impossible de rejoindre le groupe à cause du matchmaking.</string>
 	<string key="ui_acceptinvitepopuptitle" comment="">Rejoindre un nouveau groupe ?</string>
 	<string key="ui_acceptinvitepopupmessage" comment="">Voulez-vous vraiment quitter le groupe et en rejoindre un autre ?</string>
 	<string key="ui_insamegrouperrormessage" comment="">{playerName} est déjà dans votre groupe.</string>
@@ -100,6 +130,7 @@
 	<string key="ui_groupinvitetimedouterrormessage" comment="">L'invitation de groupe de {playerName} a expiré.</string>
 	<string key="ui_groupinvitetimedoutraid" comment="">L'invitation de groupe a expiré.</string>
 	<string key="ui_invitetogroup" comment="">Invitation de groupe</string>
+	<string key="ui_invitenolongervalid" comment="">Invitation caduque</string>
 	<string key="ui_votekick" comment="">Vote d'exclusion</string>
 	<string key="ui_votekick_tooltip" comment="">Lancez un vote pour exclure ce joueur de votre groupe.\nVous ne pouvez lancer de vote qu'une fois toutes les {cooldown}.</string>
 	<string key="ui_votekick_disabled_inevent" comment="">Vous ne pouvez pas voter pour exclure un joueur pendant cet événement.</string>
@@ -199,7 +230,9 @@
 	<string key="ui_raid_not_signedup_remote_description" comment="">Vous n'avez pas effectué d'inscription pour participer à cette guerre. Inscrivez-vous à un tableau de guerre !</string>
 	<string key="ui_raid_not_signedup_description" comment="">Vous n'avez pas effectué l'inscription pour participer à cette guerre. Inscrivez-vous vite pour la guerre !</string>
 	<string key="ui_invasion_standby_description" comment="">Soyez en ligne le {date} à {time}. Les joueurs seront aléatoirement sélectionnés à ce moment-là.</string>
-	<string key="ui_empty_roster_instruction" comment="">Faire glisser les joueurs ici\ndepuis la réserve sur la droite</string>
+	<string key="ui_empty_roster_instruction" comment="">Ajouter des joueurs\nde la liste de réserve ici</string>
+	<string key="ui_empty_roster_instruction_controller" comment="">Ajouter des joueurs de la liste de réserve</string>
+	<string key="ui_raid_move_mode_instructions" comment="">Choisir la destination pour {playerName}</string>
 	<string key="ui_backfill_tooltip" comment="">La compagnie est en mesure de décider comment compléter ses rangs si des joueurs désertent avant la fin de la guerre.</string>
 	<string key="ui_backfill_auto_tooltip" comment="">Piocher automatiquement des joueurs dans la liste de réserve en fonction de leur ordre d'inscription.</string>
 	<string key="ui_backfill_manual_tooltip" comment="">Sélectionner manuellement des joueurs dans la liste de réserve afin de pourvoir les postes vacants.</string>
@@ -234,8 +267,10 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_fail">La décision d'abandonner n'a pas recueilli assez de votes.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_timed_out">Le vote d'abandon a expiré</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_in_progress">Vote d'abandon déjà en cours</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_not_available">Le vote d'abandon est indisponible dans les groupes prédéfinis. Vous pouvez arrêter cette activité sans pénalité.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_active">Un vote pour abandonner l'activité est déjà en cours. Vous pourrez réessayer quand il sera terminé.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_vote_while_on_cooldown">Impossible de lancer un vote pour abandonner l'activité pendant le temps de recharge</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_cannot_start_abandon_dungeon_complete">Impossible de lancer un vote pour abandonner l'activité lorsqu'elle est terminée</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_abandon_vote_tooltip">Lancez un vote pour que tout le groupe quitte l'expédition afin d'éviter la pénalité de désertion.\n\nUne pénalité de 20 minutes sera appliquée si vous quittez l'expédition dans les 10 premières minutes.\n\nIl vous faut une majorité pour remporter le vote.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid">Invitation à un raid</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_invitetoraid_groupprioritysubtext">Les joueurs invités rempliront en premier le groupe {groupIndex}.</string>
@@ -273,8 +308,8 @@
 	<string rel_version="Feature_Raid_Groups" key="ui_raidinvitesentmessage">Invitation de raid envoyée à &lt;font color="#ebe3d6"&gt;{playerName}&lt;/font&gt;.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitetitle_pvp">Invitation de raid JcJ</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitetitle_pve">Invitation de raid</string>
-	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pvp">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un raid JcJ.\nVoulez-vous accepter ?</string>
-	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pve">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un raid JcE.\nVoulez-vous accepter ?</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pvp">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un raid JcJ.</string>
+	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pve">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un raid JcE.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pvp_wrong_flag">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un raid JcJ.\nVous devez activer le JcJ à un sanctuaire pour accepter cette invitation.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_receivedraidinvitemessage_pve_wrong_flag">&lt;font color="#edc63e" face="lyshineui/fonts/Nimbus_Bold.font"&gt;{playerName}&lt;/font&gt; vous invite à rejoindre un raid JcE.\nVous devez désactiver le JcJ à un sanctuaire pour accepter cette invitation.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_acceptraidinviteblocked_pvp">Activer le JcJ à un sanctuaire pour accepter cette invitation de raid JcJ</string>
@@ -312,9 +347,5 @@
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups">Cacher les autres groupes sur l'ATH</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_hideothergroups_tooltip">Cacher les autres sous-groupes sur l'ATH du raid pour n'afficher que votre groupe.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_raid_kick">Exclure du raid</string>
-	<string key="ui_abandon_vote_not_available">Le vote d'abandon est indisponible dans les groupes prédéfinis. Vous pouvez arrêter cette activité sans pénalité.</string>
-	<string key="ui_cannotjoingroup_at_this_time">Impossible de rejoindre un autre groupe pour le moment.</string>
-	<string key="ui_cannot_start_abandon_dungeon_complete">Impossible de lancer un vote pour abandonner l'activité lorsqu'elle est terminée</string>
-	<string key="ui_invitenolongervalid">Invitation caduque</string>
 </resources>
 

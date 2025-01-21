@@ -7,7 +7,7 @@
 	<string key="ui_mount_attachment2_slot_tooltip_unlocked" rel_version="Feature_Mounts">Los accesorios de montura que se coloquen aquí se mostrarán en la parte posterior derecha de la montura</string>
 	<string key="ui_mount_buff1_tooltip" rel_version="Feature_Mounts">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura para herradura&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Se pueden colocar potenciadores de la vitalidad de la montura en esta ranura.&lt;/font&gt;</string>
 	<string key="ui_mount_buff1_slot_tooltip_unlocked" rel_version="Feature_Mounts">Los potenciadores otorgan a tu montura una ventaja única según el tipo de potenciador que coloques</string>
-	<string key="ui_mount_buff2_tooltip" rel_version="Feature_Mounts">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura para brida&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Se pueden colocar potenciadores de efectos de estado de la montura en esta ranura.&lt;/font&gt;</string>
+	<string key="ui_mount_buff2_tooltip" rel_version="Feature_Mounts">&lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Ranura para complemento de banda de sujeción&lt;/font&gt;\n\n&lt;font face="lyshineui/fonts/Nimbus_Regular_Italic.font"&gt;Se pueden colocar potenciadores de efectos de estado de la montura en esta ranura.&lt;/font&gt;</string>
 	<string key="ui_mount_trail_vfx" rel_version="Feature_Mounts">Efectos de huellas de montura</string>
 	<string key="ui_mount_summon_vfx" rel_version="Feature_Mounts">Efectos de invocación de montura</string>
 	<string key="ui_mount_summon_started" rel_version="Feature_Mounts">Invocando...</string>
@@ -56,6 +56,8 @@
 	<string key="ui_mount_summon_failed_deep_water_interrupt" rel_version="Feature_Mounts">Estás en el agua</string>
 	<string key="ui_mount_summon_failed_mount_disabled" rel_version="Feature_Mounts">Montura desactivada temporalmente. Inténtalo de nuevo más tarde.</string>
 	<string key="ui_mount_summon_failed_mount_disabled_interrupt" rel_version="Feature_Mounts">Montura desactivada temporalmente</string>
+	<string key="ui_mount_summon_failed_swimming" rel_version="Feature_Swim">No puedes invocar mientras nadas.</string>
+	<string key="ui_mount_summon_failed_swimming_interrupt" rel_version="Feature_Swim">Nadando</string>
 	<string key="ui_mount_delayed_dismount_area_warning" rel_version="Feature_Mounts">Entrando en zona de monturas restringidas: Desmontarás en {time}</string>
 	<string key="ui_mount_delayed_dismount_timer_text" rel_version="Feature_Mounts">Desmontando...</string>
 	<string key="ui_mount_delayed_dismount_area_cancelled" rel_version="Feature_Mounts">Abandonando zona de monturas restringidas</string>
@@ -74,9 +76,11 @@
 	<string key="ui_mount_type_horse" rel_version="Feature_Mounts">Caballo</string>
 	<string key="ui_mount_type_sabretooth" rel_version="Feature_Mounts">León</string>
 	<string key="ui_mount_type_direwolf" rel_version="Feature_Mounts">Lobo huargo</string>
+	<string key="ui_mount_type_bear" rel_version="Feature_Mounts_Bear">Oso</string>
 	<string key="ui_mounts_default_horse_name" rel_version="Feature_Mounts">Default_Horse</string>
 	<string key="ui_mounts_default_sabretooth_name" rel_version="Feature_Mounts">Default_Sabretooth</string>
 	<string key="ui_mounts_default_direwolf" rel_version="Feature_Mounts">Default_DireWolf</string>
+	<string key="ui_mounts_default_bear" rel_version="Feature_Mounts_Bear">Default_Bear</string>
 	<string key="ui_mounts_horse_entitlement_test_name" rel_version="Feature_Mounts">Horse_Entitlement_Test</string>
 	<string key="ui_mounts_sabretooth_achievement_test_name" rel_version="Feature_Mounts">Sabretooth_Achievement_Test</string>
 	<string key="ui_mounts_test_name" rel_version="Feature_Mounts">Montura de pruebas</string>
@@ -112,7 +116,7 @@
 	<string key="ui_mounts_dye_command" rel_version="Feature_Mounts">Teñir armadura</string>
 	<string key="ui_mounts_dye_screen_title" rel_version="Feature_Mounts">Teñir armadura de montura</string>
 	<string key="ui_rename_mount" rel_version="Feature_Mounts">Renombrar montura</string>
-	<string key="ui_mounts_horse_starter_description" rel_version="Feature_Mounts">Nunca olvidarás el fatídico día en el que viste selenumbra en la orilla del río.</string>
+	<string key="ui_mounts_horse_starter_description" rel_version="Feature_Mounts">Nunca olvidarás el fatídico día en el que viste a Selenumbra en la orilla del río.</string>
 	<string key="ui_mounts_wolf_starter_description" rel_version="Feature_Mounts">Tu recompensa por sacar a los lobos de sus jaulas. La manada siempre estará en deuda contigo.</string>
 	<string key="ui_mounts_lion_starter_description" rel_version="Feature_Mounts">Tu recompensa por recorrer el acantilado para rescatar al león enjaulado. Siempre viene bien codearse con las altas esferas.</string>
 	<string key="ui_mounts_horse_description" rel_version="Feature_Mounts">Leal como un sabueso, orgulloso como un león y veloz como el viento.</string>
@@ -133,9 +137,11 @@
 	<string key="ui_mounts_lion_description_4" rel_version="Feature_Mounts">Dicen que el león blanco es el heraldo de un poder supremo.</string>
 	<string key="ui_mounts_lion_description_5" rel_version="Feature_Mounts">Los leones negros anuncian el fin de una era y el comienzo de la siguiente.</string>
 	<string key="ui_mounts_lion_description_6" rel_version="Feature_Mounts">Esta majestuosa bestia, una rara avis, acude al auxilio de aquellos cuyo corazón aún es indómito.</string>
+	<string key="ui_mounts_bear_description" rel_version="Feature_Mounts_Bear">Humphrey es un animal grandullón, enérgico y cascarrabias, pero extremadamente protector con sus seres queridos./</string>
 	<string key="ui_mounts_unlock_horse_message" rel_version="Feature_Mounts">Tienda de caballos</string>
 	<string key="ui_mounts_unlock_wolf_message" rel_version="Feature_Mounts">Tienda de lobos huargos</string>
 	<string key="ui_mounts_unlock_lion_message" rel_version="Feature_Mounts">Tienda de leones</string>
+	<string key="ui_mounts_unlock_bear_message" rel_version="Feature_Mounts_Bear">Tienda de osos</string>
 	<string key="ui_mounts_unlock_tradeskill_message" rel_version="Feature_Mounts">Habilidad de oficio de monta</string>
 	<string key="ui_mounts_unlock_worlddrop_message" rel_version="Feature_Mounts">Botín raro</string>
 	<string key="ui_mounts_unlock_mutator_message" rel_version="Feature_Mounts">Expedición mutada</string>
@@ -161,33 +167,54 @@
 	<string key="ui_mounts_MTX_1_horse_name" rel_version="Feature_Mounts">Gregario poderoso</string>
 	<string key="ui_mounts_MTX_1_wolf_name" rel_version="Feature_Mounts">Ira</string>
 	<string key="ui_mounts_MTX_1_lion_name" rel_version="Feature_Mounts">Argus</string>
-	<string key="ui_mounts_MTX_2_horse_name" rel_version="Feature_Mounts">Solomon</string>
+	<string key="ui_mounts_MTX_1_bear_name" rel_version="Feature_Mounts_Bear">Vapuleador corrupto</string>
+	<string key="ui_mounts_bear_description_1" rel_version="Feature_Mounts_Bear">El vapuleador corrupto es una amenaza en todos los sentidos. Grande, rápido y duro como una piedra. Todo un carácter.</string>
+	<string key="ui_mounts_MTX_2_horse_name" rel_version="Feature_Mounts">Salomón</string>
 	<string key="ui_mounts_MTX_2_wolf_name" rel_version="Feature_Mounts">Amani</string>
 	<string key="ui_mounts_MTX_2_lion_name" rel_version="Feature_Mounts">Evania</string>
+	<string key="ui_mounts_MTX_2_bear_name" rel_version="Feature_Mounts_Bear">Titán</string>
 	<string key="ui_mounts_MTX_3_horse_name" rel_version="Feature_Mounts">Atlas</string>
 	<string key="ui_mounts_MTX_3_wolf_name" rel_version="Feature_Mounts">Charaka</string>
 	<string key="ui_mounts_MTX_3_lion_name" rel_version="Feature_Mounts">Beatrix</string>
+	<string key="ui_mounts_MTX_3_bear_name" rel_version="Feature_Mounts_Bear">Bégimo</string>
 	<string key="ui_mounts_MTX_4_horse_name" rel_version="Feature_Mounts">Nieve</string>
 	<string key="ui_mounts_MTX_4_wolf_name" rel_version="Feature_Mounts">Blanca</string>
 	<string key="ui_mounts_MTX_4_lion_name" rel_version="Feature_Mounts">Albus</string>
 	<string key="ui_mounts_MTX_5_horse_name" rel_version="Feature_Mounts">Medianoche</string>
 	<string key="ui_mounts_MTX_5_wolf_name" rel_version="Feature_Mounts">Blake</string>
 	<string key="ui_mounts_MTX_5_lion_name" rel_version="Feature_Mounts">Kumba</string>
+	<string key="ui_mounts_MTX_5_bear_name" rel_version="Feature_Mounts_Bear">Humphrey</string>
 	<string key="ui_mounts_MTX_6_horse_name" rel_version="Feature_Mounts">Espectro</string>
 	<string key="ui_mounts_MTX_6_wolf_name" rel_version="Feature_Mounts">Iridiana</string>
 	<string key="ui_mounts_MTX_6_lion_name" rel_version="Feature_Mounts">Ngan</string>
+	<string key="ui_mounts_MTX_6_bear_name" rel_version="Feature_Mounts_Bear">Renboga</string>
 	<string key="ui_mounts_MTX_7_horse_name" rel_version="Season_4_Perm">Félix</string>
 	<string key="ui_mounts_MTX_7_wolf_name" rel_version="Season_4_Perm">Humo</string>
 	<string key="ui_mounts_MTX_7_lion_name" rel_version="Season_4_Perm">Alacer</string>
+	<string key="ui_mounts_MTX_7_bear_name" rel_version="Feature_Mounts_Bear">Goliat</string>
 	<string key="ui_mounts_MTX_8_horse_name" rel_version="Season_5_Perm">Daemonicus</string>
 	<string key="ui_mounts_MTX_8_wolf_name" rel_version="Season_5_Perm">Malum</string>
 	<string key="ui_mounts_MTX_8_lion_name" rel_version="Season_5_Perm">Sicarius</string>
-	<string key="ui_mounts_horse_description_7" rel_version="Season_4_Perm">Felix luce con orgullo su yelmo con cuernos. Hace gala de su poder y majestuosidad.</string>
-	<string key="ui_mounts_wolf_description_7" rel_version="Season_4_Perm">Smokey goza de una gran reputación por el aplomo con el que usa el sigilo. Sus enemigos no lo ven venir.</string>
+	<string key="ui_mounts_MTX_8_bear_name" rel_version="Feature_Mounts_Bear">Morti</string>
+	<string key="ui_mounts_MTX_10_wolf_name" rel_version="Feature_Mounts_Bear">Acechador de Azoth</string>
+	<string key="ui_mounts_MTX_bear_winter_name" rel_version="Entitlements_Valkyrie">Nisse</string>
+	<string key="ui_mounts_MTX_bear_hippo_name" rel_version="Season_6_Perm" comment="This is a homophonic pun, made to sound like 'hyperbole' which means 'not to be taken seriously'.">Hipopótamo Brioso</string>
+	<string key="ui_mounts_horse_description_7" rel_version="Season_4_Perm">Félix luce con orgullo su yelmo con cuernos. Hace gala de su poder y majestuosidad.</string>
+	<string key="ui_mounts_wolf_description_7" rel_version="Season_4_Perm">Humo goza de una gran reputación por el aplomo con el que usa el sigilo. Sus enemigos no lo ven venir.</string>
 	<string key="ui_mounts_lion_description_7" rel_version="Season_4_Perm">La energía inagotable de Alacer desafía las leyes de la naturaleza. Dormir es de débiles.</string>
 	<string key="ui_mounts_horse_description_8" rel_version="Season_5_Perm">Cuentan las malas lenguas que Daemonicus nació de un ritual oscuro. Sea verdad o no, nadie pone en duda su vigor.</string>
 	<string key="ui_mounts_wolf_description_8" rel_version="Season_5_Perm">Cabalgar sobre Malum siembra el terror en los corazones de tus enemigos y aliados.</string>
 	<string key="ui_mounts_lion_description_8" rel_version="Season_5_Perm">Aunque Sicarius resulta sorprendentemente frío al tacto, en sus entrañas arde el fuego.</string>
+	<string key="ui_mounts_bear_description_2" rel_version="Feature_Mounts_Bear">El factor sorpresa queda descartado dado el tamaño de Titán. Se le oye llegar desde lejos y, quienes lo oyen, escapan.</string>
+	<string key="ui_mounts_bear_description_7" rel_version="Feature_Mounts_Bear">Goliat es tan leal con sus amigos como con su apetito. Como tiene buen fondo, se encarga de no descuidar ni a los unos ni al otro.</string>
+	<string key="ui_mounts_bear_description_8" rel_version="Feature_Mounts_Bear">Debe de haber una manera de tratar con Morti, pero no queda nadie que viva para contarlo.</string>
+	<string key="ui_mounts_bear_description_5" rel_version="Feature_Mounts_Bear">El pelaje de Humphrey le permite camuflarse por la noche. Anda con cuidado, o podría ser lo último que veas.</string>
+	<string key="ui_mounts_bear_description_6" rel_version="Feature_Mounts_Bear">Renboga puede parecer un oso circense, pero ten por seguro que su temperamento no da nada de risa.</string>
+	<string key="ui_mounts_bear_description_3" rel_version="Feature_Mounts_Bear">Por su nombre no lo dirías, pero Bégimo es amable y tranquilo. Casi siempre.</string>
+	<string key="ui_mounts_lion_description_9" rel_version="Feature_Mounts_Bear">Descripción provisional de Valkyrie.</string>
+	<string key="ui_mounts_wolf_description_10" rel_version="Feature_Mounts_Bear">El acechador de Azoth es un astuto líder de la manada. Ha llegado a lo más alto gracias a su naturaleza intrépida, espabilada e implacable.</string>
+	<string key="ui_mounts_bear_winter_description" rel_version="Entitlements_Valkyrie">Lleva ese gorro y esa bufanda desde que era un cachorro.</string>
+	<string key="ui_mounts_bear_hippo_description" rel_version="Season_6_Perm" comment="This is a pun, using 'barely' to represent that actual bear part of the mount.">¡Un hipopótamo de verdad! Dicen que tiene algo raro... pero a mí me parece hermoso.</string>
 	<string key="ui_mounts_horse_name_1" rel_version="Feature_Mounts">Gregario poderoso</string>
 	<string key="ui_mounts_horse_name_1a" rel_version="Feature_Mounts">Gregario poderoso (GRATIS)</string>
 	<string key="ui_mount_horse_name_2" rel_version="Feature_Mounts">Selenumbra</string>
@@ -203,9 +230,10 @@
 	<string key="ui_mounts_horse_name_test" comment="DO NOT TRANSLATE" rel_version="Feature_Mounts">TestHorse</string>
 	<string key="ui_mounts_keybind_toggle" rel_version="Feature_Mounts">Invocar/Retirar montura</string>
 	<string key="ui_mounts_keybind_summon" rel_version="Feature_Mounts">Invocar montura</string>
+	<string key="ui_mounts_keybind_dismiss" rel_version="Feature_Mounts">Retirar montura</string>
 	<string key="ui_mounts_keybind_dash" rel_version="Feature_Mounts">Correr</string>
 	<string key="ui_mounts_keybind_jump" rel_version="Feature_Mounts">Saltar</string>
-	<string key="ui_mounts_keybind_stop_reverse" rel_version="Feature_Controller">Alternar Parar/Moverse hacia atrás</string>
+	<string key="ui_mounts_keybind_stop_reverse" rel_version="Feature_Controller">Parar/Marcha atrás</string>
 	<string key="ui_section_mounts" rel_version="Feature_Mounts">Monturas</string>
 	<string key="ui_mount_auto_road_follow" rel_version="Feature_Mounts">Seguimiento de carreteras de monturas</string>
 	<string key="ui_mount_auto_road_follow_desc" rel_version="Feature_Mounts">Elige si quieres seguir automáticamente las carreteras cuando estés sobre tu montura y correr automáticamente.</string>
@@ -222,7 +250,7 @@
 	<string key="ui_mount_selection_screen_unlock_level_markup" rel_version="Feature_Mounts">Alcanza el &lt;font color={color}&gt;nivel {level}&lt;/font&gt; y completa &lt;font color={color}&gt;«{questName}»&lt;/font&gt; para desbloquear las monturas</string>
 	<string key="ui_mount_expansion_header" rel_version="Feature_Mounts">Expansión:</string>
 	<string key="ui_mount_expansion_not_owned" rel_version="Feature_Mounts">Compra «El alzamiento de los tierramarga» para acceder a las monturas</string>
-	<string key="ui_mount_expansion_owned_requirements_not_met" rel_version="Feature_Mounts">Alcanza el nivel 25 y completa «Mi reino por un caballo»</string>
+	<string key="ui_mount_expansion_owned_requirements_not_met" rel_version="Feature_Mounts">Alcanza el nivel 20 y completa «Mi reino por un caballo»</string>
 	<string key="ui_mount_no_mount_equipped" rel_version="Feature_Mounts">No tienes ninguna montura equipada</string>
 	<string key="ui_mount_previewing" rel_version="Feature_Mounts">Vista previa</string>
 	<string key="ui_mount_map_icon_description" rel_version="Feature_Mounts">Compra monturas para explorar Aetérnum.</string>
@@ -262,5 +290,17 @@
 	<string key="Mount_Lion_PatternA9_description" rel_version="Feature_Mounts">Scurge tiene cierto aire majestuoso que hace que sea la envidia de la manada.</string>
 	<string key="Mount_Lion_PatternA10_Name" rel_version="Feature_Mounts">Godfrey</string>
 	<string key="Mount_Lion_PatternA10_description" rel_version="Feature_Mounts">Hasta de cachorro, a Godfrey siempre le ha sonreído la suerte. Que su buena fortuna se te contagie.</string>
+	<string key="Mount_Bear_PatternA1_Name" rel_version="Feature_Mounts_Bear">Vapuleador corrupto</string>
+	<string key="Mount_Wolf_PatternA11_Name" rel_version="Feature_Mounts_Bear">Acechador de Azoth</string>
+	<string key="ui_mounts_default_turkey">Pavo_pordefecto</string>
+	<string key="ui_mounts_unlock_turkey_message">Tienda del pavo</string>
+	<string key="ui_mounts_owned_turkey_message">Pavo</string>
+	<string key="ui_mounts_MTX_1_turkey_name" rel_version="Feature_Mounts_Turkey">Muslo</string>
+	<string key="ui_mounts_MTX_1_turkey_description" rel_version="Feature_Mounts_Turkey">Un pavo para montar, no para comer.\n\nNOTE: Esta montura no se puede teñir y no puede mostrar accesorios.</string>
+	<string key="ui_mounts_MTX_horse_Rudolph_name">Rudy</string>
+	<string key="ui_mounts_horse_Rudolph_desc">Por suerte, su nariz brilla por la alegría de las fiestas y no por la corrupción.</string>
+	<string key="ui_mounts_owned_bear_message">Oso</string>
+	<string key="ui_mount_type_turkey">Otros</string>
+	<string key="ui_mounts_undyeable">La armadura de esta montura no se puede teñir.</string>
 </resources>
 

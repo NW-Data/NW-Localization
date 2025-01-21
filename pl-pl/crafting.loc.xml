@@ -15,6 +15,8 @@
 	<string key="tanning">Garbarnia</string>
 	<string key="tanning_desc">Możesz tu przetwarzać niewyprawioną skórę i skórzany materiał.</string>
 	<string key="carpentry">Stolarnia</string>
+	<string key="runeglass">Stanowisko do obróbki szkła runicznego</string>
+	<string key="runeglass_desc">Możesz tu wytwarzać szkło runiczne.</string>
 	<string key="blacksmith_station">Kuźnia</string>
 	<string key="cooking_station">Kuchnia</string>
 	<string key="engineering_station">Warsztat</string>
@@ -99,7 +101,7 @@
 	<string key="crafting_tab_tanning">&lt;font color="#ff7171"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Nie jesteś przy stanowisku.&lt;/font&gt;&lt;/font&gt;\n\nZnajdź &lt;font color="#ebe3d6"&gt;garbarnię&lt;/font&gt;, aby wytworzyć przedmioty.</string>
 	<string key="crafting_tab_weaving">&lt;font color="#ff7171"&gt;&lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;Nie jesteś przy stanowisku.&lt;/font&gt;&lt;/font&gt;\n\nZnajdź &lt;font color="#ebe3d6"&gt;krosno&lt;/font&gt;, aby wytworzyć przedmioty.</string>
 	<string key="crafting_current_refining">Obecne stanowisko przetwarzania.</string>
-	<string key="crafting_current_crafting">Obecne stanowisko do wytwarzania.</string>
+	<string key="crafting_current_crafting">Obecne stanowisko rzemieślnicze.</string>
 	<string key="crafting_hide_summary">Ukryj podsumowanie</string>
 	<string key="crafting_show_summary">Pokaż podsumowanie</string>
 	<string key="crafting_tree_unlocked">Odblokowano</string>
@@ -118,10 +120,10 @@
 	<string key="dyeing_unequipped_armor_title_inventory">Farbowanie pancerza</string>
 	<string key="dyeing_unequipped_armor_title">Nałóż barwnik na: {itemName}</string>
 	<string key="dyeing_apply_dye">Ufarbuj</string>
-	<string key="dyeing_primary">Podstawowy</string>
-	<string key="dyeing_secondary">Dodatkowy</string>
-	<string key="dyeing_accent">Akcent</string>
-	<string key="dyeing_tint">Odcień</string>
+	<string key="dyeing_primary">I</string>
+	<string key="dyeing_secondary">II</string>
+	<string key="dyeing_accent">III</string>
+	<string key="dyeing_tint">IV</string>
 	<string key="dyeing_recently_used">Ostatnio</string>
 	<string key="dyeing_available">Dostępne</string>
 	<string key="dyeing_confirm">Potwierdź</string>
@@ -137,12 +139,12 @@
 	<string key="dye_crafting_not_at_station">Musisz znajdować się przy repozytorium arkanistycznym.</string>
 	<string key="cooldown_threshold">&lt;img src="lyshineui/images/icons/misc/icon_question_orange.dds" xPadding="0" scale="2" yOffset="6"&gt;&lt;/img&gt; Czas odnowienia wytwarzania: &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{time}&lt;/font&gt; na &lt;font face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{count}&lt;/font&gt; przedm.</string>
 	<string key="cooldown_threshold_tooltip">Po wytworzeniu {count} przedmiotów musisz odczekać {time} przed wytworzeniem kolejnego egzemplarza.</string>
-	<string key="cooldown_cancraftin">Można wytworzyć za {time} &lt;img src="lyshineui/images/icons/misc/icon_hourglass" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="cooldown_cancraftin">Można wytworzyć za {time}.</string>
 	<string key="crafting_always_available">Zawsze dostępne</string>
 	<string key="crafting_dye_family">Barwniki.</string>
 	<string key="crafting_open_dye_crafting">Wytwarzanie barwników</string>
-	<string key="crafting_fee">Opłata: &lt;font color="#b2aea1" face="lyshineui/fonts/CaslonAnt.font"&gt;{fee}&lt;/font&gt;&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
-	<string key="crafting_fee_low">Za mało pieniędzy: &lt;font color="#b2aea1" face="lyshineui/fonts/CaslonAnt.font"&gt;{fee} &lt;/font&gt;&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
+	<string key="crafting_fee">Opłata: &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; &lt;font color="#b2aea1" face="lyshineui/fonts/Pica_Regular.font"&gt;{fee}&lt;/font&gt;</string>
+	<string key="crafting_fee_low">Za mało pieniędzy: &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt; &lt;font color="#b2aea1" face="lyshineui/fonts/Pica_Regular.font"&gt;{fee}&lt;/font&gt;</string>
 	<string key="crafting_fee_low_no_fee">Za mało pieniędzy</string>
 	<string key="crafting_craftagain">WYTWÓRZ PONOWNIE</string>
 	<string key="crafting_craftagain_fee">WYTWÓRZ PONOWNIE {fee}&lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;</string>
@@ -150,17 +152,17 @@
 	<string key="crafting_perkhint">Dodaj: &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;{itemName}&lt;/font&gt;, aby zwiększyć szanse na uzyskanie &lt;font color="#ebe3d6" face="lyshineui/fonts/Nimbus_Semibold.font"&gt;profitu&lt;/font&gt;</string>
 	<string key="crafting_gemtitle">Dodaj materiał główny</string>
 	<string key="crafting_gemdesc">Większa szansa na uzyskanie\ngniazda na klejnot</string>
-	<string key="crafting_perktitle">Dodaj azoth</string>
+	<string key="crafting_perktitle">Azoth</string>
 	<string key="crafting_perkdesc">Zwiększa szansę na dodatkową premię</string>
-	<string key="crafting_specialtitle">Dodaj modyf. wytwarzania</string>
-	<string key="crafting_specialattributetitle">Dodaj mod. wytwarzania cechy</string>
+	<string key="crafting_specialtitle">Wytwórz modyf.</string>
+	<string key="crafting_specialattributetitle">Mod. wytwarzania cechy</string>
 	<string key="crafting_specialdesc">Określa profit</string>
 	<string key="crafting_specialadded">Wytwórz modyf.</string>
 	<string key="crafting_azothadded">Azoth</string>
 	<string key="crafting_carried">Posiadane</string>
 	<string key="crafting_noitem">Brak przedmiotu</string>
 	<string key="crafting_showowned">Posiadane</string>
-	<string key="crafting_primary_ingredient">(PODSTAWOWY)</string>
+	<string key="crafting_primary_ingredient">Materiał główny</string>
 	<string key="crafting_perkselectiontitle">WYBIERZ MODYF. WYTWARZANIA</string>
 	<string key="crafting_perkselectiondesc">Modyfikatory wytwarzania dodają określony rodzaj profitu do wytworzonego przedmiotu.</string>
 	<string key="crafting_perk_item_available">Dostępny 1 przedmiot</string>

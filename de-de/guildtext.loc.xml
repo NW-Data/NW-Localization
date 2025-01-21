@@ -41,7 +41,7 @@
 	<string key="guild_create_info1">FRAKTIONEN</string>
 	<string key="guild_create_info1_desc">Die von dir gegründete Kompanie wird der deiner Fraktion angehören. Du kannst andere Spieler derselben Fraktion in deine Kompanie einladen.</string>
 	<string key="guild_create_info2">GEBIETE UND KRIEG</string>
-	<string key="guild_create_info2_desc">Nur Kompanien können Krieg erklären und Gebiete belagern. Als Gouverneur eines Gebiets erhält deine Kompanie Taler durch Steuern, bekommt einen hohen Rabatt auf Schnellreisen und steuert ihren Teil zum Gesamterfolg deiner Fraktion bei.</string>
+	<string key="guild_create_info2_desc">Nur Kompanien können Krieg erklären und Gebiete belagern. Als Gouverneur eines Gebiets erhält deine Kompanie Taler durch erhobene Gebühren, bekommt einen hohen Rabatt auf Schnellreisen und steuert ihren Teil zum Gesamterfolg deiner Fraktion bei.</string>
 	<string key="guild_create_info3">ANDERE VORTEILE</string>
 	<string key="guild_create_info3_desc">Tausche dich ganz einfach mit Kompaniemitgliedern aus und finde schneller eine Gruppe. Dir wird außerdem angezeigt, wann ein Mitglied zuletzt online war, und du erhältst Zugriff auf Taler aus der Kompanie-Schatzkammer.</string>
 	<string key="ui_faction_label">Fraktion:</string>
@@ -107,7 +107,7 @@
 	<string key="ui_guildsiegetab">Belagerungszeitfenster</string>
 	<string key="ui_guildtreasurytab">Schatzkammer</string>
 	<string key="ui_guildtreasurytab_balance">{balance} {coinImage}</string>
-	<string key="ui_treasury_totalbalance">Balance</string>
+	<string key="ui_treasury_totalbalance">Guthaben</string>
 	<string key="ui_treasury_dailywithdrawallimit">Tägliches Abhebungslimit</string>
 	<string key="ui_treasury_dailywithdrawallimitsmall">Tägliches Abhebungslimit:</string>
 	<string key="ui_treasury_availablewithdrawallimit">Verfügbares Abhebungslimit</string>
@@ -130,10 +130,10 @@
 	<string key="ui_treasury_tooltip_withdrawal_nopermissons">Du hast nicht die Berechtigung dazu, etwas abzuheben.</string>
 	<string key="ui_treasury_tooltip_withdrawal_overlimit">Du hast dein tägliches Abhebungslimit erreicht.</string>
 	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">Du hast nicht die Berechtigung dazu, das tägliche Abhebungslimit zu ändern.</string>
-	<string key="ui_treasury_notification_depositsuccess">&lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} wurden in die Kompanie-Schatzkammer eingezahlt.</string>
+	<string key="ui_treasury_notification_depositsuccess">&lt;font color={colorHex} face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; {coinImage} wurden in die Kompanie-Schatzkammer eingezahlt.</string>
 	<string key="ui_treasury_notification_depositcappedtreasurymax">Einzahlung in Schatzkammer fehlgeschlagen (max. Kapazität der Schatzkammer erreicht).</string>
 	<string key="ui_treasury_notification_depositcappedplayerfunds">Einzahlung in Schatzkammer fehlgeschlagen (unzureichendes verfügbares Guthaben).</string>
-	<string key="ui_treasury_notification_withdrawalsuccess">&lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} wurden von der Kompanie-Schatzkammer abgehoben.</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">&lt;font color={colorHex} face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; {coinImage} wurden von der Kompanie-Schatzkammer abgehoben.</string>
 	<string key="ui_treasury_notification_withdrawalcappedfunds"> Abheben aus der Schatzkammer fehlgeschlagen (unzureichendes Guthaben in der Schatzkammer).</string>
 	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Abheben aus der Schatzkammer fehlgeschlagen (über dem täglichen Limit).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">Das tägliche Abhebungslimit wurde festgelegt auf &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
@@ -232,6 +232,7 @@
 	<string key="ui_governorexpire_deleted_THEY">Dier Gouverneur*in deiner Kompanie hat das Spiel verlassen oder xiesen Charakter gelöscht. Ein Mitglied mit dem Rang Konsul kann Gouverneur werden.</string>
 	<string key="ui_governorseat_vacant">Der Gouverneursposten ist unbesetzt.</string>
 	<string key="ui_governorseat_overthrowable">Der Gouverneur kann von Konsuln gestürzt werden.</string>
+	<string key="ui_no_governor">Kein Gouverneur</string>
 	<string key="ui_becomegovernor">Gouverneur werden</string>
 	<string key="ui_becomegovernor_SHE">Gouverneurin werden</string>
 	<string key="ui_becomegovernor_THEY">Gouverneur*in werden</string>
@@ -268,6 +269,7 @@
 	<string key="ui_permission_war_raid_manage">{allowed} Armeegruppen und Eintragungen verwalten.</string>
 	<string key="ui_permission_build_defensive_structures">{allowed} im Kompaniefort bauen und ersetzen.</string>
 	<string key="ui_playeralreadyinguildmessage">{playerName} ist bereits Mitglied deiner Kompanie.</string>
+	<string key="ui_companyinviteeblockedmessage">Du kannst keine Einladungen an ignorierte Spieler senden.</string>
 	<string key="ui_playerguild">Kompanie von {LocalPlayerName}</string>
 	<string key="ui_promote">Befördern</string>
 	<string key="ui_promote_transfer_owner">Eigentum übertragen</string>
@@ -329,11 +331,11 @@
 	<string key="ui_wardeclarationpopup_title">Kriegserklärung</string>
 	<string key="ui_wardeclarationpopup_target">gegen {guildName}</string>
 	<string key="ui_wardeclarationpopup_message">Während eines Krieges versucht die angreifende Kompanie, das Gebiet der verteidigenden Kompanie zu erobern, indem sie deren Fort innerhalb des Belagerungsfensters einnimmt.</string>
-	<string key="ui_wardeclarationpopup_declarebutton">Krieg erklären! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_declarebutton">Krieg erklären! {coinImage} {cost}</string>
 	<string key="ui_wardeclarationpopup_mywallet" comment="When presented to the user, the name for currency is always Coin">Taler</string>
 	<string key="ui_wardeclarationpopup_extendtitle">Gegenangriff</string>
 	<string key="ui_wardeclarationpopup_extendmessage" comment="This will have a time below it for how long the war will last after the extension">Möchtest du wirklich einen Gegenangriff gegen {guildName} durchführen? \nBeide Kompanien können sich dann gegenseitig angreifen, ohne als Kriminelle eingestuft zu werden, und zwar für:</string>
-	<string key="ui_wardeclarationpopup_extendbutton">Gegenangriff! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_extendbutton">Gegenangriff! {coinImage} {cost}</string>
 	<string key="ui_wardeclarationpopup_nopermission">\nDein Rang ({rank}) gestattet es dir nicht, einen Krieg zu erklären oder einen Gegenangriff einzuleiten.</string>
 	<string key="ui_wardeclarationpopup_permission">\nDeine Kompanieberechtigungen gestatten es dir, einen Krieg zu erklären oder einen Gegenangriff einzuleiten.</string>
 	<string key="ui_wardeclarationpopup_noterritorytext">Diese Kompanie verfügt über kein Gebiet, um das ein Krieg geführt werden könnte.</string>
@@ -369,7 +371,7 @@
 	<string key="ui_wardeclaration_unsuccessful_notification_text">Die Kriegserklärung einer anderen Kompanie wurde dieses Mal ausgewählt. Deine Taler wurden auf das Kompaniekonto rückerstattet.</string>
 	<string key="ui_wardeclaration_successful_notification_title">Kriegserklärung angenommen</string>
 	<string key="ui_wardeclaration_successful_notification_text">Dein bevorstehender Krieg wurde eingetragen. Gehe zur Kriegsübersicht des Gebiets, um dich anzumelden und deine Armee zu verwalten.</string>
-	<string key="ui_territory_upkeep_due">Kompanie-Gebietssteuer ist fällig für {name}!</string>
+	<string key="ui_territory_upkeep_due">Grundstückssteuer fällig für {name}</string>
 	<string key="ui_warframe_range_prewar">Vorbereitung</string>
 	<string key="ui_warframe_range_currentwar">Aktueller Krieg</string>
 	<string key="ui_warframe_range_war">Krieg</string>
@@ -457,6 +459,7 @@
 	<string key="ui_trade_failure_no_withdrawal">Du hast nicht die Berechtigung dazu, etwas aus diesem Gebäude zu entnehmen.</string>
 	<string key="ui_trade_failure_no_deposit">Du hast nicht die Berechtigung dazu, etwas in diesem Gebäude abzulegen.</string>
 	<string key="ui_trade_failure_not_enough_space">Der Gegenstand kann aufgrund von Beschränkungen hinsichtlich max. Anzahl einzigartiger Gegenstände und Höchstgewicht nicht übertragen werden.</string>
+	<string key="ui_trade_failure_not_in_ffa_state">Der Gegenstand kann nicht übertragen werden, weil der Spieler sich nicht im Status "Frei für alle" befindet.</string>
 	<string key="ui_trade_failure_global_storage_not_enough_currency">Du hast zu wenig Geld, um die Abhebegebühr für an einem anderen Ort verwahrte Gegenstände zu bezahlen.</string>
 	<string key="ui_trade_failure_global_storage_wrong_faction">Zum Abheben müssen beide Gebiete zu deiner Fraktion gehören und deren Gebietsunterhaltungskosten müssen beglichen worden sein.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Gegenstände kannst du nur in dem Lagerschuppen an deinem derzeitigen Standort deponieren.</string>
@@ -640,7 +643,7 @@
 	<string key="ui_signup_warinprogress_tooltip">Du kannst dich nicht für einen bereits laufenden Krieg oder eine bereits laufende Invasion eintragen.</string>
 	<string key="ui_signup_not_available">Anmeldung nicht möglich</string>
 	<string key="ui_signup_level_requirement">&lt;font color="#ff7171"&gt;Spielerstufe {level} &lt;/font&gt; ist für die Anmeldung erforderlich.</string>
-	<string key="ui_signup_count">&lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; Spieler haben sich angemeldet.</string>
+	<string key="ui_signup_count">&lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; Spieler haben sich angemeldet.</string>
 	<string key="ui_signup_instruction_title_1">Warten</string>
 	<string key="ui_signup_instruction_title_2">Online gehen</string>
 	<string key="ui_signup_instruction_title_3">Auf Abruf</string>
@@ -677,7 +680,7 @@
 	<string key="ui_war_schedule_adjustment_message">{warType} in {territoryName} wurde {scheduleAdjustmentType}.</string>
 	<string key="ui_war_schedule_adjustment_cancelled">abgesagt</string>
 	<string key="ui_war_schedule_adjustment_rescheduled">verschoben</string>
-	<string key="ui_war_camp_tier">Rang &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_tier">Rang &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{value}&lt;/font&gt;</string>
 	<string key="ui_war_camp_weapons_tier">Belagerungswaffenrang</string>
 </resources>
 

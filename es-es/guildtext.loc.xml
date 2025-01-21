@@ -107,7 +107,7 @@
 	<string key="ui_guildsiegetab">Periodo de asedio</string>
 	<string key="ui_guildtreasurytab">Tesorería</string>
 	<string key="ui_guildtreasurytab_balance">{balance} {coinImage}</string>
-	<string key="ui_treasury_totalbalance">Equilibrio</string>
+	<string key="ui_treasury_totalbalance">Saldo</string>
 	<string key="ui_treasury_dailywithdrawallimit">Límite de retirada diario</string>
 	<string key="ui_treasury_dailywithdrawallimitsmall">Límite de retirada diario:</string>
 	<string key="ui_treasury_availablewithdrawallimit">Límite de retirada disponible</string>
@@ -130,10 +130,10 @@
 	<string key="ui_treasury_tooltip_withdrawal_nopermissons">No tienes permiso para retirar.</string>
 	<string key="ui_treasury_tooltip_withdrawal_overlimit">Has alcanzado el límite de retirada diario.</string>
 	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">No tienes permiso para cambiar el límite de retirada diario.</string>
-	<string key="ui_treasury_notification_depositsuccess">Se ha depositado una cantidad de &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} en la tesorería de la compañía.</string>
+	<string key="ui_treasury_notification_depositsuccess">Se ha depositado una cantidad de &lt;font color={colorHex} face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; {coinImage} en la tesorería de la compañía.</string>
 	<string key="ui_treasury_notification_depositcappedtreasurymax">No se ha podido depositar en la tesorería (excede el máximo de la tesorería).</string>
 	<string key="ui_treasury_notification_depositcappedplayerfunds">No se ha podido depositar en la tesorería (fondos personales insuficientes).</string>
-	<string key="ui_treasury_notification_withdrawalsuccess">Se ha retirado una cantidad de &lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} de la tesorería de la compañía.</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">Se ha retirado una cantidad de &lt;font color={colorHex} face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; {coinImage} de la tesorería de la compañía.</string>
 	<string key="ui_treasury_notification_withdrawalcappedfunds"> No se ha podido retirar de la tesorería (fondos de la tesorería insuficientes).</string>
 	<string key="ui_treasury_notification_withdrawalcappeddailylimit">No se ha podido retirar de la tesorería (excede el límite diario).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">El límite de retirada diario se ha establecido en &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
@@ -232,6 +232,7 @@
 	<string key="ui_governorexpire_deleted_THEY">El gobernador de tu compañía se ha ido o ha eliminado su personaje. Un miembro con el rango de cónsul puede ocupar su puesto.</string>
 	<string key="ui_governorseat_vacant">El puesto de gobernador está vacío.</string>
 	<string key="ui_governorseat_overthrowable">Los cónsules pueden derrocar al gobernador.</string>
+	<string key="ui_no_governor">No hay gobernador</string>
 	<string key="ui_becomegovernor">Convertirte en gobernador</string>
 	<string key="ui_becomegovernor_SHE">Convertirte en gobernadora</string>
 	<string key="ui_becomegovernor_THEY">Convertirte en dirigente</string>
@@ -268,6 +269,7 @@
 	<string key="ui_permission_war_raid_manage">{allowed}: administrar grupos de ejército y reclutamientos</string>
 	<string key="ui_permission_build_defensive_structures">{allowed}: construir y reubicar en un fuerte de la compañía</string>
 	<string key="ui_playeralreadyinguildmessage">{playerName} ya es miembro de tu compañía.</string>
+	<string key="ui_companyinviteeblockedmessage">No puedes invitar a jugadores bloqueados.</string>
 	<string key="ui_playerguild">Compañía de {LocalPlayerName}</string>
 	<string key="ui_promote">Ascender</string>
 	<string key="ui_promote_transfer_owner">Transferir propiedad</string>
@@ -329,11 +331,11 @@
 	<string key="ui_wardeclarationpopup_title">Declaración de guerra</string>
 	<string key="ui_wardeclarationpopup_target">contra {guildName}</string>
 	<string key="ui_wardeclarationpopup_message">Durante una guerra, la compañía atacante intenta capturar el fuerte de la compañía defensora durante el periodo de asedio para apoderarse de su territorio.</string>
-	<string key="ui_wardeclarationpopup_declarebutton">¡Declarar guerra! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_declarebutton">¡Declarar la guerra! {coinImage} {cost}</string>
 	<string key="ui_wardeclarationpopup_mywallet" comment="When presented to the user, the name for currency is always Coin">Monedas</string>
 	<string key="ui_wardeclarationpopup_extendtitle">Contraataque</string>
 	<string key="ui_wardeclarationpopup_extendmessage" comment="This will have a time below it for how long the war will last after the extension">¿Seguro que quieres contraatacar a {guildName}?\nAmbas compañías podrán atacarse entre sí sin ser consideradas criminales durante:</string>
-	<string key="ui_wardeclarationpopup_extendbutton">¡Contraatacar! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_extendbutton">¡Contraatacar! {coinImage} {cost}</string>
 	<string key="ui_wardeclarationpopup_nopermission">\nTu rango ({rank}) no te permite declarar la guerra ni contraatacar.</string>
 	<string key="ui_wardeclarationpopup_permission">\nLos permisos de tu compañía te permiten declarar la guerra y contraatacar.</string>
 	<string key="ui_wardeclarationpopup_noterritorytext">Esta compañía no tiene ningún territorio por el que combatir.</string>
@@ -369,7 +371,7 @@
 	<string key="ui_wardeclaration_unsuccessful_notification_text">Se ha seleccionado la declaración de guerra de otra compañía. Tu dinero se ha reembolsado al monedero de la compañía.</string>
 	<string key="ui_wardeclaration_successful_notification_title">Declaración de guerra aceptada</string>
 	<string key="ui_wardeclaration_successful_notification_text">Tu guerra inminente está programada. Dirígete al tablero de guerra del territorio para iniciar sesión y administrar tu ejército.</string>
-	<string key="ui_territory_upkeep_due">¡{name} tiene que pagar las tasas del territorio de la compañía!</string>
+	<string key="ui_territory_upkeep_due">Mantenimiento pendiente para {name}</string>
 	<string key="ui_warframe_range_prewar">Preguerra</string>
 	<string key="ui_warframe_range_currentwar">Guerra actual</string>
 	<string key="ui_warframe_range_war">Guerra</string>
@@ -457,6 +459,7 @@
 	<string key="ui_trade_failure_no_withdrawal">No tienes permiso para sacar de esta estructura.</string>
 	<string key="ui_trade_failure_no_deposit">No tienes permiso para depositar en esta estructura.</string>
 	<string key="ui_trade_failure_not_enough_space">El objeto no se puede transferir a causa de las restricciones de peso y objetos únicos máximos.</string>
+	<string key="ui_trade_failure_not_in_ffa_state">El objeto no se puede transferir porque el jugador no está en un estado de todos contra todos.</string>
 	<string key="ui_trade_failure_global_storage_not_enough_currency">No tienes fondos suficientes para abonar el coste de retirada de objetos almacenados de forma remota.</string>
 	<string key="ui_trade_failure_global_storage_wrong_faction">La retirada requiere que ambos territorios estén en tu facción y estén al día con el mantenimiento.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Solo puedes depositar objetos en el almacén en tu ubicación actual.</string>
@@ -640,7 +643,7 @@
 	<string key="ui_signup_warinprogress_tooltip">No puedes unirte a una guerra o invasión en curso.</string>
 	<string key="ui_signup_not_available">Registro no disponible</string>
 	<string key="ui_signup_level_requirement">El jugador debe haber alcanzado el &lt;/font&gt;&lt;font color="#ff7171"&gt;nivel {level} para registrarse.</string>
-	<string key="ui_signup_count">&lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; jugadores unidos</string>
+	<string key="ui_signup_count">&lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; jugadores unidos</string>
 	<string key="ui_signup_instruction_title_1">Espera</string>
 	<string key="ui_signup_instruction_title_2">Permanece en línea</string>
 	<string key="ui_signup_instruction_title_3">En espera</string>
@@ -677,7 +680,7 @@
 	<string key="ui_war_schedule_adjustment_message">Se ha {scheduleAdjustmentType} {warType} en {territoryName}.</string>
 	<string key="ui_war_schedule_adjustment_cancelled">cancelado</string>
 	<string key="ui_war_schedule_adjustment_rescheduled">aplazado</string>
-	<string key="ui_war_camp_tier">Clase &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_tier">Clase &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{value}&lt;/font&gt;</string>
 	<string key="ui_war_camp_weapons_tier">Clase del arma de asedio</string>
 </resources>
 

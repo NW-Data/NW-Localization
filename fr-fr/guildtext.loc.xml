@@ -130,10 +130,10 @@
 	<string key="ui_treasury_tooltip_withdrawal_nopermissons">Vous n'avez pas l'autorisation d'effectuer un retrait.</string>
 	<string key="ui_treasury_tooltip_withdrawal_overlimit">Vous avez atteint votre limite quotidienne.</string>
 	<string key="ui_treasury_tooltip_changedailywithdrawallimit_nopermissons">Vous n'avez pas l'autorisation de modifier la limite de retrait quotidienne.</string>
-	<string key="ui_treasury_notification_depositsuccess">&lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} ont été déposées dans la trésorerie de la compagnie.</string>
+	<string key="ui_treasury_notification_depositsuccess">&lt;font color={colorHex} face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; {coinImage} ont été déposées dans la trésorerie de la compagnie.</string>
 	<string key="ui_treasury_notification_depositcappedtreasurymax">Échec de dépôt dans la trésorerie (supérieur au maximum de trésorerie).</string>
 	<string key="ui_treasury_notification_depositcappedplayerfunds">Échec de dépôt dans la trésorerie (pas assez de fonds personnels).</string>
-	<string key="ui_treasury_notification_withdrawalsuccess">&lt;font color={colorHex} face="lyshineui/fonts/CaslonAnt.font"&gt;{amount}&lt;/font&gt; {coinImage} ont été retirées de la trésorerie de la compagnie.</string>
+	<string key="ui_treasury_notification_withdrawalsuccess">&lt;font color={colorHex} face="lyshineui/fonts/Pica_Regular.font"&gt;{amount}&lt;/font&gt; {coinImage} ont été retirées de la trésorerie de la compagnie.</string>
 	<string key="ui_treasury_notification_withdrawalcappedfunds"> Échec de retrait dans la trésorerie (pas assez de fonds de trésorerie).</string>
 	<string key="ui_treasury_notification_withdrawalcappeddailylimit">Échec de retrait dans la trésorerie (supérieur à la limite quotidienne).</string>
 	<string key="ui_treasury_notification_setdailylimitsuccess">La limite de retrait quotidienne est fixée à &lt;font color={colorHex}&gt;{amount}&lt;/font&gt; {coinImage}.</string>
@@ -232,6 +232,7 @@
 	<string key="ui_governorexpire_deleted_THEY">Le gouverneur de votre compagnie est parti ou a supprimé son personnage. Un membre ayant le rang de « consul » peut devenir gouverneur.</string>
 	<string key="ui_governorseat_vacant">Le poste de gouverneur est vacant.</string>
 	<string key="ui_governorseat_overthrowable">Les consuls peuvent renverser le gouverneur en place.</string>
+	<string key="ui_no_governor">Pas de gouverneur</string>
 	<string key="ui_becomegovernor">Devenir gouverneur</string>
 	<string key="ui_becomegovernor_SHE">Devenir gouverneur</string>
 	<string key="ui_becomegovernor_THEY">Devenir gouverneur</string>
@@ -259,15 +260,16 @@
 	<string key="ui_permission_demolish_structures">{allowed} détruire les structures de la compagnie</string>
 	<string key="ui_permission_demolish_territories">{allowed} détruire les territoires de la compagnie</string>
 	<string key="ui_permission_declare_war">{allowed} déclarer des guerres et définir la fenêtre de siège</string>
-	<string key="ui_permission_treasury_deposit">{allowed} peut effectuer des dépôts</string>
-	<string key="ui_permission_treasury_withdraw">{allowed} peut effectuer un retrait dans la limite quotidienne</string>
-	<string key="ui_permission_treasury_withdraw_unlimited">{allowed} peut retirer n'importe quel montant</string>
-	<string key="ui_permission_treasury_set_daily_limit">{allowed} peut définir la limite de retrait quotidienne</string>
+	<string key="ui_permission_treasury_deposit">{allowed} effectuer des dépôts</string>
+	<string key="ui_permission_treasury_withdraw">{allowed} effectuer un retrait dans la limite quotidienne</string>
+	<string key="ui_permission_treasury_withdraw_unlimited">{allowed} retirer n'importe quel montant</string>
+	<string key="ui_permission_treasury_set_daily_limit">{allowed} définir la limite de retrait quotidienne</string>
 	<string key="ui_permission_territory_project_management">{allowed} lancer et annuler des améliorations de territoire</string>
-	<string key="ui_permission_territory_taxation">{allowed} peut modifier les montants des frais du territoire</string>
+	<string key="ui_permission_territory_taxation">{allowed} modifier les montants des frais du territoire</string>
 	<string key="ui_permission_war_raid_manage">{allowed} gérer les groupes d'armée et les inscriptions</string>
 	<string key="ui_permission_build_defensive_structures">{allowed} bâtir et remplacer la forteresse d'une compagnie</string>
 	<string key="ui_playeralreadyinguildmessage">{playerName} est déjà membre de votre compagnie.</string>
+	<string key="ui_companyinviteeblockedmessage">Vous ne pouvez pas envoyer d'invitation aux joueurs bloqués.</string>
 	<string key="ui_playerguild">Compagnie de {LocalPlayerName}</string>
 	<string key="ui_promote">Promouvoir</string>
 	<string key="ui_promote_transfer_owner">Transférer la propriété</string>
@@ -329,11 +331,11 @@
 	<string key="ui_wardeclarationpopup_title">Déclaration de guerre</string>
 	<string key="ui_wardeclarationpopup_target">contre {guildName}</string>
 	<string key="ui_wardeclarationpopup_message">Au cours d'une guerre, la compagnie qui attaque essaie de conquérir le territoire de la compagnie attaquée en capturant sa forteresse pendant la fenêtre de siège.</string>
-	<string key="ui_wardeclarationpopup_declarebutton">Combattre ! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_declarebutton">Déclarer la guerre ! {cost} {coinImage}</string>
 	<string key="ui_wardeclarationpopup_mywallet" comment="When presented to the user, the name for currency is always Coin">Pièces</string>
 	<string key="ui_wardeclarationpopup_extendtitle">Contre-attaque</string>
 	<string key="ui_wardeclarationpopup_extendmessage" comment="This will have a time below it for how long the war will last after the extension">Voulez-vous vraiment contre-attaquer face à {guildName} ?\nLes membres de vos deux compagnies pourront s'affronter sans être déclarés criminels pendant :</string>
-	<string key="ui_wardeclarationpopup_extendbutton">Contre-attaque ! {cost} {coinImage}</string>
+	<string key="ui_wardeclarationpopup_extendbutton">Contre-attaquer ! {cost} {coinImage}</string>
 	<string key="ui_wardeclarationpopup_nopermission">\nVotre rang ({rank}) ne vous permet pas de déclarer la guerre ou de contre-attaquer.</string>
 	<string key="ui_wardeclarationpopup_permission">\nLes autorisations de votre compagnie vous permettent de déclarer la guerre ou de contre-attaquer.</string>
 	<string key="ui_wardeclarationpopup_noterritorytext">Cette compagnie n'a pas de territoire à conquérir.</string>
@@ -369,7 +371,7 @@
 	<string key="ui_wardeclaration_unsuccessful_notification_text">La déclaration de guerre d'une autre compagnie a été sélectionnée. Votre argent a été reversé dans la bourse de la compagnie.</string>
 	<string key="ui_wardeclaration_successful_notification_title">Déclaration de guerre acceptée</string>
 	<string key="ui_wardeclaration_successful_notification_text">Votre guerre à venir est programmée. Rendez-vous au tableau de guerre du territoire pour vous inscrire et gérer votre armée.</string>
-	<string key="ui_territory_upkeep_due">{name} doit s'acquitter des frais de territoire de la compagnie !</string>
+	<string key="ui_territory_upkeep_due">Frais d'entretien dus pour {name}</string>
 	<string key="ui_warframe_range_prewar">Avant-guerre</string>
 	<string key="ui_warframe_range_currentwar">Guerre actuelle</string>
 	<string key="ui_warframe_range_war">Guerre</string>
@@ -457,6 +459,7 @@
 	<string key="ui_trade_failure_no_withdrawal">Vous n'avez pas l'autorisation d'accéder à cette structure.</string>
 	<string key="ui_trade_failure_no_deposit">Vous n'avez pas l'autorisation de stocker dans cette structure.</string>
 	<string key="ui_trade_failure_not_enough_space">L'objet ne peut pas être transféré en raison de restrictions de poids ou d'objets uniques maximum.</string>
+	<string key="ui_trade_failure_not_in_ffa_state">L'objet ne peut pas être transféré car le joueur n'est pas en mode Chacun pour soi.</string>
 	<string key="ui_trade_failure_global_storage_not_enough_currency">Vous n'avez pas assez de fonds pour couvrir les frais de retrait des objets stockés à distance.</string>
 	<string key="ui_trade_failure_global_storage_wrong_faction">Pour pouvoir effectuer un retrait, les deux territoires doivent faire partie de votre faction et être à jour dans leur entretien.</string>
 	<string key="ui_trade_failure_global_storage_invalid_deposit">Vous ne pouvez déposer d'objets que dans l'abri de rangement où vous vous trouvez.</string>
@@ -640,7 +643,7 @@
 	<string key="ui_signup_warinprogress_tooltip">Vous ne pouvez pas vous inscrire pour une guerre ou une invasion en cours.</string>
 	<string key="ui_signup_not_available">Inscription indisponible</string>
 	<string key="ui_signup_level_requirement">&lt;font color="#ff7171"&gt;Niveau de joueur {level}&lt;/font&gt; requis pour s'inscrire.</string>
-	<string key="ui_signup_count">&lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; joueurs inscrits</string>
+	<string key="ui_signup_count">&lt;font color="#ebe3d6"&gt;&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{number}&lt;/font&gt;&lt;/font&gt; joueurs inscrits</string>
 	<string key="ui_signup_instruction_title_1">Attendre</string>
 	<string key="ui_signup_instruction_title_2">Être en ligne</string>
 	<string key="ui_signup_instruction_title_3">En attente</string>
@@ -677,7 +680,7 @@
 	<string key="ui_war_schedule_adjustment_message">{warType} à {territoryName} a été {scheduleAdjustmentType}.</string>
 	<string key="ui_war_schedule_adjustment_cancelled">annulé(e)</string>
 	<string key="ui_war_schedule_adjustment_rescheduled">reporté(e)</string>
-	<string key="ui_war_camp_tier">Palier &lt;font face="lyshineui/fonts/CaslonAnt.font"&gt;{value}&lt;/font&gt;</string>
+	<string key="ui_war_camp_tier">Palier &lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{value}&lt;/font&gt;</string>
 	<string key="ui_war_camp_weapons_tier">Palier Arme de siège</string>
 </resources>
 
