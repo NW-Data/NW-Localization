@@ -34,34 +34,31 @@
 	<string key="ui_section_graphics">Gráficos</string>
 	<string key="ui_section_advgraphics">Gráficos avanzados</string>
 	<string key="ui_section_group">Más opciones</string>
-	<string key="ui_section_controller" rel_version="Feature_Controller">Control</string>
+	<string key="ui_section_gameplay_settings_for_device">Juego</string>
 	<string key="ui_controlleroptions" rel_version="Feature_Controller">Opciones del control</string>
+	<string key="ui_section_camera_for_device">Cámara</string>
 	<string key="ui_section_controllercamera" rel_version="Feature_Controller">Cámara del control</string>
 	<string key="ui_controllercameraoptions" rel_version="Feature_Controller">Opciones de la cámara del control</string>
 	<string key="ui_voicechatsettings">Chat de voz</string>
 	<string key="ui_openvoicechatsettings">Configuración de visualización</string>
-	<string key="ui_invertlook">Invertir cámara (teclado y mouse)</string>
-	<string key="ui_invertlook_desc">Indica si prefieres invertir el eje vertical</string>
-	<string key="ui_looksensitivity">Sensibilidad de la cámara (teclado y mouse)</string>
-	<string key="ui_looksensitivity_desc">Indica la velocidad de movimiento de la cámara</string>
+	<string key="ui_invertlook">Invertir eje vertical</string>
+	<string key="ui_invertlook_desc">Indica si quieres invertir el eje vertical en las entradas de cámara</string>
+	<string key="ui_looksensitivityhorizontal">Sensibilidad horizontal</string>
+	<string key="ui_looksensitivityhorizontal_desc">Indica la velocidad horizontal general de la cámara</string>
+	<string key="ui_looksensitivityvertical">Sensibilidad vertical</string>
+	<string key="ui_looksensitivityvertical_desc">Indica la velocidad vertical general de la cámara</string>
+	<string key="ui_looksensitivityhorizontalADS">Multiplicador de sensibilidad horizontal al apuntar con la mira</string>
+	<string key="ui_looksensitivityhorizontalADS_desc">Multiplicador (en porcentaje) de la velocidad horizontal de la cámara al apuntar con la mira</string>
+	<string key="ui_looksensitivityverticalADS">Multiplicador de sensibilidad vertical al apuntar con la mira</string>
+	<string key="ui_looksensitivityverticalADS_desc">Multiplicador (en porcentaje) de la velocidad vertical de la cámara al apuntar con la mira</string>
+	<string key="ui_looksensitivityhorizontalTurret">Multiplicador de sensibilidad horizontal de torretas</string>
+	<string key="ui_looksensitivityhorizontalTurret_desc">Multiplicador (en porcentaje) de la velocidad horizontal de la cámara al operar una torreta</string>
+	<string key="ui_looksensitivityverticalTurret">Multiplicador de sensibilidad vertical de torretas</string>
+	<string key="ui_looksensitivityverticalTurret_desc">Multiplicador (en porcentaje) de la velocidad vertical de la cámara al operar una torreta</string>
 	<string key="ui_leftdeadzone" rel_version="Feature_Controller">Zona muerta del joystick izquierdo</string>
 	<string key="ui_leftdeadzone_desc" rel_version="Feature_Controller">Configura el tamaño de la zona muerta del joystick izquierdo</string>
 	<string key="ui_rightdeadzone" rel_version="Feature_Controller">Zona muerta del joystick derecho</string>
 	<string key="ui_rightdeadzone_desc" rel_version="Feature_Controller">Configura el tamaño de la zona muerta del joystick derecho</string>
-	<string key="ui_joysticksensitivityhorizontal" rel_version="Feature_Controller">Sensibilidad horizontal</string>
-	<string key="ui_joysticksensitivityhorizontal_desc" rel_version="Feature_Controller">Indica la velocidad horizontal de la cámara</string>
-	<string key="ui_joysticksensitivityvertical" rel_version="Feature_Controller">Sensibilidad vertical</string>
-	<string key="ui_joysticksensitivityvertical_desc" rel_version="Feature_Controller">Indica la velocidad vertical de la cámara</string>
-	<string key="ui_joysticksensitivityhorizontalADS" rel_version="Feature_Controller">Sensibilidad horizontal al apuntar con la mira</string>
-	<string key="ui_joysticksensitivityhorizontalADS_desc" rel_version="Feature_Controller">Indica la velocidad horizontal de la cámara cuando apuntas con la mira</string>
-	<string key="ui_joysticksensitivityverticalADS" rel_version="Feature_Controller">Sensibilidad vertical al apuntar con la mira</string>
-	<string key="ui_joysticksensitivityverticalADS_desc" rel_version="Feature_Controller">Indica la velocidad vertical de la cámara cuando apuntas con la mira</string>
-	<string key="ui_joysticksensitivityhorizontalTurret" rel_version="Feature_Controller">Sensibilidad horizontal de torreta</string>
-	<string key="ui_joysticksensitivityhorizontalTurret_desc" rel_version="Feature_Controller">Indica la velocidad horizontal de la cámara cuando manejas una torreta</string>
-	<string key="ui_joysticksensitivityverticalTurret" rel_version="Feature_Controller">Sensibilidad vertical de torreta</string>
-	<string key="ui_joysticksensitivityverticalTurret_desc" rel_version="Feature_Controller">Indica la velocidad vertical de la cámara cuando manejas una torreta</string>
-	<string key="ui_joystickyaxisinvert" rel_version="Feature_Controller">Invertir eje vertical</string>
-	<string key="ui_joystickyaxisinvert_desc" rel_version="Feature_Controller">Indica si quieres invertir el eje vertical en las entradas de cámara</string>
 	<string key="ui_joystickedgeboost" rel_version="Feature_Controller">Multiplicador de potenciador de bordes</string>
 	<string key="ui_joystickedgeboost_desc" rel_version="Feature_Controller">Configura la velocidad de giro cuando el joystick alcanza su rango máximo de movimiento</string>
 	<string key="ui_joystickcurve" rel_version="Feature_Controller">Curva del joystick de la cámara</string>
@@ -134,12 +131,13 @@
 	<string key="ui_graphics_render_mode">Modo</string>
 	<string key="ui_graphics_render_mode_description">Ajusta si se prioriza el rendimiento o la calidad</string>
 	<string key="ui_graphics_temporalUpScaling_type">Ajuste de resolución</string>
-	<string key="ui_graphics_temporalUpScaling_type_description">Define si utilizar el ajuste de resolución.</string>
+	<string key="ui_graphics_temporalUpScaling_type_description">Establecer si deseas utilizar el escalado de resolución</string>
 	<string key="ui_graphics_temporalUpScaling_mode">Modo</string>
-	<string key="ui_graphics_temporalUpScaling_mode_description">Define el nivel de calidad del ajuste de resolución.</string>
+	<string key="ui_graphics_temporalUpScaling_mode_description">Establecer el nivel de calidad de escala de resolución</string>
 	<string key="ui_options_keybindings">Combinaciones de teclas</string>
-	<string key="ui_options_kbm_controls">Teclado y mouse</string>
+	<string key="ui_options_kbm_controls">Combinaciones de teclado y mouse</string>
 	<string key="ui_options_gameplay">Juego</string>
+	<string key="ui_options_kbam">Teclado y mouse</string>
 	<string key="ui_options_controller" rel_version="Feature_Controller">Control</string>
 	<string key="ui_options_visuals">Video</string>
 	<string key="ui_options_preferences">Preferencias</string>
@@ -205,7 +203,7 @@
 	<string key="ui_options_graphics_resolution2K">2K</string>
 	<string key="ui_options_graphics_resolution4K">4K</string>
 	<string key="ui_options_temporalUpscaling_off">Desactivado</string>
-	<string key="ui_options_temporalUpscaling_FSR">FSR</string>
+	<string key="ui_options_temporalUpscaling_FSR">FSR 3.1</string>
 	<string key="ui_options_temporalUpscaling_quality">Calidad</string>
 	<string key="ui_options_temporalUpscaling_balanced">Equilibrado</string>
 	<string key="ui_options_temporalUpscaling_performance">Rendimiento</string>
@@ -286,7 +284,7 @@
 	<string key="ui_subtitles_speakername_color">Color del nombre del hablante</string>
 	<string key="ui_subtitles_speakername_color_desc">Ajusta el color del nombre del hablante</string>
 	<string key="ui_subtitles_backing_opacity">Opacidad de los subtítulos</string>
-	<string key="ui_subtitles_backing_opacity_desc">Ajusta la opacidad de los subtítulos (en cero queda desactivada)</string>
+	<string key="ui_subtitles_backing_opacity_desc">Ajusta la opacidad del fondo de los subtítulos</string>
 	<string key="ui_subtitles_sample_speaker">Hablante</string>
 	<string key="ui_subtitles_sample" speaker="@ui_subtitles_sample_speaker">Este es un subtítulo de muestra.</string>
 	<string key="ui_dialogue_autoprogress">Progreso automático de diálogo</string>
@@ -328,8 +326,8 @@
 	<string key="ui_textSize_desc">Ajusta el tamaño de las placas de identificación y las pistas para interactuar</string>
 	<string key="ui_diegeticPinSize">Tamaño de marcador de ayuda de misión</string>
 	<string key="ui_diegeticPinSize_desc">Ajusta el tamaño del marcador de ayuda de misión en el juego</string>
-	<string key="ui_diegeticPinOpacity">Transparencia de marcador de ayuda de misión</string>
-	<string key="ui_diegeticPinOpacity_desc">Ajusta la transparencia del marcador de ayuda de misión en el juego</string>
+	<string key="ui_diegeticPinOpacity">Opacidad del marcador de ayuda de misión</string>
+	<string key="ui_diegeticPinOpacity_desc">Ajusta la opacidad del marcador de ayuda de misión en el juego</string>
 	<string key="ui_section_map">Mapa</string>
 	<string key="ui_options_map">Acercamiento automático</string>
 	<string key="ui_options_map_desc">Indica si prefieres hacer un acercamiento automático al abrir el mapa en un asentamiento o puesto de avanzada</string>
@@ -337,9 +335,9 @@
 	<string key="ui_options_textSize_bigger">Más grande</string>
 	<string key="ui_cameraShake">Sacudida de la cámara</string>
 	<string key="ui_cameraShake_desc">Indica si prefieres habilitar la sacudida de la cámara, que podría desorientar a ciertos jugadores</string>
-	<string key="ui_strafeCamera">Movimiento libre (teclado y mouse)</string>
+	<string key="ui_strafeCamera">Movimiento libre</string>
 	<string key="ui_strafeCamera_desc">Indica si prefieres que el personaje gire en la dirección de la entrada de movimiento</string>
-	<string key="ui_strafeCamera_gamepad" rel_version="Feature_Controller">Movimiento libre (control)</string>
+	<string key="ui_strafeCamera_gamepad" rel_version="Feature_Controller">Movimiento libre</string>
 	<string key="ui_strafeCamera_gamepad_desc" rel_version="Feature_Controller">Indica si prefieres que el personaje gire en la dirección de la entrada de movimiento</string>
 	<string key="ui_ping_modifier" rel_version="Feature_Controller">Modificador de ping</string>
 	<string key="ui_modifiedCurve" rel_version="Feature_Controller">Acercar/alejar cámara según la inclinación</string>
@@ -393,10 +391,8 @@
 	<string key="ui_rumble_desc" rel_version="Feature_Controller">Indica si prefieres habilitar las vibraciones del control</string>
 	<string key="ui_rumble_sensitivity" rel_version="Feature_Controller">Intensidad de vibración</string>
 	<string key="ui_rumble_sensitivity_desc" rel_version="Feature_Controller">Ajusta la intensidad de la vibración del control</string>
-	<string key="ui_attack_facing_camera_kbam_toggle" rel_version="Feature_Controller">Dirección de la cámara para los ataques cuerpo a cuerpo (teclado y mouse)</string>
-	<string key="ui_attack_facing_camera_kbam_toggle_desc" rel_version="Feature_Controller">Indica si quieres apuntar los ataques cuerpo a cuerpo usando la dirección de la cámara en lugar de la dirección de entrada/personaje</string>
-	<string key="ui_attack_facing_camera_gamepad_toggle" rel_version="Feature_Controller">Dirección de la cámara para los ataques cuerpo a cuerpo (control)</string>
-	<string key="ui_attack_facing_camera_gamepad_toggle_desc" rel_version="Feature_Controller">Indica si quieres apuntar los ataques cuerpo a cuerpo usando la dirección de la cámara en lugar de la dirección de entrada/personaje</string>
+	<string key="ui_attack_facing_camera_toggle" rel_version="Feature_Controller">Dirección de la cámara para los ataques cuerpo a cuerpo</string>
+	<string key="ui_attack_facing_camera_toggle_desc" rel_version="Feature_Controller">Indica si quieres apuntar los ataques cuerpo a cuerpo usando la dirección de la cámara en lugar de la dirección de entrada/personaje</string>
 	<string key="ui_enable_hudShowVitalsValues">Mostrar valores de signos vitales</string>
 	<string key="ui_enable_hudShowVitalsValues_decstription">Indica si se muestra el valor numérico de resistencia y maná</string>
 	<string key="ui_enable_hudAlwaysFade">Atenuación contextual</string>
@@ -426,8 +422,8 @@
 	<string key="ui_enable_camera_lock_group_mode">Modo de grupo</string>
 	<string key="ui_enable_camera_lock_group_mode_description">Indica si prefieres que solo se puedan seleccionar miembros del grupo o la incursión mientras apuntas con un bastón vital (esta opción se desactiva si la opción "Fijación de incursión mediante atajos [teclado y mouse]" está activada)</string>
 	<string key="ui_enable_target_mygroup_only_in_raid">Solo grupos en incursiones</string>
-	<string key="ui_enable_target_mygroup_only_in_raid_description">Indica si prefieres limitar la cantidad de aliados objetivos a miembros de tu grupo inmediato mientras el Modo de grupo está activado (esta opción se desactiva si "Fijación de incursión mediante grupos y atajos" está activada).</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Fijación de incursión mediante atajos (teclado y mouse)</string>
+	<string key="ui_enable_target_mygroup_only_in_raid_description">Indica si prefieres limitar la cantidad de aliados objetivos a miembros de tu grupo inmediato mientras el Modo de grupo está activado (esta opción se desactiva si "Fijación de incursión mediante grupos y atajos" está configurada en "Teclado y mouse").</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Fijación de incursión mediante atajos</string>
 	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Indica si prefieres seleccionar grupos de incursión con las asignaciones de teclas de Cambiar al objetivo de arriba/abajo y fijar a los miembros de la incursión con las asignaciones de teclas de "Seleccionar objetivos dentro de un grupo"</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud">Mostrar sugerencias de atajos del teclado en incursión</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Indica si prefieres visualizar sugerencias del atajo del teclado para cada miembro del grupo seleccionado mientras la fijación de incursión mediante grupos y atajos está activada</string>
@@ -557,7 +553,7 @@
 	<string key="ui_genaprompt_rename_required_confirm">Presiona {frontEndContinue} para confirmar.</string>
 	<string key="ui_genaprompt_rename_required_confirm_ps">Presiona el cuadrado para confirmar.</string>
 	<string key="ui_genaprompt_rename_required_confirm_xb">Presiona B para confirmar.</string>
-	<string key="ui_controllerRemap" rel_version="Feature_Controller">Control</string>
+	<string key="ui_controllerRemap" rel_version="Feature_Controller">Asignaciones del controlador</string>
 	<string key="ui_remapPopup_message" rel_version="Feature_Controller">Estás por realizar una asignación:\n&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionRemap} &lt;/font&gt;\n\nPresionar botón/botones para asignar:</string>
 	<string key="ui_consumable" rel_version="Feature_Controller">Consumibles</string>
 	<string key="ui_remapPopup_rebindConflict" rel_version="Feature_Controller">ya está asignado a otra acción. Si aceptas esta asignación, la otra\n acción quedará libre.\n&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;¿Confirmas que quieres asignar esta acción? &lt;/font&gt;</string>
@@ -583,10 +579,10 @@
 	<string key="ui_equip_loadout10" rel_version="Feature_Gear_Set_Storage">Equipar conjunto de equipo 10</string>
 	<string key="ui_section_crossplay" rel_version="Feature_Crossplay">Juego entre plataformas</string>
 	<string key="ui_options_enable_crossplay" rel_version="Feature_Crossplay">Activa el juego entre plataformas</string>
-	<string key="ui_options_enable_crossplay_desc" rel_version="Feature_Crossplay">Se puede cambiar en el menú principal.\nSi no se puede cambiar el ajuste, primero debes habilitar el juego entre plataformas en los ajustes de tu consola.</string>
+	<string key="ui_options_enable_crossplay_desc" rel_version="Feature_Crossplay">Se puede cambiar en el menú principal.\nSi no se puede cambiar el ajuste, primero debes habilitar el juego entre plataformas en los ajustes de tu consola. Los personajes que se hayan creado en una configuración no estarán disponibles cuando cambie esa configuración. Vuelve a activar o desactivar el Juego entre plataformas para jugar con estos personajes.</string>
 	<string key="ui_options_enable_crossplay_comms" rel_version="Feature_Crossplay">Comunicaciones en juego entre plataformas</string>
-	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Usa esta función para habilitar o inhabilitar la comunicación con jugadores que usen otras plataformas. Los personajes que se hayan creado en una configuración no estarán disponibles cuando cambie esa configuración. Vuelve a activar o desactivar el Juego entre plataformas para jugar con estos personajes.</string>
-	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Solo se puede acceder a esta opción cuando las comunicaciones están habilitadas en tu consola.\nUsa esta función para habilitar o deshabilitar el chat por voz y texto con jugadores que usen otras plataformas. Los personajes que se hayan creado en una configuración no estarán disponibles cuando cambie esa configuración.</string>
+	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Usa esta función para habilitar o inhabilitar la comunicación con jugadores que usen otras plataformas.</string>
+	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Solo se puede acceder a esta opción cuando las comunicaciones están habilitadas en tu consola.\nUsa esta función para habilitar o deshabilitar el chat por voz y texto con jugadores que usen otras plataformas.</string>
 	<string key="ui_options_crossplay_prompt_title" rel_version="Feature_Crossplay">Juego entre plataformas</string>
 	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">¿Confirmas que quieres habilitar el juego entre plataformas?\nRegresarás al menú principal.</string>
 	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">¿Confirmas que quieres inhabilitar el juego entre plataformas?\nRegresarás al menú principal.</string>
@@ -615,5 +611,20 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificadores</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Decorar casa</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menú</string>
+	<string key="ui_options_temporalUpscaling_sharpness">Nitidez</string>
+	<string key="ui_options_temporalUpscaling_sharpness_desc">Establecer la cantidad de nitidez</string>
+	<string key="ui_options_temporalUpscaling_native">Nativo (solo TAA)</string>
+	<string key="ui_hud_margin_right">Margen derecho del HUD</string>
+	<string key="ui_hud_margin_left_desc">Porcentaje de pantalla para empujar la parte izquierda del HUD hacia adentro</string>
+	<string key="ui_hud_margin_bottom">Margen inferior del HUD</string>
+	<string key="ui_hud_margin_top">Margen superior del HUD</string>
+	<string key="ui_hud_margin_top_desc">Porcentaje de pantalla para empujar la parte superior del HUD hacia adentro</string>
+	<string key="ui_hud_margin_left">Margen izquierdo del HUD</string>
+	<string key="ui_hud_scale_desc">Multiplicador de escala porcentual para elementos del HUD</string>
+	<string key="ui_hud_margin">Márgenes de HUD</string>
+	<string key="ui_hud_scale">Escala del HUD</string>
+	<string key="ui_hud_margin_desc">Opciones para ajustar dóndo se extiende el HUD</string>
+	<string key="ui_hud_margin_bottom_desc">Porcentaje de pantalla para empujar la parte inferior del HUD hacia adentro</string>
+	<string key="ui_hud_margin_right_desc">Porcentaje de pantalla para empujar la parte derecha del HUD hacia adentro</string>
 </resources>
 

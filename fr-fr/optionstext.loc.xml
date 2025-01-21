@@ -34,34 +34,31 @@
 	<string key="ui_section_graphics">Graphismes</string>
 	<string key="ui_section_advgraphics">Graphismes avancés</string>
 	<string key="ui_section_group">Plus d'options</string>
-	<string key="ui_section_controller" rel_version="Feature_Controller">Manette</string>
+	<string key="ui_section_gameplay_settings_for_device">Options de jeu</string>
 	<string key="ui_controlleroptions" rel_version="Feature_Controller">Options manette</string>
+	<string key="ui_section_camera_for_device">Caméra</string>
 	<string key="ui_section_controllercamera" rel_version="Feature_Controller">Caméra manette</string>
 	<string key="ui_controllercameraoptions" rel_version="Feature_Controller">Options caméra manette</string>
 	<string key="ui_voicechatsettings">Discussion vocale</string>
 	<string key="ui_openvoicechatsettings">Voir les paramètres</string>
-	<string key="ui_invertlook">Inverser caméra (clavier et souris)</string>
-	<string key="ui_invertlook_desc">Pour inverser l'axe vertical.</string>
-	<string key="ui_looksensitivity">Sensibilité de la caméra (clavier et souris)</string>
-	<string key="ui_looksensitivity_desc">Pour définir la vitesse de déplacement de la caméra.</string>
+	<string key="ui_invertlook">Inverser l'axe vertical</string>
+	<string key="ui_invertlook_desc">Pour inverser l'axe vertical en agissant sur la caméra.</string>
+	<string key="ui_looksensitivityhorizontal">Sensibilité horizontale</string>
+	<string key="ui_looksensitivityhorizontal_desc">Pour définir la vitesse générale de déplacement horizontal de la caméra.</string>
+	<string key="ui_looksensitivityvertical">Sensibilité verticale</string>
+	<string key="ui_looksensitivityvertical_desc">Pour définir la vitesse générale de déplacement vertical de la caméra.</string>
+	<string key="ui_looksensitivityhorizontalADS">Multiplicateur de la sensibilité horizontale en visant</string>
+	<string key="ui_looksensitivityhorizontalADS_desc">Multiplicateur (en pourcentage) de la vitesse de déplacement horizontal de la caméra en visant.</string>
+	<string key="ui_looksensitivityverticalADS">Multiplicateur de la sensibilité verticale en visant</string>
+	<string key="ui_looksensitivityverticalADS_desc">Multiplicateur (en pourcentage) de la vitesse de déplacement vertical de la caméra en visant.</string>
+	<string key="ui_looksensitivityhorizontalTurret">Multiplicateur de la sensibilité horizontale des tourelles</string>
+	<string key="ui_looksensitivityhorizontalTurret_desc">Multiplicateur (en pourcentage) de la vitesse de déplacement horizontal de la caméra en utilisant une tourelle.</string>
+	<string key="ui_looksensitivityverticalTurret">Multiplicateur de la sensibilité verticale des tourelles</string>
+	<string key="ui_looksensitivityverticalTurret_desc">Multiplicateur (en pourcentage) de la vitesse de déplacement vertical de la caméra en utilisant une tourelle.</string>
 	<string key="ui_leftdeadzone" rel_version="Feature_Controller">Zone neutre du joystick gauche</string>
 	<string key="ui_leftdeadzone_desc" rel_version="Feature_Controller">Pour définir la taille de la zone neutre du joystick gauche.</string>
 	<string key="ui_rightdeadzone" rel_version="Feature_Controller">Zone neutre du joystick droit</string>
 	<string key="ui_rightdeadzone_desc" rel_version="Feature_Controller">Pour définir la taille de la zone neutre du joystick droit.</string>
-	<string key="ui_joysticksensitivityhorizontal" rel_version="Feature_Controller">Sensibilité horizontale</string>
-	<string key="ui_joysticksensitivityhorizontal_desc" rel_version="Feature_Controller">Pour définir la vitesse de déplacement horizontale de la caméra.</string>
-	<string key="ui_joysticksensitivityvertical" rel_version="Feature_Controller">Sensibilité verticale</string>
-	<string key="ui_joysticksensitivityvertical_desc" rel_version="Feature_Controller">Pour définir la vitesse de déplacement verticale de la caméra.</string>
-	<string key="ui_joysticksensitivityhorizontalADS" rel_version="Feature_Controller">Sensibilité horizontale du viseur</string>
-	<string key="ui_joysticksensitivityhorizontalADS_desc" rel_version="Feature_Controller">Pour définir la vitesse horizontale de la caméra en visant.</string>
-	<string key="ui_joysticksensitivityverticalADS" rel_version="Feature_Controller">Sensibilité verticale du viseur</string>
-	<string key="ui_joysticksensitivityverticalADS_desc" rel_version="Feature_Controller">Pour définir la vitesse verticale de la caméra en visant.</string>
-	<string key="ui_joysticksensitivityhorizontalTurret" rel_version="Feature_Controller">Sensibilité horizontale de la tourelle</string>
-	<string key="ui_joysticksensitivityhorizontalTurret_desc" rel_version="Feature_Controller">Pour définir la vitesse horizontale de la caméra en manœuvrant une tourelle.</string>
-	<string key="ui_joysticksensitivityverticalTurret" rel_version="Feature_Controller">Sensibilité verticale de la tourelle</string>
-	<string key="ui_joysticksensitivityverticalTurret_desc" rel_version="Feature_Controller">Pour définir la vitesse verticale de la caméra en manœuvrant une tourelle.</string>
-	<string key="ui_joystickyaxisinvert" rel_version="Feature_Controller">Inverser l'axe vertical</string>
-	<string key="ui_joystickyaxisinvert_desc" rel_version="Feature_Controller">Pour inverser l'axe vertical en agissant sur la caméra.</string>
 	<string key="ui_joystickedgeboost" rel_version="Feature_Controller">Boost multiplicateur de butée</string>
 	<string key="ui_joystickedgeboost_desc" rel_version="Feature_Controller">Pour définir la vitesse de rotation lorsque le joystick touche la butée.</string>
 	<string key="ui_joystickcurve" rel_version="Feature_Controller">Étalonnage du joystick de la caméra</string>
@@ -134,12 +131,13 @@
 	<string key="ui_graphics_render_mode">Mode</string>
 	<string key="ui_graphics_render_mode_description">Pour privilégier la performance ou la qualité.</string>
 	<string key="ui_graphics_temporalUpScaling_type">Mise à l'échelle de la résolution</string>
-	<string key="ui_graphics_temporalUpScaling_type_description">Définit l’usage de la mise à l'échelle de la résolution.</string>
+	<string key="ui_graphics_temporalUpScaling_type_description">Définir si la mise à l’échelle de la résolution doit être utilisée</string>
 	<string key="ui_graphics_temporalUpScaling_mode">Mode</string>
-	<string key="ui_graphics_temporalUpScaling_mode_description">Définit le niveau de la mise à l’échelle de la résolution.</string>
+	<string key="ui_graphics_temporalUpScaling_mode_description">Définir le niveau de qualité de la mise à l’échelle de la résolution</string>
 	<string key="ui_options_keybindings">Raccourcis clavier</string>
-	<string key="ui_options_kbm_controls">Clavier et souris</string>
+	<string key="ui_options_kbm_controls">Attributions du clavier et de la souris</string>
 	<string key="ui_options_gameplay">Jeu</string>
+	<string key="ui_options_kbam">Clavier et souris</string>
 	<string key="ui_options_controller" rel_version="Feature_Controller">Manette</string>
 	<string key="ui_options_visuals">Vidéo</string>
 	<string key="ui_options_preferences">Préférences</string>
@@ -205,7 +203,7 @@
 	<string key="ui_options_graphics_resolution2K">2K</string>
 	<string key="ui_options_graphics_resolution4K">4K</string>
 	<string key="ui_options_temporalUpscaling_off">Non</string>
-	<string key="ui_options_temporalUpscaling_FSR">FSR</string>
+	<string key="ui_options_temporalUpscaling_FSR">FSR 3.1</string>
 	<string key="ui_options_temporalUpscaling_quality">Qualité</string>
 	<string key="ui_options_temporalUpscaling_balanced">Équilibré</string>
 	<string key="ui_options_temporalUpscaling_performance">Performance</string>
@@ -286,7 +284,7 @@
 	<string key="ui_subtitles_speakername_color">Couleur du nom du locuteur</string>
 	<string key="ui_subtitles_speakername_color_desc">Définissez la couleur du nom du personnage qui parle.</string>
 	<string key="ui_subtitles_backing_opacity">Arrière-plan des sous-titres</string>
-	<string key="ui_subtitles_backing_opacity_desc">Définissez l'opacité de l'arrière-plan des sous-titres (zéro pour désactiver).</string>
+	<string key="ui_subtitles_backing_opacity_desc">Définissez l'opacité de l'arrière-plan des sous-titres.</string>
 	<string key="ui_subtitles_sample_speaker">Locuteur</string>
 	<string key="ui_subtitles_sample" speaker="@ui_subtitles_sample_speaker">Ceci est un exemple de sous-titre.</string>
 	<string key="ui_dialogue_autoprogress">Progression automatique des dialogues</string>
@@ -328,8 +326,8 @@
 	<string key="ui_textSize_desc">Définissez la taille des noms et du guide des interactions.</string>
 	<string key="ui_diegeticPinSize">Taille de l'épingle de l'aide de quête</string>
 	<string key="ui_diegeticPinSize_desc">Définissez la taille des épingles vous offrant de l'aide en jeu pour les quêtes.</string>
-	<string key="ui_diegeticPinOpacity">Transparence de l'épingle de l'aide de quête</string>
-	<string key="ui_diegeticPinOpacity_desc">Définissez la transparence des épingles vous offrant de l'aide en jeu pour les quêtes.</string>
+	<string key="ui_diegeticPinOpacity">Opacité de l'épingle de l'aide de quête</string>
+	<string key="ui_diegeticPinOpacity_desc">Définissez l'opacité des épingles vous offrant de l'aide en jeu pour les quêtes.</string>
 	<string key="ui_section_map">Carte</string>
 	<string key="ui_options_map">Zoom auto</string>
 	<string key="ui_options_map_desc">Pour zoomer automatiquement sur la carte en l'ouvrant dans une colonie ou un avant-poste.</string>
@@ -337,9 +335,9 @@
 	<string key="ui_options_textSize_bigger">Grand</string>
 	<string key="ui_cameraShake">Tremblements de la caméra</string>
 	<string key="ui_cameraShake_desc">Pour activer les mouvements de la caméra qui sont susceptibles de désorienter certains joueurs.</string>
-	<string key="ui_strafeCamera">Déplacement libre (clavier et souris)</string>
+	<string key="ui_strafeCamera">Déplacement libre</string>
 	<string key="ui_strafeCamera_desc">Pour orienter le personnage suivant la direction du mouvement imprimé.</string>
-	<string key="ui_strafeCamera_gamepad" rel_version="Feature_Controller">Déplacement libre (manette)</string>
+	<string key="ui_strafeCamera_gamepad" rel_version="Feature_Controller">Déplacement libre</string>
 	<string key="ui_strafeCamera_gamepad_desc" rel_version="Feature_Controller">Pour orienter le personnage suivant la direction du mouvement imprimé.</string>
 	<string key="ui_ping_modifier" rel_version="Feature_Controller">Modificateur d'indications</string>
 	<string key="ui_modifiedCurve" rel_version="Feature_Controller">Zoom suivant l'inclinaison de la caméra</string>
@@ -393,10 +391,8 @@
 	<string key="ui_rumble_desc" rel_version="Feature_Controller">Pour activer les vibrations de la manette.</string>
 	<string key="ui_rumble_sensitivity" rel_version="Feature_Controller">Intensité des vibrations</string>
 	<string key="ui_rumble_sensitivity_desc" rel_version="Feature_Controller">Pour définir l'intensité des vibrations.</string>
-	<string key="ui_attack_facing_camera_kbam_toggle" rel_version="Feature_Controller">Direction de la caméra pour les attaques au corps à corps (clavier et souris)</string>
-	<string key="ui_attack_facing_camera_kbam_toggle_desc" rel_version="Feature_Controller">Pour orienter les attaques au corps à corps selon la direction de la caméra et non de l'orientation du personnage.</string>
-	<string key="ui_attack_facing_camera_gamepad_toggle" rel_version="Feature_Controller">Direction de la caméra pour les attaques au corps à corps (manette)</string>
-	<string key="ui_attack_facing_camera_gamepad_toggle_desc" rel_version="Feature_Controller">Pour orienter les attaques au corps à corps selon la direction de la caméra et non de l'orientation du personnage.</string>
+	<string key="ui_attack_facing_camera_toggle" rel_version="Feature_Controller">Direction de la caméra pour les attaques au corps à corps</string>
+	<string key="ui_attack_facing_camera_toggle_desc" rel_version="Feature_Controller">Pour orienter les attaques au corps à corps selon la direction de la caméra et non de l'orientation du personnage.</string>
 	<string key="ui_enable_hudShowVitalsValues">Afficher les statistiques vitales</string>
 	<string key="ui_enable_hudShowVitalsValues_decstription">Pour afficher les valeurs numériques de la vitalité et du mana.</string>
 	<string key="ui_enable_hudAlwaysFade">Estompage contextuel</string>
@@ -426,8 +422,8 @@
 	<string key="ui_enable_camera_lock_group_mode">Mode groupe</string>
 	<string key="ui_enable_camera_lock_group_mode_description">Pour ne faire défiler que les membres du groupe ou du raid en ciblant avec un bâton de vie. Cette option est désactivée si Ciblage d'assaut via raccourcis (clavier et souris) est activé.</string>
 	<string key="ui_enable_target_mygroup_only_in_raid">Groupe uniquement en assaut</string>
-	<string key="ui_enable_target_mygroup_only_in_raid_description">Pour limiter les alliés pouvant être ciblés aux membres de votre groupe proche lorsque Mode groupe est activé (cette option est désactivée si Ciblage d'assaut via groupes et raccourcis est activé).</string>
-	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Ciblage d'assaut via raccourcis (clavier et souris)</string>
+	<string key="ui_enable_target_mygroup_only_in_raid_description">Pour limiter les alliés pouvant être ciblés aux membres de votre groupe proche lorsque Mode groupe est activé (cette option est désactivée si Ciblage d'assaut via groupes et raccourcis est activé dans « Clavier et souris »).</string>
+	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey">Ciblage d'assaut via raccourcis</string>
 	<string key="ui_enable_camera_lock_select_raid_members_by_group_and_hotkey_description">Pour faire défiler dans les groupes de raid avec les attributions Parc. cibles H/B et cibler les membres de raid avec les attributions Cibler le membre du groupe.</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud">Afficher le guide des raccourcis lors des assauts</string>
 	<string key="ui_enable_show_healing_hotkeys_in_raid_hud_description">Pour afficher le guide des raccourcis pour chaque membre du groupe actuellement sélectionné lorsque Ciblage d'assaut via groupes et raccourcis est activé.</string>
@@ -557,7 +553,7 @@
 	<string key="ui_genaprompt_rename_required_confirm">Appuyez sur {frontEndContinue} pour confirmer.</string>
 	<string key="ui_genaprompt_rename_required_confirm_ps">Appuyez sur la touche carré pour confirmer.</string>
 	<string key="ui_genaprompt_rename_required_confirm_xb">Appuyez sur B pour confirmer.</string>
-	<string key="ui_controllerRemap" rel_version="Feature_Controller">Manette</string>
+	<string key="ui_controllerRemap" rel_version="Feature_Controller">Attributions de la manette</string>
 	<string key="ui_remapPopup_message" rel_version="Feature_Controller">Vous vous apprêtez à réattribuer :\n&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{actionRemap} &lt;/font&gt;\n\nAppuyer sur le ou les boutons pour attribuer :</string>
 	<string key="ui_consumable" rel_version="Feature_Controller">Consommables</string>
 	<string key="ui_remapPopup_rebindConflict" rel_version="Feature_Controller">est déjà attribué(e) à une autre action. Si vous acceptez cette attribution, l'autre\n sera supprimée.\n&lt;font color={color} face="lyshineui/fonts/Nimbus_Bold.font"&gt;Voulez-vous vraiment attribuer cette action ? &lt;/font&gt;</string>
@@ -583,10 +579,10 @@
 	<string key="ui_equip_loadout10" rel_version="Feature_Gear_Set_Storage">S'équiper de l'ensemble d'équipement 10</string>
 	<string key="ui_section_crossplay" rel_version="Feature_Crossplay">Multiplateforme</string>
 	<string key="ui_options_enable_crossplay" rel_version="Feature_Crossplay">Activer le jeu multiplateforme</string>
-	<string key="ui_options_enable_crossplay_desc" rel_version="Feature_Crossplay">Ce paramètre peut être modifié dans le menu principal.\nS'il n'est pas possible de le modifier, activez d'abord le mode multiplateforme dans les paramètres de votre console.</string>
+	<string key="ui_options_enable_crossplay_desc" rel_version="Feature_Crossplay">Ce paramètre peut être modifié dans le menu principal.\nS'il n'est pas possible de le modifier, activez d'abord le mode multiplateforme dans les paramètres de votre console. Les personnages créés pour un décor ne seront pas disponibles si le décor change. Activez le mode multiplateforme pour jouer avec ces personnages.</string>
 	<string key="ui_options_enable_crossplay_comms" rel_version="Feature_Crossplay">Communication multiplateforme</string>
-	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Cette option permet d'activer ou de désactiver la communication avec les joueurs des autres plateformes. Les personnages créés pour un décor ne seront pas disponibles si le décor change. Activez le mode multiplateforme pour jouer avec ces personnages.</string>
-	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Elle n'est accessible que si la communication est activée sur votre console.\nCette option permet d'activer ou de désactiver le chat textuel et vocal avec les joueurs des autres plateformes. Les personnages créés pour un décor ne seront pas disponibles si le décor change.</string>
+	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Cette option permet d'activer ou de désactiver la communication avec les joueurs des autres plateformes.</string>
+	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Elle n'est accessible que si la communication est activée sur votre console.\nCette option permet d'activer ou de désactiver le chat textuel et vocal avec les joueurs des autres plateformes.</string>
 	<string key="ui_options_crossplay_prompt_title" rel_version="Feature_Crossplay">Multiplateforme</string>
 	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">Voulez-vous vraiment activer le mode multiplateforme ?\nCette action vous redirigera vers le menu principal.</string>
 	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">Voulez-vous vraiment désactiver le mode multiplateforme ?\nCette action vous redirigera vers le menu principal.</string>
@@ -615,5 +611,20 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificateurs</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Décorer la maison</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menu</string>
+	<string key="ui_options_temporalUpscaling_sharpness">Netteté</string>
+	<string key="ui_options_temporalUpscaling_sharpness_desc">Définir la quantité de netteté</string>
+	<string key="ui_options_temporalUpscaling_native">Natif (TAA seulement)</string>
+	<string key="ui_hud_margin_right">Marge de l'ATH - Droite</string>
+	<string key="ui_hud_margin_left_desc">Pourcentage de l’écran pour pousser la gauche de l'ATH vers l’intérieur</string>
+	<string key="ui_hud_margin_bottom">Marge de l'ATH - Bas</string>
+	<string key="ui_hud_margin_top">Marge de l'ATH - Haut</string>
+	<string key="ui_hud_margin_top_desc">Pourcentage de l’écran pour pousser le haut de l'ATH vers l’intérieur</string>
+	<string key="ui_hud_margin_left">Marge de l'ATH - Gauche</string>
+	<string key="ui_hud_scale_desc">Multiplicateur d’échelle en pourcentage pour les éléments de l'ATH</string>
+	<string key="ui_hud_margin">Marges de l'ATH</string>
+	<string key="ui_hud_scale">Échelle de l'ATH</string>
+	<string key="ui_hud_margin_desc">Options pour ajuster l’étendue de l'ATH</string>
+	<string key="ui_hud_margin_bottom_desc">Pourcentage de l’écran pour pousser le bas de l'ATH vers l’intérieur</string>
+	<string key="ui_hud_margin_right_desc">Pourcentage de l’écran pour pousser la droite de l'ATH vers l’intérieur</string>
 </resources>
 
