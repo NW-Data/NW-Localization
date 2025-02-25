@@ -193,7 +193,7 @@
 	<string key="ui_affliction_insane">odporność na szaleństwo</string>
 	<string key="ui_affliction_inspired">inspiracja</string>
 	<string key="ui_affliction_poison">Odporność na kwas</string>
-	<string key="ui_affliction_poison_tooltip">Jeżeli zabraknie ci odporności na kwas, zaczniesz odczuwać skutki oparzenia kwasem, czyli otrzymywać 500% więcej obrażeń od kwasu. Oparzenie kwasem usuniesz przy pomocy nalewek kwasu, które można wytworzyć przy stanowisku arkanistycznym.</string>
+	<string key="ui_affliction_poison_tooltip">Jeżeli zabraknie ci odporności na kwas, zaczniesz odczuwać skutki oparzenia kwasem, czyli otrzymywać 500% więcej obrażeń od kwasu. Oparzenie kwasem usuniesz przy pomocy nalewek kwasu, które można wytworzyć w repozytorium arkanistycznym.</string>
 	<string key="ui_affliction_weakness">odporność na osłabienie</string>
 	<string key="ui_affliction_drowning">oddech</string>
 	<string key="ui_affliction_drowning_tooltip">Gdy postaci skończy się powietrze, udusi się.</string>
@@ -225,7 +225,7 @@
 	<string key="ui_afflicted_insane">obłęd</string>
 	<string key="ui_afflicted_inspired">inspiracja</string>
 	<string key="ui_afflicted_poison">Oparzenie kwasem</string>
-	<string key="ui_afflicted_poison_tooltip">Oparzenie kwasem sprawia, że otrzymujesz 500% więcej obrażeń od kwasu. Oparzenie kwasem usuniesz przy pomocy nalewek kwasu, które można wytworzyć przy stanowisku arkanistycznym.</string>
+	<string key="ui_afflicted_poison_tooltip">Oparzenie kwasem sprawia, że otrzymujesz 500% więcej obrażeń od kwasu. Oparzenie kwasem usuniesz przy pomocy nalewek kwasu, które można wytworzyć w repozytorium arkanistycznym.</string>
 	<string key="ui_afflicted_weakness">osłabienie</string>
 	<string key="ui_afflicted_drowning">tonięcie</string>
 	<string key="ui_afflicted_drowning_tooltip">Postać utopiła się.</string>
@@ -590,7 +590,7 @@
 	<string key="ui_craftingnearitemlimit">Prawie osiągnięto limit przedmiotów w ekwipunku. Wytworzone przedmioty mogą zostać upuszczone.</string>
 	<string key="ui_inventory_warning_toofullforrewards">Zbyt wiele przedmiotów w ekwipunku, by móc otrzymywać nagrody.</string>
 	<string key="ui_inventoryslotsremaining">Pozostałe unikalne miejsca na przedmioty w ekwipunku: {count}</string>
-	<string key="ui_inventoryweightremaining">pozostało {Weight}</string>
+	<string key="ui_inventoryweightremaining">pozostało &lt;img xPadding="2" src="LyShineUI/Images\Icons\Misc\Icon_weight.png"&gt;&lt;/img&gt;{Weight}</string>
 	<string key="ui_inventoryMaxWeight">Nadmierne przeciążenie</string>
 	<string key="ui_inventoryweight">WAGA</string>
 	<string key="ui_inventoryslots">UNIKALNE PRZEDMIOTY</string>
@@ -898,6 +898,11 @@
 	<string key="ui_sampletooltipnthistool">Próbny dymek pomocy\nTen dymek pomocy jest prostym okienkiem z ramką wyświetlającą sam tekst.</string>
 	<string key="ui_save">Zapisz</string>
 	<string key="ui_se">SE</string>
+	<string key="ui_dodgesuppressed_exhausted">Stłumiono unik – wyczerpanie</string>
+	<string key="ui_dodgesuppressed_stunned">Stłumiono unik – ogłuszenie</string>
+	<string key="ui_dodgesuppressed_staggered">Stłumiono unik – zachwianie</string>
+	<string key="ui_dodgesuppressed_sluggish" rel_version="PvPServerConquerorsItems">Stłumiono unik – ociężale, zaatakuj wroga, by usunąć efekt</string>
+	<string key="ui_unabletoBlock">Blok – stłumiono</string>
 	<string key="ui_shift_modifier_toggle_popup_title" rel_version="Feature_Controller">Aktualizuj przypisanie przycisków</string>
 	<string key="ui_shift_modifier_toggle_popup_message" rel_version="Feature_Controller">Przyciski związane z modyfikatorem są unikalne w tym trybie i nie można zmienić ich przypisania. Ustawienie przełączania modyfikatora usunie przypisanie wszystkich pozostałych czynności do tego przycisku. Kontynuować?</string>
 	<string key="ui_binding_controller_success" rel_version="Feature_Controller">Udało się zmienić przypisanie przycisku: {action}.</string>
@@ -1130,7 +1135,7 @@
 	<string key="ui_world_leave_world_confirm_message_houses">Twoje domy zostaną przeniesione</string>
 	<string key="ui_world_leave_world_confirm_message_end">Czy na pewno chcesz opuścić świat {worldName}?\n\nGdy opuścisz świat, możesz nie być w stanie do niego powrócić, dopóki nie zostanie odblokowany. Jedyną możliwością będzie wybór innego świata w tym regionie.</string>
 	<string key="ui_world_leave_world_failed_header">Przenoszenie postaci niedostępne</string>
-	<string key="ui_world_leave_world_failed_message">Darmowe przeniesienie postaci jest chwilowo niedostępne.</string>
+	<string key="ui_world_leave_world_failed_message">Darmowy transfer postaci jest chwilowo niedostępne.</string>
 	<string key="ui_world_free_transfer_tooltip_transfer_unavailable">Przenoszenie postaci jest aktualnie niedostępne.</string>
 	<string key="ui_world_free_transfer_tooltip_is_latent">Ta postać została już wybrana do przeniesienia</string>
 	<string key="ui_world_free_transfer_tooltip_cooldown">Przenoszenie postaci\nDostępne za: {time}</string>
@@ -1584,7 +1589,7 @@
 	<string key="ui_twitch_viewers">Widzowie</string>
 	<string key="ui_FullItemDisplayName" comment="May display like Uncommon Fine Sword Burning, sometimes type, material, or magic will be blank.">{itemName}({type}{material}{magic})</string>
 	<string key="ui_thousand_separator"> </string>
-	<string key="ui_decimal_separator">.</string>
+	<string key="ui_decimal_separator">,</string>
 	<string key="currency_ARS">ARS${amount}</string>
 	<string key="currency_AUD">A${amount}</string>
 	<string key="currency_BRL">R${amount}</string>
@@ -1867,6 +1872,7 @@
 	<string key="ui_repair_all_not_needed_equipment">Brak przedmiotów do naprawy.</string>
 	<string key="ui_repair_all_confirmation">Koszt naprawy:</string>
 	<string key="ui_repair_all_equipment_confirmation">Koszt naprawy:</string>
+	<string key="ui_equipment_damaged">Uszkodzenie wyposażenia</string>
 	<string key="ui_chat_mention_self_markup">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font" color="#ebe3d6"&gt;@{name}&lt;/font&gt;</string>
 	<string key="ui_and">i</string>
 	<string key="ui_or">Lub</string>
@@ -2038,7 +2044,7 @@
 	<string key="ui_resource_quantity">{resourceName} {qtyHave} / {qtyNeeded}</string>
 	<string key="ui_escapemenu_proceed_to_new_world">Pomiń samouczek</string>
 	<string key="ui_proceed_to_new_world_popup_title">Pomiń samouczek</string>
-	<string key="ui_proceed_to_new_world_popup_message">Czy na pewno chcesz pominąć samouczek?\nWszystkie monety i przedmioty oraz całe doświadczenie przepadną.</string>
+	<string key="ui_proceed_to_new_world_popup_message">Czy na pewno chcesz pominąć samouczek?</string>
 	<string key="ui_milestone_correction_popup_title">Zaktualizowano kamień milowy</string>
 	<string key="ui_milestone_correction_popup_message">Kamienie milowe wątku głównego uległy zmianie!\n\nAeternum nieustannie się zmienia. Twoja postać została przeniesiona, co wzbogaci twoje doświadczenie podczas wykonywania nowych zadań i zapoznawania się z nową historią.</string>
 	<string key="ui_ffa_movement_popup_title" rel_version="Territory_CutlassKeys_Rework">Wyłączono tryb KnK</string>
@@ -2048,7 +2054,7 @@
 	<string key="ui_ffa_area_label" rel_version="Territory_CutlassKeys_Rework">Obszar PvP trybu każdy na każdego</string>
 	<string key="ui_ffa_area_gameplay_desc" rel_version="Territory_CutlassKeys_Rework">Po wejściu do &lt;font color="#edc63e"&gt;Przeklętych Mgieł&lt;/font&gt; twoja postać zostanie oznaczona do trybu &lt;font color="#edc63e"&gt;PvP typu każdy na każdego&lt;/font&gt;.\n\nPo wyjściu oznaczenie zostanie zdjęte, a cenne przeklęte przedmioty, które zdobędziesz w środku, zostaną &lt;font color="#edc63e"&gt;oczyszczone&lt;/font&gt;.</string>
 	<string key="ui_ffa_area_gameplay_lore" rel_version="Territory_CutlassKeys_Rework">Przeklęte Mgły znajdują się tam, za Przejrzystym Uboczem. W tym parszywym miejscu ohydna chciwość rządzi wszystkim i wszystkimi. Gorączkowe poszukiwania skarbu trwają, a na tym wstrząsanym burzami wybrzeżu przyjaciele szybko zmieniają się we wrogów. Zbierz wszystkie &lt;font color="#edc63e"&gt;"przeklęte dublony"&lt;/font&gt; i &lt;font color="#edc63e"&gt;"przeklęte surowce"&lt;/font&gt;, które zagrabisz lub odkryjesz. Miarkujcie, podróżnicy – ta tchórzliwa ucieczka przez portal zostanie ukarana! Jeśli chcesz zachować swe łupy, musisz uciekać pieszo lub wierzchem.</string>
-	<string key="ui_ffa_item_warning" rel_version="Territory_CutlassKeys_Rework">Opuść obszar KnK , by oczyścić</string>
+	<string key="ui_ffa_item_warning" rel_version="Territory_CutlassKeys_Rework">Opuść obszar trybu każdy na każdego, by oczyścić ten przedmiot.</string>
 	<string key="ui_additional_items">+{count} przedmiotów</string>
 	<string key="ui_retest">Testuj ponownie</string>
 	<string key="ui_details">Szczegóły</string>
@@ -2366,7 +2372,7 @@
 	<string key="ui_ability_unavailable_parent_lastrow" comment="tooltip message when a weapon mastery node in the last row of the tree is not currently available to buy and has a specific requirement, {parent}">Wymaga: {parent}, odblokowania umiejętności w poprzednim rzędzie oraz 10 odblokowanych umiejętności na tym drzewku.</string>
 	<string key="ui_ability_selected" comment="tooltip message when a weapon mastery node has been selected but not committed to">Przypisz punkty, by odblokować.</string>
 	<string key="ui_weapon_mastery">Umiejętności</string>
-	<string key="ui_weapon_mastered">Broń – biegłość mistrzowska</string>
+	<string key="ui_weapon_mastered">Biegłość mistrzowska</string>
 	<string key="ui_tradeskill_mastered">Profesja – biegłość mistrzowska</string>
 	<string key="ui_weapon_mastery_level" comment="{level} for current mastery level, {maxLevel} for the highest possible">Poziom &lt;font color="#ebe3d6"&gt;{level}&lt;/font&gt; / {maxLevel}</string>
 	<string key="ui_Flail" rel_version="Weapon_Flail">Kiścień i tarcza</string>
@@ -2444,6 +2450,8 @@
 	<string key="ui_destroyBoundItemMessage">Ten przedmiot jest do ciebie przypisany. Jeśli go upuścisz, ulegnie zniszczeniu. Czy na pewno chcesz zniszczyć ten przedmiot?</string>
 	<string key="ui_destroyBoundItems">Zniszczyć przedmioty?</string>
 	<string key="ui_destroyBoundItemsMessage">Te przedmioty są do ciebie przypisane. Jeśli je upuścisz, ulegną zniszczeniu. Czy na pewno chcesz zniszczyć te przedmioty?</string>
+	<string key="ui_dropOnDeath">Upuszczane po śmierci</string>
+	<string key="ui_cannotBeRepaired">Nie można naprawić</string>
 	<string key="ui_bindOnPickup">Przypisz przy podniesieniu</string>
 	<string key="ui_bindOnEquip">Przypisz przy wyposażeniu</string>
 	<string key="ui_bindOnEquip_title">Przypisz przedmiot</string>
@@ -2490,7 +2498,7 @@
 	<string key="hwm_loot_flail">Biegłość – kiścień</string>
 	<string key="ui_time_display">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{time}&lt;/font&gt; ({timezone})</string>
 	<string key="ui_clusterwarning_title">WCHODZISZ DO: {worldName}</string>
-	<string key="ui_clusterwarning_region">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Region: {regionName}\n</string>
+	<string key="ui_clusterwarning_region">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Region: {regionName}</string>
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Możesz mieć tylko 1 postać w &lt;/font&gt; &lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt; zestawie światów: {worldSetName}&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt;.&lt;/font&gt;</string>
 	<string key="ui_clusterwarning_description1">Jeśli chcesz grać w innym świecie z zestawu {worldSetName}, musisz usunąć tę postać w świecie {worldName}.</string>
 	<string key="ui_clusterwarning_description2">Jeśli twoi znajomi grają w innych światach z zestawu {worldSetName}, nie będziecie mogli grać razem.</string>
@@ -2501,6 +2509,7 @@
 	<string key="ui_clusterwarning_transferoutonly">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Nie można przenosić postaci do tego świata.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Postacie można przenosić z tego świata.</string>
 	<string key="ui_clusterwarning_transferinonly">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Postacie można przenosić do tego świata.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Nie można przenosić postaci z tego świata.</string>
 	<string key="ui_clusterwarning_cannottransferinnorout">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Nie można przenosić postaci do tego świata.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Nie można przenosić postaci z tego świata.</string>
+	<string key="ui_clusterwarning_transferwarning">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Lista znajomych, kompania, projekty miasteczka, misje frakcyjne i oferty w faktorii nie zostaną przeniesione.</string>
 	<string key="ui_character_world_info">{worldName}</string>
 	<string key="ui_cannotPin_atMax">Nie można przypiąć kolejnych celów.</string>
 	<string key="ui_clusterwarning_body">&lt;font color="#ebe3d6"&gt;Możesz posiadać tylko 1 postać w grupie światów {worldSetName}.&lt;/font&gt;\n\nJeśli chcesz grać w innym świecie grupy {worldSetName}, musisz usunąć postać w świecie {worldName} i stworzyć nową w innym.\n\nJeśli twoi znajomi grają w innym świecie grupy {worldSetName}, nie będziecie mogli grać razem.</string>
@@ -2572,6 +2581,8 @@
 	<string key="ui_governing_propertytax">Kompania zarządzająca może pobierać opłatę za domy znajdujące się w osadzie.</string>
 	<string key="ui_nameplate_slider">Liczba tabliczek z imieniem</string>
 	<string key="ui_nameplate_slider_desc">Ustaw liczbę tabliczek z imieniem wyświetlanych na ekranie (niższe wartości zużywają mniej zasobów systemu)</string>
+	<string key="ui_nameplate_group_priority">Określenie priorytetów nazw grup</string>
+	<string key="ui_nameplate_group_priority_desc">Gdy opcja jest włączona, wyświetla nazwy członków grupy z pierwszeństwem przed wszystkimi innymi nazwami.</string>
 	<string key="ui_stat_bonus_single_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; {attribute1}</string>
 	<string key="ui_stat_bonus_multiple_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; {attribute1}\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount2}&lt;/font&gt; {attribute2}</string>
 	<string key="ui_stat_bonus">+{amount} {attribute}</string>
@@ -2640,7 +2651,7 @@
 	<string key="ui_faction_cant_cooldown">Nie możesz zmienić frakcji podczas okresu oczekiwania.\n{cooldown}</string>
 	<string key="ui_change_faction_warning">Gdy zmienisz frakcję, nie będzie można jej ponownie zmienić przez 30 dni. Zmiana frakcji zresetuje twoją rangę frakcyjną i żetony.</string>
 	<string key="ui_change_faction">Zmień frakcję</string>
-	<string key="ui_select_faction" rel_version="Feature_Faction_Selection">Zmień frakcję</string>
+	<string key="ui_select_faction" rel_version="Feature_Faction_Selection">Wybierz frakcję</string>
 	<string key="ui_change_faction_cooldown">Zmień frakcję\n{cooldown}</string>
 	<string key="ui_change_faction_azoth_cost">Zmień frakcję: {azothcost}</string>
 	<string key="ui_change_faction_desc">Czy na pewno chcesz zmienić frakcję na: {factionname}?\nZmiana frakcji zresetuje twoją rangę frakcyjną i żetony.\n\nGdy zmienisz frakcję, nie będzie można jej ponownie zmienić przez 30 dni.</string>
@@ -2816,6 +2827,7 @@
 	<string key="ui_itemtypedescription_dye">Barwnik</string>
 	<string key="ui_itemtypedescription_bag">Torba</string>
 	<string key="ui_itemtypedescription_consumable">Przedmiot użytkowy</string>
+	<string key="ui_itemtypedescription_consumable_survivalpotion">Przedmiot użytkowy – eliksir przetrwania</string>
 	<string key="ui_itemtypedescription_quest_item">Przedmiot fabularny</string>
 	<string key="ui_itemtypedescription_Key_item">Klucz do wydarzenia</string>
 	<string key="ui_itemtypedescription_furniture">Meble</string>
@@ -2842,27 +2854,27 @@
 	<string key="ui_gathering_disabled">Zbieranie jest obecnie niemożliwe</string>
 	<string key="ui_linktochat_disabled">Link do czatu jest teraz nieaktywny</string>
 	<string key="ui_autopinObjectivesMain">Automatycznie przypinaj zadania główne</string>
-	<string key="ui_autopinobjectivesMain_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania wątku głównego po ich przyjęciu</string>
+	<string key="ui_autopinobjectivesMain_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania wątku głównego po ich przyjęciu.</string>
 	<string key="ui_autopinObjectivesFactionStory">Automatycznie przypinaj zadania frakcji</string>
-	<string key="ui_autopinobjectivesFactionStory_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania frakcji po ich przyjęciu</string>
+	<string key="ui_autopinobjectivesFactionStory_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania frakcji po ich przyjęciu.</string>
 	<string key="ui_autopinObjectivesSkillProgression">Automatycznie przypinaj zadania dotyczące rozwoju umiejętności</string>
-	<string key="ui_autopinobjectivesSkillProgression_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania rozwoju umiejętności po ich przyjęciu</string>
+	<string key="ui_autopinobjectivesSkillProgression_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania rozwoju umiejętności po ich przyjęciu.</string>
 	<string key="ui_autopinObjectivesMountQuest">Automatycznie przypinaj zadania związane z wierzchowcem</string>
-	<string key="ui_autopinobjectivesMountQuest_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania związane z wierzchowcem po ich przyjęciu</string>
+	<string key="ui_autopinobjectivesMountQuest_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania związane z wierzchowcem po ich przyjęciu.</string>
 	<string key="ui_autopinObjectivesEpicEquipment">Automatycznie przypinaj zadania związane z epickim wyposażeniem</string>
-	<string key="ui_autopinobjectivesEpicEquipment_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania związane z epickim wyposażeniem po ich przyjęciu</string>
+	<string key="ui_autopinobjectivesEpicEquipment_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania związane z epickim wyposażeniem po ich przyjęciu.</string>
 	<string key="ui_autopinObjectivesSeasonQuest">Automatycznie przypinaj cele wątku sezonowego</string>
-	<string key="ui_autopinobjectivesSeasonQuest_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania wątku sezonowego po ich przyjęciu</string>
+	<string key="ui_autopinobjectivesSeasonQuest_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania wątku sezonowego po ich przyjęciu.</string>
 	<string key="ui_autopinObjectivesSide">Automatycznie przypinaj zadania wątku pobocznego</string>
-	<string key="ui_autopinobjectivesSide_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania wątku pobocznego po ich przyjęciu</string>
+	<string key="ui_autopinobjectivesSide_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania wątku pobocznego po ich przyjęciu.</string>
 	<string key="ui_autopinObjectivesFaction">Automatycznie przypinaj misje frakcyjne</string>
-	<string key="ui_autopinobjectivesFaction_desc">Wybierz, czy automatycznie przypinać do interfejsu misje frakcyjne po ich przyjęciu</string>
+	<string key="ui_autopinobjectivesFaction_desc">Wybierz, czy automatycznie przypinać do interfejsu misje frakcyjne po ich przyjęciu.</string>
 	<string key="ui_autopinobjectivesEvent">Automatycznie przypinaj zadania z wydarzeń</string>
-	<string key="ui_autopinobjectivesEvent_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania z wydarzeń po ich przyjęciu</string>
+	<string key="ui_autopinobjectivesEvent_desc">Wybierz, czy automatycznie przypinać do interfejsu zadania z wydarzeń po ich przyjęciu.</string>
 	<string key="ui_autopinObjectivesComm">Automatycznie przypinaj projekty miasteczka</string>
-	<string key="ui_autopinobjectivesComm_desc">Wybierz, czy automatycznie przypinać do interfejsu projekty miasteczka po ich przyjęciu</string>
+	<string key="ui_autopinobjectivesComm_desc">Wybierz, czy automatycznie przypinać do interfejsu projekty miasteczka po ich przyjęciu.</string>
 	<string key="ui_autopinObjectivesCrafting">Automatycznie przypinaj schematy</string>
-	<string key="ui_autopinobjectivesCrafting_desc">Wybierz, czy automatycznie przypinać do interfejsu schematy przypięte przy stanowisku rzemieślniczym</string>
+	<string key="ui_autopinobjectivesCrafting_desc">Wybierz, czy automatycznie przypinać do interfejsu schematy przypięte przy stanowisku do wytwarzania</string>
 	<string key="ui_auto_pin_toggle_on">Włącz autoprzypinanie</string>
 	<string key="ui_auto_pin_toggle_off">Wyłącz autoprzypinanie</string>
 	<string key="ui_auto_pin_toggle_label">Autoprzypinanie</string>
@@ -2872,8 +2884,8 @@
 	<string key="ui_treasury_purchase_nw">Kup New World: Aeternum, by móc korzystać ze skarbca kompanii</string>
 	<string key="ui_cannot_chat_global_blocked">Nie możesz rozmawiać na tym kanale, dopóki twoje konto nie będzie starsze niż {hoursNeeded} godz., a czas twojej rozgrywki dłuższy niż {playtimeNeeded}</string>
 	<string key="ui_complete_quests_to_unlock">Ukończ zadania w osadzie, by odblokować</string>
-	<string key="ui_interact_required_level">Musisz mieć {level}. poz., by móc tego użyć</string>
-	<string key="ui_cannot_chat_trading_blocked">Dostęp do kanału wymaga {playtimeNeeded} godz. gry, {hoursNeeded} godz. czasu istnienia konta i odblokowanej faktorii.</string>
+	<string key="ui_interact_required_level">Wymagany poziom {level}</string>
+	<string key="ui_cannot_chat_trading_blocked">Dostęp do kanału wymaga {playtimeNeeded} gry, {hoursNeeded} godz. czasu istnienia konta i odblokowanej faktorii.</string>
 	<string key="ui_averageexpertise">Biegłość</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;BIEGŁOŚĆ&lt;/font&gt;\nBiegłość służy do określania maksymalnej mocy używanego przedmiotu.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Maksymalna biegłość do osiągnięcia wynosi&lt;/font&gt;\n&lt;font color={highlightColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n\n&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;ZWIĘKSZANIE BIEGŁOŚCI&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Elitarne lokacje i ekspedycje&lt;/font&gt;\nŁupy upuszczane przez wrogów i znajdowane w skrzyniach w strefach powyżej 60. poziomu mają szansę na zwiększenie tej wartości.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Wytwarzanie&lt;/font&gt;\nWytworzenie przedmiotu mającego 600 pkt wyposażenia zwiększy biegłość w tym rodzaju przedmiotu.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Odlew gipsowy&lt;/font&gt;\nOtwarcie odlewu gipsowego zwiększy biegłość.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Ulepszenie przedmiotu (odłamkami umbralu)&lt;/font&gt;\nPo osiągnięciu 600 pkt biegłości jedynym sposobem na jej zwiększenie jest ulepszanie przedmiotów odłamkami umbralu.</string>
 	<string key="ui_itemtypedescription_shield_only">Tarcza</string>
@@ -2983,6 +2995,7 @@
 	<string key="attribution_Season_4" rel_version="Season_4_Perm">Sezon 4</string>
 	<string key="attribution_Season_5" rel_version="Season_5_Perm">Sezon 5</string>
 	<string key="attribution_Season_Pass" rel_version="Season_6_Perm">Przepustka sezonowa</string>
+	<string key="attribution_Seasonal_Item" rel_version="Feature_Seasonal_Servers">Przedmiot sezonowego świata</string>
 	<string key="ui_reset_daily_time">Resetuje się codziennie o {time}</string>
 	<string key="ui_reset_weekly_time">Resetuje się co tydzień o {time}</string>
 	<string key="ui_buy_new_world">Kup New World: Aeternum</string>
@@ -3055,6 +3068,7 @@
 	<string key="ui_expansion_name_expansion2023" comment="DO NOT TRANSLATE">[TMP] Expansion 2023</string>
 	<string key="ui_required_expansion_missing_tooltip" comment="DO NOT TRANSLATE">[TMP] Missing expansion: {expansion}</string>
 	<string key="ui_learn_more_about_required_expansion_buttontext">Więcej</string>
+	<string key="ui_learn_more">Więcej</string>
 	<string key="ui_horse_slot_unlock" rel_version="Feature_Mounts">Odblokowanie wierzchowca</string>
 	<string key="ui_horse_slot_unlock_description" rel_version="Feature_Mounts">Umożliwia korzystanie z wierzchowca.</string>
 	<string key="ui_ridingxp_description" rel_version="Feature_Mounts">Doświadczenie w dziedzinie jazdy.\n\nWyższe poziomy zapewniają dostęp do nagród i zwiększają prędkość poruszania się wierzchowca.</string>
@@ -3091,6 +3105,7 @@
 	<string key="ui_sort_by_end_date">Sortuj według daty końcowej</string>
 	<string key="ui_sort_by_price_low">Sortuj według ceny: Niska – wysoka</string>
 	<string key="ui_sort_by_price_high">Sortuj według ceny: Wysoka – niska</string>
+	<string key="ui_sort_by_type">Sortuj wg rodzaju</string>
 	<string key="ui_requirements">Wymagania</string>
 	<string key="ui_external_rewards">Zewnętrzne nagrody</string>
 	<string key="ui_ability_minimum_cooldown">{baseCooldown} (min. {minimumCooldown})</string>
@@ -3110,5 +3125,25 @@
 	<string key="ui_console_privacy_enabled">Nie możesz wykonać tej czynności z powodu ustawień prywatności na twojej konsoli.</string>
 	<string key="ui_blocked_player">Zablokowany gracz</string>
 	<string key="ui_blocked_company">Zablokowana kompania</string>
+	<string key="ui_mount_unlock" rel_version="Feature_Mounts">Wierzchowiec odblokowany</string>
+	<string key="ui_mount_unlock_acquisition" rel_version="Feature_Mounts">Ukończ "Królestwo za konia"</string>
+	<string key="ui_seasonal_worlds" rel_version="Feature_Seasonal_Servers">Sezonowe światy</string>
+	<string key="ui_seasonal_worlds_popup_header" rel_version="Feature_Seasonal_Servers">Wybierz rodzaj świata</string>
+	<string key="ui_seasonal_worlds_about_popup_description" rel_version="Feature_Seasonal_Servers">Sezonowe światy to nowa metoda doświadczania Aeternum i zarazem sposób na zdobycie unikalnych nagród przez ograniczony czas w trakcie każdego sezonu.\n\nW sezonowym świecie sezonu 7 wszyscy gracze zostaną automatycznie oznaczeni do PvP po osiągnięciu {level}. poziomu. Wytwórz wyposażenie zdobywcy lub zedrzyj je ze swych wrogów, by zdobyć unikalną, potężną broń i elementy wyposażenia, które zmienią zasady na polu bitwy.\n\nW sezonowych światach można ukończyć specjalną sezonową przygodę. By odblokować nagrody sezonowej przygody, kup w sklepie przepustkę bojową premium.</string>
+	<string key="ui_regular_character" rel_version="Feature_Seasonal_Servers">Standardowe</string>
+	<string key="ui_seasonal_character" rel_version="Feature_Seasonal_Servers">Sezonowe</string>
+	<string key="ui_regular_character_button_description" rel_version="Feature_Seasonal_Servers">Eksploruj Aeternum w klasyczny sposób. Stwórz postać w standardowym, trwałym świecie.</string>
+	<string key="ui_seasonal_character_button_description" rel_version="Feature_Seasonal_Servers">Stwórz postać w istniejącym przez ograniczony czas sezonowym świecie, w którym znajdziesz zarówno unikalne zasady, jak i unikalne nagrody.</string>
+	<string key="ui_seasonal_worlds_unavailable" rel_version="Feature_Seasonal_Servers">Sezonowe światy są niedostępne</string>
+	<string key="ui_seasonal_worlds_available" rel_version="Feature_Seasonal_Servers">Sezonowe światy są dostępne</string>
+	<string key="ui_seasonal_worlds_avaialble_until" rel_version="Feature_Seasonal_Servers">Koniec sezonu: {date} {time}</string>
+	<string key="ui_seasonal_worlds_ended" rel_version="Feature_Seasonal_Servers">Sezon zakończył się: {date} {time}</string>
+	<string key="ui_seasonal_worlds_available_24h" rel_version="Feature_Seasonal_Servers">Sezon zakończy się za &lt;img src="LyShineUI/Images/PUGFinder/Pugfinder_hourglass" xPadding="-4" scale="2.25" yOffset="8"&gt;&lt;/img&gt;{time}</string>
+	<string key="ui_seasonal_worlds_duration" rel_version="Feature_Seasonal_Servers">{timeStart} – {timeEnd}</string>
+	<string key="ui_seasonal_worlds_server_description" rel_version="Feature_Seasonal_Servers">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Gdy osiągniesz {level}. poziom w tym świecie, otrzymasz permanentne oznaczenie do PvP.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; W świecie {worldName} można tworzyć wyłącznie nowe postacie.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Nie można przenosić postaci do tego sezonowego świata.</string>
+	<string key="ui_seasonal_worlds_server_duration" rel_version="Feature_Seasonal_Servers">Dostępny od {dateStart} {timeStart} do {dateEnd} {timeEnd}</string>
+	<string key="ui_seasonal_worlds_tooltip" rel_version="Feature_Seasonal_Servers">W tym świecie PvP możesz tworzyć grupy i zawiązywać kompanie tylko z graczami należącymi do tej samej frakcji co ty. Wybierz tę samą frakcję, co twoi znajomi, by móc grać razem z nimi.\n\nMożesz zmienić frakcję podczas rozgrywki.</string>
+	<string key="ui_external_rewards_no_tooltip">Brak dostępnych nagród.</string>
+	<string key="ui_deathsdoortimer">Pozostały czas, po którym będzie można się poddać: {DeathQueueNumber}</string>
 </resources>
 

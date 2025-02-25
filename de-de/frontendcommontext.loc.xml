@@ -174,6 +174,7 @@
 	<string key="mm_csdkerr_registration_unmarshal_error">Datenfehler auf dem Server. Suche bitte nach einem aktuellen Patch.</string>
 	<string key="mm_csdkerr_disconnect">Unerwartete Servertrennung. Verbindungsaufbau ...</string>
 	<string key="mm_csdkerr_replicate_timeout">Zeitüberschreitung während der Statussynchronisierung. Überprüfe deine Netzwerkeinstellungen und stelle sicher, dass du genügend Bandbreite zum Spielen hast.</string>
+	<string key="mm_csdkerr_server_requires_anticheat">Für diese Welt wird EAC (Easy Anti-Cheat) benötigt. Bitte starte das Spiel neu und aktiviere EAC.</string>
 	<string key="mm_csdkerr_registration_failed_retry">Serververbindung fehlgeschlagen</string>
 	<string key="mm_connerr_rep_registration_timeout">Verbindung zum Server nicht möglich. Überprüfe deine Internetverbindung und Netzwerkeinstellungen, um sicherzustellen, dass du genügend Bandbreite zum Spielen hast, und versuche es erneut.</string>
 	<string key="mm_connerr_game_timeout">Zeitüberschreitung, während auf Spielgeschehen auf dem Server gewartet wurde. Überprüfe deine Netzwerkeinstellungen, um sicherzustellen, dass du genügend Bandbreite zum Spielen hast.</string>
@@ -207,6 +208,8 @@
 	<string key="mm_rejected_Free_Session_Expired">Deine Gratisspielzeit ist beendet. Du kehrst nun zum Hauptmenü zurück.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">Das Anmelde-Ticket ist für diese Welt nicht gültig.</string>
 	<string key="mm_rejected_Player_Not_Entitled_To_World">Zugriff verweigert: Du hast keine Berechtigung für diese Spielwelt.</string>
+	<string key="mm_rejected_Character_Temporarily_Unavailable">Dein Charakter ist vorübergehend nicht verfügbar. Verbindungsaufbau ...</string>
+	<string key="mm_rejected_Destination_World_Unavailable">Serverfehler: Zielwelt nicht verfügbar. Verbindungsaufbau ...</string>
 	<string key="mm_rejected_Matchmaking_Login">Melde dich wieder an, um dem Match beizutreten.</string>
 	<string key="mm_rejected_Client_Kicked_Title">Vom Server getrennt</string>
 	<string key="mm_rejected_Client_Kicked_NoMessage">Du wurdest aus dem Spiel geworfen.</string>
@@ -240,7 +243,8 @@
 	<string key="mm_rejected_Client_Kicked_Partial_Ban">Du wurdest teilweise gesperrt.</string>
 	<string key="mm_rejected_Client_Kicked_Partial_Ban_Muted">Du wurdest stummgeschaltet.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Du wurdest aus dem Spiel geworfen.</string>
-	<string key="mm_rejected_Client_Expansion2023_Ownership">Dein Charakter ist momentan gesperrt. &lt;font color="#506AD0"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Expansion kaufen&lt;/a&gt;&lt;/font&gt;</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Dein Charakter ist momentan gesperrt. &lt;font color="#506AD0"&gt;&lt;a action="OpenLanguageSpecificUrl" data="@url_expansion2023_purchase"&gt;Expansion kaufen&lt;/a&gt;&lt;/font&gt;</string>
+	<string key="mm_rejected_Client_Kicked_Server_Error">Deine Verbindung wurde aufgrund eines vorübergehenden Serverfehlers unterbrochen.</string>
 	<string key="mm_authresult_Authorized">Erfolg</string>
 	<string key="mm_characterCreateDisabled">Die Charaktererstellung ist vorübergehend deaktiviert. Die Welt ist zu voll. Bitte versuche, den Charakter auf einer anderen Welt zu erstellen.</string>
 	<string key="mm_characterTransferDisabled">Der Charaktertransfer ist für diese Welt vorübergehend deaktiviert, weil sie voll ist. Bitte versuche es auf einer anderen Welt.</string>
@@ -368,6 +372,7 @@
 	<string key="ui_cantDropCursedItem" rel_version="Territory_CutlassKeys_Rework">Verfluchte Gegenstände können nicht fallen gelassen werden</string>
 	<string key="ui_destroyCursedItem" rel_version="Territory_CutlassKeys_Rework">Verfluchten Gegenstand zerstören</string>
 	<string key="ui_destroyCursedItemDrop" rel_version="Territory_CutlassKeys_Rework">Alle verfluchten Gegenstände werden zerstört.\nFortfahren?</string>
+	<string key="ui_cantDropPvpServer" rel_version="PvPServerConquerorsItems">Gegenstände vom Typ Eroberer oder ätherisch können nicht abgelegt werden.</string>
 	<string key="ui_navmenu_progression">CHARAKTER</string>
 	<string key="ui_bio">Biografie</string>
 	<string key="ui_attributes">Attribute</string>
@@ -516,7 +521,7 @@
 	<string key="ui_weaving">Weberei</string>
 	<string key="ui_stonecutting">Steinmetzkunst</string>
 	<string key="ui_masonry">Steinmetztisch</string>
-	<string key="ui_masonry_desc">Hier kannst du Stein und Edelsteine veredeln.</string>
+	<string key="ui_masonry_desc">Hier kannst du Gestein veredeln.</string>
 	<string key="ui_smelter">Schmelzofen</string>
 	<string key="ui_smelter_desc">Hier kannst du Metalle veredeln.</string>
 	<string key="ui_building">Demnächst verfügbar</string>
@@ -654,7 +659,7 @@
 	<string key="minspec_processor">Prozessor:</string>
 	<string key="minspec_storage">Speicherplatz:</string>
 	<string key="minspec_os">OS:</string>
-	<string key="minspec_os_win7_warning">Achtung: Es wurde Windows 7 erkannt. Support von New World: Aeternum funktioniert am besten unter Windows 10 oder höher. Dies könnte eine bestmögliches Spielerlebnis verhindern.</string>
+	<string key="minspec_os_win7_warning">Achtung: Es wurde Windows 7 erkannt. New World: Aeternum funktioniert am besten unter Windows 10 oder höher. Dies könnte eine bestmögliches Spielerlebnis verhindern.</string>
 	<string key="minspec_fail_try_again">Bitte schau ins Fehlerprotokoll, um zu bestimmen, welche Mindestanforderung nicht erfüllt wird.</string>
 	<string key="ui_rename_character">Charakter-Umbenennung</string>
 	<string key="ui_rename">Umbenennen</string>
@@ -723,7 +728,7 @@
 	<string key="error_banned">{message}\n\nGrund:[{reason}]</string>
 	<string key="error_perm_ban">Endgültige Sperre</string>
 	<string key="error_temp_ban">Vorübergehende Sperrung</string>
-	<string key="error_world_select_server_down">Während der Wartung einer Welt, kannst du diese nicht auswählen.</string>
+	<string key="error_world_select_server_down">Wartungsarbeiten im Gang. Versuche es später erneut.</string>
 	<string key="error_loading_assets_title">Fehler beim Laden von Spielobjekten</string>
 	<string key="error_loading_assets_message">Spielobjekte konnten nicht geladen werden! Bitte überprüfe deine Installation.</string>
 	<string key="ui_musician" rel_version="Feature_MusicalPerformances">Musiker</string>
@@ -741,16 +746,16 @@
 	<string key="ui_crossplay_popup_prompt_title" rel_version="Feature_Crossplay">CROSSPLAY</string>
 	<string key="ui_crossplay_popup_prompt_message" rel_version="Feature_Crossplay">In deinen Konsoleneinstellungen wurde die Crossplay-Funktion deaktiviert!\n\nBitte ändere dies in deinen Konsoleneinstellungen, um die folgenden Vorteile zu genießen:\n\nWeltübergreifende Aktivitäten\nErweiterte Serveroptionen und kürzere Wartezeiten\nBegegnungen mit Spielern und Freunden anderer Spielplattformen</string>
 	<string key="ui_gena_onoff">Kommentar ein-/ausschalten</string>
-	<string key="ui_entered_crossplay_world_notification" rel_version="Feature_Crossplay">Du hast eine Crossplay-Welt betreten</string>
+	<string key="ui_entered_crossplay_world_notification" rel_version="Feature_Crossplay">Du hast eine Crossplay-Welt betreten.</string>
 	<string key="ui_scan_qr_code">QR-Code scannen</string>
 	<string key="ui_scan_qr_code_instructions">Scanne den QR-Code mit der Kamera deines Geräts.</string>
 	<string key="ui_scan_qr_code_help_label">Support von New World: Aeternum</string>
 	<string key="ui_scan_qr_code_newsletter_label">Newsletter</string>
-	<string key="ui_scan_qr_code_appeal_a_ban_label">Support von New World: Aeternum</string>
+	<string key="ui_scan_qr_code_appeal_a_ban_label">New World: Aeternum</string>
 	<string key="ui_scan_qr_code_news_tile">New World: Neues aus Aeternum</string>
 	<string key="ui_low_flex_mem_title">Warnung</string>
 	<string key="ui_low_flex_mem">Wenig freier Kernel-Speicher</string>
-	<string key="ui_kick_trial_full_game_purchased">Danke, dass du New World: Aeternum gekauft hast.</string>
 	<string key="ui_kick_trial_full_game_purchased_title">Spiel gekauft</string>
+	<string key="ui_kick_trial_full_game_purchased">Danke, dass du New World: Aeternum gekauft hast.</string>
 </resources>
 

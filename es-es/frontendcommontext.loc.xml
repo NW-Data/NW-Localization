@@ -174,6 +174,7 @@
 	<string key="mm_csdkerr_registration_unmarshal_error">Error de datos del servidor. Busca un parche.</string>
 	<string key="mm_csdkerr_disconnect">Desconexión inesperada del servidor. Reconectando...</string>
 	<string key="mm_csdkerr_replicate_timeout">Se acabó el tiempo de espera mientras se sincronizaba el estado. Comprueba tus ajustes de red y verifica si tienes suficiente ancho de banda para jugar.</string>
+	<string key="mm_csdkerr_server_requires_anticheat">Para jugar a New World se requiere el EAC. Comprueba que has iniciado el juego con el EAC.</string>
 	<string key="mm_csdkerr_registration_failed_retry">No se ha podido conectar con el servidor</string>
 	<string key="mm_connerr_rep_registration_timeout">No se puede conectar con el servidor. Comprueba tu conexión a internet y tus ajustes de red para verificar si tienes suficiente ancho de banda para jugar y vuelve a intentarlo.</string>
 	<string key="mm_connerr_game_timeout">Se acabó el tiempo de espera de la partida en el servidor. Comprueba tus ajustes de red y verifica si tienes suficiente ancho de banda para jugar.</string>
@@ -207,6 +208,8 @@
 	<string key="mm_rejected_Free_Session_Expired">Se ha agotado el tiempo para jugar gratuitamente. Volverás al menú principal.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">La solicitud de inicio de sesión no es válida para el mundo</string>
 	<string key="mm_rejected_Player_Not_Entitled_To_World">Acceso denegado: No tienes permiso para este mundo del juego.</string>
+	<string key="mm_rejected_Character_Temporarily_Unavailable">Tu personaje no está disponible temporalmente. Reconectando...</string>
+	<string key="mm_rejected_Destination_World_Unavailable">Error del servidor: Mundo de destino no disponible. Reconectando...</string>
 	<string key="mm_rejected_Matchmaking_Login">Vuelve a conectarte para unirte a la partida.</string>
 	<string key="mm_rejected_Client_Kicked_Title">Expulsado</string>
 	<string key="mm_rejected_Client_Kicked_NoMessage">Se te ha expulsado del juego.</string>
@@ -240,7 +243,8 @@
 	<string key="mm_rejected_Client_Kicked_Partial_Ban">Se te ha prohibido el acceso parcialmente.</string>
 	<string key="mm_rejected_Client_Kicked_Partial_Ban_Muted">Se te ha silenciado.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Se te ha expulsado del juego.</string>
-	<string key="mm_rejected_Client_Expansion2023_Ownership">Tu personaje está bloqueado ahora mismo. &lt;font color="#506AD0"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Compra la expansión.&lt;/a&gt;&lt;/font&gt;</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Tu personaje está bloqueado ahora mismo. &lt;font color="#506AD0"&gt;&lt;a action="OpenLanguageSpecificUrl" data="@url_expansion2023_purchase"&gt;Compra la expansión.&lt;/a&gt;&lt;/font&gt;</string>
+	<string key="mm_rejected_Client_Kicked_Server_Error">Tu conexión se ha interrumpido debido a un error temporal del servidor.</string>
 	<string key="mm_authresult_Authorized">Éxito</string>
 	<string key="mm_characterCreateDisabled">Este mundo está lleno, por lo que la creación de personajes se ha deshabilitado temporalmente. Inténtalo en otro mundo.</string>
 	<string key="mm_characterTransferDisabled">Este mundo está lleno, por lo que la transferencia de personajes se ha deshabilitado temporalmente. Inténtalo en otro mundo.</string>
@@ -368,6 +372,7 @@
 	<string key="ui_cantDropCursedItem" rel_version="Territory_CutlassKeys_Rework">No se pueden soltar objetos malditos</string>
 	<string key="ui_destroyCursedItem" rel_version="Territory_CutlassKeys_Rework">Destruir objeto maldito</string>
 	<string key="ui_destroyCursedItemDrop" rel_version="Territory_CutlassKeys_Rework">Se destruirán todos los objetos malditos.\n¿Continuar?</string>
+	<string key="ui_cantDropPvpServer" rel_version="PvPServerConquerorsItems">No se pueden soltar objetos de imperiales o etéreos.</string>
 	<string key="ui_navmenu_progression">PERSONAJE</string>
 	<string key="ui_bio">Biografía</string>
 	<string key="ui_attributes">Atributos</string>
@@ -516,7 +521,7 @@
 	<string key="ui_weaving">Hilado</string>
 	<string key="ui_stonecutting">Cantería</string>
 	<string key="ui_masonry">Mesa de cantería</string>
-	<string key="ui_masonry_desc">Refina piedra y gemas aquí.</string>
+	<string key="ui_masonry_desc">Refina piedra aquí.</string>
 	<string key="ui_smelter">Fundición</string>
 	<string key="ui_smelter_desc">Refina metal aquí.</string>
 	<string key="ui_building">Próximamente</string>
@@ -723,7 +728,7 @@
 	<string key="error_banned">{message}\n\nMotivo: [{reason}]</string>
 	<string key="error_perm_ban">Prohibición permanente</string>
 	<string key="error_temp_ban">Prohibición temporal</string>
-	<string key="error_world_select_server_down">No puedes seleccionar un mundo mientras esté en mantenimiento.</string>
+	<string key="error_world_select_server_down">El mundo está en mantenimiento. Inténtalo de nuevo más adelante.</string>
 	<string key="error_loading_assets_title">Error al cargar los recursos del juego</string>
 	<string key="error_loading_assets_message">¡Error al cargar los recursos del juego! Comprueba la instalación.</string>
 	<string key="ui_musician" rel_version="Feature_MusicalPerformances">Músico</string>
@@ -736,7 +741,7 @@
 	<string key="ui_season_track_reward" rel_version="Feature_Seasons_Rewards">Recompensas no reclamadas</string>
 	<string key="error_cross_world_maintenance_title">Mantenimiento del servidor</string>
 	<string key="error_cross_world_maintenance_message">Se te ha enviado al mundo abierto por mantenimiento del servidor.</string>
-	<string key="tradeskill_skillcap_info">Nivel máximo de hab. de oficio: {maxRank}</string>
+	<string key="tradeskill_skillcap_info">Nivel máximo de habilidades de oficio: {maxRank}</string>
 	<string key="tradeskill_skillcap_tooltip">Compra {expansionName} para aumentar el nivel máximo de habilidades de oficio a {maxRank}.</string>
 	<string key="ui_crossplay_popup_prompt_title" rel_version="Feature_Crossplay">MULTIPLATAFORMA</string>
 	<string key="ui_crossplay_popup_prompt_message" rel_version="Feature_Crossplay">¡Tu consola tiene la funcionalidad de juego multiplataforma desactivada!\n\nCambia este ajuste en la configuración de la consola para poder disfrutar de:\n\nActividades de mundo múltiple\nMás opciones de servidor y tiempos de espera en cola reducidos\nEncontrarte con jugadores y amigos de otras plataformas de juego</string>
@@ -746,11 +751,11 @@
 	<string key="ui_scan_qr_code_instructions">Escanea el código QR con la cámara de tu dispositivo.</string>
 	<string key="ui_scan_qr_code_help_label">New World: Aetérnum</string>
 	<string key="ui_scan_qr_code_newsletter_label">Boletín</string>
-	<string key="ui_scan_qr_code_appeal_a_ban_label">New World: Aetérnum</string>
-	<string key="ui_scan_qr_code_news_tile">New World: Noticias de Aetérnum</string>
+	<string key="ui_scan_qr_code_appeal_a_ban_label">Asistencia de New World: Aetérnum</string>
+	<string key="ui_scan_qr_code_news_tile">Noticias de New World: Aetérnum</string>
 	<string key="ui_low_flex_mem_title">Aviso</string>
 	<string key="ui_low_flex_mem">Memoria del núcleo baja</string>
-	<string key="ui_kick_trial_full_game_purchased">Gracias por comprar New World: Aetérnum.</string>
 	<string key="ui_kick_trial_full_game_purchased_title">Juego comprado</string>
+	<string key="ui_kick_trial_full_game_purchased">Gracias por comprar New World: Aetérnum.</string>
 </resources>
 

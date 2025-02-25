@@ -204,10 +204,13 @@
 	<string key="ui_options_graphics_resolution4K">4K</string>
 	<string key="ui_options_temporalUpscaling_off">Aus</string>
 	<string key="ui_options_temporalUpscaling_FSR">FSR 3.1</string>
+	<string key="ui_options_temporalUpscaling_native">Nativ (nur TAA)</string>
 	<string key="ui_options_temporalUpscaling_quality">Qualität</string>
 	<string key="ui_options_temporalUpscaling_balanced">Ausgewogen</string>
 	<string key="ui_options_temporalUpscaling_performance">Leistung</string>
 	<string key="ui_options_temporalUpscaling_ultraperformance">Höchste Leistung</string>
+	<string key="ui_options_temporalUpscaling_sharpness">Bildschärfe</string>
+	<string key="ui_options_temporalUpscaling_sharpness_desc">Bildschärfe festlegen</string>
 	<string key="ui_options_requires_restart">Die Änderung der Einstellungen wird beim nächsten Spielstart übernommen.</string>
 	<string key="ui_options_take_exit_survey">Teilnahme an der Umfrage</string>
 	<string key="ui_options_take_exit_survey_desc">Nimm an einer kurzen Umfrage beim Verlassen des Spiels teil, um dein Feedback abzugeben.</string>
@@ -242,6 +245,7 @@
 	<string key="ui_language_desc">Lege die Textsprache fest.</string>
 	<string key="ui_language_audio">Audiosprache</string>
 	<string key="ui_language_audio_desc">Besuche die Support-Website von New World: Aeternum, um herauszufinden, wie du die Audiosprache ändern kannst.</string>
+	<string key="system-language" comment="Use the language set on the platform's OS.">Systemsprache verwenden</string>
 	<string key="en-US">English</string>
 	<string key="fr-FR">Français</string>
 	<string key="it-IT">Italiano</string>
@@ -349,7 +353,7 @@
 	<string key="ui_alwaysShowReticle">Zielkreis immer anzeigen</string>
 	<string key="ui_alwaysShowReticle_desc">Lege fest, ob der Zielkreis auch dann angezeigt werden soll, wenn deine Waffe nicht gezückt ist.</string>
 	<string key="ui_toggleblockads">Zum Zielen und Blocken antippen</string>
-	<string key="ui_toggleblockads_desc">Lege fest, ob Zielen und Blocken durch Antippen der Eingabebefehle aktiviert werden soll, anstatt durch Gedrückthalten.</string>
+	<string key="ui_toggleblockads_desc">Lege fest, ob Zielen und Blocken durch Antippen der Eingabebefehle aktiviert werden\nsoll, anstatt durch Gedrückthalten.</string>
 	<string key="ui_enable_ally_team_color_tinting">Farbtönung für verbündete Teams</string>
 	<string key="ui_enable_enemy_team_color_tinting">Farbtönung für gegnerische Teams</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Lege fest, ob die Team-Farbtönung für Verbündete in Spielmodi aktiviert werden soll.</string>
@@ -376,7 +380,7 @@
 	<string key="ui_outputconfiguration">Ausgabekonfiguration</string>
 	<string key="ui_outputconfiguration_desc">Lege fest, ob die Audioausgabe auf 360-Grad-Surround-Sound fürs Heimkino und 180-Grad-Sound für Kopfhörer eingestellt werden soll.</string>
 	<string key="ui_texttospeech">Text-zu-Sprache</string>
-	<string key="ui_texttospeech_desc">Lege fest, ob Text-zu-Sprache (Vorlesefunktion) für eingehende Chat-Nachrichten aktiviert werden soll.</string>
+	<string key="ui_texttospeech_desc">Lege fest, ob Text-zu-Sprache (Vorlesefunktion) für eingehende Chat-Nachrichten aktiviert\nwerden soll.</string>
 	<string key="ui_tts_rate">Text-zu-Sprache-Geschwindigkeit</string>
 	<string key="ui_tts_rate_desc">Lege die Geschwindigkeit von Text-zu-Sprache-Nachrichten fest.</string>
 	<string key="ui_tts_volume">Text-zu-Sprache-Lautstärke</string>
@@ -416,7 +420,7 @@
 	<string key="ui_enable_camera_lock_sticky_lock">Anhaftende Zielerfassung</string>
 	<string key="ui_enable_camera_lock_sticky_lock_description">Lege fest, ob das Ziel auch nach der Heilung beibehalten werden soll.</string>
 	<string key="ui_enable_camera_lock_when_starting_healing">Kamera bei Heilung auf Ziel zentrieren</string>
-	<string key="ui_enable_camera_lock_when_starting_healing_description">Lege fest, ob die Kamera bei Einsatz einer Lebensstabs-Heilungsfähigkeit auf das Ziel zentriert werden soll.</string>
+	<string key="ui_enable_camera_lock_when_starting_healing_description">Lege fest, ob die Kamera bei Einsatz einer Lebensstab-Heilungsfähigkeit auf das Ziel zentriert werden soll.</string>
 	<string key="ui_enable_camera_lock_swap_toggle" rel_version="Feature_Controller">Taste für das Anvisieren von Gegnern und Verbündeten mit dem Lebensstab tauschen</string>
 	<string key="ui_enable_camera_lock_swap_toggle_description" rel_version="Feature_Controller">Lege fest, ob die Tastenbelegung für das Anvisieren von Verbündeten und Gegnern bei Verwendung des Lebensstabs getauscht werden soll.</string>
 	<string key="ui_enable_camera_lock_group_mode">Gruppenmodus</string>
@@ -584,8 +588,8 @@
 	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Mit dieser Funktion kannst du die Kommunikation mit Spielern auf anderen Plattformen aktivieren oder deaktivieren.</string>
 	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Auf diese Option kannst du nur zugreifen, wenn die Kommunikation über deine Konsole aktiviert ist.\nMit dieser Funktion kannst du den Text- und Sprach-Chat mit Spielern auf anderen Plattformen aktivieren oder deaktivieren.</string>
 	<string key="ui_options_crossplay_prompt_title" rel_version="Feature_Crossplay">Crossplay</string>
-	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">Möchtest du Crossplay wirklich aktivieren?\n Dadurch kehrst du zum Hauptmenü zurück.</string>
-	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">Möchtest du Crossplay wirklich deaktivieren?\n Dadurch kehrst du zum Hauptmenü zurück.</string>
+	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">Möchtest du Crossplay wirklich aktivieren?\nDadurch kehrst du zum Hauptmenü zurück.</string>
+	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">Möchtest du Crossplay wirklich deaktivieren?\nDadurch kehrst du zum Hauptmenü zurück.</string>
 	<string key="ui_tutorial_classification" rel_version="Feature_Player_Tutorials">Tutorials</string>
 	<string key="ui_tutorial_classification_desc" rel_version="Feature_Player_Tutorials">Häufigkeit von Tutorials einstellen</string>
 	<string key="ui_classification_basic" rel_version="Feature_Player_Tutorials">Standard</string>
@@ -594,11 +598,25 @@
 	<string key="ui_reset_tutorials" rel_version="Feature_Player_Tutorials">Tutorials zurücksetzen</string>
 	<string key="ui_reset_tutorials_desc" rel_version="Feature_Player_Tutorials">Setzt alle Tutorials zurück, sodass dir auch die Tutorials wieder angezeigt werden, die du bereits gesehen hast.</string>
 	<string key="ui_reset_tutorials_confirmation" rel_version="Feature_Player_Tutorials">Möchtest du wirklich alle Tutorials zurücksetzen?</string>
+	<string key="ui_enable_network_status_icons">Netzwerkqualität-Symbole einblenden</string>
+	<string key="ui_enable_network_status_icons_desc">Lege fest, ob bei schlechter Netzwerkqualität Symbole im HUD angezeigt werden sollen.</string>
 	<string key="ui_hud_layout">HUD-Layout</string>
 	<string key="ui_hud_layout_desc">Wähle eine andere Positionierung für die Elemente der Benutzeroberfläche</string>
 	<string key="ui_hud_layout_1">Standard</string>
 	<string key="ui_hud_layout_2">Erhöhte Balken</string>
 	<string key="ui_hud_layout_3">Seite an Seite</string>
+	<string key="ui_hud_scale">HUD-Skala</string>
+	<string key="ui_hud_scale_desc">Prozentsatz-Multiplikatoren für HUD-Elemente</string>
+	<string key="ui_hud_margin">HUD-Ränder</string>
+	<string key="ui_hud_margin_desc">Einstellungsoptionen, um die Größe des HUDs anzupassen</string>
+	<string key="ui_hud_margin_top">HUD-Rand oben</string>
+	<string key="ui_hud_margin_top_desc">Prozentsatz des Bildschirms, um den der obere Teil des HUD nach innen geschoben wird</string>
+	<string key="ui_hud_margin_right">HUD-Rand rechts</string>
+	<string key="ui_hud_margin_right_desc">Prozentsatz des Bildschirms, um den der rechte Teil des HUD nach innen geschoben wird</string>
+	<string key="ui_hud_margin_bottom">HUD-Rand unten</string>
+	<string key="ui_hud_margin_bottom_desc">Prozentsatz des Bildschirms, um den der untere Teil des HUD nach innen geschoben wird</string>
+	<string key="ui_hud_margin_left">HUD-Rand links</string>
+	<string key="ui_hud_margin_left_desc">Prozentsatz des Bildschirms, um den der linke Teil des HUD nach innen geschoben wird</string>
 	<string key="ui_reticle_color_white">Weiß</string>
 	<string key="ui_reticle_color_red">Rot</string>
 	<string key="ui_reticle_color_orange">Orange</string>
@@ -611,20 +629,5 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modifikatoren</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Haus dekorieren</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menü</string>
-	<string key="ui_options_temporalUpscaling_sharpness">Bildschärfe</string>
-	<string key="ui_options_temporalUpscaling_sharpness_desc">Bildschärfe festlegen</string>
-	<string key="ui_options_temporalUpscaling_native">Nativ (nur TAA)</string>
-	<string key="ui_hud_margin_right">HUD-Rand rechts</string>
-	<string key="ui_hud_margin_left_desc">Prozentsatz des Bildschirms, um den der linke Teil des HUD nach innen geschoben wird</string>
-	<string key="ui_hud_margin_bottom">HUD-Rand unten</string>
-	<string key="ui_hud_margin_top">HUD-Rand oben</string>
-	<string key="ui_hud_margin_top_desc">Prozentsatz des Bildschirms, um den der obere Teil des HUD nach innen geschoben wird</string>
-	<string key="ui_hud_margin_left">HUD-Rand links</string>
-	<string key="ui_hud_scale_desc">Prozentsatz-Multiplikatoren für HUD-Elemente</string>
-	<string key="ui_hud_margin">HUD-Ränder</string>
-	<string key="ui_hud_scale">HUD-Skala</string>
-	<string key="ui_hud_margin_desc">Einstellungsoptionen, um die Größe des HUDs anzupassen</string>
-	<string key="ui_hud_margin_bottom_desc">Prozentsatz des Bildschirms, um den der untere Teil des HUD nach innen geschoben wird</string>
-	<string key="ui_hud_margin_right_desc">Prozentsatz des Bildschirms, um den der rechte Teil des HUD nach innen geschoben wird</string>
 </resources>
 

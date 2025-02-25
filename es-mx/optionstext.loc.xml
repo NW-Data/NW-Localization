@@ -204,10 +204,13 @@
 	<string key="ui_options_graphics_resolution4K">4K</string>
 	<string key="ui_options_temporalUpscaling_off">Desactivado</string>
 	<string key="ui_options_temporalUpscaling_FSR">FSR 3.1</string>
+	<string key="ui_options_temporalUpscaling_native">Nativo (solo TAA)</string>
 	<string key="ui_options_temporalUpscaling_quality">Calidad</string>
 	<string key="ui_options_temporalUpscaling_balanced">Equilibrado</string>
 	<string key="ui_options_temporalUpscaling_performance">Rendimiento</string>
 	<string key="ui_options_temporalUpscaling_ultraperformance">Ultrarrendimiento</string>
+	<string key="ui_options_temporalUpscaling_sharpness">Nitidez</string>
+	<string key="ui_options_temporalUpscaling_sharpness_desc">Establecer la cantidad de nitidez</string>
 	<string key="ui_options_requires_restart">Esta configuración se aplicará la próxima vez que se inicie el juego</string>
 	<string key="ui_options_take_exit_survey">Realizar una encuesta al salir</string>
 	<string key="ui_options_take_exit_survey_desc">Realiza una encuesta breve para compartir tu opinión cuando salgas del juego</string>
@@ -242,6 +245,7 @@
 	<string key="ui_language_desc">Ajusta el dioma del texto</string>
 	<string key="ui_language_audio">Idioma del audio</string>
 	<string key="ui_language_audio_desc">Visita el sitio web de ayuda de New World: Aeternum para ver cómo cambiar el idioma del audio</string>
+	<string key="system-language" comment="Use the language set on the platform's OS.">Usar idioma del sistema</string>
 	<string key="en-US">English</string>
 	<string key="fr-FR">Français</string>
 	<string key="it-IT">Italiano</string>
@@ -416,8 +420,8 @@
 	<string key="ui_enable_camera_lock_sticky_lock">Bloqueo adherente</string>
 	<string key="ui_enable_camera_lock_sticky_lock_description">Indica si prefieres habilitar la conservación del objetivo después de realizar una sanación</string>
 	<string key="ui_enable_camera_lock_when_starting_healing">Fijar cámara al objetivo al sanar</string>
-	<string key="ui_enable_camera_lock_when_starting_healing_description">Establece si se debe activar la fijación de cámara cuando se comience una habilidad de bastón vital</string>
-	<string key="ui_enable_camera_lock_swap_toggle" rel_version="Feature_Controller">Cambia la entrada del bloqueo de objetivo de enemigos y aliados con el bastón vital</string>
+	<string key="ui_enable_camera_lock_when_starting_healing_description">Indica si prefieres habilitar la fijación de cámara cuando se inicie una habilidad de sanación con bastón vital</string>
+	<string key="ui_enable_camera_lock_swap_toggle" rel_version="Feature_Controller">Cambia la entrada de fijación de objetivo de enemigos y aliados con el bastón vital</string>
 	<string key="ui_enable_camera_lock_swap_toggle_description" rel_version="Feature_Controller">Indica si quieres cambiar combinaciones para el bloqueo de objetivo de aliados y enemigos con el bastón vital</string>
 	<string key="ui_enable_camera_lock_group_mode">Modo de grupo</string>
 	<string key="ui_enable_camera_lock_group_mode_description">Indica si prefieres que solo se puedan seleccionar miembros del grupo o la incursión mientras apuntas con un bastón vital (esta opción se desactiva si la opción "Fijación de incursión mediante atajos [teclado y mouse]" está activada)</string>
@@ -594,11 +598,25 @@
 	<string key="ui_reset_tutorials" rel_version="Feature_Player_Tutorials">Restablecer tutoriales</string>
 	<string key="ui_reset_tutorials_desc" rel_version="Feature_Player_Tutorials">Restablece todos los tutoriales y te permite ver lo que ya has visto</string>
 	<string key="ui_reset_tutorials_confirmation" rel_version="Feature_Player_Tutorials">¿Confirmas que quieres restablecer todos los tutoriales?</string>
+	<string key="ui_enable_network_status_icons">Habilitar los íconos de estabilidad de red</string>
+	<string key="ui_enable_network_status_icons_desc">Indica si prefieres que aparezcan los íconos del HUD cuando la conexión de red no sea buena</string>
 	<string key="ui_hud_layout">Diseño de HUD</string>
 	<string key="ui_hud_layout_desc">Elige diferentes posiciones para elementos del HUD</string>
 	<string key="ui_hud_layout_1">Predeterminado</string>
 	<string key="ui_hud_layout_2">Medidores en la parte superior</string>
 	<string key="ui_hud_layout_3">Uno junto a otro</string>
+	<string key="ui_hud_scale">Escala del HUD</string>
+	<string key="ui_hud_scale_desc">Multiplicador de escala porcentual para elementos del HUD</string>
+	<string key="ui_hud_margin">Márgenes de HUD</string>
+	<string key="ui_hud_margin_desc">Opciones para ajustar dóndo se extiende el HUD</string>
+	<string key="ui_hud_margin_top">Margen superior del HUD</string>
+	<string key="ui_hud_margin_top_desc">Porcentaje de pantalla para empujar la parte superior del HUD hacia adentro</string>
+	<string key="ui_hud_margin_right">Margen derecho del HUD</string>
+	<string key="ui_hud_margin_right_desc">Porcentaje de pantalla para empujar la parte derecha del HUD hacia adentro</string>
+	<string key="ui_hud_margin_bottom">Margen inferior del HUD</string>
+	<string key="ui_hud_margin_bottom_desc">Porcentaje de pantalla para empujar la parte inferior del HUD hacia adentro</string>
+	<string key="ui_hud_margin_left">Margen izquierdo del HUD</string>
+	<string key="ui_hud_margin_left_desc">Porcentaje de pantalla para empujar la parte izquierda del HUD hacia adentro</string>
 	<string key="ui_reticle_color_white">Blanco</string>
 	<string key="ui_reticle_color_red">Rojo</string>
 	<string key="ui_reticle_color_orange">Naranja</string>
@@ -611,20 +629,5 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificadores</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Decorar casa</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menú</string>
-	<string key="ui_options_temporalUpscaling_sharpness">Nitidez</string>
-	<string key="ui_options_temporalUpscaling_sharpness_desc">Establecer la cantidad de nitidez</string>
-	<string key="ui_options_temporalUpscaling_native">Nativo (solo TAA)</string>
-	<string key="ui_hud_margin_right">Margen derecho del HUD</string>
-	<string key="ui_hud_margin_left_desc">Porcentaje de pantalla para empujar la parte izquierda del HUD hacia adentro</string>
-	<string key="ui_hud_margin_bottom">Margen inferior del HUD</string>
-	<string key="ui_hud_margin_top">Margen superior del HUD</string>
-	<string key="ui_hud_margin_top_desc">Porcentaje de pantalla para empujar la parte superior del HUD hacia adentro</string>
-	<string key="ui_hud_margin_left">Margen izquierdo del HUD</string>
-	<string key="ui_hud_scale_desc">Multiplicador de escala porcentual para elementos del HUD</string>
-	<string key="ui_hud_margin">Márgenes de HUD</string>
-	<string key="ui_hud_scale">Escala del HUD</string>
-	<string key="ui_hud_margin_desc">Opciones para ajustar dóndo se extiende el HUD</string>
-	<string key="ui_hud_margin_bottom_desc">Porcentaje de pantalla para empujar la parte inferior del HUD hacia adentro</string>
-	<string key="ui_hud_margin_right_desc">Porcentaje de pantalla para empujar la parte derecha del HUD hacia adentro</string>
 </resources>
 

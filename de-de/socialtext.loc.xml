@@ -129,7 +129,7 @@
 	<string key="ui_leave_group">Gruppe verlassen</string>
 	<string key="ui_voice_chat">Sprachchat</string>
 	<string key="ui_blocked">Ignoriert</string>
-	<string key="ui_blocked_player">Spieler erfolgreich blockiert</string>
+	<string key="ui_blocked_player_notification">Spieler erfolgreich blockiert</string>
 	<string key="ui_unblocked_player">Blockierung des Spielers erfolgreich aufgehoben</string>
 	<string key="ui_muted">Stumm</string>
 	<string key="ui_muted_player">Spieler erfolgreich stummgeschaltet</string>
@@ -241,6 +241,7 @@
 	<string key="ui_noOnline_group_body">Du kannst Spieler mithilfe ihres Spielernamens suchen.</string>
 	<string key="ui_noOnline_guild_header">Freunde werden für die Einladung in die Kompanie benötigt.</string>
 	<string key="ui_noOnline_guild_body">Du kannst Spieler mithilfe ihres Spielernamens suchen.</string>
+	<string key="ui_guild_motd_changed">Die Nachricht des von {guildName} wurde aktualisiert:\n{message}</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_noOnline_raid_header">Es ist niemand online, den du zum Raubzug einladen könntest.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_noOnline_raid_body">Du kannst Spieler mithilfe ihres Spielernamens suchen.</string>
 	<string key="ui_reporter_make_good_title">Danke für deine Meldung!</string>
@@ -369,6 +370,9 @@
 	<string key="ui_notification_pvp_track_flagging_message">Wenn du für PvP markiert bist, kannst du andere für PvP markierte Spieler angreifen sowie von diesen angegriffen werden. &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Für Tötungen kannst du Azoth-Salz und PvP-EP bekommen.&lt;/font&gt; \nAußerdem erhältst du folgende Boni: &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;+10 % EP, +3 % Sammlerglück, +1 % Globales Glück&lt;/font&gt; für große und Elitetruhen. \n\nNach Verlassen der Zufluchtsstätte hast du &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{duration} Schutzzeit&lt;/font&gt;.</string>
 	<string key="ui_notification_pvp_checkpoint_unlocked">Kontrollpunkt freigeschaltet</string>
 	<string key="ui_notification_pvp_reward_options">Belohnungsoptionen ansehen</string>
+	<string key="ui_notification_pvp_always_on_notification">Die PvP-Markierung kann in dieser Welt nicht ausgeschaltet werden.</string>
+	<string key="ui_notification_pvp_always_on_leave_group_title">Für PvP markieren</string>
+	<string key="ui_notification_pvp_always_on_leave_group_text">Du verlässt sämtliche Gruppen, Raubzüge und Warteschlangen.</string>
 	<string key="ui_notification_ffa_flagging_message" rel_version="Territory_CutlassKeys_Rework">Solange du als "Frei-für-alle" markiert bist, kannst du alle anderen Spielercharaktere angreifen, die dies ebenfalls sind. \n\nWenn du den Frei-für-alle-Bereich verlässt, verlieren alle deine &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;verfluchten Dublonen und Rohstoffe&lt;/font&gt; den Status "Verflucht".</string>
 	<string key="ui_notification_ffa_flagged" rel_version="Territory_CutlassKeys_Rework">Als "Frei-für-alle" markiert.</string>
 	<string key="ui_notification_ffa_flagged_left_group" rel_version="Territory_CutlassKeys_Rework">Als "Frei-für-alle" markiert: Gruppe verlassen</string>
@@ -457,6 +461,7 @@
 	<string key="ui_request_unfriend_failed">Freundschaftsaufkündigungsanfrage fehlgeschlagen.</string>
 	<string key="ui_social">Soziales</string>
 	<string key="ui_social_friends">Freunde</string>
+	<string key="ui_social_platform_friends">Xbox-Freunde</string>
 	<string key="ui_social_group">Gruppe</string>
 	<string key="ui_social_twitch">Twitch</string>
 	<string key="ui_streamermode_enabled">Bitte-nicht-stören-Modus aktiviert.</string>
@@ -472,24 +477,25 @@
 	<string key="group_member_cannot_join_expedition">{playerName} ist nicht berechtigt, an der Expedition teilzunehmen.</string>
 	<string key="self_cannot_join_expedition">Teilnahme an der Expedition nicht möglich</string>
 	<string key="required_level_warning">Erfordert Stufe {level}</string>
-	<string rel_version="Feature_Shards" key="social_phasing_group_invite_change_shards_title">Splitter beitreten?</string>
+	<string rel_version="Feature_Shards" key="social_phasing_group_invite_change_shards_title">Diesem Splitter beitreten?</string>
 	<string rel_version="Feature_Shards" key="social_phasing_group_invite_change_shards_message">Dein Gruppenkamerad ist auf einem anderen Splitter und daher nicht sichtbar. Möchtest du dem Splitter von {playerName} aus deiner Gruppe beitreten?\n\nAchtung: Unbeanspruchte Beutetaschen gehen beim Splitterwechsel verloren.</string>
 	<string rel_version="Feature_Shards" key="ui_shards">Splitter</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_player_to_shard_pfh">Zum Splitter einladen</string>
 	<string rel_version="Feature_Shards" key="social_phasing_join_shard_pfh">Splitter beitreten</string>
 	<string rel_version="Feature_Shards" key="social_phasing_join_shard_popup">Möchtest du deinen aktuellen Splitter verlassen und dem von {playerName} beitreten?\n\nAchtung: Unbeanspruchte Beutetaschen gehen beim Splitterwechsel verloren.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_player_invited_to_shard">{playerName} wurde zu deinem Splitter eingeladen.</string>
-	<string rel_version="Feature_Shards" key="social_phasing_receive_invite_to_shard">{playerName} hat dich eingeladen, seinem/ihren Splitter  beizutreten.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_receive_invite_to_shard">{playerName} hat dich zum eigenen Splitter eingeladen.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_receive_invite_to_shard_title">Splittereinladung</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_failed">Splittereinladung fehlgeschlagen. Versuche es bitte erneut.</string>
-	<string rel_version="Feature_Shards" key="social_phasing_invite_eligibility_failed">Du kannste momentan keine Splitter wechseln.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_eligibility_failed">Du kannst momentan deinen Splitter nicht wechseln.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_unknown_error">Ein unbekannter Fehler ist aufgetreten.</string>
-	<string rel_version="Feature_Shards" key="social_phasing_invite_canceled">Splittereinladung abgesagt.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_canceled">Splittereinladung abgebrochen.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_player_blocked">Spieler ist gesperrt. Splittereinladung fehlgeschlagen.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_player_declined">Splittereinladung abgelehnt.</string>
-	<string rel_version="Feature_Shards" key="social_phasing_invite_fast_travel_failed">Splittereinladung aufgrund laufender Schnellreise fehlgeschlagen.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_fast_travel_failed">Splittereinladung aufgrund aktiver Schnellreise fehlgeschlagen.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_message_throttled">Splittereinladungsnachricht gedrosselt. Versuche es bitte erneut.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_recipient_pvp_flagged">Der Spieler ist für PvP markiert und kann den Splitter deshalb nicht wechseln.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_recipient_in_combat">Der Spieler befindet sich im Kampf und kann den Splitter deshalb nicht wechseln.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_not_currently_in_a_shard">Du befindest dich zurzeit in keinem in Splitter unterteilten Gebiet.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_remote_player_not_in_shard">Dieser Spieler ist in keinem Splitter, dem du beitreten kannst.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_different_sectors">Du bist nicht im gleichen Splitter-Gebiet wie dieser Spieler.</string>
@@ -613,7 +619,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip">Du musst eine Rolle auswählen.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_none_accepted_tooltip">Du musst mindestens 1 Rolle akzeptieren.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_confirm_disabled_tooltip_queue">Du kannst einer Lobby nicht beitreten, während du dich in einer Warteschlange im Spielmodus befindest.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in">Angebot festlegen</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in">Rolle festlegen</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in_disabled_tooltip">Du musst eine Rolle auswählen, die noch nicht ihr erlaubtes Maximum erreicht hat.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_lock_in_disabled_min_not_met_tooltip">Eine andere Rolle hat noch nicht den erforderlichen Mindestwert erreicht. Wähle eine andere Rolle aus.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_button_change_role">Rolle ändern</string>
@@ -777,9 +783,11 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Täglicher Bonus</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Schnellste Erfahrungen</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_remaining_attempts">Übrige Versuche</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Nur M1 und M2</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Reiht alle Mutatorstufen in die Warteschlange ein.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description">Reiht deine Gruppe in die Warteschlange für alle gemeinsamen Schwierigkeitsgrade (M1–M3) ein. Du erhältst einen Abschlussbonus, wenn du einem geringeren Schwierigkeitsgrad zugeteilt wirst und ihn abschließt. \n\nTägliches Limit: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Wird zurückgesetzt in: {resetTime}</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Über diese Schaltfläche gelangst du in die serverübergreifende Warteschlange für M1 + M2. Hast du einen höheren Schwierigkeitsgrad freigeschaltet als der, in dem du gelandet bist, erhältst du bei Abschluss der Expedition einen Bonus.\n\nTägliches Limit: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt;Wird zurückgesetzt in: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_no_carry_bonus_description">Reiht deine Gruppe in die Warteschlange für alle gemeinsamen Schwierigkeitsgrade (M1–M3) ein.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Reiht deine Gruppe in die Warteschlange für alle gemeinsamen M1 oder M2 ein. Hast du einen höheren Schwierigkeitsgrad freigeschaltet als der, in dem du gelandet bist, erhältst du bei Abschluss der Expedition einen Bonus.\n\nTägliches Limit: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt;Wird zurückgesetzt in: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_no_carry_bonus_description_M1_M2_Only">Reiht deine Gruppe in die Warteschlange für alle gemeinsamen M1 oder M2 ein.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_progress_label">Beitrittsfortschritt erlauben?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_random">Zufällig</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_queue">Warteschlange</string>
@@ -799,7 +807,9 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip">In der Gruppensuche rekrutieren {lobbyCount} Gruppen für diese Aktivität. Wähle auf dem Infobildschirm für Aktivitäten "Lobbys ansehen" aus, um alle verfügbaren zu sehen.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip_single">In der Gruppensuche rekrutiert eine Gruppe für diese Aktivität. Wähle auf dem Infobildschirm für Aktivitäten "Lobbys ansehen" aus, um alle verfügbaren zu sehen.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level">Deine Mutationsstufe:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level_numbers">Deine Mutationsstufe: {currentNumber}/{maxNumber}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_run_completed">Täglicher Durchlauf abgeschlossen:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_run_completed_numbers">Täglicher Durchlauf abgeschlossen: {currentNumber}/{maxNumber}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group" comment="">Hier klicken, für Option "MIT GRUPPE BETRETEN"</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group_M1_M2_Only" comment="">Hier klicken, um M3-Schwierigkeitsgrade mit "MIT GRUPPE BETRETEN" zu betreten</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_available_rewards">Verfügbare Belohnungen</string>
@@ -885,7 +895,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">- Schwert und Schild, Streitaxt, Kriegshammer\n- Schwere Rüstung\n- Karneol-Edelsteine\n- Massenkontrolle (Betäubung, Verwurzelung, dem Erdboden gleichmachen)</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_title">Ablehnen bestätigen</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_message">Möchtest du den Bereitschaftscheck wirklich ablehnen? Du oder deine Gruppe werdet aus der Warteschlange entfernt und müsst euch erneut anstellen.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Wirklich verlassen? Du wirst aus der Expedition herausteleportiert und kannst ihr nicht wieder beitreten.\n\n&lt;font color={penaltyColor}&gt;Die Nutzung von "Verlassen" führt zu einer Deserteursstrafe (20 Minuten), wenn es innerhalb der ersten 10 Minuten der Expedition genutzt wird.&lt;/font&gt;\n\nUm die Deserteursstrafe zu vermeiden, kannst du auf der Karte oder in den Gruppeneinstellungen die Option "Aktivität verlassen" wählen.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Wirklich verlassen? Du wirst aus der Expedition herausteleportiert und kannst ihr nicht wieder beitreten.\n\n&lt;font color={penaltyColor}&gt;Die Nutzung von "Verlassen" führt zu einer Deserteursstrafe von {deserterPenalty} Minuten, wenn es innerhalb der ersten {minTimeInDungeon} Minuten der Expedition genutzt wird.&lt;/font&gt;\n\nUm die Deserteursstrafe zu vermeiden, kannst du auf der Karte oder in den Gruppeneinstellungen die Option "Aktivität verlassen" wählen.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc_no_penalty">Wirklich verlassen? Du wirst aus der Expedition herausteleportiert und kannst ihr nicht wieder beitreten.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_expedition_activity_disabled">Expeditions-Spielsuche ist derzeit deaktiviert. Versuche es später erneut.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_mutation_activity_disabled">Spielsuche für mutierte Expeditionen ist derzeit deaktiviert. Versuche es später erneut.</string>
@@ -897,5 +907,6 @@
 	<string rel_version="Feature_Crossplay" key="ui_error_whisper_crossplay_communication_off">Nutzer befindet sich auf einer anderen Plattform. Ändere die Einstellung für spielübergreifende Kommunikation, um zu flüstern.</string>
 	<string key="ui_communication_restricted_by_platform">Kommunikation eingeschränkt durch Plattform.</string>
 	<string key="ui_group_invites_restricted_gamemode">Gruppeneinladungen sind nicht verfügbar, während du dich in einer Gruppenaktivität befindest.</string>
+	<string key="ui_group_member_placeholder_name">…</string>
 </resources>
 

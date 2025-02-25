@@ -1489,11 +1489,11 @@
 	<string key="PerkID_Earring_ThreatSubOnDodge_Name">Evasivo</string>
 	<string key="PerkID_Earring_ThreatSubOnDodge_Description">Reduz a geração de Ameaça em {[-0.500000 * -100 * {perkMultiplier}]}% por {[5.000000]} s após esquivar.</string>
 	<string key="PerkID_Earring_ManaOnPotion_Name">Brinde de Mana</string>
-	<string key="PerkID_Earring_ManaOnPotion_Description">Ao beber uma Poção de Saúde, você ganha {[10.000000 * {perkMultiplier}]} de Mana.</string>
+	<string key="PerkID_Earring_ManaOnPotion_Description">Ao beber uma Poção de Sobrevivente, você ganha {[10.000000 * {perkMultiplier}]} de Mana.</string>
 	<string key="PerkID_Earring_HealthOnPotion_Name">Brinde Saudável</string>
-	<string key="PerkID_Earring_HealthOnPotion_Description">Ao beber uma Poção de Mana, você ganha {[0.030000 * 100 * {perkMultiplier}]}% de sua Saúde base.</string>
+	<string key="PerkID_Earring_HealthOnPotion_Description">Ao beber uma Poção de Mana, você ganha {[0.008000 * 100 * {perkMultiplier}]}% de sua Saúde base a cada segundo por {[4.000000]} s.</string>
 	<string key="PerkID_Earring_RemoveOnPotion_Name">Brinde Purificante</string>
-	<string key="PerkID_Earring_RemoveOnPotion_Description">Ao beber uma Poção de Regeneração, você perde {[1.000000]} debuff(s).</string>
+	<string key="PerkID_Earring_RemoveOnPotion_Description">Ao beber uma Poção de Sobrevivente, você perde {[1.000000]} de debuff.</string>
 	<string key="PerkID_Earring_GainOnPotion_Name">Brinde Duplicante</string>
 	<string key="PerkID_Earring_GainOnPotion_Description">Ao beber uma Poção, você tem {[0.050000 * 100 * {perkMultiplier}]}% de chance de não a consumir.</string>
 	<string key="PerkID_Earring_PotionCDR_Name">Brinde Renovador</string>
@@ -1633,7 +1633,7 @@
 	<string key="PerkID_Jewelry_HercyneRaid_1_Name" rel_version="Season7Perks">Desimpedido</string>
 	<string key="PerkID_Jewelry_HercyneRaid_1_Description" rel_version="Season7Perks">A potência das lentidões em você é reduzida em 30%, desde que não tenha sofrido Exaustão nos últimos {[10.000000]} s.</string>
 	<string key="PerkID_Weapon_PvPZone_1_Name" rel_version="Season7Perks">Penetração dos Energizados</string>
-	<string key="PerkID_Weapon_PvPZone_1_Description" rel_version="Season7Perks">Apenas PvP: Acertos críticos contra jogadores Energizados terão {[0.100000 * 100]}% de penetração de armadura e reduzirão em {[-0.070000 * -100]}% a duração do efeito Energizado sobre eles. (Redução de recarga: {[1.000000]} s)</string>
+	<string key="PerkID_Weapon_PvPZone_1_Description" rel_version="Season7Perks">Apenas PvP: Acertos críticos contra jogadores Energizados terão {[0.100000 * 100]}% de penetração de armadura e reduzirão em {[-0.070000 * -100]}% a duração do efeito Energizado sobre eles ({[1.000000]} s de redução de recarga).</string>
 	<string key="PerkID_Armor_PvPZone_1_Name" rel_version="Season7Perks">Reflexão Espinhosa</string>
 	<string key="PerkID_Armor_PvPZone_1_Description" rel_version="Season7Perks">Apenas PvP: Sofrer um acerto crítico refletirá o Dano Natural de volta ao alvo, equivalente a {[-0.070000 * -100]}% do dano de arma, e reduzirá a chance de acerto crítico do atacante em {[-0.100000 * -100]}% por {[3.000000]} s. (Tempo de recarga: {[1.000000]} s)</string>
 	<string key="PerkID_Jewelry_PvPZone_1_Name" rel_version="Season7Perks">Fenda Energizada</string>
@@ -1709,7 +1709,7 @@
 	<string key="PerkID_Ability_Blunderbuss_VortexShot_Name" rel_version="Weapon_Blunderbuss">Tiro Explosivo Paralisante</string>
 	<string key="PerkID_Ability_Blunderbuss_VortexShot_Description" rel_version="Weapon_Blunderbuss">Os alvos acertados com o Tiro Explosivo sofrem Lentidão, o que reduz sua velocidade de movimento em {[-0.050000 * -100 * {perkMultiplier}]}% durante {[5.000000]} s.</string>
 	<string key="PerkID_Ability_Flail_Slam_Name" rel_version="Weapon_Flail">Expurgação Aflitiva</string>
-	<string key="PerkID_Ability_Flail_Slam_Description" rel_version="Weapon_Flail">Apenas PvP: Acertos de Expurgação contra alvos estendem suas recargas ativas em {[0.050000 * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Ability_Flail_Slam_Description" rel_version="Weapon_Flail">Expurgação tem {[0.015000 * 100 * {perkMultiplier}]}% de penetração da armadura do alvo. Apenas PvP: Acertos de Expurgação contra jogadores estendem as recargas ativas deles em {[0.050000 * 100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Ability_Flail_Blast_Name" rel_version="Weapon_Flail">Vórtice Reparador</string>
 	<string key="PerkID_Ability_Flail_Blast_Description" rel_version="Weapon_Flail">A cada {[2.000000]} acertos do Vórtice, você se cura em {[0.050000 * 100 * {perkMultiplier}]}% do dano de arma base.</string>
 	<string key="PerkID_Ability_Flail_Burst_Name" rel_version="Weapon_Flail">Erupção Poderosa</string>
@@ -2508,9 +2508,9 @@
 	<string key="PerkID_Weapon_DmgAeternian_Name" rel_version="Season_1_Perm">Ruína do Humano</string>
 	<string key="PerkID_Weapon_DmgAeternian_Description" rel_version="Season_1_Perm">Apenas PvE: +{[5 * {perkMultiplier}]}% de Dano a Humanos.</string>
 	<string key="PerkID_Stat_Highest_Name">Amplificar</string>
-	<string key="PerkID_Stat_Highest_Desc">Aumenta o atributo mais alto</string>
+	<string key="PerkID_Stat_Highest_Desc">Aumenta o atributo mais alto.</string>
 	<string key="PerkID_Stat_2Highest_Name">Ampliar</string>
-	<string key="PerkID_Stat_2Highest_Desc">Aumenta os dois atributos mais altos</string>
+	<string key="PerkID_Stat_2Highest_Desc">Aumenta os dois atributos mais altos.</string>
 	<string key="PerkID_Lifestaff_OnLowBonusHeal_Name">Salvação</string>
 	<string key="PerkID_Lifestaff_OnLowBonusHeal_Desc">Cura aumenta em {[0.100000 * 100 * {perkMultiplier}]}% quando o alvo estiver com Saúde abaixo de {[50.000000]}%.</string>
 	<string key="PerkID_Lifestaff_OnRemoveHeal_Name">Ventos Purificantes</string>
@@ -2630,9 +2630,9 @@
 	<string key="PerkID_Artifact_Set1_Ring2_Name" rel_version="Feature_Artifacts_Set2">Especialista</string>
 	<string key="PerkID_Artifact_Set1_Ring2_Desc" rel_version="Feature_Artifacts_Set2">Habilidades causam {[0.125000 * 100]}% mais dano, mas ataques básicos causam {[-0.250000 * -100]}% menos dano.</string>
 	<string key="PerkID_Artifact_Set1_Earring1_Name">A Sede</string>
-	<string key="PerkID_Artifact_Set1_Earring1_Desc">Consumíveis de cura ficam {[0.330000 * 100]}% mais fortes, mas os tempos de recarga de poções são aumentados em {[0.250000 * 100]}%.</string>
+	<string key="PerkID_Artifact_Set1_Earring1_Desc">Consumíveis de cura ficam {[0.330000 * 100]}% mais fortes, mas os tempos de recarga das poções de sobrevivência e de Mana são aumentados em {[0.250000 * 100]}%.</string>
 	<string key="PerkID_Artifact_Set1_Earring2_Name" rel_version="Feature_Artifacts_Set2">Rejuvenescimento</string>
-	<string key="PerkID_Artifact_Set1_Earring2_Desc" rel_version="Feature_Artifacts_Set2">Ganhe {[0.020000 * 100]}% de Saúde, {[2.000000]} de Vigor e {[2.000000]} de Mana a cada segundo. Mas os tempos de recarga de poções são aumentados em {[0.750000 * 100]}%. </string>
+	<string key="PerkID_Artifact_Set1_Earring2_Desc" rel_version="Feature_Artifacts_Set2">Ganhe {[0.020000 * 100]}% de Saúde, {[2.000000]} de Vigor e {[2.000000]} de Mana a cada segundo. Mas os tempos de recarga de poções de sobrevivência são aumentados em {[0.750000 * 100]}%.</string>
 	<string key="PerkID_Artifact_Set1_Flail_Name">Punição de Odo</string>
 	<string key="PerkID_Artifact_Set1_Flail_Desc">Você causa mais {[0.200000 * 100]}% de dano a inimigos atordoados ou derrubados (funciona em ambas as armas).</string>
 	<string key="PerkID_Artifact_Set1_FlailPerk_Name">Defesa de Odo</string>
@@ -2683,7 +2683,7 @@
 	<string key="PerkID_Armor_SkinningYield_Name">Rendimento do Esfolamento</string>
 	<string key="PerkID_Armor_SkinningYield_Description">+{[0.015000 * 100 * {perkMultiplier}]}% de recursos durante o Esfolamento.</string>
 	<string key="PerkID_Artifact_Set2_HeavyChest_Name" rel_version="Feature_Artifacts_S6">Sobreviver</string>
-	<string key="PerkID_Artifact_Set2_HeavyChest_Desc" rel_version="Feature_Artifacts_S6">Se você sofrer um acerto enquanto sua Saúde estiver abaixo de 50%, ganhará {[50.000000]} de Vigor, perderá todos os debuffs e ganhará um Surto de Poção que recarregará sua próxima poção de cura instantaneamente (tempo de recarga: {[120.000000]} s).</string>
+	<string key="PerkID_Artifact_Set2_HeavyChest_Desc" rel_version="Feature_Artifacts_S6">Se você sofrer um acerto enquanto sua Saúde estiver abaixo de 50%, ganhará {[50.000000]} de Vigor, perderá todos os debuffs e ganhará um Surto de Poção que recarregará sua próxima poção de cura instantaneamente (tempo de recarga: {[120.000000]} s). (Não é possível usar vários Surtos de Poção com menos de {[75.000000]} s de diferença entre eles.)</string>
 	<string key="PerkID_Artifact_Set2_HeavyHands_Name" rel_version="Feature_Artifacts_S5">Carregado</string>
 	<string key="PerkID_Artifact_Set2_HeavyHands_Desc" rel_version="Feature_Artifacts_S5">Sempre que sofrer dano, ganhe uma carga de Energizar que aumenta o dano do seu próximo ataque em {[0.020000 * 100]}% (máximo de {[10.000000]} cargas).</string>
 	<string key="PerkID_Artifact_Set2_HeavyLegs_Name" rel_version="Feature_Artifacts_S5">Fundação Estável</string>
@@ -2708,8 +2708,24 @@
 	<string key="PerkID_Artifact_Set2_Greataxe_Desc" rel_version="Feature_Artifacts_S5">Ataques bem-sucedidos ganham 3% de velocidade de movimento por 3 s. (Funciona em ambas as armas e acumula 10 vezes.) </string>
 	<string key="PerkID_Artifact_Set2_GreataxePerk_Name" rel_version="Feature_Artifacts_S5">Giro Eterno</string>
 	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Redemoinho não precisa mais atingir alvos para continuar girando, e pode girar até 12 vezes.</string>
+	<string key="PerkID_Artifact_Set2_Bow_Name" rel_version="Feature_Artifacts_S7">Simpatia pelo Veneno</string>
+	<string key="PerkID_Artifact_Set2_Bow_Desc" rel_version="Feature_Artifacts_S7">Causa {[0.150000 * 100]}% a mais de dano a inimigos envenenados. Isso afeta ambas as armas.</string>
+	<string key="PerkID_Artifact_Set2_BowPerk_Name" rel_version="Feature_Artifacts_S7">Flechas Envenenadas</string>
+	<string key="PerkID_Artifact_Set2_BowPerk_Desc" rel_version="Feature_Artifacts_S7">Ataques carregados infligem Envenenado, causando {[-0.050000 * -100]}% do dano de arma por {[10.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Musket_Name" rel_version="Feature_Artifacts_S7">Disparo de Estilhaços</string>
+	<string key="PerkID_Artifact_Set2_Musket_Desc" rel_version="Feature_Artifacts_S7">Acertos na cabeça contra inimigos causam {[-0.100000*-100]}% de Hemorragia por {[6.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_FireStaff_Name" rel_version="Feature_Artifacts_S7">Sopro Incendiário</string>
+	<string key="PerkID_Artifact_Set2_FireStaff_Desc" rel_version="Feature_Artifacts_S7">Todas as habilidades e ataques pesados do Bastão Flamejante causam {[-0.330000 * -100]}% menos dano, mas infligem {[-0.100000 * -100]}% de Queimadura por {[5.000000]} s. (Máximo de 5 acúmulos)</string>
+	<string key="PerkID_Artifact_Set2_LifeStaff_Name" rel_version="Feature_Artifacts_S7">Toque Sutil</string>
+	<string key="PerkID_Artifact_Set2_LifeStaff_Desc" rel_version="Feature_Artifacts_S7">Durante {[5.000000]} s após o lançamento de uma habilidade de Bastão Vital, o próximo ataque pesado que passar por um aliado concederá Reforçado, dando a ele {[0.300000 * 100]}% de absorção de dano no próximo golpe sofrido dentro de {[7.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_Spear_Name" rel_version="Feature_Artifacts_S5">Tombado por Veneno</string>
 	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Ataques corpo a corpo pesados com qualquer uma das armas aplicam envenenamento, causando {[-0.150000 * -100]}% do dano de arma por {[5.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Rapier_Name" rel_version="Feature_Artifacts_S7">Pico de Lava</string>
+	<string key="PerkID_Artifact_Set2_Rapier_Desc" rel_version="Feature_Artifacts_S7">Ataques corpo a corpo pesados com ambas as armas causam {[-0.100000 * -100]}% de Queimadura por {[6.000000]} s. (Máximo de 3 acúmulos)</string>
+	<string key="PerkID_Artifact_Set2_IceGauntlet_Name" rel_version="Feature_Artifacts_S7">Tumba Congelada</string>
+	<string key="PerkID_Artifact_Set2_IceGauntlet_Desc" rel_version="Feature_Artifacts_S7">Acertar um alvo com a ruptura do sepultamento causará Queimadura de Gelo, diminuindo a velocidade de movimento em {[-0.100000 * -100]}% e causando {[-0.100000 * -100]}% do dano de arma por segundo durante {[5.000000]}s.</string>
+	<string key="PerkID_Artifact_Set2_VoidGauntlet_Name" rel_version="Feature_Artifacts_S7">Ruptura Reparadora</string>
+	<string key="PerkID_Artifact_Set2_VoidGauntlet_Desc" rel_version="Feature_Artifacts_S7">A Essência Transbordante cura mais 100% de Saúde e a Ruptura de Essências causa mais {[0.500000 * 100]}% de dano ao acertar.</string>
 	<string key="PerkID_Artifact_Set2_Greatsword_Name" rel_version="Feature_Artifacts_S6">Velocidade Ofensiva</string>
 	<string key="PerkID_Artifact_Set2_Greatsword_Desc" rel_version="Feature_Artifacts_S6">Ao assumir uma posição ofensiva, ganha +{[0.200000 * 100]}% de velocidade de movimento durante {[6.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_Flail_Name" rel_version="Feature_Artifacts_S6">Fardo Pesado</string>
@@ -2718,7 +2734,61 @@
 	<string key="PerkID_Artifact_Set2_Ring1_Desc" rel_version="Feature_Artifacts_S6">Ao acertar um ataque de Dano Elemental em um alvo (não é acionado por dano contínuo ou harmonizações), ganha {[0.040000 * 100]}% de Energizado por {[6.000000]} s ({[10.000000]} s de tempo de recarga por tipo de dano, até 1 acúmulo por tipo).</string>
 	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Vingança da Fênix</string>
 	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Ao receber dano letal, você escapa da morte e recupera {[1.000000 * 100]}% de sua saúde máxima. Então sofre o efeito de Vingança, reduzindo a cura em {[-2.000000 * -100]}% e recebendo dano igual a {[-0.100000 * -200]}% de sua saúde máxima a cada segundo até você morrer ou matar alguém. (tempo de recarga de {[180.000000]}s).</string>
+	<string key="PerkID_Artifact_Set2_Earring1_Name" rel_version="Feature_Artifacts_S7">Proteção do Alquimista</string>
+	<string key="PerkID_Artifact_Set2_Earring1_Desc" rel_version="Feature_Artifacts_S7">Quando você sofre {[20.000000]} acertos, ganha um Surto de Poção que recarregará sua próxima poção de cura instantaneamente (tempo de recarga: {[90.000000]} s). (Não é possível usar vários Surtos de Poção com menos de {[75.000000]} s de diferença entre eles.)</string>
 	<string key="PerkID_Flail_RabbitFlail_Name" rel_version="Event_RabbitSeasonPerm2024">A Vingança do Coelho</string>
 	<string key="PerkID_Flail_RabbitFlail_Description" rel_version="Event_RabbitSeasonPerm2024">Nem mesmo Stanley consegue resistir ao poder corruptor desta arma.</string>
+	<string key="PerkID_Conqueror_Bow_PoisonAOE_Name" rel_version="PvPServerConquerorsItems">Contágio</string>
+	<string key="PerkID_Conqueror_Bow_PoisonAOE_Desc" rel_version="PvPServerConquerorsItems">Acertos diretos com o Disparo Venenoso ativarão o vórtice, puxando alvos próximos e gerando uma nuvem infetada de {[5.000000]} m que segue o alvo atingido por 10 s, infligindo a todos os alvos próximos {[-0.500000 * -100]}% de Dano Venenoso por segundo enquanto estiverem dentro dela.</string>
+	<string key="PerkID_Conqueror_Warhammer_Knockback_Name" rel_version="PvPServerConquerorsItems">Irra</string>
+	<string key="PerkID_Conqueror_Warhammer_Knockback_Desc" rel_version="PvPServerConquerorsItems">+{[4.000000 * 100]}% de distância de empurrão +{[0.300000 * 100]}% de dano base a todos os Empurrões de Martelo de Guerra. O primeiro alvo atingido por Para Trás será incendiado, transformando-se num projétil que causa {[-1.500000 * -100]}% do dano de arma a todos os alvos que atravessarem seu caminho.</string>
+	<string key="PerkID_Conqueror_Shield_TankAura_Name" rel_version="PvPServerConquerorsItems">Altruísmo</string>
+	<string key="PerkID_Conqueror_Shield_TankAura_Desc" rel_version="PvPServerConquerorsItems">Todos os aliados à sua volta ganham {[0.500000 * 100]}% de armadura e você ganha mais {[0.250000 * 100]}% de cura recebida. No entanto, sua armadura também é reduzida em {[-0.250000 * -100]}%.</string>
+	<string key="PerkID_Conqueror_IceGauntlet_FrostAura_Name" rel_version="PvPServerConquerorsItems">Descendente do Gelo</string>
+	<string key="PerkID_Conqueror_IceGauntlet_FrostAura_Desc" rel_version="PvPServerConquerorsItems">Você e todos os aliados em um raio de {[8.500000]} m ganham {[0.300000 * 100]}% de absorção de Dano Flamejante e o dano base de ataques de Gelo é aumentado em {[0.200000 * 100]}%. Atingir alvos dentro da aura de gelo inflige Lentidão acumulada de {[-0.050000 * -100]}% por {[3.000000]} s. (Máximo de {[6.000000]} acúmulos.)</string>
+	<string key="PerkID_Conqueror_FireStaff_BurnAura_Name" rel_version="PvPServerConquerorsItems">Carbonizado</string>
+	<string key="PerkID_Conqueror_FireStaff_BurnAura_Desc" rel_version="PvPServerConquerorsItems">Gera uma aura de {[8.500000]} m ao seu redor que inflige {[-0.200000 * -100]}% de queimadura aos inimigos dentro dela e reduz em {[0.000000 * 100]}% o Dano Flamejante sofrido por você. Atingir alvos na aura aumentará a potência da queimadura em 5% por acúmulo durante {[4.000000]} s (máx. de {[20.000000]} acúmulos).</string>
+	<string key="PerkID_Conqueror_Hatchet_CombustibleCombustion_Name" rel_version="PvPServerConquerorsItems">Combustão</string>
+	<string key="PerkID_Conqueror_Hatchet_CombustibleCombustion_Desc" rel_version="PvPServerConquerorsItems">Atingir um alvo com um ataque de Machadinha a distância infligirá Explosão. Com {[3.000000]} acúmulos, o próximo ataque a distância desencadeará uma combustão que consumirá os acúmulos e causará uma explosão de dano a todos os alvos próximos, causando {[-2.500000 * -100]}% do dano de arma.</string>
+	<string key="PerkID_Conqueror_Spear_Embiggen_Name" rel_version="PvPServerConquerorsItems">Engrandecer</string>
+	<string key="PerkID_Conqueror_Spear_Embiggen_Desc" rel_version="PvPServerConquerorsItems">As habilidades corpo a corpo da Lança fazem você aumentar de tamanho para cobrir mais área com os ataques. Além disso, Saltar e Chutar fica ainda mais eficiente e derruba os alvos.</string>
+	<string key="PerkID_Conqueror_MeleeWeapon_DodgeSuppressant_Name" rel_version="PvPServerConquerorsItems">Supressor de Esquiva</string>
+	<string key="PerkID_Conqueror_MeleeWeapon_DodgeSuppressant_Desc" rel_version="PvPServerConquerorsItems">Acertos de habilidades corpo a corpo contra um alvo que esteja com menos de {[50.000000]}% de Saúde infligirão Fraqueza no alvo, impedindo que ele se esquive por {[2.000000]} s ou até atingir um alvo (tempo de recarga de {[20.000000]} s por alvo).</string>
+	<string key="PerkID_Conqueror_Greatsword_CrescentWave_Name" rel_version="PvPServerConquerorsItems">Onda Crescente</string>
+	<string key="PerkID_Conqueror_Greatsword_CrescentWave_Desc" rel_version="PvPServerConquerorsItems">Enquanto estiver com mais de 50% de Saúde, os ataques pesados lançarão um projétil para a frente, causando {[1.500000 * 100]}% do dano de arma. Cada onda custa {[20.000000]} de Mana.</string>
+	<string key="PerkID_Conqueror_HolyShield_Blocking_Name" rel_version="PvPServerConquerorsItems">Escudo Sagrado</string>
+	<string key="PerkID_Conqueror_HolyShield_Blocking_Desc" rel_version="PvPServerConquerorsItems">Bloquear um ataque a distância fará surgir um escudo de bolhas por {[10000.000000 / 1000]} s no local do jogador que bloqueará todos os projéteis enquanto estiver ativo (tempo de recarga de {[30.000000]} s).</string>
+	<string key="PerkID_Conqueror_DodgeCorruptionBall_Name" rel_version="PvPServerConquerorsItems">Esquiva Corrompida</string>
+	<string key="PerkID_Conqueror_DodgeCorruptionBall_Desc" rel_version="PvPServerConquerorsItems">Ao se esquivar de um ataque corpo a corpo inimigo, desencadeia uma bola de corrupção que explode, causando {[-0.600000 * -100]}% de Dano Imaterial a todos os alvos em um raio de {[3.000000]} m e fazendo com que seu próximo golpe dentro de {[4.000000]} s ganhe {[0.300000 * 100]}% de Energizado (tempo de recarga de {[6.000000]} s).</string>
+	<string key="PerkID_Conqueror_Longsword_ShieldlessAgility_Name" rel_version="PvPServerConquerorsItems">Agilidade Irrestrita</string>
+	<string key="PerkID_Conqueror_Longsword_ShieldlessAgility_Desc" rel_version="PvPServerConquerorsItems">Enquanto estiver com uma Carga Equipada leve ou média sem um escudo, o custo de esquiva será reduzido em 20% para a primeira esquiva dentro de {[1.000000]} s após atingir um alvo. Esquivar-se de um ataque corpo a corpo concede {[0.200000 * 100]}% de Pressa por {[2.000000]} s e {[0.500000 * 100]}% de Energizado de Dano Cortante para seu próximo ataque dentro de {[2.000000]} s. No entanto, você sempre sofre mais {[-0.200000 * -100]}% de dano.</string>
+	<string key="PerkID_Conqueror_Armor_SwarmDefense_Name" rel_version="PvPServerConquerorsItems">Defesa de Enxame</string>
+	<string key="PerkID_Conqueror_Armor_SwarmDefense_Desc" rel_version="PvPServerConquerorsItems">Quando houver {[3.000000]} ou mais inimigos próximos, a armadura aumentará em {[0.100000 * 100]}% por inimigo próximo, mas sua cura também será reduzida em {[-0.020000 * -100]}% por inimigo próximo (máx. de {[10.000000]} inimigos).</string>
+	<string key="PerkID_Conqueror_Musket_LimbDebilitation_Name" rel_version="PvPServerConquerorsItems">Detrimento do Apêndice</string>
+	<string key="PerkID_Conqueror_Musket_LimbDebilitation_Desc" rel_version="PvPServerConquerorsItems">Os tiros na cabeça infligem {[-0.200000 * -100]}% de Exaustão por {[3.000000]} s. Durante {[3.000000]} s após um tiro na perna, o alvo causará a si mesmo {[-0.100000 * -100]}% do valor da Saúde máxima sempre que se esquivar.</string>
+	<string key="PerkID_Conqueror_Flail_Disease_Name" rel_version="PvPServerConquerorsItems">Briga Flagelada</string>
+	<string key="PerkID_Conqueror_Flail_Disease_Desc" rel_version="PvPServerConquerorsItems">Os ataques infligem um acúmulo de {[-0.050000 * -100]}% de Enfermidade sofrida e {[-0.025000 * -100]}% de Enfermidade causada por {[4.000000]} s (máx. de {[5.000000]} acúmulos). O ataque a um alvo bloqueado consome {[1.000000]} acúmulo(s), causando {[-0.300000 * -100]}% do dano de arma por cada acúmulo consumido.</string>
+	<string key="PerkID_Conqueror_Greataxe_UndeadLostMonarch_Name" rel_version="PvPServerConquerorsItems">Matança</string>
+	<string key="PerkID_Conqueror_Greataxe_UndeadLostMonarch_Desc" rel_version="PvPServerConquerorsItems">Ao acertar um alvo com um ataque pesado, você se transformará em um gigantesco Monarca Perdido. Enquanto a transformação estiver ativa, você ganhará {[0.350000 * 100]}% de armadura por {[10.000000]} s. Quando o tempo acabar, você voltará à sua forma original (tempo de recarga de {[15.000000]} s).</string>
+	<string key="PerkID_Conqueror_LifeStaff_SupportiveHeals_Name" rel_version="PvPServerConquerorsItems">Suporte Vital</string>
+	<string key="PerkID_Conqueror_LifeStaff_SupportiveHeals_Desc" rel_version="PvPServerConquerorsItems">A cura causada do Bastão Vital é aumentada em {[0.350000 * 100]}% quando não há nenhuma cura contínua de Bastão Vital te afetando. Você também gera uma aura de cura persistente ao seu redor que curará continuamente os aliados próximos (exceto você). Quando ataques leves atravessam aliados, a taxa de regeneração de Vigor e de Mana deles aumenta em {[0.250000 * 100]}% por {[3.000000]} s.</string>
+	<string key="PerkID_Conqueror_VoidGauntlet_HarvestDamage_Name" rel_version="PvPServerConquerorsItems">Retribuição do Colhedor</string>
+	<string key="PerkID_Conqueror_VoidGauntlet_HarvestDamage_Desc" rel_version="PvPServerConquerorsItems">Enquanto estiver usando Colher Essência, causará pulsos periódicos de dano a todos os inimigos em um raio de {[5.000000]} m, causando {[-0.400000 * -100]}% do dano base da arma e ativando {[0.500000 * 100]}% de Roubo de Vida com base no dano causado.</string>
+	<string key="PerkID_Conqueror_Rapier_HasteWhenFacingTarget_Name" rel_version="PvPServerConquerorsItems">Embarque</string>
+	<string key="PerkID_Conqueror_Rapier_HasteWhenFacingTarget_Desc" rel_version="PvPServerConquerorsItems">Ganhe {[0.150000 * 100]}% de Pressa ao enfrentar um alvo em um raio de {[6.000000 * 2]} m, e as habilidades que impulsionam o jogador para a frente ganham maior distância de movimento ao enfrentar um inimigo. Com 200 de DES., a distância é aumentada.</string>
+	<string key="PerkID_EtherealWeapon_Name" rel_version="PvPServerConquerorsItems">Arma Etérea</string>
+	<string key="PerkID_EtherealWeapon_Description" rel_version="PvPServerConquerorsItems">Esta arma é solta ao morrer e concede a você acesso a materiais especiais ao concluir os Eventos das Trevas.</string>
+	<string key="PerkID_EtherealArmor_Name" rel_version="PvPServerConquerorsItems">Armadura Etérea</string>
+	<string key="PerkID_EtherealArmor_Description" rel_version="PvPServerConquerorsItems">Esta armadura é solta ao morrer e concede a você acesso a materiais especiais ao pilhar recipientes dentro de Pontos de Interesse de Elite.</string>
+	<string key="PerkID_EtherealJewelry_Name" rel_version="PvPServerConquerorsItems">Joias Etéreas</string>
+	<string key="PerkID_EtherealJewelry_Description" rel_version="PvPServerConquerorsItems">Estas joias são soltas ao morrer e concedem a você acesso a materiais especiais ao abater inimigos dentro de Pontos de Interesse de Elite.</string>
+	<string key="PerkID_EtherealMining_Name" rel_version="PvPServerConquerorsItems">Mineração Etérea</string>
+	<string key="PerkID_EtherealMining_Description" rel_version="PvPServerConquerorsItems">Esta picareta é solta ao morrer e concede a você acesso a materiais especiais ao minerar.</string>
+	<string key="PerkID_EtherealLogging_Name" rel_version="PvPServerConquerorsItems">Extração de Madeira Etérea</string>
+	<string key="PerkID_EtherealLogging_Description" rel_version="PvPServerConquerorsItems">Este machado lenhador é solto ao morrer e concede a você acesso a materiais especiais ao extrair madeira.</string>
+	<string key="PerkID_EtherealHarvesting_Name" rel_version="PvPServerConquerorsItems">Colheita Etérea</string>
+	<string key="PerkID_EtherealHarvesting_Description" rel_version="PvPServerConquerorsItems">Esta foice é solta ao morrer e concede a você acesso a materiais especiais ao colher.</string>
+	<string key="PerkID_EtherealSkinning_Name" rel_version="PvPServerConquerorsItems">Esfolamento Etéreo</string>
+	<string key="PerkID_EtherealSkinning_Description" rel_version="PvPServerConquerorsItems">Esta faca de esfolar é solta ao morrer e concede a você acesso a materiais especiais ao esfolar.</string>
 </resources>
 

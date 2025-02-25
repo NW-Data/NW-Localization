@@ -84,9 +84,9 @@
 	<string key="cc_az_thumbr_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">R3</string>
 	<string key="cc_az_shoulderl_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">L1</string>
 	<string key="cc_az_shoulderr_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">R1</string>
-	<string key="cc_az_a_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Cross</string>
+	<string key="cc_az_a_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Croix</string>
 	<string key="cc_az_b_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Cercle</string>
-	<string key="cc_az_x_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Square</string>
+	<string key="cc_az_x_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Carré</string>
 	<string key="cc_az_y_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">Triangle</string>
 	<string key="cc_az_triggerl_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">L2</string>
 	<string key="cc_az_triggerr_ps" comment="This is for PlayStation controller button names" rel_version="Feature_Controller">R2</string>
@@ -590,7 +590,7 @@
 	<string key="ui_craftingnearitemlimit">Limite d'objets dans l'inventaire presque atteinte. Les objets fabriqués risquent de tomber à terre.</string>
 	<string key="ui_inventory_warning_toofullforrewards">Trop d'objets dans votre inventaire pour obtenir des récompenses.</string>
 	<string key="ui_inventoryslotsremaining">Emplacements d'objet d'inventaire uniques restants : {count}</string>
-	<string key="ui_inventoryweightremaining">{Weight} restants</string>
+	<string key="ui_inventoryweightremaining">&lt;img xPadding="2" src="LyShineUI/Images\Icons\Misc\Icon_weight.png"&gt;&lt;/img&gt;{Weight} restants</string>
 	<string key="ui_inventoryMaxWeight">Surcharge</string>
 	<string key="ui_inventoryweight">POIDS</string>
 	<string key="ui_inventoryslots">OBJETS UNIQUES</string>
@@ -898,6 +898,11 @@
 	<string key="ui_sampletooltipnthistool">Exemple d'infobulle\nCette infobulle est un cadre affichant du texte et une image.</string>
 	<string key="ui_save">Enregistrer</string>
 	<string key="ui_se">SE</string>
+	<string key="ui_dodgesuppressed_exhausted">Esquive supprimée : épuisement</string>
+	<string key="ui_dodgesuppressed_stunned">Esquive supprimée : état de choc</string>
+	<string key="ui_dodgesuppressed_staggered">Esquive supprimée : chanceler</string>
+	<string key="ui_dodgesuppressed_sluggish" rel_version="PvPServerConquerorsItems">Esquive supprimée : Léthargie. Attaquez l'ennemi pour supprimer l'effet</string>
+	<string key="ui_unabletoBlock">Parer : supprimé</string>
 	<string key="ui_shift_modifier_toggle_popup_title" rel_version="Feature_Controller">Mettre à jour l'attribution</string>
 	<string key="ui_shift_modifier_toggle_popup_message" rel_version="Feature_Controller">Les touches de modificateur ne sont valables que dans ce mode et ne peuvent pas être utilisées pour d'autres actions. Activer le modificateur dissociera toute action ayant la même touche. Continuer ?</string>
 	<string key="ui_binding_controller_success" rel_version="Feature_Controller">L'action {action} a été réattribuée.</string>
@@ -1867,6 +1872,7 @@
 	<string key="ui_repair_all_not_needed_equipment">Aucun objet ne nécessite de réparation.</string>
 	<string key="ui_repair_all_confirmation">Coût de réparation :</string>
 	<string key="ui_repair_all_equipment_confirmation">Coût de réparation :</string>
+	<string key="ui_equipment_damaged">Équipement endommagé</string>
 	<string key="ui_chat_mention_self_markup">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font" color="#ebe3d6"&gt;@{name}&lt;/font&gt;</string>
 	<string key="ui_and">et</string>
 	<string key="ui_or">ou</string>
@@ -2038,7 +2044,7 @@
 	<string key="ui_resource_quantity">{resourceName} {qtyHave}/{qtyNeeded}</string>
 	<string key="ui_escapemenu_proceed_to_new_world">Passer le didacticiel</string>
 	<string key="ui_proceed_to_new_world_popup_title">Passer le didacticiel</string>
-	<string key="ui_proceed_to_new_world_popup_message">Voulez-vous vraiment passer le didacticiel ?\nVous laisserez vos pièces, objets ou expérience gagnés derrière vous.</string>
+	<string key="ui_proceed_to_new_world_popup_message">Voulez-vous vraiment passer le didacticiel ?</string>
 	<string key="ui_milestone_correction_popup_title">Jalon mis à jour</string>
 	<string key="ui_milestone_correction_popup_message">Les jalons de l'histoire principal ont changé !\n\nAeternum évolue constamment et vous avez été transféré(e) pour profiter des nouvelles histoires et quêtes.</string>
 	<string key="ui_ffa_movement_popup_title" rel_version="Territory_CutlassKeys_Rework">Chacun pour soi désactivé</string>
@@ -2444,6 +2450,8 @@
 	<string key="ui_destroyBoundItemMessage">Cet objet est lié. Le lâcher entraînera sa destruction. Voulez-vous détruire cet objet ?</string>
 	<string key="ui_destroyBoundItems">Détruire les objets ?</string>
 	<string key="ui_destroyBoundItemsMessage">Ces objets sont liés. Les lâcher entraînera leur destruction. Voulez-vous détruire ces objets ?</string>
+	<string key="ui_dropOnDeath">Lâché si vous mourez</string>
+	<string key="ui_cannotBeRepaired">Ne peut pas être réparé</string>
 	<string key="ui_bindOnPickup">Lié si ramassé</string>
 	<string key="ui_bindOnEquip">Lié si équipé</string>
 	<string key="ui_bindOnEquip_title">Lier objet</string>
@@ -2490,7 +2498,7 @@
 	<string key="hwm_loot_flail">Expertise : fléau</string>
 	<string key="ui_time_display">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{time}&lt;/font&gt; ({timezone})</string>
 	<string key="ui_clusterwarning_title">ENTRÉE DANS : {worldName}</string>
-	<string key="ui_clusterwarning_region">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Région : {regionName}\n</string>
+	<string key="ui_clusterwarning_region">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Région : {regionName}</string>
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Vous ne pouvez avoir qu'un seul personnage dans l'&lt;/font&gt; &lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt;ensemble de mondes {worldSetName}&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt;.&lt;/font&gt;</string>
 	<string key="ui_clusterwarning_description1">Pour jouer dans un autre monde de {worldSetName}, vous devrez supprimer ce personnage dans {worldName}.</string>
 	<string key="ui_clusterwarning_description2">Si vos amis jouent dans d'autres mondes de {worldSetName}, vous ne pourrez pas les rejoindre.</string>
@@ -2501,6 +2509,7 @@
 	<string key="ui_clusterwarning_transferoutonly">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages ne peuvent pas être transférés dans ce monde.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages peuvent être transférés depuis ce monde.</string>
 	<string key="ui_clusterwarning_transferinonly">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages peuvent être transférés sur ce monde.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages ne peuvent pas être transférés depuis ce monde.</string>
 	<string key="ui_clusterwarning_cannottransferinnorout">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages ne peuvent pas être transférés dans ce monde.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages ne peuvent pas être transférés depuis ce monde.</string>
+	<string key="ui_clusterwarning_transferwarning">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; La liste d'amis, la compagnie, les projets urbains, les missions de faction et les comptoirs ne seront pas transférés.</string>
 	<string key="ui_character_world_info">{worldName}</string>
 	<string key="ui_cannotPin_atMax">Vous ne pouvez pas marquer plus d'objectifs.</string>
 	<string key="ui_clusterwarning_body">&lt;font color="#ebe3d6"&gt;Vous ne pouvez avoir qu'un seul personnage dans l'ensemble de mondes {worldSetName}.&lt;/font&gt;\n\nSi vous souhaitez jouer dans un autre monde {worldSetName}, vous devez supprimer votre personnage de {worldName} et en créer un nouveau dans le monde de votre choix.\n\nVous ne pouvez pas non plus jouer avec des amis dont les personnages se trouvent dans d'autres mondes {worldSetName} que le vôtre.</string>
@@ -2572,6 +2581,8 @@
 	<string key="ui_governing_propertytax">La compagnie dirigeante peut collecter les frais d'entretien des maisons de la colonie.</string>
 	<string key="ui_nameplate_slider">Quantité de noms de joueurs</string>
 	<string key="ui_nameplate_slider_desc">Définit la quantité de noms de joueurs affichée à l'écran (une valeur basse utilise moins de ressources du système).</string>
+	<string key="ui_nameplate_group_priority">Prioriser les noms de groupe</string>
+	<string key="ui_nameplate_group_priority_desc">Si activé, priorise l’affichage des noms des membres du groupe par rapport à tous les autres noms.</string>
 	<string key="ui_stat_bonus_single_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; {attribute1}</string>
 	<string key="ui_stat_bonus_multiple_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; {attribute1}\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount2}&lt;/font&gt; {attribute2}</string>
 	<string key="ui_stat_bonus">+{amount} {attribute}</string>
@@ -2640,7 +2651,7 @@
 	<string key="ui_faction_cant_cooldown">Impossible de changer de faction pendant votre temps de recharge.\n{cooldown}</string>
 	<string key="ui_change_faction_warning">Une fois votre nouvelle faction choisie, vous ne pourrez plus en changer pendant 30 jours. Changer de faction remet à zéro votre rang et vos jetons de faction.</string>
 	<string key="ui_change_faction">Changer de faction</string>
-	<string key="ui_select_faction" rel_version="Feature_Faction_Selection">Changer de faction</string>
+	<string key="ui_select_faction" rel_version="Feature_Faction_Selection">Sélectionner une faction</string>
 	<string key="ui_change_faction_cooldown">Changer de faction :\n{cooldown}</string>
 	<string key="ui_change_faction_azoth_cost">Changer de faction : {azothcost}</string>
 	<string key="ui_change_faction_desc">Voulez-vous vraiment quitter votre faction pour {factionname} ?\nChanger de faction remettra à zéro votre rang et vos jetons de faction.\n\nUne fois votre transfert confirmé, vous ne pourrez plus changer de faction pendant 30 jours.</string>
@@ -2743,7 +2754,7 @@
 	<string key="ui_locked">Verrouillé(e)</string>
 	<string key="ui_artifact" rel_version="Feature_Artifacts">Artéfact</string>
 	<string key="ui_artifact_already_equipped" rel_version="Feature_Artifacts">Vous avez déjà un artéfact de type {type} équipé.</string>
-	<string key="ui_reset_artifact" rel_version="Feature_Artifacts">Réinitialiser l'artéfact</string>
+	<string key="ui_reset_artifact" rel_version="Feature_Artifacts">Réinitialisation</string>
 	<string key="ui_reset_artifact_message" rel_version="Feature_Artifacts">Abandonner une mission d'artéfact réinitialisera toute la progression effectuée pour déverrouiller ses atouts.\n\nVoulez-vous continuer ?</string>
 	<string key="ui_locked_account_title">COMPTE VERROUILLÉ</string>
 	<string key="ui_locked_account_description">Votre compte est actuellement verrouillé.\n\nCe statut coupe l'accès à certaines fonctionnalités en jeu telles que les achats dans la boutique ou l'utilisation d'objets issus de la boutique.</string>
@@ -2816,6 +2827,7 @@
 	<string key="ui_itemtypedescription_dye">Teinture</string>
 	<string key="ui_itemtypedescription_bag">Sac</string>
 	<string key="ui_itemtypedescription_consumable">Consommable</string>
+	<string key="ui_itemtypedescription_consumable_survivalpotion">Consommable : potion de survie</string>
 	<string key="ui_itemtypedescription_quest_item">Objet de quête</string>
 	<string key="ui_itemtypedescription_Key_item">Clé d'évènement</string>
 	<string key="ui_itemtypedescription_furniture">Meubles</string>
@@ -2872,8 +2884,8 @@
 	<string key="ui_treasury_purchase_nw">Achetez New World : Aeternum pour utiliser la trésorerie de la compagnie.</string>
 	<string key="ui_cannot_chat_global_blocked">Impossible de discuter dans ce canal avec un compte de moins de {hoursNeeded} heures et un temps de jeu de moins de {playtimeNeeded}.</string>
 	<string key="ui_complete_quests_to_unlock">Déverrouillé en terminant des quêtes dans la colonie.</string>
-	<string key="ui_interact_required_level">Vous devez avoir atteint le niveau {level} pour l'utiliser.</string>
-	<string key="ui_cannot_chat_trading_blocked">L'accès au canal nécessite {playtimeNeeded} heures de jeu, un compte créé depuis plus de {hoursNeeded} heures et un comptoir débloqué.</string>
+	<string key="ui_interact_required_level">Nécessite le niveau {level}</string>
+	<string key="ui_cannot_chat_trading_blocked">L'accès au canal nécessite {playtimeNeeded} de jeu, un compte créé depuis plus de {hoursNeeded} heures et un comptoir débloqué.</string>
 	<string key="ui_averageexpertise">Expertise</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;EXPERTISE&lt;/font&gt;\nL'expertise permet de mesurer la puissance maximum d'un objet lorsque vous en êtes équipé.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Expertise max que vous pouvez atteindre&lt;/font&gt;\n&lt;font color={highlightColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n\n&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;COMMENT AMÉLIORER L'EXPERTISE&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Lieux remarquables et des expéditions d'élite&lt;/font&gt;\nDes objets octroyés par des créatures ou trouvés dans des coffres dans les zones de niveau 60 et plus ont une probabilité d'augmenter cette valeur.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Fabrication&lt;/font&gt;\nFabriquer un objet dont le score d'équipement est de 600 augmentera l'expertise de ce type d'objet.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Moule en gypse&lt;/font&gt;\nOuvrir un moule en gypse augmente l'expertise.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Amélioration d'objets (avec des éclats sombres)&lt;/font&gt;\nAprès avoir atteint une expertise de 600, le seul moyen d'augmenter davantage celle-ci est d'améliorer des objets avec des éclats sombres.</string>
 	<string key="ui_itemtypedescription_shield_only">Bouclier</string>
@@ -2983,6 +2995,7 @@
 	<string key="attribution_Season_4" rel_version="Season_4_Perm">Saison 4</string>
 	<string key="attribution_Season_5" rel_version="Season_5_Perm">Saison 5</string>
 	<string key="attribution_Season_Pass" rel_version="Season_6_Perm">Passe de saison</string>
+	<string key="attribution_Seasonal_Item" rel_version="Feature_Seasonal_Servers">Objet de Monde saisonnier</string>
 	<string key="ui_reset_daily_time">Réinitialiser quotidiennement à {time}</string>
 	<string key="ui_reset_weekly_time">Réinitialiser hebdomadairement à {time}</string>
 	<string key="ui_buy_new_world">Acheter New World : Aeternum</string>
@@ -3055,6 +3068,7 @@
 	<string key="ui_expansion_name_expansion2023" comment="DO NOT TRANSLATE">[TMP] Expansion 2023</string>
 	<string key="ui_required_expansion_missing_tooltip" comment="DO NOT TRANSLATE">[TMP] Missing expansion: {expansion}</string>
 	<string key="ui_learn_more_about_required_expansion_buttontext">En savoir plus</string>
+	<string key="ui_learn_more">En savoir plus</string>
 	<string key="ui_horse_slot_unlock" rel_version="Feature_Mounts">Déverrouiller monture</string>
 	<string key="ui_horse_slot_unlock_description" rel_version="Feature_Mounts">Déverrouille la capacité d'équiper et d'invoquer une monture.</string>
 	<string key="ui_ridingxp_description" rel_version="Feature_Mounts">Expérience pour la compétence d'équitation.\n\nDes niveaux plus élevés déverrouillent des récompenses et des vitesses de monture accrues.</string>
@@ -3091,6 +3105,7 @@
 	<string key="ui_sort_by_end_date">Trier par date de fin</string>
 	<string key="ui_sort_by_price_low">Trier par prix : croissant</string>
 	<string key="ui_sort_by_price_high">Trier par prix : décroissant</string>
+	<string key="ui_sort_by_type">Trier par type</string>
 	<string key="ui_requirements">Prérequis</string>
 	<string key="ui_external_rewards">Récompenses externes</string>
 	<string key="ui_ability_minimum_cooldown">{baseCooldown} ({minimumCooldown} minimum)</string>
@@ -3110,7 +3125,25 @@
 	<string key="ui_console_privacy_enabled">Vous ne pouvez pas accomplir cette action à cause des paramètres de confidentialité de votre console.</string>
 	<string key="ui_blocked_player">Joueur bloqué</string>
 	<string key="ui_blocked_company">Compagnie bloquée</string>
-	<string key="ui_nameplate_group_priority_desc">Si activé, priorise l’affichage des noms des membres du groupe par rapport à tous les autres noms.</string>
-	<string key="ui_nameplate_group_priority">Prioriser les noms de groupe</string>
+	<string key="ui_mount_unlock" rel_version="Feature_Mounts">Monture déverrouillée</string>
+	<string key="ui_mount_unlock_acquisition" rel_version="Feature_Mounts">Achèvement de « Mon royaume pour un cheval »</string>
+	<string key="ui_seasonal_worlds" rel_version="Feature_Seasonal_Servers">Mondes saisonniers</string>
+	<string key="ui_seasonal_worlds_popup_header" rel_version="Feature_Seasonal_Servers">Choisir le type de monde</string>
+	<string key="ui_seasonal_worlds_about_popup_description" rel_version="Feature_Seasonal_Servers">Les Mondes saisonniers offrent une nouvelle façon de profiter d'Aeternum et d'obtenir des récompenses uniques pendant un temps limité chaque saison.\n\nDans le Monde saisonnier de la saison 7, tous les joueurs verront leur mode JcJ automatiquement activé au niveau {level}. Fabriquez ou terrassez pour obtenir de l'équipement du conquérant, des armes et des objets puissants qui changeront la donne sur le champ de bataille.\n\nUn périple saisonnier spécial peut être entrepris dans les Mondes saisonniers. Déverrouillez les récompenses obtenues lors du périple saisonnier en achetant un passe de bataille premium dans la boutique.</string>
+	<string key="ui_regular_character" rel_version="Feature_Seasonal_Servers">Standard</string>
+	<string key="ui_seasonal_character" rel_version="Feature_Seasonal_Servers">Saisonnier</string>
+	<string key="ui_regular_character_button_description" rel_version="Feature_Seasonal_Servers">Découvrez Aeternum comme il a été prévu. Créez un personnage sur un monde persistant standard.</string>
+	<string key="ui_seasonal_character_button_description" rel_version="Feature_Seasonal_Servers">Créez un personnage sur un Monde saisonnier à durée limitée aux règles et récompenses uniques.</string>
+	<string key="ui_seasonal_worlds_unavailable" rel_version="Feature_Seasonal_Servers">Mondes saisonniers indisponibles</string>
+	<string key="ui_seasonal_worlds_available" rel_version="Feature_Seasonal_Servers">Mondes saisonniers disponibles</string>
+	<string key="ui_seasonal_worlds_avaialble_until" rel_version="Feature_Seasonal_Servers">La saison se termine le {date} à {time}</string>
+	<string key="ui_seasonal_worlds_ended" rel_version="Feature_Seasonal_Servers">La saison s'est terminée le {date} à {time}</string>
+	<string key="ui_seasonal_worlds_available_24h" rel_version="Feature_Seasonal_Servers">La saison se termine dans &lt;img src="LyShineUI/Images/PUGFinder/Pugfinder_hourglass" xPadding="-4" scale="2.25" yOffset="8"&gt;&lt;/img&gt;{time}</string>
+	<string key="ui_seasonal_worlds_duration" rel_version="Feature_Seasonal_Servers">{timeStart} - {timeEnd}</string>
+	<string key="ui_seasonal_worlds_server_description" rel_version="Feature_Seasonal_Servers">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Dans ce monde, le mode JcJ sera activé de façon permanente au niveau {level}.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Seuls de nouveaux personnages peuvent être créés sur {worldName}.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Les personnages ne peuvent pas être transférés dans ce Monde saisonnier.</string>
+	<string key="ui_seasonal_worlds_server_duration" rel_version="Feature_Seasonal_Servers">Disponible du {dateStart} à {timeStart} au {dateEnd} à {timeEnd}</string>
+	<string key="ui_seasonal_worlds_tooltip" rel_version="Feature_Seasonal_Servers">Dans ce monde JcJ, votre faction décide avec quels joueurs vous pouvez vous regrouper et former des compagnies. Choisissez la même faction que celle de vos amis pour pouvoir jouer ensemble.\n\nVous pouvez changer de faction en jeu.</string>
+	<string key="ui_external_rewards_no_tooltip">Aucune récompense disponible.</string>
+	<string key="ui_deathsdoortimer">Temps restant avant que vous pouviez abandonner : {DeathQueueNumber}</string>
 </resources>
 

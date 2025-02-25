@@ -129,7 +129,7 @@
 	<string key="ui_leave_group">Opuść grupę</string>
 	<string key="ui_voice_chat">Czat głosowy</string>
 	<string key="ui_blocked">Blokowani</string>
-	<string key="ui_blocked_player">Gracz został zablokowany</string>
+	<string key="ui_blocked_player_notification">Gracz został zablokowany</string>
 	<string key="ui_unblocked_player">Gracz został odblokowany</string>
 	<string key="ui_muted">Wyciszono</string>
 	<string key="ui_muted_player">Gracz został wyciszony</string>
@@ -241,6 +241,7 @@
 	<string key="ui_noOnline_group_body">Możesz wyszukać gracza, używając jego imienia gracza.</string>
 	<string key="ui_noOnline_guild_header">Brak znajomych, których można by zaprosić do kompanii.</string>
 	<string key="ui_noOnline_guild_body">Możesz wyszukać gracza, używając jego imienia gracza.</string>
+	<string key="ui_guild_motd_changed">Wiadomość dnia wystosowana przez: {guildName} została zaktualizowana:\n{message}</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_noOnline_raid_header">Brak znajomych online, których można by zaprosić do rajdu.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_noOnline_raid_body">Możesz wyszukać gracza, używając jego imienia gracza.</string>
 	<string key="ui_reporter_make_good_title">Dziękujemy za zgłoszenie!</string>
@@ -369,6 +370,9 @@
 	<string key="ui_notification_pvp_track_flagging_message">Po oznaczeniu się do trybu PvP możesz atakować innych graczy z takim samym oznaczeniem, ale inni oznaczeni gracze również mogą cię atakować. &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Za zabójstwa otrzymasz azothową sól oraz PD PvP.&lt;/font&gt; \nOtrzymujesz również następujące premie: &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;+10% PD, +3% szczęścia podczas zbierania, +1% globalnej premii do szczęścia&lt;/font&gt; za duże/elitarne skrzynie. \n\nGdy opuścisz azyl, otrzymasz &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;ochronę trwającą {duration}.&lt;/font&gt;</string>
 	<string key="ui_notification_pvp_checkpoint_unlocked">Odblokowano punkt kontrolny</string>
 	<string key="ui_notification_pvp_reward_options">Zobacz nagrody</string>
+	<string key="ui_notification_pvp_always_on_notification">W tym świecie nie można wyłączyć oznaczenia do PvP.</string>
+	<string key="ui_notification_pvp_always_on_leave_group_title">Oznaczanie do PvP</string>
+	<string key="ui_notification_pvp_always_on_leave_group_text">Wyjdziesz ze wszystkich grup, rajdów i kolejek, w których obecnie jesteś</string>
 	<string key="ui_notification_ffa_flagging_message" rel_version="Territory_CutlassKeys_Rework">Po oznaczeniu się do trybu każdy na każdego możesz atakować innych graczy z takim samym oznaczeniem. \n\nKiedy opuścisz obszar trybu każdy na każdego, wszystkie twoje &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;przeklęte dublony i surowce&lt;/font&gt; przestaną być przeklęte.</string>
 	<string key="ui_notification_ffa_flagged" rel_version="Territory_CutlassKeys_Rework">Oznaczono do trybu każdy na każdego.</string>
 	<string key="ui_notification_ffa_flagged_left_group" rel_version="Territory_CutlassKeys_Rework">Oznaczono do trybu każdy na każdego: Opuszczono grupę</string>
@@ -382,9 +386,9 @@
 	<string key="ui_notification_ffa_dispersal_title" rel_version="Territory_CutlassKeys_Rework">Teleportacja</string>
 	<string key="ui_notification_ffa_dispersal_desc" rel_version="Territory_CutlassKeys_Rework">Odejdź od innych graczy</string>
 	<string key="ui_notification_ffa_exit_title" rel_version="Territory_CutlassKeys_Rework">Oczyszczająca klątwa</string>
-	<string key="ui_notification_ffa_exit" rel_version="Territory_CutlassKeys_Rework">Tryb każdy na każdego dezaktywuje i oczyszcza wszelkie przeklęte przedmioty w twoim ekwipunku</string>
+	<string key="ui_notification_ffa_exit" rel_version="Territory_CutlassKeys_Rework">Tryb każdy na każdego dezaktywuje i oczyszcza wszelkie przeklęte przedmioty w twoim ekwipunku.</string>
 	<string key="ui_notification_ffa_items_converted_title" rel_version="Territory_CutlassKeys_Rework">Oczyszczanie ukończone</string>
-	<string key="ui_notification_ffa_items_converted" rel_version="Territory_CutlassKeys_Rework">Wszelkie przeklęte przedmioty w twoim ekwipunku zostały oczyszczone</string>
+	<string key="ui_notification_ffa_items_converted" rel_version="Territory_CutlassKeys_Rework">Wszystkie przeklęte przedmioty w twoim ekwipunku zostały oczyszczone.</string>
 	<string key="ui_pvp_rank_name_0">Rekrut</string>
 	<string key="ui_pvp_rank_name_1">Stal</string>
 	<string key="ui_pvp_rank_name_2">Brąz</string>
@@ -457,6 +461,7 @@
 	<string key="ui_request_unfriend_failed">Nie udało się usunąć gracza z listy znajomych.</string>
 	<string key="ui_social">Znajomi</string>
 	<string key="ui_social_friends">Znajomi</string>
+	<string key="ui_social_platform_friends">Znajomi z Xbox</string>
 	<string key="ui_social_group">Grupa</string>
 	<string key="ui_social_twitch">Twitch</string>
 	<string key="ui_streamermode_enabled">Tryb "Nie przeszkadzać" aktywny.</string>
@@ -487,9 +492,10 @@
 	<string rel_version="Feature_Shards" key="social_phasing_invite_canceled">Zaproszenie do rejonu anulowane.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_player_blocked">Gracz jest zablokowany, nie udało się zaprosić do rejonu.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_player_declined">Zaproszenie do rejonu odrzucone.</string>
-	<string rel_version="Feature_Shards" key="social_phasing_invite_fast_travel_failed">Zaproszenie do rejonu nie powiodło się z powodu trwania szybkiej podróży.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_fast_travel_failed">Zaproszenie do rejonu nie powiodło się, ponieważ trwa szybka podróż.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_message_throttled">Zaproszenie do rejonu nie dotarło do adresata. Spróbuj ponownie.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_recipient_pvp_flagged">Gracz jest oznaczony do PvP i nie może zmieniać rejonów.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_recipient_in_combat">Gracz bierze udział w walce i nie może zmieniać rejonów.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_not_currently_in_a_shard">Obecnie nie przebywasz na terenie rejonu.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_remote_player_not_in_shard">Ten gracz nie przebywa w rejonie, do którego można dołączyć.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_different_sectors">Nie przebywasz na terenie tego samego rejonu, co ten gracz.</string>
@@ -500,15 +506,15 @@
 	<string rel_version="Feature_Shards" key="social_phasing_join_character_phase_full">Nie możesz dołączyć do tego rejonu, ponieważ jest pełny.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_join_character_phase_failed">Nie udało się dołączyć do rejonu. Spróbuj ponownie później.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_sector_inaccessible">Obecnie nie możesz wejść na ten obszar. Spróbuj ponownie później.</string>
-	<string rel_version="Feature_Shards" key="social_phasing_sector_inaccessible_pvp">Limit graczy z oznaczeniem do PvP na tym obszarze mógł zostać osiągnięty. Spróbuj wyłaczyć oznaczenie do PvP.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_sector_inaccessible_pvp">Limit graczy z oznaczeniem do PvP na tym obszarze mógł zostać osiągnięty. Spróbuj wyłączyć oznaczenie do PvP.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_in_different_shard">&lt;font face="lyshineui/fonts/nimbus_regular_italic.font" &gt;W innym rejonie&lt;/font&gt;</string>
-	<string rel_version="Feature_Shards" key="social_phasing_unable_duel_tooltip">Nie możesz pojedynkować się z graczem znajdującym się w innym rejonie, niż ty.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_unable_duel_tooltip">Nie możesz pojedynkować się z graczem znajdującym się w innym rejonie niż ty.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_unable_join_phase_in_duel">Nie możesz dołączyć do rejonu innego gracza, gdy bierzesz udział w pojedynku.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_unable_join_phase_in_performance">Nie możesz dołączyć do rejonu innego gracza, gdy bierzesz udział w występie muzycznym.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_unable_join_phase_condemned">Nie możesz dołączyć do tego rejonu, ponieważ właśnie się zamyka.</string>
-	<string rel_version="Feature_Shards" key="social_phasing_unable_trade_tooltip">Nie możesz handlować z graczem znajdującym się w innym rejonie, niż ty.</string>
-	<string rel_version="Feature_Shards" key="social_phasing_unable_music_tooltip">Nie możesz rozpocząć występu muzycznego z graczem znajdującym się w innym rejonie, niż ty.</string>
-	<string rel_version="Feature_Shards" key="social_phasing_area_chat_limited">Czat głosowy i obszarowy jest ograniczony do graczy znajdujących się w tym samym rejonie, co ty.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_unable_trade_tooltip">Nie możesz handlować z graczem znajdującym się w innym rejonie niż ty.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_unable_music_tooltip">Nie możesz rozpocząć występu muzycznego z graczem znajdującym się w innym rejonie niż ty.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_area_chat_limited">Czat głosowy i obszarowy jest ograniczony do graczy znajdujących się w tym samym rejonie co ty.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_phase_condemned_message">Twój obecny rejon zostanie wyłączony za {timeUntilDestruct} min.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_phase_condemned_teleport_message">Zmiana rejonu – teleportacja nastąpi za {timeUntilTeleport} s.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_failed_to_pvp_flag">Rejon dla graczy z aktywnym oznaczeniem do PvP jest pełny, spróbuj ponownie później.</string>
@@ -777,9 +783,11 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Dzienna premia</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Najszybsze PD</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_remaining_attempts">Pozostałe próby</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Tylko M1 i M2</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Kolejka do wszystkich poz. mutacji</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description">Twoja grupa dołączy do kolejki dla wszystkich poziomów (M1-M3) odblokowanych przez członków grupy. Jeśli ukończysz aktywność, której poziom jest niższy od najwyższego, jaki udało ci się odblokować, otrzymasz premię uczestnika. \n\n Dzienny limit: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Resetuje się za: {resetTime}</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Ten przycisk zabierze cię do międzyserwerowej kolejki dla M1 + M2. Jeśli masz odblokowany wyższy poziom trudności niż ten, na którym cię umieszczono, otrzymasz premię uczestnika po zakończeniu ekspedycji.\n\nDzienny limit: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Resetuje się za: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_no_carry_bonus_description">Twoja grupa dołączy do kolejki dla wszystkich poziomów (M1-M3) odblokowanych przez członków grupy.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Twoja grupa dołączy do kolejki dla wszystkich poziomów M1-M2 odblokowanych przez wszystkich członków grupy. Jeśli masz odblokowany wyższy poziom trudności niż ten, na którym cię umieszczono, otrzymasz premię uczestnika po zakończeniu ekspedycji.\n\nDzienny limit: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Resetuje się za: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_no_carry_bonus_description_M1_M2_Only">Twoja grupa dołączy do kolejki dla wszystkich poziomów M1-M2 odblokowanych przez wszystkich członków grupy.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_progress_label">Pozwolić na dołączanie w trakcie?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_random">Losuj</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_queue">W kolejce</string>
@@ -799,7 +807,9 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip">{lobbyCount} – tyle grup rekrutuje do tej aktywności za pomocą funkcji wyszukiwania grupy. Wybierz "Zobacz lobby" na ekranie informacyjnym aktywności, by je przeglądać.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip_single">1 grupa rekrutuje do tej aktywności za pomocą funkcji wyszukiwania grupy. Wybierz "Zobacz lobby" na ekranie informacyjnym aktywności, by je przeglądać.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level">Twój poziom mutacji:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level_numbers">Twój poziom mutacji: {currentNumber} / {maxNumber}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_run_completed">Wykonane dzienne ukończenia:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_run_completed_numbers">Wykonane dzienne ukończenia: {currentNumber} / {maxNumber}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group" comment="">Naciśnij, by móc wejść z grupą</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group_M1_M2_Only" comment="">Naciśnij, by dołączyć do M3 za pomocą funkcji "Wejdź z grupą"</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_available_rewards">Dostępne nagrody</string>
@@ -885,7 +895,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">– Miecz i tarcza, topór dwuręczny, młot bojowy\n– Ciężki pancerz\n– Karneole\n– Efekty obezwładniające (ogłuszenie, uziemienie, powalenie)</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_title">Potwierdź odrzucenie</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_message">Czy na pewno chcesz odrzucić sprawdzian gotowości? Ty i twoja grupa zostaniecie usunięci z kolejki i będziecie musieli do niej ponownie dołączyć.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Czy na pewno chcesz wyjść? Teleportujesz się poza teren ekspedycji bez możliwości powrotu.\n\n&lt;font color={penaltyColor}&gt;Opuszczenie ekspedycji nakłada karę za dezercję (20 minut), jeśli wykorzystano ją podczas pierwszych 10 minut ekspedycji.&lt;/font&gt;\n\nAby uniknąć kary za dezercję, skorzystaj z funkcji "Porzuć aktywność", którą znajdziesz na ekranie mapy i w ustawieniach grupy.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Czy na pewno chcesz wyjść? Teleportujesz się poza teren ekspedycji bez możliwości powrotu.\n\n&lt;font color={penaltyColor}&gt;Opuszczenie ekspedycji nakłada karę za dezercję ({deserterPenalty} min), jeśli wykorzystano ją podczas pierwszych {minTimeInDungeon} min ekspedycji.&lt;/font&gt;\n\nAby uniknąć kary za dezercję, skorzystaj z funkcji "Porzuć aktywność", którą znajdziesz na ekranie mapy i w ustawieniach grupy.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc_no_penalty">Czy na pewno chcesz wyjść? Teleportujesz się poza teren ekspedycji. Ponownie dołączenie nie będzie możliwe.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_expedition_activity_disabled">Dobieranie graczy na ekspedycję jest obecnie wyłączone. Spróbuj ponownie później.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_mutation_activity_disabled">Dobieranie graczy na zmutowaną ekspedycję jest obecnie wyłączone. Spróbuj ponownie później.</string>
@@ -897,5 +907,6 @@
 	<string rel_version="Feature_Crossplay" key="ui_error_whisper_crossplay_communication_off">Użytkownik korzysta z innej platformy. Zmień ustawienia komunikacji międzyplatformowej, by przesłać wiadomość prywatną</string>
 	<string key="ui_communication_restricted_by_platform">Komunikacja ograniczona przez platformę.</string>
 	<string key="ui_group_invites_restricted_gamemode">Zaproszenia do grup są niedostępne w przypadku aktywności gry dobieranej.</string>
+	<string key="ui_group_member_placeholder_name">…</string>
 </resources>
 

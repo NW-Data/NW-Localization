@@ -204,10 +204,13 @@
 	<string key="ui_options_graphics_resolution4K">4K</string>
 	<string key="ui_options_temporalUpscaling_off">Desactivado</string>
 	<string key="ui_options_temporalUpscaling_FSR">FSR 3.1</string>
+	<string key="ui_options_temporalUpscaling_native">Nativo (solo TAA)</string>
 	<string key="ui_options_temporalUpscaling_quality">Calidad</string>
 	<string key="ui_options_temporalUpscaling_balanced">Equilibrado</string>
 	<string key="ui_options_temporalUpscaling_performance">Rendimiento</string>
 	<string key="ui_options_temporalUpscaling_ultraperformance">Ultra rendimiento</string>
+	<string key="ui_options_temporalUpscaling_sharpness">Nitidez</string>
+	<string key="ui_options_temporalUpscaling_sharpness_desc">Selecciona el nivel de nitidez</string>
 	<string key="ui_options_requires_restart">Los cambios se aplicarán la próxima vez que se inicie el juego.</string>
 	<string key="ui_options_take_exit_survey">Hacer encuesta al salir</string>
 	<string key="ui_options_take_exit_survey_desc">Responde a una encuesta breve para compartir tu opinión cuando salgas del juego.</string>
@@ -242,6 +245,7 @@
 	<string key="ui_language_desc">Establece el idioma del texto.</string>
 	<string key="ui_language_audio">Idioma de audio</string>
 	<string key="ui_language_audio_desc">Visita la página de ayuda de New World: Aetérnum para descubrir cómo cambiar el idioma de audio.</string>
+	<string key="system-language" comment="Use the language set on the platform's OS.">Usar el idioma del dispositivo</string>
 	<string key="en-US">English</string>
 	<string key="fr-FR">Français</string>
 	<string key="it-IT">Italiano</string>
@@ -584,8 +588,8 @@
 	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Activa o desactiva esta función para permitir o no la comunicación con jugadores de otras plataformas.</string>
 	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Solo se puede acceder a esta opción si la comunicación está activada en los ajustes de la consola.\nActiva o desactiva el chat de texto y voz con jugadores de otras plataformas.</string>
 	<string key="ui_options_crossplay_prompt_title" rel_version="Feature_Crossplay">Multiplataforma</string>
-	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">¿Seguro que quieres activar el juego multiplataforma?\n Regresarás al menú principal.</string>
-	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">¿Seguro que quieres desactivar el juego multiplataforma?\n Regresarás al menú principal.</string>
+	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">¿Seguro que quieres activar el juego multiplataforma?\nRegresarás al menú principal.</string>
+	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">¿Seguro que quieres desactivar el juego multiplataforma?\nRegresarás al menú principal.</string>
 	<string key="ui_tutorial_classification" rel_version="Feature_Player_Tutorials">Tutoriales</string>
 	<string key="ui_tutorial_classification_desc" rel_version="Feature_Player_Tutorials">Establece la frecuencia de los tutoriales.</string>
 	<string key="ui_classification_basic" rel_version="Feature_Player_Tutorials">Predeterminado</string>
@@ -594,11 +598,25 @@
 	<string key="ui_reset_tutorials" rel_version="Feature_Player_Tutorials">Restablecer tutoriales</string>
 	<string key="ui_reset_tutorials_desc" rel_version="Feature_Player_Tutorials">Restablece todos los tutoriales y te permite ver los que ya has visualizado.</string>
 	<string key="ui_reset_tutorials_confirmation" rel_version="Feature_Player_Tutorials">¿Seguro que quieres restablecer todos los tutoriales?</string>
+	<string key="ui_enable_network_status_icons">Activar iconos de estabilidad de red</string>
+	<string key="ui_enable_network_status_icons_desc">Si se activa, se muestran los iconos del HUD cuando se detecta una mala conexión de red.</string>
 	<string key="ui_hud_layout">Disposición del HUD</string>
 	<string key="ui_hud_layout_desc">Elige posiciones diferentes para los elementos del HUD</string>
 	<string key="ui_hud_layout_1">Predeterminado</string>
 	<string key="ui_hud_layout_2">Medidores elevados</string>
 	<string key="ui_hud_layout_3">Adyacentes</string>
+	<string key="ui_hud_scale">Escala de HUD</string>
+	<string key="ui_hud_scale_desc">Multiplicador de escala de porcentaje para elementos de HUD</string>
+	<string key="ui_hud_margin">Márgenes de HUD</string>
+	<string key="ui_hud_margin_desc">Opciones para ajustar hasta dónde se extiende el HUD</string>
+	<string key="ui_hud_margin_top">Márgen superior del HUD</string>
+	<string key="ui_hud_margin_top_desc">Porcentaje de pantalla por el que se empuja la parte superior del HUD hacia dentro</string>
+	<string key="ui_hud_margin_right">Márgen derecho del HUD</string>
+	<string key="ui_hud_margin_right_desc">Porcentaje de pantalla por el que se empuja la parte derecha del HUD hacia dentro</string>
+	<string key="ui_hud_margin_bottom">Márgen inferior del HUD</string>
+	<string key="ui_hud_margin_bottom_desc">Porcentaje de pantalla por el que se empuja la parte inferior del HUD hacia dentro</string>
+	<string key="ui_hud_margin_left">Márgen izquierdo del HUD</string>
+	<string key="ui_hud_margin_left_desc">Porcentaje de pantalla por el que se empuja la parte izquierda del HUD hacia dentro</string>
 	<string key="ui_reticle_color_white">Blanco</string>
 	<string key="ui_reticle_color_red">Rojo</string>
 	<string key="ui_reticle_color_orange">Naranja</string>
@@ -611,20 +629,5 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificadores</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Decorar casa</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menú</string>
-	<string key="ui_options_temporalUpscaling_sharpness">Nitidez</string>
-	<string key="ui_options_temporalUpscaling_sharpness_desc">Selecciona el nivel de nitidez</string>
-	<string key="ui_options_temporalUpscaling_native">Nativo (solo TAA)</string>
-	<string key="ui_hud_margin_right">Márgen derecho del HUD</string>
-	<string key="ui_hud_margin_left_desc">Porcentaje de pantalla por el que se empuja la parte izquierda del HUD hacia dentro</string>
-	<string key="ui_hud_margin_bottom">Márgen inferior del HUD</string>
-	<string key="ui_hud_margin_top">Márgen superior del HUD</string>
-	<string key="ui_hud_margin_top_desc">Porcentaje de pantalla por el que se empuja la parte superior del HUD hacia dentro</string>
-	<string key="ui_hud_margin_left">Márgen izquierdo del HUD</string>
-	<string key="ui_hud_scale_desc">Multiplicador de escala de porcentaje para elementos de HUD</string>
-	<string key="ui_hud_margin">Márgenes de HUD</string>
-	<string key="ui_hud_scale">Escala de HUD</string>
-	<string key="ui_hud_margin_desc">Opciones para ajustar hasta dónde se extiende el HUD</string>
-	<string key="ui_hud_margin_bottom_desc">Porcentaje de pantalla por el que se empuja la parte inferior del HUD hacia dentro</string>
-	<string key="ui_hud_margin_right_desc">Porcentaje de pantalla por el que se empuja la parte derecha del HUD hacia dentro</string>
 </resources>
 

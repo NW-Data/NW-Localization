@@ -1489,11 +1489,11 @@
 	<string key="PerkID_Earring_ThreatSubOnDodge_Name">Unikanie</string>
 	<string key="PerkID_Earring_ThreatSubOnDodge_Description">Zmniejsza generowanie zagrożenia o {[-0.500000 * -100 * {perkMultiplier}]}% na {[5.000000]} s po wykonaniu uniku.</string>
 	<string key="PerkID_Earring_ManaOnPotion_Name">Toast many</string>
-	<string key="PerkID_Earring_ManaOnPotion_Description">Po wypiciu eliksiru leczniczego zyskujesz {[10.000000 * {perkMultiplier}]} pkt many.</string>
+	<string key="PerkID_Earring_ManaOnPotion_Description">Po wypiciu eliksiru przetrwania zyskujesz {[10.000000 * {perkMultiplier}]} pkt many.</string>
 	<string key="PerkID_Earring_HealthOnPotion_Name">Zdrowy toast</string>
-	<string key="PerkID_Earring_HealthOnPotion_Description">Po wypiciu eliksiru many zyskujesz {[0.030000 * 100 * {perkMultiplier}]}% podstawowego zdrowia.</string>
+	<string key="PerkID_Earring_HealthOnPotion_Description">Po wypiciu eliksiru many zyskujesz {[0.008000 * 100 * {perkMultiplier}]}% podstawowego zdrowia co sekundę przez {[4.000000]} s.</string>
 	<string key="PerkID_Earring_RemoveOnPotion_Name">Oczyszczający toast</string>
-	<string key="PerkID_Earring_RemoveOnPotion_Description">Wypicie eliksiru regeneracji usuwa negatywny efekt ({[1.000000]}).</string>
+	<string key="PerkID_Earring_RemoveOnPotion_Description">Wypicie eliksiru przetrwania usuwa negatywny efekt ({[1.000000]}).</string>
 	<string key="PerkID_Earring_GainOnPotion_Name">Duplikujący toast</string>
 	<string key="PerkID_Earring_GainOnPotion_Description">Gdy wypijesz eliksir, masz {[0.050000 * 100 * {perkMultiplier}]}% szansy na to, że go nie zużyjesz.</string>
 	<string key="PerkID_Earring_PotionCDR_Name">Odświeżający toast</string>
@@ -1709,7 +1709,7 @@
 	<string key="PerkID_Ability_Blunderbuss_VortexShot_Name" rel_version="Weapon_Blunderbuss">Okaleczający potężny strzał</string>
 	<string key="PerkID_Ability_Blunderbuss_VortexShot_Description" rel_version="Weapon_Blunderbuss">Cele trafione potężnym strzałem zostają spowolnione, co zmniejsza ich szybkość ruchu o {[-0.050000 * -100 * {perkMultiplier}]}% na {[5.000000]} s.</string>
 	<string key="PerkID_Ability_Flail_Slam_Name" rel_version="Weapon_Flail">Obciążające grzmotnięcie</string>
-	<string key="PerkID_Ability_Flail_Slam_Description" rel_version="Weapon_Flail">Tylko PvP: wydłuża aktywne czasy odnowienia celów trafionych grzmotnięciem o {[0.050000 * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Ability_Flail_Slam_Description" rel_version="Weapon_Flail">Grzmotnięcie ignoruje {[0.015000 * 100 * {perkMultiplier}]}% pancerza celu. Tylko PvP: Wydłuża aktywne czasy odnowienia graczy trafionych grzmotnięciem o {[0.050000 * 100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Ability_Flail_Blast_Name" rel_version="Weapon_Flail">Uzdrawiający wir</string>
 	<string key="PerkID_Ability_Flail_Blast_Description" rel_version="Weapon_Flail">Każde {[2.000000]} trafienie wirem przywróci ci zdrowie w wysokości {[0.050000 * 100 * {perkMultiplier}]}% podstawowych obrażeń od broni.</string>
 	<string key="PerkID_Ability_Flail_Burst_Name" rel_version="Weapon_Flail">Potężny wybuch</string>
@@ -2508,9 +2508,9 @@
 	<string key="PerkID_Weapon_DmgAeternian_Name" rel_version="Season_1_Perm">Zmora ludzkości</string>
 	<string key="PerkID_Weapon_DmgAeternian_Description" rel_version="Season_1_Perm">Tylko PvE: +{[5 * {perkMultiplier}]}% do obrażeń zadawanych ludziom.</string>
 	<string key="PerkID_Stat_Highest_Name">Spotęgowanie</string>
-	<string key="PerkID_Stat_Highest_Desc">Zwiększa najwyższą cechę</string>
+	<string key="PerkID_Stat_Highest_Desc">Zwiększa najwyższą cechę.</string>
 	<string key="PerkID_Stat_2Highest_Name">Wzmocnienie</string>
-	<string key="PerkID_Stat_2Highest_Desc">Zwiększa dwie najwyższe cechy</string>
+	<string key="PerkID_Stat_2Highest_Desc">Zwiększa dwie najwyższe cechy.</string>
 	<string key="PerkID_Lifestaff_OnLowBonusHeal_Name">Zbawienie</string>
 	<string key="PerkID_Lifestaff_OnLowBonusHeal_Desc">Zwiększa leczenie o {[0.100000 * 100 * {perkMultiplier}]}% podczas leczenia celu mającego poniżej {[50.000000]}% zdrowia.</string>
 	<string key="PerkID_Lifestaff_OnRemoveHeal_Name">Oczyszczająca bryza</string>
@@ -2616,7 +2616,7 @@
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Name">Negatywna energia</string>
 	<string key="PerkID_Artifact_Set1_VoidGauntlet_Desc">Twoje ataki dystansowe wywołują dezintegrację przez {[8.000000]} s dla obydwu broni (czas odnowienia: {[1.000000]} s). Jeśli twoja zręczność jest wyższa, bazowe skalowanie broni będzie powiązane ze zręcznością.</string>
 	<string key="PerkID_Artifact_Set1_Blunderbuss_Name">Zarażony czar</string>
-	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Atakowanie celów obiema broniami nakłada efekt zatrucia i zmniejsza skuteczność otrzymywanego leczenia o {[-0.050000 * -100]}% i leczenia innych o {[-0.025000 * -100]}% na efekt przez {[3.000000]}s (kumuluje się do {[3.000000]} razy, {[1.000000]} s odnowienia aktywacji).</string>
+	<string key="PerkID_Artifact_Set1_Blunderbuss_Desc">Atakowanie celów obiema broniami nakłada efekt zatrucia i zmniejsza skuteczność otrzymywanego leczenia o {[-0.050000 * -100]}% i leczenia innych o {[-0.025000 * -100]}% na efekt przez {[3.000000]} s (kumuluje się do {[3.000000]} razy, {[1.000000]} s odnowienia aktywacji).</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Name">Zaraza</string>
 	<string key="PerkID_Artifact_Set1_BlunderbussPerk_Desc">{[0.080000 * 100]}% obrażeń przeciwko zatrutym i chorym celom.</string>
 	<string key="PerkID_Artifact_Set1_Greatsword_Name">Wyważone ostrze</string>
@@ -2630,9 +2630,9 @@
 	<string key="PerkID_Artifact_Set1_Ring2_Name" rel_version="Feature_Artifacts_Set2">Ekspert</string>
 	<string key="PerkID_Artifact_Set1_Ring2_Desc" rel_version="Feature_Artifacts_Set2">Umiejętności zadają o {[0.125000 * 100]}% więcej obrażeń, ale ataki podstawowe zadają o {[-0.250000 * -100]}% mniej obrażeń.</string>
 	<string key="PerkID_Artifact_Set1_Earring1_Name">Pragnienie</string>
-	<string key="PerkID_Artifact_Set1_Earring1_Desc">Lecznicze przedmioty użytkowe są silniejsze o {[0.330000 * 100]}%, ale czasy odnowienia eliksirów leczniczych są dłuższe o {[0.250000 * 100]}%.</string>
+	<string key="PerkID_Artifact_Set1_Earring1_Desc">Lecznicze przedmioty użytkowe są silniejsze o {[0.330000 * 100]}%, ale czasy odnowienia eliksirów przetrwania i many są dłuższe o {[0.250000 * 100]}%.</string>
 	<string key="PerkID_Artifact_Set1_Earring2_Name" rel_version="Feature_Artifacts_Set2">Ożywienie</string>
-	<string key="PerkID_Artifact_Set1_Earring2_Desc" rel_version="Feature_Artifacts_Set2">Zyskaj co sekundę {[0.020000 * 100]}% zdrowia, {[2.000000]} wytrzymałości i {[2.000000]} many. W zamian czasy odnowienia eliksirów leczniczych są dłuższe o {[0.750000 * 100]}%. </string>
+	<string key="PerkID_Artifact_Set1_Earring2_Desc" rel_version="Feature_Artifacts_Set2">Zyskaj co sekundę {[0.020000 * 100]}% zdrowia, {[2.000000]} wytrzymałości i {[2.000000]} many. W zamian czasy odnowienia eliksirów przetrwania są dłuższe o {[0.750000 * 100]}%.</string>
 	<string key="PerkID_Artifact_Set1_Flail_Name">Kara Odo</string>
 	<string key="PerkID_Artifact_Set1_Flail_Desc">Zadajesz o {[0.200000 * 100]}% więcej obrażeń ogłuszonym i powalonym wrogom (działa na obie bronie).</string>
 	<string key="PerkID_Artifact_Set1_FlailPerk_Name">Obrona Odo</string>
@@ -2683,7 +2683,7 @@
 	<string key="PerkID_Armor_SkinningYield_Name">Wydajność skórownika</string>
 	<string key="PerkID_Armor_SkinningYield_Description">+{[0.015000 * 100 * {perkMultiplier}]}% surowców podczas skórowania.</string>
 	<string key="PerkID_Artifact_Set2_HeavyChest_Name" rel_version="Feature_Artifacts_S6">Instynkt przetrwania</string>
-	<string key="PerkID_Artifact_Set2_HeavyChest_Desc" rel_version="Feature_Artifacts_S6">Gdy otrzymasz trafienie przy zdrowiu wynoszącym mniej niż 50%, zyskasz {[50.000000]} pkt wytrzymałości, a wszystkie działające na ciebie negatywne efekty zostaną usunięte. Ponadto otrzymasz przywrócenie eliksiru, które natychmiast odnowi twój kolejny eliksir leczniczy (czas odnowienia: {[120.000000]} s).</string>
+	<string key="PerkID_Artifact_Set2_HeavyChest_Desc" rel_version="Feature_Artifacts_S6">Gdy otrzymasz trafienie przy zdrowiu wynoszącym mniej niż 50%, zyskasz {[50.000000]} pkt wytrzymałości, a wszystkie działające na ciebie negatywne efekty zostaną usunięte. Ponadto otrzymasz przywrócenie eliksiru, które natychmiast odnowi twój kolejny eliksir leczniczy (czas odnowienia: {[120.000000]} s). (Nie można wielokrotnie używać przywrócenia eliksiru w ciągu {[75.000000]} s między użyciami).</string>
 	<string key="PerkID_Artifact_Set2_HeavyHands_Name" rel_version="Feature_Artifacts_S5">Naładowanie</string>
 	<string key="PerkID_Artifact_Set2_HeavyHands_Desc" rel_version="Feature_Artifacts_S5">Za każdym razem, gdy otrzymasz obrażenia, zyskasz ładunek nasączenia mocą, który zwiększy obrażenia twojego następnego ataku o {[0.020000 * 100]}% (do {[10.000000]} ładunków).</string>
 	<string key="PerkID_Artifact_Set2_HeavyLegs_Name" rel_version="Feature_Artifacts_S5">Niezachwiane fundamenty</string>
@@ -2695,7 +2695,7 @@
 	<string key="PerkID_Artifact_Set2_MediumLegs_Name" rel_version="Feature_Artifacts_S6">Łaska czarownika</string>
 	<string key="PerkID_Artifact_Set2_MediumLegs_Desc" rel_version="Feature_Artifacts_S6">Jeśli używasz średniego wyposażenia, zadajesz {[0.150000 * 100]}% więcej obrażeń od żywiołów.</string>
 	<string key="PerkID_Artifact_Set2_LightHead_Name" rel_version="Feature_Artifacts_S6">Desperacka energia</string>
-	<string key="PerkID_Artifact_Set2_LightHead_Desc" rel_version="Feature_Artifacts_S6">Gdy masz mniej niż {[50.000000]}% many i trafisz wroga, zadajesz {[0.250000 * 100]}% więcej obrażeń przez {[4.000000]} s (czas odnowienia: {[10.000000]}).</string>
+	<string key="PerkID_Artifact_Set2_LightHead_Desc" rel_version="Feature_Artifacts_S6">Gdy masz mniej niż {[50.000000]}% many i trafisz wroga, zadajesz {[0.250000 * 100]}% więcej obrażeń przez {[4.000000]} s (czas odnowienia: {[10.000000]} s).</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Name" rel_version="Feature_Artifacts_S5">Zasadzka</string>
 	<string key="PerkID_Artifact_Set2_LightFeet_Desc" rel_version="Feature_Artifacts_S5">Zadajesz 15% więcej obrażeń i masz 25% szansy na trafienie krytyczne pod warunkiem, że cel nie został przez ciebie trafiony w ciągu ostatnich 20 s.</string>
 	<string key="PerkID_Artifact_Set2_Hatchet_Name" rel_version="Feature_Artifacts_S5">Skażenie</string>
@@ -2708,8 +2708,24 @@
 	<string key="PerkID_Artifact_Set2_Greataxe_Desc" rel_version="Feature_Artifacts_S5">Trafienia celu zwiększają szybkość ruchu o 3% na 3 s. (Działa na obie bronie, kumuluje się do 10 razy). </string>
 	<string key="PerkID_Artifact_Set2_GreataxePerk_Name" rel_version="Feature_Artifacts_S5">Niekończący się piruet</string>
 	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Wir nie musi już trafiać w cele, by mógł być kontynuowany. Można wykonać do 12 obrotów.</string>
+	<string key="PerkID_Artifact_Set2_Bow_Name" rel_version="Feature_Artifacts_S7">Związek z zatruciem</string>
+	<string key="PerkID_Artifact_Set2_Bow_Desc" rel_version="Feature_Artifacts_S7">Zadajesz {[0.150000 * 100]}% więcej obrażeń zatrutym wrogom. Działa na obie bronie.</string>
+	<string key="PerkID_Artifact_Set2_BowPerk_Name" rel_version="Feature_Artifacts_S7">Zatrute strzały</string>
+	<string key="PerkID_Artifact_Set2_BowPerk_Desc" rel_version="Feature_Artifacts_S7">Naładowane ataki wywołują zatrucie, zadające {[-0.050000 * -100]}% obrażeń od broni przez {[10.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Musket_Name" rel_version="Feature_Artifacts_S7">Szrapnelowy strzał</string>
+	<string key="PerkID_Artifact_Set2_Musket_Desc" rel_version="Feature_Artifacts_S7">Trafienie wroga w głowę nałoży na niego {[-0.100000*-100]}% krwawienia na {[6.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_FireStaff_Name" rel_version="Feature_Artifacts_S7">Piromania stosowana</string>
+	<string key="PerkID_Artifact_Set2_FireStaff_Desc" rel_version="Feature_Artifacts_S7">Wszystkie umiejętności i ataki ciężkie ognistej laski zadają o {[-0.330000 * -100]}% mniej obrażeń, w zamian nakładając {[-0.100000 * -100]}% podpalenia na {[5.000000]} s. (Kumuluje się do 5 razy).</string>
+	<string key="PerkID_Artifact_Set2_LifeStaff_Name" rel_version="Feature_Artifacts_S7">Świetlisty dotyk</string>
+	<string key="PerkID_Artifact_Set2_LifeStaff_Desc" rel_version="Feature_Artifacts_S7">Przez {[5.000000]} s po użyciu umiejętności laski życia następny atak ciężki, który przejdzie przez sojusznika, nałoży na niego wzmocnienie, zapewniające {[0.300000 * 100]}% pochłaniania obrażeń od następnego trafienia, jakie otrzyma w ciągu {[7.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_Spear_Name" rel_version="Feature_Artifacts_S5">Zatruta końcówka</string>
 	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Ciężkie ataki wręcz wyprowadzane dowolną bronią wywołują zatrucie zadające {[-0.150000 * -100]}% obrażeń od broni przez {[5.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Rapier_Name" rel_version="Feature_Artifacts_S7">Końcówka z lawy</string>
+	<string key="PerkID_Artifact_Set2_Rapier_Desc" rel_version="Feature_Artifacts_S7">Ciężkie ataki wręcz wywołują {[-0.100000 * -100]}% podpalenia na {[6.000000]} s – dotyczy obu broni (kumuluje się do 3 razy).</string>
+	<string key="PerkID_Artifact_Set2_IceGauntlet_Name" rel_version="Feature_Artifacts_S7">Zamarznięty grobowiec</string>
+	<string key="PerkID_Artifact_Set2_IceGauntlet_Desc" rel_version="Feature_Artifacts_S7">Trafienie celu wskutek wyjścia z pogrzebania nałoży na niego odmrożenie, spowalniające go o {[-0.100000 * -100]}% i zadające mu obrażenia w wysokości {[-0.100000 * -100]}% twoich obrażeń od broni co sekundę przez {[5.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_VoidGauntlet_Name" rel_version="Feature_Artifacts_S7">Uzdrawiający wyciek</string>
+	<string key="PerkID_Artifact_Set2_VoidGauntlet_Desc" rel_version="Feature_Artifacts_S7">Nadmiar esencji przywraca o 100% więcej zdrowia. Wyciek esencji zadaje {[0.500000 * 100]}% więcej obrażeń przy trafieniu.</string>
 	<string key="PerkID_Artifact_Set2_Greatsword_Name" rel_version="Feature_Artifacts_S6">Ofensywny pęd</string>
 	<string key="PerkID_Artifact_Set2_Greatsword_Desc" rel_version="Feature_Artifacts_S6">Gdy przyjmiesz postawę obronną, zyskasz +{[0.200000 * 100]}% do szybkości ruchu na {[6.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_Flail_Name" rel_version="Feature_Artifacts_S6">Ciężkie brzemię</string>
@@ -2718,7 +2734,61 @@
 	<string key="PerkID_Artifact_Set2_Ring1_Desc" rel_version="Feature_Artifacts_S6">Gdy zadasz celowi obrażenia od żywiołów (efekt nie jest wyzwalany przez obrażenia periodyczne lub wzmocnienia), zyskasz {[0.040000 * 100]}% nasączenia mocą na {[6.000000]} s (czas odnowienia: {[10.000000]} s na typ obrażeń, kumuluje się do 1 razu na typ).</string>
 	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Zemsta feniksa</string>
 	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Gdy otrzymasz śmiertelne obrażenia, unikniesz śmierci i odzyskasz {[1.000000 * 100]}% maksymalnego zdrowia. Następnie zostanie na ciebie nałożona zemsta, zmniejszając leczenie o {[-2.000000 * -100]}% i nakładając obrażenia równe {[-0.100000 * -200]}% maksymalnego zdrowia co sekundę, aż zginiesz lub zabijesz przeciwnika (czas odnowienia: {[180.000000]} s).</string>
+	<string key="PerkID_Artifact_Set2_Earring1_Name" rel_version="Feature_Artifacts_S7">Alchemiczna ochrona</string>
+	<string key="PerkID_Artifact_Set2_Earring1_Desc" rel_version="Feature_Artifacts_S7">Gdy wróg trafi cię {[20.000000]} razy, zyskasz przywrócenie eliksiru, które natychmiast odnowi twój kolejny eliksir leczniczy (czas odnowienia: {[90.000000]} s). (Nie można wielokrotnie używać przywrócenia eliksiru w ciągu {[75.000000]} s między użyciami).</string>
 	<string key="PerkID_Flail_RabbitFlail_Name" rel_version="Event_RabbitSeasonPerm2024">Zemsta królików</string>
 	<string key="PerkID_Flail_RabbitFlail_Description" rel_version="Event_RabbitSeasonPerm2024">Nawet Stanley nie jest w stanie sprostać mocy skażenia tej broni.</string>
+	<string key="PerkID_Conqueror_Bow_PoisonAOE_Name" rel_version="PvPServerConquerorsItems">Zarażenie</string>
+	<string key="PerkID_Conqueror_Bow_PoisonAOE_Desc" rel_version="PvPServerConquerorsItems">Bezpośrednie trafienie trującym strzałem tworzy wir przyciągający pobliskie cele, który następnie wyzwala trujący obłok o promieniu {[5.000000]} m, podążający za trafionym celem przez 10 s i zadający {[-0.500000 * -100]}% obrażeń od trucizny co sekundę wszystkim celom, które znajdą się w jego obrębie.</string>
+	<string key="PerkID_Conqueror_Warhammer_Knockback_Name" rel_version="PvPServerConquerorsItems">Won!</string>
+	<string key="PerkID_Conqueror_Warhammer_Knockback_Desc" rel_version="PvPServerConquerorsItems">+{[4.000000 * 100]}% do dystansu odepchnięcia i +{[0.300000 * 100]}% do obrażeń podstawowych. Dotyczy wszystkich efektów odrzucenia wyzwalanych przez młot bojowy. "Z drogi!" podpala pierwszy trafiony cel, zmieniając go w pocisk zadający {[-1.500000 * -100]}% obrażeń od broni wszystkim celom, z którymi się zetknie na swojej drodze.</string>
+	<string key="PerkID_Conqueror_Shield_TankAura_Name" rel_version="PvPServerConquerorsItems">Altruizm</string>
+	<string key="PerkID_Conqueror_Shield_TankAura_Desc" rel_version="PvPServerConquerorsItems">Wszyscy pobliscy sojusznicy zyskują {[0.500000 * 100]}% więcej pancerza, natomiast ty zyskujesz {[0.250000 * 100]}% więcej otrzymywanego leczenia. W zamian twój pancerz zostaje zmniejszony o {[-0.250000 * -100]}%.</string>
+	<string key="PerkID_Conqueror_IceGauntlet_FrostAura_Name" rel_version="PvPServerConquerorsItems">Mroźne plemię</string>
+	<string key="PerkID_Conqueror_IceGauntlet_FrostAura_Desc" rel_version="PvPServerConquerorsItems">Ty i twoi sojusznicy znajdujący się w promieniu {[8.500000]} m od ciebie zyskujecie {[0.300000 * 100]}% do pochłaniania obrażeń od ognia i {[0.200000 * 100]}% do zadawanych obrażeń podstawowych od lodu. Trafienie celu z zimową aurą nałoży na niego {[-0.050000 * -100]}% kumulującego się spowolnienia na {[3.000000]} s. (Kumuluje się do {[6.000000]} razy).</string>
+	<string key="PerkID_Conqueror_FireStaff_BurnAura_Name" rel_version="PvPServerConquerorsItems">Osmalenie</string>
+	<string key="PerkID_Conqueror_FireStaff_BurnAura_Desc" rel_version="PvPServerConquerorsItems">Wyzwala wokół ciebie aurę o promieniu {[8.500000]} m, nakładającą {[-0.200000 * -100]}% podpalenia na wrogów znajdujących się w obrębie jej działania. Ponadto zmniejsza otrzymywane obrażenia od ognia o {[0.000000 * 100]}%. Trafienie celów objętych działaniem aury zwiększa moc podpalenia o 5% za każdy skumulowany efekt na {[4.000000]} s (kumuluje się do {[20.000000]} razy).</string>
+	<string key="PerkID_Conqueror_Hatchet_CombustibleCombustion_Name" rel_version="PvPServerConquerorsItems">Wybuchowość</string>
+	<string key="PerkID_Conqueror_Hatchet_CombustibleCombustion_Desc" rel_version="PvPServerConquerorsItems">Trafienie celu dystansowym atakiem siekierki nałoży na niego wybuchowość. Po osiągnięciu {[3.000000]} skumulowanych efektów następne trafienie atakiem dystansowym wyzwoli wybuch, który pochłonie skumulowane efekty i zada {[-2.500000 * -100]}% obrażeń od broni wszystkim pobliskim celom.</string>
+	<string key="PerkID_Conqueror_Spear_Embiggen_Name" rel_version="PvPServerConquerorsItems">Powiększenie</string>
+	<string key="PerkID_Conqueror_Spear_Embiggen_Desc" rel_version="PvPServerConquerorsItems">Umiejętności walki wręcz włóczni sprawią, że zaczniesz rosnąć, co pozwoli ci objąć atakami większy obszar. Ponadto kopnięcie z wyskoku zyskuje większą moc i powala cele.</string>
+	<string key="PerkID_Conqueror_MeleeWeapon_DodgeSuppressant_Name" rel_version="PvPServerConquerorsItems">Stłumienie uniku</string>
+	<string key="PerkID_Conqueror_MeleeWeapon_DodgeSuppressant_Desc" rel_version="PvPServerConquerorsItems">Trafienie umiejętnością wręcz celu mającego poniżej {[50.000000]}% zdrowia nałoży na niego niemrawość, wskutek czego nie będzie on mógł wykonywać uników przez {[2.000000]} s albo do czasu, aż sam trafi jakiś cel (czas odnowienia: {[20.000000]} s na cel).</string>
+	<string key="PerkID_Conqueror_Greatsword_CrescentWave_Name" rel_version="PvPServerConquerorsItems">Półksiężycowa fala</string>
+	<string key="PerkID_Conqueror_Greatsword_CrescentWave_Desc" rel_version="PvPServerConquerorsItems">Gdy masz powyżej 50% zdrowia, ataki ciężkie wyzwalają pocisk zadający {[1.500000 * 100]}% obrażeń od broni. Koszt każdej fali wynosi {[20.000000]} many.</string>
+	<string key="PerkID_Conqueror_HolyShield_Blocking_Name" rel_version="PvPServerConquerorsItems">Święta osłona</string>
+	<string key="PerkID_Conqueror_HolyShield_Blocking_Desc" rel_version="PvPServerConquerorsItems">Zablokowanie ataku dystansowego wyzwoli tarczę w formie bańki, utrzymującą się przez {[10000.000000 / 1000]} s w miejscu, w którym znajduje się gracz. Tarcza będzie blokować wszystkie pociski (czas odnowienia: {[30.000000]} s).</string>
+	<string key="PerkID_Conqueror_DodgeCorruptionBall_Name" rel_version="PvPServerConquerorsItems">Skażony unik</string>
+	<string key="PerkID_Conqueror_DodgeCorruptionBall_Desc" rel_version="PvPServerConquerorsItems">Uniknięcie ataku wręcz wyprowadzonego przez wroga wyzwoli kulę skażenia, która eksploduje, zadając {[-0.600000 * -100]}% obrażeń od próżni wszystkim celom w promieniu {[3.000000]} m. Ponadto twój następny cios zadany w ciągu {[4.000000]} s zyska {[0.300000 * 100]}% nasączenia mocą (czas odnowienia: {[6.000000]} s).</string>
+	<string key="PerkID_Conqueror_Longsword_ShieldlessAgility_Name" rel_version="PvPServerConquerorsItems">Nieskrępowana zwinność</string>
+	<string key="PerkID_Conqueror_Longsword_ShieldlessAgility_Desc" rel_version="PvPServerConquerorsItems">Gdy masz na sobie lekki lub średni zestaw wyposażenia i nie używasz tarczy, koszt uniku jest mniejszy o 20% dla pierwszego uniku, który wykonasz w ciągu {[1.000000]} s po trafieniu celu. Uniknięcie ataku wręcz zapewnia {[0.200000 * 100]}% przyspieszenia na {[2.000000]} s i {[0.500000 * 100]}% nasączenia mocą dla obrażeń od cięć dla następnego ataku, jaki zadasz w ciągu {[2.000000]} s. W zamian zawsze otrzymujesz {[-0.200000 * -100]}% więcej obrażeń.</string>
+	<string key="PerkID_Conqueror_Armor_SwarmDefense_Name" rel_version="PvPServerConquerorsItems">Obrona przed tłumem</string>
+	<string key="PerkID_Conqueror_Armor_SwarmDefense_Desc" rel_version="PvPServerConquerorsItems">Gdy {[3.000000]} lub więcej wrogów znajduje się w pobliżu, zyskujesz {[0.100000 * 100]}% więcej pancerza za każdego pobliskiego wroga. W zamian zmniejsza twoje leczenie o {[-0.020000 * -100]}% za każdego pobliskiego wroga (maks. liczba wrogów: {[10.000000]}).</string>
+	<string key="PerkID_Conqueror_Musket_LimbDebilitation_Name" rel_version="PvPServerConquerorsItems">Dodatkowy zawrót głowy</string>
+	<string key="PerkID_Conqueror_Musket_LimbDebilitation_Desc" rel_version="PvPServerConquerorsItems">Trafienie w głowę nakłada {[-0.200000 * -100]}% wyczerpania na {[3.000000]} s. Przez {[3.000000]} s po trafieniu w nogi cel będzie zadawać obrażenia w wysokości {[-0.100000 * -100]}% maksymalnego zdrowia sobie samemu za każdym razem, gdy wykona unik.</string>
+	<string key="PerkID_Conqueror_Flail_Disease_Name" rel_version="PvPServerConquerorsItems">Chorobliwa sprzeczka</string>
+	<string key="PerkID_Conqueror_Flail_Disease_Desc" rel_version="PvPServerConquerorsItems">Ataki nakładają {[-0.050000 * -100]}% otrzymywanej i {[-0.025000 * -100]}% nakładanej choroby na {[4.000000]} s (kumuluje się do {[5.000000]} razy). Atakowanie celu blokującego ciosy pochłania {[1.000000]} skumulowanych efektów, zadając {[-0.300000 * -100]}% obrażeń od broni za każdy pochłonięty efekt.</string>
+	<string key="PerkID_Conqueror_Greataxe_UndeadLostMonarch_Name" rel_version="PvPServerConquerorsItems">Demolka</string>
+	<string key="PerkID_Conqueror_Greataxe_UndeadLostMonarch_Desc" rel_version="PvPServerConquerorsItems">Trafienie celu atakiem ciężkim zmieni cię w wielkiego, zagubionego monarchę. Po transformacji zyskasz {[0.350000 * 100]}% do pancerza na {[10.000000]} s. Gdy czas dobiegnie końca, wrócisz do swej pierwotnej formy (czas odnowienia: {[15.000000]} s).</string>
+	<string key="PerkID_Conqueror_LifeStaff_SupportiveHeals_Name" rel_version="PvPServerConquerorsItems">Podtrzymywanie życia</string>
+	<string key="PerkID_Conqueror_LifeStaff_SupportiveHeals_Desc" rel_version="PvPServerConquerorsItems">Zwiększa leczenie innych laską życia o {[0.350000 * 100]}%, gdy nie działa na ciebie żaden efekt zapewniający leczenie rozłożone w czasie. Ponadto wyzwalasz wokół siebie leczniczą aurę, która będzie nieustanie leczyć pobliskich sojuszników (ale nie ciebie). Gdy ataki lekkie przechodzą przez sojuszników, ich tempo regeneracji wytrzymałości i many zwiększa się o {[0.250000 * 100]}% na {[3.000000]} s.</string>
+	<string key="PerkID_Conqueror_VoidGauntlet_HarvestDamage_Name" rel_version="PvPServerConquerorsItems">Kara żniwiarza</string>
+	<string key="PerkID_Conqueror_VoidGauntlet_HarvestDamage_Desc" rel_version="PvPServerConquerorsItems">Używanie esencji żniw periodycznie wyzwala impulsy obrażeń, trafiające wszystkich wrogów znajdujących się w promieniu {[5.000000]} m. Zadaje {[-0.400000 * -100]}% podstawowych obrażeń od obroni i wyzwala {[0.500000 * 100]}% kradzieży życia na podstawie zadanych obrażeń.</string>
+	<string key="PerkID_Conqueror_Rapier_HasteWhenFacingTarget_Name" rel_version="PvPServerConquerorsItems">Ruchawka</string>
+	<string key="PerkID_Conqueror_Rapier_HasteWhenFacingTarget_Desc" rel_version="PvPServerConquerorsItems">Zapewnia {[0.150000 * 100]}% przyspieszenia, gdy stoisz naprzeciwko celu, który znajduje się w promieniu {[6.000000 * 2]} m. Ponadto umiejętności popychające cię do przodu mają zwiększony zasięg, gdy stoisz naprzeciwko celu. Gdy masz 200 pkt zręczności, dystans dodatkowo się zwiększa.</string>
+	<string key="PerkID_EtherealWeapon_Name" rel_version="PvPServerConquerorsItems">Eteryczna broń</string>
+	<string key="PerkID_EtherealWeapon_Description" rel_version="PvPServerConquerorsItems">Ta broń jest upuszczana po śmierci. Zapewnia dostęp do specjalnych materiałów podczas wydarzeń ciemności.</string>
+	<string key="PerkID_EtherealArmor_Name" rel_version="PvPServerConquerorsItems">Eteryczny pancerz</string>
+	<string key="PerkID_EtherealArmor_Description" rel_version="PvPServerConquerorsItems">Ten pancerz jest upuszczany po śmierci. Zapewnia dostęp do specjalnych materiałów, które znajdziesz w pojemnikach na terenie elitarnych ważnych miejsc.</string>
+	<string key="PerkID_EtherealJewelry_Name" rel_version="PvPServerConquerorsItems">Eteryczna biżuteria</string>
+	<string key="PerkID_EtherealJewelry_Description" rel_version="PvPServerConquerorsItems">Ta biżuteria jest upuszczana po śmierci. Zapewnia dostęp do specjalnych materiałów, które można znaleźć u zabitych wrogów na terenie elitarnych ważnych miejsc.</string>
+	<string key="PerkID_EtherealMining_Name" rel_version="PvPServerConquerorsItems">Eteryczne górnictwo</string>
+	<string key="PerkID_EtherealMining_Description" rel_version="PvPServerConquerorsItems">Ten kilof jest upuszczany po śmierci. Zapewnia dostęp do specjalnych materiałów podczas górnictwa.</string>
+	<string key="PerkID_EtherealLogging_Name" rel_version="PvPServerConquerorsItems">Eteryczny wyrąb</string>
+	<string key="PerkID_EtherealLogging_Description" rel_version="PvPServerConquerorsItems">Ta siekiera jest upuszczana po śmierci. Zapewnia dostęp do specjalnych materiałów podczas wyrębu.</string>
+	<string key="PerkID_EtherealHarvesting_Name" rel_version="PvPServerConquerorsItems">Eteryczne żniwa</string>
+	<string key="PerkID_EtherealHarvesting_Description" rel_version="PvPServerConquerorsItems">Ten sierp jest upuszczany po śmierci. Zapewnia dostęp do specjalnych materiałów podczas żniw.</string>
+	<string key="PerkID_EtherealSkinning_Name" rel_version="PvPServerConquerorsItems">Eteryczne skórowanie</string>
+	<string key="PerkID_EtherealSkinning_Description" rel_version="PvPServerConquerorsItems">Ten nóż do skórowania jest upuszczany po śmierci. Zapewnia dostęp do specjalnych materiałów podczas skórowania.</string>
 </resources>
 

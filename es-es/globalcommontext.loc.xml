@@ -225,7 +225,7 @@
 	<string key="ui_afflicted_insane">demente</string>
 	<string key="ui_afflicted_inspired">inspirado</string>
 	<string key="ui_afflicted_poison">Quemadura de ácido</string>
-	<string key="ui_afflicted_poison_tooltip">Al sufrir quemadura de ácido, recibes un 500 % más de daño de ácido. Puedes eliminar la quemadura de ácido con pociones de ácido, que puedes crear en una estación arcana.</string>
+	<string key="ui_afflicted_poison_tooltip">Al sufrir quemadura de ácido, recibes un 500 % más de daño de ácido. Puedes eliminar la quemadura de ácido con pócimas antiácido, que puedes crear en una estación arcana.</string>
 	<string key="ui_afflicted_weakness">débil</string>
 	<string key="ui_afflicted_drowning">ahogamiento</string>
 	<string key="ui_afflicted_drowning_tooltip">Has muerto ahogado.</string>
@@ -590,7 +590,7 @@
 	<string key="ui_craftingnearitemlimit">No hay apenas espacio en tu inventario. Puedes soltar los objetos fabricados.</string>
 	<string key="ui_inventory_warning_toofullforrewards">No puedes recibir recompensas con el inventario lleno.</string>
 	<string key="ui_inventoryslotsremaining">Ranuras de objeto del inventario únicas restantes: {count}</string>
-	<string key="ui_inventoryweightremaining">Peso restante: {Weight}</string>
+	<string key="ui_inventoryweightremaining">Peso restante: &lt;img xPadding="2" src="LyShineUI/Images\Icons\Misc\Icon_weight.png"&gt;&lt;/img&gt;{Weight}</string>
 	<string key="ui_inventoryMaxWeight">Carga excesiva</string>
 	<string key="ui_inventoryweight">PESO</string>
 	<string key="ui_inventoryslots">OBJETOS ÚNICOS</string>
@@ -853,7 +853,7 @@
 	<string key="ui_options_contrast">Contraste</string>
 	<string key="ui_options_contrast_desc">Ajusta el nivel de contraste.</string>
 	<string key="ui_options_hdrwhitepoint">Punto blanco HDR</string>
-	<string key="ui_options_hdrwhitepoint_desc">Ajusta el punto blanco HDR al ejecutar el juego en un monitor HDR.</string>
+	<string key="ui_options_hdrwhitepoint_desc">Ajusta el punto blanco HDR al ejecutar el juego en un monitor HDR</string>
 	<string key="ui_quit">Salir</string>
 	<string key="ui_randomize">Aleatorizar</string>
 	<string key="ui_receivevolume">Volumen de recepción</string>
@@ -898,6 +898,11 @@
 	<string key="ui_sampletooltipnthistool">Mensaje de muestra\nEste mensaje es un cuadrado sencillo con un marco en el que solo se muestra texto.</string>
 	<string key="ui_save">Guardar</string>
 	<string key="ui_se">SE</string>
+	<string key="ui_dodgesuppressed_exhausted">Esquivar anulado: Extenuación</string>
+	<string key="ui_dodgesuppressed_stunned">Esquivar anulado: Aturdimiento</string>
+	<string key="ui_dodgesuppressed_staggered">Esquivar anulado: Vacilación</string>
+	<string key="ui_dodgesuppressed_sluggish" rel_version="PvPServerConquerorsItems">Esquivar anulado: Letargo, ataca al enemigo para eliminar el efecto</string>
+	<string key="ui_unabletoBlock">Bloquear: anulado</string>
 	<string key="ui_shift_modifier_toggle_popup_title" rel_version="Feature_Controller">Actualizar asignaciones</string>
 	<string key="ui_shift_modifier_toggle_popup_message" rel_version="Feature_Controller">Los modificadores de botones son exclusivos de este modo y ninguna otra acción los puede utilizar. Si activas los modificadores, desasignarás cualquier acción con la misma asignación. ¿Continuar?</string>
 	<string key="ui_binding_controller_success" rel_version="Feature_Controller">{action} se ha reasignado correctamente.</string>
@@ -1245,7 +1250,7 @@
 	<string key="ui_navmenu_visit_forums_desc">Habla directamente con los desarrolladores y contacta con otros jugadores.</string>
 	<string key="ui_help">ayuda</string>
 	<string key="ui_navmenu_get_help">Consigue ayuda</string>
-	<string key="ui_navmenu_get_help_desc">Visita la página de ayuda de New World: Aetérnum para resolver tus problemas, obtener asistencia técnica y acceder a otros recursos útiles.</string>
+	<string key="ui_navmenu_get_help_desc">Visita la página de ayuda de New World: Aetérnum para resolver tus problemas, obtener asistencia técnica y otros recursos útiles.</string>
 	<string key="ui_quitpopup_title">Salir del juego</string>
 	<string key="ui_quitpopup_incombat_title">SALIR DEL COMBATE RECIENTE</string>
 	<string key="ui_quitpopup_criminal_title">SALIR COMO CRIMINAL</string>
@@ -1867,6 +1872,7 @@
 	<string key="ui_repair_all_not_needed_equipment">No hay objetos que reparar.</string>
 	<string key="ui_repair_all_confirmation">Coste de reparación:</string>
 	<string key="ui_repair_all_equipment_confirmation">Coste de reparación:</string>
+	<string key="ui_equipment_damaged">Equipo dañado</string>
 	<string key="ui_chat_mention_self_markup">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font" color="#ebe3d6"&gt;@{name}&lt;/font&gt;</string>
 	<string key="ui_and">y</string>
 	<string key="ui_or">O</string>
@@ -2038,17 +2044,17 @@
 	<string key="ui_resource_quantity">{resourceName} {qtyHave} / {qtyNeeded}</string>
 	<string key="ui_escapemenu_proceed_to_new_world">Saltar tutorial</string>
 	<string key="ui_proceed_to_new_world_popup_title">Saltar tutorial</string>
-	<string key="ui_proceed_to_new_world_popup_message">¿Seguro que quieres saltar el tutorial?\nPerderás las monedas, objetos o experiencia que hayas obtenido.</string>
+	<string key="ui_proceed_to_new_world_popup_message">¿Seguro que quieres saltar el tutorial?</string>
 	<string key="ui_milestone_correction_popup_title">Hito actualizado</string>
 	<string key="ui_milestone_correction_popup_message">¡Los hitos de la historia principal han cambiado!\n\nAetérnum está en constante evolución y se te ha reubicado para experimentar mejor las nuevas historias y misiones.</string>
 	<string key="ui_ffa_movement_popup_title" rel_version="Territory_CutlassKeys_Rework">Todos contra todos desactivado</string>
 	<string key="ui_ffa_movement_popup_message" rel_version="Territory_CutlassKeys_Rework">Se te ha sacado de la zona de juego de todos contra todos para mantenerte a salvo.\n\n¡Vuelve a entrar en la zona cuando quieras continuar luchando!</string>
 	<string key="ui_ffa_protection_label" rel_version="Territory_CutlassKeys_Rework">Hasta\ntodos contra todos</string>
 	<string key="ui_ffa_notification_countdown" rel_version="Territory_CutlassKeys_Rework">Tiempo de protección en modo todos contra todos iniciado.</string>
-	<string key="ui_ffa_area_label" rel_version="Territory_CutlassKeys_Rework">Zona de todos contra todos JcJ</string>
+	<string key="ui_ffa_area_label" rel_version="Territory_CutlassKeys_Rework">Zona todos contra todos JcJ</string>
 	<string key="ui_ffa_area_gameplay_desc" rel_version="Territory_CutlassKeys_Rework">Al entrar en las &lt;font color="#edc63e"&gt;Nieblas Malditas&lt;/font&gt;, se te activará para &lt;font color="#edc63e"&gt;el modo todos contra todos JcJ&lt;/font&gt;.\n\nAl salir, esto se desactivará y se &lt;font color="#edc63e"&gt;purificarán&lt;/font&gt; los objetos valiosos malditos que hayas conseguido en él.</string>
 	<string key="ui_ffa_area_gameplay_lore" rel_version="Territory_CutlassKeys_Rework">Aquí yacen las Nieblas Malditas, más allá de estos Márgenes Luminosos. En este condenado lugar, una avaricia repugnante lo ha infestado todo. El frenesí por las riquezas continúa, mientras los amigos se tornan en enemigos en esta costa azotada por la tormenta. Reúne todos los &lt;font color="#edc63e"&gt;«doblones malditos»&lt;/font&gt; y los &lt;font color="#edc63e"&gt;«recursos malditos»&lt;/font&gt; que descubras. Pero ¡cuidado, aventureros! ¡Los cobardes que se teletransporten serán castigados! Escapa con vida a pie o a pezuña si quieres conservar todo tu botín.</string>
-	<string key="ui_ffa_item_warning" rel_version="Territory_CutlassKeys_Rework">Sal de la zona TcT para purificarlo.</string>
+	<string key="ui_ffa_item_warning" rel_version="Territory_CutlassKeys_Rework">Sal de la zona de todos contra todos para purificar este objeto.</string>
 	<string key="ui_additional_items">+{count} objetos</string>
 	<string key="ui_retest">Volver a probar</string>
 	<string key="ui_details">Detalles</string>
@@ -2444,6 +2450,8 @@
 	<string key="ui_destroyBoundItemMessage">Este objeto está vinculado a ti. Si lo sueltas, se destruirá. ¿Quieres destruir este objeto?</string>
 	<string key="ui_destroyBoundItems">¿Destruir objetos?</string>
 	<string key="ui_destroyBoundItemsMessage">Estos objetos están vinculados a ti y se destruirán si los sueltas. ¿Quieres destruirlos?</string>
+	<string key="ui_dropOnDeath">Soltar al morir</string>
+	<string key="ui_cannotBeRepaired">No se puede reparar</string>
 	<string key="ui_bindOnPickup">Vincular al recoger</string>
 	<string key="ui_bindOnEquip">Vincular al equipar</string>
 	<string key="ui_bindOnEquip_title">Vincular objeto</string>
@@ -2490,7 +2498,7 @@
 	<string key="hwm_loot_flail">Mangual de pericia</string>
 	<string key="ui_time_display">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{time}&lt;/font&gt; ({timezone})</string>
 	<string key="ui_clusterwarning_title">ENTRANDO: {worldName}</string>
-	<string key="ui_clusterwarning_region">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Región: {regionName}\n</string>
+	<string key="ui_clusterwarning_region">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Región: {regionName}</string>
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Solo puedes tener 1 personaje en el &lt;/font&gt; &lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt;conjunto de mundos de {worldSetName}&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt;.&lt;/font&gt;</string>
 	<string key="ui_clusterwarning_description1">Si quieres jugar en otro mundo de {worldSetName}, tienes que borrar este personaje en {worldName}.</string>
 	<string key="ui_clusterwarning_description2">Si tienes amigos jugando en otros mundos de {worldSetName}, no podrás jugar con ellos.</string>
@@ -2501,6 +2509,7 @@
 	<string key="ui_clusterwarning_transferoutonly">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; No se pueden transferir personajes a este mundo.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Se pueden transferir personajes desde y a este mundo.</string>
 	<string key="ui_clusterwarning_transferinonly">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Se pueden transferir personajes desde y a este mundo.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; No se pueden transferir personajes desde este mundo.</string>
 	<string key="ui_clusterwarning_cannottransferinnorout">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; No se pueden transferir personajes a este mundo.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; No se pueden transferir personajes desde este mundo.</string>
+	<string key="ui_clusterwarning_transferwarning">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; No se transferirán la lista de amigos, la compañía, los proyectos de pueblo, las misiones de facción y los contratos de tu puesto comercial.</string>
 	<string key="ui_character_world_info">{worldName}</string>
 	<string key="ui_cannotPin_atMax">No puedes fijar más objetivos.</string>
 	<string key="ui_clusterwarning_body">&lt;font color="#ebe3d6"&gt;Solo puedes tener 1 personaje en el grupo de mundo {worldSetName}.&lt;/font&gt;\n\nSi alguna vez quieres jugar en un mundo {worldSetName} distinto, tendrás que borrar tu personaje en {worldName} y crear uno nuevo en otro mundo.\n\nSi tienes amigos jugando en otros mundos {worldSetName}, no podrás jugar con ellos.</string>
@@ -2572,6 +2581,8 @@
 	<string key="ui_governing_propertytax">La compañía gobernante puede recaudar el mantenimiento por las viviendas del asentamiento.</string>
 	<string key="ui_nameplate_slider">Cantidad de placas de identificación de jugadores</string>
 	<string key="ui_nameplate_slider_desc">Ajusta la cantidad de placas de identificación que se muestran en pantalla. Los valores inferiores utilizan menos recursos del sistema.</string>
+	<string key="ui_nameplate_group_priority">Priorizar nombres de grupo</string>
+	<string key="ui_nameplate_group_priority_desc">Cuando está activo, prioriza el mostrar los nombres de los miembros del grupo sobre todos los otros nombres.</string>
 	<string key="ui_stat_bonus_single_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; de {attribute1}</string>
 	<string key="ui_stat_bonus_multiple_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; de {attribute1}\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount2}&lt;/font&gt; de {attribute2}</string>
 	<string key="ui_stat_bonus">+{amount} {attribute}</string>
@@ -2640,7 +2651,7 @@
 	<string key="ui_faction_cant_cooldown">No puedes cambiar de facción hasta que pase el tiempo de recarga.\n{cooldown}</string>
 	<string key="ui_change_faction_warning">Una vez que cambies de facción, no podrás volver a cambiar en 30 días. Cambiar de facción restablece el rango y los blasones de facción.</string>
 	<string key="ui_change_faction">Cambiar de facción</string>
-	<string key="ui_select_faction" rel_version="Feature_Faction_Selection">Cambiar de facción</string>
+	<string key="ui_select_faction" rel_version="Feature_Faction_Selection">Seleccionar facción</string>
 	<string key="ui_change_faction_cooldown">Cambiar de facción\n{cooldown}</string>
 	<string key="ui_change_faction_azoth_cost">Cambiar de facción {azothcost}</string>
 	<string key="ui_change_faction_desc">¿Seguro que quieres que tu nueva facción sea la facción {factionname}?\nCambiar de facción restablecerá el rango y los blasones de facción.\n\nSi aceptas, no podrás volver a cambiar de facción hasta que pasen 30 días.</string>
@@ -2816,6 +2827,7 @@
 	<string key="ui_itemtypedescription_dye">Tinte</string>
 	<string key="ui_itemtypedescription_bag">Bolsa</string>
 	<string key="ui_itemtypedescription_consumable">Consumible</string>
+	<string key="ui_itemtypedescription_consumable_survivalpotion">Consumible: Poción de supervivencia</string>
 	<string key="ui_itemtypedescription_quest_item">Objeto de misión</string>
 	<string key="ui_itemtypedescription_Key_item">Llave de evento</string>
 	<string key="ui_itemtypedescription_furniture">Muebles</string>
@@ -2872,8 +2884,8 @@
 	<string key="ui_treasury_purchase_nw">Compra New World: Aetérnum para usar la tesorería de la compañía</string>
 	<string key="ui_cannot_chat_global_blocked">No puedes hablar en este canal hasta que tu cuenta lleve creada más de {hoursNeeded} horas y tus horas de juego superen las {playtimeNeeded}.</string>
 	<string key="ui_complete_quests_to_unlock">Completa misiones en el asentamiento para desbloquear</string>
-	<string key="ui_interact_required_level">Tienes que llegar al nivel {level} para usar</string>
-	<string key="ui_cannot_chat_trading_blocked">Para acceder al canal se necesitan {playtimeNeeded} horas de juego, una antigüedad de la cuenta de {hoursNeeded} horas y un puesto comercial desbloqueado.</string>
+	<string key="ui_interact_required_level">Nivel necesario: {level}</string>
+	<string key="ui_cannot_chat_trading_blocked">Para acceder al canal se necesitan {playtimeNeeded} horas de juego, una antigüedad de la cuenta de {hoursNeeded} y un puesto comercial desbloqueado.</string>
 	<string key="ui_averageexpertise">Pericia</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;PERICIA&lt;/font&gt;\nLa pericia se utiliza para medir la potencia máxima de un objeto cuando lo tienes equipado.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Máxima pericia que es posible alcanzar&lt;/font&gt;\n&lt;font color={highlightColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n\n&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;CÓMO AUMENTAR LA PERICIA&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Puntos de interés y expediciones de élite&lt;/font&gt;\nLos botines de criaturas o cofres en áreas de nivel 60 o superior tienen la posibilidad de aumentar este valor.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Artesanía&lt;/font&gt;\nFabricar un objeto de 600 PE aumentará la pericia de este tipo de objeto.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Molde de aljez&lt;/font&gt;\nAbrir un molde de aljez incrementa la pericia.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Mejora de objetos (con fragmentos umbríos)&lt;/font&gt;\nDespués de llegar a 600 de pericia, la única manera de aumentar la pericia es mediante la mejora de los objetos con fragmentos umbríos.</string>
 	<string key="ui_itemtypedescription_shield_only">Escudo</string>
@@ -2926,7 +2938,7 @@
 	<string key="ui_freeweekend_guide_title4" rel_version="Feature_FreeWeekend">Comprar New World: Aetérnum</string>
 	<string key="ui_freeweekend_guide_body1" rel_version="Feature_FreeWeekend">Durante el evento del Fin de semana gratis, cualquier jugador puede descargar New World: Aetérnum y crear un personaje. A algunos mundos solo pueden acceder los jugadores que hayan comprado New World: Aetérnum. Los jugadores gratuitos no pueden transferir personajes entre mundos ni acceder a la tienda ni al puesto comercial. Los personajes de jugadores gratuitos también tienen un límite máximo de 2000 &lt;img src="lyshineui/images/icon_crown" xPadding="0" scale="1" yOffset="0.5"&gt;&lt;/img&gt;.</string>
 	<string key="ui_freeweekend_guide_body2" rel_version="Feature_FreeWeekend">Usa el menú de interacciones sociales para buscar amigos en el mismo mundo o responder a invitaciones de otros jugadores. Participa en actividades multijugador como la arena o el Asalto a puesto remoto. Busca un grupo y embárcate en una expedición abriendo el menú del buscador de grupo en el mapa. Para ello, pasa el ratón por cualquier icono de expedición.</string>
-	<string key="ui_freeweekend_guide_body3" rel_version="Feature_FreeWeekend">Para los jugadores gratuitos, New World: Aetérnum comprueba cada cierto tiempo si hay cola en el mundo del personaje. Los jugadores pueden jugar todo el tiempo que quieran si su mundo no tiene cola cuando se realiza esta comprobación del tiempo de la sesión. Si en ese momento hay cola, el jugador gratuito volverá al menú principal y podrá ponerse a la cola para volver a entrar al mundo. Si en ese momento no hay cola, el tiempo de la sesión del jugador gratuito se extenderá hasta la próxima comprobación. Los jugadores que hayan comprado New World: Aetérnum no serán objeto de comprobaciones temporales del tiempo de sesión y tendrán prioridad en la cola sobre los jugadores gratuitos.</string>
+	<string key="ui_freeweekend_guide_body3" rel_version="Feature_FreeWeekend">Para los jugadores gratuitos, New World: Aetérnum comprueba cada cierto tiempo si hay cola en el mundo del personaje. Los jugadores pueden jugar todo el tiempo que quieran si su mundo no tiene cola cuando se realiza esta comprobación del tiempo de la sesión. Si en ese momento hay cola, el jugador gratuito volverá al menú principal y podrá ponerse a la cola para volver a entrar al mundo. Si en ese momento no hay cola, el tiempo de la sesión del jugador gratuito se extenderá hasta la próxima comprobación. Los jugadores que hayan comprado New World: Aetérnum no sufrirán comprobaciones temporales del tiempo de la sesión y tendrán prioridad en la cola sobre los jugadores gratuitos.</string>
 	<string key="ui_freeweekend_guide_body4" rel_version="Feature_FreeWeekend">New World: Aetérnum se puede comprar en la tienda de Steam. Los jugadores gratuitos conservarán todos los personajes, objetos y avances al comprar New World: Aetérnum. Sin embargo, para desbloquear funciones como el comercio entre jugadores y el acceso a la tienda o al puesto comercial solo cuenta el tiempo total de juego de todos los personajes de una cuenta una vez comprado el juego.</string>
 	<string key="ui_factions">Facciones</string>
 	<string key="ui_factions_guide_1_header">Unirse a una facción</string>
@@ -2983,6 +2995,7 @@
 	<string key="attribution_Season_4" rel_version="Season_4_Perm">Temporada 4</string>
 	<string key="attribution_Season_5" rel_version="Season_5_Perm">Temporada 5</string>
 	<string key="attribution_Season_Pass" rel_version="Season_6_Perm">Pase de temporada</string>
+	<string key="attribution_Seasonal_Item" rel_version="Feature_Seasonal_Servers">Objeto del mundo de temporada</string>
 	<string key="ui_reset_daily_time">Se reinicia diariamente en {time}</string>
 	<string key="ui_reset_weekly_time">Se reinicia semanalmente cada {time}</string>
 	<string key="ui_buy_new_world">Comprar New World: Aetérnum</string>
@@ -3055,6 +3068,7 @@
 	<string key="ui_expansion_name_expansion2023" comment="DO NOT TRANSLATE">[TMP] Expansion 2023</string>
 	<string key="ui_required_expansion_missing_tooltip" comment="DO NOT TRANSLATE">[TMP] Missing expansion: {expansion}</string>
 	<string key="ui_learn_more_about_required_expansion_buttontext">Más información</string>
+	<string key="ui_learn_more">Más información</string>
 	<string key="ui_horse_slot_unlock" rel_version="Feature_Mounts">Desbloquear montura</string>
 	<string key="ui_horse_slot_unlock_description" rel_version="Feature_Mounts">Desbloquea la capacidad de equipar e invocar una montura.</string>
 	<string key="ui_ridingxp_description" rel_version="Feature_Mounts">Experiencia para la habilidad de monta.\n\nSe desbloquearán recompensas y aumentará la velocidad de las monturas en los niveles más altos.</string>
@@ -3091,6 +3105,7 @@
 	<string key="ui_sort_by_end_date">Ordenar por fecha de fin</string>
 	<string key="ui_sort_by_price_low">Ordenar por precio: De menor a mayor</string>
 	<string key="ui_sort_by_price_high">Ordenar por precio: De mayor a menor</string>
+	<string key="ui_sort_by_type">Ordenar por tipo</string>
 	<string key="ui_requirements">Requisitos</string>
 	<string key="ui_external_rewards">Recompensas externas</string>
 	<string key="ui_ability_minimum_cooldown">{baseCooldown} (mín. {minimumCooldown})</string>
@@ -3110,7 +3125,25 @@
 	<string key="ui_console_privacy_enabled">No puedes realizar esta acción debido a los ajustes de privacidad de tu consola.</string>
 	<string key="ui_blocked_player">Jugador bloqueado</string>
 	<string key="ui_blocked_company">Compañía bloqueada</string>
-	<string key="ui_nameplate_group_priority_desc">Cuando está activo, prioriza el mostrar los nombres de los miembros del grupo sobre todos los otros nombres.</string>
-	<string key="ui_nameplate_group_priority">Priorizar nombres de grupo</string>
+	<string key="ui_mount_unlock" rel_version="Feature_Mounts">Montura desbloqueada</string>
+	<string key="ui_mount_unlock_acquisition" rel_version="Feature_Mounts">Compleción de «Mi reino por un caballo»</string>
+	<string key="ui_seasonal_worlds" rel_version="Feature_Seasonal_Servers">Mundos de temporada</string>
+	<string key="ui_seasonal_worlds_popup_header" rel_version="Feature_Seasonal_Servers">Elegir tipo de mundo</string>
+	<string key="ui_seasonal_worlds_about_popup_description" rel_version="Feature_Seasonal_Servers">Los mundos de temporada son una nueva forma de disfrutar de Aetérnum y conseguir recompensas exclusivas por tiempo limitado cada temporada.\n\nEn el mundo de la temporada 7, todos los jugadores se activarán automáticamente para JcJ en el nivel {level}. Crea o mata enemigos para conseguir equipo del conquistador, que incluye armas y piezas de equipamiento únicas e increíbles que marcarán un antes y un después en el campo de batalla.\n\nEn los mundos de temporada se puede completar una aventura de temporada especial. Compra un pase de batalla prémium en la tienda y desbloquea las recompensas de la aventura de la temporada.</string>
+	<string key="ui_regular_character" rel_version="Feature_Seasonal_Servers">Estándar</string>
+	<string key="ui_seasonal_character" rel_version="Feature_Seasonal_Servers">De temporada</string>
+	<string key="ui_regular_character_button_description" rel_version="Feature_Seasonal_Servers">Experimenta el verdadero Aetérnum. Crea un personaje en un mundo estándar permanente.</string>
+	<string key="ui_seasonal_character_button_description" rel_version="Feature_Seasonal_Servers">Crea un personaje en un mundo de temporada por tiempo limitado con reglas y recompensas exclusivas.</string>
+	<string key="ui_seasonal_worlds_unavailable" rel_version="Feature_Seasonal_Servers">Mundos de temporada no disponibles</string>
+	<string key="ui_seasonal_worlds_available" rel_version="Feature_Seasonal_Servers">Mundos de temporada disponibles</string>
+	<string key="ui_seasonal_worlds_avaialble_until" rel_version="Feature_Seasonal_Servers">La temporada termina el {date} a las {time}</string>
+	<string key="ui_seasonal_worlds_ended" rel_version="Feature_Seasonal_Servers">La temporada terminó el {date} a las {time}</string>
+	<string key="ui_seasonal_worlds_available_24h" rel_version="Feature_Seasonal_Servers">La temporada termina en &lt;img src="LyShineUI/Images/PUGFinder/Pugfinder_hourglass" xPadding="-4" scale="2.25" yOffset="8"&gt;&lt;/img&gt;{time}</string>
+	<string key="ui_seasonal_worlds_duration" rel_version="Feature_Seasonal_Servers">{timeStart} - {timeEnd}</string>
+	<string key="ui_seasonal_worlds_server_description" rel_version="Feature_Seasonal_Servers">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Se te activará permanentemente para JcJ en este mundo en el nivel {level}.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Solo se pueden crear personajes nuevos en {worldName}.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; No se pueden transferir personajes a este mundo de temporada.</string>
+	<string key="ui_seasonal_worlds_server_duration" rel_version="Feature_Seasonal_Servers">Disponible a partir del {dateStart} a las {timeStart} hasta el {dateEnd} a las {timeEnd}</string>
+	<string key="ui_seasonal_worlds_tooltip" rel_version="Feature_Seasonal_Servers">En este mundo JcJ, tu facción determina los jugadores con los que puedes formar un grupo o una compañía. Elige la misma facción que tus amigos para jugar juntos.\n\nPuedes cambiar de facción durante el juego.</string>
+	<string key="ui_external_rewards_no_tooltip">No hay recompensas disponibles.</string>
+	<string key="ui_deathsdoortimer">Tiempo restante hasta poder rendirte: {DeathQueueNumber}</string>
 </resources>
 

@@ -15,7 +15,7 @@
 	<string key="ui_dungeon_enter_info_solo">&lt;font color={color}&gt;Seelenprüfung ist bereit&lt;/font&gt; Jetzt hineinteleportieren?</string>
 	<string key="ui_dungeon_enter_info_raidtrial">&lt;font color={color}&gt;Mindestens eine Person&lt;/font&gt; muss die Eliteprüfung betreten, damit sie offen bleibt. Jetzt hineinteleportieren?</string>
 	<string key="ui_dungeon_enter_info_seasontrial" rel_version="Season_2_Trial">&lt;font color={color}&gt;Mindestens eine Person&lt;/font&gt; muss die Saisonprüfung betreten, damit sie offen bleibt. Jetzt hineinteleportieren?</string>
-	<string key="ui_dungeon_enter_info_dailysolotrial" rel_version="DailySoloTrials">&lt;font color={color}&gt;Tägliche Seelenprüfung ist bereit&lt;/font&gt;. Jetzt hineinteleportieren?</string>
+	<string key="ui_dungeon_enter_info_dailysolotrial" rel_version="DailySoloTrials">&lt;font color={color}&gt;Tägliche Seelenprüfung ist bereit.&lt;/font&gt; Jetzt hineinteleportieren?</string>
 	<string key="ui_dungeon_enter_info_entered">Die Expedition ist jetzt geöffnet!\n&lt;font color={color}&gt;Jetzt hineinteleportieren?&lt;/font&gt;</string>
 	<string key="ui_dungeon_enter_info_entered_solo">&lt;font color={color}&gt;Seelenprüfung ist bereit&lt;/font&gt;. Jetzt hineinteleportieren?</string>
 	<string key="ui_dungeon_enter_info_entered_dailysolotrial" rel_version="DailySoloTrials">&lt;font color={color}&gt;Tägliche Seelenprüfung ist bereit&lt;/font&gt;. Jetzt hineinteleportieren?</string>
@@ -148,8 +148,8 @@
 	<string key="ui_outpost_rush_battle_tokens_with_value">Kampfmarken: {value}</string>
 	<string key="ui_outpost_rush_outpost_under_attack">{value} wird angegriffen!</string>
 	<string key="ui_outpost_rush_boss_killed">PUNKTE EINGEFROREN</string>
-	<string key="ui_outpost_rush_ally_buff">Der Punktestand des gegnerischen Teams wurde für &lt;font color="#edc63e"&gt;2 Minuten und 30 Sekunden&lt;/font&gt; eingefroren!</string>
-	<string key="ui_outpost_rush_enemy_buff">Der Punktestand deines Teams wurde für &lt;font color="#edc63e"&gt;2 Minuten und 30 Sekunden&lt;/font&gt; eingefroren!</string>
+	<string key="ui_outpost_rush_ally_buff">Der Punktestand des gegnerischen Teams wurde für &lt;font color="#edc63e"&gt;{time}&lt;/font&gt; eingefroren!</string>
+	<string key="ui_outpost_rush_enemy_buff">Der Punktestand deines Teams wurden für &lt;font color="#edc63e"&gt;{time}&lt;/font&gt; eingefroren!</string>
 	<string key="ui_outpost_rush_armory_built">Rüstungsschmiede in {value} wurde fertiggestellt.</string>
 	<string key="ui_outpost_rush_command_post_built">Kommandoposten in {value} wurde fertiggestellt.</string>
 	<string key="ui_outpost_rush_command_post_upgrade">Kommandoposten in {value} wurde auf Rang {tier} aufgewertet.</string>
@@ -306,17 +306,37 @@
 	<string key="ui_influence_tutorial_desc4" rel_version="Feature_Influence_V2">Teilnehmende Spieler erhalten Belohnungen. Bonus-Kriegsvorrat für Verteidiger, die den Krieg gewinnen. </string>
 	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">PvP-Balancing ist in Kraft.</string>
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">PvP-Balance-Modifikatoren in Kraft:</string>
+	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Nauthynos-Insel</string>
+	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Heiligtum der Ahnen</string>
+	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Gladiatorenring</string>
+	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Aktuelle Karte in Rotation</string>
+	<string key="ui_activity_finder_tooltip_next_map_rotation_text" rel_version="Season_7_Perm">Nächste Karte in Rotation</string>
+	<string key="ui_activity_finder_tooltip_current_map_rotation" rel_version="Season_7_Perm">{currentRotationText} : {mapName}</string>
+	<string key="ui_activity_finder_tooltip_next_map_rotation" rel_version="Season_7_Perm">{nextRotationText} : {mapName}</string>
 	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">Das PvP-Balancing ist für diese Waffe derzeit deaktiviert.</string>
 	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">Das PvP-Balancing ist für dieses Spielmodus derzeit deaktiviert.</string>
 	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">Das PvP-Balancing ist für die offene Welt derzeit deaktiviert.</string>
 	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">PvP-Basisschadens-Modifikatoren:\n • Magie-/Fernkampfwerte sind global erhöht, werden aber für die Balance im PvP angepasst.</string>
 	<string key="ui_pvp_balance_global_base_damage" rel_version="Feature_PvP_PvE_Split">Global:</string>
-	<string key="ui_pvp_balance_affix_stats" rel_version="Feature_PvP_PvE_Split">Zusätzlicher Wert-Schadensmodifikator:</string>
-	<string key="ui_pvp_balance_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Fertigkeitsschaden-Bonus-Modifikator:</string>
-	<string key="ui_pvp_balance_healing_category" rel_version="Feature_PvP_PvE_Split">Heilungs-Modifikatoren:</string>
-	<string key="ui_pvp_balance_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Statuseffekt-Wirksamkeit:</string>
-	<string key="ui_pvp_balance_status_effect_durations" rel_version="Feature_PvP_PvE_Split">Statuseffektdauer:</string>
+	<string key="ui_pvp_balance_column_base_damage" rel_version="Feature_PvP_PvE_Split">Schaden</string>
+	<string key="ui_pvp_balance_column_affix_stats_damage" rel_version="Feature_PvP_PvE_Split">Schaden</string>
+	<string key="ui_pvp_balance_column_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Schaden</string>
+	<string key="ui_pvp_balance_column_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Wirksamkeit</string>
+	<string key="ui_pvp_balance_column_status_effect_durations" rel_version="Feature_PvP_PvE_Split">Zeitraum</string>
+	<string key="ui_pvp_balance_column_cooldown_adjustment" rel_version="Feature_PvP_PvE_Split">Zeitraum</string>
+	<string key="ui_pvp_balance_category_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Fertigkeitenanpassung</string>
+	<string key="ui_pvp_balance_category_affix_stats" rel_version="Feature_PvP_PvE_Split">Zusätzlicher-Wert-Anpassung</string>
+	<string key="ui_pvp_balance_category_cooldown_adjustment" rel_version="Feature_PvP_PvE_Split">Abklingzeit-Anpassung</string>
+	<string key="ui_pvp_balance_category_healing" rel_version="Feature_PvP_PvE_Split">Heilungsanpassung</string>
+	<string key="ui_pvp_balance_category_weapons" rel_version="Feature_PvP_PvE_Split">Waffenanpassung</string>
+	<string key="ui_pvp_balance_category_status_effects" rel_version="Feature_PvP_PvE_Split">Statuseffekt-Anpassung</string>
 	<string key="ui_gamemodeinvitedeclinesentmessage">Einladung zu &lt;font color="#ebe3d6"&gt;{gameModeName}&lt;/font&gt; abgelehnt.</string>
 	<string key="ui_gamemodeinvitedeclinesentmessage_withsource">Einladung zu &lt;font color="#ebe3d6"&gt;{gameModeName}&lt;/font&gt; von &lt;font color="#ebe3d6"&gt;{sourcePlayerName}&lt;/font&gt; abgelehnt.</string>
+	<string key="ui_gamemode_timeout">Aktivitätsende</string>
+	<string key="ui_gamemode_timeout_description">Maximaldauer der Aktivität bald erreicht.</string>
+	<string key="ui_ready_up_ready_choice">Bereit</string>
+	<string key="ui_ready_up_unready_choice">Nicht bereit</string>
+	<string key="ui_ready_up_waiting_message">Warten</string>
+	<string key="or_outpost_rush_trench_map_name">Korallenkluft</string>
 </resources>
 

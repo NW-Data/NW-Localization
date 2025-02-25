@@ -129,7 +129,7 @@
 	<string key="ui_leave_group">Quitter le groupe</string>
 	<string key="ui_voice_chat">Discussion vocale</string>
 	<string key="ui_blocked">Bloqué</string>
-	<string key="ui_blocked_player">Joueur bloqué</string>
+	<string key="ui_blocked_player_notification">Joueur bloqué</string>
 	<string key="ui_unblocked_player">Blocage du joueur retiré</string>
 	<string key="ui_muted">Voix coupée</string>
 	<string key="ui_muted_player">Joueur mis en sourdine</string>
@@ -241,10 +241,11 @@
 	<string key="ui_noOnline_group_body">Vous pouvez chercher quelqu'un à l'aide de son nom de joueur.</string>
 	<string key="ui_noOnline_guild_header">Vous n'avez pas d'amis à inviter dans la compagnie.</string>
 	<string key="ui_noOnline_guild_body">Vous pouvez chercher quelqu'un à l'aide de son nom de joueur.</string>
+	<string key="ui_guild_motd_changed">Le message du jour de la guilde {guildName} a été actualisé :\n{message}</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_noOnline_raid_header">Vous n'avez aucun ami en ligne à inviter à un raid.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_noOnline_raid_body">Vous pouvez chercher quelqu'un à l'aide de son nom de joueur.</string>
-	<string key="ui_reporter_make_good_title">Thank you for your player report!</string>
-	<string key="ui_reporter_make_good_body">Action has been taken on an abusive player or players you have reported recently. We appreciate your efforts in keeping New World: Aeternum a clean and fair game.</string>
+	<string key="ui_reporter_make_good_title">Merci pour votre signalement !</string>
+	<string key="ui_reporter_make_good_body">Une sanction a été infligée au(x) joueur(s) que vous avez récemment signalé(s) pour comportement abusif. Votre contribution aide à faire de New World : Aeternum un jeu sain et équitable.</string>
 	<string key="ui_report_player">Signaler un joueur</string>
 	<string key="ui_report">Signaler</string>
 	<string key="ui_reply">Répondre</string>
@@ -369,6 +370,9 @@
 	<string key="ui_notification_pvp_track_flagging_message">Une fois en mode JcJ, vous pouvez attaquer ou subir des attaques des autres joueurs ayant également activé leur mode JcJ. &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Les éliminations réussies peuvent vous rapporter du sel d'Azoth et de l'EXP JcJ.&lt;/font&gt; \nVous recevez également les bonus suivants : &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;+10 % d'EXP, +3 % de chance d'exploitation, +1 % de chance générale&lt;/font&gt; pour les grands coffres et coffres d'élite. \n\nLorsque vous quitterez le sanctuaire, vous bénéficierez de &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{duration} de protection&lt;/font&gt;.</string>
 	<string key="ui_notification_pvp_checkpoint_unlocked">Jalon déverrouillé</string>
 	<string key="ui_notification_pvp_reward_options">Voir les options de récompense</string>
+	<string key="ui_notification_pvp_always_on_notification">Le mode JcJ ne peut pas être désactivé dans ce monde.</string>
+	<string key="ui_notification_pvp_always_on_leave_group_title">Passage en mode JcJ</string>
+	<string key="ui_notification_pvp_always_on_leave_group_text">Vous quitterez tous les groupes, assauts ou files d'attente dans lesquels vous vous trouvez</string>
 	<string key="ui_notification_ffa_flagging_message" rel_version="Territory_CutlassKeys_Rework">Après avoir activé le mode Chacun pour soi, vous pouvez attaquer tous les joueurs ayant fait de même. \n\nLorsque vous quittez la zone Chacun pour soi, tous vos &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;doublons et ressources maudits&lt;/font&gt; sont purifiés de leur malédiction.</string>
 	<string key="ui_notification_ffa_flagged" rel_version="Territory_CutlassKeys_Rework">Chacun pour soi activé.</string>
 	<string key="ui_notification_ffa_flagged_left_group" rel_version="Territory_CutlassKeys_Rework">Chacun pour soi activé : Groupe quitté</string>
@@ -382,9 +386,9 @@
 	<string key="ui_notification_ffa_dispersal_title" rel_version="Territory_CutlassKeys_Rework">Téléportation en cours</string>
 	<string key="ui_notification_ffa_dispersal_desc" rel_version="Territory_CutlassKeys_Rework">S'éloigner des autres joueurs</string>
 	<string key="ui_notification_ffa_exit_title" rel_version="Territory_CutlassKeys_Rework">Purification de malédiction</string>
-	<string key="ui_notification_ffa_exit" rel_version="Territory_CutlassKeys_Rework">Désactivation du mode Chacun pour soi et purification des objets maudits dans votre inventaire</string>
+	<string key="ui_notification_ffa_exit" rel_version="Territory_CutlassKeys_Rework">Désactivation du mode Chacun pour soi et purification des objets maudits dans votre inventaire.</string>
 	<string key="ui_notification_ffa_items_converted_title" rel_version="Territory_CutlassKeys_Rework">Purification terminée</string>
-	<string key="ui_notification_ffa_items_converted" rel_version="Territory_CutlassKeys_Rework">Tous les objets maudits ont été purifiés dans votre inventaire</string>
+	<string key="ui_notification_ffa_items_converted" rel_version="Territory_CutlassKeys_Rework">Tous les objets maudits ont été purifiés dans votre inventaire.</string>
 	<string key="ui_pvp_rank_name_0">Recrue</string>
 	<string key="ui_pvp_rank_name_1">Acier</string>
 	<string key="ui_pvp_rank_name_2">Bronze</string>
@@ -457,6 +461,7 @@
 	<string key="ui_request_unfriend_failed">Échec de la suppression d'amitié.</string>
 	<string key="ui_social">Social</string>
 	<string key="ui_social_friends">Amis</string>
+	<string key="ui_social_platform_friends">Amis Xbox</string>
 	<string key="ui_social_group">Groupe</string>
 	<string key="ui_social_twitch">Twitch</string>
 	<string key="ui_streamermode_enabled">Mode Ne pas déranger activé.</string>
@@ -490,6 +495,7 @@
 	<string rel_version="Feature_Shards" key="social_phasing_invite_fast_travel_failed">L'invitation à l'éclat a échoué, car un transfert rapide en cours.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_message_throttled">Message d'invitation à l'éclat ralenti. Veuillez réessayer.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_recipient_pvp_flagged">Le joueur ne peut pas changer d'éclat, car il est en mode JcJ.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_recipient_in_combat">Le joueur en combat ne peut pas changer d'éclat.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_not_currently_in_a_shard">Vous n'êtes actuellement pas dans une zone d'éclats.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_remote_player_not_in_shard">Ce joueur n'est pas dans un éclat que vous pouvez rejoindre.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_different_sectors">Vous n'êtes pas dans la même zone d'éclat que ce joueur ou cette joueuse.</string>
@@ -777,9 +783,11 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Bonus quotidien</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Expérience la plus rapide</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_remaining_attempts">Tentatives restantes</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">M1 et M2 seulement</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Vous place dans la file d'attente pour tous les niveaux de mutation</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description">Placez votre groupe dans la file d'attente pour toutes les difficultés (M1 à M3) que vous avez en commun. Vous recevrez un bonus d'assistance si vous rejoignez une difficulté inférieure et réussissez. \n\n Limite quotidienne : {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se réinitialise dans : {resetTime}</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Ce bouton vous fait entrer dans la file d'attente interserveur pour M1 + M2. Si vous avez déverrouillé une difficulté supérieure à celle dans laquelle vous vous trouvez, vous recevrez un bonus d'assistance à l'issue de l'expédition.\n\nLimite quotidienne : {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se réinitialise dans : {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_no_carry_bonus_description">Placez votre groupe dans la file d'attente pour toutes les difficultés (M1 à M3) que vous avez en commun.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Placez votre groupe dans la file d'attente pour toutes les difficultés M1 ou M2 que vous avez en commun. Si vous avez déverrouillé une difficulté supérieure à celle dans laquelle vous vous trouvez, vous recevrez un bonus d'assistance à l'issue de l'expédition.\n\nLimite quotidienne : {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Se réinitialise dans : {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_no_carry_bonus_description_M1_M2_Only">Placez votre groupe dans la file d'attente pour toutes les difficultés M1 ou M2 que vous avez en commun.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_progress_label">Permettre de Rejoindre en cours de route ?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_random">Aléatoire</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_queue">Faire la queue</string>
@@ -799,7 +807,9 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip">Il y a {lobbyCount} groupes recrutant pour cette activité dans la Recherche de groupe. Sélectionnez Voir salons sur l'écran d'informations de l'activité pour les découvrir.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip_single">Il y a 1 groupe recrutant pour cette activité dans la Recherche de groupe. Sélectionnez Voir salons sur l'écran d'informations de l'activité pour le découvrir.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level">Votre niveau de mutation :</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level_numbers">Votre niveau de mutation : {currentNumber} / {maxNumber}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_run_completed">Expédition quotidienne terminée :</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_run_completed_numbers">Expédition quotidienne terminée : {currentNumber} / {maxNumber}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group" comment="">Cliquez ici pour la possibilité d'ENTRER AVEC GROUPE</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group_M1_M2_Only" comment="">Cliquez ici pour rejoindre des M3 à l'aide d'ENTRER AVEC GROUPE</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_available_rewards">Récompenses disponibles</string>
@@ -885,7 +895,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">- Épée et bouclier, hache double, marteau d'armes\n- Armure lourde\n- Cornalines\n- Contrôle de foule (étourdissement, enracinement, aplatissement)</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_title">Confirmer le refus</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_message">Voulez-vous vraiment refuser la vérification ? Votre groupe ou vous serez retiré de la file d'attente et devrez refaire la queue.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Voulez-vous vraiment partir ? Vous vous téléporterez en dehors de l'expédition et ne pourrez pas la rejoindre.\n\n&lt;font color={penaltyColor}&gt;Vous recevrez une pénalité de désertion pour votre abandon (20 minutes) si vous abandonnez dans les 10 premières minutes de l’expédition.&lt;/font&gt;\n\nSi vous voulez partir sans subir de pénalité, utilisez l'option Abandonner l'activité sur la carte ou dans les paramètres du groupe.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Voulez-vous vraiment partir ? Vous vous téléporterez en dehors de l'expédition et ne pourrez pas la rejoindre.\n\n&lt;font color={penaltyColor}&gt;Vous recevrez une pénalité de désertion de {deserterPenalty} minutes pour votre abandon si vous le faites dans les {minTimeInDungeon} premières minutes de l’expédition.&lt;/font&gt;\n\nSi vous voulez partir sans subir de pénalité, utilisez l'option Abandonner l'activité sur la carte ou dans les paramètres du groupe.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc_no_penalty">Voulez-vous vraiment partir ? Vous vous téléporterez en dehors de l'expédition et ne pourrez pas le rejoindre.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_expedition_activity_disabled">Le matchmaking d'expédition est actuellement désactivé. Veuillez réessayer plus tard.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_mutation_activity_disabled">Le matchmaking d'expédition mutante est actuellement désactivé. Veuillez réessayer plus tard.</string>
@@ -897,5 +907,6 @@
 	<string rel_version="Feature_Crossplay" key="ui_error_whisper_crossplay_communication_off">L'utilisateur se trouve sur une autre plateforme. Modifier le paramètre de communication multiplateforme pour envoyer un murmure</string>
 	<string key="ui_communication_restricted_by_platform">Communication restreinte par la plateforme.</string>
 	<string key="ui_group_invites_restricted_gamemode">Les invitations de groupe ne sont pas disponibles pendant une activité de matchmaking.</string>
+	<string key="ui_group_member_placeholder_name">...</string>
 </resources>
 

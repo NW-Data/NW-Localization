@@ -1489,11 +1489,11 @@
 	<string key="PerkID_Earring_ThreatSubOnDodge_Name">Sfuggente</string>
 	<string key="PerkID_Earring_ThreatSubOnDodge_Description">Riduce lo sviluppo della minaccia di un {[-0.500000 * -100 * {perkMultiplier}]}% per {[5.000000]} s dopo aver eseguito una schivata.</string>
 	<string key="PerkID_Earring_ManaOnPotion_Name">Brindisi al mana</string>
-	<string key="PerkID_Earring_ManaOnPotion_Description">Quando bevi una pozione della salute, ottieni {[10.000000 * {perkMultiplier}]} mana.</string>
+	<string key="PerkID_Earring_ManaOnPotion_Description">Quando bevi una pozione della sopravvivenza, ottieni {[10.000000 * {perkMultiplier}]} mana.</string>
 	<string key="PerkID_Earring_HealthOnPotion_Name">Brindisi salutare</string>
-	<string key="PerkID_Earring_HealthOnPotion_Description">Quando bevi una pozione del mana, ottieni un {[0.030000 * 100 * {perkMultiplier}]}% della tua salute di base.</string>
+	<string key="PerkID_Earring_HealthOnPotion_Description">Quando bevi una pozione del mana, ottieni un {[0.008000 * 100 * {perkMultiplier}]}% della tua salute di base ogni secondo per {[4.000000]} s.</string>
 	<string key="PerkID_Earring_RemoveOnPotion_Name">Brindisi purificante</string>
-	<string key="PerkID_Earring_RemoveOnPotion_Description">Quando bevi una pozione rigenerante, perdi {[1.000000]} depotenziamenti.</string>
+	<string key="PerkID_Earring_RemoveOnPotion_Description">Quando bevi una pozione della sopravvivenza, perdi {[1.000000]} depotenziamenti.</string>
 	<string key="PerkID_Earring_GainOnPotion_Name">Brindisi duplicante</string>
 	<string key="PerkID_Earring_GainOnPotion_Description">Quando bevi una pozione, hai un {[0.050000 * 100 * {perkMultiplier}]}% di probabilità che non si consumi.</string>
 	<string key="PerkID_Earring_PotionCDR_Name">Brindisi ricaricante</string>
@@ -1633,7 +1633,7 @@
 	<string key="PerkID_Jewelry_HercyneRaid_1_Name" rel_version="Season7Perks">Senza intralci</string>
 	<string key="PerkID_Jewelry_HercyneRaid_1_Description" rel_version="Season7Perks">La potenza dei rallentamenti che subisci viene ridotta di un 30% se non hai subito Sfinimento negli ultimi {[10.000000]} s.</string>
 	<string key="PerkID_Weapon_PvPZone_1_Name" rel_version="Season7Perks">Penetrare i potenziati</string>
-	<string key="PerkID_Weapon_PvPZone_1_Description" rel_version="Season7Perks">Solo PvP: I colpi critici contro i giocatori potenziati otterranno un {[0.100000 * 100]}% di penetrazione dell'armatura e la durata dei loro potenziamenti viene ridotta di un {[-0.070000 * -100]}% (tempo di ricarica ridotto di {[1.000000]} s).</string>
+	<string key="PerkID_Weapon_PvPZone_1_Description" rel_version="Season7Perks">Solo PvP: I colpi critici contro i giocatori potenziati ottengono un {[0.100000 * 100]}% di penetrazione dell'armatura e la durata dei loro potenziamenti è ridotta di un {[-0.070000 * -100]}% (tempo di ricarica ridotto di {[1.000000]} s).</string>
 	<string key="PerkID_Armor_PvPZone_1_Name" rel_version="Season7Perks">Riflesso spinoso</string>
 	<string key="PerkID_Armor_PvPZone_1_Description" rel_version="Season7Perks">Solo PvP: Subire un colpo critico riflette sul bersaglio danni da natura pari a un {[-0.070000 * -100]}% dei tuoi danni da arma e riduce di un {[-0.100000 * -100]}% le probabilità di colpo critico dell'attaccante per {[3.000000]} s (tempo di ricarica {[1.000000]} s).</string>
 	<string key="PerkID_Jewelry_PvPZone_1_Name" rel_version="Season7Perks">Breccia potenziata</string>
@@ -1709,7 +1709,7 @@
 	<string key="PerkID_Ability_Blunderbuss_VortexShot_Name" rel_version="Weapon_Blunderbuss">Colpo esplosivo paralizzante</string>
 	<string key="PerkID_Ability_Blunderbuss_VortexShot_Description" rel_version="Weapon_Blunderbuss">Gli obiettivi centrati da Colpo esplosivo vengono rallentati, con velocità di movimento ridotta di un {[-0.050000 * -100 * {perkMultiplier}]}% per {[5.000000]} s.</string>
 	<string key="PerkID_Ability_Flail_Slam_Name" rel_version="Weapon_Flail">Percossa opprimente</string>
-	<string key="PerkID_Ability_Flail_Slam_Description" rel_version="Weapon_Flail">Solo PvP: I colpi di Percossa contro i bersagli estendono i loro tempi di ricarica attivi del {[0.050000 * 100 * {perkMultiplier}]}%.</string>
+	<string key="PerkID_Ability_Flail_Slam_Description" rel_version="Weapon_Flail">Percossa penetra un {[0.015000 * 100 * {perkMultiplier}]}% dell'armatura del bersaglio. Solo PvP: I colpi di Percossa contro i bersagli estendono i propri tempi di ricarica attivi di un {[0.050000 * 100 * {perkMultiplier}]}%.</string>
 	<string key="PerkID_Ability_Flail_Blast_Name" rel_version="Weapon_Flail">Vortice riparatore</string>
 	<string key="PerkID_Ability_Flail_Blast_Description" rel_version="Weapon_Flail">Ogni {[2.000000]} colpi di Vortice ti curerai per un {[0.050000 * 100 * {perkMultiplier}]}% dei danni base da arma.</string>
 	<string key="PerkID_Ability_Flail_Burst_Name" rel_version="Weapon_Flail">Violenta eruzione</string>
@@ -2508,9 +2508,9 @@
 	<string key="PerkID_Weapon_DmgAeternian_Name" rel_version="Season_1_Perm">Tormento degli umani</string>
 	<string key="PerkID_Weapon_DmgAeternian_Description" rel_version="Season_1_Perm">Solo PvE: +{[5 * {perkMultiplier}]}% di danni agli umani.</string>
 	<string key="PerkID_Stat_Highest_Name">Ingrandimento</string>
-	<string key="PerkID_Stat_Highest_Desc">Aumenta l'attributo più alto</string>
+	<string key="PerkID_Stat_Highest_Desc">Aumenta l'attributo più alto.</string>
 	<string key="PerkID_Stat_2Highest_Name">Amplificazione</string>
-	<string key="PerkID_Stat_2Highest_Desc">Aumenta i due attributi più alti</string>
+	<string key="PerkID_Stat_2Highest_Desc">Aumenta i due attributi più alti.</string>
 	<string key="PerkID_Lifestaff_OnLowBonusHeal_Name">Potere salvifico</string>
 	<string key="PerkID_Lifestaff_OnLowBonusHeal_Desc">Le tue cure aumentano di un {[0.100000 * 100 * {perkMultiplier}]}% quando curi un bersaglio con salute inferiore al {[50.000000]}%.</string>
 	<string key="PerkID_Lifestaff_OnRemoveHeal_Name">Brezza purificante</string>
@@ -2630,9 +2630,9 @@
 	<string key="PerkID_Artifact_Set1_Ring2_Name" rel_version="Feature_Artifacts_Set2">Esperto</string>
 	<string key="PerkID_Artifact_Set1_Ring2_Desc" rel_version="Feature_Artifacts_Set2">Le competenze infliggono un {[0.125000 * 100]}% di danni in più, ma gli attacchi di base infliggono un {[-0.250000 * -100]}% di danni in meno.</string>
 	<string key="PerkID_Artifact_Set1_Earring1_Name">La Sete</string>
-	<string key="PerkID_Artifact_Set1_Earring1_Desc">I consumabili curativi sono più potenti di un {[0.330000 * 100]}%, ma i tempi di ricarica delle pozioni curative aumentano di un {[0.250000 * 100]}%.</string>
+	<string key="PerkID_Artifact_Set1_Earring1_Desc">I consumabili curativi sono più potenti di un {[0.330000 * 100]}%, ma i tempi di ricarica delle pozioni della sopravvivenza e del mana aumentano di un {[0.250000 * 100]}%.</string>
 	<string key="PerkID_Artifact_Set1_Earring2_Name" rel_version="Feature_Artifacts_Set2">Ringiovanimento</string>
-	<string key="PerkID_Artifact_Set1_Earring2_Desc" rel_version="Feature_Artifacts_Set2">Ottieni un {[0.020000 * 100]}% di salute, {[2.000000]} di energia e {[2.000000]} di mana al secondo. Ma i tempi di ricarica delle pozioni aumentano di un {[0.750000 * 100]}%. </string>
+	<string key="PerkID_Artifact_Set1_Earring2_Desc" rel_version="Feature_Artifacts_Set2">Ottieni un {[0.020000 * 100]}% di salute, {[2.000000]} di energia e {[2.000000]} di mana al secondo. Ma i tempi di ricarica delle pozioni della sopravvivenza aumentano di un {[0.750000 * 100]}%.</string>
 	<string key="PerkID_Artifact_Set1_Flail_Name">Punizione di Odo</string>
 	<string key="PerkID_Artifact_Set1_Flail_Desc">Infliggi un {[0.200000 * 100]}% di danni in più ai nemici storditi o atterrati (funziona su entrambe le armi).</string>
 	<string key="PerkID_Artifact_Set1_FlailPerk_Name">Difesa di Odo</string>
@@ -2683,7 +2683,7 @@
 	<string key="PerkID_Armor_SkinningYield_Name">Resa della scuoiatura</string>
 	<string key="PerkID_Armor_SkinningYield_Description">+{[0.015000 * 100 * {perkMultiplier}]}% di risorse durante la scuoiatura.</string>
 	<string key="PerkID_Artifact_Set2_HeavyChest_Name" rel_version="Feature_Artifacts_S6">Sopravvivenza</string>
-	<string key="PerkID_Artifact_Set2_HeavyChest_Desc" rel_version="Feature_Artifacts_S6">Se subisci colpi mentre la tua salute è inferiore a un 50%, ottieni {[50.000000]} di energia, perdi tutti i depotenziamenti e ottieni Sovrapozione, che ricaricherà all'istante la tua prossima pozione curativa (tempo di ricarica {[120.000000]} s).</string>
+	<string key="PerkID_Artifact_Set2_HeavyChest_Desc" rel_version="Feature_Artifacts_S6">Se subisci colpi mentre la tua salute è inferiore a un 50%, ottieni {[50.000000]} di energia, perdi tutti i depotenziamenti e ottieni Sovrapozione, che ricaricherà all'istante la tua prossima pozione curativa (tempo di ricarica {[120.000000]} s). (Dopo aver usato Sovrapozione dovrai attendere {[75.000000]} s prima dell'utilizzo successivo.)</string>
 	<string key="PerkID_Artifact_Set2_HeavyHands_Name" rel_version="Feature_Artifacts_S5">Carica</string>
 	<string key="PerkID_Artifact_Set2_HeavyHands_Desc" rel_version="Feature_Artifacts_S5">Ogni volta che subisci un danno, ottieni una carica di Potenziamento che aumenta i danni del tuo prossimo attacco di un {[0.020000 * 100]}% (massimo {[10.000000]} cariche).</string>
 	<string key="PerkID_Artifact_Set2_HeavyLegs_Name" rel_version="Feature_Artifacts_S5">Fondamenta stabili</string>
@@ -2708,8 +2708,24 @@
 	<string key="PerkID_Artifact_Set2_Greataxe_Desc" rel_version="Feature_Artifacts_S5">Gli attacchi riusciti aumentano del 3% la velocità di movimento per 3 secondi (funziona su entrambe le armi e si accumula 10 volte). </string>
 	<string key="PerkID_Artifact_Set2_GreataxePerk_Name" rel_version="Feature_Artifacts_S5">Rotazione infinita</string>
 	<string key="PerkID_Artifact_Set2_GreataxePerk_Desc" rel_version="Feature_Artifacts_S5">Mulinello continua a turbinare anche senza colpire i bersagli e può ruotare fino a 12 volte.</string>
+	<string key="PerkID_Artifact_Set2_Bow_Name" rel_version="Feature_Artifacts_S7">Affinità venefica</string>
+	<string key="PerkID_Artifact_Set2_Bow_Desc" rel_version="Feature_Artifacts_S7">Infliggi un {[0.150000 * 100]}% di danni in più ai nemici avvelenati. Funziona su entrambe le armi.</string>
+	<string key="PerkID_Artifact_Set2_BowPerk_Name" rel_version="Feature_Artifacts_S7">Frecce avvelenate</string>
+	<string key="PerkID_Artifact_Set2_BowPerk_Desc" rel_version="Feature_Artifacts_S7">Gli attacchi caricati causano Veleno infliggendo un {[-0.050000 * -100]}% dei danni da arma per {[10.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Musket_Name" rel_version="Feature_Artifacts_S7">Colpo di schegge</string>
+	<string key="PerkID_Artifact_Set2_Musket_Desc" rel_version="Feature_Artifacts_S7">I colpi alla testa inflitti ai nemici causano un {[-0.100000*-100]}% di Sanguinamento per {[6.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_FireStaff_Name" rel_version="Feature_Artifacts_S7">Ustionamento</string>
+	<string key="PerkID_Artifact_Set2_FireStaff_Desc" rel_version="Feature_Artifacts_S7">Tutte le abilità del bastone infuocato e gli attacchi pesanti infliggono un {[-0.330000 * -100]}% di danni in meno, ma causano un {[-0.100000 * -100]}% di Rovente per {[5.000000]} s. (massimo 5 accumuli).</string>
+	<string key="PerkID_Artifact_Set2_LifeStaff_Name" rel_version="Feature_Artifacts_S7">Tocco di luce</string>
+	<string key="PerkID_Artifact_Set2_LifeStaff_Desc" rel_version="Feature_Artifacts_S7">Per {[5.000000]} s dopo aver lanciato un'abilità del bastone della vita, l'attacco pesante successivo che trapassa un alleato gli farà ottenere Rinforzato, conferendogli un {[0.300000 * 100]}% di assorbimento dei danni per il colpo successivo entro {[7.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_Spear_Name" rel_version="Feature_Artifacts_S5">Punta avvelenata</string>
 	<string key="PerkID_Artifact_Set2_Spear_Desc" rel_version="Feature_Artifacts_S5">Gli attacchi in mischia pesanti con entrambe le armi causano Veleno infliggendo un {[-0.150000 * -100]}% dei danni da arma per {[5.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_Rapier_Name" rel_version="Feature_Artifacts_S7">Punta di lava</string>
+	<string key="PerkID_Artifact_Set2_Rapier_Desc" rel_version="Feature_Artifacts_S7">Gli attacchi pesanti in mischia con entrambe le armi causano un {[-0.100000 * -100]}% di Rovente per {[6.000000]} s (massimo 3 accumuli).</string>
+	<string key="PerkID_Artifact_Set2_IceGauntlet_Name" rel_version="Feature_Artifacts_S7">Tomba ghiacciata</string>
+	<string key="PerkID_Artifact_Set2_IceGauntlet_Desc" rel_version="Feature_Artifacts_S7">Colpire un bersaglio con l'interruzione di Sepoltura gli infliggerà Gelo, riducendone la velocità di movimento di un {[-0.100000 * -100]}% e infliggendo un {[-0.100000 * -100]}% dei tuoi danni da arma al secondo per {[5.000000]} s.</string>
+	<string key="PerkID_Artifact_Set2_VoidGauntlet_Name" rel_version="Feature_Artifacts_S7">Squarcio riparatore</string>
+	<string key="PerkID_Artifact_Set2_VoidGauntlet_Desc" rel_version="Feature_Artifacts_S7">Essenza traboccante cura un 100% di salute in più e Squarcio di essenze infligge un {[0.500000 * 100]}% di danni in più quando colpisce.</string>
 	<string key="PerkID_Artifact_Set2_Greatsword_Name" rel_version="Feature_Artifacts_S6">Velocità offensiva</string>
 	<string key="PerkID_Artifact_Set2_Greatsword_Desc" rel_version="Feature_Artifacts_S6">Quando entri in posizione offensiva ottieni un +{[0.200000 * 100]}% alla velocità di movimento per {[6.000000]} s.</string>
 	<string key="PerkID_Artifact_Set2_Flail_Name" rel_version="Feature_Artifacts_S6">Pesante fardello</string>
@@ -2718,7 +2734,61 @@
 	<string key="PerkID_Artifact_Set2_Ring1_Desc" rel_version="Feature_Artifacts_S6">Quando colpisci un bersaglio con un attacco che infligge danni elementali (non si attiva in caso di danni nel tempo o sintonie), ottieni un {[0.040000 * 100]}% di Potenziamento per {[6.000000]} s (tempo di ricarica {[10.000000]} s per tipo di danno, massimo 1 accumulo per tipo).</string>
 	<string key="PerkID_Artifact_Set2_Amulet1_Name" rel_version="Feature_Artifacts_S5">Vendetta della fenice</string>
 	<string key="PerkID_Artifact_Set2_Amulet1_Desc" rel_version="Feature_Artifacts_S5">Quando subisci danni letali, eviti la morte e recuperi un {[1.000000 * 100]}% della tua salute massima. Poi ricevi Vendetta, riducendo la guarigione di un {[-2.000000 * -100]}% e subendo danni pari a un {[-0.100000 * -200]}% della tua salute massima ogni secondo fin quando muori oppure ottieni un'uccisione (tempo di ricarica di {[180.000000]} s).</string>
+	<string key="PerkID_Artifact_Set2_Earring1_Name" rel_version="Feature_Artifacts_S7">Protezione dell'alchimista</string>
+	<string key="PerkID_Artifact_Set2_Earring1_Desc" rel_version="Feature_Artifacts_S7">Se subisci colpi {[20.000000]} volte ottieni Sovrapozione, che ricaricherà all'istante la tua prossima pozione curativa (tempo di ricarica {[90.000000]} s). (Dopo aver usato Sovrapozione dovrai attendere {[75.000000]} s prima dell'utilizzo successivo.)</string>
 	<string key="PerkID_Flail_RabbitFlail_Name" rel_version="Event_RabbitSeasonPerm2024">Vendetta dei conigli</string>
 	<string key="PerkID_Flail_RabbitFlail_Description" rel_version="Event_RabbitSeasonPerm2024">Nemmeno Stanley può resistere al potere corruttore di quest'arma.</string>
+	<string key="PerkID_Conqueror_Bow_PoisonAOE_Name" rel_version="PvPServerConquerorsItems">Contagio</string>
+	<string key="PerkID_Conqueror_Bow_PoisonAOE_Desc" rel_version="PvPServerConquerorsItems">I colpi diretti con Tiro avvelenato attivano un vortice che attira i bersagli vicini e genera una nube infetta di {[5.000000]} m che segue il bersaglio colpito per 10 secondi, infliggendo a tutti i bersagli vicini un {[-0.500000 * -100]}% di danni da veleno al secondo mentre si trovano al suo interno.</string>
+	<string key="PerkID_Conqueror_Warhammer_Knockback_Name" rel_version="PvPServerConquerorsItems">Getto</string>
+	<string key="PerkID_Conqueror_Warhammer_Knockback_Desc" rel_version="PvPServerConquerorsItems">+{[4.000000 * 100]}% alla distanza di respinta e +{[0.300000 * 100]}% di danni base a tutti i bersagli respinti con il martello da guerra. Sgombero incendia il primo bersaglio colpito, trasformandolo in un proiettile che infligge un {[-1.500000 * -100]}% di danni da arma a tutti i bersagli che attraversa lungo il proprio percorso.</string>
+	<string key="PerkID_Conqueror_Shield_TankAura_Name" rel_version="PvPServerConquerorsItems">Altruismo</string>
+	<string key="PerkID_Conqueror_Shield_TankAura_Desc" rel_version="PvPServerConquerorsItems">Tutti gli alleati intorno a te ottengono un {[0.500000 * 100]}% di armatura e tu ottieni un {[0.250000 * 100]}% in più di cure ricevute. Tuttavia, la tua armatura si riduce di un {[-0.250000 * -100]}%.</string>
+	<string key="PerkID_Conqueror_IceGauntlet_FrostAura_Name" rel_version="PvPServerConquerorsItems">Gelo innato</string>
+	<string key="PerkID_Conqueror_IceGauntlet_FrostAura_Desc" rel_version="PvPServerConquerorsItems">Tu e tutti gli alleati nel raggio di {[8.500000]} m ottenete un {[0.300000 * 100]}% di assorbimento dei danni da fuoco e i danni base degli attacchi di ghiaccio aumentano di un {[0.200000 * 100]}%. Colpire i bersagli all'interno dell'aura di gelo infligge loro un {[-0.050000 * -100]}% di Rallentamento cumulabile per {[3.000000]} s. (Massimo {[6.000000]} accumuli)</string>
+	<string key="PerkID_Conqueror_FireStaff_BurnAura_Name" rel_version="PvPServerConquerorsItems">Carbonizzato</string>
+	<string key="PerkID_Conqueror_FireStaff_BurnAura_Desc" rel_version="PvPServerConquerorsItems">Genera un'aura di {[8.500000]} m intorno a te che infligge un {[-0.200000 * -100]}% di Bruciatura ai nemici al suo interno e riduce di un {[0.000000 * 100]}% i danni da fuoco che subisci. Colpire i bersagli nell'aura aumenterà la potenza di Bruciatura di un 5% per accumulo per {[4.000000]} s. (Massimo {[20.000000]} accumuli.)</string>
+	<string key="PerkID_Conqueror_Hatchet_CombustibleCombustion_Name" rel_version="PvPServerConquerorsItems">Combustione</string>
+	<string key="PerkID_Conqueror_Hatchet_CombustibleCombustion_Desc" rel_version="PvPServerConquerorsItems">Colpire un bersaglio con un attacco a distanza con l'accetta infligge Combustibile. Dopo {[3.000000]} accumuli, l'attacco a distanza successivo genererà un'esplosione che consumerà gli accumuli e infliggerà una raffica di danni a tutti i bersagli vicini, causando un {[-2.500000 * -100]}% di danni da arma.</string>
+	<string key="PerkID_Conqueror_Spear_Embiggen_Name" rel_version="PvPServerConquerorsItems">Accrescimento</string>
+	<string key="PerkID_Conqueror_Spear_Embiggen_Desc" rel_version="PvPServerConquerorsItems">Le abilità in mischia della lancia aumentano le tue dimensioni, così potrai coprire un'area maggiore con i tuoi attacchi. Inoltre, Calcio scavalcante è più potente e abbatte i bersagli.</string>
+	<string key="PerkID_Conqueror_MeleeWeapon_DodgeSuppressant_Name" rel_version="PvPServerConquerorsItems">Soppressore di schivata</string>
+	<string key="PerkID_Conqueror_MeleeWeapon_DodgeSuppressant_Desc" rel_version="PvPServerConquerorsItems">I colpi delle abilità in mischia contro un bersaglio con salute inferiore a un {[50.000000]}% infliggono Torpore, impedendogli di schivare per {[2.000000]} s o fino a quando non avrà colpito un bersaglio (tempo di ricarica {[20.000000]} s per bersaglio).</string>
+	<string key="PerkID_Conqueror_Greatsword_CrescentWave_Name" rel_version="PvPServerConquerorsItems">Onda falciforme</string>
+	<string key="PerkID_Conqueror_Greatsword_CrescentWave_Desc" rel_version="PvPServerConquerorsItems">Con salute superiore a un 50%, gli attacchi pesanti lanciano un proiettile in avanti che infligge un {[1.500000 * 100]}% di danni da arma. Ogni onda consuma {[20.000000]} mana.</string>
+	<string key="PerkID_Conqueror_HolyShield_Blocking_Name" rel_version="PvPServerConquerorsItems">Scudo sacro</string>
+	<string key="PerkID_Conqueror_HolyShield_Blocking_Desc" rel_version="PvPServerConquerorsItems">Parare un attacco a distanza genera uno scudo a bolla sul giocatore per {[10000.000000 / 1000]}s che blocca tutti i proiettili mentre è attivo (tempo di ricarica {[30.000000]} s).</string>
+	<string key="PerkID_Conqueror_DodgeCorruptionBall_Name" rel_version="PvPServerConquerorsItems">Schivata corrotta</string>
+	<string key="PerkID_Conqueror_DodgeCorruptionBall_Desc" rel_version="PvPServerConquerorsItems">Quando schivi un attacco nemico in mischia, attivi una sfera di Corruzione che esplode infliggendo un {[-0.600000 * -100]}% di danni da Vuoto a tutti i bersagli nel raggio di {[3.000000]} m e conferendo al tuo colpo successivo entro {[4.000000]} s un {[0.300000 * 100]}% di Potenziamento (tempo di ricarica {[6.000000]} s).</string>
+	<string key="PerkID_Conqueror_Longsword_ShieldlessAgility_Name" rel_version="PvPServerConquerorsItems">Agilità illimitata</string>
+	<string key="PerkID_Conqueror_Longsword_ShieldlessAgility_Desc" rel_version="PvPServerConquerorsItems">Mentre hai un carico equipaggiato leggero o medio senza scudo, il costo della schivata è ridotto di un 20% per la prima schivata entro {[1.000000]} s dopo aver colpito un bersaglio. Schivare un attacco in mischia conferisce un {[0.200000 * 100]}% di Fretta per {[2.000000]} s e un {[0.500000 * 100]}% di Potenziamento ai danni da fendente per il tuo attacco successivo entro {[2.000000]} s. Tuttavia, subisci un {[-0.200000 * -100]}% di danni in più.</string>
+	<string key="PerkID_Conqueror_Armor_SwarmDefense_Name" rel_version="PvPServerConquerorsItems">Difesa sciame</string>
+	<string key="PerkID_Conqueror_Armor_SwarmDefense_Desc" rel_version="PvPServerConquerorsItems">Con {[3.000000]} o più nemici nelle vicinanze, aumenta l'armatura di un {[0.100000 * 100]}% per ogni nemico vicino, mentre le tue cure si riducono di un {[-0.020000 * -100]}% per ogni nemico vicino (massimo {[10.000000]} nemici).</string>
+	<string key="PerkID_Conqueror_Musket_LimbDebilitation_Name" rel_version="PvPServerConquerorsItems">Danno periferico</string>
+	<string key="PerkID_Conqueror_Musket_LimbDebilitation_Desc" rel_version="PvPServerConquerorsItems">I colpi alla testa infliggono un {[-0.200000 * -100]}% di Sfinimento per {[3.000000]} s. Per {[3.000000]} s dopo un tiro alle gambe, il bersaglio infligge a se stesso una quantità di danni pari a un{[-0.100000 * -100]}% della sua salute massima ogni volta che schiva.</string>
+	<string key="PerkID_Conqueror_Flail_Disease_Name" rel_version="PvPServerConquerorsItems">Lite piagata</string>
+	<string key="PerkID_Conqueror_Flail_Disease_Desc" rel_version="PvPServerConquerorsItems">Gli attacchi infliggono un accumulo pari a un {[-0.050000 * -100]}% di Malattia ricevuta e a un {[-0.025000 * -100]}% di Malattia prodotta per {[4.000000]} s (massimo {[5.000000]} accumuli). Attaccare un bersaglio che para consuma {[1.000000]} accumulo, infliggendo un {[-0.300000 * -100]}% di danni da arma per ogni accumulo consumato.</string>
+	<string key="PerkID_Conqueror_Greataxe_UndeadLostMonarch_Name" rel_version="PvPServerConquerorsItems">Furia</string>
+	<string key="PerkID_Conqueror_Greataxe_UndeadLostMonarch_Desc" rel_version="PvPServerConquerorsItems">Colpire un bersaglio con un attacco pesante ti trasforma in un imponente monarca perduto. Mentre la trasformazione è attiva ottieni un {[0.350000 * 100]}% di armatura per {[10.000000]} s. Allo scadere del timer, torni alla tua forma originale. (Tempo di ricarica {[15.000000]} s.)</string>
+	<string key="PerkID_Conqueror_LifeStaff_SupportiveHeals_Name" rel_version="PvPServerConquerorsItems">Supporto vitale</string>
+	<string key="PerkID_Conqueror_LifeStaff_SupportiveHeals_Desc" rel_version="PvPServerConquerorsItems">Le cure prodotte dal bastone della vita aumentano di un {[0.350000 * 100]}% se non sono attive cure nel tempo di un bastone della vita. Inoltre, generi intorno a te un'aura di guarigione persistente che cura in modo continuativo gli alleati vicini escludendo te. Quando gli attacchi leggeri attraversano gli alleati, il loro tasso di rigenerazione del mana e dell'energia aumenta di un {[0.250000 * 100]}% per {[3.000000]} s.</string>
+	<string key="PerkID_Conqueror_VoidGauntlet_HarvestDamage_Name" rel_version="PvPServerConquerorsItems">Vendetta del mietitore</string>
+	<string key="PerkID_Conqueror_VoidGauntlet_HarvestDamage_Desc" rel_version="PvPServerConquerorsItems">Mentre utilizzi Essenza del raccolto, infliggi impulsi periodici di danni a tutti i nemici nel raggio di {[5.000000]} m, causando un {[-0.400000 * -100]}% di danni base da arma e attivando un {[0.500000 * 100]}% di Furto di vita in base ai danni inflitti.</string>
+	<string key="PerkID_Conqueror_Rapier_HasteWhenFacingTarget_Name" rel_version="PvPServerConquerorsItems">Baruffa</string>
+	<string key="PerkID_Conqueror_Rapier_HasteWhenFacingTarget_Desc" rel_version="PvPServerConquerorsItems">Ottieni un {[0.150000 * 100]}% di Fretta quando sei di fronta a un bersaglio nel raggio di {[6.000000 * 2]} m mentre le abilità che spingono il giocatore in avanti ottengono un aumento della distanza di movimento quando il giocatore è di fronte a un nemico. La distanza aumenta a 200 DES.</string>
+	<string key="PerkID_EtherealWeapon_Name" rel_version="PvPServerConquerorsItems">Arma eterea</string>
+	<string key="PerkID_EtherealWeapon_Description" rel_version="PvPServerConquerorsItems">Quest'arma viene lasciata dopo la morte e ti permette di accedere a materiali speciali quando completi Eventi dell'Oscurità.</string>
+	<string key="PerkID_EtherealArmor_Name" rel_version="PvPServerConquerorsItems">Armatura eterea</string>
+	<string key="PerkID_EtherealArmor_Description" rel_version="PvPServerConquerorsItems">Quest'armatura viene lasciata dopo la morte e ti permette di accedere a materiali speciali quando saccheggi contenitori nei punti d'interesse élite.</string>
+	<string key="PerkID_EtherealJewelry_Name" rel_version="PvPServerConquerorsItems">Gioielli eterei</string>
+	<string key="PerkID_EtherealJewelry_Description" rel_version="PvPServerConquerorsItems">Questi gioielli vengono lasciati dopo la morte e ti permettono di accedere a materiali speciali quando uccidi nemici nei punti d'interesse élite.</string>
+	<string key="PerkID_EtherealMining_Name" rel_version="PvPServerConquerorsItems">Attività estrattiva eterea</string>
+	<string key="PerkID_EtherealMining_Description" rel_version="PvPServerConquerorsItems">Questa piccozza viene lasciata dopo la morte e ti permette di accedere a materiali speciali durante l'attività estrattiva.</string>
+	<string key="PerkID_EtherealLogging_Name" rel_version="PvPServerConquerorsItems">Taglio e trasporto di legname etereo</string>
+	<string key="PerkID_EtherealLogging_Description" rel_version="PvPServerConquerorsItems">Quest'ascia spaccalegna viene lasciata dopo la morte e ti permette di accedere a materiali speciali durante il taglio e trasporto di legname.</string>
+	<string key="PerkID_EtherealHarvesting_Name" rel_version="PvPServerConquerorsItems">Raccolta delle messi eterea</string>
+	<string key="PerkID_EtherealHarvesting_Description" rel_version="PvPServerConquerorsItems">Questo falcetto viene lasciato dopo la morte e ti permette di accedere a materiali speciali durante la raccolta delle messi.</string>
+	<string key="PerkID_EtherealSkinning_Name" rel_version="PvPServerConquerorsItems">Scuoiatura eterea</string>
+	<string key="PerkID_EtherealSkinning_Description" rel_version="PvPServerConquerorsItems">Questo coltello da scuoiatura viene lasciato dopo la morte e ti permette di accedere a materiali speciali durante la scuoiatura.</string>
 </resources>
 

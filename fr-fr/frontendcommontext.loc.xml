@@ -174,6 +174,7 @@
 	<string key="mm_csdkerr_registration_unmarshal_error">Erreur des données du serveur. Veuillez chercher une mise à jour.</string>
 	<string key="mm_csdkerr_disconnect">Déconnexion inattendue du serveur. Reconnexion...</string>
 	<string key="mm_csdkerr_replicate_timeout">Temps d'attente de synchronisation écoulé. Veuillez vérifier vos paramètres de réseau et assurez-vous de disposer de suffisamment de bande passante pour jouer.</string>
+	<string key="mm_csdkerr_server_requires_anticheat">EAC nécessaire pour pouvoir jouer. Assurez-vous d'avoir bien lancé le jeu avec EAC.</string>
 	<string key="mm_csdkerr_registration_failed_retry">Échec de la connexion au serveur</string>
 	<string key="mm_connerr_rep_registration_timeout">Connexion au serveur impossible. Veuillez vérifier votre accès à Internet et vos paramètres réseau pour vous assurer que vous disposez de suffisamment de bande passante pour jouer, puis réessayez.</string>
 	<string key="mm_connerr_game_timeout">Temps d'attente d'activité sur le serveur écoulé. Veuillez vérifier vos paramètres de réseau pour vous assurer que vous disposez de suffisamment de bande passante pour jouer.</string>
@@ -183,7 +184,7 @@
 	<string key="mm_connerr_ingame_timeout">Perte de connexion au serveur inattendue. Veuillez vérifier vos paramètres de réseau pour vous assurer que vous disposez de suffisamment de bande passante pour jouer. Reconnexion...</string>
 	<string key="mm_connerr_createcharacter_timeout">Temps d'attente de création du personnage écoulé.</string>
 	<string key="mm_connwarn_title">Avertissement de connexion au réseau</string>
-	<string key="mm_connwarn_unstable_network">Un réseau instable entraîne des pertes de paquets, peut-être en raison d'une bande passante réduite.  Cela impacte la jouabilité et peut entraîner des déconnexions ! Veuillez vérifier vos paramètres réseau pour vous assurer que vous disposez de suffisamment de bande passante pour jouer.</string>
+	<string key="mm_connwarn_unstable_network">Un réseau instable entraîne des pertes de paquets, peut-être en raison d'une bande passante réduite. Cela impacte la jouabilité et peut entraîner des déconnexions ! Veuillez vérifier vos paramètres réseau pour vous assurer que vous disposez de suffisamment de bande passante pour jouer.</string>
 	<string key="mm_rejected_Join_Match">Impossible de rejoindre le match</string>
 	<string key="mm_rejected_Pending">Serveur pas prêt : Attente du démarrage.</string>
 	<string key="mm_rejected_No_Player_Slice">Erreur de serveur : Éléments manquants sur le serveur !</string>
@@ -207,6 +208,8 @@
 	<string key="mm_rejected_Free_Session_Expired">Votre période de jeu gratuit a pris fin. Nous allons vous rediriger vers le menu principal.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">Le ticket de connexion est incorrect pour le monde sélectionné.</string>
 	<string key="mm_rejected_Player_Not_Entitled_To_World">Accès refusé : Accès à ce monde interdit.</string>
+	<string key="mm_rejected_Character_Temporarily_Unavailable">Votre personnage est temporairement indisponible. Reconnexion...</string>
+	<string key="mm_rejected_Destination_World_Unavailable">Erreur de serveur : Le monde de destination n’est pas disponible. Reconnexion...</string>
 	<string key="mm_rejected_Matchmaking_Login">Reconnectez-vous pour rejoindre le match.</string>
 	<string key="mm_rejected_Client_Kicked_Title">Éjecté</string>
 	<string key="mm_rejected_Client_Kicked_NoMessage">Vous avez été éjecté de la partie.</string>
@@ -240,7 +243,8 @@
 	<string key="mm_rejected_Client_Kicked_Partial_Ban">Vous avez subi un bannissement temporaire.</string>
 	<string key="mm_rejected_Client_Kicked_Partial_Ban_Muted">Vous avez été mis(e) en sourdine.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Vous avez été éjecté(e) de la partie.</string>
-	<string key="mm_rejected_Client_Expansion2023_Ownership">Votre personnage est actuellement verrouillé. &lt;font color="#506AD0"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Achetez l'extension.&lt;/a&gt;&lt;/font&gt;</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Votre personnage est actuellement verrouillé. &lt;font color="#506AD0"&gt;&lt;a action="OpenLanguageSpecificUrl" data="@url_expansion2023_purchase"&gt;Achetez l'extension.&lt;/a&gt;&lt;/font&gt;</string>
+	<string key="mm_rejected_Client_Kicked_Server_Error">Vous avez été déconnecté(e) à cause d'une erreur temporaire de serveur.</string>
 	<string key="mm_authresult_Authorized">Réussite</string>
 	<string key="mm_characterCreateDisabled">La création de personnages a été temporairement désactivée, car ce monde est plein. Réessayez dans un autre monde.</string>
 	<string key="mm_characterTransferDisabled">Les transferts de personnages ont été temporairement désactivés, car ce monde est plein. Réessayez dans un autre monde.</string>
@@ -368,6 +372,7 @@
 	<string key="ui_cantDropCursedItem" rel_version="Territory_CutlassKeys_Rework">Impossible de jeter des objets maudits.</string>
 	<string key="ui_destroyCursedItem" rel_version="Territory_CutlassKeys_Rework">Détruire l'objet maudit</string>
 	<string key="ui_destroyCursedItemDrop" rel_version="Territory_CutlassKeys_Rework">Tous les objets maudits seront détruits.\nVoulez-vous continuer ?</string>
+	<string key="ui_cantDropPvpServer" rel_version="PvPServerConquerorsItems">Impossible de lâcher les objets des conquérants ou éthérés</string>
 	<string key="ui_navmenu_progression">PERSONNAGE</string>
 	<string key="ui_bio">Biographie</string>
 	<string key="ui_attributes">Caractéristiques</string>
@@ -516,7 +521,7 @@
 	<string key="ui_weaving">Tissage</string>
 	<string key="ui_stonecutting">Taille de pierre</string>
 	<string key="ui_masonry">Table de tailleur de pierre</string>
-	<string key="ui_masonry_desc">Transformez ici des pierres et des gemmes.</string>
+	<string key="ui_masonry_desc">Permet de transformer la pierre.</string>
 	<string key="ui_smelter">Fonderie</string>
 	<string key="ui_smelter_desc">Permet de transformer le métal.</string>
 	<string key="ui_building">Bientôt</string>
@@ -723,7 +728,7 @@
 	<string key="error_banned">{message}\n\nRaison : [{reason}]</string>
 	<string key="error_perm_ban">Bannissement permanent</string>
 	<string key="error_temp_ban">Bannissement temporaire</string>
-	<string key="error_world_select_server_down">Vous ne pouvez pas sélectionner un monde en cours de maintenance.</string>
+	<string key="error_world_select_server_down">Le monde est en maintenance. Veuillez réessayer plus tard.</string>
 	<string key="error_loading_assets_title">Erreur de chargement des ressources du jeu</string>
 	<string key="error_loading_assets_message">Une erreur s'est produite lors du chargement des ressources du jeu ! Veuillez vérifier que l'installation s'est effectuée correctement.</string>
 	<string key="ui_musician" rel_version="Feature_MusicalPerformances">Musicien</string>
@@ -747,10 +752,10 @@
 	<string key="ui_scan_qr_code_help_label">Assistance de New World : Aeternum</string>
 	<string key="ui_scan_qr_code_newsletter_label">Newsletter</string>
 	<string key="ui_scan_qr_code_appeal_a_ban_label">Assistance de New World : Aeternum</string>
-	<string key="ui_scan_qr_code_news_tile">New World : Actualités d'Aeternum</string>
+	<string key="ui_scan_qr_code_news_tile">Actualités de New World : Aeternum</string>
 	<string key="ui_low_flex_mem_title">Avertissement</string>
 	<string key="ui_low_flex_mem">Mémoire du noyau faible</string>
-	<string key="ui_kick_trial_full_game_purchased">Merci d'avoir acheté New World : Aeternum.</string>
 	<string key="ui_kick_trial_full_game_purchased_title">Jeu acheté</string>
+	<string key="ui_kick_trial_full_game_purchased">Merci d'avoir acheté New World : Aeternum.</string>
 </resources>
 

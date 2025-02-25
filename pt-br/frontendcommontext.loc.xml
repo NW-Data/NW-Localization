@@ -174,6 +174,7 @@
 	<string key="mm_csdkerr_registration_unmarshal_error">Erro de dados do servidor. Verifique se há atualizações.</string>
 	<string key="mm_csdkerr_disconnect">Desconectado inesperadamente do servidor. Reconectando...</string>
 	<string key="mm_csdkerr_replicate_timeout">A conexão expirou enquanto aguardava pela sincronização de estado. Confira suas configurações de rede e verifique se você tem banda larga suficiente para jogar.</string>
+	<string key="mm_csdkerr_server_requires_anticheat">O Mundo requer a EAC para jogar. Verifique se você iniciou o jogo com a EAC.</string>
 	<string key="mm_csdkerr_registration_failed_retry">Falha ao se conectar ao servidor.</string>
 	<string key="mm_connerr_rep_registration_timeout">Não foi possível conectar ao servidor. Confira suas configurações de rede e acesso à internet a fim de verificar se você tem banda larga suficiente para jogar e tente novamente.</string>
 	<string key="mm_connerr_game_timeout">A conexão expirou enquanto aguardava por início de jogo no servidor. Confira suas configurações de rede a fim de verificar se você tem banda larga suficiente para jogar.</string>
@@ -183,7 +184,7 @@
 	<string key="mm_connerr_ingame_timeout">Perda inesperada de contato com o servidor. Confira suas configurações de rede a fim de verificar se você tem banda larga suficiente para jogar. Reconectando...</string>
 	<string key="mm_connerr_createcharacter_timeout">A conexão expirou enquanto criava um personagem.</string>
 	<string key="mm_connwarn_title">Aviso de Conexão de Rede</string>
-	<string key="mm_connwarn_unstable_network">As condições instáveis da rede estão resultando em uma perda significativa de pacotes, possivelmente devido à capacidade reduzida da banda larga. Isso está afetando a jogabilidade e pode resultar em desconexões! Confira suas configurações de rede a fim de verificar se você tem banda larga suficiente para jogar.</string>
+	<string key="mm_connwarn_unstable_network">As condições instáveis da rede estão resultando em uma perda significativa de pacotes, possivelmente devido à capacidade reduzida da banda larga. Isso afeta a jogabilidade e pode resultar em desconexões! Confira suas configurações de rede para verificar se sua banda larga é suficiente para jogar.</string>
 	<string key="mm_rejected_Join_Match">Não foi possível entrar na partida</string>
 	<string key="mm_rejected_Pending">O servidor não está pronto: A inicialização ainda está pendente.</string>
 	<string key="mm_rejected_No_Player_Slice">Erro no servidor: Há recursos faltando no servidor!</string>
@@ -207,6 +208,8 @@
 	<string key="mm_rejected_Free_Session_Expired">Seu período de jogo gratuito terminou. Você retornará ao Menu Principal.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">O ticket de autenticação não é válido para o mundo.</string>
 	<string key="mm_rejected_Player_Not_Entitled_To_World">Acesso negado: Sem autorização para este mundo de jogo.</string>
+	<string key="mm_rejected_Character_Temporarily_Unavailable">Seu personagem está temporariamente indisponível. Reconectando...</string>
+	<string key="mm_rejected_Destination_World_Unavailable">Erro no servidor: Mundo de destino indisponível. Reconectando...</string>
 	<string key="mm_rejected_Matchmaking_Login">Conecte-se novamente para entrar na partida.</string>
 	<string key="mm_rejected_Client_Kicked_Title">Expulso</string>
 	<string key="mm_rejected_Client_Kicked_NoMessage">Você foi expulso do jogo.</string>
@@ -240,7 +243,8 @@
 	<string key="mm_rejected_Client_Kicked_Partial_Ban">Você sofreu um banimento parcial.</string>
 	<string key="mm_rejected_Client_Kicked_Partial_Ban_Muted">Você sofreu silenciamento.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Você foi expulso do jogo.</string>
-	<string key="mm_rejected_Client_Expansion2023_Ownership">Seu personagem está bloqueado. &lt;font color="#506AD0"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Comprar Expansão.&lt;/a&gt;&lt;/font&gt;</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Seu personagem está bloqueado. &lt;font color="#506AD0"&gt;&lt;a action="OpenLanguageSpecificUrl" data="@url_expansion2023_purchase"&gt;Comprar Expansão.&lt;/a&gt;&lt;/font&gt;</string>
+	<string key="mm_rejected_Client_Kicked_Server_Error">Sua conexão foi encerrada devido a um erro temporário do servidor.</string>
 	<string key="mm_authresult_Authorized">Sucesso</string>
 	<string key="mm_characterCreateDisabled">A criação de personagem está temporariamente desativada porque este mundo está lotado. Tente um mundo diferente.</string>
 	<string key="mm_characterTransferDisabled">As transferências de personagem estão temporariamente desativadas porque este mundo está lotado. Tente um mundo diferente.</string>
@@ -368,6 +372,7 @@
 	<string key="ui_cantDropCursedItem" rel_version="Territory_CutlassKeys_Rework">Não é possível soltar itens amaldiçoados</string>
 	<string key="ui_destroyCursedItem" rel_version="Territory_CutlassKeys_Rework">Destruir Item Amaldiçoado</string>
 	<string key="ui_destroyCursedItemDrop" rel_version="Territory_CutlassKeys_Rework">Todos os Itens Amaldiçoados serão destruídos.\nDeseja continuar?</string>
+	<string key="ui_cantDropPvpServer" rel_version="PvPServerConquerorsItems">Não é possível soltar itens de Conquistadores ou Etéreos</string>
 	<string key="ui_navmenu_progression">PERSONAGEM</string>
 	<string key="ui_bio">Biografia</string>
 	<string key="ui_attributes">Atributos</string>
@@ -516,7 +521,7 @@
 	<string key="ui_weaving">Tecelagem</string>
 	<string key="ui_stonecutting">Cantaria</string>
 	<string key="ui_masonry">Mesa de Cantaria</string>
-	<string key="ui_masonry_desc">Refine pedras e gemas aqui.</string>
+	<string key="ui_masonry_desc">Refine pedras aqui.</string>
 	<string key="ui_smelter">Fundição</string>
 	<string key="ui_smelter_desc">Refine metais aqui.</string>
 	<string key="ui_building">Em Breve</string>
@@ -723,7 +728,7 @@
 	<string key="error_banned">{message}\n\nRazão:[{reason}]</string>
 	<string key="error_perm_ban">Banimento Permanente</string>
 	<string key="error_temp_ban">Banimento Temporário</string>
-	<string key="error_world_select_server_down">Você não pode selecionar um mundo em manutenção.</string>
+	<string key="error_world_select_server_down">O mundo está em manutenção. Tente novamente mais tarde.</string>
 	<string key="error_loading_assets_title">Erro de carregamento de ativo do jogo</string>
 	<string key="error_loading_assets_message">Erro ao carregar ativos do jogo! Verifique a instalação.</string>
 	<string key="ui_musician" rel_version="Feature_MusicalPerformances">Músico</string>
@@ -741,16 +746,16 @@
 	<string key="ui_crossplay_popup_prompt_title" rel_version="Feature_Crossplay">JOGABILIDADE CRUZADA</string>
 	<string key="ui_crossplay_popup_prompt_message" rel_version="Feature_Crossplay">Seu console foi configurado para desativar a funcionalidade de jogabilidade cruzada!\n\nAltere isso nas configurações do console para aproveitar:\n\nAtividades entre mundos\nMais opções de servidor e tempos de fila menores\nEncontrar jogadores e amigos em outras plataformas de jogos</string>
 	<string key="ui_gena_onoff">Ativar/Desativar Narração</string>
-	<string key="ui_entered_crossplay_world_notification" rel_version="Feature_Crossplay">Você entrou em um mundo de jogabilidade cruzada</string>
+	<string key="ui_entered_crossplay_world_notification" rel_version="Feature_Crossplay">Você entrou em um mundo de jogabilidade cruzada.</string>
 	<string key="ui_scan_qr_code">Ler Código QR</string>
 	<string key="ui_scan_qr_code_instructions">Leia o Código QR com a câmera do seu dispositivo.</string>
 	<string key="ui_scan_qr_code_help_label">Suporte de New World: Aeternum</string>
 	<string key="ui_scan_qr_code_newsletter_label">Boletim de Notícias</string>
-	<string key="ui_scan_qr_code_appeal_a_ban_label">Suporte de New World: Aeternum</string>
-	<string key="ui_scan_qr_code_news_tile">New World: Notícias de Aeternum</string>
+	<string key="ui_scan_qr_code_appeal_a_ban_label">Notícias de Aeternum</string>
+	<string key="ui_scan_qr_code_news_tile">Notícias de New World: Aeternum</string>
 	<string key="ui_low_flex_mem_title">Aviso</string>
 	<string key="ui_low_flex_mem">Memória do kernel baixa</string>
-	<string key="ui_kick_trial_full_game_purchased">Agradecemos por comprar New World: Aeternum.</string>
 	<string key="ui_kick_trial_full_game_purchased_title">Jogo Comprado</string>
+	<string key="ui_kick_trial_full_game_purchased">Agradecemos por comprar New World: Aeternum.</string>
 </resources>
 

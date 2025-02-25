@@ -174,6 +174,7 @@
 	<string key="mm_csdkerr_registration_unmarshal_error">Error de datos del servidor. Busca un parche.</string>
 	<string key="mm_csdkerr_disconnect">Se desconectó inesperadamente del servidor. Reconectando…</string>
 	<string key="mm_csdkerr_replicate_timeout">Se agotó el tiempo de espera de la sincronización de estados. Revisa la configuración de tu red y asegúrate de tener suficiente ancho de banda para jugar.</string>
+	<string key="mm_csdkerr_server_requires_anticheat">Se requiere EAC para jugar New World. Asegúrate de haber abierto el juego con EAC.</string>
 	<string key="mm_csdkerr_registration_failed_retry">Error al establecer conexión con el servidor</string>
 	<string key="mm_connerr_rep_registration_timeout">No se ha podido establecer conexión con el servidor Revisa tu acceso a internet y la configuración de tu red para asegurarte de tener suficiente ancho de banda para jugar. Luego vuelve a intentarlo.</string>
 	<string key="mm_connerr_game_timeout">Se acabó el tiempo de espera para que inicie el juego en el servidor. Revisa la configuración de tu red para asegurarte de tener suficiente ancho de banda para jugar.</string>
@@ -207,6 +208,8 @@
 	<string key="mm_rejected_Free_Session_Expired">Tu tiempo de prueba gratis terminó. Regresarás al menú principal.</string>
 	<string key="mm_rejected_Client_Kicked_Login_Ticket_Error">El ticket de inicio de sesión no es válido para el mundo</string>
 	<string key="mm_rejected_Player_Not_Entitled_To_World">Acceso denegado: No tienes derecho a ingresar a este mundo.</string>
+	<string key="mm_rejected_Character_Temporarily_Unavailable">Tu personaje no está disponible ahora. Reconectando…</string>
+	<string key="mm_rejected_Destination_World_Unavailable">Error del servidor: El mundo de destino no está disponible. Reconectando…</string>
 	<string key="mm_rejected_Matchmaking_Login">Vuelve a iniciar sesión para unirte a la partida.</string>
 	<string key="mm_rejected_Client_Kicked_Title">Expulsado</string>
 	<string key="mm_rejected_Client_Kicked_NoMessage">Fuiste expulsado del juego.</string>
@@ -240,7 +243,8 @@
 	<string key="mm_rejected_Client_Kicked_Partial_Ban">Recibiste una suspensión parcial.</string>
 	<string key="mm_rejected_Client_Kicked_Partial_Ban_Muted">Se te silenció.</string>
 	<string key="mm_rejected_Client_Kicked_Unknown">Fuiste expulsado del juego.</string>
-	<string key="mm_rejected_Client_Expansion2023_Ownership">Tu personaje está bloqueado. &lt;font color="#506AD0"&gt;&lt;a action="OpenRegionalUrl" data="@url_expansion2023_purchase"&gt;Comprar expansión.&lt;/a&gt;&lt;/font&gt;</string>
+	<string key="mm_rejected_Client_Expansion2023_Ownership">Tu personaje está bloqueado. &lt;font color="#506AD0"&gt;&lt;a action="OpenLanguageSpecificUrl" data="@url_expansion2023_purchase"&gt;Comprar expansión.&lt;/a&gt;&lt;/font&gt;</string>
+	<string key="mm_rejected_Client_Kicked_Server_Error">Se te desconectó debido a un error de servidor temporal.</string>
 	<string key="mm_authresult_Authorized">Éxito</string>
 	<string key="mm_characterCreateDisabled">La creación de personajes está inhabilitada de forma temporal porque este mundo está lleno. Prueba con un mundo diferente.</string>
 	<string key="mm_characterTransferDisabled">Las transferencias de personajes están inhabilitadas de forma temporal porque este mundo está lleno. Prueba con un mundo diferente.</string>
@@ -282,7 +286,7 @@
 	<string key="mm_authresult_Http_Error_Response_Code">Respuesta no válida durante la autenticación. Inténtalo de nuevo más tarde.</string>
 	<string key="mm_authresult_Error_Np">No se pudo realizar la autenticación con \nPlayStation™Network.</string>
 	<string key="mm_authresult_Error_Np_GetIdToken">No se pudo realizar la autenticación con \nPlayStation™Network.\nNo se pudo obtener el token de ID.\nVuelve a intentarlo.</string>
-	<string key="mm_authresult_Error_Np_GetAuthCode">No se pudo realizar la autenticación con \nPlayStation™Network.\nNo se pudo obtener el token de ID.\nVuelve a intentarlo.</string>
+	<string key="mm_authresult_Error_Np_GetAuthCode">No se pudo realizar la autenticación con PlayStation™Network.\nNo se pudo obtener el token de ID.\nVuelve a intentarlo.</string>
 	<string key="mm_authresult_Error_Np_UserSignIn">No se pudo realizar la autenticación con \nPlayStation™Network.\nVerifica que hayas iniciado sesión en PSN.</string>
 	<string key="mm_authresult_Denied_AuthTokenCredientialsInvalid">El token de autorización que se intentó usar es inválido. Inténtalo de nuevo.</string>
 	<string key="mm_authresult_Denied_AuthTokenInvalid">El token de autorización que se intentó usar es inválido. Inténtalo de nuevo.</string>
@@ -368,6 +372,7 @@
 	<string key="ui_cantDropCursedItem" rel_version="Territory_CutlassKeys_Rework">No se pueden soltar objetos malditos</string>
 	<string key="ui_destroyCursedItem" rel_version="Territory_CutlassKeys_Rework">Destruir objeto maldito</string>
 	<string key="ui_destroyCursedItemDrop" rel_version="Territory_CutlassKeys_Rework">Se destruirán todos los objetos malditos.\n¿Quieres continuar?</string>
+	<string key="ui_cantDropPvpServer" rel_version="PvPServerConquerorsItems">No es posible soltar conquistadores ni objetos etéreos</string>
 	<string key="ui_navmenu_progression">PERSONAJE</string>
 	<string key="ui_bio">Biografía</string>
 	<string key="ui_attributes">Atributos</string>
@@ -516,7 +521,7 @@
 	<string key="ui_weaving">Tejido</string>
 	<string key="ui_stonecutting">Cantería</string>
 	<string key="ui_masonry">Mesa de cantería</string>
-	<string key="ui_masonry_desc">Refina piedra y gemas aquí.</string>
+	<string key="ui_masonry_desc">Refina la piedra aquí.</string>
 	<string key="ui_smelter">Fundición</string>
 	<string key="ui_smelter_desc">Refina el metal aquí.</string>
 	<string key="ui_building">En breve</string>
@@ -723,7 +728,7 @@
 	<string key="error_banned">{message}\n\nMotivo: [{reason}]</string>
 	<string key="error_perm_ban">Suspensión permanente</string>
 	<string key="error_temp_ban">Prohibición temporal</string>
-	<string key="error_world_select_server_down">No puedes seleccionar un mundo cuando se están realizando tareas de mantenimiento.</string>
+	<string key="error_world_select_server_down">El mundo está en mantenimiento. Vuelve a intentarlo más tarde.</string>
 	<string key="error_loading_assets_title">Error al cargar recurso del juego</string>
 	<string key="error_loading_assets_message">Hubo un error al cargar recursos del juego. Revisa tu instalación.</string>
 	<string key="ui_musician" rel_version="Feature_MusicalPerformances">Artista musical</string>
@@ -741,16 +746,16 @@
 	<string key="ui_crossplay_popup_prompt_title" rel_version="Feature_Crossplay">JUEGO ENTRE PLATAFORMAS</string>
 	<string key="ui_crossplay_popup_prompt_message" rel_version="Feature_Crossplay">Tu consola está configurada con la función de juego entre plataformas desactivada.\n\nCambia la configuración de tu consola para disfrutar de lo siguiente:\n\nActividades entre mundos\nMás opciones de servidor y menos tiempo de espera\nEncuentros con jugadores y amigos de otras plataformas</string>
 	<string key="ui_gena_onoff">Alternar narración</string>
-	<string key="ui_entered_crossplay_world_notification" rel_version="Feature_Crossplay">Ingresaste a un mundo con juego entre plataformas</string>
+	<string key="ui_entered_crossplay_world_notification" rel_version="Feature_Crossplay">Ingresaste a un mundo con juego entre plataformas.</string>
 	<string key="ui_scan_qr_code">Escanear código QR</string>
 	<string key="ui_scan_qr_code_instructions">Escanea el código QR con la cámara de tu dispositivo.</string>
 	<string key="ui_scan_qr_code_help_label">Asistencia de New World: Aeternum</string>
 	<string key="ui_scan_qr_code_newsletter_label">Boletín</string>
 	<string key="ui_scan_qr_code_appeal_a_ban_label">Asistencia de New World: Aeternum</string>
-	<string key="ui_scan_qr_code_news_tile">New World: Noticias de Aeternum</string>
+	<string key="ui_scan_qr_code_news_tile">Noticias de New World: Aeternum</string>
 	<string key="ui_low_flex_mem_title">Advertencia</string>
 	<string key="ui_low_flex_mem">Baja memoria de núcleo</string>
-	<string key="ui_kick_trial_full_game_purchased">Gracias por comprar New World: Aeternum.</string>
 	<string key="ui_kick_trial_full_game_purchased_title">Juego comprado</string>
+	<string key="ui_kick_trial_full_game_purchased">Gracias por comprar New World: Aeternum.</string>
 </resources>
 

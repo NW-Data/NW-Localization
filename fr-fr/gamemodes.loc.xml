@@ -8,7 +8,7 @@
 	<string key="ui_queue_leave_notification_generic">Vous avez été retiré(e) de la file d'attente de votre mode de jeu.</string>
 	<string key="ui_queue_ready">F2 pour entrer dans l'expédition</string>
 	<string key="ui_queue_generic_leave_title">Quitter la file d'attente</string>
-	<string key="ui_queue_generic_leave_desc">Are you sure you want to leave the current queue?</string>
+	<string key="ui_queue_generic_leave_desc">Voulez-vous vraiment quitter la file d'attente actuelle ?</string>
 	<string key="ui_game_mode_matchmaking_failed">Une erreur de matchmaking inattendue s'est produite.</string>
 	<string key="ui_game_mode_disabled">Ce mode de jeu est actuellement désactivé.</string>
 	<string key="ui_dungeon_enter_info">&lt;font color={color}&gt;Une personne au moins&lt;/font&gt; doit entrer pour que l'expédition reste ouverte. Voulez-vous vous téléporter à l'intérieur ?</string>
@@ -148,8 +148,8 @@
 	<string key="ui_outpost_rush_battle_tokens_with_value">Jetons de combat {value}</string>
 	<string key="ui_outpost_rush_outpost_under_attack">{value} est attaqué !</string>
 	<string key="ui_outpost_rush_boss_killed">SCORE GELÉ</string>
-	<string key="ui_outpost_rush_ally_buff">Le score de l'équipe ennemie est gelé pendant &lt;font color="#edc63e"&gt;2 minutes et 30 secondes&lt;/font&gt; !</string>
-	<string key="ui_outpost_rush_enemy_buff">Le score de votre équipe est gelé pendant &lt;font color="#edc63e"&gt;2 minutes et 30 secondes&lt;/font&gt; !</string>
+	<string key="ui_outpost_rush_ally_buff">Le score de l'équipe ennemie est gelé pendant &lt;font color="#edc63e"&gt;{time}&lt;/font&gt; !</string>
+	<string key="ui_outpost_rush_enemy_buff">Le score de votre équipe est gelé pendant &lt;font color="#edc63e"&gt;{time}&lt;/font&gt; !</string>
 	<string key="ui_outpost_rush_armory_built">Une armurerie a été construite à {value}</string>
 	<string key="ui_outpost_rush_command_post_built">Un poste de commande a été construit à {value}</string>
 	<string key="ui_outpost_rush_command_post_upgrade">Le poste de commande de {value} a été amélioré au palier {tier}</string>
@@ -306,17 +306,37 @@
 	<string key="ui_influence_tutorial_desc4" rel_version="Feature_Influence_V2">Les joueurs participants recevront des récompenses. Cache de guerre bonus pour les défenseurs remportant la guerre. </string>
 	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">Équilibrage JcJ effectif.</string>
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Modificateurs d'équilibrage JcJ effectifs :</string>
+	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Île de Nauthynos</string>
+	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Sanctuaire antique</string>
+	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Arène de gladiateur</string>
+	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Carte actuelle de la rotation</string>
+	<string key="ui_activity_finder_tooltip_next_map_rotation_text" rel_version="Season_7_Perm">Carte suivante de la rotation</string>
+	<string key="ui_activity_finder_tooltip_current_map_rotation" rel_version="Season_7_Perm">{currentRotationText} : {mapName}</string>
+	<string key="ui_activity_finder_tooltip_next_map_rotation" rel_version="Season_7_Perm">{nextRotationText} : {mapName}</string>
 	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">L'équilibrage JcJ est actuellement désactivé pour cette arme.</string>
 	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">L'équilibrage JcJ est actuellement désactivé pour ce mode de jeu.</string>
 	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">L'équilibrage JcJ est actuellement désactivé pour le monde ouvert.</string>
 	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">Modificateurs de dégâts de base JcJ :\n• Valeurs magiques/à distance augmentées globalement, mais ajustées pour l'équilibrage JcJ.</string>
 	<string key="ui_pvp_balance_global_base_damage" rel_version="Feature_PvP_PvE_Split">Global :</string>
-	<string key="ui_pvp_balance_affix_stats" rel_version="Feature_PvP_PvE_Split">Modificateur de dégâts lié aux stats :</string>
-	<string key="ui_pvp_balance_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Modificateur de dégâts bonus de capacité :</string>
-	<string key="ui_pvp_balance_healing_category" rel_version="Feature_PvP_PvE_Split">Modificateurs de soins :</string>
-	<string key="ui_pvp_balance_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Puissance des effets de statut :</string>
-	<string key="ui_pvp_balance_status_effect_durations" rel_version="Feature_PvP_PvE_Split">Durée de l'effet de statut :</string>
+	<string key="ui_pvp_balance_column_base_damage" rel_version="Feature_PvP_PvE_Split">Dégâts</string>
+	<string key="ui_pvp_balance_column_affix_stats_damage" rel_version="Feature_PvP_PvE_Split">Dégâts</string>
+	<string key="ui_pvp_balance_column_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Dégâts</string>
+	<string key="ui_pvp_balance_column_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Puissance</string>
+	<string key="ui_pvp_balance_column_status_effect_durations" rel_version="Feature_PvP_PvE_Split">Durée</string>
+	<string key="ui_pvp_balance_column_cooldown_adjustment" rel_version="Feature_PvP_PvE_Split">Durée</string>
+	<string key="ui_pvp_balance_category_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Ajustements des capacités</string>
+	<string key="ui_pvp_balance_category_affix_stats" rel_version="Feature_PvP_PvE_Split">Ajustements des stats</string>
+	<string key="ui_pvp_balance_category_cooldown_adjustment" rel_version="Feature_PvP_PvE_Split">Ajustements du temps de recharge</string>
+	<string key="ui_pvp_balance_category_healing" rel_version="Feature_PvP_PvE_Split">Ajustements des soins</string>
+	<string key="ui_pvp_balance_category_weapons" rel_version="Feature_PvP_PvE_Split">Ajustement des armes</string>
+	<string key="ui_pvp_balance_category_status_effects" rel_version="Feature_PvP_PvE_Split">Ajustements des effets de statut</string>
 	<string key="ui_gamemodeinvitedeclinesentmessage">Invitation pour le mode &lt;font color="#ebe3d6"&gt;{gameModeName}&lt;/font&gt; refusée.</string>
 	<string key="ui_gamemodeinvitedeclinesentmessage_withsource">Invitation pour le mode &lt;font color="#ebe3d6"&gt;{gameModeName}&lt;/font&gt; refusée par &lt;font color="#ebe3d6"&gt;{sourcePlayerName}&lt;/font&gt;.</string>
+	<string key="ui_gamemode_timeout">Fin de l'activité</string>
+	<string key="ui_gamemode_timeout_description">Vous approchez de la limite de temps maximale autorisée pour cette activité.</string>
+	<string key="ui_ready_up_ready_choice">Prêt</string>
+	<string key="ui_ready_up_unready_choice">Pas prêt</string>
+	<string key="ui_ready_up_waiting_message">En attente</string>
+	<string key="or_outpost_rush_trench_map_name">Fossé corallien</string>
 </resources>
 

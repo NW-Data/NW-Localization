@@ -129,7 +129,7 @@
 	<string key="ui_leave_group">Abbandona gruppo</string>
 	<string key="ui_voice_chat">Chat vocale</string>
 	<string key="ui_blocked">Bloccati</string>
-	<string key="ui_blocked_player">Giocatore bloccato</string>
+	<string key="ui_blocked_player_notification">Giocatore bloccato</string>
 	<string key="ui_unblocked_player">Giocatore sbloccato</string>
 	<string key="ui_muted">Silenziati</string>
 	<string key="ui_muted_player">Giocatore silenziato</string>
@@ -241,6 +241,7 @@
 	<string key="ui_noOnline_group_body">Puoi cercare un giocatore usando il suo nome.</string>
 	<string key="ui_noOnline_guild_header">Non hai amici da invitare nella compagnia.</string>
 	<string key="ui_noOnline_guild_body">Puoi cercare un giocatore usando il suo nome.</string>
+	<string key="ui_guild_motd_changed">Il messaggio del giorno della compagnia {guildName} è stato aggiornato:\n{message}</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_noOnline_raid_header">Non hai amici online da invitare all'incursione.</string>
 	<string rel_version="Feature_Raid_Groups" key="ui_noOnline_raid_body">Puoi cercare un giocatore usando il suo nome.</string>
 	<string key="ui_reporter_make_good_title">Grazie per la tua segnalazione!</string>
@@ -369,6 +370,9 @@
 	<string key="ui_notification_pvp_track_flagging_message">Quando attivi il PvP, puoi attaccare ed essere attaccato da altri giocatori con PvP attivo. &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;Le uccisioni possono fruttarti sale di Azoth e PE PvP.&lt;/font&gt; \nRiceverai anche i seguenti bonus: &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;+10% PE, +3% di fortuna nella raccolta, +1% di fortuna globale&lt;/font&gt; per forzieri grandi/élite. \n\nQuando esci dal santuario avrai &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;{duration} di protezione&lt;/font&gt;.</string>
 	<string key="ui_notification_pvp_checkpoint_unlocked">Checkpoint sbloccato</string>
 	<string key="ui_notification_pvp_reward_options">Visualizza ricompense</string>
+	<string key="ui_notification_pvp_always_on_notification">Il PvP non può essere disattivato in questo mondo.</string>
+	<string key="ui_notification_pvp_always_on_leave_group_title">Attivazione PvP</string>
+	<string key="ui_notification_pvp_always_on_leave_group_text">Verranno abbandonati tutti i gruppi, le incursioni o le code in cui ti trovi</string>
 	<string key="ui_notification_ffa_flagging_message" rel_version="Territory_CutlassKeys_Rework">Quando attivi il Free-For-All, puoi attaccare tutti gli altri giocatori che hanno il Free-For-All attivo. \n\nQuando lasci la zona Free-For-All, tutte le tue &lt;font face="lyshineui/fonts/Nimbus_semibold.font" color="#DDDDDD"&gt;risorse e i dobloni maledetti&lt;/font&gt; verranno purificati dallo stato maledetto.</string>
 	<string key="ui_notification_ffa_flagged" rel_version="Territory_CutlassKeys_Rework">Free-For-All attivo.</string>
 	<string key="ui_notification_ffa_flagged_left_group" rel_version="Territory_CutlassKeys_Rework">Free-For-All attivo: Gruppo abbandonato</string>
@@ -382,9 +386,9 @@
 	<string key="ui_notification_ffa_dispersal_title" rel_version="Territory_CutlassKeys_Rework">Teletrasporto in corso</string>
 	<string key="ui_notification_ffa_dispersal_desc" rel_version="Territory_CutlassKeys_Rework">Allontanamento dagli altri giocatori</string>
 	<string key="ui_notification_ffa_exit_title" rel_version="Territory_CutlassKeys_Rework">Purificazione della maledizione</string>
-	<string key="ui_notification_ffa_exit" rel_version="Territory_CutlassKeys_Rework">Disattivazione Free-For-All e purificazione di tutti gli oggetti maledetti presenti nel tuo inventario</string>
+	<string key="ui_notification_ffa_exit" rel_version="Territory_CutlassKeys_Rework">Disattivazione Free-For-All e purificazione di tutti gli oggetti maledetti presenti nel tuo inventario.</string>
 	<string key="ui_notification_ffa_items_converted_title" rel_version="Territory_CutlassKeys_Rework">Purificazione completata</string>
-	<string key="ui_notification_ffa_items_converted" rel_version="Territory_CutlassKeys_Rework">Tutti gli oggetti maledetti presenti nel tuo inventario sono stati purificati</string>
+	<string key="ui_notification_ffa_items_converted" rel_version="Territory_CutlassKeys_Rework">Tutti gli oggetti maledetti presenti nel tuo inventario sono stati purificati.</string>
 	<string key="ui_pvp_rank_name_0">Recluta</string>
 	<string key="ui_pvp_rank_name_1">Acciaio</string>
 	<string key="ui_pvp_rank_name_2">Bronzo</string>
@@ -457,6 +461,7 @@
 	<string key="ui_request_unfriend_failed">Impossibile rimuovere dagli amici.</string>
 	<string key="ui_social">Social</string>
 	<string key="ui_social_friends">Amici</string>
+	<string key="ui_social_platform_friends">Amici Xbox</string>
 	<string key="ui_social_group">Gruppo</string>
 	<string key="ui_social_twitch">Twitch</string>
 	<string key="ui_streamermode_enabled">Modalità Non disturbare attivata.</string>
@@ -490,6 +495,7 @@
 	<string rel_version="Feature_Shards" key="social_phasing_invite_fast_travel_failed">L'invito alla shard non è andato a buon fine perché è in corso un viaggio veloce.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_message_throttled">Messaggio di invito alla shard limitato. Riprova.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_invite_recipient_pvp_flagged">Il giocatore non può cambiare shard perché ha il PvP attivo.</string>
+	<string rel_version="Feature_Shards" key="social_phasing_invite_recipient_in_combat">Il giocatore non può cambiare shard perché sta combattendo.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_not_currently_in_a_shard">Al momento non ti trovi in una zona con shard.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_remote_player_not_in_shard">Questo giocatore non è in una shard a cui puoi unirti.</string>
 	<string rel_version="Feature_Shards" key="social_phasing_different_sectors">Non sei nella stessa zona con shard di questo giocatore.</string>
@@ -627,7 +633,7 @@
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_roles_label">Ruoli attualmente disponibili in questo gruppo</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_current_role_text">&lt;img src="{icon}" scale="2.5" yOffset="8.0"&gt;&lt;/img&gt; {count} {role}</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_disabled">Questo ruolo non è richiesto in questa lobby.</string>
-	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_recommended_label">RUOLI RACCOMANDATI:</string>
+	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_recommended_label">È CONSIGLIABILE AVERE:</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_name">Tank</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_description">In un gruppo, il ruolo del tank consiste nell'incassare danni e attirare su di sé l'attenzione dei nemici per allontanarli dagli alleati. I tank dovrebbero indossare un'armatura pesante ed equipaggiare gemme di corniola per provocare i nemici. In genere, un tank ricorre agli effetti di controllo di gruppo (stordimento, radicamento, schiacciamento) per impedire che i nemici raggiungano i suoi alleati.</string>
 	<string rel_version="Feature_Group_Finder" key="ui_groupfinder_role_tank_recommended">Spada e scudo, ascia grande, martello da guerra</string>
@@ -777,9 +783,11 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_bonus">Bonus giornaliero</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_fastest_experience">Esperienza più veloce</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_remaining_attempts">Tentativi rimanenti</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Solo M1 e M2</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_label">Mette in coda tutti i livelli di mutazione</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description">Mette in coda il tuo gruppo per tutte le difficoltà (M1-M3) che avete in comune. Se venite abbinati in un livello di difficoltà più bassa e lo completate, riceverete un bonus trasporto. \n\nLimite giornaliero: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Azzeramento tra: {resetTime}</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Questo pulsante ti farà accedere alla coda multiserver per M1+M2. Chi ha sbloccato una difficoltà superiore a quella in cui si trova, riceverà un bonus trasporto al completamento della spedizione.\n\nLimite giornaliero: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Azzeramento tra: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_no_carry_bonus_description">Mette in coda il tuo gruppo per tutte le difficoltà (M1-M3) che avete in comune.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_description_M1_M2_Only">Mette in coda il tuo gruppo per tutti gli M1 o M2 che avete in comune. Chi ha sbloccato una difficoltà superiore a quella in cui si trova, riceverà un bonus trasporto al completamento della spedizione.\n\nLimite giornaliero: {currentCount}/{dailyLimit} &lt;img src="LyShineUI/Images/Icons/Misc/icon_hourglass.png" scale="1.5" yOffset="3.5"&gt;&lt;/img&gt; Azzeramento tra: {resetTime}</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_highest_shared_dificutly_no_carry_bonus_description_M1_M2_Only">Mette in coda il tuo gruppo per tutti gli M1 o M2 che avete in comune.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_join_in_progress_label">Consentire l'unione a partita in corso?</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_random">Casuale</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_button_queue">Coda</string>
@@ -799,7 +807,9 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip">Ci sono {lobbyCount} gruppi che reclutano membri per quest'attività nella Ricerca gruppo. Seleziona "Visualizza lobby" nella schermata delle informazioni sulle attività per scoprire quali sono.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_lobby_tooltip_single">C'è 1 gruppo che recluta membri per questa attività nella Ricerca gruppo. Seleziona "Visualizza lobby" nella schermata delle informazioni sulle attività per visualizzarle.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level">Il tuo livello di mutazione:</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_your_mutation_level_numbers">Il tuo livello di mutazione: {currentNumber}/{maxNumber}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_run_completed">Sessione giornaliera completata</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_daily_run_completed_numbers">Sessione giornaliera completata: {currentNumber}/{maxNumber}</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group" comment="">Fai clic qui per l'opzione ENTRA CON GRUPPO</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_Mutated_Click_To_Enter_With_Local_Group_M1_M2_Only" comment="">Fai clic qui per unirti a M3 usando ENTRA CON GRUPPO</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_available_rewards">Ricompense disponibili</string>
@@ -885,7 +895,7 @@
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_role_recommended_tank">- Spada e scudo, ascia grande, martello da guerra\n- Armatura pesante\n- Gemme di corniola\n- Controllo di gruppo (stordimento, radicamento, schiacciamento)</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_title">Conferma il rifiuto</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_ready_check_decline_popup_message">Vuoi davvero rifiutare i controlli preliminari? Tu o il tuo gruppo sarete rimossi dalla coda e dovrete mettervi in coda nuovamente.</string>
-	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Vuoi davvero andartene? Il tuo personaggio verrà teletrasportato fuori dalla spedizione e non potrai unirti nuovamente.\n\n&lt;font color={penaltyColor}&gt;Se abbandoni durante i primi 10 minuti della spedizione, riceverai una penalità di abbandono (20 minuti).&lt;/font&gt;\n\nPer evitare la penalità di abbandono, utilizza l'opzione "Abbandona attività" disponibile nella mappa o nelle impostazioni del gruppo.</string>
+	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc">Vuoi davvero andartene? Il tuo personaggio verrà teletrasportato fuori dalla spedizione e non potrai unirti nuovamente.\n\n&lt;font color={penaltyColor}&gt;Se abbandoni durante i primi {minTimeInDungeon} minuti della spedizione, riceverai una penalità di abbandono di {deserterPenalty} minuti.&lt;/font&gt;\n\nPer evitare la penalità di abbandono, utilizza l'opzione "Abbandona attività" disponibile nella mappa o nelle impostazioni del gruppo.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_exit_dungeon_desc_no_penalty">Vuoi davvero abbandonare? Il tuo personaggio verrà teletrasportato fuori dalla spedizione e non potrai unirti nuovamente.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_expedition_activity_disabled">Al momento, il matchmaking delle spedizioni è disattivato. Riprova più tardi.</string>
 	<string rel_version="Feature_PUG_Finder" key="ui_pugfinder_mutation_activity_disabled">Al momento, il matchmaking delle spedizioni mutate è disattivato. Riprova più tardi.</string>
@@ -897,5 +907,6 @@
 	<string rel_version="Feature_Crossplay" key="ui_error_whisper_crossplay_communication_off">L'utente sta usando un'altra piattaforma. Modifica le impostazioni di comunicazione crossplay per inviare un messaggio privato</string>
 	<string key="ui_communication_restricted_by_platform">Comunicazione limitata dalla piattaforma.</string>
 	<string key="ui_group_invites_restricted_gamemode">Gli inviti al gruppo non sono disponibili durante un'attività in modalità matchmaking.</string>
+	<string key="ui_group_member_placeholder_name">...</string>
 </resources>
 

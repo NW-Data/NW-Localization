@@ -590,7 +590,7 @@
 	<string key="ui_craftingnearitemlimit">Inventar-Limit fast erreicht. Hergestellte Gegenstände können abgelegt werden.</string>
 	<string key="ui_inventory_warning_toofullforrewards">Zu viele Gegenstände im Inventar, um Belohnungen zu erhalten.</string>
 	<string key="ui_inventoryslotsremaining">Verbleibende einzigartige Gegenstandsplätze im Inventar: {count}</string>
-	<string key="ui_inventoryweightremaining">noch {Weight}</string>
+	<string key="ui_inventoryweightremaining">noch &lt;img xPadding="2" src="LyShineUI/Images\Icons\Misc\Icon_weight.png"&gt;&lt;/img&gt;{Weight}</string>
 	<string key="ui_inventoryMaxWeight">Überlastet</string>
 	<string key="ui_inventoryweight">GEWICHT</string>
 	<string key="ui_inventoryslots">EINZIGARTIGE GEGENSTÄNDE</string>
@@ -898,6 +898,11 @@
 	<string key="ui_sampletooltipnthistool">Beispieltooltip\nDieser Tooltip ist ein einfacher Kasten mit einem Rahmen, der Text und Bilder anzeigen kann.</string>
 	<string key="ui_save">Speichern</string>
 	<string key="ui_se">SO</string>
+	<string key="ui_dodgesuppressed_exhausted">Ausweichen unterdrückt – Erschöpft</string>
+	<string key="ui_dodgesuppressed_stunned">Ausweichen unterdrückt – Betäubt</string>
+	<string key="ui_dodgesuppressed_staggered">Ausweichen unterdrückt – Taumelnd</string>
+	<string key="ui_dodgesuppressed_sluggish" rel_version="PvPServerConquerorsItems">Ausweichen unterdrückt – Schwerfällig, zum Entfernen des Effekts Gegner angreifen</string>
+	<string key="ui_unabletoBlock">Blocken – Unterdrückt</string>
 	<string key="ui_shift_modifier_toggle_popup_title" rel_version="Feature_Controller">Tastenbelegung aktualisieren</string>
 	<string key="ui_shift_modifier_toggle_popup_message" rel_version="Feature_Controller">Modifikator-Tasten sind in diesem Modus einzigartig und können nicht von anderen Aktionen verwendet werden. Die Aktivierung per Modifikator hebt die Verknüpfung jeder Aktion mit derselben Taste auf. Fortfahren?</string>
 	<string key="ui_binding_controller_success" rel_version="Feature_Controller">{action} erfolgreich neu verknüpft.</string>
@@ -1413,7 +1418,7 @@
 	<string key="ui_teleport_backup_location">Dein Respawnpunkt konnte nicht genutzt werden. Du wurdest in seine Nähe teleportiert.</string>
 	<string key="ui_territoryLockedReclaim">Kann erst zum Ende der Auflösungsphase wieder beansprucht werden.</string>
 	<string key="ui_territoryLockedClaim">Neutrale Fraktionen können erst nach Kriegsende Anspruch erheben.</string>
-	<string key="ui_territoryinfluencetooltip">Während des Einflusswettlaufs erhalten Fraktionen Einfluss von &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;PvP-Fraktionsmission&lt;/font&gt; und &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;Fraktionskontrollpunkten&lt;/font&gt;. Fraktionskontrollpunkte gewähren der kontrollierenden Fraktion einen Bonus auf alle verdienten Einflusspunkte. \n\nDie angreifende Fraktion, die während eines Einflusswettlaufs den meisten Einfluss erlangt, erhält eine Kriegserklärung. Kompanien müssen Fraktionsmissionen erfüllen, um genug Einfluss zu verdienen, um Krieg erklären zu können. \n\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;Außenseiterbonus:&lt;/font&gt; Fraktionen mit weniger als 2 Gebieten erhalten zusätzlich einen Einflusspunktebonus von &lt;font color="#ebe3d6"&gt;10 %&lt;/font&gt;.</string>
+	<string key="ui_territoryinfluencetooltip">Während des Einflusswettlaufs erhalten Fraktionen Einfluss von &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;PvP-Fraktionsmission&lt;/font&gt; und &lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;Fraktionskontrollpunkten&lt;/font&gt;. Fraktionskontrollpunkte gewähren der kontrollierenden Fraktion einen Bonus auf alle verdienten Einflusspunkte. \n\nDie angreifende Fraktion, die während eines Einflusswettlaufs den meisten Einfluss erlangt, erhält eine Kriegserklärung. Kompanien müssen Fraktionsmissionen erfüllen, um genug Einfluss zu verdienen, um Krieg erklären zu können. \n\n&lt;font face="lyshineui/fonts/Nimbus_semibold.font" &gt;Außenseiterbonus:&lt;/font&gt; Fraktionen mit weniger als 2 Gebieten erhalten zusätzlich einen Einflusspunktebonus von Bonus &lt;font color="#ebe3d6"&gt;10 %&lt;/font&gt;.</string>
 	<string key="ui_availableToReclaimIn">Wiederbeanspruchung verfügbar in:</string>
 	<string key="ui_availableToClaimIn">Gebietsanspruch verfügbar in:</string>
 	<string key="ui_availableTimeToCapture">Zeit bis zur Einnahme:</string>
@@ -1867,6 +1872,7 @@
 	<string key="ui_repair_all_not_needed_equipment">Keine Gegenstände zum Reparieren.</string>
 	<string key="ui_repair_all_confirmation">Reparaturkosten:</string>
 	<string key="ui_repair_all_equipment_confirmation">Reparaturkosten:</string>
+	<string key="ui_equipment_damaged">Ausrüstung beschädigt</string>
 	<string key="ui_chat_mention_self_markup">&lt;font face="lyshineui/fonts/Nimbus_Bold_Italic.font" color="#ebe3d6"&gt;@{name}&lt;/font&gt;</string>
 	<string key="ui_and">und</string>
 	<string key="ui_or">oder</string>
@@ -2038,7 +2044,7 @@
 	<string key="ui_resource_quantity">{resourceName} {qtyHave}/{qtyNeeded}</string>
 	<string key="ui_escapemenu_proceed_to_new_world">Tutorial überspringen</string>
 	<string key="ui_proceed_to_new_world_popup_title">Tutorial überspringen</string>
-	<string key="ui_proceed_to_new_world_popup_message">Möchtest du das Tutorial wirklich überspringen?\nDu lässt sämtliche Münzen, Gegenstände\nund Erfahrungspunkte zurück.</string>
+	<string key="ui_proceed_to_new_world_popup_message">Möchtest du das Tutorial wirklich überspringen?</string>
 	<string key="ui_milestone_correction_popup_title">Meilenstein aktualisiert</string>
 	<string key="ui_milestone_correction_popup_message">Die Meilensteine der Haupthandlung haben sich geändert!\n\nAeternum entwickelt sich ständig weiter und du wurdest an einen anderen Ort versetzt, um dir mehr Spaß in den brandneuen Geschichten und Aufgaben zu ermöglichen.</string>
 	<string key="ui_ffa_movement_popup_title" rel_version="Territory_CutlassKeys_Rework">Frei-für-alle deaktiviert</string>
@@ -2048,7 +2054,7 @@
 	<string key="ui_ffa_area_label" rel_version="Territory_CutlassKeys_Rework">Frei-für-alle-PvP-Gebiet</string>
 	<string key="ui_ffa_area_gameplay_desc" rel_version="Territory_CutlassKeys_Rework">Mit Betreten des &lt;font color="#edc63e"&gt;Verfluchten Nebels&lt;/font&gt; wirst du als &lt;font color="#edc63e"&gt;Frei-für-alle im PvP&lt;/font&gt; markiert.\n\nVerlässt du den Nebel, wird die Markierung aufgehoben und wertvolle verfluchte Gegenstände daraus werden &lt;font color="#edc63e"&gt;geläutert&lt;/font&gt;.</string>
 	<string key="ui_ffa_area_gameplay_lore" rel_version="Territory_CutlassKeys_Rework">Hier liegen die Verfluchten Nebel, jenseits dieser Lichten Grenzen. An diesem verfluchten Ort hat eine üble Gier alles und jeden ergriffen. Die Schatzsuche geht weiter, während entlang dieser sturmgepeitschten Küste Freunde zu Feinden werden. Sammle alle &lt;font color="#edc63e"&gt;"Verfluchten Dublonen"&lt;/font&gt; und &lt;font color="#edc63e"&gt;"Verfluchten Rohstoffe"&lt;/font&gt;, die du plünderst oder aufdeckst. Abenteurer aufgepasst, feige Teleportationsflucht wird bestraft! Du musst zu Fuß oder Huf mit dem Leben davonkommen, wenn du deine Beute unversehrt behalten willst.</string>
-	<string key="ui_ffa_item_warning" rel_version="Territory_CutlassKeys_Rework">Verlasse FFA, um den Ggst. zu reinigen.</string>
+	<string key="ui_ffa_item_warning" rel_version="Territory_CutlassKeys_Rework">Verlasse den FFA-Bereich, um diesen Gegenstand zu reinigen.</string>
 	<string key="ui_additional_items">+{count} Gegenstände</string>
 	<string key="ui_retest">Erneut testen</string>
 	<string key="ui_details">Infos</string>
@@ -2128,7 +2134,7 @@
 	<string key="ui_exit_dungeon_title_solo">Seelenprüfung verlassen?</string>
 	<string key="ui_exit_dungeon_title_raidtrial">Eliteprüfung verlassen?</string>
 	<string key="ui_exit_dungeon_title_seasontrial" rel_version="Season_2_Trial">Saisonprüfung verlassen?</string>
-	<string key="ui_exit_dungeon_title_dailysolotrial" rel_version="DailySoloTrials">Seelenprüfung verlassen?</string>
+	<string key="ui_exit_dungeon_title_dailysolotrial" rel_version="DailySoloTrials">Tägliche Seelenprüfung verlassen?</string>
 	<string key="ui_dungeon_exit">Expeditionausgangsportal</string>
 	<string key="ui_dungeon_exit_solo">Seelenprüfung verlassen</string>
 	<string key="ui_dungeon_exit_raidtrial">Eliteprüfung – Ausgangsportal</string>
@@ -2444,6 +2450,8 @@
 	<string key="ui_destroyBoundItemMessage">Dieser Gegenstand ist an dich gebunden und er wird zerstört, wenn du ihn fallen lässt. Willst du diesen Gegenstand zerstören?</string>
 	<string key="ui_destroyBoundItems">Gegenstände zerstören?</string>
 	<string key="ui_destroyBoundItemsMessage">Diese Gegenstände sind an dich gebunden. Wenn du sie fallen lässt, werden sie zerstört. Willst du diese Gegenstände zerstören?</string>
+	<string key="ui_dropOnDeath">Bei Tod fallenlassen</string>
+	<string key="ui_cannotBeRepaired">Reparatur nicht möglich</string>
 	<string key="ui_bindOnPickup">Beim Aufheben gebunden</string>
 	<string key="ui_bindOnEquip">Beim Ausrüsten gebunden</string>
 	<string key="ui_bindOnEquip_title">Gegenstand binden</string>
@@ -2490,7 +2498,7 @@
 	<string key="hwm_loot_flail">Kompetenzflegel</string>
 	<string key="ui_time_display">&lt;font face="lyshineui/fonts/Pica_Regular.font"&gt;{time}&lt;/font&gt; ({timezone})</string>
 	<string key="ui_clusterwarning_title">BETRETEN: {worldName}</string>
-	<string key="ui_clusterwarning_region">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Region: {regionName}\n</string>
+	<string key="ui_clusterwarning_region">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Region: {regionName}</string>
 	<string key="ui_clusterwarning_warning">&lt;font color={colorHex1}&gt;Du kannst nur 1 Charakter im &lt;/font&gt;&lt;font face="lyshineui/fonts/nimbus_bold.font"&gt;&lt;font color={colorHex2}&gt;Weltset "{worldSetName}"&lt;/font&gt;&lt;/font&gt;&lt;font color={colorHex1}&gt; haben.&lt;/font&gt;</string>
 	<string key="ui_clusterwarning_description1">Du musst deinen Charakter in {worldName} löschen, wenn du in einer anderen {worldSetName}-Welt spielen willst.</string>
 	<string key="ui_clusterwarning_description2">Wenn Freunde von dir in anderen {worldSetName}-Welten spielen, kannst du nicht mit ihnen zusammen spielen.</string>
@@ -2501,6 +2509,7 @@
 	<string key="ui_clusterwarning_transferoutonly">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können nicht auf diese Welt übertragen werden.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können aus dieser Welt übertragen werden.</string>
 	<string key="ui_clusterwarning_transferinonly">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können auf diese Welt übertragen werden.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können nicht aus dieser Welt heraus übertragen werden.</string>
 	<string key="ui_clusterwarning_cannottransferinnorout">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können nicht auf diese Welt übertragen werden.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können nicht aus dieser Welt heraus übertragen werden.</string>
+	<string key="ui_clusterwarning_transferwarning">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Freundesliste, Kompanie, Stadtprojekte, Fraktionsmissionen und Handelspostenaufträge werden nicht übertragen.</string>
 	<string key="ui_character_world_info">{worldName}</string>
 	<string key="ui_cannotPin_atMax">Es können keine weiteren Ziele mehr angeheftet werden.</string>
 	<string key="ui_clusterwarning_body">&lt;font color="#ebe3d6"&gt;Du kannst nur einen Charakter in der Weltgruppe von {worldSetName} besitzen.&lt;/font&gt;\n\nWenn du auf einer anderen {worldSetName}-Welt spielen möchtest, musst du zuerst deinen Charakter in {worldName} löschen und dann einen neuen in einer anderen Welt erstellen.\n\nWenn Freunde von dir in anderen {worldSetName}-Welten spielen, kannst du nicht mit ihnen zusammen spielen.</string>
@@ -2572,6 +2581,8 @@
 	<string key="ui_governing_propertytax">Die herrschende Kompanie kann die Grundstückssteuer für die Häuser in der Siedlung einziehen.</string>
 	<string key="ui_nameplate_slider">Menge an Spielernamensschildern</string>
 	<string key="ui_nameplate_slider_desc">Lege die Menge der auf dem Bildschirm angezeigten Namensschilder fest (geringe Werte verbrauchen weniger Systemressourcen).</string>
+	<string key="ui_nameplate_group_priority">Gruppennamenschilder priorisieren</string>
+	<string key="ui_nameplate_group_priority_desc">Wenn diese Option aktiviert ist, werden die Namensschilder von Gruppenmitgliedern vor allen anderen Namensschildern angezeigt.</string>
 	<string key="ui_stat_bonus_single_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; {attribute1}</string>
 	<string key="ui_stat_bonus_multiple_tooltip">&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount1}&lt;/font&gt; {attribute1}\n&lt;font face="lyshineui/fonts/Nimbus_Bold.font"&gt;+{amount2}&lt;/font&gt; {attribute2}</string>
 	<string key="ui_stat_bonus">+{amount} {attribute}</string>
@@ -2640,7 +2651,7 @@
 	<string key="ui_faction_cant_cooldown">Fraktionswechsel während der Abklingzeit nicht möglich.\n{cooldown}</string>
 	<string key="ui_change_faction_warning">Nach dem Fraktionswechsel kannst du sie 30 Tage lang nicht mehr wechseln. Bei einem Fraktionswechseln werden Fraktionsrang und -marken zurückgesetzt.</string>
 	<string key="ui_change_faction">Fraktionswechsel</string>
-	<string key="ui_select_faction" rel_version="Feature_Faction_Selection">Fraktionswechsel</string>
+	<string key="ui_select_faction" rel_version="Feature_Faction_Selection">Wähle eine Fraktion aus</string>
 	<string key="ui_change_faction_cooldown">Fraktionswechsel\n{cooldown}</string>
 	<string key="ui_change_faction_azoth_cost">Fraktionswechsel {azothcost}</string>
 	<string key="ui_change_faction_desc">Möchtest du wirklich zur Fraktion {factionname} wechseln?\nDurch den Fraktionswechsel werden dein Fraktionsrang sowie deine Fraktionsmarken zurückgesetzt.\n\nNach dem Wechseln kannst du deine Fraktion 30 Tage lang nicht mehr wechseln.</string>
@@ -2816,6 +2827,7 @@
 	<string key="ui_itemtypedescription_dye">Farbstoff</string>
 	<string key="ui_itemtypedescription_bag">Tasche</string>
 	<string key="ui_itemtypedescription_consumable">Verbrauchsgegenstand</string>
+	<string key="ui_itemtypedescription_consumable_survivalpotion">Verbrauchsgegenstand – Überlebenstrank</string>
 	<string key="ui_itemtypedescription_quest_item">Aufgaben-Ggst.</string>
 	<string key="ui_itemtypedescription_Key_item">Eventschlüssel</string>
 	<string key="ui_itemtypedescription_furniture">Möbel</string>
@@ -2872,8 +2884,8 @@
 	<string key="ui_treasury_purchase_nw">Kaufe New World: Aeternum, um auf die Kompanie-Schatzkammer zugreifen zu können.</string>
 	<string key="ui_cannot_chat_global_blocked">Für den Chat in diesem Kanal muss dein Konto mind. {hoursNeeded} Stunden alt sein und mehr als {playtimeNeeded} Spielzeit aufweisen.</string>
 	<string key="ui_complete_quests_to_unlock">Schließe zum Freischalten Aufgaben in der Siedlung ab</string>
-	<string key="ui_interact_required_level">Du musst mindestens Stufe {level} erreicht haben, um dies nutzen zu können</string>
-	<string key="ui_cannot_chat_trading_blocked">Für den Zugriff auf diesen Kanal werden {playtimeNeeded} Std. Spielzeit, ein Kontoalter von mind. {hoursNeeded} Std. und ein freigeschalteter Handelsposten vorausgesetzt.</string>
+	<string key="ui_interact_required_level">Erfordert Stufe {level}</string>
+	<string key="ui_cannot_chat_trading_blocked">Für den Zugriff auf diesen Kanal werden {playtimeNeeded} Spielzeit, ein Kontoalter von mind. {hoursNeeded} Std. und ein freigeschalteter Handelsposten vorausgesetzt.</string>
 	<string key="ui_averageexpertise">Kompetenz</string>
 	<string key="ui_averageexpertisetooltip">&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;KOMPETENZ&lt;/font&gt;\nKompetenz steht für die Maximalstärke eines ausgerüsteten Gegenstands.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Maximal erreichbare Kompetenz: &lt;/font&gt;\n&lt;font color={highlightColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;{maximum}&lt;/font&gt;\n\n\n&lt;font color={headerColor} face="lyshineui/fonts/Nimbus_Bold.font"&gt;Kompetenz steigern&lt;/font&gt;\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Elite-Orientierungspunkte und Expeditionen&lt;/font&gt;\nBeute von Kreaturen oder aus Truhen in Stufe-60+-Gebieten können diesen Wert steigern.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Herstellung&lt;/font&gt;\nDie Herstellung eines 600-RW-Gegenstands steigert die Kompetenz für diesen Gegenstandstyp.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Gipsabguss&lt;/font&gt;\nDas Öffnen eines Gipsabgusses steigert die Kompetenz.\n\n&lt;font color={subHeaderColor} face="lyshineui/fonts/Nimbus_SemiBold.font"&gt;Gegenstandsaufrüstung (mit Schattensplittern)&lt;/font&gt;\nNachdem du eine Kompetenz von 600 erreicht hast, kannst du sie nur noch weiter steigern, indem du Gegenstände mit Schattensplittern aufrüstest.</string>
 	<string key="ui_itemtypedescription_shield_only">Schild</string>
@@ -2983,6 +2995,7 @@
 	<string key="attribution_Season_4" rel_version="Season_4_Perm">Saison 4</string>
 	<string key="attribution_Season_5" rel_version="Season_5_Perm">Saison 5</string>
 	<string key="attribution_Season_Pass" rel_version="Season_6_Perm">Saisonpass</string>
+	<string key="attribution_Seasonal_Item" rel_version="Feature_Seasonal_Servers">Saisonaler Weltgegenstand</string>
 	<string key="ui_reset_daily_time">Wird täglich um {time} zurückgesetzt</string>
 	<string key="ui_reset_weekly_time">Wird wöchentlich um {time} zurückgesetzt</string>
 	<string key="ui_buy_new_world">Kaufe New World: Aeternum</string>
@@ -3055,6 +3068,7 @@
 	<string key="ui_expansion_name_expansion2023" comment="DO NOT TRANSLATE">[TMP] Expansion 2023</string>
 	<string key="ui_required_expansion_missing_tooltip" comment="DO NOT TRANSLATE">[TMP] Missing expansion: {expansion}</string>
 	<string key="ui_learn_more_about_required_expansion_buttontext">Mehr erfahren</string>
+	<string key="ui_learn_more">Mehr erfahren</string>
 	<string key="ui_horse_slot_unlock" rel_version="Feature_Mounts">Reittier freischalten</string>
 	<string key="ui_horse_slot_unlock_description" rel_version="Feature_Mounts">Schaltet die Fähigkeit frei, ein Reittier auszurüsten und zu rufen.</string>
 	<string key="ui_ridingxp_description" rel_version="Feature_Mounts">Erfahrung beim Reiten.\n\nHöhere Stufen schalten Belohnungen und höhere Reittiergeschwindigkeiten frei.</string>
@@ -3091,6 +3105,7 @@
 	<string key="ui_sort_by_end_date">Nach Enddatum sortieren</string>
 	<string key="ui_sort_by_price_low">Nach Preis sortieren: Aufsteigend</string>
 	<string key="ui_sort_by_price_high">Nach Preis sortieren: Absteigend</string>
+	<string key="ui_sort_by_type">Nach Typ sortieren</string>
 	<string key="ui_requirements">Erforderlich</string>
 	<string key="ui_external_rewards">Externe Belohnungen</string>
 	<string key="ui_ability_minimum_cooldown">{baseCooldown} (Minimum: {minimumCooldown})</string>
@@ -3110,7 +3125,25 @@
 	<string key="ui_console_privacy_enabled">Aufgrund der Privatsphäre-Einstellungen deines Konsolenkontos kannst du diese Aktion nicht durchführen.</string>
 	<string key="ui_blocked_player">Geblockter Spieler</string>
 	<string key="ui_blocked_company">Geblockte Kompanie</string>
-	<string key="ui_nameplate_group_priority_desc">Wenn diese Option aktiviert ist, werden die Namensschilder von Gruppenmitgliedern vor allen anderen Namensschildern angezeigt.</string>
-	<string key="ui_nameplate_group_priority">Gruppennamenschilder priorisieren</string>
+	<string key="ui_mount_unlock" rel_version="Feature_Mounts">Reittier freigeschaltet</string>
+	<string key="ui_mount_unlock_acquisition" rel_version="Feature_Mounts">Abschluss von "Ein Königreich für ein Pferd"</string>
+	<string key="ui_seasonal_worlds" rel_version="Feature_Seasonal_Servers">Saisonwelten</string>
+	<string key="ui_seasonal_worlds_popup_header" rel_version="Feature_Seasonal_Servers">Welttyp auswählen</string>
+	<string key="ui_seasonal_worlds_about_popup_description" rel_version="Feature_Seasonal_Servers">Saisonwelten sind eine neue Art, Aeternum zu erleben und in jeder Saison für einen begrenzten Zeitraum einzigartige Belohnungen zu erhalten.\n\nIn der Saisonwelt von Saison 7 werden alle Spieler automatisch ab Stufe {level} für PvP markiert. Erobererausrüstung erhältst du per Herstellung oder indem du Gegner tötest: Besonders mächtige Waffen und Ausrüstung, die die Regeln auf dem Schlachtfeld ändern können.\n\nEine besondere Saisonreise kann auf Saisonwelten fortgesetzt werden. Schalte die Belohnungen der Saisonreise frei, indem du im Shop einen Premium-Kampfpass kaufst.</string>
+	<string key="ui_regular_character" rel_version="Feature_Seasonal_Servers">Standard</string>
+	<string key="ui_seasonal_character" rel_version="Feature_Seasonal_Servers">Saison</string>
+	<string key="ui_regular_character_button_description" rel_version="Feature_Seasonal_Servers">Erlebe Aeternum so, wie es gedacht ist. Erstelle einen Charakter auf einer permanenten Standardwelt.</string>
+	<string key="ui_seasonal_character_button_description" rel_version="Feature_Seasonal_Servers">Erstelle einen Charakter auf einer zeitlich begrenzten Saisonwelt mit besonderen Regeln und Belohnungen.</string>
+	<string key="ui_seasonal_worlds_unavailable" rel_version="Feature_Seasonal_Servers">Saisonwelten nicht verfügbar</string>
+	<string key="ui_seasonal_worlds_available" rel_version="Feature_Seasonal_Servers">Saisonwelten verfügbar</string>
+	<string key="ui_seasonal_worlds_avaialble_until" rel_version="Feature_Seasonal_Servers">Saison endet am {date} um {time}.</string>
+	<string key="ui_seasonal_worlds_ended" rel_version="Feature_Seasonal_Servers">Saison endet am {date} um {time}.</string>
+	<string key="ui_seasonal_worlds_available_24h" rel_version="Feature_Seasonal_Servers">Saison endet in &lt;img src="LyShineUI/Images/PUGFinder/Pugfinder_hourglass" xPadding="-4" scale="2.25" yOffset="8"&gt;&lt;/img&gt;{time}</string>
+	<string key="ui_seasonal_worlds_duration" rel_version="Feature_Seasonal_Servers">{timeStart} - {timeEnd}</string>
+	<string key="ui_seasonal_worlds_server_description" rel_version="Feature_Seasonal_Servers">&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Auf dieser Welt wirst du ab Stufe {level} dauerhaft für PvP markiert.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Auf {worldName} können nur neue Charaktere erstellt werden.\n&lt;img src="lyshineui/images/tooltip/tooltip_bullet" xPadding="0" yOffset="1"&gt;&lt;/img&gt; Charaktere können nicht auf diese Saisonwelt übertragen werden.</string>
+	<string key="ui_seasonal_worlds_server_duration" rel_version="Feature_Seasonal_Servers">Verfügbar von {dateStart} {timeStart} – {dateEnd} {timeEnd}</string>
+	<string key="ui_seasonal_worlds_tooltip" rel_version="Feature_Seasonal_Servers">Auf dieser PvP-Welt entscheidet deine Fraktion darüber, mit welchen Spielern du Gruppen und Kompanien bilden kannst. Wähle dieselbe Fraktion wie deine Freunde aus, um mit ihnen zu spielen.\n\nDu kannst die Fraktion im Spiel wechseln.</string>
+	<string key="ui_external_rewards_no_tooltip">Keine Belohnungen verfügbar.</string>
+	<string key="ui_deathsdoortimer">Verbleibende Zeit, bis du aufgeben kannst: {DeathQueueNumber}</string>
 </resources>
 

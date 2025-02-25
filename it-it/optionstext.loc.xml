@@ -204,10 +204,13 @@
 	<string key="ui_options_graphics_resolution4K">4K</string>
 	<string key="ui_options_temporalUpscaling_off">No</string>
 	<string key="ui_options_temporalUpscaling_FSR">FSR 3.1</string>
+	<string key="ui_options_temporalUpscaling_native">Nativo (solo TAA)</string>
 	<string key="ui_options_temporalUpscaling_quality">Qualità</string>
 	<string key="ui_options_temporalUpscaling_balanced">Bilanciata</string>
 	<string key="ui_options_temporalUpscaling_performance">Prestazioni</string>
 	<string key="ui_options_temporalUpscaling_ultraperformance">Prestazioni ultra</string>
+	<string key="ui_options_temporalUpscaling_sharpness">Nitidezza</string>
+	<string key="ui_options_temporalUpscaling_sharpness_desc">Imposta la quantità di nitidezza</string>
 	<string key="ui_options_requires_restart">Le modifiche apportate a queste impostazioni verranno applicate al prossimo avvio del gioco</string>
 	<string key="ui_options_take_exit_survey">Sondaggio all'uscita</string>
 	<string key="ui_options_take_exit_survey_desc">Partecipa a un breve sondaggio quando esci dal gioco per lasciare il tuo feedback</string>
@@ -242,6 +245,7 @@
 	<string key="ui_language_desc">Imposta lingua del testo</string>
 	<string key="ui_language_audio">Lingua audio</string>
 	<string key="ui_language_audio_desc">Visita il sito di assistenza di New World: Aeternum per scoprire come cambiare la lingua dell'audio</string>
+	<string key="system-language" comment="Use the language set on the platform's OS.">Usa lingua del sistema</string>
 	<string key="en-US">English</string>
 	<string key="fr-FR">Français</string>
 	<string key="it-IT">Italiano</string>
@@ -348,8 +352,8 @@
 	<string key="ui_selfCorrectingFollowCam_desc" rel_version="Feature_SelfCorrectingFollowCam">La telecamera ruoterà lentamente per posizionarsi direttamente dietro al giocatore quando questo si sposta.</string>
 	<string key="ui_alwaysShowReticle">Mostra sempre mirino</string>
 	<string key="ui_alwaysShowReticle_desc">Stabilisci se rendere visibile il mirino anche quando l'arma non è estratta</string>
-	<string key="ui_toggleblockads">Tocca per Mira e Parata</string>
-	<string key="ui_toggleblockads_desc">Stabilisci se attivare Mira e Parata toccando i comandi corrispondenti invece di tenerli premuti</string>
+	<string key="ui_toggleblockads">Premi per mirare e parare</string>
+	<string key="ui_toggleblockads_desc">Scegli se preferisci premere oppure tenere premuto il tasto per mirare e parare</string>
 	<string key="ui_enable_ally_team_color_tinting">Colorazione squadra alleata</string>
 	<string key="ui_enable_enemy_team_color_tinting">Colorazione squadra nemica</string>
 	<string key="ui_enable_ally_team_color_tinting_desc">Stabilisci se impostare una colorazione per la squadra alleata nelle varie modalità di gioco</string>
@@ -417,7 +421,7 @@
 	<string key="ui_enable_camera_lock_sticky_lock_description">Stabilisci se abilitare il mantenimento del bersaglio selezionato dopo le cure</string>
 	<string key="ui_enable_camera_lock_when_starting_healing">Blocco visuale sui bersagli durante la guarigione</string>
 	<string key="ui_enable_camera_lock_when_starting_healing_description">Stabilisci se far sì che la telecamera segua i bersagli quando si usa un'abilità di guarigione del bastone della vita</string>
-	<string key="ui_enable_camera_lock_swap_toggle" rel_version="Feature_Controller">Scambia l'input Bastone della vita per il Blocco bersaglio nemico e alleato</string>
+	<string key="ui_enable_camera_lock_swap_toggle" rel_version="Feature_Controller">Scambia l'input bastone della vita per il Blocco bersaglio nemico e alleato</string>
 	<string key="ui_enable_camera_lock_swap_toggle_description" rel_version="Feature_Controller">Stabilisci se scambiare i comandi per il Blocco bersaglio alleato e nemico mentre utilizzi il bastone della vita</string>
 	<string key="ui_enable_camera_lock_group_mode">Modalità gruppo</string>
 	<string key="ui_enable_camera_lock_group_mode_description">Stabilisci se alternare i membri del gruppo o dell'incursione prendendo la mira con un bastone della vita. Questa opzione viene disattivata se l'opzione "Mira incursioni tramite tasti di scelta rapida (tastiera e mouse)" è attiva.</string>
@@ -584,8 +588,8 @@
 	<string key="ui_options_enable_crossplay_comms_pc_desc" rel_version="Feature_Crossplay">Usa questa funzionalità per attivare o disattivare la comunicazione con giocatori su altre piattaforme.</string>
 	<string key="ui_options_enable_crossplay_comms_console_desc" rel_version="Feature_Crossplay">Questa opzione è accessibile solo quando le comunicazioni sono abilitate tramite la console.\nUsa questa funzionalità per attivare o disattivare la chat testuale e vocale con giocatori su altre piattaforme.</string>
 	<string key="ui_options_crossplay_prompt_title" rel_version="Feature_Crossplay">Crossplay</string>
-	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">Vuoi abilitare il crossplay?\n Tornerai al menu principale.</string>
-	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">Vuoi disabilitare il crossplay?\n Tornerai al menu principale.</string>
+	<string key="ui_options_enable_crossplay_prompt" rel_version="Feature_Crossplay">Vuoi abilitare il crossplay?\nTornerai al menu principale.</string>
+	<string key="ui_options_disable_crossplay_prompt" rel_version="Feature_Crossplay">Vuoi disabilitare il crossplay?\nTornerai al menu principale.</string>
 	<string key="ui_tutorial_classification" rel_version="Feature_Player_Tutorials">Tutorial</string>
 	<string key="ui_tutorial_classification_desc" rel_version="Feature_Player_Tutorials">Imposta la frequenza dei tutorial.</string>
 	<string key="ui_classification_basic" rel_version="Feature_Player_Tutorials">Predefinito</string>
@@ -594,11 +598,25 @@
 	<string key="ui_reset_tutorials" rel_version="Feature_Player_Tutorials">Reimposta tutorial</string>
 	<string key="ui_reset_tutorials_desc" rel_version="Feature_Player_Tutorials">Reimposta tutti i tutorial permettendoti di rivedere quelli che hai visualizzato in passato</string>
 	<string key="ui_reset_tutorials_confirmation" rel_version="Feature_Player_Tutorials">Vuoi reimpostare tutti i tutorial?</string>
+	<string key="ui_enable_network_status_icons">Abilita le icone di stabilità di rete</string>
+	<string key="ui_enable_network_status_icons_desc">Stabilisci se visualizzare le icone dell'HUD associate al rilevamento di scarse condizioni di rete</string>
 	<string key="ui_hud_layout">Aspetto HUD</string>
 	<string key="ui_hud_layout_desc">Posiziona in modo diverso gli elementi dell'HUD.</string>
 	<string key="ui_hud_layout_1">Predefinito</string>
 	<string key="ui_hud_layout_2">Contatori in alto</string>
 	<string key="ui_hud_layout_3">Elementi affiancati</string>
+	<string key="ui_hud_scale">Scalada HUD</string>
+	<string key="ui_hud_scale_desc">Moltiplicatore percentuale per la dimensione degli elementi dell'HUD</string>
+	<string key="ui_hud_margin">Margini HUD</string>
+	<string key="ui_hud_margin_desc">Opzioni per regolare l'estensione dell'HUD</string>
+	<string key="ui_hud_margin_top">Margine superiore HUD</string>
+	<string key="ui_hud_margin_top_desc">Percentuale di schermo in base a cui spingere verso l'interno la parte superiore dell'HUD</string>
+	<string key="ui_hud_margin_right">Margine destro HUD</string>
+	<string key="ui_hud_margin_right_desc">Percentuale di schermo in base a cui spingere verso l'interno la parte destra dell'HUD</string>
+	<string key="ui_hud_margin_bottom">Margine inferiore HUD</string>
+	<string key="ui_hud_margin_bottom_desc">Percentuale di schermo in base a cui spingere verso l'interno la parte inferiore dell'HUD</string>
+	<string key="ui_hud_margin_left">Margine sinistro HUD</string>
+	<string key="ui_hud_margin_left_desc">Percentuale di schermo in base a cui spingere verso l'interno la parte sinistra dell'HUD</string>
 	<string key="ui_reticle_color_white">Bianco</string>
 	<string key="ui_reticle_color_red">Rosso</string>
 	<string key="ui_reticle_color_orange">Arancione</string>
@@ -611,20 +629,5 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificatori</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Decora casa</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menu</string>
-	<string key="ui_options_temporalUpscaling_sharpness">Nitidezza</string>
-	<string key="ui_options_temporalUpscaling_sharpness_desc">Imposta la quantità di nitidezza</string>
-	<string key="ui_options_temporalUpscaling_native">Nativo (solo TAA)</string>
-	<string key="ui_hud_margin_right">Margine destro HUD</string>
-	<string key="ui_hud_margin_left_desc">Percentuale dello schermo per spostare il margine sinistro dell'HUD verso l'interno.</string>
-	<string key="ui_hud_margin_bottom">Margine inferiore HUD</string>
-	<string key="ui_hud_margin_top">Margine superiore HUD</string>
-	<string key="ui_hud_margin_top_desc">Percentuale dello schermo per spostare il margine superiore dell'HUD verso l'interno</string>
-	<string key="ui_hud_margin_left">Margine sinistro HUD</string>
-	<string key="ui_hud_scale_desc">Moltiplicatore percentuale per la dimensione degli elementi dell'HUD</string>
-	<string key="ui_hud_margin">Margini HUD</string>
-	<string key="ui_hud_scale">Scalada HUD</string>
-	<string key="ui_hud_margin_desc">Opzioni per regolare i confini di estensione dell'HUD</string>
-	<string key="ui_hud_margin_bottom_desc">Percentuale dello schermo per spostare il margine inferiore dell'HUD verso l'interno.</string>
-	<string key="ui_hud_margin_right_desc">Percentuale dello schermo per spostare il margine destro dell'HUD verso l'interno</string>
 </resources>
 

@@ -204,10 +204,13 @@
 	<string key="ui_options_graphics_resolution4K">4K</string>
 	<string key="ui_options_temporalUpscaling_off">Non</string>
 	<string key="ui_options_temporalUpscaling_FSR">FSR 3.1</string>
+	<string key="ui_options_temporalUpscaling_native">Natif (TAA seulement)</string>
 	<string key="ui_options_temporalUpscaling_quality">Qualité</string>
 	<string key="ui_options_temporalUpscaling_balanced">Équilibré</string>
 	<string key="ui_options_temporalUpscaling_performance">Performance</string>
 	<string key="ui_options_temporalUpscaling_ultraperformance">Ultra performance</string>
+	<string key="ui_options_temporalUpscaling_sharpness">Netteté</string>
+	<string key="ui_options_temporalUpscaling_sharpness_desc">Définir la quantité de netteté</string>
 	<string key="ui_options_requires_restart">Ce ou ces changements s'appliqueront au prochain démarrage du jeu.</string>
 	<string key="ui_options_take_exit_survey">Répondre au sondage en partant</string>
 	<string key="ui_options_take_exit_survey_desc">Répondre à un sondage rapide afin de donner votre ressenti en quittant le jeu.</string>
@@ -242,6 +245,7 @@
 	<string key="ui_language_desc">Définissez la langue du texte.</string>
 	<string key="ui_language_audio">Langue de l'audio</string>
 	<string key="ui_language_audio_desc">Consultez le site d'assistance de New World : Aeternum pour savoir comment modifier la langue de l'audio.</string>
+	<string key="system-language" comment="Use the language set on the platform's OS.">Utiliser la langue du système</string>
 	<string key="en-US">English</string>
 	<string key="fr-FR">Français</string>
 	<string key="it-IT">Italiano</string>
@@ -511,9 +515,9 @@
 	<string key="ui_genaprompt_brightnesssettings_ps" rel_version="Feature_GameEntryNarrationAssistance">Paramètres de luminosité. Appuyez sur la touche carré pour continuer. Appuyez sur la touche cercle pour revenir en arrière.</string>
 	<string key="ui_genaprompt_brightnesssettings_xb" rel_version="Feature_GameEntryNarrationAssistance">Paramètres de luminosité. Appuyez sur X pour continuer. Appuyez sur B pour revenir en arrière.</string>
 	<string key="ui_genaprompt_introcutscene" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Maintenir {ui_cancel} pour passer.</string>
-	<string key="ui_genaprompt_introcutscene_pc_controller" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Hold {ui_nav_select}, to skip.</string>
-	<string key="ui_genaprompt_introcutscene_ps" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Hold Cross, to skip.</string>
-	<string key="ui_genaprompt_introcutscene_xb" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Hold A, to skip.</string>
+	<string key="ui_genaprompt_introcutscene_pc_controller" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Maintenez {ui_nav_select} pour passer.</string>
+	<string key="ui_genaprompt_introcutscene_ps" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Maintenez la touche croix pour passer.</string>
+	<string key="ui_genaprompt_introcutscene_xb" rel_version="Feature_GameEntryNarrationAssistance">Cinématique d'introduction. Maintenez la touche A pour passer.</string>
 	<string key="ui_genaprompt_archetypes" rel_version="Feature_GameEntryNarrationAssistance">Passé du personnage. Appuyez sur {frontEndContinue} pour continuer. Appuyez sur {ui_cancel} pour revenir en arrière.</string>
 	<string key="ui_genaprompt_archetypes_ps" rel_version="Feature_GameEntryNarrationAssistance">Archétypes du personnage. Appuyez sur la touche carré pour continuer. Appuyez sur la touche cercle pour revenir en arrière.</string>
 	<string key="ui_genaprompt_archetypes_xb" rel_version="Feature_GameEntryNarrationAssistance">Archétypes du personnage. Appuyez sur X pour continuer. Appuyez sur B pour revenir en arrière.</string>
@@ -594,11 +598,25 @@
 	<string key="ui_reset_tutorials" rel_version="Feature_Player_Tutorials">Réinitialiser les didacticiels</string>
 	<string key="ui_reset_tutorials_desc" rel_version="Feature_Player_Tutorials">Pour réinitialiser tous les didacticiels, ce qui vous permet de revoir ceux que vous avez déjà vus.</string>
 	<string key="ui_reset_tutorials_confirmation" rel_version="Feature_Player_Tutorials">Voulez-vous vraiment réinitialiser tous les didacticiels ?</string>
+	<string key="ui_enable_network_status_icons">Activer les icônes de stabilité du réseau</string>
+	<string key="ui_enable_network_status_icons_desc">Pour afficher des icônes sur l'interface lorsque la connexion réseau est insuffisante</string>
 	<string key="ui_hud_layout">Disposition de l'interface</string>
 	<string key="ui_hud_layout_desc">Permet de choisir la disposition des éléments de l'interface.</string>
 	<string key="ui_hud_layout_1">Défaut</string>
 	<string key="ui_hud_layout_2">Compteurs surélevés</string>
 	<string key="ui_hud_layout_3">Côte à côte</string>
+	<string key="ui_hud_scale">Échelle de l'ATH</string>
+	<string key="ui_hud_scale_desc">Multiplicateur d’échelle en pourcentage pour les éléments de l'ATH</string>
+	<string key="ui_hud_margin">Marges de l'ATH</string>
+	<string key="ui_hud_margin_desc">Options pour ajuster l’étendue de l'ATH</string>
+	<string key="ui_hud_margin_top">Marge de l'ATH - Haut</string>
+	<string key="ui_hud_margin_top_desc">Pourcentage de l’écran pour pousser le haut de l'ATH vers l’intérieur</string>
+	<string key="ui_hud_margin_right">Marge de l'ATH - Droite</string>
+	<string key="ui_hud_margin_right_desc">Pourcentage de l’écran pour pousser la droite de l'ATH vers l’intérieur</string>
+	<string key="ui_hud_margin_bottom">Marge de l'ATH - Bas</string>
+	<string key="ui_hud_margin_bottom_desc">Pourcentage de l’écran pour pousser le bas de l'ATH vers l’intérieur</string>
+	<string key="ui_hud_margin_left">Marge de l'ATH - Gauche</string>
+	<string key="ui_hud_margin_left_desc">Pourcentage de l’écran pour pousser la gauche de l'ATH vers l’intérieur</string>
 	<string key="ui_reticle_color_white">Blanc</string>
 	<string key="ui_reticle_color_red">Rouge</string>
 	<string key="ui_reticle_color_orange">Orange</string>
@@ -611,20 +629,5 @@
 	<string key="ui_modifier_keys" rel_version="Feature_Controller">Modificateurs</string>
 	<string key="ui_housing" rel_version="Feature_Controller">Décorer la maison</string>
 	<string key="ui_menu" rel_version="Feature_Controller">Menu</string>
-	<string key="ui_options_temporalUpscaling_sharpness">Netteté</string>
-	<string key="ui_options_temporalUpscaling_sharpness_desc">Définir la quantité de netteté</string>
-	<string key="ui_options_temporalUpscaling_native">Natif (TAA seulement)</string>
-	<string key="ui_hud_margin_right">Marge de l'ATH - Droite</string>
-	<string key="ui_hud_margin_left_desc">Pourcentage de l’écran pour pousser la gauche de l'ATH vers l’intérieur</string>
-	<string key="ui_hud_margin_bottom">Marge de l'ATH - Bas</string>
-	<string key="ui_hud_margin_top">Marge de l'ATH - Haut</string>
-	<string key="ui_hud_margin_top_desc">Pourcentage de l’écran pour pousser le haut de l'ATH vers l’intérieur</string>
-	<string key="ui_hud_margin_left">Marge de l'ATH - Gauche</string>
-	<string key="ui_hud_scale_desc">Multiplicateur d’échelle en pourcentage pour les éléments de l'ATH</string>
-	<string key="ui_hud_margin">Marges de l'ATH</string>
-	<string key="ui_hud_scale">Échelle de l'ATH</string>
-	<string key="ui_hud_margin_desc">Options pour ajuster l’étendue de l'ATH</string>
-	<string key="ui_hud_margin_bottom_desc">Pourcentage de l’écran pour pousser le bas de l'ATH vers l’intérieur</string>
-	<string key="ui_hud_margin_right_desc">Pourcentage de l’écran pour pousser la droite de l'ATH vers l’intérieur</string>
 </resources>
 

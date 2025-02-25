@@ -148,8 +148,8 @@
 	<string key="ui_outpost_rush_battle_tokens_with_value">Tokens de batalla {value}</string>
 	<string key="ui_outpost_rush_outpost_under_attack">¡{value} está bajo ataque!</string>
 	<string key="ui_outpost_rush_boss_killed">PUNTUACIÓN DETENIDA</string>
-	<string key="ui_outpost_rush_ally_buff">¡La puntuación del enemigo se detendrá durante &lt;font color="#edc63e"&gt;2 minutos y 30 segundos&lt;/font&gt;!</string>
-	<string key="ui_outpost_rush_enemy_buff">¡La puntuación de tu equipo se detendrá durante &lt;font color="#edc63e"&gt;2 minutos y 30 segundos&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_ally_buff">¡La puntuación del enemigo se detendrá durante &lt;font color="#edc63e"&gt;{time}&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_enemy_buff">¡La puntuación de tu equipo se detendrá durante &lt;font color="#edc63e"&gt;{time}&lt;/font&gt;!</string>
 	<string key="ui_outpost_rush_armory_built">Se ha construido una armería en {value}</string>
 	<string key="ui_outpost_rush_command_post_built">Se ha construido un puesto de mando en {value}</string>
 	<string key="ui_outpost_rush_command_post_upgrade">El puesto de mando en {value} se ha mejorado a clase {tier}</string>
@@ -306,17 +306,37 @@
 	<string key="ui_influence_tutorial_desc4" rel_version="Feature_Influence_V2">Los jugadores que participen ganarán recompensas. Bonificación de almacén de suministros de guerra para los defensores que ganen la guerra. </string>
 	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">El balance de PvP está en curso.</string>
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Hay modificadores de balance de PvP en curso:</string>
+	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Isla de Nauthynos</string>
+	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Santuario antiguo</string>
+	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Anillo de gladiador</string>
+	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Mapa actual en rotación</string>
+	<string key="ui_activity_finder_tooltip_next_map_rotation_text" rel_version="Season_7_Perm">Siguiente mapa en rotación</string>
+	<string key="ui_activity_finder_tooltip_current_map_rotation" rel_version="Season_7_Perm">{currentRotationText}: {mapName}</string>
+	<string key="ui_activity_finder_tooltip_next_map_rotation" rel_version="Season_7_Perm">{nextRotationText}: {mapName}</string>
 	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">El balance de PvP está deshabilitado para esta arma en este momento.</string>
 	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">El balance de PvP está deshabilitado para este modo de juego en este momento.</string>
 	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">El balance de PvP está deshabilitado para el mundo abierto en este momento.</string>
 	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">Modificadores de daño base de PvP:\n• Los valores de magia/daño a distancia aumentan a nivel global, pero se ajustan al balance de PvP.</string>
 	<string key="ui_pvp_balance_global_base_damage" rel_version="Feature_PvP_PvE_Split">Global:</string>
-	<string key="ui_pvp_balance_affix_stats" rel_version="Feature_PvP_PvE_Split">Modificadores de daño de estadística de afijo:</string>
-	<string key="ui_pvp_balance_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Modificador de bonificación de daño de habilidad:</string>
-	<string key="ui_pvp_balance_healing_category" rel_version="Feature_PvP_PvE_Split">Modificadores de sanación:</string>
-	<string key="ui_pvp_balance_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Potencia de efeto de estado:</string>
-	<string key="ui_pvp_balance_status_effect_durations" rel_version="Feature_PvP_PvE_Split">Duración de efecto de estado:</string>
+	<string key="ui_pvp_balance_column_base_damage" rel_version="Feature_PvP_PvE_Split">Daño</string>
+	<string key="ui_pvp_balance_column_affix_stats_damage" rel_version="Feature_PvP_PvE_Split">Daño</string>
+	<string key="ui_pvp_balance_column_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Daño</string>
+	<string key="ui_pvp_balance_column_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Potencia</string>
+	<string key="ui_pvp_balance_column_status_effect_durations" rel_version="Feature_PvP_PvE_Split">Duración</string>
+	<string key="ui_pvp_balance_column_cooldown_adjustment" rel_version="Feature_PvP_PvE_Split">Duración</string>
+	<string key="ui_pvp_balance_category_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Ajustes de habilidades</string>
+	<string key="ui_pvp_balance_category_affix_stats" rel_version="Feature_PvP_PvE_Split">Ajustes de estadísticas secundarias</string>
+	<string key="ui_pvp_balance_category_cooldown_adjustment" rel_version="Feature_PvP_PvE_Split">Ajustes de tiempo de reutilización</string>
+	<string key="ui_pvp_balance_category_healing" rel_version="Feature_PvP_PvE_Split">Ajustes de sanación</string>
+	<string key="ui_pvp_balance_category_weapons" rel_version="Feature_PvP_PvE_Split">Ajustes de armas</string>
+	<string key="ui_pvp_balance_category_status_effects" rel_version="Feature_PvP_PvE_Split">Ajustes de efectos de estado</string>
 	<string key="ui_gamemodeinvitedeclinesentmessage">Invitación para &lt;font color="#ebe3d6"&gt;{gameModeName}&lt;/font&gt; rechazada.</string>
 	<string key="ui_gamemodeinvitedeclinesentmessage_withsource">Invitación para &lt;font color="#ebe3d6"&gt;{gameModeName}&lt;/font&gt; rechazada por &lt;font color="#ebe3d6"&gt;{sourcePlayerName}&lt;/font&gt;.</string>
+	<string key="ui_gamemode_timeout">Actividad a punto de terminar</string>
+	<string key="ui_gamemode_timeout_description">Te estás acercando al tiempo máximo permitido para esta actividad</string>
+	<string key="ui_ready_up_ready_choice">Listo</string>
+	<string key="ui_ready_up_unready_choice">No listo</string>
+	<string key="ui_ready_up_waiting_message">Esperando</string>
+	<string key="or_outpost_rush_trench_map_name">División coral</string>
 </resources>
 

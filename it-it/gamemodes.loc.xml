@@ -148,8 +148,8 @@
 	<string key="ui_outpost_rush_battle_tokens_with_value">Gettoni battaglia {value}</string>
 	<string key="ui_outpost_rush_outpost_under_attack">{value} è sotto attacco</string>
 	<string key="ui_outpost_rush_boss_killed">PUNTEGGIO BLOCCATO</string>
-	<string key="ui_outpost_rush_ally_buff">Il punteggio della squadra nemica è bloccato per &lt;font color="#edc63e"&gt;2 minuti e 30 secondi&lt;/font&gt;!</string>
-	<string key="ui_outpost_rush_enemy_buff">Il punteggio della tua squadra è bloccato per &lt;font color="#edc63e"&gt;2 minuti e 30 secondi&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_ally_buff">Il punteggio della squadra nemica è bloccato per &lt;font color="#edc63e"&gt;{time}&lt;/font&gt;!</string>
+	<string key="ui_outpost_rush_enemy_buff">Il punteggio della tua squadra è bloccato per &lt;font color="#edc63e"&gt;{time}&lt;/font&gt;!</string>
 	<string key="ui_outpost_rush_armory_built">È stata costruita un armeria presso {value}</string>
 	<string key="ui_outpost_rush_command_post_built">È stato costruito un posto di comando presso {value}</string>
 	<string key="ui_outpost_rush_command_post_upgrade">Il posto di comando presso {value} è stato migliorato al livello {tier}</string>
@@ -306,17 +306,37 @@
 	<string key="ui_influence_tutorial_desc4" rel_version="Feature_Influence_V2">I giocatori che partecipano otterranno delle ricompense. Nascondiglio di provviste di guerra bonus per i difensori che vincono la guerra. </string>
 	<string key="ui_pvp_balance_tooltip" rel_version="Feature_PvP_PvE_Split">Il bilanciamento PvP è attivo.</string>
 	<string key="ui_pvp_balance_header" rel_version="Feature_PvP_PvE_Split">Modificatori del bilanciamento PvP attivi:</string>
+	<string key="or_outpost_rush_map_name" rel_version="Season_7_Perm">Isola di Nauthynos</string>
+	<string key="arena_3v3_map_name" rel_version="Feature_PVP_Arenas">Sacrario antico</string>
+	<string key="arena_3v3_02_map_name" rel_version="Feature_PVP_Arenas">Arena del gladiatore</string>
+	<string key="ui_activity_finder_tooltip_current_map_rotation_text" rel_version="Season_7_Perm">Mappa attuale in rotazione</string>
+	<string key="ui_activity_finder_tooltip_next_map_rotation_text" rel_version="Season_7_Perm">Prossima mappa in rotazione</string>
+	<string key="ui_activity_finder_tooltip_current_map_rotation" rel_version="Season_7_Perm">{currentRotationText} : {mapName}</string>
+	<string key="ui_activity_finder_tooltip_next_map_rotation" rel_version="Season_7_Perm">{nextRotationText} : {mapName}</string>
 	<string key="ui_pvp_balance_global_disabled_weapon" rel_version="Feature_PvP_PvE_Split">Il bilanciamento PvP è momentaneamente disattivato per quest'arma.</string>
 	<string key="ui_pvp_balance_global_disabled_mode" rel_version="Feature_PvP_PvE_Split">Il bilanciamento PvP è momentaneamente disattivato per questa modalità di gioco.</string>
 	<string key="ui_pvp_balance_open_world_disabled" rel_version="Feature_PvP_PvE_Split">Il bilanciamento PvP è momentaneamente disattivato nel mondo aperto.</string>
 	<string key="ui_pvp_balance_damage_header" rel_version="Feature_PvP_PvE_Split">Modificatori dei danni base PvP:\n• I danni magici e a distanza aumentano globalmente, ma sono ottimizzati per il bilanciamento in PvP.</string>
 	<string key="ui_pvp_balance_global_base_damage" rel_version="Feature_PvP_PvE_Split">Globale:</string>
-	<string key="ui_pvp_balance_affix_stats" rel_version="Feature_PvP_PvE_Split">Modificatore danni statistiche affissi:</string>
-	<string key="ui_pvp_balance_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Modificatore bonus danni da abilità:</string>
-	<string key="ui_pvp_balance_healing_category" rel_version="Feature_PvP_PvE_Split">Modificatori guarigione:</string>
-	<string key="ui_pvp_balance_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Potenza dell'effetto di stato:</string>
-	<string key="ui_pvp_balance_status_effect_durations" rel_version="Feature_PvP_PvE_Split">Durata dell'effetto di stato:</string>
+	<string key="ui_pvp_balance_column_base_damage" rel_version="Feature_PvP_PvE_Split">Danni</string>
+	<string key="ui_pvp_balance_column_affix_stats_damage" rel_version="Feature_PvP_PvE_Split">Danni</string>
+	<string key="ui_pvp_balance_column_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Danni</string>
+	<string key="ui_pvp_balance_column_status_effect_potencies" rel_version="Feature_PvP_PvE_Split">Potenza</string>
+	<string key="ui_pvp_balance_column_status_effect_durations" rel_version="Feature_PvP_PvE_Split">Durata</string>
+	<string key="ui_pvp_balance_column_cooldown_adjustment" rel_version="Feature_PvP_PvE_Split">Durata</string>
+	<string key="ui_pvp_balance_category_ability_damage_bonuses" rel_version="Feature_PvP_PvE_Split">Modifiche abilità</string>
+	<string key="ui_pvp_balance_category_affix_stats" rel_version="Feature_PvP_PvE_Split">Modifiche statistiche affissi</string>
+	<string key="ui_pvp_balance_category_cooldown_adjustment" rel_version="Feature_PvP_PvE_Split">Modifiche tempo di ricarica</string>
+	<string key="ui_pvp_balance_category_healing" rel_version="Feature_PvP_PvE_Split">Modifiche guarigione</string>
+	<string key="ui_pvp_balance_category_weapons" rel_version="Feature_PvP_PvE_Split">Modifiche armi</string>
+	<string key="ui_pvp_balance_category_status_effects" rel_version="Feature_PvP_PvE_Split">Modifiche effetti di stato</string>
 	<string key="ui_gamemodeinvitedeclinesentmessage">Invito a &lt;font color="#ebe3d6"&gt;{gameModeName}&lt;/font&gt; rifiutato.</string>
 	<string key="ui_gamemodeinvitedeclinesentmessage_withsource">Invito a &lt;font color="#ebe3d6"&gt;{gameModeName}&lt;/font&gt; rifiutato da &lt;font color="#ebe3d6"&gt;{sourcePlayerName}&lt;/font&gt;.</string>
+	<string key="ui_gamemode_timeout">Termine attività</string>
+	<string key="ui_gamemode_timeout_description">Tempo massimo consentito nell'attività quasi raggiunto</string>
+	<string key="ui_ready_up_ready_choice">Pronto</string>
+	<string key="ui_ready_up_unready_choice">Non pronto</string>
+	<string key="ui_ready_up_waiting_message">In attesa</string>
+	<string key="or_outpost_rush_trench_map_name">Divisione corallina</string>
 </resources>
 
